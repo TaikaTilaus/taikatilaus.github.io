@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktaika_tilaus_ohjeet=self.webpackChunktaika_tilaus_ohjeet||[]).push([[9647],{7121:(e,a,s)=>{s.r(a),s.d(a,{default:()=>h});s(6540);var t=s(4164),r=s(1213),u=s(7559),c=s(2831),i=s(781),l=s(4848);function h(e){return(0,l.jsx)(r.e3,{className:(0,t.A)(u.G.wrapper.docsPages),children:(0,l.jsx)(i.A,{children:(0,c.v)(e.route.routes)})})}}}]);
