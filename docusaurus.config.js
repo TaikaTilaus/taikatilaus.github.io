@@ -46,14 +46,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/TaikaTilaus/taikatilaus.github.io',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/TaikaTilaus/taikatilaus.github.io',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -74,7 +74,7 @@ const config = {
         title: 'TaikaTilaus',
         logo: {
           alt: 'TaikaTilaus Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_bg_pun.png',
         },
         items: [
           {
@@ -83,12 +83,8 @@ const config = {
             position: 'left',
             label: 'Ohjeet',
           },
-          {to: '/blog', label: 'Pikaohjeet', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Uutiset', position: 'left'},
+          
         ],
       },
       footer: {
