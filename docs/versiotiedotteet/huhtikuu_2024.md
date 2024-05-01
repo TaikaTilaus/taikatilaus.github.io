@@ -19,6 +19,14 @@ Tilaajamyynnin myynti-,myynnin seurantaraportointia on kehitetty ja myyjille voi
 ## Kaksivaiheinen tunnistautuminen Authenticator-sovelluksella
 Pääkäyttäjien kirjautumisessa mahdollista käyttää Google Authenticator tai Microsoft Authenticator -lisätunnistusta.
 
+Omat tiedot - Käyttäjän tiedot
+
+![Omat tiedot - Käyttäjän tiedot](/img/OmatTiedot.png)
+
+Authenticatorin käyttöönotto
+
+![Authenticator](/img/Authenticator.png)
+
 ## Quintype-kertakirjautuminen
 Kertakirjautuminen toteutettu Quintype-julkaisualustaan.
 
