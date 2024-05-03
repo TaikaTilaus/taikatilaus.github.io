@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Pikaohjeet',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -12,9 +12,10 @@ const FeatureList = [
         used to get your website up and running quickly.
       </>
     ),
+    url: '/docs/category/pikaohjeet'
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Ohjeet',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -22,9 +23,10 @@ const FeatureList = [
         ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
+    url: '/docs/intro'
   },
   {
-    title: 'Powered by React',
+    title: 'Uutiset',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -32,18 +34,30 @@ const FeatureList = [
         be extended while reusing the same header and footer.
       </>
     ),
+    url: '/blog'
   },
+  {
+    title: 'Videot',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+    url: '/videos'
+  },  
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, url}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <Heading as="h3"><a href={url}>{title}</a></Heading>
+        <p>{description}</p>        
       </div>
     </div>
   );

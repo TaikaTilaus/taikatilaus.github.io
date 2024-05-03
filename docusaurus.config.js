@@ -83,6 +83,13 @@ const config = {
             position: 'left',
             label: 'Ohjeet',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'pikaohjeetSidebar',
+            position: 'left',
+            label: 'Pikaohjeet',
+          },
+          {to: '/docs/videos', label: 'Videot', position: 'left'},
           {to: '/blog', label: 'Uutiset', position: 'left'},
           
         ],
@@ -130,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TaikaTilaus Oy. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
