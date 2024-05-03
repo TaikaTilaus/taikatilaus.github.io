@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Alennuksen lisääminen asiakkaalle
+# Asiakkaan haku postituslistalta
 
 ### 1. Etusivunäkymä
 

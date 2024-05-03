@@ -12,7 +12,7 @@ const FeatureList = [
         used to get your website up and running quickly.
       </>
     ),
-    url: '/docs/category/pikaohjeet'
+    url: '/docs/pikaohjeet/asiakkaan-lisaaminen'
   },
   {
     title: 'Ohjeet',

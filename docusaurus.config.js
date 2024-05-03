@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TaikaTilaus',
-  tagline: 'Monikanavaista mediaympäristöä tukevat ohjelmisto- ja palveluratkaisut',
-  favicon: 'img/favicon.ico',
+  title: 'TaikaTilaus tukipalvelu',
+  tagline: 'Kuinka voimme auttaa?',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://taikatilaus.github.io/',
@@ -91,7 +91,7 @@ const config = {
           },
           {to: '/docs/videos', label: 'Videot', position: 'left'},
           {to: '/blog', label: 'Uutiset', position: 'left'},
-          
+          {to: 'https://taikatilausoy.freshdesk.com/support/home', label: 'Tukipyyntö', position: 'right'},         
         ],
       },
       footer: {
