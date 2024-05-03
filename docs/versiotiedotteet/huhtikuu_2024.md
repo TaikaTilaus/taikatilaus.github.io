@@ -14,8 +14,6 @@ Stripe-maksupalvelulla tilaaja voi maksaa tilauksensa, olipa kyse sitten digitaa
 ## Tilaajamyynnin raportointi
 Tilaajamyynnin raportointia on kehitetty tarkemmaksi ja nyt on mahdollista myös laskea myyjäkohtaisia palkkioprosentteja. Palkkioprosentit voivat poiketa toisistaan.
 
-Tilaajamyynnin myynti-,myynnin seurantaraportointia on kehitetty ja myyjille voidaan myös määrittää myyjäkohtaset palkkioprosentit.
-
 ## Kaksivaiheinen tunnistautuminen Authenticator-sovelluksella
 Pääkäyttäjien kirjautumisessa mahdollista käyttää Google Authenticator tai Microsoft Authenticator -lisätunnistusta.
 
