@@ -9,7 +9,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.4.-30.4.2024 välisenä aikana.
 Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilausoy.freshdesk.com/).
 
 ## Stripe-maksupalvelu
- Stripe-maksupalvelulla tilaaja voi maksaa tilauksensa, olipa kyse sitten digitaalisesta tilauksesta tai perinteisestä lehtitilauksesta, kuukausittain luottokortiltaan -/maksukortiltaan. Tämä maksutapa on tuttu kaikille meistä vaikkapa erilaisista suoratoistopalveluista. 
+Stripe-maksupalvelulla tilaaja voi maksaa tilauksensa, olipa kyse sitten digitaalisesta tilauksesta tai perinteisestä lehtitilauksesta, kuukausittain luottokortiltaan -/maksukortiltaan. Tämä maksutapa on tuttu kaikille meistä vaikkapa erilaisista suoratoistopalveluista. 
 
 ## Tilaajamyynnin raportointi
 Tilaajamyynnin raportointia on kehitetty tarkemmaksi ja nyt on mahdollista myös laskea myyjäkohtaisia palkkioprosentteja. Palkkioprosentit voivat poiketa toisistaan.
