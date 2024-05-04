@@ -4,16 +4,6 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Pikaohjeet',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Pikaohjeita tavallisiin käyttötapauksiin.
-      </>
-    ),
-    url: '/docs/pikaohjeet/asiakkaan-lisaaminen'
-  },
-  {
     title: 'Ohjeet',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
@@ -22,6 +12,16 @@ const FeatureList = [
       </>
     ),
     url: '/docs/intro'
+  },
+  {
+    title: 'Pikaohjeet',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Pikaohjeita tavallisiin käyttötapauksiin.
+      </>
+    ),
+    url: '/docs/pikaohjeet/asiakkaan-lisaaminen'
   },
   {
     title: 'FAQ',

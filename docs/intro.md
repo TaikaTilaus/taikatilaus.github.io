@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Tervetuloa **TaikaTilaus -tukisivustolle**.
 
-Tältä sivustolta löydät ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä uusimmat videomme demoistamme ja vinkeistämme.
+Tältä sivustolta löydät ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä uusimmat tuoteuutiset ja webinaaritallenteet.
 
 ## Yleistä tietoa palvelusta
 
