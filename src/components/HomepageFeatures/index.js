@@ -31,18 +31,8 @@ const FeatureList = [
         Usein kysyttyjä kysymyksiä TaikaTilaukseen liittyvistä aiheista.
       </>
     ),
-    url: '/docs/faq'
+    url: '/docs/category/faq'
   },  
-  {
-    title: 'Tukiportaalin ohjeet',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Freshdesk tukiportaalin ohjeet.
-      </>
-    ),
-    url: '/docs/pikaohjeet/asiakkaan-lisaaminen'
-  },
   {
     title: 'Videot',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
@@ -53,6 +43,16 @@ const FeatureList = [
     ),
     url: 'docs/videos'
   },  
+  {
+    title: 'Tukiportaalin ohjeet',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Freshdesk tukiportaalin ohjeet.
+      </>
+    ),
+    url: '/docs/tukiportaali'
+  },
   {
     title: 'Uutiset',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
