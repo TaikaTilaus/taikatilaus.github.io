@@ -4,17 +4,16 @@ sidebar_position: 1
 
 # Ohjeet
 
-
-
 Tervetuloa **TaikaTilaus -tukisivustolle**.
 
 Tältä sivustolta löydät ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä uusimmat videomme demoistamme ja vinkeistämme.
+
+## Yleistä tietoa palvelusta
 
 ![TaikaTilaus Etusivu](https://intra.taikatilaus.fi/Ohjetiedostot/etusivu_512000F8C0B34456B706641B43223711.PNG)
 
 Kaikki tämän palvelun toiminnot ovat asiakaskohtaisesti asetuksista käyttöönotettavissa. Palvelun näytöt muokkautuvat käyttöönotettujen palvelujen mukaan.
 
-## Yleistä tietoa palvelusta
 
 Get started by **creating a new site**.
 
