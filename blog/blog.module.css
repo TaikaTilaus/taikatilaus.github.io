@@ -17,7 +17,13 @@
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
+}
+
+.button {
+  padding-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
 }
