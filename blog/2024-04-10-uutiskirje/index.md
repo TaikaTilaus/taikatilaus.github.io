@@ -11,6 +11,8 @@ Tässä onkin jo aikaa siitä kun olemme viimeksi lähestyneet teitä, hyvät as
 
 Meillä on ollut monista syistä johtuen kiireinen talvi. Asiakaskiinnostus TaikaTilauksen palveluihin on ollut kovaa ja meillä on ollut menossa useita käyttöönottoprojekteja ja asiakasneuvotteluita. Olemme viime vuoden lopulla  käynnistäneet uuden tilaajapalvelutiimin, joka on myös vaatinut työaikaamme ja resursseja. Meillä oli jonkin aikaa myös tilapäistä vajausta henkilöresursseissa, mutta tilanne on nyt jälleen normalisoitumassa.
 
+<!--truncate-->
+
 Olemme myös innoissamme, koska olemme saaneet merkittävän vahvistuksen TaikaTilaukseen, kun Mika Kukkonen on aloittanut meillä Huhtikuun alussa. Mika on tuttu mies jo aiemmalta ajalta, eTaika Oy:stä ja Visma-yhtiöistä. Mika on viimeksi toiminut Business Developement Director tehtävissä Visma Aquilassa. TaikaTilauksessa hänen tämän hetkinen roolinsa on liiketoimintajohtaja. Mika on myös TaikaTilauksen co-founder. 
 
 Mikan mukaantulon myötä TaikaTilaus tulee samaan merkittävän vahvistuksen erityisesti teknologiakehitykseen. Mikan myötä kykenemme panostamaan entistä paremmin palvelumme tuotteistamiseen ja uusien jo loppusuoralla olevien palveluiden kehitystyön loppuun saattamiseen, sekä täysin uusien teidän tarpeidenne mukaisten palveluiden kehittämiseen.
@@ -20,8 +22,6 @@ Olemme myös panostamassa lisäresurssiin, jolla varmistamme projektien sujuvan 
 Pyrimme tekemään parhaamme, jotta voimme palvella mahdollisimman hyvin niin teitä nykyiset asiakkaamme, kuin myös tulevia uusia asiakkaitamme. Saattaa kuitenkin olla, että emme aina onnistu täyttämään toiveitanne sillä ripeydellä kun toivotte, mutta kasvun hallitsemisessa on joskus haasteita, vaikka yritämme varmasti joka hetki parhaamme. Otamme mielellään vastaan palautetta ja kehitämme toimintaamme ja toivomme, että yhdessä teidän kanssanne kehitymme yhä paremmaksi TaikaTilaukseksi. 
 
 Ja  kyllä se kevät sieltä pikkuhiljaa tulee, vaikkakin välillä tuntuu siltä, että tämä talvi ei lopu koskaan. Toivotan teille kaikille oikein ihanaa kevättä ja menestystä tietenkin myös omassa työssänne.
-
-<!--truncate-->
 
 ## Tilaaja-asiakkaiden ulkoistettu asiakaspalvelu käynnistyi viime vuoden joulukuussa
 
@@ -35,7 +35,9 @@ OmaPalvelu tarjoaa teille useita mahdollisuuksia luoda  ja tarjota asiakkaillenn
 
 Mikäli haluatte lisätietoa yllä olevaan liittyen ja haluatte ottaa OmaPalvelun käyttöönne, niin voitte olla yhteydessä joko jari.makela@taikatilaus.fi tai jonna.raitaneva@taikatilaus.fi.
 
-![Asiakaspalvelu](/img/blog/customer-service.webp)
+<img src="/img/blog/customer-service.webp" width="500" alt="Asiakaspalvelu" />
+
+<!-- ![Asiakaspalvelu](/img/blog/customer-service.webp) -->
 
 ## TaikaTilaus mahdollistaa monipuolisesti erilaisia maksamisen vaihtoehtoja tilaaja-asiakkaillenne
 
@@ -52,11 +54,9 @@ Nykyinen raportointityökalumme ja erilaiset raporttipohjat on kehitetty yhdess�
 
 Viime aikoina tärkeään rooliin ovat nousseet erilaiset kirjanpidonraportit ja näistä erityisesti erilaiset jaksotukseen perustuvat raportit. Jo nykyisin käytössä olevien jaksotusraporttien rinnalle on tänä keväänä tulossa myös uusi kuukausiperusteinen jaksotusraportti. Tämän raportin perusteella voidaan seurata tilanteen kehittymistä koko kalenterivuoden ajalta ja näkymänä kuukausittain. Kun raportti on valmis, tulemme viestimään tästä TaikaTilaus ohjelman "Tiedotteet" välilehdellä. 
 
- 
+<img src="/img/blog/reporting.webp" width="500" alt="Raportointi" />
 
 TaikaTilaus järjestelmässä on jo tällä hetkellä saatavilla kattava määrä erilaisia valmiita raportteja ja lisäksi TaikaTilauksen hakutyökaluilla voi tuottaa raportteja tarpeeseen. TaikaTilaus mahdollistaa myös erilaisten graafisten raporttien hyödyntämisen. Tällä hetkellä käytössä on  graafiset raportit koskien tilauksia ja tiliöintejä, käy katsomassa. 
-
- 
 
 Täysin asiakaskohtaisia raportteja on myös mahdollista toteuttaa tarpeeseen. Määritellään yhdessä tarve ja tämän jälkeen me toteutamme tarvittavan raportin teille sovitussa muodossa. Tarvittaessa voimme tietenkin myös rakentaa integraation tai muun tyyppinen ratkaisun, jolla voitte siirtää raporttidataa käsiteltäväksi myös muihin raportointityökaluihin. 
 

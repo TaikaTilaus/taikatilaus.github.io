@@ -2,7 +2,7 @@
 slug: webinaari-2023-09-28
 title: Webinaari 28.9.2023
 authors: [jmakela]
-tags: [webinaari, taikatilaus]
+tags: [webinaari]
 ---
 ## Tallenne TaikaTilaus-webinaarista 
 Ajankohta: 28.9.2023 klo 10.00-10.45
