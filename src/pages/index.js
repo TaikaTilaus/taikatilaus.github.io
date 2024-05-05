@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://www.youtube.com/watch?v=Q0QdlYo4vlo">
-            TaikaTilaus Webinaari - 28.9.2023 - 45min ⏱️
+            to="https://www.taikatilaus.fi/webinaarit.html">
+            TaikaTilaus Webinaari - 17.5.2024 - 45min ⏱️
           </Link>
         </div>
       </div>

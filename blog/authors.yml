@@ -4,14 +4,14 @@ endi:
   url: https://github.com/endiliey
   image_url: https://github.com/endiliey.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+jmakela:
+  name: Jari Mäkelä
+  title: Toimitusjohtaja
+  url: https://www.taikatilaus.fi/yhteystiedot.html
+  image_url: /img/blog/jari-makela.webp
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+koodikukko:
+  name: Mika Kukkonen
+  title: Liiketoimintajohtaja
+  url: https://github.com/koodikukko
+  image_url: https://github.com/koodikukko.png
