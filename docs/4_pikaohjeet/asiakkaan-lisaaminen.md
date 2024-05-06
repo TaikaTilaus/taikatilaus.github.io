@@ -17,4 +17,4 @@ sidebar_position: 3
 ![3. Asiakastiedot lista - näkymä](/img/pikaohjeet/Lisaa_asiakas3.png)
 
 ### 4. Koonti
-![4. Asiakastiedot lista - näkymä. Tallenna](/img/pikaohjeet/Lisaa_asiakas3.png)
+![4. Asiakastiedot lista - näkymä. Tallenna](/img/pikaohjeet/Lisaa_asiakas4.png)
