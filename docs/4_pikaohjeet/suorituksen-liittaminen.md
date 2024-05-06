@@ -14,7 +14,7 @@ sidebar_position: 16
 
 ### 3. Kun olet avannut haluamisi laskun, paina LISÄÄ UUSI SUORITUS-painiketta
 
-![3. Laskun tiedot](/img/pikaohjeet/Suorituksen_liittaminen.png)
+![3. Laskun tiedot](/img/pikaohjeet/Suorituksen_liittaminen3.png)
 
 ### 4. Täytä suorituksen tiedot ja tallenna
 

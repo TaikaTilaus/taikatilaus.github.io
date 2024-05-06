@@ -19,3 +19,5 @@ sidebar_position: 8
 ### 4. Paina Tallenna
 
 ![4. Laskutustiedot](/img/pikaohjeet/Tilauksen_Katkaisu4.png)
+
+Jatka <a href="katkaisukasittely">Katkaisunkäsittelyn</a> ohjeisiin.
