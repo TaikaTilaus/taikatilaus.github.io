@@ -12,7 +12,7 @@ sidebar_position: 4
 
 ![2. Asiakkaan yhteistiedot - näkymä](/img/pikaohjeet/Eri_maksaja2.png)
 
-### 3. Tilauksen tiedoissa on lopussa Hae maksajaa ja Lisää maksajaa -painikkeet. Hae maksaja, jos hän on jo asiakkaana. Lisää maksaja, jos tilauksen maksaja ei ole vielä asiakas.
+### 3. Tilauksen tiedoissa on lopussa Hae maksajaa ja Lisää maksajaa -painikkeet. Hae maksaja, jos hän on jo asiakkaana. Lisää maksaja, jos tilauksen maksaja ei ole vielä asiakas
 
 ![3. Tilauksen tiedot - näkymä](/img/pikaohjeet/Eri_maksaja3.png)
 

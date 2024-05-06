@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Katkaisukäsittely
@@ -18,7 +18,7 @@ HUOM! Tarkista, että tilaus on katkaistu ennen katkaisukäsittelyn toimenpiteit
 
 ![3. Tilauksen tiedot](/img/pikaohjeet/jakelun-keskeytys3.png)
 
-### 4. Täytä katkaisupäivä ja syy. Tarvittaessa luo lasku painamalla Luo lasku toimitetuista tuotteista -kohdasta.
+### 4. Tarkista tiedot ja tarvittaessa luo lasku painamalla Luo lasku toimitetuista tuotteista -kohdasta
 
 ![4. Tilauksen katkaisutoimet](/img/pikaohjeet/jakelun-keskeytys3.png)
 

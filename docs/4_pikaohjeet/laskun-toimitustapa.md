@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # Laskun toimitustapa
@@ -16,6 +16,6 @@ sidebar_position: 9
 
 ![3. Asiakastiedot](/img/pikaohjeet/Laskun_toimitustapa3.png)
 
-### 4. Laskustiedoissa on Laskun toimitustapa -valikko, josta toimitustavan voi valita. Kun tapa on valittu, paina Tallenna.
+### 4. Laskustiedoissa on Laskun toimitustapa -valikko, josta toimitustavan voi valita. Kun tapa on valittu, paina Tallenna
 
 ![4. Laskutustiedot](/img/pikaohjeet/Laskun_toimitustapa3.png)
