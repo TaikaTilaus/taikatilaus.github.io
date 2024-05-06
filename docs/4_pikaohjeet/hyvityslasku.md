@@ -20,7 +20,7 @@ sidebar_position: 5
 ![3. Laskut -hakutulos](/img/pikaohjeet/hyvityslasku4.png)
 
 ### 4. Laskunäkymän alakulmasta painetaan Luo hyvityslasku painiketta
-![4. Laskunäkymä](/img/pikaohjeet/hyvityslasku5.png)
+![4. Laskunäkymä](/img/pikaohjeet/hyvityslasku6.png)
 
 ### 5. Hyvityslaskun luonti vahvistetaan
-![5. Hyvityslaskun luonnin vahvistus](/img/pikaohjeet/hyvityslasku6.png)
+![5. Hyvityslaskun luonnin vahvistus](/img/pikaohjeet/hyvityslasku5.png)
