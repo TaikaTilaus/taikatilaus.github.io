@@ -104,40 +104,40 @@ const config = {
                 label: 'Ohjeet',
                 to: '/docs/ohjeet',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Pikaohjeet',
+                to: '/docs/pikaohjeet/alennuksen-lisaaminen',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Tukipalvelu',
             items: [
               {
-                label: 'Blog',
+                label: 'Tukiportaalin ohjeet',
+                href: '/docs/tukiportaali',
+              },
+              {
+                label: 'Tukipyyntö',
+                href: 'https://taikatilausoy.freshdesk.com/support/home',
+              },
+            ],
+          },
+          {
+            title: 'Ajankohtaista',
+            items: [
+              {
+                label: 'Uutiset',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'TaikaTilaus',
+                href: 'https://www.taikatilaus.fi',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} TaikaTilaus Oy. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TaikaTilaus Oy.`,
       },
       prism: {
         theme: prismThemes.github,
