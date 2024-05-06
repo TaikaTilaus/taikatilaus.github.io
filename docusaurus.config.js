@@ -89,7 +89,7 @@ const config = {
             position: 'left',
             label: 'Pikaohjeet',
           },
-          {to: '/docs/videos', label: 'Videot', position: 'left'},
+          {to: '/docs/ohjevideot', label: 'Ohjevideot', position: 'left'},
           {to: '/blog', label: 'Uutiset', position: 'left'},
           {to: 'https://taikatilausoy.freshdesk.com/support/home', label: 'Tukipyyntö', position: 'right'},         
         ],
@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: 'Ohjeet',
-                to: '/docs/intro',
+                to: '/docs/ohjeet',
               },
             ],
           },
