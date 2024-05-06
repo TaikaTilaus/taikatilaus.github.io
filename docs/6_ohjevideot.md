@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: Videot
+title: Ohjevideot
 ---
 ### Tilauksen katkaisu
 

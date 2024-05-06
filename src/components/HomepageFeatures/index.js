@@ -11,7 +11,7 @@ const FeatureList = [
         Yksityiskohtaiset ohjeet TaikaTilaus-sovelluksen käyttöön.
       </>
     ),
-    url: '/docs/intro'
+    url: '/docs/ohjeet'
   },
   {
     title: 'Pikaohjeet',
@@ -34,14 +34,14 @@ const FeatureList = [
     url: '/docs/category/faq'
   },  
   {
-    title: 'Videot',
+    title: 'Ohjevideot',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         TaikaTilaus-sovelluksen ohjevideoita.
       </>
     ),
-    url: 'docs/videos'
+    url: 'docs/ohjevideot'
   },  
   {
     title: 'Tukiportaalin ohjeet',

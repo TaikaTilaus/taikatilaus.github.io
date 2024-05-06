@@ -89,7 +89,7 @@ const config = {
             position: 'left',
             label: 'Pikaohjeet',
           },
-          {to: '/docs/videos', label: 'Videot', position: 'left'},
+          {to: '/docs/ohjevideot', label: 'Ohjevideot', position: 'left'},
           {to: '/blog', label: 'Uutiset', position: 'left'},
           {to: 'https://taikatilausoy.freshdesk.com/support/home', label: 'Tukipyyntö', position: 'right'},         
         ],
@@ -102,42 +102,42 @@ const config = {
             items: [
               {
                 label: 'Ohjeet',
-                to: '/docs/intro',
+                to: '/docs/ohjeet',
+              },
+              {
+                label: 'Pikaohjeet',
+                to: '/docs/pikaohjeet/alennuksen-lisaaminen',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Tukipalvelu',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Tukiportaalin ohjeet',
+                href: '/docs/tukiportaali',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Tukipyyntö',
+                href: 'https://taikatilausoy.freshdesk.com/support/home',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Ajankohtaista',
             items: [
               {
-                label: 'Blog',
+                label: 'Uutiset',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'TaikaTilaus',
+                href: 'https://www.taikatilaus.fi',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} TaikaTilaus Oy. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TaikaTilaus Oy.`,
       },
       prism: {
         theme: prismThemes.github,

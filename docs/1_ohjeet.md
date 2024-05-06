@@ -14,11 +14,6 @@ Tältä sivustolta löydät ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä u
 
 Kaikki tämän palvelun toiminnot ovat asiakaskohtaisesti asetuksista käyttöönotettavissa. Palvelun näytöt muokkautuvat käyttöönotettujen palvelujen mukaan.
 
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
 ### What you'll need
 
 - [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
