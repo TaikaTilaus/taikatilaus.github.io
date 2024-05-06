@@ -10,9 +10,9 @@ HUOM! Tarkista, että tilaus on katkaistu ennen katkaisukäsittelyn toimenpiteit
 
 ![1. Etusivunäkymä](/img/pikaohjeet/jakelun-keskeytys1.png)
 
-### 2. Asiakaskortista klikataan haluttu tilaus auki
+### 2. Asiakastiedoista klikataan haluttu tilaus auki
 
-![2. Asiakaskortti](/img/pikaohjeet/jakelun-keskeytys2.png)
+![2. Asiakastiedot](/img/pikaohjeet/jakelun-keskeytys2.png)
 
 ### 3. Tilauksen tiedoista painetaan Katkaisukäsittely -painiketta
 

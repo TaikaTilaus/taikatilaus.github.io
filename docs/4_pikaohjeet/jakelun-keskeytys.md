@@ -8,10 +8,10 @@ sidebar_position: 7
 
 ![1. Etusivunäkymä](/img/pikaohjeet/jakelun-keskeytys1.png)
 
-### 2. Asiakaskortista painetaan kynäikonia
+### 2. Paina Asiakastiedot-kentässä olevaa kynäikonia
 
-![2. Asiakaskortti](/img/pikaohjeet/jakelun-keskeytys2.png)
+![2. Asiakastiedot](/img/pikaohjeet/jakelun-keskeytys2.png)
 
 ### 3. Avataan JAKELUN KESKEYTYS -valikko ja asetetaan jakelun keskeytykselle aloitus- että lopetuspäivämäärä. Paina lopuksi Tallenna!
 
-![3. Asiakastietojen muokkaus](/img/pikaohjeet/jakelun-keskeytys3.png)
+![3. Asiakaskortti - Jakelun keskeytys](/img/pikaohjeet/jakelun-keskeytys3.png)
