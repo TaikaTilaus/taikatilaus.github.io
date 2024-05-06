@@ -8,7 +8,7 @@ sidebar_position: 6
 
 ![1. Etusivunäkymä](/img/pikaohjeet/hyvityslasku-poisto1.png)
 
-### 2. Alkuperäisen laskun näkymästä valitaan Poista hyvityslaku-liitos painike
+### 2. Alkuperäisen laskun näkymästä valitaan Poista hyvityslasku-liitos painike
 
 ![2. Alkuperäisen laskun näkymä](/img/pikaohjeet/hyvityslasku-poisto2.png)
 
@@ -26,4 +26,4 @@ sidebar_position: 6
 ![6. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/hyvityslasku-poisto6.png)
 
 ### 7. Painetaan Poista lasku -painiketta
-![7. Hyvityslaskun muokkaus -näkymä](/img/pikaohjeet/hyvityslasku-poisto6.png)
+![7. Hyvityslaskun muokkaus -näkymä](/img/pikaohjeet/hyvityslasku-poisto7.png)
