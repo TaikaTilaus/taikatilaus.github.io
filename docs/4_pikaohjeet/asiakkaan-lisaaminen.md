@@ -1,21 +1,20 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Alennuksen lisääminen asiakkaalle
+# Asiakkaan lisääminen
 
 ### 1. Etusivunäkymä
 
-![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
+![1. Etusivunäkymä](/img/pikaohjeet/Lisaa_asiakas1.png)
 
-### 2. Asiakkaan tiedot - näkymä
+### 2. Asiakkaan yhteistiedot
 
-![2. Asiakkaan tiedot - näkymä](/img/pikaohjeet/alennus2.png)
+![2. Asiakkaan yhteistiedot - näkymä](/img/pikaohjeet/Lisaa_asiakas2.png)
 
-### 3. Asiakaskortin tarkemmat tiedot
+### 3. Asiakkaan muut tiedot
 
-![3. Asiakaskortin tarkemmat tiedot](/img/pikaohjeet/alennus3.png)
+![3. Asiakastiedot lista - näkymä](/img/pikaohjeet/Lisaa_asiakas3.png)
 
-### 4. Tallennuksen jälkeinen näkymä
-
-![4. Tallennuksen jälkeinen näkymä](/img/pikaohjeet/alennus4.png)
+### 4. Koonti
+![4. Asiakastiedot lista - näkymä. Tallenna](/img/pikaohjeet/Lisaa_asiakas3.png)
