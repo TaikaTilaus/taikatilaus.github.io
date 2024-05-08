@@ -20,6 +20,6 @@ sidebar_position: 20
 
 ![4. Tuotteen käsittely-näkymä](/img/pikaohjeet/hinnanmuutos4.png)
 
-### 5. Tallenna
+### 5. Tallenna. Hinnanmuutos astuu voimaan, mutta ei vaikuta jo luotuihin tilauksiin.
 
 ![5. Tuotteen käsittely-näkymä](/img/pikaohjeet/hinnanmuutos5.png)
