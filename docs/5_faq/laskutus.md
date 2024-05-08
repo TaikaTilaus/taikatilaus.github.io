@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Kyllä voi, asiakaskortille määritetään laskun toimitustavaksi verkkolasku ja täydennetään asiakkaan tilitiedot. Mikäli kyseessä on henkilöasiakas, tulee hänen tehdä omassa verkkopankissa eLaskuvaltuutus, joka päivittyy pankkien aineistosiirtojen yhteydessä asiakaskortille.
 
-<a href="../pikaohjeet/laskun-toimitustapa">Lue lisää ohjeista</a>
+<a href="../pikaohjeet/laskun-toimitustapa">Lue pikaohje</a>
 
 ### Miten teen asiakkaalle hyvityslaskun?
 
@@ -21,7 +21,7 @@ Hyvityslasku luodaan avaamalla alkuperäinen Lasku, jonka alaosasta löytyy Hyvi
                         allowfullscreen></iframe>
                 </div>
 
-tai <a href="../pikaohjeet/hyvityslasku">Lue lisää ohjeista</a>
+<a href="../pikaohjeet/hyvityslasku">Tai lue pikaohje</a>
 
 ### Kuinka lähetän jo kertaalleen lähetetyn laskun asiakkaalle sähköpostitse?
 
@@ -49,4 +49,4 @@ Tiliöinti tehdään Lisää uusi suoritus –painikkeen kautta. Pankkitiliksi v
 
 Kyllä tulee, Suoritukset-välilehdellä voidaan suodattaa vain virheelliset listaukselle, josta ne on helpompi käsitellä manuaalisesti (esim. liittää oikealle laskulle).
 
-<a href="../pikaohjeet/suorituksen-tiliointi">Lue lisää ohjeista</a>
+<a href="../pikaohjeet/suorituksen-tiliointi">Lue pikaohje</a>

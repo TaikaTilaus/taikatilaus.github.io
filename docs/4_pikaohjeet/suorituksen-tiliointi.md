@@ -8,7 +8,7 @@ sidebar_position: 21
 
 ![1. Suoritukset välilehti](/img/pikaohjeet/virheellisensuorituksentiliointi1.png)
 
-### 2. Alle tulee lista virheellisä suorituksia. Info-kentässä lukee selvitys, miksi suoritus ei kohdentunut laskulle
+### 2. Alle tulee lista virheellisistä suorituksia. Info-kentässä lukee selvitys, miksi suoritus ei kohdentunut laskulle
 
 ![2. Virhehaun listaus ja infokentän merkitys](/img/pikaohjeet/virheellisensuorituksentiliointi2.png)
 

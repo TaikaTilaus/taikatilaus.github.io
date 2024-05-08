@@ -20,3 +20,5 @@ Aiemmin luodut postituslistat löytyvät Postituslista / Postituslistan haku -v�
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
 </div>
+
+<a href="../pikaohjeet/asiakkaan-haku">Tai lue pikaohje</a>
