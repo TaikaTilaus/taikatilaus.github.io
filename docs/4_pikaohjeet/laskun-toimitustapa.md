@@ -18,4 +18,4 @@ sidebar_position: 10
 
 ### 4. Laskustiedoissa on Laskun toimitustapa -valikko, josta toimitustavan voi valita. Kun tapa on valittu, paina Tallenna
 
-![4. Asiakaskortti - Laskutustiedot](/img/pikaohjeet/Laskun_toimitustapa3.png)
+![4. Asiakaskortti - Laskutustiedot](/img/pikaohjeet/Laskun_toimitustapa4.png)

@@ -12,7 +12,7 @@ sidebar_position: 16
 
 ![2. Haku](/img/pikaohjeet/Suorituksen_liittaminen2.png)
 
-### 3. Kun olet avannut haluamisi laskun, paina LISÄÄ UUSI SUORITUS-painiketta
+### 3. Kun olet avannut haluamasi laskun, paina LISÄÄ UUSI SUORITUS-painiketta
 
 ![3. Laskun tiedot](/img/pikaohjeet/Suorituksen_liittaminen3.png)
 

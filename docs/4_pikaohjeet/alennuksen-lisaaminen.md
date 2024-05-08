@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
 
-### 2. Asiakkaan tiedot näkymästä painetaan kynäikonia
+### 2. Paina Asiakastiedot-kentässä olevaa kynäikonia
 
 ![2. Asiakkaan tiedot - näkymä](/img/pikaohjeet/alennus2.png)
 
