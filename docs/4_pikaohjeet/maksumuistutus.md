@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-# Laskutuspyynnön muokkaus
+# Maksumuistutuksen luominen
 
 ### 1. Klikkaa Laskut-välilehdeltä Hae maksumuistutettavat #1 -painiketta, kun haet laskuja, joiden eräpäivästä on kulunut yli 14 vuorokautta
 

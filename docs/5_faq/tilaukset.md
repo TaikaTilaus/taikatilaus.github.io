@@ -59,4 +59,4 @@ Kyllä, Asiamiesnumeron saa lisättyä tilauslomakkeen "Viitteenne" -kenttään 
 
 Kyllä, Asetuksien kautta voi kaikkia tuotteiden tietoja muuttaa. Esim. hinnanmuutos astuu voimaan tallennushetkellä, mutta ei vaikuta jo luotuihin tilauksiin, joissa sitä on käytetty.
 
-Lue lisää ohjeista //tähän linkki
+<a href="../pikaohjeet/tuotteen-hinnanmuutos">Lue lisää ohjeista</a>
