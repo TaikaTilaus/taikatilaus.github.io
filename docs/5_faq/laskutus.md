@@ -45,6 +45,8 @@ Tiliöinti tehdään Lisää uusi suoritus –painikkeen kautta. Pankkitiliksi v
                         allowfullscreen></iframe>
 </div>
 
+<a href="../pikaohjeet/kassa-tiliointi">Tai lue pikaohje</a>
+
 ### Tuleeko virheellinen laskun suoritus jonnekin näkyviin?
 
 Kyllä tulee, Suoritukset-välilehdellä voidaan suodattaa vain virheelliset listaukselle, josta ne on helpompi käsitellä manuaalisesti (esim. liittää oikealle laskulle).

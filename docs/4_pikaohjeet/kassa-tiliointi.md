@@ -12,7 +12,8 @@ sidebar_position: 21
 
 ![2. Asiakastiedot](/img/pikaohjeet/kassamaksu2.png)
 
-### 3. Klikkaa Lisää uusi suoritus-painiketta. (Huom! Tämä toiminto vain maksuille, jotka <b>eivät</b> ole tulleet pankin kautta)
+### 3. Klikkaa Lisää uusi suoritus-painiketta
+(Huom! Tämä toiminto vain maksuille, jotka <b>eivät</b> ole tulleet pankin kautta)
 
 ![3. Laskun tiedot](/img/pikaohjeet/kassamaksu3.png)
 
