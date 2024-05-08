@@ -8,20 +8,20 @@ HUOM! Tarkista, että tilaus on katkaistu ennen katkaisukäsittelyn toimenpiteit
 
 ### 1. Etusivunäkymästä haetaan asiakas
 
-![1. Etusivunäkymä](/img/pikaohjeet/jakelun-keskeytys1.png)
+![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
 
 ### 2. Asiakastiedoista klikataan haluttu tilaus auki
 
-![2. Asiakastiedot](/img/pikaohjeet/jakelun-keskeytys2.png)
+![2. Asiakastiedot](/img/pikaohjeet/Katkaisukasittely2.png)
 
 ### 3. Tilauksen tiedoista painetaan Katkaisukäsittely -painiketta
 
-![3. Tilauksen tiedot](/img/pikaohjeet/jakelun-keskeytys3.png)
+![3. Tilauksen tiedot](/img/pikaohjeet/Katkaisukasittely3.png)
 
 ### 4. Tarkista tiedot ja tarvittaessa luo lasku painamalla Luo lasku toimitetuista tuotteista -kohdasta
 
-![4. Tilauksen katkaisutoimet](/img/pikaohjeet/jakelun-keskeytys3.png)
+![4. Tilauksen katkaisutoimet](/img/pikaohjeet/Katkaisukasittely4.png)
 
 ### 5. Lopuksi paina Suorita katkaisun käsittelytoimet -painiketta
 
-![5. Tilauksen katkaisutoimet](/img/pikaohjeet/jakelun-keskeytys3.png)
+![5. Tilauksen katkaisutoimet](/img/pikaohjeet/Katkaisukasittely5.png)
