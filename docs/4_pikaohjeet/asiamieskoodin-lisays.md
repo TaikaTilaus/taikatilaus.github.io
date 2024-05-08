@@ -4,7 +4,7 @@ sidebar_position: 24
 
 # Asiamieskoodin merkitseminen
 
-### 1. Hae tilaus etusivunäkymältä
+### 1. Hae asiakas etusivunäkymältä
 
 ![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
 
@@ -16,6 +16,6 @@ sidebar_position: 24
 
 ![3. Tilaustiedot - Hinta- ja maksutiedot](/img/viite.png)
 
-### 4. Lisää asiamiesmaksajaksi. Muista tallentaa!
+### 4. Lisää asiamies maksajaksi. Muista tallentaa!
 
 ![3. Tilaustiedot - Hinta- ja maksutiedot](/img/pikaohjeet/asiamieskoodi-lisays4.png)
