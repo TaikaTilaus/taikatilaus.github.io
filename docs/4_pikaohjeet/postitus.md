@@ -22,8 +22,8 @@ sidebar_position: 15
 
 ### 5. Painettuasi Tallenna, voi tulla esiin virheilmoitus punaisella. Korjaa tiedot ja tallenna uudestaan
 
-![5. Irtonumerot-välilehti - Virheilmoitus](/img/pikaohjeet/postitus4.png)
+![5. Irtonumerot-välilehti - Virheilmoitus](/img/pikaohjeet/postitus5.png)
 
 ### 6. Peittojakelun voi lisätä Asetukset-valikon Varhaisjakelu-välilehden alta painamalla Peittojakelu-painiketta ja täyttämällä tiedot
 
-![6. Varhaisjakelu-välilehti - Peittojakelu](/img/pikaohjeet/postitus4.png)
+![6. Varhaisjakelu-välilehti - Peittojakelu](/img/pikaohjeet/postitus6.png)
