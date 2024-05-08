@@ -26,7 +26,7 @@ Asiakaskortille määritellään uusi osoite ja siirtopäivä, jolloin lehti hal
 
 Jakelu menee automaattisesti tallennetun vakio-osoitteen mukaisesti. Jos se löytyy Varhaisjakelun rekisteristä, niin jaetaan silloin, mutta voidaan myös tarvittaessa pakottaa Päiväjakeluun.
 
-Lue lisää ohjeista */tähän linkki
+<a href="../pikaohjeet/varhaisjakelun-esto">Lue lisää ohjeista</a>
 
 ### Pysyvätkö jakelun kohdistustiedot asiakaskohtaisesti, kun varhaisjakelualueella oleva tilaus on haluttu päiväpostin kantoon?
 
