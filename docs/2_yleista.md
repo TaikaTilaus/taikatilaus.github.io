@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Yleistä tietoa palvelusta
 
-Palvelussa käytetään erilaisia kirjautumistapoja, kuten henkilökohtaiset **tunnukset** ja rajatun ajan voimassa oleva **sähköpostilinkki**.
+### Palvelun sisältö
 
 Paketista riippuen palvelu sisältää:
 
@@ -20,17 +20,19 @@ Eri toimintojen näkyvyyttä hallitaan erikseen aktivoitavilla, **toimintokohtai
 
 Käyttöön aktivoidut toiminnallisuudet näkyvät **vasemman reunan valikkolistalla** ja niiden järjestys päivittyy **dynaamisesti** eli käyttäjän toimintatapojen mukaisesti (eniten käytetyt näkymät/toiminnot ’nousevat’ valikkolistalla ylemmäksi)
 
+### Käyttäjätunnukset ja kirjautuminen
+
+Palvelussa käytetään erilaisia kirjautumistapoja, kuten henkilökohtaiset **tunnukset** ja rajatun ajan voimassa oleva **sähköpostilinkki**.
+
+**Hallintajärjestelmään** (TaikaTilaus-palvelu) pääse kirjautumaan osoitteessa https://yritys.taikatilaus.fi (korvaa ’yritys’ oman yrityksesi nimellä) syöttämällä tarvittavat tunnukset kirjautumisikkunaan.
+
+**Tilaaja-/ilmoitusasiakkaat** pääsevät kirjautumaan käyttämään **OmaPalvelu**-toimintoja https://OmaTaika.taikatilaus.fi osoitteessa. Selaimen osoite muuttuu **asiakaskohtaisesti**, esim. OmaLehti. Asiakas pääse sitten sisään palveluun syöttämällä heille luodun käyttäjätunnuksen ja salasanan avautuvaan kirjautumisikkunaan.
+
 ### Ohjeet ja ilmoitukset
 
 Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät ohjelman yläpalkin **Ohjeet**-ikonia klikkaamalla. **Pikaohjeet**- ja **FAQ**-välilehdistä löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **Ohjevideot**-välilehdestä. 
 
 Palveluun liittyvä viestintä on nähtävissä kaikille käyttäjille Ilmoitukset–ikonia klikkaamalla. Näkymään koostetaan mm. **TaikaTilauksen tiedotteet, Palvelun kehitysuutiset, Asiakaskohtainen tilannetiedotus** (esim. yleisen vian tukipyynnöt/tilannetiedot). TaikaTilauksen uutiskirjearkiston ja versiotiedotteet löydät myös tukiportaalista **Uutiset**-välilehdeltä.
-
-### Käyttäjätunnukset ja kirjautuminen
-
-**Hallintajärjestelmään** (TaikaTilaus-palvelu) pääse kirjautumaan osoitteessa https://yritys.taikatilaus.fi (korvaa ’yritys’ oman yrityksesi nimellä) syöttämällä tarvittavat tunnukset kirjautumisikkunaan.
-
-**Tilaaja-/ilmoitusasiakkaat** pääsevät kirjautumaan käyttämään **OmaPalvelu**-toimintoja https://OmaTaika.taikatilaus.fi osoitteessa. Selaimen osoite muuttuu **asiakaskohtaisesti**, esim. OmaLehti. Asiakas pääse sitten sisään palveluun syöttämällä heille luodun käyttäjätunnuksen ja salasanan avautuvaan kirjautumisikkunaan.
 
 ### TaikaTilaus-sovelluksen käyttö
 
