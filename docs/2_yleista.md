@@ -30,19 +30,38 @@ Palvelussa käytetään erilaisia kirjautumistapoja, kuten henkilökohtaiset **t
 
 ### Ohjeet ja ilmoitukset
 
-Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät ohjelman yläpalkin **Ohjeet**-ikonia klikkaamalla. **Pikaohjeet**- ja **FAQ**-välilehdistä löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **Ohjevideot**-välilehdestä. 
+Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät TaikaTilaus-palvelun yläpalkin **Ohjeet**-ikonia klikkaamalla.
 
-Palveluun liittyvä viestintä on nähtävissä kaikille käyttäjille Ilmoitukset–ikonia klikkaamalla. Näkymään koostetaan mm. **TaikaTilauksen tiedotteet, Palvelun kehitysuutiset, Asiakaskohtainen tilannetiedotus** (esim. yleisen vian tukipyynnöt/tilannetiedot). TaikaTilauksen uutiskirjearkiston ja versiotiedotteet löydät myös tukiportaalista **Uutiset**-välilehdeltä.
+![Ohjeet](/img/ohjeet/ohjeet-ikoni.png)
+
+*TaikaTilaus-palvelusta pääsee ohjesivustolle **Ohjeet**-ikonia painamalla.*
+
+**Pikaohjeet**- ja **FAQ**-välilehdistä löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **Ohjevideot**-välilehdestä. Pidemmät ohjeet lyödät **Ohjeet**-välilehdeltä. Ohjesivustolta löytyy myös ohjeet **Freshdesk**-tukiportaalin käyttöön. TaikaTilauksen **uutiskirjearkiston** ja **versiotiedotteet** löydät myös tukiportaalista **Uutiset**-välilehdeltä.
+
+![Ohjesivusto](/img/ohjeet/tukiportaali.png)
+*Ohjesivuston etusivu.*
+
+Palveluun liittyvä viestintä on nähtävissä kaikille käyttäjille **Tiedotteet**–ikonia klikkaamalla. Näkymään koostetaan mm. **TaikaTilauksen tiedotteet, Palvelun kehitysuutiset, Asiakaskohtainen tilannetiedotus** (esim. yleisen vian tukipyynnöt/tilannetiedot). 
+
+![Tiedotteet](/img/ohjeet/ohjeet-tiedotteet.png)
+*Ohjelmiston tiedotteisiin pääse painamalla Tiedotteet-ikonia.*
 
 ### TaikaTilaus-sovelluksen käyttö
 
 Selaimen siirtymispainikkeita **EI SAA KÄYTTÄÄ**, vaan pitää käyttää palvelun omia painikkeita, kuten **”Palaa/Peruuta”**.
+
+![Palaa-painikkeet](/img/ohjeet/palaa-painikkeet.png)
+*Käytä ohjelmiston omia Palaa-painikkeita!*
 
 Paluu-painikkeen viereen ilmestyy erilaisia lisäikoneita, kuten **Leikepöytä**, ja **taulukon ja laskun lataaminen** jatkokäsittelyä varten (esim. tulostamista), kun teet niihin liittyviä toimintoja.
 
 Ohjelma näyttää **virheilmoitukset** punaisella virhekentällä, missä lukee lisätietoja virhetapauksesta. Huomion arvoiset aiheet, jotka eivät välttämättä ole virheitä, korostetaan **punaisella tekstillä**.
 
 **Kenttäkohtaiset ohjeet** löytyvät viemällä hiiren kursorin kentän nimen vieressä olevan **kysymysmerkki-ikonin** kohdalle
+
+![Apua](/img/ohjeet/apua.png)
+
+*Vie hiiri kysymysmerkin päälle saadaksesi apua kenttien täyttämiseen.*
 
 ### Lopetus ja käyttäjän tiedot
 
