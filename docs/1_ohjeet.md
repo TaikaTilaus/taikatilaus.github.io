@@ -12,7 +12,8 @@ Tältä sivustolta löydät ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä u
 
 ![TaikaTilaus Etusivu](https://intra.taikatilaus.fi/Ohjetiedostot/etusivu_512000F8C0B34456B706641B43223711.PNG)
 
-Kaikki tämän palvelun toiminnot ovat asiakaskohtaisesti asetuksista käyttöönotettavissa. Palvelun näytöt muokkautuvat käyttöönotettujen palvelujen mukaan.
+Kaikki tämän palvelun toiminnot ovat asiakaskohtaisesti asetuksista käyttöönotettavissa. Palvelun näytöt muokkautuvat käyttöönotettujen palvelujen mukaan. Näissä ohjeissa esitetyt mallikuvat voivat siis poiketa asiakaskohtaisesti toisistaan. Jos oma näkymäsi poikkeaa mallikuvista, jätä vain mallikuvien ylimääräiset kentät huomiotta, ellet tiedä, että kyseinen toiminto pitäisi olla sinulla käytössä.
+
 
 ### What you'll need
 
