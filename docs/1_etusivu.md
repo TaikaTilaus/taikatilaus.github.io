@@ -16,5 +16,5 @@ Ohjesivulta löydät **yksityiskohtaiset ohjeet** kaikista TaikaTilaus-palvelun 
 
 Huomioithan, että kaikki tämän palvelun toiminnot ovat **asiakaskohtaisesti asetuksista käyttöönotettavissa**. Palvelun näytöt muokkautuvat käyttöönotettujen palvelujen mukaan. Näissä ohjeissa esitetyt **mallikuvat voivat siis poiketa omasta näkymästäsi**. Jos näin, jätä vain mallikuvien ylimääräiset kentät huomiotta, ellet tiedä, että kyseinen toiminto pitäisi olla sinulla käytössä.
 
-**Kiitos, että olet valinnut TaikaTilauksen!** Toivomme, että löydät etsimäsi. Happy reading!
+**Kiitos, että olet valinnut TaikaTilauksen!** Toivomme, että löydät etsimäsi.
 
