@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Ilmoitusvaraukset
+# Ilmoitustyöjono
 
-## Ilmoitustyöjono
+## Yleistä lmoitustyöjonosta
 
 Ilmoitustyöjono –välilehdellä käsittelijät ja myyjät pääsevät katselemaan työjonossa olevia mainos-/ilmoitusaineistoja
 Käsittelijä on henkilö, joka tekee mainoksen materiaalien pohjalta ja lataa sen palveluun hyväksyttäväksi (esim. graafikko)
