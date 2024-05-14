@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Oletusasetukset
@@ -84,6 +84,10 @@ Tuotteelle määritellään myös Tilaus mahdollinen aikavälillä aikarajaus, j
 - Mikäli tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050), koska ’toistaiseksi voimassaolevaa’ tuotetyyppiä ei ole käytettävissä
 
 Digipalvelu –kentän avulla tuotteita voi ryhmitellä saman Digipalvelu-ryhmän alle. Digipalveluissa voidaan tutkia onko tilaajalla aktiivis
+
+## Erillistuotteet
+
+Erillistuotteita ovat tuotteet, jotka eivät sovi tilaus- tai myyntituotteisiin. Esimerkkejä erillistuotteista ovat esimerkiksi Laskutuslisä, Paperilaskutuslisä, jne.
 
 ## Tilit
 

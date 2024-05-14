@@ -1,43 +1,29 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 ---
 
-# Asiakas
+# Kestojatko
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+### Kestotilausten jatkaminen
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+Kestojatko -näkymässä jatketaan kestotilauksia uudelle tilauskaudelle.
 
-## Create your first React Page
+Valitse Lehti ja kestotilauksen päättymisen aikaväli ja klikkaa Hae jatkettavat kestotilaukset
+–painiketta saadaksesi näkyviin ko. julkaisun listauksen ja yhteenvetotiedot, sekä asiakkaat, joilla kestotilaus on päättymässä
 
-Create a file at `src/pages/my-react-page.js`:
+Listaus jakaantuu kahteen osaan:
+- Jatkettavat kestotilaukset
+- Kestotilaukset, joita ei jatketa
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+Kestotilauksien käsittelyyn pääset klikkaamalla Siirry tilausten jatkamiseen –painiketta
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+Tilauksien jatkamisesta muodostuville laskuille voi lisätä halutun tekstityksen kirjoittamalla tai klikkaamalla Näytä aikaisemmat tekstit -painiketta ja Valitse -linkkiä halutun sisällön kohdalla
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+Kestotilauksia jatkettaessa tutkitaan lehtikohtaisesti (ei yksittäisen tilaustuotteen mukaisesti), että löytyykö uudempaa voimassa olevaa tilausta
+- jos löytyy uudempi tilaus, niin jatkamista ei tehdä
+- jos ei löydy uudempaa tilausta, niin jatkaminen tehdään
 
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+Erillisellä asetuksella voidaan oletustoiminnallisuutta muuttaa siten, että
+- vaikka löytyisikin uudempi tilaus, jolla olisikin peruutuspäivä aktivoituna, niin
+- se tulkitaankin voimassa olevaksi, eikä vanhempaa tilausta silloin jatketa
+- Tämän asetuksen aktivointi on hyvä etenkin harvakseltaan ilmestyvissä lehdissä
