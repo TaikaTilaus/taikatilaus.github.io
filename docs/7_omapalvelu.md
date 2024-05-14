@@ -64,7 +64,7 @@ Sisäänkirjauksen jälkeen käyttäjälle näytetään häneen liittyviä koont
 
 Mikäli välilehdellä on jotain asiakkaan huomiota odottavaa tietoa (esim. uusi lasku), näkyy punainen pallo, jonka sisällä oleva numero ilmaisee uudet huomion kohteet
 
-## Koontisivu
+### Aloitussivu
 
 Aloitus- eli Koontisivulla näytetään kirjautuneen asiakkaan yhteenvetotietoja esim.
 - Yhteystiedoista
@@ -73,7 +73,7 @@ Aloitus- eli Koontisivulla näytetään kirjautuneen asiakkaan yhteenvetotietoja
 
 Mahdollisuus tarjota myös viimeisimmän julkaisun lukumahdollisuus suoraan Lue lehti -painikkeesta
 
-## Yhteystiedot
+### Yhteystiedot
 
 Yhteystiedot -näkymässä käyttäjä voi päivittää omia tietojaan Muokkaa yhteystietoja –painikkeesta esim.
 - Nimeä
@@ -87,7 +87,7 @@ Lisätä/päivittää väliaikaista osoitetta (esim. kesämökille) Muokkaa väl
 - Siirron ajankohdan Alku-/Loppupäivät
 - Toisen osoitteen tiedot
 
-## Tilaa lehti
+### Tilaa lehti
 
 Tilaa lehti -näkymässä käyttäjä voi tilata haluamansa julkaisun esim.
 - joko itselleen tai lahjaksi toiselle
@@ -100,7 +100,7 @@ Hinta –painikkeesta valitun tilausmuodon valinnan jälkeen avautuu Tilauslomak
 
 Tilaa lehti –painikkeesta annetut tiedot tallentuvat palveluun
 
-## Näköislehdet
+### Näköislehdet
 
 Näköislehdet -näkymässä käyttäjälle näytetään hänelle avoimien julkaisujen tietoja
 
@@ -112,7 +112,7 @@ Julkaisua voi mm. selata, suurentaa ja hakea hakusanoilla
 
 Vanhemmat lehdet –painikkeesta avautuu listaus aiempiin tilauksiin liittyvistä näköislehdistä
 
-## Omat ilmoitukset
+### Omat ilmoitukset
 
 Omat ilmoitukset -välilehdellä käyttäjälle näytetään asiakkaan ostamien ilmoitusten tietoja
 
@@ -125,7 +125,7 @@ Käytettävissä olevat lisätoiminnot sovitaan yrityskohtaisesti
 - Maksamattomat ilmoitusvaraukset voi maksaa valitsemalla v ja klikkaamalla Maksa valitut –painiketta (esim. Verkkomaksulla heti)
 - Uusi ilmoitus, jolla voi tehdä uuden, alustava ilmoitusvarauksen, jonka Myyjä voi jatkokäsitellä
 
-## Laskut
+### Laskut
 
 Laskut -näkymässä käyttäjälle näytetään asiakkaaseen liittyvien laskujen tiedot
 
@@ -136,13 +136,13 @@ Valitsemalla yksittäiset laskut ja klikkaamalla Maksa valitut –painiketta pä
 Maksetut -painiketta klikkaamalla avautuu koko laskutus historiatietoineen
 - Maksamattomat laskut voi maksaa valitsemalla v ja klikkaamalla Maksa valitut –painiketta (esim. Verkkomaksulla heti)
 
-## Tilaukset
+### Tilaukset
 
 Tilaukset -välilehdellä käyttäjälle näytetään hänen omien tilauksien tiedot
 - Voimassa olevat ?
 - Päättyneet x
 
-## Asiakaspalvelu
+### Asiakaspalvelu
 
 Asiakaspalvelu -välilehdellä käyttäjä näkee Asiakaspalvelun yhteystiedot ja voi lähettää viestin
 - Viesti ohjataan jatkokäsittelyä varten yrityksen oman Asiakaspalvelun sähköpostiin
