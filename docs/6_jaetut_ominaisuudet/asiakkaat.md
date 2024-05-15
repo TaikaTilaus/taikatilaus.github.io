@@ -5,44 +5,57 @@ sidebar_position: 1
 # Asiakkaat
 
 ## Asiakkaan tiedot
-- Yksittäisen asiakkaan tiedot saat näkyviin klikkaamalla asiakkaan kohdalla Asiakasnro -sarakkeen numeroa
 
-- Ilmoitusmyynnit –painike näkyy Laskutustiedot -osiossa vain, jos asiakkaalle on liitetty oletusmyyjä
+![Asiakkaan tiedot](/img/ohjeet/asiakastiedot.png)
+*Asiakastiedot-näkymästä näet asiakkaan tiedot, tilaukset ja laskut.*
 
-- Muutoksia niihin pääset tekemään klikkaamalla Kynä -painiketta (vasen yläkulma)
+Yksittäisen asiakkaan tiedot saat näkyviin hakemalla asiakasta etusivulta ja klikkaamalla As.ro -sarakkeen numeroa. Pääset myös suoraan asiakkaan tietoihin hakemalla asiakasta asiakasnumerolla.
 
-- Asiakaskortilla näkyy asiakkaan tarkemmat perustiedot, kuten yhteys-, laskutus-, markkinointi- ja ryhmittelytiedot
+![Asiakasnumero](/img/ohjeet/asiakas1.png)
+*Pääset asiakkaan tietoihin klikkaamalla asiakasnumeroa*
 
-- Asiakkaaseen liittyvät Laskut ja Tilaukset näytetään kootusti omissa listausosioissaan
+Asiakastiedoissa näkyy asiakkaan yhteys- ja laskutustiedot, asiakkaan ryhmittely ja muut sisäiset tiedot (esim. "Tämä asiakas tapaa myöhästyä laskujen maksamisessa"). Asiakastietoja pääset muokkaamaan kynäikonia painamalla. Leikepöydälle-nappia painamalla saat siirrettyä asiakkaan tiedot leikepöydälle jatkokäsittelyä varten. Nuolista pääset edelliseen ja seuraavan asiakkaaseen ja/tai hakutulokseen. 
 
-- Tiedot pääsee siirtämään Lisää leikepöydälle -painikkeesta jatkokäsittelyä varten
-- Asiakkaan tapahtumia pääsee näkemään aikajanalla Pikakatsaus -painikkeesta ja selaamalla Edellinen vuosi, Vuosi ja Seuraava vuosi -painikkeiden avulla
+![Asiakas - Navigointi](/img/ohjeet/asiakas2.png)
+*Asiakaskortin yläpalkista pääset muokkaamaan asiakaskorttia, siirtämään tietoja leikepöydälle ja navigoimaan asiakkaiden välillä*
 
-- Uuden asiakkaan tiedot pääset luomaan klikkaamalla Lisää asiakas -painiketta (oikea yläkulma)
+Asiakkaaseen liittyvät Laskut ja Tilaukset näytetään kootusti omissa kentissään. Niitä pääset lisäämään painamalla Lisää tilaus/lasku -painikkeista. 
 
-## Asiakaskortti
+![Tilaukset ja laskut](/img/ohjeet/asiakas3.png)
+*Asiakkaaseen liittyvät tilaukset ja laskut näet asiakastiedoissa erillisillä kentillään.*
 
-Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan ikonista ja valittu esitystapa tallentuu käyttäjäkohtaisesti.
+## Asiakastietojen muokkaus
 
-Uuden asiakkaan Yhteystiedot -osiossa lisätään asiakkaalle perustietoja, kuten:
-- Asiakastyyppi
+Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan Avaaa-ikonista ja valittu esitystapa tallentuu käyttäjäkohtaisesti.
+
+![Asiakaskortti](/img/ohjeet/asiakaskortti.png)
+
+### Yhteystiedot
+
+Asiakkaan **Yhteystiedot** -osiossa lisätään asiakkaalle perustietoja, kuten:
 - Yhteystiedot
 - Varhaisjakelun esto
-- Pakotus tiettyyn Varhaisjakelun nippuun
+- Pakotus tiettyyn Varhaisjakelun nippuun //laajennus, mitä tarkoittaa
+- Syntymävuosi
+- Asiakastyyppi (esim. onko kyseessä Henkilö- tai Yritysasiakas)
 
-Laskutustiedoissa lisätään laskutustietojen lisäksi mahdollinen alennusprosentti, joka huomioidaan laskun luontivaiheessa automaattisesti.
-- Laskutusosoitteeksi voidaan liittää toinen maksaja maksutietoineen (nimi-/osoite-/verkkolaskutiedot ja toimitustapa)
+![Asiakaskortti - Yhteystiedot](/img/ohjeet/asiakaskortti2.png)
 
-Laskun toimitustapa -valikosta määritellään oletustapa, jolla laskut välitetään asiakkaalle (muutettavissa esim. laskukohtaisesti).
+### Laskutustiedot
 
-Suoramaksun aktivointi on verkkopankittoman maksajan maksutapa, eli se sopii asiakkaalle, joka ei käytä verkkopankkia
+Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita tietoja, kuten:
+- **Toinen maksaja**: Laskutusosoitteeksi voidaan **liittää eri maksaja** maksutietoineen (nimi-/osoite-/verkkolaskutiedot ja toimitustapa) jos tilaajalla on eri saaja kuin maksaja. Tämä tehdään liittämällä maksaja **Laskutusosoite asiakkaasta** -kenttään.
+- **Laskun toimitustapa** -valikosta määritellään oletustapa, jolla laskut välitetään asiakkaalle (muutettavissa esim. laskukohtaisesti).
+- **Suoramaksu**: Suoramaksun aktivointi on verkkopankittoman maksajan maksutapa, eli se sopii asiakkaalle, joka ei käytä verkkopankkia
+- **Koontilasku**: Koontilaskun aktivointi on asiakkaille, jotka haluavat tilaukset yhdelle kokoomalaskulle (yksittäisten tilauslaskujen sijaan)
+- **Laskutuslisä**: Ei laskutuslisää aktivointi on asiakkaille, joilta ei haluta periä automaattisesti lisättävää (ennalta sovittua) laskutuslisää paperilaskujen lähettämisestä (esim. 5 €). Veloitettava oletushinta ja mahdollinen laskun summaan liittyvä rajoitus (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.
+- **Alennusprosentti**: voidaan lisätä, jos halutaan lisätä asiakkaalle pysyvä alennusprosentti, joka huomioidaan laskujen luontivaiheessa automaattisesti.
+- **Maksuehto päivä**: //teksti tähän
+- **Ilmoitusasiakkaat**:  Lisäksi täällä ilmoitusasiakkaalle liitetään nimetty (oletus) Myyjä, jonka avulla heille aktivoituu Näytä ilmoitusmyynti -linkki Etusivun-listausnäkymään.
 
-Koontilaskun aktivointi on asiakkaille, jotka haluavat tilaukset yhdelle kokoomalaskulle (yksittäisten tilauslaskujen sijaan)
+![Asiakaskortti - Laskutustiedot](/img/ohjeet/laskutustiedot.png)
 
-Ei laskutuslisää aktivointi on asiakkaille, joilta ei haluta periä automaattisesti lisättävää (ennalta sovittua) laskutuslisää paperilaskujen lähettämisestä (esim. 5 €).
-Veloitettava oletushinta ja mahdollinen laskun summaan liittyvä rajoitus (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.
-
-Lisäksi täällä ilmoitusasiakkaalle liitetään nimetty (oletus) Myyjä, jonka avulla heille aktivoituu Näytä ilmoitusmyynti -linkki Etusivun listausnäkymään.
+### Markkinointitiedot
 
 Markkinointitiedoissa lisätään mahdolliset luvat/kiellot eri kanaville ja mistä lähteestä ne on ilmoitettu
 
