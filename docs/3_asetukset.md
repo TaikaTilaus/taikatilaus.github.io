@@ -118,7 +118,13 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 
 ## Erillistuotteet
 
-Erillistuotteita ovat tuotteet, jotka eivät sovi tilaus- tai myyntituotteisiin. Esimerkkejä erillistuotteista ovat esimerkiksi Laskutuslisä, Paperilaskutuslisä, jne.
+Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat esimerkiksi Laskutuslisä, Paperilaskutuslisä, jne. Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita.
+
+![Erillistuotteet-näkymä](/img/ohjeet/erillistuotteet.png)
+*Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita, ja tarkastella jo olemassa olevia erillistuotteita.*
+
+![Erillistuotteet- Tuotteen muokkaus](/img/ohjeet/erillistuotteet2.png)
+*Erillistuotteen käsittely -näkymältä voit muokata erillistuotteen tietoja.*
 
 ## Tilit
 
