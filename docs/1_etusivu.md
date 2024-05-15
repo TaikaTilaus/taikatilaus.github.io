@@ -10,7 +10,7 @@ Tältä sivustolta löydät ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä u
 
 ## Yleistä tietoa ohjeista
 
-![Tukisivun Etusivu](/img/ohjeet/tukiportaali.png)
+![Tukisivun etusivu](/img/ohjeet/tukiportaali.png)
 
 Ohjesivulta löydät **yksityiskohtaiset ohjeet** kaikista TaikaTilaus-palvelun ominaisuuksista. Yrityksesi tilauksesta riippuen TaikaTilaus-palvelu sisältää **tilaus- ja/tai ilmoitushallinnan** palvelut, ja täten ohjeet on jaettu näiden kategorioiden mukaan. Lisäksi löydät yleispätevät ohjeet palveluiden jaetuista ominaisuuksista, kuten <a href="/docs/jaetut_ominaisuudet/raportit">**raporteista**</a>, riippumatta kumpaa niistä käytät. Jos käytössäsi on lisäpalveluita, kuten <a href="/docs/omapalvelu">**OmaPalvelu**</a>, myös niiden käyttöön löydät ohjeet täältä. Jos olet **kiireessä**, voit kurkata <a href="/docs/category/pikaohjeet">**Pikaohjeita**</a>, jotka ohjeistavat yleisten kysymyksien ratkaisussa. Kirjallisesti yleisiin kysymyksiin löytyy vastauksia <a href="/docs/category/faq">**FAQ-välilehdestä**</a>. Jos olet visuaalisempi oppija, voit myös katsastaa löytyykö kysymykseesi vastausta <a href="/docs/omapalvelu">**Ohjevideoista**</a>. 
 
