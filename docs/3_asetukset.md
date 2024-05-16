@@ -239,9 +239,11 @@ Lisäksi määritellään Lehti-tyyppisen kanavan ilmoitusosastot
 
 ## Myyntituotteet
 
-Myyntituotteet –välilehdellä on Lisää –painike (oikea yläkulma), jolla asiakkaille myytävät yksittäiset myyntituotteet lisätään
+**Myyntituotteet**–välilehdellä voit tarkastella ja muokata olemassa olevia myyntituotteita sekä lisätä uusia. Myyntituote on **sovelluksessa myytävä asia**, esim. lehden etusivun mainos/ilmoitus. Piilotetut myyntituotteet saa näkyviin klikkaamalla **Näytä piilotetut** -kentästä.
 
-Myyntituote on sovelluksessa myytävä asia, esim. lehden etusivun mainos/ilmoitus
+Jo luotuja myyntituotteita pääset katsomaan ja muuttamaan klikkaamalla **Numero**–sarakkeesta tietyn myyntituotteen numeroa. **Lisää**–painiketta painamalla (oikea yläkulma) voit lisätä uuden myyntituotteen.
+
+![Myyntituotteet](/img/ohjeet/myyntituotteet.png)
 
 Myyntituotteelle lisätään siihen liittyviä perustietoja, kuten
 - Kanava ja Julkaisu, jossa se esitetään
@@ -249,7 +251,7 @@ Myyntituotteelle lisätään siihen liittyviä perustietoja, kuten
 
 Lisäksi voidaan liittää oletuskäsittelijä, joka saa tiedon mm. aineistojen tulosta.
 
-Jo luotuja myyntituotteita pääset katsomaan ja muuttamaan klikkaamalla Numero –sarakkeen numeroa.
+![Myyntituotteiden muokkaus](/img/ohjeet/myyntituotteen-muokkaus.png)
 
 ## Paketit
 
