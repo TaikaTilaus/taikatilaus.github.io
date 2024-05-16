@@ -255,14 +255,27 @@ Lisäksi voidaan liittää oletuskäsittelijä, joka saa tiedon mm. aineistojen 
 
 ## Paketit
 
-Paketit –välilehdellä on Lisää –painike, jolla yksittäisistä myyntituotteista voidaan muodostaa erillishinnoiteltuja tuotepaketteja
+**Paketit**–välilehdellä voit luoda yksittäisistä myyntituotteista **erillishinnoiteltuja tuotepaketteja** ja tarkastella/muokata jo olemassa olevia paketteja. **Lisää**–painiketta painamalla pääset lisäämään uuden paketin, ja olemassa olevan paketin **numeroa** painamalla pääset sitä muokkaamaan.
 
-Jo luotuja paketteja pääset katsomaan ja muuttamaan klikkaamalla Numero –sarakkeen numeroa
+![Paketit-välilehti](/img/ohjeet/paketit.png)
+*Paketit välilehdellä voit muokata olemassa olevia paketteja ja luoda uusia.*
 
-Myyntituote lisätään valitsemalla yksittäin/kaikki vasemmasta laatikosta ja siirtämällä yksittäin/kaikki oikeanpuoleiseen laatikkoon välissä olevilla nuolilla
+### Paketin lisääminen
 
-Yksittäisiä myyntituotteita voi tarvittaessa kopioida Monista –painikkeen avulla
-Esim. sama myyntituote useammassa eri lehdessä
+![Pakettien lisääminen](/img/ohjeet/paketin-lisaaminen.png)
+*Tuotteita siirretään/poistetaan paketilta nuolien avulla.*
+
+Kun pakkettia lisätään, sille kirjataan:
+- **Numero**: uniikki numero, josta paketin erottaa ja jolla sitä voidaan hakea 
+- **Nimi**: myyntipaketin nimi, esim. Black Week I
+- **Hinta**: paketin veroton hinta (annettaessa hinnan, jätetään yksittäisten myyntituotteiden hinnat huomiotta)
+- **Lisätiedot**: paketille oleellisia lisätietoja (esim. milloin pakettia myydään)
+- **Myyntituotteet**: tuotteet, jotka paketti sisältäää
+
+Myyntituotteita **lisätään** pakettiin valitsemalla yksittäin/kaikki vasemmasta laatikosta (Kaikki myyntituotteet) ja siirtämällä valinnat oikeanpuoleiseen laatikkoon (Pakettiin valitut tuotteet) **käyttämällä välissä olevia nuolia**.
+
+Yksittäisiä myyntituotteita voi tarvittaessa kopioida **Monista**–painikkeen avulla.
+Esim. jos sama myyntituote on useammassa eri lehdessä
 
 ## Julkaisut
 
