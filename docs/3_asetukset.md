@@ -222,20 +222,24 @@ Klikkaamalla **Näytä mallipohja** -painikkeita, saat näkyviin esimerkkiviesti
 
 ## Kanavat
 
-Kanavat –välilehdellä määritellään kanavat, joiden alle myyntituotteet ryhmitellään.
+**Kanavat**–välilehdellä määritellään kanavat, joiden alle myyntituotteet ryhmitellään. Kanavia voi olla LEHTI, NETTI, UUTISKIRJE, ILMOITUSTAULU, RADIO, ja Vaihtoilmoitus-kanavat.
 
-Määritellyt kanavat sidotaan ohjelmaan koodattuihin kanavatyyppeihin, koska eri kanavilla on erityyppisiä ominaisuuksia esim.
+**Kanavat** erotellaan kentän listauksessa pilkuilla esim. LEHTI,UUTISKIRJE,RADIO. Kanavan voi nimetä **myös lehtikohtaisesti** esim. Autolehti,Mopolehti,Bike,Suunnistus.
+
+Määritellyt kanavat lajitellaan ohjelmaan koodattuihin **kanavatyyppeihin**, koska eri kanavilla on **erityyppisiä ominaisuuksia** esim.
 - lehdillä olevat palstamillimetrit
 - radiomainoksilla CPM-arvo
 - tai Lehti-kanavalla julkaisut ovat lehtien numeroita, mutta Radio-kanavalla julkaisu voi olla vuosikohtainen
 
-Kanavat erotellaan kentän listauksessa pilkuilla esim. LEHTI,UUTISKIRJE,RADIO
+![Kanavat-välilehti](/img/ohjeet/kanavat1.png)
+*Kanavat lajitellaan eri kanavatyyppeihin*
 
-Kanavan voi nimetä myös lehtikohtaisesti esim. TaikaNakka,TaikaVakka
+**Lisäksi määritellään LEHTI-tyyppisen kanavan ilmoitusosastot**
+- Jokainen kanavan ilmoitusosasto kirjoitetaan **omalle rivilleen puolipisteillä (;) eroteltuina**
+- Uusi ilmoitusosasto lisätään muodossa: **tunniste;kanavan nimi;ilmoitusosasto;hinta**. Esim. 1;LEHTI;etusivu;1,55
 
-Lisäksi määritellään Lehti-tyyppisen kanavan ilmoitusosastot
-- Jokainen kanavan ilmoitusosasto kirjoitetaan omalle rivilleen puolipisteillä eroteltuina
-- Uusi ilmoitusosasto lisätään muodossa: Kanavan nimi;ilmoitusosasto;hinta esim. LEHTI;etusivu;1,55
+![Ilmoitusosastot](/img/ohjeet/kanavat2.png)
+*LEHTI-tyypin kanaville määritellään ilmoitusosastot*
 
 ## Myyntituotteet
 
