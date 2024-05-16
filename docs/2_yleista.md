@@ -141,3 +141,4 @@ Kaksivaiheinen tunnistautuminen on **turvallisempi** tapa kirjautua sisään eri
  **Kaksivaiheisen tunnistautumisen** voi ottaa käyttöön lataamalla **Authenticator-sovelluksen puhelimeesi** (esim. Google Authenticator tai Microsoft Authenticator). Paina sitten **Luo uusi QR** -koodi painiketta ja **skannaa** TaikaTilauksen luoma QR-koodi puhelimellasi. Puhelimessa olevasi Authenticator sovellus antaa sinulle silloin **koodin**, jonka voit syöttää TaikaTilaus sovellukseen. Koodin syötettyäsi paina **Vahvista**. Kaksivaiheisen tunnistautumisen voi nyt asettaa päälle ja pois.
 
 ![Kaksivaiheinen tunnistautuminen](/img/ohjeet/MFA.png)
+*Kaksivaiheisen tunnistautumisen käyttöönotto*

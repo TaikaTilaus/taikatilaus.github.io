@@ -128,25 +128,48 @@ Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisii
 
 ## Tilit
 
-Tilit –välilehdellä on Lisää tili –painike, jolla laskutuksessa käytettävät, yksittäiset kirjanpidolliset tilitiedot lisätään
-- Tilaus-/Myyntituotteilla käytetään tässä määriteltyjä tilitietoja
+**Tilit**–välilehdellä voit tarkastella ja muokata olemassa olevia tilejä, ja lisätä uusia tilejä
+- kun klikkaat tietyn tilin **tilinumeroa** pääset muokkaamaan olemassa olevan tilin tietoja. Voit myös poistaa tilin.
+- kun klikkaat **Lisää tili** –painiketta, pääset kirjaamaan uuden tilin tiedot
 
-Tilinumero sarakkeen numerotietoa klikattaessa avautuu kyseisen tilin lisätiedot muokattavaksi/poistettavaksi.
+Tilaus-/Myyntituotteilla käytetään tällä välilehdellä määriteltyjä tilitietoja.
 
-Palvelussa käytetään Suoriteperusteista kirjapitoa, jossa
-kulut ja tulot kirjataan kirjanpitoon sen mukaan milloin kulut syntyvät eli laskupäivän perusteella
+![Tilit-välilehti](/img/ohjeet/tilit.png)
+*Tilit-välilehdeltä voit muokata ja lisätä tilejä*
+
+### Tilien lisääminen ja muokkaaminen
+
+![Tilit-välilehti - Tilien lisääminen](/img/ohjeet/tilin-lisaaminen.png)
+
+*Tilin lisääminen -lomake*
+
+Kun tiliä lisätään tai muokataan, tarvitaan seuraavat tiedot:
+- **Tilin numero**
+- **Tilin nimi**
+- Onki tili **Pankkitili, Myyntili, vai Kulutili**
+- **Tilin tyyppi** tiliöintejä varten, joka määritellään **lyhenteellä** (PA=Pankki, MS=myyntisaamiset, ALV, MY=Myynti, PY=Pyöristys, LT=Luottotappio, MUU=jokin muu tili)
+
+**Tilin käsittely** -lomake on muuten samannäköinen, paitsi että siinä on myös vaihtoehto tilin poistamiseen.
+
+### Suoriteperusteinen kirjanpito
+
+Palvelussa käytetään **Suoriteperusteista kirjapitoa**, jossa
+kulut ja tulot kirjataan kirjanpitoon sen mukaan milloin kulut syntyvät eli **laskupäivän perusteella**
 - esim. myyntilasku, joka tehdään tammikuun lopussa ja maksetaan maaliskuun alussa
 - Tämä myynti näkyy tuloslaskelmassa suoriteperusteisesti tammikuussa (eikä maaliskuussa kuten maksuperusteisesti)
 
 Suoriteperusteisessa kirjanpidossa kulu kirjataan
-- laskupäivän mukaan kulutilin debetiin ja ostovelkojen kreditiin
-- Myöhemmin, kun lasku maksetaan kirjaus menee pankkitilin kreditiin ja ostovelkojen debettiin
+- laskupäivän mukaan **kulutilin debitteihin** ja **ostovelkojen kreditteihin**
+- Myöhemmin, **kun lasku maksetaan** kirjaus menee **pankkitilin kreditteihin ja ostovelkojen debitteihin**
 - Maksun yhteydessä ostovelat siis nollautuvat
 
-Myyntien osalta kirjaukset menevät samalla logiikalla, mutta debet ja kredit ovat vaan päinvastaiset
-- Myyntilasku kirjataan laskun päivämäärän mukaan kreditiin (esim. 1502 Lehtitilaussaamiset TaikaVakka) ja myyntisaamisten (saamiset asiakkailta) debetiin (esim. 30090 Suomi vuositilaus TaikaVakka alv 10% ja 2470 Myynnin 10% ALV-velka)
-- Myöhemmin, kun asiakas suorittaa laskun pankkitilille, kirjaus menee pankkitilin debetiin (esim. 1710 Nordea) ja myyntisaamisten kreditiin (esim. 1502 Lehtitilaussaamiset TaikaVakka)
+**Myyntien** osalta kirjaukset menevät samalla logiikalla, mutta **debitit ja kreditit ovat päinvastaiset**
+- Myyntilasku kirjataan laskun päivämäärän mukaan kredittiin (esim. 1502 Lehtitilaussaamiset TaikaVakka) ja myyntisaamisten (saamiset asiakkailta) debittiin (esim. 30090 Suomi vuositilaus TaikaVakka alv 10% ja 2470 Myynnin 10% ALV-velka)
+- Myöhemmin, kun asiakas suorittaa laskun pankkitilille, kirjaus menee pankkitilin debittiin (esim. 1710 Nordea) ja myyntisaamisten kredittiin (esim. 1502 Lehtitilaussaamiset TaikaVakka)
 - Suorituksen yhteydessä myyntisaamiset siis nollautuvat
+
+![Suoritukset esimerkki](/img/ohjeet/tiliointi.png)
+*Esimerkki suorituksista*
 
 ## Viestipohjat
 
