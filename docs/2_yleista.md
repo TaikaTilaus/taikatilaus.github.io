@@ -68,6 +68,49 @@ Ohjelma näyttää **virheilmoitukset** punaisella virhekentällä, missä lukee
 
 *Vie hiiri kysymysmerkin päälle saadaksesi apua kenttien täyttämiseen.*
 
+## Etusivu
+
+Etusivun kautta voidaan tehdä erilaisia hakuja asiakasrekisteristä.
+
+![sovelluksen etusivu](/img/ohjeet/etusivu.png)
+*TaikaTilaus-sovelluksen etusivu*
+
+### Etusivun hakuehdot
+
+Asiakkaita hallinnoidaan **Etusivulla**, jonka kautta voi hakea henkilöitä ja yrityksiä antamalla mm. **asiakasnumeron** tai nimen, esim. syöttämällä "Antti" hakukenttään ja klikkaamalla **Hae** –painiketta, niin saa listauksen näkyviin kaikista asiakkaista joiden nimessä esintyy "Antti"
+
+Asiakasrekisteristä voi **hakea henkilöitä, yrityksiä tai yhteisöjä** mm. seuraavilla hakuehdoilla:
+- Asiakasnumero
+- Yrityksen nimi
+- Yrityksen Y-tunnus
+- Sukunimen alku
+- Sähköpostiosoite
+- haluamallaan Lasku-, Tilaus- ja Varausnumerolla siihen liittyvät asiakastiedot
+
+Voi myös hakea koko nimellä esim: Virtanen Pekka.
+
+### Tilausmyyntiä koskevat tiedot
+
+- Mikäli asiakkaalla on voimassa olevia tilauksia, ne näytetään **Nykyiset ja tulevat tilaukset** -sarakkeessa
+
+- Jos asiakas on tilauksessa maksajana, näytetään ko. tilauksessa teksti **'maksajana’**
+
+- **Tulevat tilaukset**, mitkä eivät ole vielä voimassa, näytetään alleviivattuna
+
+- Katkaistujen tilauksien alla lukee **katkaisupäivä** punaisella
+
+![Nykyiset ja tulevat tilaukset](/img/ohjeet/tilaukset.png)
+*Poikkeukselliset tilaukset näkyvät Tilaukset-sarakkeessa.*
+
+### Ilmoitusmyyntiä koskevat tiedot
+
+![Omat tiedot](/img/ohjeet/ilmoitusmyyntihaku.png)
+*Ilmoitusmyyntiä koskevat hakukentät*
+
+Ilmoitusmyynnin olessa voimassa, voit hakea: 
+- vain tiettyyn myyjään liitettyjä asiakkaita valitsemalla **Valitse myyjä** -valikosta suodatuksen
+- tiettyjä ilmoitusvarauksia **varausnumerolla**
+
 ## Lopetus ja käyttäjän tiedot
 
 ![Omat tiedot](/img/ohjeet/kayttajantiedot.png)
@@ -84,7 +127,8 @@ Ohjelma näyttää **virheilmoitukset** punaisella virhekentällä, missä lukee
 
 **Käyttäjän tiedot** -linkkiä klikkaamalla **Omat tiedot** -valikon alta, pääset muokkaamaan omia **yhteystietojasi** (esim. nimi, sähköposti) sekä vaihtamaan sovelluksen **kielen ja teeman**. Voit myös ottaa käyttöön **pelkistetyn ilmoitusvarauslomakkeen**. ///mikä tämä on? selitys siitä
 
-![Käyttäjen tiedot](/img/ohjeet/kayttajantiedot2.png)
+![Käyttäjän tiedot](/img/ohjeet/kayttajantiedot2.png)
+*Käyttäjän tiedoista voit muuttaa yhteystietojasi, sekä sovelluksen kieltä ja teemaa.*
 
 Mitä tahansa teetkään, **muista tallentaa** lopussa!
 
@@ -97,6 +141,3 @@ Kaksivaiheinen tunnistautuminen on **turvallisempi** tapa kirjautua sisään eri
  **Kaksivaiheisen tunnistautumisen** voi ottaa käyttöön lataamalla **Authenticator-sovelluksen puhelimeesi** (esim. Google Authenticator tai Microsoft Authenticator). Paina sitten **Luo uusi QR** -koodi painiketta ja **skannaa** TaikaTilauksen luoma QR-koodi puhelimellasi. Puhelimessa olevasi Authenticator sovellus antaa sinulle silloin **koodin**, jonka voit syöttää TaikaTilaus sovellukseen. Koodin syötettyäsi paina **Vahvista**. Kaksivaiheisen tunnistautumisen voi nyt asettaa päälle ja pois.
 
 ![Kaksivaiheinen tunnistautuminen](/img/ohjeet/MFA.png)
-
-
-
