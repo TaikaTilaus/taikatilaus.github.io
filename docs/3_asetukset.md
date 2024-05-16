@@ -171,22 +171,54 @@ Suoriteperusteisessa kirjanpidossa kulu kirjataan
 ![Suoritukset esimerkki](/img/ohjeet/tiliointi.png)
 *Esimerkki suorituksista*
 
+## Laskutekstit
+
+**Laskutekstit**-välilehdeltä voi luoda laskuille lisättäviä tekstipohjia, jotka ovat laskun lähetyksen yhteydessä vielä muokattavissa. Valmiit viestipohjat voi lisätä Laskulle, Maksumuistutus #1, Maksumuistutus #2 ja Hyvityslaskulle.
+
+![Laskutekstit-välilehti](/img/ohjeet/laskutekstit.png)
+
+*Laskutekstit-välilehdeltä voi luoda laskuille tekstipohjia.*
+
+Välilehdeltä voi lisätä tekstejä tilaustuotteiden, erillistuotteiden ja ilmoitusmyynnin laskuille sekä lisätä lähetystiedot sähköpostin kautta lähetettävien laskujen sähköpostipohjaan.
+
+![Laskutekstit-välilehti](/img/ohjeet/laskutekstit2.png)
+*Laskulle lisättävä teksti -lomake*
+
+TIlauslaskuille voi lisätä:
+- tekstin laskulle
+- laskutekstin //what is the difference?
+- maksumuistutuksien tekstit
+
+![Laskutekstit-välilehti](/img/ohjeet/laskutekstit3.png)
+*Sähköpostikanavan lähetystiedot -lomake*
+
+Sähköpostin lähetystietoihin voi lisätä:
+- sähköpostiosoitteen, josta lasku lähetetään
+- otsikon
+- laskuviestin
+- maksumuistutuksien otsikot ja viestit
+- hyvityslaskun otsikon ja viestin
+
+Viesti-kenttien kokoa voi laajentaa oikeasta alakulmasta kursorilla vetämällä.
+
+Ohjelma valitsee automaattisesti oikean sähköpostiviestin riippuen minkä lehden lasku on kyseessä ja mikä on kyseisen laskun muoto.
+
 ## Viestipohjat
 
-Viestipohjat –välilehdellä lisätään laskujen sähköpostilähetyksessä käytettävät viestipohjat
-- Oletusviestejä voi lisätä useammalle eri lehdelle (6)
-- Valmiit viestipohjat voi lisätä Laskulle, Maksumuistutus #1, Maksumuistutus #2 ja Hyvityslaskulle
+**Viestipohjat** välilehdeltä voi muokata **tilaus/ilmoitusvarausvahvistuksien viestipohjia**. Voit muokata:
+- Lähettäjän sähköpostia
+- Sähköpostin piilokopion vastaanottajaa
+- Sähköpostin otsikkoa
+- Sähköpostin viestiä
 
-Viesti -kentän kokoa voi laajentaa oikeasta alakulmasta kursorilla vetämällä
+![Viestipohjat-välilehti](/img/ohjeet/viestipohjat.png)
+*Viestipohjat välilehdellä voit muokata tilaus/myyntivahvistuksien tekstejä*
 
-Ohjelma valitsee automaattisesti oikean sähköpostiviestin riippuen minkä lehden lasku on kyseessä ja mikä on kyseisen laskun muoto
+Klikkaamalla **Näytä mallipohja** -painikkeita, saat näkyviin esimerkkiviestin, jonka pohjalta voit laatia oman viestisi.
 
-## Maksumuistutukset
+![Esimerkkiviesti](/img/ohjeet/esimerkkiviesti.png)
 
-Maksumuistutukset –välilehdelle lisätään halutut tekstitykset, mitkä lisätään Maksumuistutuksien #1 ja #2 laskupohjiin automaattisesti
-
-Tekstitykset voivat vaihdella lehtikohtaisesti
-- Oletustekstit voi lisätä useammalle (6) eri lehdelle
+*Esimerkkiviesti toimii mallina viestipohjalle*
 
 ## Kanavat
 
@@ -378,7 +410,7 @@ Varhaisjakeluun liittyvät osoitteistot ja nippujen tiedot määritellään aset
 Palveluun tullaan saadaan myös näkyviin Postin välittämät ilmoitukset esim. Jakeluhäiriöistä ja niiden kestosta, sekä
 Ilmoitettua Postille asiakkaan ilmoittamat jakeluvirheet, kuten puuttuvan lehden, jonka Posti toimittaa asiakkaalle erilliskuljetuksena
 
-## Varhaisjakelunippujen päivittäminen
+### Varhaisjakelunippujen päivittäminen
 
 Varhaisjakelu –näkymässä ylläpidetään myös esim. Vakioniput –rekisteriä, jossa listataan
 - mm. lehden toimistoon vietävän nipun koko
