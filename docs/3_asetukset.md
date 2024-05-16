@@ -279,20 +279,25 @@ Esim. jos sama myyntituote on useammassa eri lehdessä
 
 ## Julkaisut
 
-Julkaisut –välilehdellä on Lisää –painike, jolla yksittäisistä julkaisuja voidaan muodostaa eri kanavia varten
+Julkaisut–välilehdellä voi muokata ja lisätä julkaisuja. Julkaisu on tuote, jossa mainos/ilmoitus esitetään, kuten lehti, radiomainos, uutiskirje, www-sivu jne. Lisää–painikeella voidaan muodostaa yksittäisistä julkaisuja eri kanavia varten. Julkaisuja pääsee muuttamaan/poistamaan klikkaamalla Nimi–sarakkeesta löytyvää yksittäistä nimeä.
 
-Julkaisu on tuote, jossa mainos/ilmoitus esitetään: lehti, radiomainos, uutiskirje, www-sivu tms.
+![Julkaisut](/img/ohjeet/julkaisut.png)
+*Julkaisut välilehti*
+
+### Julkaisun lisääminen
 
 Julkaisulle määritellään mm. siihen liittyvä
 - Kanava (esim. tietty lehti, nettisivu, mainostaulu), joka valitaan valikosta
 - Nimi ja Numero, jotka ovat vapaasti määriteltävissä
 - Teema, joka on vapaasti määriteltävissä
+- Sivumäärä
 - Ilmestymispäivä (jolloin esim. lehti jaetaan)
 - Aineiston viimeinen käsittelypäivä (mihin mennessä siihen halutut ilmoitusaineistot pitää olla toimitettuna)
 
-Julkaisuja pääsee muuttamaan/poistamaan klikkaamalla Nimi –sarakkeesta löytyvää yksittäistä nimeä.
-
 Valmiin julkaisun (PDF tiedosto) voi ladata palveluun, jolloin se tulee välittömästi näkyviin OmaPalveluun kaikille ko. julkaisun tilanneille asiakkaille ja/tai kaikille niille, jotka ovat siihen ostaneet mainos-/ilmoitustilaa
+
+![Julkaisujen lisääminen](/img/ohjeet/julkaisun-lisaaminen.png)
+*Julkaisun tiedot*
 
 ## Irtonumerot
 
