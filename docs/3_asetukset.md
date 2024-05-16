@@ -402,6 +402,9 @@ Ja muuttaa tiliöintien tilitietoja, sekä lähettää/vastaanottaa palveluun li
 
 ## Käyttäjät
 
+![Käyttäjät](/img/ohjeet/kayttajat.png)
+*Pääkäyttäjät voivat hallinoida palveluiden käyttäjiä Käyttäjät-välilehdeltä.*
+
 Käyttäjät –välilehdellä Pääkäyttäjäksi nimetyt voivat lisätä uusia, muuttaa ja poistaa olemassa olevia TaikaTilaus –palvelun käyttäjiä
 
 Käyttäjätunnus sarakkeen yksittäistä tunnusta klikattaessa avautuu sen tarkemmat tiedot
