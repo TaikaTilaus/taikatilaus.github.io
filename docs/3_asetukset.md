@@ -309,54 +309,79 @@ Irtonumerot –välilehdellä lisätään lehtien irtonumeroiden saajat
 - vain postituslistaan ja
 - tilaus- ja asiakasnumeroksi asetetaan 999999
 
-Irtonumeroiden lisäyksessä syötetään jokainen lehden irtonumero omalle rivilleen
-- Puolipisteillä eroteltuina muodossa:
+Irtonumeroiden lisäyksessä syötetään jokainen lehden irtonumero omalle rivilleen puolipisteillä eroteltuina muodossa:
+- Lehden nimi;
+- Lehden ilmestymispäivä;
+- Nimi (Suku- ja etunimi);
+- Yritys;
+- Katuosoite;
+- Katunumero;
+- Porras;
+- Huoneisto;
+- Postinumero;
+- Postitoimipaikka
 
-Lehden nimi;
-Lehden ilmestymispäivä;
-Nimi (Suku- ja etunimi);
-Yritys;
-Katuosoite;
-Katunumero;
-Porras;
-Huoneisto;
-Postinumero;
-Postitoimipaikka
+![Irtonumerot](/img/ohjeet/irtonumerot.png)
+*Irtonumerot-välilehdelle lisätään irtonumerojen saajat*
 
 ## Vastaanottoilmoitukset
 
-Vastaanottoilmoitukset –välilehden listauksen avulla vertaillaan vastaanotetut valtuutukset asiakasrekisteristä löytyviin asiakaskortteihin
+/// ei mitään hajua mitä tämä tarkoittaa, selitys
 
-RI-sanomassa saadut Vastaanottoilmoitusten Koodit ovat
+**Vastaanottoilmoitukset**–välilehden listauksen avulla vertaillaan vastaanotetut valtuutukset asiakasrekisteristä löytyviin asiakaskortteihin
+
+RI-sanomassa saadut Vastaanottoilmoitusten **Koodit** ovat
 0 = Lisäys
 1 = Muutos
 2 = Poisto
 
-Ja Vastaanottoilmoitusten Suoramaksujen Tyyppit ovat
+Ja Vastaanottoilmoitusten Suoramaksujen **Tyypit** ovat
 00 = eLasku
 01 = Suoramaksu
 
-Tarvittaessa päivitetään asiakkaan IBAN/BIC tiedot asiakaskortin Laskutustietoihin
+Tarvittaessa **päivitetään asiakkaan** IBAN/BIC tiedot asiakaskortin **Laskutustietoihin.**
 
-Käsittele vastaanottoilmoitukset –painikkeella muutokset päivittyvät vertailulistaukselle
+**Käsittele vastaanottoilmoitukset** –painikkeella muutokset päivittyvät vertailulistaukselle
 
 Oletuksena näitä vastaanottoilmoituksia haetaan palveluun 6 h välein.
 
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
+
 ## Muut asetukset
 
-Muut asetukset –välilehdellä voi lisätä mm.
+**Muut asetukset** –välilehdellä voi lisätä asiakasryhmiä ja -rooleja, sekä tilauksien katkaisujen syitä.
 
-Valikkoihin erilaisia Asiakasryhmiä ja Asiakasrooleja, jotka
+![Muut asetukset](/img/ohjeet/muut-asetukset.png)
+*Muut asetukset-välilehti*
+
+### Asiakasryhmät ja roolit
+
+Voit luetella kenttiin erilaisia **Asiakasryhmiä ja Asiakasrooleja**, jotka
 - näkyvät Asiakaskortin valintalistalla
-- ovat käytettävissä erilaisissa hakulistauksien koostamisessa
+- ovat käytettävissä erilaisissa hauissa (esim. halutaan lähettää sähköpostia asikkaille, joiden rooli on johtaja asiakkuusfirmassa)
 
-Valikosta Katkaisun syy valittava vaihtoehto merkitään Tilaukselle, kun tilaus peruutetaan
+Tämä on hyödyllistä esimerkiksi kohdennetun markkinoinnin kannalta.
 
-Haut -näytöllä huomioitavat katkaisun syyt mitkä sisältyvät valikon hakuehtoon: KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT
+![Ryhmittely](/img/ohjeet/ryhmittely.png)
+*Asiakasryhmän ja Asiakasroolin voi asettaa asiakkaalle asiakaskortin Ryhmittely-alavalikossa.*
+
+### Tilauksien katkaisujen syiden luottelu
+
+![Katkaisun syyt](/img/ohjeet/katkaisun-syyt.png)
+*Voit asettaa katkaisujen syyt ja karsintaperusteet Muut asetukset-välilehdeltä*
+
+**Katkaisun syyt**-valikkoon kirjataan mahdollisia tilauksen katkaisusyitä, joita voi valita tilauksen katkaisun yhteydessä. (Esim. "Lehti on liian kallis")
+
+![Katkaisun syyt](/img/ohjeet/katkaisun-syyt2.png)
+*Voit valita tällä välilehdelle asettemasi syyt katkaisulle tilaukselle katkaisun yhteydessä.*
+
+**Haku-näytöllä katkaisun syyt mitkä sisältyvät ehtoon: [KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]**, asetetaan ne katkaisun syyt, jotka voidaan karsia hausta. Esim. Haku-näytön kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat esim. tilaajan kuolemasta tai oikeustoimikelvottomuudesta, niin että nämä asiakkaat eivät joudu soittolistaan.
 
 ## Pääkäyttäjä
 
-Pääkäyttäjä –välilehdellä voi palvelun Pääkäyttäjäksi nimetyt lisätä mm.
+///laajennus tähän
+
+Pääkäyttäjä–välilehden tietoja voi muokata vain palvelun Pääkäyttäjiksi nimetyt. Välilehdeltä voi lisätä mm.
 - yrityksen ja sen tuotteiden perustietoja
 - uusia Lehtien tilaustapoja
 - muuttaa Laskunumerosarjan alku- ja loppunumerointeja
@@ -373,8 +398,7 @@ Pääkäyttäjä –välilehdellä voi palvelun Pääkäyttäjäksi nimetyt lis�
 Sekä koostaa raportin Koko Asiakasrekisteri Exceliin + tilaus, lasku ja myyntitiedot –taulukkoon
 - tuo KAIKKI, (Poistettu 0=normaali / Poistettu 1=poistettu) , jonka avulla voidaan päättää mm. palvelusta pois siivottavat vanhat tiedot (kuten tupla-asiakaskortit)
 
-Ja muuttaa tiliöintien tilitietoja,
-sekä lähettää/vastaanottaa palveluun liittyviä siirtotiedostoja
+Ja muuttaa tiliöintien tilitietoja, sekä lähettää/vastaanottaa palveluun liittyviä siirtotiedostoja
 
 ## Käyttäjät
 
