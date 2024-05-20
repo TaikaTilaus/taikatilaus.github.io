@@ -119,6 +119,18 @@ Manuaalinen laskun lisääminen asiakkaalle tehdään
 
 Lisää laskujen käsittelyn esimerkkejä löytyy Ohjeet / Laskut -kohdan lopusta
 
+### Saldon käyttäminen laskun maksamiseen
+
+**Saldoa** kertyy asiakkaalle esimerkiksi siinä tapauksessa, että asiakas on **maksanut** jonkun tilauksen, mutta haluaa sittenkin **vaihtaa** sen toiseen tilaustuotteeseen. Kun tilaus katkaistaan, tulee asiakkaalle hyvityksenä tilauksen **saamattomista lehdistä** tietty euromäärä. Tämä määrä siirtyy asiakkaan saldoon, jota voidaan käytettää tulevien laskujen maksamiseen.
+
+Saldon siirto asiakkaan tiedoille tehdään tilauksen tiedoista, painamalla **Maksetun tilauksen katkaisu** -painiketta.
+
+![Tilauksen tiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo2.png)
+*Saldon siirto asiakkaalle tehdään tilauksen tiedoista.*
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo4.png)
+*Saldo näkyy asiakkaan tiedoissa laskutustietojen alla.*
+
 ## Laskujen lähetys
 
 ### Yleistä laskutusajosta

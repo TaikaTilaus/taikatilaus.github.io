@@ -40,6 +40,10 @@ Ilmoitusmyynnin olessa voimassa, voit hakea:
 - vain tiettyyn myyjään liitettyjä asiakkaita valitsemalla **Valitse myyjä** -valikosta suodatuksen
 - tiettyjä ilmoitusvarauksia **varausnumerolla**
 
+Ilmoitusmyyntiin yhdistetty myyjä näkyy listassa asiakkaan kohdalla.
+
+![Myyjä](/img/ohjeet/myyja.png)
+
 ### OmaPalvelu
 
 Jos asiakkaalla on käytössään OmaPalvelu, näkyy tieto käyttäjän tunnuksista ja viimeisestä kirjautumisesta palveluun viimeisessä sarakkeessa.
