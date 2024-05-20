@@ -11,7 +11,7 @@ const FeatureList = [
         Yksityiskohtaiset ohjeet TaikaTilaus-sovelluksen käyttöön.
       </>
     ),
-    url: '/docs/ohjeet'
+    url: '/docs/etusivu'
   },
   {
     title: 'Pikaohjeet',

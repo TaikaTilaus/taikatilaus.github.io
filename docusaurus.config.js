@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: 'Ohjeet',
-                to: '/docs/ohjeet',
+                to: '/docs/etusivu',
               },
               {
                 label: 'Pikaohjeet',
