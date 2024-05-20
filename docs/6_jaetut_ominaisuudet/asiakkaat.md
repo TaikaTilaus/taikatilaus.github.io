@@ -19,7 +19,7 @@ Asiakastiedoissa näkyy asiakkaan yhteys- ja laskutustiedot, asiakkaan ryhmittel
 ![Asiakas - Navigointi](/img/ohjeet/asiakas2.png)
 *Asiakaskortin yläpalkista pääset muokkaamaan asiakaskorttia, siirtämään tietoja leikepöydälle ja navigoimaan asiakkaiden välillä*
 
-Asiakkaaseen liittyvät Laskut ja Tilaukset näytetään kootusti omissa kentissään. Niitä pääset lisäämään painamalla Lisää tilaus/lasku -painikkeista. 
+Asiakkaaseen liittyvät Laskut ja Tilaukset näytetään kootusti omissa kentissään. Niitä pääset lisäämään painamalla Lisää tilaus/lasku -painikkeista. Yksittäisiä laskuja pääset muokkaamaan painamalla laskun numerosta. Tilauksia pääsee muokkaamaan klikkaamalla tilauksen nimeä.
 
 ![Tilaukset ja laskut](/img/ohjeet/asiakas3.png)
 *Asiakkaaseen liittyvät tilaukset ja laskut näet asiakastiedoissa erillisillä kentillään.*
@@ -29,6 +29,7 @@ Asiakkaaseen liittyvät Laskut ja Tilaukset näytetään kootusti omissa kentiss
 Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan Avaaa-ikonista ja valittu esitystapa tallentuu käyttäjäkohtaisesti.
 
 ![Asiakaskortti](/img/ohjeet/asiakaskortti.png)
+*Asiakaskortille kootaan kaikki asiakasta koskevat tiedot*
 
 ### Yhteystiedot
 
@@ -40,6 +41,7 @@ Asiakkaan **Yhteystiedot** -osiossa lisätään asiakkaalle perustietoja, kuten:
 - Asiakastyyppi (esim. onko kyseessä Henkilö- tai Yritysasiakas)
 
 ![Asiakaskortti - Yhteystiedot](/img/ohjeet/asiakaskortti2.png)
+*Asiakkaan yhteystiedot kirjataan asiakaskortin ensimmäiseen osioon*
 
 ### Laskutustiedot
 
@@ -54,31 +56,35 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 - **Ilmoitusasiakkaat**:  Lisäksi täällä ilmoitusasiakkaalle liitetään nimetty (oletus) Myyjä, jonka avulla heille aktivoituu Näytä ilmoitusmyynti -linkki Etusivun-listausnäkymään.
 
 ![Asiakaskortti - Laskutustiedot](/img/ohjeet/laskutustiedot.png)
+*Laskutiedoista pääset muokkaamaan asiakkaan maksu- ja laskutietoja tai lisäämään asiakkaan tilauksille toisen maksaja*
 
 ### Markkinointitiedot
 
-Markkinointitiedoissa lisätään mahdolliset luvat/kiellot eri kanaville ja mistä lähteestä ne on ilmoitettu
+**Markkinointitiedoissa** lisätään asiakkaan mahdolliset antamat markkinointiluvat ja/tai -kiellot eri kanaville ja mistä lähteestä ne on ilmoitettu.
 
-Ryhmittely osiossa voidaan asiakkaalle aktivoida Asetukset/Muut asetukset toiminnossa määritellyistä valikoista mm.
-- Asiakasroolit, jonka avulla voi tehdä hakuja ja hyödyntää mm. kohdennetussa viestinnässä
-- Asiakasryhmät, jota voi hyödyntää esim. asiakkaiden segmentoinnissa
-- Vapaa ryhmittely, johon voi kirjoittaa mitä tahansa tekstiä ja hyödyntää sitä mm. hauissa
-- Automaattinen ryhmittely muodostuu ohjelmallisesti esim. voimassa olevan tilauksen mukaisesti
+![Asiakaskortti - Markkinointitiedot](/img/ohjeet/markkinointitiedot.png)
+*Asiakkaan antamia markkinointikieltoja voidaan lisätä tälle välilehdelle*
 
-Muut tiedot osiossa voidaan asiakkaalle aktivoida mm.
-- Estolista, jolloin hänelle ei toimiteta lehtiä
-- Väliaikaisen osoite, jota voi hyödyntää esim. kesäloman aikaiseen lehtien jakoon
-- Väliaikaisen osoitteen käyttö kaikkia postituksia koskevaksi (esim. myös laskuja)
-- Jakelun keskeytys -linkin kautta lisätään mahdollinen aikarajoitus, jolloin jakelua ei tehdä
-- Näytä osoitemuutos, jolla tallennetaan myöhemmin voimaantulevat osoitetiedot
+### Ryhmittely
 
-Oma palvelu –osioon tallennetaan käyttäjän sisäänkirjautumiseen tarvittavan tunnuksen tiedot
+**Ryhmittely**-osiossa voidaan asiakkaalle aktivoida <a href="https://taikatilaus.github.io/docs/asetukset#muut-asetukset">asetuksista määritellyistä valikoista </a> mm.
+- **Asiakasroolit**, jonka avulla voi tehdä hakuja ja hyödyntää mm. kohdennetussa viestinnässä
+- **Asiakasryhmät**, jota voi hyödyntää esim. asiakkaiden segmentoinnissa
+- **Vapaa ryhmittely**, johon voi kirjoittaa mitä tahansa tekstiä ja hyödyntää sitä mm. hauissa
+- **Automaattinen ryhmittely** muodostuu ohjelmallisesti esim. voimassa olevan tilauksen mukaisesti
+
+![Asiakaskortti - Ryhmittely](/img/ohjeet/ryhmittely-asiakas.png)
+*Asiakkaan ryhmittely on kätevää esimerkiksi markkinoinnin kohdennuksen kannalta*
+
+### OmaPalvelu
+
+**Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalveluun.
 
 Käyttäjätunnus –kenttään tallennetaan sovittu tunnuksen muoto esim.
 - Asiakasnumero
 - Sähköpostiosoite
 
-Salasana –kenttään voidaan antaa
+Salasana–kenttään voidaan antaa
 - selkokielinen salasana tai
 - Luo uusi salasana –painikkeesta ohjelma luo ehdotuksen alustavasta salasanasta
 Molemmat tallentuvat palveluun salattuna [SALATTU], vasta sen jälkeen, kun ne on tallennettu Tallenna tunnus ja salasana –painikkeella
@@ -87,28 +93,62 @@ Lähetä uusi tunnus –sähköposti –painikkeella lähetetään asiakkaalle v
 
 Lähetä salasanan resetointi –sähköposti –painikkeesta lähetetään asiakkaalle viesti, jossa pyydetään antamaan uusi salasana
 
-Muut tiedot osiossa voidaan asiakkaalle aktivoida mm.
 
-Näytä väliaikainen osoite -painikkeen kautta lisätään mahdollinen väliaikaisosoite, joka huomioidaan jakelussa automaattisesti annetun aikarajan mukaisesti
+/// Onko oikein, puuttuuko jotain?
 
-Näytä jakelun keskeytys -painikkeen kautta lisätään mahdollinen aikaväli, jolloin tilauksen jakeluun halutaan tilapäinen keskeytys
-- Aikarajoitus huomioidaan jakelussa automaattisesti annetun aikarajan mukaisesti
-- Jatka voimassa olevia tilauksia linkistä jatketaan kaikkien aktiivisten tilausjaksojen päättymispäiväystä keskeytyksen keston verran eteenpäin
+![Asiakaskortti - OmaPalvelu](/img/ohjeet/omapalvelu-tunnukset.png)
 
-Näytä osoitemuutos –painikkeen kautta lisätään uusi osoite, jonka halutaan aktivoituvan tulevaisuudessa
-- Osoitemuutos astuu voimaan –kenttään annettua päivää edeltävänä yönä
-- Siirretään alla annetut osoitetiedot asiakastietojen yläosan vakio-osoite kenttiin automaattisesti
-- Lisätiedot –kenttään lisätään lokitietona ”Osoitemuutos päivitetty pp.kk.vvvv”
+### Muut tiedot
 
+**Muut tiedot** -osiossa voidaan asiakkaalle aktivoida mm.
+- **Y-tunnus** //what is this?
+- **Estolista**, jolloin hänelle ei toimiteta lehtiä ja asikas ei voi tehdä uusia tilauksia
+- **Sisäisiä lisätietoja**, mitkä kaikkien olisi hyvä tietää asiakkaasta
 
-Väliaikainen osoite, Jakelun keskeytys ja Näytä osoitemuutos (tulevaisuuteen)
+![Asiakaskortti - Muut Tiedot](/img/ohjeet/muuttiedot.png)
+*Muihin tietoihin voidaan mm. lisätä asiakkaasta sisäisiä lisätietoja*
 
-## Tilauksen ja laskun lisääminen asiakkaalle
+### Jakelupalaute
 
-Asiakastiedot -näkymässä listatuista ja sen Laskut -osion Nro –sarakkeessa valitun yksittäisen laskun tietoja pääsee muokkaamaan/poistamaan sarakkeen yksittäisiä numeroita klikkaamalla
+**Jakelupalautteeseen** voidaan merkitä asiakkaan mahdollisesti kokemat **jakeluhäiriöt**, mitkä ohjelma automaattisesti ilmoittaa eteenpäin jakelupalvelulle, kuten Postille. 
 
-Tilaukset –osion yksittäisen tilauksen Tilaaja/Maksaja/tilauksen nimi –linkkejä klikkaamalla pääsee muuttamaan/poistamaan mm.
-- Tilaajan yhteys- ja laskutustietoja
-- Jatkamaan aiempaa/vastaavaa tilausta (vastaavilla tiedoilla)
+Lomakkeeseen kirjataan:
+- Palautteen syy (esim. ei ole saanut lehteä)
+- Mitä lehteä palaute koskee
+- Haluaako asiakas puutelehden 
+- Palautteen lisätietoja
 
-Voit myös lisätä uusia Tilauksia ja/tai Laskuja Lisää tilaus / Lisää lasku -painikkeista
+**Jakelupalautteen historiatiedoista** näkee historiaa asiakkaan aikaisemmin kokemista jakeluhäiriöistä
+
+![Asiakaskortti - Jakelupalaute](/img/ohjeet/jakelupalaute.png)
+*Jakelupalautteeseen voidaan kirjata asiakkaan kokemat jakeluhäiriöt*
+
+### Väliaikainen osoite
+
+Väliaikainen osoite -osiossa voidaan kirjata asiakkaalle väliaikainen osoite esim. kesäloman ajaksi. Osoite huomioidaan jakelussa automaattisesti annetun aikarajan mukaisesti. 
+
+Lomakkeeseen lisätään:
+- Väliaikaisen osoitteen kestoaika
+- Väliaikainen osoite
+- Valitaan koskeeko väliaikainen osoite kaikkea postitusta tilauksen lisäksi esim. laskuja
+
+![Asiakaskortti - Väliaikainen osoite](/img/ohjeet/valiaikainen-osoite.png)
+*Asiakkaalle voidaan määrätä väliaikainen osoite esimerkiksi kesäloman ajaksi*
+
+### Jakelun keskeytys
+
+**Jakelun keskeytys** -osion kautta lisätään mahdollinen aikaväli, jolloin tilauksen jakeluun halutaan tilapäinen keskeytys
+- Aikarajoitus huomioidaan jakelussa **automaattisesti** annetun aikarajan mukaisesti
+- **Jatka voimassa olevia tilauksia** -linkistä jatketaan kaikkien aktiivisten tilauksien päättymispäivää keskeytyksen keston verran ajan eteenpäin
+
+![Asiakaskortti - Jakelun keskeytys](/img/ohjeet/keskeytys.png)
+*Asiakkaan tilauksien jakelun voi keskeyttää valituksi määräajaksi*
+
+### Tuleva osoitteenmuutos
+
+**Tuleva osoitemuutos** –osion kautta lisätään uusi osoite, jonka halutaan aktivoituvan tulevaisuudessa
+- Osoitteenmuutos astuu voimaan -kenttään merkitään päivä, mistä lähtien jakelun halutaan kohdistuvan uuteen vakiosoitteeseen
+- Ohjelma päivittää uuden osoitteen **automaattisesti** asiakaskortille, kun se aktivoituu
+
+![Asiakaskortti - Tuleva osoitteenmuutos](/img/ohjeet/osoitteenmuutos.png)
+*Asiakkaan vanha osoite vaihtuu automaattisesti asiakkaan tulevaan osoitteeseen määrättynä aktivointipäivänä.*
