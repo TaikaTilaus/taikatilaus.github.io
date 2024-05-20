@@ -6,7 +6,9 @@ sidebar_position: 1
 
 ## Etusivun hakuehdot
 
-Asiakkaita hallinnoidaan **Etusivulla**, jonka kautta voi hakea henkilöitä ja yrityksiä antamalla mm. **asiakasnumeron** tai **nimen**, esim. syöttämällä "Antti" hakukenttään ja klikkaamalla **Hae** –painiketta, niin saa listauksen näkyviin kaikista asiakkaista joiden nimessä esintyy "Antti"
+Asiakkaita hallinnoidaan **Etusivulla**, jonka kautta voi hakea henkilöitä ja yrityksiä antamalla mm. **asiakasnumeron** tai **nimen**, esim. syöttämällä "Antti" hakukenttään ja klikkaamalla **Hae** –painiketta, niin saa listauksen näkyviin kaikista asiakkaista joiden nimessä esintyy "Antti". Alla olevassa kuvassa näet esimerkin mukaisen hakutuloksen (huom. tiedot ovat kuvitteellisia, eivät oikeiden ihmisten tietoja). 
+
+![Etusivu - Haku ](/img/ohjeet/esimerkkihaku.png)
 
 Asiakasrekisteristä voi **hakea henkilöitä, yrityksiä tai yhteisöjä** mm. seuraavilla hakuehdoilla:
 - Asiakasnumero
@@ -17,6 +19,14 @@ Asiakasrekisteristä voi **hakea henkilöitä, yrityksiä tai yhteisöjä** mm. 
 - haluamallaan Lasku-, Tilaus- ja Varausnumerolla siihen liittyvät asiakastiedot
 
 Voi myös hakea koko nimellä esim: Virtanen Pekka.
+
+Haun muodostamassa listassa näet erinäisiä asiakkaita koskevia tietoja:
+- Asiakasnumeron
+- Nimen ja yrityksen
+- Osoitteen
+- Sähköpostin ja puhelinnumeron
+
+Listauksessa on myös tilausmyynti- ja ilmoitusmyyntikohtaiset sarakkeet.
 
 ### Tilausmyyntiä koskevat tiedot
 
