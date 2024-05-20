@@ -6,13 +6,13 @@ sidebar_position: 3
 
 ## Yleistä
 
-Postituslista –välilehdellä koostetaan tietyn lehden postituslista sen painamista varten.
+**Postituslista**–välilehdellä koostetaan tietyn lehden postituslista sen painamista varten.
 
-Painotalolle voidaan luoda oma käyttäjätunnus, millä se voi itse käydä lataamassa postituslistan suoraan sovelluksesta haluttuna päivänä
+Painotalolle voidaan luoda oma käyttäjätunnus, millä se voi itse käydä lataamassa postituslistan suoraan sovelluksesta haluttuna päivänä.
 
 ## Postituslistan luonti
 
-Ennen uuden Postituslistan luontia varmistetaan, että tilausten Kestojatko-ajo on tehty ensin, mikäli uudistettavat tilaukset halutaan mukaan ko. Postituslistalle.
+Ennen uuden Postituslistan luontia varmistetaan, että tilausten Kestojatko-ajo on tehty, mikäli uudistettavat kestotilaukset halutaan mukaan kyseiselle postituslistalle.
 
 ### Kestojatkon tekeminen
 
@@ -56,36 +56,55 @@ Painamalla **Jatka kestotilaukset** -painiketta suoritat kestojatkon. Kestojatko
 
 ### Postituslistan luonnin ennakkotoimenpiteet
 
-1) Tee Kestojatko / Hae jatkettavat kestotilaukset lisättyäsi ensin hakuun Alku- ja Loppupäiviä +1 viikko
+1) Tee **Kestojatko**
 
-2) Asetukset / Irtonumerot -välilehdellä
-- Poista ensin vanhat tiedot listaukselta ja
-sen jälkeen
-- Kopioi yksittäisten Irtonumeroiden osoitetiedot ja Tallenna (katso ettei alempana olevaan listaan tule virheilmoituksia)
+2) **Asetukset/Irtonumerot** -välilehdellä
+- **Poista** ensin vanhat tiedot listaukselta ja sen jälkeen
+- **Kopioi** yksittäisten Irtonumeroiden osoitetiedot ja Tallenna (katso ettei alempana olevaan listaan tule virheilmoituksia)
 
-- Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim. Yritysnimi tai rappu/hsto) vaatii sille varatun paikan rivillä (10 sarakekohtaa)
+![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot-postituslista.png)
 
-3) Ja klikkaa Hae irtonumerot postituspäivältä –painiketta, joka hakee ko. päivänä julkaistavista ilmoitusvarauksista aktivoidut Tarkistuskappaleet ja lisää niiden maksajat autom. Irtonumerot –listalle
-Tallenna lopuksi alempi listauskin
+Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim. Yritysnimi tai rappu/hsto) vaatii sille varatun paikan rivillä.
 
-4) Asetukset / Varhaisjakelu –välilehdellä lisätään/muokataan postituksen mukaan halutut klikkaamalla Vakioniput -painiketta
-- Poista ensin mahdolliset turhat tiedot listaukselta ja
-sen jälkeen
-- Päivitä/Kopioi (malliriviksi) yksittäisten Vakionippujen osoite- ja lkm -tiedot ja Tallenna (katso ettei alempana olevaan listaan tule virheilmoituksia)
+![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot-postituslista-virhe.png)
 
-- Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim. Yritysnimi tai osoite) vaatii sille varatun paikan rivillä (12 sarakekohtaa)
+3) Jos sinulla on ilmoitusmyynninhallinta käytössä klikkaa **Hae irtonumerot postituspäivältä** –painiketta, joka hakee kyseisenä päivänä julkaistavista ilmoitusvarauksista aktivoidut **Tarkistuskappaleet** ja lisää niiden maksajat automaattisesti **Irtonumerot**–listalle. **Tallenna**.
+
+4) **Asetukset/Varhaisjakelu** –välilehdellä lisätään/muokataan postituksen mukaan halutut klikkaamalla **Vakioniput**-painiketta
+- **Poista** ensin mahdolliset turhat tiedot listaukselta ja sen jälkeen
+- **Päivitä/Kopioi** (malliriviksi) yksittäisten Vakionippujen osoite- ja lkm -tiedot ja Tallenna (katso ettei kentän alla olevaan listaan tule virheilmoituksia)
+
+///what does this mean?
+
+![Asetukset-välilehti - Varhaisjakelu](/img/ohjeet/varhaisjakelu-postitus.png)
+
+Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim. Yritysnimi tai osoite) vaatii sille varatun paikan rivillä.
+
+![Asetukset-välilehti - Varhaisjakelu](/img/ohjeet/virhe-vakioniput.png)
+*Esimerkki virheellisesti syötetystä tiedosta.*
 
 ### Postituslistan luonti
 
-Valitse Lehti ja voimassaolopäivä ja klikkaa Näytä tilaukset –painiketta saadaksesi tilauksien yhteenvedon näkyviin
+- Valitse **Lehti** ja **voimassaolopäivä** ja klikkaa Näytä tilaukset –painiketta saadaksesi tilauksien yhteenvedon näkyviin
 
-Näytä voimassa olevat tilaukset kaikilla tiedoilla –painike luo taulukon, jonka voi avata näkymän alareunasta jatkokäsittelyä varten
+![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista1.png)
 
-Varsinainen postituslista luodaan klikattaessa Tee postituslista painoa varten -painiketta
+- **Näytä voimassa olevat tilaukset kaikilla tiedoilla** –painike luo taulukon, jonka voi avata selaimen latausikkunasta jatkokäsittelyä varten
 
-Luonnin jälkeen Postituslista -yhteenvetotiedot listautuvat näkymän alaosaan
+![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista2.png)
 
-Postituslistojen ajot voidaan myös automatisoida ja niihin voidaan liittää automaattiset koontiviestit haluttuihin sähköpostiosoitteisiin
+![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista3.png)
+
+- Tilauksissa olevat poikkeukset näet painamalla **Näytä poikkeukset** -nappia
+
+![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista5.png)
+
+- Varsinainen postituslista luodaan klikattaessa **Tee postitusajo lehden toimittamista varten** -painiketta
+
+![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista4.png)
+
+- Luonnin jälkeen Postituslista-yhteenvetotiedot listautuvat näkymän alaosaan
+- Postituslistojen ajot voidaan myös automatisoida ja niihin voidaan liittää automaattiset koontiviestit haluttuihin sähköpostiosoitteisiin
 
 ### Postituslistan jatkokäsittely ja siirrot painoon/jakeluun
 

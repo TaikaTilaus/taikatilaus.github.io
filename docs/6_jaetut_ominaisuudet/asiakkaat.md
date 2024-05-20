@@ -102,7 +102,7 @@ Lähetä salasanan resetointi –sähköposti –painikkeesta lähetetään asia
 
 **Muut tiedot** -osiossa voidaan asiakkaalle aktivoida mm.
 - **Y-tunnus** //what is this?
-- **Estolista**, jolloin hänelle ei toimiteta lehtiä ja asikas ei voi tehdä uusia tilauksia
+- **Estolista**, jolloin hänelle ei toimiteta lehtiä (esim. maksamattomien laskujen takia)
 - **Sisäisiä lisätietoja**, mitkä kaikkien olisi hyvä tietää asiakkaasta
 
 ![Asiakaskortti - Muut Tiedot](/img/ohjeet/muuttiedot.png)
