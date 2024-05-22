@@ -4,31 +4,47 @@ sidebar_position: 1
 
 # Tilaus
 
-## Tilauslomake ja koontitiedot
-Asiakastiedot -näkymässä listatuista ja sen Tilaukset -osiossa valitun yksittäisen tilauksen tietoja pääsee muokkaamaan/poistamaan tilaukseen liittyviä
--Lehden tietoja (esim. tilauksen Katkaisun syyn)
--Hinta- ja maksutietoja (tilaushetkellä kiinnitetyn tuotteen hinta)
--Laskutietoja
--Tilaaja ja Maksaja tietoja
--Laskutuspyyntöjä, joiden kautta tilaus laskutetaan
-Tarvittaessa voi Laskea tilauskohtaisesti syötetyn alennusprosentin mukaisen uuden Verollisen summan ja Tallentaa muutetut tiedot laskutuspyyntöön.
+## Tilauslomake ja -tiedot
+Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näkymässä omassa kentässään. Yksittäistä tilausta klikkaamalla pääset muokkaamaan sen tietoja. Pääset tilaukseen suoraan etusivulta **hakemalla tilausnumeroa**.
+
+![Asiakas - Tilaukset](/img/ohjeet/tilaukset1.png)
+
+**Tilauksen tiedot** -lomakkeella voit muokata seuraavia tietoja:
+
+- Tilaustietoja (esim. tilauksen Katkaisun syyn)
+- Hinta- ja maksutietoja (tilaushetkellä kiinnitetyn tuotteen hinta)
+- Laskutietoja
+- Tilaaja ja Maksaja tietoja
+- Laskutuspyyntöjä, joiden kautta tilaus laskutetaan
+
+![Tilauksen muokkaus](/img/ohjeet/tilaukset2.png)
+
+
 
 Lehden Katkaisun yhteydessä tulee samalla muuttaa tilauksen Loppupäivä samaksi kuin Katkaisupäivä.
 Tällöin vältytään tilanteelta, jossa Kestojatkon ajossa toinen voimassaoleva tilaus ei uusiutuisikaan.
 
-Tilauksen Tilaajan ja muun Maksajan tietoja voi lisätä ja muuttaa.
-Yksittäistä tilausta voi jatkaa vastaavilla tiedoilla Jatka tilausta -painikkeesta.
-Yksittäisen tilauksen voi myös poistaa Poista tilaus -painikkeella.
-Asiakastiedot -näkymässä listatuista ja sen Tilaukset -osion tilauksen nimestä valitun yksittäisen tilauksen
+
+- Yksittäistä tilausta voi jatkaa vastaavilla tiedoilla Jatka tilausta -painikkeesta.
+- Yksittäisen tilauksen voi myös poistaa Poista tilaus -painikkeella.
+
+
+### Laskutuspyynnöt
+
 Laskutuspyyntöjä pääsee lisäämään/muokkaamaan
--Kynä –ikonista
--Lisää laskutuspyyntö –painikkeesta
+- Kynä–ikonista
+- Lisää laskutuspyyntö –painikkeesta
+
 Laskutuspyyntöä voi muokata vain ennen varsinaisen laskun luomista esim. Hinta-tietoja klikkaamalla
 -Laske veroton verollisesta -painiketta
 -Laske verollinen verottomasta -painiketta
+
 Laskutuspyynnöstä voi luoda asiakkaalle laskun/kuitin Tee laskutuspyynnöstä lasku –painikkeen kautta
+
 Alapuolelle avautuvalle lomakkeelle näytetään tilauksen luonnin yhteydessä määritetyt hintatiedot, joita voi tarvittaessa muuttaa (esim. lisätä Alennusprosentin ja Laskea sen mukaisen uuden Verollisen summan) ja Tallentaa muutetut tiedot Laskutuspyyntöön
+
 Tarvittaessa voi vielä tässäkin vaiheessa lisätä yksittäiselle laskulle ja sen tuoteriville tulostuvaa lisätietoa.
+
 Lisätiedot tuoteriville –kentässä annetaan asiakkaan laskulle näkyviin haluttavat tiedot
 - Ne voidaan myös tallentaa Lisää vakiotekstiksi –painikkeesta ja käyttää jatkossakin
 - Tallennettujen listaus avautuu Tuoterivin vakiotekstit –painikkeesta ja Valitse –painikkeesta klikkaamalla kopioituu ko. teksti kenttään, jossa sitä voi tarvittaessa vielä muokata
