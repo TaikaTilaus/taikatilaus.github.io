@@ -25,7 +25,8 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 **Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja, ja **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. Autolehti Kestotilaus 12 kk). 
 
 **Tuotelistauksessa** on tuotteista seuraavat tiedot: 
-- **Tuotenumero**, **Tuoteryhmä**
+- **Tuotenumero**
+- **Tuoteryhmä**
 - kuuluuko tuote johonkin **Kampanjaan**
 - tilauksen kesto kuukausina (**KestoKK**)
 - tuotteen **veroton hinta**
@@ -394,7 +395,9 @@ Tämä on hyödyllistä esimerkiksi kohdennetun markkinoinnin kannalta.
 ![Katkaisun syyt](/img/ohjeet/katkaisun-syyt2.png)
 *Voit valita tällä välilehdelle asettemasi syyt katkaisulle tilaukselle katkaisun yhteydessä.*
 
-**Haku-näytöllä katkaisun syyt mitkä sisältyvät ehtoon: [KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]**, asetetaan ne katkaisun syyt, jotka voidaan karsia hausta. Esim. Haku-näytön kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat esim. tilaajan kuolemasta tai oikeustoimikelvottomuudesta, niin että nämä asiakkaat eivät joudu soittolistaan.
+**Haku-näytöllä katkaisun syyt mitkä sisältyvät ehtoon: [KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]**, asetetaan ne katkaisun syyt, jotka voidaan karsia hausta. 
+
+Esim. //linkki **Haku**-näytön kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat esim. tilaajan kuolemasta tai oikeustoimikelvottomuudesta, niin että nämä asiakkaat eivät joudu soittolistaan.
 
 ## Pääkäyttäjä
 

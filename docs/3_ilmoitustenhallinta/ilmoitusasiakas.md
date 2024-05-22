@@ -4,86 +4,135 @@ sidebar_position: 1
 
 # Ilmoitusasiakas ja -myynti
 
-## Ilmoitusasiakkaan tiedot
-Asiakaskohtaiseen Ilmoitusasiakas –palveluun pääsee klikkaamalla Etsivun hakulistauksen Näytä ilmoitusmyynti –linkkiä Myyjä -sarakkeessa
+## Ilmoitusasiakas
 
-Vasempaan valikkoon ilmestyy uusi linkki Ilmoitusasiakas, josta pääsee palaamaan haetun asiakkaan tietoihin takaisin, mikäli siirtyy välillä muualle ohjelmaan
+Asiakaskohtaiseen **Ilmoitusasiakas**–palveluun pääsee hakemalla asiakkaan etusivulta ja sitten klikkaamalla **Näytä ilmoitusmyynti** –linkkiä asiakasriviltä.
 
-Ilmoitusasiakas -näkymässä näytetään asiakkaan koontitiedot ja välilehdet, jotka myös asiakas itse näkee kirjautuessaan OmaPalveluun
+![Etusivu](/img/ohjeet/ilmoitusasiakas.png)
+
+Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pääsee palaamaan haetun asiakkaan tietoihin takaisin, mikäli siirtyy välillä muualle ohjelmaan.
+
+![Ilmoitusasiakas-välilehti](/img/ohjeet/ilmoitusasiakas3.png)
 
 ## Ilmoitusasiakkaan koontisivu ja välilehdet
 
-Asiakkaan valitsemisen jälkeen myyjä näkee ko. asiakkaan Koonti -näkymän
+**Ilmoitusasiakas**-näkymässä näytetään asiakkaan tiedot ja välilehdet, jotka myös asiakas itse näkee kirjautuessaan OmaPalveluun. Myyjä näkee ylävalikossa lisäksi **Muistio** ja **Myynnit**-välilehdet, joita asiakas ei itse näe. Asiakkaan valitsemisen jälkeen myyjä näkee kyseisen asiakkaan Koonti-näkymän
+
 - Myyjä voi suorittaa myös asiakkaan puolesta toimintoja, kuten omien tietojen päivittämistä
 
-Omat tiedot –välilehdellä voi muokata asiakkaan perustietoja, kuten
+![Ilmoitusasiakas-välilehti](/img/ohjeet/ilmoitusasiakas2.png)
+
+### Omat tiedot
+
+**Omat tiedot** –välilehdellä voi muokata asiakkaan perustietoja, kuten
 - Yhteystietoja
 - Laskutustietoja
 - Yhteyshenkilöiden tietoja
 
-Yhteys- ja laskutustiedot vastaavat asiakaskortille tallennettuja tietoja
+**Yhteys- ja laskutustiedot** vastaavat asiakaskortille tallennettuja tietoja
 
-Yhteyshenkilöt –listaukselle voi tallentaa ilmoitusmyynteihin liittyvien henkilöiden yhteystietoja, kuten esim.
-- Aineistoista vastaavat
+**Yhteyshenkilöt** –listaukselle voi tallentaa ilmoitusmyynteihin liittyvien henkilöiden yhteystietoja, kuten esim.
+- Aineistoista vastaavavien henkilöiden yhteystiedot
 - Ulkopuoliset aineistojen toimittajat
 
-Aineistopankki –välilehdellä voi tallentaa esim. asiakkaan usein tarvittavia aineistoja, kuten
+![Ilmoitusasiakas - Omat tiedot](/img/ohjeet/omattiedot-ilmoitusmyynti.png)
+
+### Aineistopankki
+
+**Aineistopankki**–välilehdellä voi tallentaa esim. asiakkaan usein tarvitsemia aineistoja, kuten
 - Logoja
 - Kuvia
 
-- Ladattava aineisto haetaan omalta koneelta
-Browse –painikkeen avulla ja kuvataan sen sisältö (esim. logo (väri), logo (mv))
-- Aineisto tallennetaan palveluun Lisää aineisto aineistopankkiin -painikkeesta
+Ladattava aineisto haetaan omalta koneelta ja lisätään kuvaus sen sisällöstä (esim. logo (väri), logo (mv)). Lineisto tallennetaan palveluun **Lisää aineisto aineistopankkiin** -painikkeesta.
 
-Ilmoitukset –välilehdellä listataan asiakkaan ilmoitushistoria ja avoimet ilmoitusvaraukset
+![Ilmoitusasiakas - Aineistopankki](/img/ohjeet/aineistopankki.png)
 
-Listauksella näytettäviä ilmoitusvarauksia voi suodattaa
-- Lajittelutieto –valikon (Alkupäivä / Varausnumero) ja
-- Lajittelujärjestys –valikon avulla (Nouseva / Laskeva)
-- Aktivoimalla Piilota menneet –valintaruutu
+### Ilmoitukset
 
-Avoimia Ilmoitusvarauksia voi käsitellä
+**Ilmoitukset** –välilehdellä näkee kaikki asiakkaaseen **liitetyt ilmoitukset** (menneet ja avoimet) ja voi hallinnoida mm. ilmoitustilauksiin liittyviä aineistojen tiedostoja, kommentointeja ja hyväksyntöjä. Listauksella näkee yksittäisen ilmoituksen valmistusta varten palveluun ladatut aineistot, sekä aineistojen kuvaukset.
+
+![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/ilmoitukset-lista.png)
+
+Listauksella näytettäviä ilmoitusvarauksia voi järjestää
+- **Lajittelutieto**–valikon (Alkupäivä / Varausnumero) ja
+- **Lajittelujärjestys**–valikon avulla (Nouseva / Laskeva)
+- Aktivoimalla **Piilota menneet** –valintaruutu, mikä piilottaa kaikki ilmoitukset jotkat ovat ilmestyneet menneissä julkaisuissa.
+
+![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/ilmoitukset-suodatus.png)
+
+Avoimia ilmoitusvarauksia voi käsitellä
 - päivittämällä Ilmoitustekstitystä
 - lisäämällä kuva-aineistoa
 - lähettämällä aineiston ulkopuoliselle käsittelijälle latauslinkin palveluun
 
-Aiemmin tallennettuja ilmoitusmateriaaleja voi katsella klikkaamalla alustavia/valmiita aineistolinkkejä
+![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/aineisto.png)
 
-Lisättyjä tekstejä/aineistoja voi poistaa aktivoimalla Näytä tiedostojen poistaminen –valintaruutu
-- Lisättyjen ilmoitustietojen alle tulee näkyviin Roskakori -ikoni
+**Lähetä latauslinkki** -painikkeesta lähetetään aineiston toimittajan sähköpostiin linkki, millä hän voi kirjautua OmaIlmoitus –palveluun ja siellä ladata juuri kyseiseen ilmoitukseen liittyviä aineistoja. Painike näkyy vain, jos mainosta/ilmoitusta ei ole vielä otettu käsittelyyn.
 
-Julkaisut –välilehdellä listataan Ilmoitusvarauksiin liittyvät julkaisut, joista niitä voi katsella lehden muodossa
+![Ilmoitukset - Latauslinkin lähetys](/img/ohjeet/latauslinkki.png)
 
-Laskut –välilehdellä listataan Ilmoitusvarauksiin liittyvä laskutushistoria
+**Muuta ilmoitustekstiä** -painikkeista voi antaa ilmoituksen sisältötekstin esim. rivi-ilmoitukseen. Painiketta ei näytetä, mikäli Ilmoitus tulee valmiina aineistona –asetus on myyntivarauksessa aktivoituna
 
-Myyjä näkee ylävalikossa lisäksi Muistio, Myynnit ja Myyntihistoria -välilehdet, joita asiakas ei itse näe
+![Ilmoitukset - Latauslinkin lähetys](/img/ohjeet/ilmoitusteksti.png)
 
-Myynnit –välilehdellä näytetään asiakkaan Myyntihistoria ja aloitetaan uuden ilmoituksen varaaminen Lisää ilmoitusvaraus tai Lisää ilmoituspaketti -painikkeesta
+**Lisää aineisto** -painikkeista voi liittää aineiston erillisenä tiedostona, mitä käytetään ilmoituksen tuottamisessa. Jos aineisto sisältää valmiin ilmoituksen, joka ei ole menossa käsittelyyn, klikkaa **Aineisto on valmis ilmoitus!** -kentästä.
 
-## Myynnit koontisivu
+![Ilmoitukset - Latauslinkin lähetys](/img/ohjeet/aineisto-lisays.png)
 
-Myynti on asiakkaalle myyty kokonaisuus, joka voi sisältää useamman myyntivarauksen
+Aiemmin **tallennettuja ilmoitusmateriaaleja** voi katsella klikkaamalla aineistolinkkejä.
 
-Myyntivaraus on myyntiin liittyvä mainos/ilmoitus, esim. tietyn lehden etusivu
+Lisättyjä aineistoja **voi poistaa** aktivoimalla **Näytä tiedostojen poistaminen** –valintaruudun
+- Lisättyjen ilmoitustietojen alle tulee näkyviin **Roskakori**-ikoni
 
-Lisää ilmoitusvaraus –painikkeella lisätään uusi mainos-/ilmoitusvaraus
-Lisää ilmoituspaketti –painikkeella lisätään uusi ilmoituspaketin varaus
+![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/aineisto-poisto.png)
 
-Asetuksissa on voitu luoda myyntituotteista paketteja. Paketin lisäämisessä kerätään automaattisesti siihen kuuluvat myyntituotteet saman myynnin alle, mutta yksittäisten tuotteiden oletushintoja ei huomioida laskua luotaessa
+### Julkaisut
+
+**Julkaisut**–välilehdellä listataan ilmoitusvarauksiin liittyvät julkaisut, joista niitä voi katsella lehden muodossa
+
+![Ilmoitusasiakas - Julkaisut](/img/ohjeet/ilmoitukset-julkaisut.png)
+
+*Julkaisut välilehdeltä asiakas näkee julkaisut, missä hänen ilmoituksensa ovat ilmestyneet.*
+
+![Julkaisut - lehti](/img/ohjeet/julkaisut-lehti.png)
+*Malli valmiista julkaisusta, jossa ilmoitus näkyy.*
+
+### Laskut
+
+**Laskut** –välilehdellä listataan ilmoitusvarauksiin liittyvä laskutushistoria.
+
+![Ilmoitusasiakas - Laskut](/img/ohjeet/ilmoituslaskut.png)
+
+### Muistio
+
+**Muistio**-välilehdellä voi lisätä asiakkaasta tärkeitä lisätietoja, jotka kaikkien myyjien olisi hyvä tietää.
+
+![Ilmoitusasiakas - Muistio](/img/ohjeet/muistio.png)
+
+## Myynti
+
+**Myynti** on asiakkaalle myyty kokonaisuus, joka voi sisältää useamman myyntivarauksen. **Myyntivaraus** on myyntiin liittyvä mainos/ilmoitus, esim. tietyn lehden etusivu. **Myynnit**-välilehdellä on listaus kaikista asiakkaalle myydyistä myyntivarauksista.
+
+- **Lisää ilmoitusvaraus** –painikkeella lisätään uusi mainos-/ilmoitusvaraus
+- **Lisää ilmoituspaketti** –painikkeella lisätään uusi ilmoituspaketin varaus
+
+<a href="https://taikatilaus.github.io/docs/asetukset#paketit">Asetuksissa on voitu luoda myyntituotteista paketteja</a>. Paketin lisäämisessä kerätään automaattisesti siihen kuuluvat myyntituotteet saman myynnin alle, mutta yksittäisten tuotteiden oletushintoja ei huomioida laskua luotaessa
 
 Myynteihin liittyviä mainos-/ilmoitusvarauksia voi hakea listaukselta
-- Ilmoitusvarauksen numerolla
-- Julkaisu- ja aineistopäivällä
-
-Hae listasta –linkin avulla voi näkyvää listausta suodattaa Julkaisu- ja aineistopäivän ja/tai halutun Varausnumeron avulla
+- **Ilmoitusvarauksen numerolla**
+- **Julkaisu- ja aineistopäivällä**
 
 Myyntinumeroa klikkaamalla siirrytään yksittäisen myynnin käsittelyyn
 
-Mikäli käyttäjä on aktivoinut omissa Käyttäjän tiedoissaan Pelkistetyn ilmoitusvarauslomakkeen käytön, niin Myynnit -listaus näyttää toisenlaiselta, jossa ko. Ilmoitusasiakkaan listauksella näkyy kaikki tehdyt Ilmoitusvaraukset yksittäisinä riveinä ja ne voidaan avata käsittelyä varten joko 
+![Ilmoitusasiakas - Myynti](/img/ohjeet/myynnit.png)
+
+Mikäli käyttäjä on aktivoinut omissa tiedoissaan **Pelkistetyn ilmoitusvarauslomakkeen** käytön, niin **Myynnit**-listaus näyttää toisenlaiselta, jossa kyseisen Ilmoitusasiakkaan listauksella näkyy kaikki tehdyt Ilmoitusvaraukset yksittäisinä riveinä ja ne voidaan avata käsittelyä varten joko 
 - 2. sarakkeen VarausNro -linkistä (yksittäinen) tai 
 - viimeisen sarakkeen MyyntiNro -linkin (koonti ko. myyntiin sisältyvistä) kautta.
 
-## Yksittäinen myynti
+![Ilmoitusasiakas - Myynti](/img/ohjeet/myynnit-pelkistetty.png)
+
+### Yksittäinen myynti
 
 Myyntiin liittyviä mainos-/ilmoitusvarauksia
 
@@ -100,7 +149,7 @@ Yksittäisen ilmoitusvaraukseen liittyvää Laskutuspyyntöä (josta varsinainen
 - Pvm -linkistä laskutuspäivää
 - Luo lasku -painikkeesta ohittamaan laskutuspäivän ja luomaan laskun välittömästi
 
-## Myyntipaketin lisääminen
+### Myyntipaketin lisääminen
 
 Myytävät ilmoituspaketit pitää olla valmiiksi luotuina Asetukset / Paketit -toiminnon kautta (esim. Räätälöity paketti)
 
@@ -122,7 +171,7 @@ Laskujen muodostuminen –osiossa voi määrittää (ilmestyy näkyviin, kun pak
 - Koska paketin ensimmäinen erä laskutetaan
 - Koska paketin viimeinen erä laskutetaan
 
-## Myyntipaketin laskutus
+### Myyntipaketin laskutus
 
 Laskujen muodostuminen –osiossa määriteltyjä laskutuseriä pääsee muokkaamaan Myynnin käsittely –näkymässä klikkaamalla
 
@@ -136,7 +185,7 @@ Ilmoitusvarauksille voi kuitenkin määrittää eri hintoja mm. raportointeja va
 
 Pakettiin sisältyvät yksittäiset Myyntituotteet lisätään Myynnin ilmoitusvaraukset –osiossa Lisää myynnille ilmoitusvaraus –painikkeella (kuten yksittäiset Myyntivarauksetkin)
 
-## Ilmoitusvarauksen lisääminen
+### Ilmoitusvarauksen lisääminen
 
 Lisää ilmoitusvaraus –välilehdellä voi lisätä uuden ilmoitusvarauksen
 
@@ -211,21 +260,7 @@ Mikäli esim. ilmoituksen perustietoihin halutaan näkyviin muita kenttiä (pitk
 
 Toiminnallisesti molemmat lomakkeet ovat siis samat kuin tähänkin asti ja käyttäjä voi aktivoida/vaihtaa kumman tahansa päälle milloin tahansa. 
 
-## Ilmoitusvarauksen aineistot
-
-Ilmoitusasiakkaan Ilmoitukset –välilehdellä näkee kaikki asiakkaaseen liitetyt ilmoitukset ja voi hallinnoida mm. ilmoitustilauksiin liittyviä aineistojen tiedostoja, kommentointeja ja hyväksyntöjä
-
-Listauksella näkee yksittäisen ilmoituksen valmistusta varten palveluun ladatut aineistot, sekä aineistojen kuvaukset. Liiteaineistoa voi katsoa klikkaamalla sen nimeä
-
-Lähetä latauslinkki -painikkeesta lähetetään aineiston toimittajan sähköpostiin linkki, millä hän voi kirjautua OmaIlmoitus –palveluun ja siellä ladata juuri kyseiseen ilmoitukseen liittyviä aineistoja.
-Painike näkyy vain, jos mainosta/ilmoitusta ei ole vielä otettu käsittelyyn.
-
-Muuta ilmoitustekstiä -painikkeista voi antaa ilmoituksen sisältötekstin esim. rivi-ilmoitukseen.
-Painiketta ei näytetä, mikäli Ilmoitus tulee valmiina aineistona –asetus on myyntivarauksessa aktivoituna
-
-Lisää aineisto -painikkeista voi liittää aineiston erillisenä tiedostona, mitä käytetään ilmoituksen tuottamisessa.
-
-## Ilmoitusvarauksen laskutus
+### Ilmoitusvarauksen laskutus
 
 Ilmoitusvarauksen tallennuksen yhteydessä muodostuu automaattisesti Laskutuspyyntö, joka näkyy Myynnin koontisivun Laskutus -osiossa
 
