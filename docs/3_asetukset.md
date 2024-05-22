@@ -82,6 +82,8 @@ Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
 - **Digitiedot** (t.s. onko tuote digitaalinen vai ei?)
 - Tuotteen **käyttöajat**
 
+### Lomakkeeseen lisättävät tiedot
+
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen.png)
 
 - **TuoteID**: jokaisella tuotteella on ohjelman automaattisesti generoima TuoteID.
