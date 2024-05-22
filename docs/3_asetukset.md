@@ -22,7 +22,24 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 
 ### Yleistietoa
 
-**Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja, ja **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. Autolehti Kestotilaus 12 kk). **Tuotelistauksessa** on tuotteista seuraavat tiedot: **Tuotenumero**, **Tuoteryhmä**, kuuluuko tuote johonkin **Kampanjaan**, tilauksen kesto kuukausina (**KestoKK**), tuotteen **veroton hinta**, tuotteen **ALV-prosentti**, tuotteen **verollinen hinta**, **Myyntitili**, **ALV-velkatili**, **Myyntisaamiset**-tili, tuotteen mahdolliset **lisätiedot**, **TuoteID**, **Tilaustyyppi**, **Jatkotuote ID**, **PortalID**, ja **Piilotettu-sarake**, josta näkee onko tuote aktiivinen vai piilotettu.
+**Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja, ja **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. Autolehti Kestotilaus 12 kk). 
+
+**Tuotelistauksessa** on tuotteista seuraavat tiedot: 
+- **Tuotenumero**, **Tuoteryhmä**
+- kuuluuko tuote johonkin **Kampanjaan**
+- tilauksen kesto kuukausina (**KestoKK**)
+- tuotteen **veroton hinta**
+- tuotteen **ALV-prosentti**
+- tuotteen **verollinen hinta**
+- **Myyntitili**
+- **ALV-velkatili**
+- **Myyntisaamiset**-tili
+- tuotteen mahdolliset **lisätiedot**
+- **TuoteID**
+- **Tilaustyyppi**
+- **Jatkotuote ID**
+- **PortalID**
+- **Piilotettu-sarake**, josta näkee onko tuote aktiivinen vai piilotettu.
 
 Tuotteita lisätään painamalla **Lisää tilaustuote** –painiketta. Jo valmiiksi olemassa olevia tuotteita pääset muokkaamaan painamalla **tuotenumeroa**.
 
