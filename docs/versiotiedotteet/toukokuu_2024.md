@@ -11,17 +11,17 @@ Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](h
 ## Saldo
 Mahdollisuus jättää asiakkaan maksama saldo sisään tuleviin tilauksiin tai laskuihin.
 
-![Kuva](/img/placeholder.jpg)
+![Placeholder](https://picsum.photos/200/300)
 
 ## Jakeluhäiriöt
 Jakelupalautteiden kerääminen ja raportointi kootusti jakeluyhtiöön.
 
-![Kuva](/img/placeholder.jpg)
+![Placeholder](https://picsum.photos/600/300)
 
 ## Jaksotusraportti
 Uusi jaksotusraportti
 
-![Kuva](/img/placeholder.jpg)
+![Placeholder](https://picsum.photos/1200/800)
 
 ## Pakettimyynti
 

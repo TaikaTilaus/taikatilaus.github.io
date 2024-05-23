@@ -19,11 +19,11 @@ Pääkäyttäjien kirjautumisessa mahdollista käyttää Google Authenticator ta
 
 Omat tiedot - Käyttäjän tiedot
 
-![Omat tiedot - Käyttäjän tiedot](/img/OmatTiedot.png)
+![Omat tiedot - Käyttäjän tiedot](/img/versiotiedotteet/OmatTiedot.png)
 
 Authenticatorin käyttöönotto
 
-![Authenticator](/img/Authenticator.png)
+![Authenticator](/img/versiotiedotteet/Authenticator.png)
 
 ## Quintype-kertakirjautuminen
 Kertakirjautuminen toteutettu Quintype-julkaisualustaan.
