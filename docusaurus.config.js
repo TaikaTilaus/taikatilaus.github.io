@@ -150,7 +150,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: '89062f69ec3a98453878dc2a85476b42',
   
-        indexName: 'taikatilausio',
+        indexName: 'taikatilaus.github.io',
   
         // Optional: see doc section below
         contextualSearch: true,
