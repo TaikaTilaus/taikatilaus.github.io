@@ -5,14 +5,19 @@ sidebar_position: 5
 # Leikepöytä
 
 ## Vienti leikepöydälle
-Leikepöydälle –painikkeen klikkauksen jälkeen ilmestyy uusi Leikepöytä (nro) -ikoni ylimpään palkkiin (Palaa –ikonin viereen)
-Leikepöytä –välilehdellä voi tehdä erilaisia toimenpiteitä saman aikaisesti useammalle asiakkaalle, jotka käyttäjä on valinnut käsiteltäviksi esim.
-- Etusivun/Asiakkaat asiakaslistaukselta Lisää leikepöydälle –painikkeen avulla
 
-1.Oletuslistauksella näytetään ensin Valitsemattomien lista ja nro -välilehti
-Listauksen voi käsittelyn aikana vaihtaa Valittujen lista ja nro -välilehdelle
+***Leikepöydälle**–painikkeen klikkauksen jälkeen ilmestyy uusi **Leikepöytä**-ikoni ohjelman yläpalkkiin (**Palaa**–ikonin viereen)
 
-2.Hakuehdon täyttävistä asiakkaista voi valita
+![Etusivu - Vie leikepöydälle](/img/ohjeet/leikepyota1.png)
+
+**Leikepöytä**–välilehdellä voi tehdä erilaisia toimenpiteitä saman aikaisesti useammalle asiakkaalle, jotka käyttäjä on valinnut käsiteltäviksi esim.
+- Etusivun asiakaslistaukselta **Lisää leikepöydälle** –painikkeen avulla
+
+![Leikepöytä](/img/ohjeet/leikepyota2.png)
+
+1. Oletuslistauksella näytetään ensin Valitsemattomien lista, josta voi siirtää asiakkaita valittujen listaan
+
+2. Hakuehdon täyttävistä asiakkaista voi valita
 -joko Siirrä kaikki valittuihin –painikkeella tai
 -Lisää valituksi –sarakkeen + ikonista
 jatkokäsittelyyn haluttavat ja poistaa käsittelystä esim. sähköpostittomat, mikäli ne halutaan rajata pois
