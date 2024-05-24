@@ -10,9 +10,13 @@ Asiakaskohtaiseen **Ilmoitusasiakas**–palveluun pääsee hakemalla asiakkaan e
 
 ![Etusivu](/img/ohjeet/ilmoitusasiakas.png)
 
+*Etusivun haun kautta pääset ilmoitusmyynnin hallintaan.*
+
 Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pääsee palaamaan haetun asiakkaan tietoihin takaisin, mikäli siirtyy välillä muualle ohjelmaan.
 
 ![Ilmoitusasiakas-välilehti](/img/ohjeet/ilmoitusasiakas3.png)
+
+*Löydät käsittelemäsi ilmoitusasiakkaan ohjelman päävalikosta vaikka välillä tekisit ohjelmassa jotain muuta.*
 
 ## Ilmoitusasiakkaan koontisivu ja välilehdet
 
@@ -21,6 +25,7 @@ Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pä�
 - Myyjä voi suorittaa myös asiakkaan puolesta toimintoja, kuten omien tietojen päivittämistä
 
 ![Ilmoitusasiakas-välilehti](/img/ohjeet/ilmoitusasiakas2.png)
+*Ilmoitusasiakkaan etusivu.*
 
 ### Omat tiedot
 
@@ -36,6 +41,7 @@ Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pä�
 - Ulkopuoliset aineistojen toimittajat
 
 ![Ilmoitusasiakas - Omat tiedot](/img/ohjeet/omattiedot-ilmoitusmyynti.png)
+*Ilmoitusasiakkaan omissa tiedoissa ovat asiakkaan yhteystiedot ja laskutustiedot*
 
 ### Aineistopankki
 
@@ -47,11 +53,14 @@ Ladattava aineisto haetaan omalta koneelta ja lisätään kuvaus sen sisällöst
 
 ![Ilmoitusasiakas - Aineistopankki](/img/ohjeet/aineistopankki.png)
 
+*Voit ladata aineistopankkiin asiakkaan usein käyttämiä aineistoja.*
+
 ### Ilmoitukset
 
 **Ilmoitukset** –välilehdellä näkee kaikki asiakkaaseen **liitetyt ilmoitukset** (menneet ja avoimet) ja voi hallinnoida mm. ilmoitustilauksiin liittyviä aineistojen tiedostoja, kommentointeja ja hyväksyntöjä. Listauksella näkee yksittäisen ilmoituksen valmistusta varten palveluun ladatut aineistot, sekä aineistojen kuvaukset.
 
 ![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/ilmoitukset-lista.png)
+*Ilmoitukset-välilehdeltä näet asiakkaan ilmoitukset ja voit hallinnoida niitä.*
 
 Listauksella näytettäviä ilmoitusvarauksia voi järjestää
 - **Lajittelutieto**–valikon (Alkupäivä / Varausnumero) ja
@@ -59,6 +68,7 @@ Listauksella näytettäviä ilmoitusvarauksia voi järjestää
 - Aktivoimalla **Piilota menneet** –valintaruutu, mikä piilottaa kaikki ilmoitukset jotkat ovat ilmestyneet menneissä julkaisuissa.
 
 ![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/ilmoitukset-suodatus.png)
+*Voit järjestää ja suodataa ilmoituksien listausta eri valinnoilla.*
 
 Avoimia ilmoitusvarauksia voi käsitellä
 - päivittämällä Ilmoitustekstitystä
@@ -66,18 +76,24 @@ Avoimia ilmoitusvarauksia voi käsitellä
 - lähettämällä aineiston ulkopuoliselle käsittelijälle latauslinkin palveluun
 
 ![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/aineisto.png)
+*Ilmoituksia voi käsitellä eri tavoilla.*
 
 **Lähetä latauslinkki** -painikkeesta lähetetään aineiston toimittajan sähköpostiin linkki, millä hän voi kirjautua OmaIlmoitus –palveluun ja siellä ladata juuri kyseiseen ilmoitukseen liittyviä aineistoja. Painike näkyy vain, jos mainosta/ilmoitusta ei ole vielä otettu käsittelyyn.
 
 ![Ilmoitukset - Latauslinkin lähetys](/img/ohjeet/latauslinkki.png)
 
+*Voit lähettää latauslinkin aineiston toimittajalle.*
+
 **Muuta ilmoitustekstiä** -painikkeista voi antaa ilmoituksen sisältötekstin esim. rivi-ilmoitukseen. Painiketta ei näytetä, mikäli Ilmoitus tulee valmiina aineistona –asetus on myyntivarauksessa aktivoituna
 
-![Ilmoitukset - Latauslinkin lähetys](/img/ohjeet/ilmoitusteksti.png)
+![Ilmoitukset - Ilmoitusteksti](/img/ohjeet/ilmoitusteksti.png)
+
+*Voit muuttaa ilmoitukseen sisältyvää ilmoitustekstiä.*
 
 **Lisää aineisto** -painikkeista voi liittää aineiston erillisenä tiedostona, mitä käytetään ilmoituksen tuottamisessa. Jos aineisto sisältää valmiin ilmoituksen, joka ei ole menossa käsittelyyn, klikkaa **Aineisto on valmis ilmoitus!** -kentästä.
 
-![Ilmoitukset - Latauslinkin lähetys](/img/ohjeet/aineisto-lisays.png)
+![Ilmoitukset - Ilmoitusaineiston lisääminen](/img/ohjeet/aineisto-lisays.png)
+*Ilmoitusaineiston lisääminen tehdään ylläolevan lomakkeen kautta.*
 
 Aiemmin **tallennettuja ilmoitusmateriaaleja** voi katsella klikkaamalla aineistolinkkejä.
 
@@ -85,6 +101,7 @@ Lisättyjä aineistoja **voi poistaa** aktivoimalla **Näytä tiedostojen poista
 - Lisättyjen ilmoitustietojen alle tulee näkyviin **Roskakori**-ikoni
 
 ![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/aineisto-poisto.png)
+*Näytä tiedostojen poistaminen -kenttä mahdollistaa aineistojen poistamisen.*
 
 ### Julkaisut
 
@@ -99,15 +116,17 @@ Lisättyjä aineistoja **voi poistaa** aktivoimalla **Näytä tiedostojen poista
 
 ### Laskut
 
-**Laskut** –välilehdellä listataan ilmoitusvarauksiin liittyvä laskutushistoria.
+**Laskut** –välilehdellä listataan ilmoitusvarauksiin liittyvä laskutushistoria. Laskuja pääsee muokkaamaan/tarkastelemaan painamalla laskunumeroa.
 
 ![Ilmoitusasiakas - Laskut](/img/ohjeet/ilmoituslaskut.png)
+*Laskut-välilehden näkymä.*
 
 ### Muistio
 
 **Muistio**-välilehdellä voi lisätä asiakkaasta tärkeitä lisätietoja, jotka kaikkien myyjien olisi hyvä tietää.
 
 ![Ilmoitusasiakas - Muistio](/img/ohjeet/muistio.png)
+*Muistio-välilehden näkymä.*
 
 ## Myynti
 
@@ -139,6 +158,7 @@ Mikäli käyttäjä on aktivoinut omissa tiedoissaan <a href="/docs/pikaohjeet/i
 Yksittäisen myynnin näkymästä pääset tarkastelemaan siihen liittyviä mainos/ilmoitusvarauksia sekä muokkaamaan myynnin tietoja.
 
 ![Myynti - Myynnin käsittely](/img/ohjeet/myynninkasittely.png)
+*Myynnin käsittely -lomake.*
 
 Myyntiä pääsee muokkaamaan **Muokkaa myyntiä** –painikkeen kautta:
 
@@ -149,12 +169,15 @@ Myynnin Laskutuspyyntöjä (josta varsinainen lasku luodaan) pääsee muokkaamaa
 
 ![Myynti - Laskun muokkaus](/img/ohjeet/laskukyna.png)
 
+*Kynä-ikonia painamalla muodostuva näkymä.*
+
 - **Saa luoda pvä** -linkistä laskutuspäivää
 - **Luo lasku** -painikkeesta ohittamaan laskutuspäivän ja luomaan laskun välittömästi
 
 Jos myynnille on asetettu pakettihinta, tulee näkyviin **Lisää myynnille laskutuspyyntö** -painike.
 
 ![Myynti - Myynnin käsittely](/img/ohjeet/pakettihinta.png)
+*Kun myynnille asettaa jälkikäteen pakettihinnan, pitää laskutuspyyntö erikseen lisätä.*
 
 **Lisää myynnille ilmoitusvaraus** –painikkeella lisätään uusi ilmoitusvaraus tähän kyseiseen myyntiin. **Poista laskuttamattomat ilmoitusvaraukset** -painikkeesta voit poistaa myynniltä ilmoitusvaraukset, joita ei ole vielä laskutettu.
 
@@ -163,6 +186,7 @@ Ilmoitusvarauksen **numeroa** klikkaamalla pääsee yksittäisen ilmoitusvarauks
 ### Yksittäisen myynnin muokkaaminen
 
 ![Myynti - Myynnin muokkaus](/img/ohjeet/myynninmuokkaus.png)
+*Yksittäistä myyntiä voi muokata painamalla Muokkaa myyntiä -painiketta.*
 
 **Myynnin muokkaaminen** -lomakkeella voit:
 - vaihtaa myyntiin liitetyn **myyjän**
@@ -175,11 +199,14 @@ Ilmoitusvarauksen **numeroa** klikkaamalla pääsee yksittäisen ilmoitusvarauks
 
 ![Ilmoitusasiakas - Myynnit](/img/ohjeet/lisaailmoituspaketti.png)
 
+*Myyntipaketteja voi lisätä ilmoistusasiakkaan Myynnit-välilehdeltä.*
+
 Myytävät ilmoituspaketit pitää olla valmiiksi luotuina <a href="https://taikatilaus.github.io/docs/ohjeet/asetukset#paketit">Asetukset / Paketit -toiminnon</a> kautta.
 
 Myyntipaketin luomiseen pääset painamalla **Lisää ilmoituspaketti** –painiketta.
 
 ![Myynti - Myynnin lisääminen](/img/ohjeet/ilmoituspaketti.png)
+*Myynnin lisääminen -lomake*
 
 Oletuksena myyntiin on lisättty asiakkaaseen liitetty myyjä. Voit kuitenkin vaihtaa **myyjän** tarvittaessa.
 
@@ -261,6 +288,7 @@ Lopullinen hinta lasketaan annetun määrän, keston tai koon mukaan (esim. Ilmo
 **Valmistuslisä** huomioidaan myös hintaan, kun se lisätään uudeksi tuoteriviksi laskulle. 
 
 ![Ilmoitusvarauksen lisääminen - Laskutustavat](/img/ohjeet/laskutustavat.png)
+*Laskustapa-valikosta voi valita eri tapoja laskun maksamiseen.*
 
 **Laskutustapoja** on erilaisia, kuten jokainen ilmoitus erikseen tai koontilaskuna viimeisen ilmoituksen jälkeen
 - kentän tiedon mukaisesti luodaan lasku, joka jättää huomioimatta muut Laskutustapa -valinnat.
@@ -270,6 +298,7 @@ Lopullinen hinta lasketaan annetun määrän, keston tai koon mukaan (esim. Ilmo
 **Laskutetaan omanaan** -kentän aktivointi muodostaa kyseisestä ilmoitusvarauksesta oman laskutuspyynnön, josta muodostuu yksittäinen lasku (muut Laskutustapa -valinnat jätetään huomioimatta).
 
 ![Ilmoitusvarauksen lisääminen - Laskun maksaja](/img/ohjeet/ilmoitusmaksaja.png)
+*Ilmoitusvarauksella voi lisätä eri maksajan.*
 
 Ilmoitusvaraukselle voi myös tarvittaessa lisätä eri maksajan **Hae laskun maksajaa** –painikkeesta (maksajan on oltava asiakasrekisterissä jo valmiiksi lisättynä).
 
@@ -290,6 +319,8 @@ Toiminnallisesti molemmat lomakkeet ovat siis samat kuin tähänkin asti ja käy
 ### Valmiin ilmoitusvarauksen lisätoiminnot
 
 ![Myynnit - Ilmoitusvarauksen muokkaus](/img/ohjeet/valmisilmoitus.png)
+
+*Valmiin ilmoitusvarauksen alapalkissa on lisätoimintoja, joita luomisen aikana ei näy.*
 
 Ilmoitusvarauksen tallentamisen jälkeen ilmestyy lomakkeelle muutama lisätoiminto.
 
