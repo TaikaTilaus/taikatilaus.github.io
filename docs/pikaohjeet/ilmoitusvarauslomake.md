@@ -11,3 +11,5 @@ sidebar_position: 14
 ### 2. Paina Pelkistetty Ilmoitusvarauslomake käytössä ja sitten Tallenna
 
 ![2. Käyttäjän tiedot](/img/pikaohjeet/pelkistetty2.png)
+
+### 3. Kirjaudu palvelusta ulos ja takaisin sisään, että asetus tulee voimaan

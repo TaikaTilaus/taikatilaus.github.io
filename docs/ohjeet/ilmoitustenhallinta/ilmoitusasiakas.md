@@ -125,145 +125,178 @@ Myynteihin liittyviä mainos-/ilmoitusvarauksia voi hakea listaukselta
 Myyntinumeroa klikkaamalla siirrytään yksittäisen myynnin käsittelyyn
 
 ![Ilmoitusasiakas - Myynti](/img/ohjeet/myynnit.png)
+*Myynnit-välilehdeltä voit lisätä ilmoitusvarauksia ja hallita myyntejä.*
 
-Mikäli käyttäjä on aktivoinut omissa tiedoissaan **Pelkistetyn ilmoitusvarauslomakkeen** käytön, niin **Myynnit**-listaus näyttää toisenlaiselta, jossa kyseisen Ilmoitusasiakkaan listauksella näkyy kaikki tehdyt ilmoitusvaraukset yksittäisinä riveinä ja ne voidaan avata käsittelyä varten joko 
-- varausnumerosta (yksittäinen ilmoitusvaraus)
-- tai myyntinumerosta (kaikki myyntivaraukseen liittyvät ilmoitusvaraukset)
+Mikäli käyttäjä on aktivoinut omissa tiedoissaan <a href="/docs/pikaohjeet/ilmoitusvarauslomake">**Pelkistetyn ilmoitusvarauslomakkeen**</a> käytön, niin **Myynnit**-listaus näyttää toisenlaiselta, jossa kyseisen Ilmoitusasiakkaan listauksella näkyy kaikki tehdyt ilmoitusvaraukset yksittäisinä riveinä ja ne voidaan avata käsittelyä varten joko 
+- **varausnumerosta** (yksittäinen ilmoitusvaraus)
+- tai **myyntinumerosta** (kaikki myyntivaraukseen liittyvät ilmoitusvaraukset)
 
 ![Ilmoitusasiakas - Myynti](/img/ohjeet/myynnit-pelkistetty.png)
+*Pelkistetyn lomakkeen kautta voit käsitellä joko yksittäisiä ilmoitusvarauksia tai myyntivarauksia.*
 
-### Yksittäinen myynti
+### Yksittäisen myynnin käsittely
 
-Myyntiin liittyviä mainos-/ilmoitusvarauksia
+Yksittäisen myynnin näkymästä pääset tarkastelemaan siihen liittyviä mainos/ilmoitusvarauksia sekä muokkaamaan myynnin tietoja.
 
-Yksittäistä myyntiä pääsee muokkaamaan Muokkaa myyntiä –painikkeen kautta
+![Myynti - Myynnin käsittely](/img/ohjeet/myynninkasittely.png)
 
-Poista myynti -painike näkyy vain, mikäli ko. myyntiä ei ole vielä laskutettu
+Myyntiä pääsee muokkaamaan **Muokkaa myyntiä** –painikkeen kautta:
 
-Lisää ilmoitusvaraus –painikkeella lisätään uusi ilmoitusvaraus tähän kyseiseen myyntiin
+**Poista myynti** -painike näkyy vain, mikäli kyseistä myyntiä ei ole vielä laskutettu.
 
-Ilmoitusvarauksen numeroa klikkaamalla pääsee yksittäisen ilmoitusvarauksen tietoihin
+Myynnin Laskutuspyyntöjä (josta varsinainen lasku luodaan) pääsee muokkaamaan
+- **Kynä**-ikonista koko sisältöä
 
-Yksittäisen ilmoitusvaraukseen liittyvää Laskutuspyyntöä (josta varsinainen lasku luodaan) pääsee muokkaamaan
-- Kynä -ikonista koko sisältöä
-- Pvm -linkistä laskutuspäivää
-- Luo lasku -painikkeesta ohittamaan laskutuspäivän ja luomaan laskun välittömästi
+![Myynti - Laskun muokkaus](/img/ohjeet/laskukyna.png)
+
+- **Saa luoda pvä** -linkistä laskutuspäivää
+- **Luo lasku** -painikkeesta ohittamaan laskutuspäivän ja luomaan laskun välittömästi
+
+Jos myynnille on asetettu pakettihinta, tulee näkyviin **Lisää myynnille laskutuspyyntö** -painike.
+
+![Myynti - Myynnin käsittely](/img/ohjeet/pakettihinta.png)
+
+**Lisää myynnille ilmoitusvaraus** –painikkeella lisätään uusi ilmoitusvaraus tähän kyseiseen myyntiin. **Poista laskuttamattomat ilmoitusvaraukset** -painikkeesta voit poistaa myynniltä ilmoitusvaraukset, joita ei ole vielä laskutettu.
+
+Ilmoitusvarauksen **numeroa** klikkaamalla pääsee yksittäisen ilmoitusvarauksen tietoihin.
+
+### Yksittäisen myynnin muokkaaminen
+
+![Myynti - Myynnin muokkaus](/img/ohjeet/myynninmuokkaus.png)
+
+**Myynnin muokkaaminen** -lomakkeella voit:
+- vaihtaa myyntiin liitetyn **myyjän**
+- kirjata ylös myyntiin liittyviä **lisätietoja**
+- lisätä tekstin **laskun tuoteriville**
+- määrittää myynnille **verottoman pakettihinnan ja alennusprosentin** (tällöin myyntiin liittyvien yksittäisten ilmoitusvarausten hintoja ei oteta huomioon)
+- jos olet pääkäyttäjä, voit **siirtää myynnin** toiselle asiakkaalle
 
 ### Myyntipaketin lisääminen
 
-Myytävät ilmoituspaketit pitää olla valmiiksi luotuina Asetukset / Paketit -toiminnon kautta (esim. Räätälöity paketti)
+![Ilmoitusasiakas - Myynnit](/img/ohjeet/lisaailmoituspaketti.png)
 
-Lisää ilmoituspaketti –välilehdellä voi lisätä uuden myyntipaketin
+Myytävät ilmoituspaketit pitää olla valmiiksi luotuina <a href="https://taikatilaus.github.io/docs/ohjeet/asetukset#paketit">Asetukset / Paketit -toiminnon</a> kautta.
 
-Ohjelma lisää automaattisesti ko. myyntipakettiin kuuluvat myyntivaraukset, mutta tallennuksen jälkeen pitää vielä lisätä oikeat tuotteet kuhunkin myyntivaraukseen
+Myyntipaketin luomiseen pääset painamalla **Lisää ilmoituspaketti** –painiketta.
 
-Myynnin lisätiedot –kenttään voi kirjoittaa myyntiin liittyviä tietoja, jotka eivät näy asiakkaalle, eikä käsittelijöille
+![Myynti - Myynnin lisääminen](/img/ohjeet/ilmoituspaketti.png)
 
-Myyntipaketti –valikosta valitun paketin mukaisesti myyntiin lisätään automaattisesti kaikki ko. myyntipaketin myyntivaraukset
+Oletuksena myyntiin on lisättty asiakkaaseen liitetty myyjä. Voit kuitenkin vaihtaa **myyjän** tarvittaessa.
 
-Laskun tuoterivi –kenttään voi määrittää Myyntipaketille laskulle tulostuvan tuoterivitiedon, sekä paketin yhteishinnan.
-Mikäli nämä ovat määriteltyinä, niin Myyntivarausten hintoja ei huomioida
+**Myynnin lisätiedot** –kenttään voi kirjoittaa myyntiin liittyviä tietoja, jotka eivät näy asiakkaalle, eikä käsittelijöille.
 
-Lopulliset hintatiedot lasketaan automaattisesti (ALV 0%) syötetystä Hinta ja Alennusprosentti -luvuista
+**Myyntipaketti**–valikosta valitun paketin mukaisesti myyntiin lisätään automaattisesti kaikki kyseisen myyntipaketin ilmoitusvaraukset.
 
-Laskujen muodostuminen –osiossa voi määrittää (ilmestyy näkyviin, kun paketin Hinta –tieto on ensin annettu)
-- Kuinka moneen laskutuserään paketin kokonaishinta jaksotetaan
-- Koska paketin ensimmäinen erä laskutetaan
-- Koska paketin viimeinen erä laskutetaan
+Ohjelma lisää automaattisesti kyseiseen myyntipakettiin kuuluvat ilmoitusvaraukset, mutta **tallennuksen jälkeen pitää vielä lisätä mihin julkaisuun kyseiset ilmoitukset tulevat**.
 
-### Myyntipaketin laskutus
+**Laskun tuoterivi** –kenttään voi määrittää myyntipaketin laskulle tulostuvan tuoterivitiedon. 
 
-Laskujen muodostuminen –osiossa määriteltyjä laskutuseriä pääsee muokkaamaan Myynnin käsittely –näkymässä klikkaamalla
+Voit myös määrittää paketin verottoman **yhteishinnan**. Mikäli se on määritelty, yksittäisten ilmoitusvarauksien hintoja **ei huomioida**. Lopulliset hintatiedot lasketaan **automaattisesti** syötetystä **Hinta** ja **Alennusprosentti**-luvuista.
 
-- Kynä –ikonia kunkin Laskutuspyyntörivin kohdalla
-- Muuttamalla Laskutuspäivää, Hintaa ja/tai Alennusprosenttia
-- Klikkaamalla Laske ja Tallenna -painikkeita
-- Muuttamalla seuraavan erän vastaamaan edellistä muutosta niin, että alun perin annettu paketin kokonaishinta toteutuu
-
-Myynnille annetun pakettihinnan takia yksittäisiä myyntivarauksen hintoja ei huomioida (oletushinnat, jotka on määritelty Asetukset / Myyntituotteet kautta)
-Ilmoitusvarauksille voi kuitenkin määrittää eri hintoja mm. raportointeja varten (paketin summan jakautuminen)
-
-Pakettiin sisältyvät yksittäiset Myyntituotteet lisätään Myynnin ilmoitusvaraukset –osiossa Lisää myynnille ilmoitusvaraus –painikkeella (kuten yksittäiset Myyntivarauksetkin)
+**Laskujen muodostuminen** –osiossa voi määrittää (ilmestyy näkyviin, kun paketin Hinta–tieto on ensin annettu)
+- Kuinka moneen **laskutuserään** paketin kokonaishinta jaksotetaan
+- Koska paketin **ensimmäinen erä** laskutetaan
+- Koska paketin **viimeinen erä** laskutetaan
 
 ### Ilmoitusvarauksen lisääminen
 
-Lisää ilmoitusvaraus –välilehdellä voi lisätä uuden ilmoitusvarauksen
+![Ilmoitusasikas - Myynnit ](/img/ohjeet/lisaailmoitusvaraus.png)
 
-- Valitse Myyjä, mikäli eri kuin kirjautunut Myyntivarauksen tekijä
-- Valitse Kanava, jolloin alle avautuu siihen kuuluvat tuotteet
-- Valitse Tuote, jolloin alle avautuu siihen kuuluvat julkaisut
+*Ilmoitusvarauksen lisäämiseen pääsee ilmoitusasikkaan Myynnit-välilehdeltä.*
 
-Julkaisun numero, ilmestymispäivä, … -valikosta voidaan valita yksi tai useampi julkaisun numero Valitse useita –linkin kautta.
+Uuden ilmoitusvarauksen pääset lisäämään **Lisää ilmoitusvaraus** –painikkeesta.
+
+![Myynnit - Ilmoitusvarauksen lisääminen](/img/ohjeet/ilmoitusvarauksenlisaaminen-perus.png)
+*Ilmoitusvarauksen perustiedot.*
+
+- Valitse **Myyjä**, mikäli eri kuin asiakkaaseen liitetty myyjä
+- Valitse **Kanava**, jolloin alle avautuu siihen kuuluvat tuotteet
+- Valitse **Tuote**, jolloin alle avautuu siihen kuuluvat julkaisut
+
+Voit valita yhden tai useamman julkaisun, jossa ilmoitus ilmestyy painamalla **Valitse useita** -painiketta.
 Tätä ei voi enää jälkikäteen muuttaa.
 
-Muut määriteltävät kentät avautuvat yllä olevien valintojesi perusteella ja kanavakohtaisesti voidaan määritellä erilaisia asioita, kuten radiospotin keston tai bannerimainoksen näyttömäärät
+Muut määriteltävät kentät avautuvat yllä olevien valintojesi perusteella ja kanavakohtaisesti voidaan määritellä erilaisia asioita, kuten palstamäärän, radiospotin keston tai bannerimainoksen näyttömäärät.
 
-Toiston tiedot -kentässä ilmoitetaan mahdollisesti aiemmin julkaistun aineiston myyntivarausnumero
+**Toiston tiedot** -kentässä ilmoitetaan mahdollisesti aiemmin julkaistun aineiston myyntivarausnumero.
 
-Kiireellinen -kentän aktivointi näyttää tämän myyntivarauksen korostettuna Ilmoitustyöjono -listauksella
+**Kiireellinen**-kentän aktivointi näyttää tämän myyntivarauksen korostettuna Ilmoitustyöjono-listauksella
 
-Aineistotiedoissa kerrotaan, kuka toimittaa ilmoitusvaraukseen liittyvän aineiston
-- Muutettavissa asiakkaan Myynnit / Ilmoitusvarauksen muokkaus –näkymän kautta
+![Ilmoitusvarauksen lisääminen- Ainestotiedot](/img/ohjeet/aineistotiedot.png)
+*Ainestotiedoissa kerrottaan kuka toimittaa ilmoitukseen liittyvän aineiston ja lisätään ilmoitustekstin.*
 
-Aineiston toimittamisesta voidaan lähettää automaattinen viesti ilmoitusvarauksen käsittelijälle, joka voi aloittaa ilmoituksen työstämisen
-- Käsittelijän tiedot voidaan hakea myös itse tuotteelta, kun on ensin valittu Kun asiakas on toimittanut aineiston –valikosta sopiva toiminto
+**Ainestotiedoissa** voidaan lisätä ilmoitusteksti ja kerrotaan, kuka toimittaa ilmoitusvaraukseen liittyvän aineiston.
 
-Ilmoitus voidaan vielä hyväksyttää asiakkaalla ennen sen julkaisemista. Tällöin asiakkaalle lähtee automaattiviesti heti valmiin ilmoituksen palveluun lataamisen jälkeen
-- Ilmoituksen hyväksyjä -valikosta valitaan/lisätään aineiston lopullinen Hyväksyjä, jolle hyväksymispyyntö lähetetään
+Aineiston toimittamisesta voidaan lähettää automaattinen viesti ilmoitusvarauksen käsittelijälle, joka voi aloittaa ilmoituksen työstämisen.
 
-Tarkistuskappale –kentän aktivointi lähettää asiakkaalle automaattisesti ilmoituksen sisältävän paperilehden
+Jos ilmoituksessa on vain tekstiä, täytä **Ilmoitukseen ei liity tiedostoja** -kenttä.
 
-Hinta- ja laskutustiedot –osiossa voi tarvittaessa muuttaa tuotteen Normaalihintaa (oletus valitun tuotteen tiedoista) ja lisätä mahdollisen Alennusprosentin
+![Ilmoitusvarauksen lisäminen - Varausvahvistus](/img/ohjeet/varausvahvistus.png)
+*Ilmoitusvarauksesta voi lähettää varausvahvistuksen ja sille voi määrätä valmiin ilmoituksen hyväksyjän.*
 
-Lopullinen hinta lasketaan annetun määrän, keston tai koon mukaan (esim. Ilmoitusosastolla voi lisäksi olla eri hinta kuin myyntituotteella).
-Hinnan voi muuttaa ja laskea uudelleen Laske hinta verollisesta / Laske hinta verottomasta –linkkien avulla
+Lomakkeessa voi valita kenelle lähetetään ilmoitusvarauksesta **varausvahvistus**.
 
-Lisätiedot laskun tuoteriville –kentässä annetaan asiakkaan laskulle näkyviin haluttavat tiedot
-- Ne voidaan myös tallentaa Lisää vakiotekstiksi –painikkeesta ja käyttää jatkossakin
-- Tallennettujen listaus avautuu Vakiotekstit –painikkeesta ja Valitse –painikkeesta klikkaamalla kopioituu ko. teksti kenttään, jossa sitä voi tarvittaessa vielä muokata
-- Poista –painikkeesta tallennettu viesti poistuu käytöstä
+Ilmoitus voidaan vielä hyväksyttää asiakkaalla ennen sen julkaisemista. Tällöin asiakkaalle lähtee automaattiviesti heti sen jälkeen kun valmis ilmoitus on ladattu palveluun
+- **Ilmoituksen hyväksyjä** -valikosta lisätään aineiston lopullinen Hyväksyjä, jolle hyväksymispyyntö lähetetään
 
-Valmistuslisä huomioidaan myös hintaan, kun se lisätään uudeksi tuoteriviksi laskulle
+Jos asiakas lähettää valmiin ilmoituksen, täytetään **Aineisto on valmis ilmoitukseksi** -kenttä, jolloin ilmoitusta ei tarvitse erikseen hyväksyttää.
 
-Laskutustapoja on erilaisia, kuten jokainen ilmoitus erikseen tai koontilaskuna viimeisen ilmoituksen jälkeen
-–kentän tiedon mukaisesti luodaan lasku, joka jättää huomioimatta muut Laskutustapa -valinnat.
+Täyttämällä **Tarkistuskappale**-kentän, lähetetään asiakkaalle automaattisesti tarkistuskappale valmiista ilmoituksesta/mainoksesta.
 
-Viite on asiakkaan antama laskuviitteen teksti, joka siirretään laskun tuoteriville (esim. laskutettavan yrityksen osastokohtaiset viitteet).
+![Ilmoitusvarauksen lisääminen - Hinta- ja laskutustiedot](/img/ohjeet/ilmoitusvaraushinta.png)
+*Hinta- ja laskutustiedoista määrätään ilmoitusvarauksen hinta- ja laskutustietoja.*
 
-Laskutetaan omanaan kentän aktivointi muodostaa ko. ilmoitusvarauksesta oman laskutuspyynnön, josta muodostuu yksittäinen lasku (muut Laskutustapa -valinnat jätetään huomioimatta).
+**Hinta- ja laskutustiedot** –osiossa voi tarvittaessa muuttaa tuotteen Normaalihintaa (oletushinta asetetaan asetuksista) ja lisätä mahdollisen Alennusprosentin.
 
-Ilmoitusvaraukselle voi myös lisätä Eri maksajan tarvittaessa Hae laskun maksajaa –painikkeesta (oltava asiakasrekisterissä valmiiksi lisättynä)
+Lopullinen hinta lasketaan annetun määrän, keston tai koon mukaan (esim. Ilmoitusosastolla voi lisäksi olla eri hinta kuin myyntituotteella). Hinnan voi muuttaa ja laskea uudelleen **Laske hinta verollisesta / Laske hinta verottomasta** -painikkeiden avulla.
 
-Varausilmoituksen voi myös tulostaa PDF-tulosteena ja tallentaa tiedostoksi omalle koneelle klikkaamalla ensin Tulosta -painiketta, jonka jälkeen ilmestyy Avaa PDF-tuloste -painike
+![Ilmoitusvarauksen lisääminen - Vakiotekstit](/img/ohjeet/vakiotekstit.png)
+*Ilmoitusvarauksen laskuun voi lisätä tekstejä ja käyttää uudestaan tallennettuja tekstejä.*
 
-Kopioi -painikkeesta pystyy luomaan uuden ilmoitusvarauksen aiemman ilmoituksen pohjatiedoilla. Klikkauksen jälkeen avautuu uusi/luotu Ilmoitusvaraus -lomake, johon tehdään tarvittavat muutokset (esim. Julkaisun valinta) ennen tallennusta.
+**Lisätiedot laskun tuoteriville** –kentässä annetaan asiakkaan laskulle näkyviin haluttavat tiedot
+- Ne voidaan myös tallentaa **Lisää vakiotekstiksi** –painikkeesta ja käyttää jatkossakin
+- Tallennettujen listaus avautuu **Vakiotekstit**–painikkeesta ja Valitse–painikkeesta klikkaamalla kopioituu kyseinen teksti kenttään, jossa sitä voi tarvittaessa vielä muokata
+- **Poista**–painikkeesta tallennettu viesti poistuu käytöstä
 
+**Valmistuslisä** huomioidaan myös hintaan, kun se lisätään uudeksi tuoteriviksi laskulle. 
 
-Ilmoitusvarauksen perustiedot
+![Ilmoitusvarauksen lisääminen - Laskutustavat](/img/ohjeet/laskutustavat.png)
 
-Malli NETTI-kanavan tuotekentistä
+**Laskutustapoja** on erilaisia, kuten jokainen ilmoitus erikseen tai koontilaskuna viimeisen ilmoituksen jälkeen
+- kentän tiedon mukaisesti luodaan lasku, joka jättää huomioimatta muut Laskutustapa -valinnat.
 
-Malli RADIO-kanavan tuotekentistä
+**Ilmoitusmääräin** on asiakkaan antama laskuviitteen teksti, joka siirretään laskun tuoteriville (esim. laskutettavan yrityksen osastokohtaiset viitteet).
 
-Ilmoitusvaraukseen liittyvän aineiston tiedot
+**Laskutetaan omanaan** -kentän aktivointi muodostaa kyseisestä ilmoitusvarauksesta oman laskutuspyynnön, josta muodostuu yksittäinen lasku (muut Laskutustapa -valinnat jätetään huomioimatta).
 
-Ilmoitusvarauksen hinta- ja laskutustiedot
+![Ilmoitusvarauksen lisääminen - Laskun maksaja](/img/ohjeet/ilmoitusmaksaja.png)
 
-Vakiotekstit laskupohjan tuoteriville
-Mikäli käyttäjä on aktivoinut omissa Käyttäjän tiedoissaan Pelkistetyn ilmoitusvarauslomakkeen käytön, niin yksittäinen Ilmoitusvaraus -lomake näyttää toisenlaiselta, jossa lomakkeella näkyy vain (käyttöönotossa sovitut)
-- Ilmoituksen perustiedot (kuten aiemminkin)
-- Hinta- ja laskutustiedot -osion kentät
-- Laskun maksaja -tiedot
-- Laskujen muodostuminen -laskutiedot
+Ilmoitusvaraukselle voi myös tarvittaessa lisätä eri maksajan **Hae laskun maksajaa** –painikkeesta (maksajan on oltava asiakasrekisterissä jo valmiiksi lisättynä).
 
-Mikäli esim. ilmoituksen perustietoihin halutaan näkyviin muita kenttiä (pitkästä lomakkeesta) ja/tai muita osioita, kuten esim. Aineistotiedot -osion Ilmoitukseen ei liity tiedostoja -kenttä, niin niiden näkyvyyden aktivoinnista sovitaan erikseen ennen käyttöönottoa.
+#### *Pelkistetty ilmoitusvaraus-lomake*
+
+![Myynnit - Ilmoitusvarauksen lisääminen](/img/ohjeet/ilmoitusvarauksenlisaaminen.png)
+*Pelkistetty ilmoitusvaraus-lomake*
+
+Mikäli käyttäjä on aktivoinut omissa Käyttäjän tiedoissaan pelkistetyn ilmoitusvarauslomakkeen käytön, niin yksittäinen ilmoitusvaraus-lomake näyttää toisenlaiselta, ja lomakkeella näkyy vain
+- **Ilmoituksen perustiedot** 
+- **Hinta- ja laskutustiedot** -osion kentät
+- **Laskun maksaja** -tiedot
+
+Mikäli esim. ilmoituksen perustietoihin halutaan näkyviin muita kenttiä (pitkästä lomakkeesta) ja/tai muita osioita, kuten esim. Aineistotiedot-osion Ilmoitukseen ei liity tiedostoja -kenttä, niin niiden näkyvyyden aktivoinnista sovitaan erikseen ennen käyttöönottoa.
 
 Toiminnallisesti molemmat lomakkeet ovat siis samat kuin tähänkin asti ja käyttäjä voi aktivoida/vaihtaa kumman tahansa päälle milloin tahansa. 
 
-### Ilmoitusvarauksen laskutus
+### Valmiin ilmoitusvarauksen lisätoiminnot
 
-Ilmoitusvarauksen tallennuksen yhteydessä muodostuu automaattisesti Laskutuspyyntö, joka näkyy Myynnin koontisivun Laskutus -osiossa
+![Myynnit - Ilmoitusvarauksen muokkaus](/img/ohjeet/valmisilmoitus.png)
 
-Saa luoda pvm -kentässä näkyvä tieto tuodaan automaattisesti tuotteelle asetetusta oletuspäivästä, mutta sen pystyy muuttamaan tarvittaessa
-- Suoraan ko. PVM kentän kautta
-- Ilmoitusvaraus -lomakkeen Laskutuspäivä -kentän avulla (asiakkaan kanssa sovittu laskutuspäivä)
+Ilmoitusvarauksen tallentamisen jälkeen ilmestyy lomakkeelle muutama lisätoiminto.
+
+**Laskujen muodostuminen** -kentässä lukee lisätietoja laskun muodostamisesta ja lähetyspäivästä.
+
+Varausilmoituksen voi tulostaa PDF-tulosteena ja tallentaa tiedostoksi omalle koneelle klikkaamalla ensin **Tulosta**-painiketta, jonka jälkeen ilmestyy **Avaa PDF-tuloste** -painike.
+
+**Kopioi**-painikkeesta pystyy luomaan uuden ilmoitusvarauksen aiemman ilmoituksen pohjatiedoilla. Klikkauksen jälkeen avautuu uusi ilmoitusvaraus-lomake, johon tehdään tarvittavat muutokset (esim. Julkaisun valinta) ennen tallennusta.
+
+Ilmoitusvarauksen voi poistaa painamalla **Poista**-painiketta.
