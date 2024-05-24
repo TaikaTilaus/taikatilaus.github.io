@@ -126,9 +126,9 @@ Myyntinumeroa klikkaamalla siirrytään yksittäisen myynnin käsittelyyn
 
 ![Ilmoitusasiakas - Myynti](/img/ohjeet/myynnit.png)
 
-Mikäli käyttäjä on aktivoinut omissa tiedoissaan **Pelkistetyn ilmoitusvarauslomakkeen** käytön, niin **Myynnit**-listaus näyttää toisenlaiselta, jossa kyseisen Ilmoitusasiakkaan listauksella näkyy kaikki tehdyt Ilmoitusvaraukset yksittäisinä riveinä ja ne voidaan avata käsittelyä varten joko 
-- 2. sarakkeen VarausNro -linkistä (yksittäinen) tai 
-- viimeisen sarakkeen MyyntiNro -linkin (koonti ko. myyntiin sisältyvistä) kautta.
+Mikäli käyttäjä on aktivoinut omissa tiedoissaan **Pelkistetyn ilmoitusvarauslomakkeen** käytön, niin **Myynnit**-listaus näyttää toisenlaiselta, jossa kyseisen Ilmoitusasiakkaan listauksella näkyy kaikki tehdyt ilmoitusvaraukset yksittäisinä riveinä ja ne voidaan avata käsittelyä varten joko 
+- varausnumerosta (yksittäinen ilmoitusvaraus)
+- tai myyntinumerosta (kaikki myyntivaraukseen liittyvät ilmoitusvaraukset)
 
 ![Ilmoitusasiakas - Myynti](/img/ohjeet/myynnit-pelkistetty.png)
 
