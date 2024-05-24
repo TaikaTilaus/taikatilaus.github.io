@@ -108,58 +108,64 @@ Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim
 
 ### Postituslistan jatkokäsittely ja siirrot painoon/jakeluun
 
-1) Postituslista / Postitusten tiedot –välilehdellä luodaan tarvittavat aineistot
+1) **Postituslista / Postitusten tiedot** –välilehdellä luodaan tarvittavat aineistot
 - Heti
 - Ajastettuna
 
-Automaattiset ajot suoritetaan palvelimella joka viides minuutti ellei oletusaikoja ole muutettu.
+**Automaattiset ajot** suoritetaan palvelimella joka viides minuutti ellei oletusaikoja ole muutettu.
 
-Listauksella näytetään jo tallennettujen lehtien tiedot ja niiden lokitiedot, jotka on jo ajettuina
-- Tallennettuja lehtitietoja pääsee muokkaamalla klikkaamalla Lehti –sarakkeen Nimi -painiketta
-- Ennakkoon syötettyjen lehtien Paino / Paksuus –tiedot voi lisätä ennen ko. Postitusta
-- Ajastetuista ajoista näytetään ko. ajon Suoritusaika ja ajon jälkeinen Tila (esim. VALMIS pp.kk.vvvv hh:mm:ss)
+![Postituslista - Postitusten tiedot](/img/ohjeet/postitustentiedot.png)
+
+**Listauksella** näytetään jo tallennettujen lehtien tiedot ja niiden lokitiedot, jotka on jo ajettuina
+- Tallennettuja lehtitietoja pääsee muokkaamalla klikkaamalla **Lehti-sarakkeesta lehden nimeä**
+- Ennakkoon syötettyjen lehtien **Paino/Paksuus**–tiedot voi lisätä ennen kyseistä Postitusta
+- Ajastetuista ajoista näytetään kyseisen ajon **Suoritusaika** ja ajon jälkeinen **Tila** (esim. VALMIS pp.kk.vvvv hh:mm:ss)
 
 Listaukselle haettavia lehtitietoja voidaan suodattaa
-- Lehti –valikon lehden ja/tai
-- Ilmestymispäivän mukaan
+- **Lehti**–valikon lehden ja/tai
+- **Ilmestymispäivän** mukaan
 
-2) Hae PostiPron palvelusta Lehtikohtaiset tiedot ja täydennä ne perustietokenttiin – tallenna jo valmiiksi tulevienkin tiedot Lisää postitus -painikkeesta
-- Lehti –valikosta valittava lehti
-- Ilmestymispäivä jolloin ko. lehti ilmestyy (pakollinen tieto)
-- Numero (pakollinen tieto, lehden Julkaisunumero)
-- Paino (LaPa ajossa tarvittava tieto)
-- Paino ulkomaat (LaPa ajossa tarvittava tieto) – ei kaikilla käytössä, joten piilotettuna muilla
-- Paksuus (LaPa ajossa tarvittava tieto)
-- Lähetyslistan numero (pakollinen tieto LaPa ajoa varten), jonka on vastattava Ilmestyspäivä -tietoa
+![Postituslista - Postitusten tiedot](/img/ohjeet/suodatus.png)
 
-3) Postitusyhteenvedon lähetys Lähetä lopuksi –aktivointi, mikäli tehdyistä ajoista halutaan yhteenveto viesti tai klikkaa Lähetä heti –painiketta, mikäli aiempi viesti ei ole tullut vastaanottajalle
+2) Paina **Lisää postitus** -painikkeesta. Hae **PostiPron** palvelusta **Lehtikohtaiset tiedot** ja täydennä ne perustietokenttiin:
+- **Lehti**–valikosta valittava lehti
+- **Ilmestymispäivä**, jolloin kyseinen lehti ilmestyy (pakollinen tieto)
+- **Numero** (pakollinen tieto, lehden Julkaisunumero)
+- **Paino** (LaPa ajossa tarvittava tieto)
+- **Paino ulkomaat** (LaPa ajossa tarvittava tieto) – ei kaikilla käytössä, joten piilotettuna muilla
+- **Paksuus** (LaPa ajossa tarvittava tieto)
+- **Lähetyslistan numero** (pakollinen tieto LaPa ajoa varten), jonka on vastattava Ilmestyspäivä -tietoa
 
-4) Postitusyhteenvedon vastaanottajat – täydennä spostiosoitteet, joihin yhteenvetoviesti lähetetään (erottelu puolipisteellä ; ) tai Hae oletusvastaanottajat -painikkeella
+![Postituslista - Postitusten tiedot](/img/ohjeet/postituksenlisaaminen.png)
 
-5) Päivitä loki –painikkeesta voi seurata ajojen etenemistä ja mahdollisia virheitä
+3) Postitusyhteenvedon lähetys **Lähetä lopuksi** –aktivointi, mikäli tehdyistä ajoista halutaan yhteenveto viesti tai klikkaa **Lähetä heti** –painiketta, mikäli aiempi viesti ei ole tullut vastaanottajalle
 
-6) Näytä ajoajat –painikkeesta voi katsoa ja tarvittaessa muuttaa Ilmestymispäivä –tiedon mukaisesti asetetut oletusajankohdat
+4) Postitusyhteenvedon vastaanottajat – **täydennä sähköpostiosoitteet**, joihin yhteenvetoviesti lähetetään (erottelu puolipisteellä ; ) tai **Hae oletusvastaanottajat** -painikkeella
+
+5) **Päivitä loki** –painikkeesta voi seurata ajojen etenemistä ja mahdollisia virheitä
+
+6) **Näytä ajoajat** –painikkeesta voi katsoa ja tarvittaessa muuttaa Ilmestymispäivä –tiedon mukaisesti asetetut oletusajankohdat
 - Postitusajolle (luo Postituslistan ko. lehdelle)
 - LaPa –ajolle (luo Postin tarvitseman LaPa-aineiston)
 - FTP –aineistosiirrolle (siirtää luodut aineistot painolle)
 
-7) Ajojen ajankohdat voi myös asettaa itse, mikäli esim. autom. ajossa on ilmennyt virhetilanne
-- Virhetilanteesta riippuen voi kyseisen ja/tai edeltävän ajon joutua Nollaamaan ennen kuin sen voi ajaa uudelleen
+7) **Ajojen ajankohdat** voi myös asettaa itse, mikäli esim. autom. ajossa on ilmennyt virhetilanne
+- Virhetilanteesta riippuen voi kyseisen ja/tai edeltävän ajon joutua **Nollaamaan** ennen kuin sen voi ajaa uudelleen
 
-8) Päivitä loki –painikkeesta voi ajona aikaisia tietoja päivittää näkyviin kesken ajojenkin
+8) **Päivitä loki** –painikkeesta voi ajona aikaisia tietoja päivittää näkyviin kesken ajojenkin
 
 ### Postitusajojen mahdollisia virhe-esimerkkejä
 
-Postituslista -ajon virhemahdollisuus
+**Postituslista**-ajon virhemahdollisuus
 - Ei yleistä, mutta voi johtua esim. tietokantavirheestä
 - Vaatii aina yhteydenoton tuki@taikatilaus.fi
 
-FTP -ajon virhemahdollisuus
+**FTP**-ajon virhemahdollisuus
 - Ei yleistä, mutta yhteyden luonnissa voi ilmetä ongelmia
 - Voi yrittää myöhemmin/seuraavana päivänä uudelleen
 - Tarvittaessa yhteydenotto tuki@taikatilaus.fi
 
-LaPa -ajon virhemahdollisuuksia
+**LaPa**-ajon virhemahdollisuuksia
 - Postin palvelimella voi olla ruuhkaa, mutta ohjelma suorittaa uusinta-ajon (20x) automaattisesti
 - Virhe: […An error occurred while making the HTTP request to https]
 
@@ -177,37 +183,59 @@ TaikaNakka -lehden paino korjattu punnituskappaleen mukaiseksi, 70g/kpl (listall
 
 ## Postitusten haku
 
-Postitusten haku –välilehdellä luodaan eri jakelukanaviin lähetettävät osoitteistotiedostot
-- Jos halutaan tarkastella tiettyä postitusta, valitaan Lehti ja Ilmestymispäivä, sekä mahdolliset muut ehdot ennen Hae –painikkeen klikkausta (LähetysID on sama koko postituksella)
-Postituslistan avulla voi myös tarkastella Varhaisjakelun nippuja ja etenkin asiakaskorteille aktivoidun Varhaisjakelu estetty –toiminnon vaikutusta niihin (osoitteen mukainen Varhaisjakelu pakotetaan Päiväjakeluun) Näytä niput ilman varhaisjakeluestoa –painikkeesta
-- Aktivoituu näkyviin, kun ensin valitaan Varhaisjakelun esto- valikosta vaihtoehto Kyllä
-- Muutostiedot näkyvät listauksella punaisella
+**Postitusten haku** –välilehdellä luodaan eri jakelukanaviin lähetettävät osoitteistotiedostot.
+- Jos halutaan tarkastella tiettyä postitusta, valitaan **Lehti** ja **Ilmestymispäivä**, sekä mahdolliset muut ehdot ennen **Hae** –painikkeen klikkausta (LähetysID on sama koko postituksella)
 
-Näytä postitusyhteenveto –painikkeesta näytetään samat Postituslista –yhteenvetotiedot kuin Postituslistan luonti –sivulla
+![Postituslista - Postitusten haku](/img/ohjeet/postitustenhaku1.png)
 
-Näytä muutokset edellisestä postituksesta –painikkeesta näytetään edellisen/uuden Postituslista –yhteenvetotietojen muuttuneet osoitetiedot lihavoidulla ja edellisen postituksen tieto kursivoidulla
+Postituslistan avulla voi myös tarkastella Varhaisjakelun nippuja ja etenkin asiakaskorteille aktivoidun **Varhaisjakelu estetty** –toiminnon vaikutusta niihin (osoitteen mukainen Varhaisjakelu pakotetaan Päiväjakeluun) **Näytä niput ilman varhaisjakeluestoa** –painikkeesta
+- Aktivoituu näkyviin, kun ensin valitaan **Varhaisjakelun esto** -valikosta vaihtoehto **Kyllä**
+- **Muutostiedot** näkyvät listauksella punaisella
 
-Jo luodut postituslistat näytetään Luodut aineistot -välilehdellä ja niitä voi tarkastella Tiedoston nimi -linkkiä klikkaamalla
-Jatkopainikkeiden klikkauksen jälkeen aukeaa ko. listatiedosto selaimella uuteen välilehteen
+//en tajua, selvennys
+
+![Postituslista - Postitusten haku](/img/ohjeet/varhaisjakeluesto.png)
 
 ### Osoitteistojen tiedostopainikkeet
 
-Näytä postitusyhteenveto –painikkeesta näytetään samat Postituslista –yhteenvetotiedot kuin Postituslistan luonti –sivulla
+**Näytä postitusyhteenveto** –painikkeesta näytetään samat Postituslista–yhteenvetotiedot kuin <a href="https://taikatilaus.github.io/docs/ohjeet/tilaustenhallinta/postistuslista#postituslistan-luonti-1">Postituslistan luonti –sivulla</a>
 
-Näytä muutokset edellisestä postituksesta –painikkeesta näytetään edellisen/uuden Postituslista –yhteenvetotietojen muuttuneet osoitetiedot lihavoidulla ja edellisen postituksen tieto kursivoidulla
+![Postituslista - Postitusten haku](/img/ohjeet/postitusyhteenveto.png)
 
-Näytä lehden postituspäivät –painikkeesta näytetään listaus lehdelle luoduista postituslistoista päiväyksineen ja LähetysID:neen
+**Näytä muutokset edellisestä postituksesta** –painikkeesta näytetään uuden ja edellisen postituslistan tiedot muutoksien vertailua varten.
 
-Peruslataus –painikkeesta luodaan Varhaisjakeluun tarvittava osoitteisto (.txt) ladattavaksi Lataa TNnnnn.all.txt –painikkeesta
+![Postituslista - Postitusten haku](/img/ohjeet/edellinenpostitus.png)
 
-Varhaisjakelun nippumuutokset–painikkeesta luodaan yhteenveto nipuista, joissa on muutoksia aiempaan niputukseen verrattuna ja sen tietojen vienti tiedostoon Lataa nnnn.all.txt –painikkeesta
+**Näytä lehden postituspäivät** –painikkeesta näytetään listaus lehdelle luoduista postituslistoista päiväyksineen ja LähetysID:neen.
 
-Painoaineisto –painikkeesta luodaan Painoon tarvittava osoitteisto (.txt) ladattavaksi Lataa KV001.. –painikkeesta
+![Postituslista - Postitusten haku](/img/ohjeet/postituspaivat.png)
 
-Ferak –painikkeesta luodaan Painoon tarvittava osoitteisto (.txt) ladattavaksi Lataa _1110.TSL.. –painikkeesta
+**Peruslataus**–painikkeesta luodaan varhaisjakeluun tarvittava osoitteisto tekstiedostona ladattavaksi **Lataa TNnnnn.all.txt** –painikkeesta
 
-Excel –painikkeesta luodaan Painoon tarvittava osoitteisto (.txt) ladattavaksi Lataa _1110.TSL.. –painikkeesta
+![Postituslista - Postitusten haku](/img/ohjeet/peruslataus.png)
 
-Postinumerolista –painikkeesta luodaan tarvittava listaus Postinumeroista ja KPL määristä Excel-taulukkoon Lataa postinumerolista –painikkeesta
+**Varhaisjakelun nippumuutokset** –painikkeesta luodaan yhteenveto nipuista, joissa on muutoksia aiempaan niputukseen verrattuna ja sen tietojen vienti tekstitiedostoon **Lataa nnnn.all.txt** –painikkeesta
+
+![Postitusten haku - Varhaisjakelun nippumuutokset](/img/ohjeet/nippumuutokset.png)
+
+**Excel**–painikkeesta luodaan Painoon tarvittava osoitteisto (.txt) ladattavaksi Lataa _1110.TSL.. –painikkeesta
+
+![Postitusten haku - Excel](/img/ohjeet/excel.png)
+
+**Postinumerolista**–painikkeesta luodaan tarvittava listaus Postinumeroista ja KPL määristä Excel-taulukkoon Lataa postinumerolista –painikkeesta
+
+![Postitusten haku - Postinumerolista](/img/ohjeet/postinumerolista.png)
+
+**Vertaa asiakasnumeroilla** -painikkeesta voit tarkastaa löytyykö syöttämäsi asiakasnumero/t postituslistalta. Tätä toimintoa voi käyttää esimerkiksi silloin kun asiakkaalla on usein ilmestynyt jakeluhäiriöitä.
+
+![Postitusten haku - Vertaa asiakasnumeroilla](/img/ohjeet/vertaa-asiakasnumeroilla.png)
+
+**Lähetä yhteenveto** -painikkeesta voit lähettää yhteenvedon postituslistan tiedoista aiemmin määritettyyn sähköpostiin.
+
+![Postitusten haku - Lähetä yhteenveto](/img/ohjeet/yhteenveto.png)
 
 ## Postitusohjeet
+
+Postituslistan luomiseen löytyy ohjeet myös sovelluksen sisältä Postitusohjeet-välilehdeltä.
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitusohjeet.png)
