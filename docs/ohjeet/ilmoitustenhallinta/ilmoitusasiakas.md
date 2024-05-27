@@ -193,7 +193,11 @@ Ilmoitusvarauksen **numeroa** klikkaamalla pääsee yksittäisen ilmoitusvarauks
 - kirjata ylös myyntiin liittyviä **lisätietoja**
 - lisätä tekstin **laskun tuoteriville**
 - määrittää myynnille **verottoman pakettihinnan ja alennusprosentin** (tällöin myyntiin liittyvien yksittäisten ilmoitusvarausten hintoja ei oteta huomioon)
-- jos olet pääkäyttäjä, voit **siirtää myynnin** toiselle asiakkaalle
+
+Poikkeavat käsittelyt, mitkä ovat **vain Pääkäyttäjän** tehtävissä:
+- aiemmin tehdyn myynnin **siirtäminen** toiselle asiakkaalle (esim. alkuperin myynti on tehty väärälle, samannimiselle asiakkaalle)
+- jo laskutettuja ilmoitusvarauksien **vapauttaminen** uudelleenlaskutukseen (esim. lasku on lähetetty väärälle maksajalle)
+- toiminnot ovat aktivoitavissa **Asetukset / Pääkäyttäjä** –näkymän kautta
 
 ### Myyntipaketin lisääminen
 
