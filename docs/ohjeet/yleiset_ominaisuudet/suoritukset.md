@@ -6,6 +6,8 @@ sidebar_position: 3
 
 ## Yleistä suorituksista
 
+![Suoritukset](/img/ohjeet/suoritukset.png)
+
 Suoritukset–välilehdellä tarkastellaan sovellukseen tulevia maksuja
 
 Hae –painike hakee kaikki saapuneet Suoritukset listaukselle
@@ -26,6 +28,8 @@ Hakulistauksella näytetään (aktivoinnin ollessa päällä)
 Hakukenttien alapuolella on kenttä Hae vain käsittelyä vaativat, jonka aktivointi piilottaa listaukselta kaikki ne suoritukset
 - jotka on liitetty ko. laskulle virheettöminä (saapuneesta pankkiaineistoista)
 - jotka on manuaalisesti lisätty laskuille (käyttäjän tekemät) 
+
+![Raportit](/img/ohjeet/suoritukset2.png)
 
 Virheellisten käsittelyssä pitää merkitä Käsitelty info -kenttään tietoa (esim. OK ja/tai muuta lisäselvennystä), että rajaustoiminto toimii suunnitellusti
 

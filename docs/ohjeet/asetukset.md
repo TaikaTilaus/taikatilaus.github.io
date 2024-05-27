@@ -303,14 +303,14 @@ Esim. jos sama myyntituote on useammassa eri lehdessä
 
 ## Julkaisut
 
-Julkaisut–välilehdellä voi muokata ja lisätä julkaisuja. Julkaisu on tuote, jossa mainos/ilmoitus esitetään, kuten lehti, radiomainos, uutiskirje, www-sivu jne. Lisää–painikeella voidaan muodostaa yksittäisistä julkaisuja eri kanavia varten. Julkaisuja pääsee muuttamaan/poistamaan klikkaamalla Nimi–sarakkeesta löytyvää yksittäistä nimeä.
+**Julkaisut**–välilehdellä voi muokata ja lisätä julkaisuja. **Julkaisu on tuote**, jossa mainos tai ilmoitus esitetään, kuten lehti, radiomainos, uutiskirje, www-sivu jne. **Lisää**–painikeella voidaan lisätä yksittäisistä julkaisuja eri kanavia varten. Julkaisuja pääsee muuttamaan/poistamaan klikkaamalla Nimi–sarakkeesta löytyvää yksittäistä nimeä.
 
 ![Julkaisut](/img/ohjeet/julkaisut.png)
 *Julkaisut välilehti*
 
 ### Julkaisun lisääminen
 
-Julkaisulle määritellään mm. siihen liittyvä
+**Julkaisulle määritellään** mm. siihen liittyvä
 - Kanava (esim. tietty lehti, nettisivu, mainostaulu), joka valitaan valikosta
 - Nimi ja Numero, jotka ovat vapaasti määriteltävissä
 - Teema, joka on vapaasti määriteltävissä
@@ -318,18 +318,18 @@ Julkaisulle määritellään mm. siihen liittyvä
 - Ilmestymispäivä (jolloin esim. lehti jaetaan)
 - Aineiston viimeinen käsittelypäivä (mihin mennessä siihen halutut ilmoitusaineistot pitää olla toimitettuna)
 
-Valmiin julkaisun (PDF tiedosto) voi ladata palveluun, jolloin se tulee välittömästi näkyviin OmaPalveluun kaikille ko. julkaisun tilanneille asiakkaille ja/tai kaikille niille, jotka ovat siihen ostaneet mainos-/ilmoitustilaa
+**Valmiin julkaisun** (PDF tiedosto) voi ladata palveluun, jolloin se tulee välittömästi näkyviin **OmaPalveluun** kaikille ko. julkaisun tilanneille asiakkaille ja/tai kaikille niille, jotka ovat siihen ostaneet mainos-/ilmoitustilaa
 
 ![Julkaisujen lisääminen](/img/ohjeet/julkaisun-lisaaminen.png)
 *Julkaisun tiedot*
 
 ## Irtonumerot
 
-Irtonumerot –välilehdellä lisätään lehtien irtonumeroiden saajat
+**Irtonumerot**–välilehdellä lisätään lehtien irtonumeroiden saajat
 - vain postituslistaan ja
 - tilaus- ja asiakasnumeroksi asetetaan 999999
 
-Irtonumeroiden lisäyksessä syötetään jokainen lehden irtonumero omalle rivilleen puolipisteillä eroteltuina muodossa:
+Irtonumeroiden **lisäyksessä syötetään** jokainen lehden irtonumero **omalle rivilleen puolipisteillä** eroteltuina muodossa:
 - Lehden nimi;
 - Lehden ilmestymispäivä;
 - Nimi (Suku- ja etunimi);
@@ -397,7 +397,7 @@ Tämä on hyödyllistä esimerkiksi kohdennetun markkinoinnin kannalta.
 
 **Haku-näytöllä katkaisun syyt mitkä sisältyvät ehtoon: [KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]**, asetetaan ne katkaisun syyt, jotka voidaan karsia hausta. 
 
-Esim. //linkki **Haku**-näytön kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat esim. tilaajan kuolemasta tai oikeustoimikelvottomuudesta, niin että nämä asiakkaat eivät joudu soittolistaan.
+Esim. <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/haut">**Haut**</a>-näytön kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat esim. tilaajan kuolemasta tai oikeustoimikelvottomuudesta, niin että nämä asiakkaat eivät joudu soittolistaan.
 
 ## Pääkäyttäjä
 
