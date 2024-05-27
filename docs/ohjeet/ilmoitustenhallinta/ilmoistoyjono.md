@@ -4,33 +4,86 @@ sidebar_position: 3
 
 # Ilmoitustyöjono
 
-## Yleistä lmoitustyöjonosta
+## Yleistä ilmoitustyöjonosta
 
-Ilmoitustyöjono –välilehdellä käsittelijät ja myyjät pääsevät katselemaan työjonossa olevia mainos-/ilmoitusaineistoja
-Käsittelijä on henkilö, joka tekee mainoksen materiaalien pohjalta ja lataa sen palveluun hyväksyttäväksi (esim. graafikko)
-Myyjä voi valita mainokselle Käsittelijän klikkaamalla Käsittelijä -sarakkeen linkkiä ja lisäämällä Käsittelijän sähköpostiosoitteen ja klikkaamalla Tallenna –painiketta
-Myyjä voi ottaa sen myös itselleen käsittelyyn avaamalla listauksen ensimmäisen sarakkeen ikonista siirtymän OmaIlmoitus-palveluun ja klikkaamalla Ota ilmoitus itsellesi käsittelyyn –painiketta
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono.png)
 
-AINEISTO_TOIMITETTU-tilassa olevan ilmoitusvarauksen voi ottaa käsittelyyn kirjatulle käsittelijälle Valitse käsittelyyn –painikkeella
+**Ilmoitustyöjono**–välilehdellä käsittelijät ja myyjät pääsevät katselemaan työjonossa olevia mainos-/ilmoitusaineistoja.
 
-AINEISTO_TOIMITETTU- ja KÄSITTELYSSÄ tilassa olevalle ilmoitusvarauksen käsittelijälle voi lähettää linkin aineiston lataamista ja ilmoituksen liittämistä varten Lähetä linkki käsittelijälle -painikkeella
+**Käsittelijä** on henkilö, joka tekee mainoksen materiaalien pohjalta ja lataa sen palveluun hyväksyttäväksi (esim. graafikko).
 
-Hakulistausta voi hyödyntää esim. hakemalla seuraavan Julkaisun nimi ja Ilmoitusvarauksen tila -tiedoilla jo valmiina olevat ilmoitukset (Hyväksytty) tai keskeneräisiä/hyväksyntää odottavat ilmoitukset (Ilmoitus_valmis/Hyväksyttävänä)
+Voit valita mainokselle Käsittelijän klikkaamalla **Käsittelijä**-sarakkeen linkkiä ja lisäämällä Käsittelijän **sähköpostiosoitteen** ja klikkaamalla **Tallenna**–painiketta.
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono2.png)
+
+Ohjelmaan kirjautunut käsittelijä voi ottaa AINEISTO_TOIMITETTU-tilassa olevan ilmoitusvarauksen käsittelyyn **Valitse käsittelyyn** –painikkeella.
+
+AINEISTO_TOIMITETTU- tai KÄSITTELYSSÄ-tilassa olevalle ilmoitusvarauksen käsittelijälle voi lähettää linkin aineiston lataamista ja ilmoituksen liittämistä varten **Lähetä linkki käsittelijälle** -painikkeella.
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono3.png)
+
+Ilmoitustyöjonolta voi **hakea ja suodattaa suodattaa** ilmoitusvarauksia:
+- Ilmoitusten ilmestymisaikavälin
+- Käsittelijän
+- Ilmoitusvarauksen tilan
+- Kanavan
+- Julkaisun
+- Ryhmän mukaan
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono4.png)
+
+**Ilmoitusvarauksen tila** voi olla
+- **Alustava** – Luotu, mutta ilman aineistoa
+- **Ei_Aineistoa** – Odottaa sisältöä
+- **Aineisto_Toimitettu** – Käsittelijällä/Ilmoitustyöjonossa
+- **Ilmoitus_valmis** – Taittaja tehnyt ilmoituksen, mutta asiakas ei ole vielä hyväksynyt
+- **Hyväksyttävänä** – Odottaa asiakkaan hyväksyntäkuittausta
+- **Hyväksynyt** – Asiakkaan hyväksymä valmis ilmoitus
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono5.png)
+
+Voit muuttaa ilmoitusvarauksen tilaa painamalla **Muuta tilaa** -painiketta.
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono7.png)
 
 ## Ilmoitustyöjono ja aineistot
 
-Käsittelijä aktivoinnin jälkeen pääsee lisäämään ko. Ilmoitusvaraukseen liittyviä aineistoja klikkaamalla listauksen ensimmäisen sarakkeen ikonia
+Voit lisätä ilmoitukseen aineistoa tai valmiin ilmoituksen **Lisää aineisto** -painikkeella tai **Lisää ilmoitus** -painikkeella.
 
-Selaimeen avautuu uusi välilehti, jossa
--Lisää aineisto –painikkeella voi lisätä ilmoitukseen tulevan kuvan
--Lisää ilmoitusteksti–painikkeella voi lisätä ilmoitukseen tulevan tekstityksen
--Lisää valmis ilmoitus –painikkeella lisätään valmis ilmoitus
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono10.png)
+*Aineiston ja valmiin ilmoituksen lisääminen*
 
-Lisätyt aineistot näytetään listauksen Aineistot ja ilmoitustekstit, sekä Ilmoitus –sarakkeissa, joista ne voi avata katselmoitavaksi Nimi –linkkiä klikkaamalla
+### Aineiston lisääminen
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono8.png)
+*Aineiston lisääminen*
+
+- 
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono9.png)
+
+*Valmiin ilmoituksen lisääminen*
+
+Aktivoimalla **Näytä tiedostojen poistaminen** -kentän voit poistaa ilmoituksiin lisättyjä aineistoja.
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono6.png)
+
+### Ilmoituksen käsittely
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono11.png)
+
+Painamalla ensimmäisessa sarakkeessa olevaa ikonia selaimeen avautuu uusi välilehti, jossa
+- **Lisää aineisto** –painikkeella voi lisätä ilmoitukseen tulevan kuvan
+- **Lisää ilmoitusteksti** –painikkeella voi lisätä ilmoitukseen tulevan tekstityksen
+- **Lisää valmis ilmoitus** –painikkeella lisätään valmis ilmoitus
+
+Lisätyt aineistot näytetään listauksen **Aineistot ja ilmoitustekstit**, sekä **Ilmoitus** –sarakkeissa, joista ne voi avata katselmoitavaksi **Nimi**–linkkiä klikkaamalla. 
+
+![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono12.png)
 
 ## Automatisoidut aineistosiirrot
 
-Toiminnallisuudesta yleisesti
+**Toiminnallisuudesta yleisesti**
 
 Kun uusi ilmoitusvaraus tallennetaan, luodaan TaikaTilauksen palvelimella olevaan hakemistorakenteeseen kansio varauksessa valitun Julkaisun alle (esim. TaikaNakka 01/2022) nimettynä uudella VarausNumerolla. Tallennuksen yhteydessä kirjoitetaan samaan hakemistokansioon myös ilmoitusvarauksen tiedot erilliseen .txt tiedostoon.
 

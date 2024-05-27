@@ -49,7 +49,7 @@ Jos Myynnille on annettu pakettihinta (esim. 50,00 €), niin sen sisältämien 
 - **Luo Excel** –painikketta (hakutuloksien vienti Exceliin)
 - **Lehden varausluettelo** -painikketta (yksittäisen julkaisun ilmoitusvaraukset)
 - **Varausluettelo**-painikketta (kaikki varaukset valitulta aikaväliltä)
-- **Palstamillimetritilasto** –painikketta 
+- **Palstamillimetritilasto** –painikketta //selitys
 - **Laskutuksen tarkastuslista** -painikketta (määritellyn aikavälin ilmoitusvaraukset laskutustietoineen)
 - **Laskutettavien lista** -painiketta (tiettynä päivänä laskutettavat ilmoitusvaraukset)
 
