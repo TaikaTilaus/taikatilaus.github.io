@@ -43,6 +43,8 @@ Laskutusajon yhteydessä ohjelma hakee yksittäisille Ilmoitusvarauksille tallen
 
 Jos Myynnille on annettu pakettihinta (esim. 50,00 €), niin sen sisältämien yksittäisten myyntivarausten oletushintoja ei sellaisenaan laskulle tulosteta, MUTTA ne **on oltava ilmoitusvarauksilla siitä huolimatta** (ei siis saa poistaa) koska paketin yksittäisiä PMM-tietoja kuitenkin käytetään sille annetun **kokonaishinnan jakamiseksi** laskulle **yksikköhintojen oikeassa suhteessa.**
 
+### Ilmoitusvarauksien raportit
+
 **Hakutuloksista** voi luoda erilaisia raportteja painamalla **Raportit**-painiketta ja sitten:
 - **Luo Excel** –painikketta (hakutuloksien vienti Exceliin)
 - **Lehden varausluettelo** -painikketta (yksittäisen julkaisun ilmoitusvaraukset)
