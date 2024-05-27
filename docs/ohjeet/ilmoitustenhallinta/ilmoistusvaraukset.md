@@ -27,7 +27,7 @@ Listasta voi hakea ilmoitusvarauksia seuraavilla **hakukriteereillä**:
 - **Alustava** – Luotu, mutta ilman aineistoa
 - **Ei_Aineistoa** – Odottaa sisältöä
 - **Aineisto_Toimitettu** – Käsittelijällä/Ilmoitustyöjonossa
-- **Ilmoitus_valmis** – Taittaja tehnyt ilmoituksen, mutta asiakas ei ole vielä hyväksynyt (siirretty AdWizardilla ilmvarnro.pdf)
+- **Ilmoitus_valmis** – Taittaja tehnyt ilmoituksen, mutta asiakas ei ole vielä hyväksynyt
 - **Hyväksyttävänä** – Odottaa asiakkaan hyväksyntäkuittausta
 - **Hyväksynyt** – Asiakkaan hyväksymä valmis ilmoitus
 
@@ -39,9 +39,9 @@ Hakulistauksella näytettäviä sarakkeita voi muuttaa aktivoimalla
 
 ![Ilmoitusvaraukset](/img/ohjeet/ilmoitusvaraukset4.png)
 
-Laskutusajon yhteydessä ohjelma hakee yksittäisille Ilmoitusvarauksille tallennetuista **Hinta-ja laskutus** -tiedoista **PMM-hinnan** ja muut tiedot, joiden pohjalta laskut luodaan.
+Laskutusajon yhteydessä ohjelma hakee yksittäisille Ilmoitusvarauksille tallennetuista **Hinta-ja laskutus** -tiedoista **PMM-hinnan** ja muut tiedot, joiden pohjalta laskut luodaan. PMM-hinta on //means what?
 
-Jos Myynnille on annettu pakettihinta (esim. 50,00 €), niin sen sisältämien yksittäisten myyntivarausten oletushintoja (esim. 5x 11,50 € ym.) ei sellaisenaan laskulle tulosteta, MUTTA ne **on oltava ilm.varauksilla siitä huolimatta** (ei siis saa poistaa/nollata) koska Paketin yksittäisiä PMM-tietoja kuitenkin käytetään sille annetun **kokonaishinnan jakamiseksi** laskulle **yksikköhintojen oikeassa suhteessa.**
+Jos Myynnille on annettu pakettihinta (esim. 50,00 €), niin sen sisältämien yksittäisten myyntivarausten oletushintoja ei sellaisenaan laskulle tulosteta, MUTTA ne **on oltava ilmoitusvarauksilla siitä huolimatta** (ei siis saa poistaa) koska paketin yksittäisiä PMM-tietoja kuitenkin käytetään sille annetun **kokonaishinnan jakamiseksi** laskulle **yksikköhintojen oikeassa suhteessa.**
 
 **Hakutuloksista** voi luoda erilaisia raportteja painamalla **Raportit**-painiketta ja sitten:
 - **Luo Excel** –painikketta (hakutuloksien vienti Exceliin)
