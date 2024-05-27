@@ -4,37 +4,54 @@ sidebar_position: 6
 
 # Raportit
 
-## Raportit
+## Yleistä raporteista
 
-Raportit –välilehdellä koostetaan erilaisia raportteja sovelluksen tiedoista käyttäjän valitsemassa tulostusmuodossa.
-Raportin painikkeen ? -ikonista löytyy lisätietoja sen koostamiseen liittyen.
-Valmiita raporttipohjia luodaan tarvittaessa asiakaskohtaisesti läpi käytyjen ja kunkin käyttäjän tarpeiden mukaisesti esim.
--Kirjanpitoon
--Laskutukseen
--Tilausmääriin
--Myyntimääriin
--ym. liittyen
-Painikkeessa näkyvän ? -kuvauksen lukea Lisävalinnat -näkymässä Näytä raportin kuvaus / Sulje raportin kuvaus -painikkeista.
-Raporttipohjan valinnan jälkeen määritellään tarkemmat hakukriteerit tietojen listausta varten esim.
-- Hakuaikaväli, jonka päättymisaikaa voi siirtää -/+ 1kk nuolien avulla
-- syöttämällä itse haluttu hakuaikavälin alku- ja loppupäivät
-- Haluttu tulostustapa (näytölle, tulosteelle, taulukkoon)
-- Kirjaisinkoko, jolla voi esim. pienentää fonttia, mikäli haetut tiedot eivät mahdu siististi haetulle raportille
-- Raportin ulkoasu (ruudukolla tai ilman), jolla voi häivyttää näkyvistä raportin taustataulukoinnin rajaviivat
-- Tee raportti -painikkeen klikkauksen jälkeen tulee näkyviin lisävalinnat
-- Tuoteryhmät ja tuote -valikko, jolla haettavia tilauksia voidaan rajata vielä tiettyyn ryhmään tai tuotteeseen
-- Näytä vain ne tilaukset joissa hinta mutta ei laskua -valintaruutu virheellisten tilausten selvittelyä varten
+![Raportit](/img/ohjeet/raportit.png)
 
-Tee raportti –painike tuottaa varsinaisen raportin tulostustavan mukaisen lisäpainikkeen
-- Lataa ko. raportin Excel taulukkoon
-- Lataa ko. raportin PDF tulosteeksi
+**Raportit**–välilehdellä koostetaan erilaisia raportteja sovelluksen tiedoista käyttäjän valitsemassa tulostusmuodossa.
+
+Raporttien painikkeen **?** -ikonista löytyy lisätietoja sen koostamiseen liittyen.
+
+Valmiita raporttipohjia luodaan tarvittaessa **asiakaskohtaisesti** läpi käytyjen ja kunkin käyttäjän tarpeiden mukaisesti esim.
+- Kirjanpitoon
+- Laskutukseen
+- Tilausmääriin
+- Myyntimääriin liittyen
+
+### Raportin hakukriteerien määrittely
+
+![Raportit](/img/ohjeet/raportit2.png)
+
+**Raporttipohjan valinnan** jälkeen määritellään tarkemmat hakukriteerit tietojen listausta varten esim.
+- **syöttämällä** itse haluttu hakuaikavälin alku- ja loppupäivät
+- Raportin haluttu **tulostustapa** (näytölle, PDF:lle, taulukkoon)
+- **Kirjaisinkoko**, jolla voi esim. pienentää fonttia, mikäli haetut tiedot eivät mahdu siististi haetulle raportille
+- **Raportin ulkoasu** (ruudukolla tai ilman), jolla voi häivyttää näkyvistä raportin taustataulukoinnin rajaviivat
+- muita valintoja **raporttikohtaisesti** (esim. laskun tila Maksamattomat tilaukset -raportissa)
+
+**Tee raportti** –painike tuottaa varsinaisen raportin tulostustavan mukaisesti
+- Raportti ilmestyy näytölle
+- Ilmestyy linkki raportin lataamiseen Excel-taulukkoon
+- Ilmestyy linkki raportin lataamiseen PDF-tulosteeksi
+
+![Raportit](/img/ohjeet/raportit7.png)
+
+**Näytä raportin kuvaus** -painikkeesta saat näkyviin lisätietoa raportin luomiseen liittyen.
 
 ### Esimerkkejä raporteista
 
-Voimassaolevat tilaukset –raportille koostetaan aktiiviset Tilaustuotteet kappalemäärineen
+**Voimassaolevat tilaukset** –raportille koostetaan aktiiviset Tilaustuotteet kappalemäärineen.
 
-Laskujen kaikki tiedot -raportilla listataan oikeellisten laskujen lisäksi myös tiedot puuttuvista Tilaus- & Myyntituotteiden tili-/tiliöintimäärityksistä
+![Raportit](/img/ohjeet/raportit3.png)
 
-Laskut joiden tiliöinneissä virheitä –raportti listaa vain laskut, joissa on virheellisiä tiliöintejä
+**Laskujen kaikki tiedot** -raportilla listataan oikeellisten laskujen lisäksi myös tiedot puuttuvista Tilaus- & Myyntituotteiden tili-/tiliöintimäärityksistä.
 
-Myynnit myyjittäin –raportille koostetaan kaikki hakuaikavälillä myydyt ilmoitusvaraukset myyjittäin jaoteltuina
+![Raportit](/img/ohjeet/raportit4.png)
+
+**Laskut joiden tiliöinneissä virheitä** –raportti listaa vain laskut, joissa on virheellisiä tiliöintejä.
+
+![Raportit](/img/ohjeet/raportit5.png)
+
+**Myynnit myyjittäin** –raportille koostetaan kaikki hakuaikavälillä myydyt ilmoitusvaraukset myyjittäin jaoteltuina.
+
+![Raportit](/img/ohjeet/raportit6.png)
