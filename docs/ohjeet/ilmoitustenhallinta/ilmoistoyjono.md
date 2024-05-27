@@ -55,20 +55,35 @@ Voit lisätä ilmoitukseen aineistoa tai valmiin ilmoituksen **Lisää aineisto*
 
 ### Aineiston lisääminen
 
+- Lisää aineisto omalta koneeltasi
+- Lisää kuvaus
+- Lisää aineiston käsittelyohjeet
+
 ![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono8.png)
 *Aineiston lisääminen*
 
-- 
+### Valmiin ilmoituksen lisääminen
+
+- Lisää valmis ilmoitus omalta koneeltasi
+- Lisää kuvaus
+- Lisää käsittelyohjeet
+- Lisää hyväksyjän sähköposti
+
+Jos et halua, että ohjelma automaattisesti lähettää hyväksymispyynnön, täytä **Älä lähetä hyväksymisviestiä** -kenttä.
+
+Jos ilmoitusta ei tarvitse hyväksyä ja se on valmis julkaisuun, täytä **Ilmoitusta ei tarvitse hyväksyttää** -kenttä.
 
 ![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono9.png)
 
 *Valmiin ilmoituksen lisääminen*
 
+### Aineiston poistaminen
+
 Aktivoimalla **Näytä tiedostojen poistaminen** -kentän voit poistaa ilmoituksiin lisättyjä aineistoja.
 
 ![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono6.png)
 
-### Ilmoituksen käsittely
+### Ilmoituksen käsittely erillisessä välilehdessä
 
 ![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono11.png)
 
@@ -77,7 +92,7 @@ Painamalla ensimmäisessa sarakkeessa olevaa ikonia selaimeen avautuu uusi väli
 - **Lisää ilmoitusteksti** –painikkeella voi lisätä ilmoitukseen tulevan tekstityksen
 - **Lisää valmis ilmoitus** –painikkeella lisätään valmis ilmoitus
 
-Lisätyt aineistot näytetään listauksen **Aineistot ja ilmoitustekstit**, sekä **Ilmoitus** –sarakkeissa, joista ne voi avata katselmoitavaksi **Nimi**–linkkiä klikkaamalla. 
+Lisätyt aineistot näytetään listauksen **Aineistot ja ilmoitustekstit**, sekä **Ilmoitus** –sarakkeissa, joista ne voi avata katseltavaksi niiden nimeä klikkaamalla. Yläbannerista voit seurata ilmoitusvarauksen tilaa. 
 
 ![Ilmoitustyöjono](/img/ohjeet/ilmoitustyojono12.png)
 
@@ -87,12 +102,15 @@ Lisätyt aineistot näytetään listauksen **Aineistot ja ilmoitustekstit**, sek
 
 Kun uusi ilmoitusvaraus tallennetaan, luodaan TaikaTilauksen palvelimella olevaan hakemistorakenteeseen kansio varauksessa valitun Julkaisun alle (esim. TaikaNakka 01/2022) nimettynä uudella VarausNumerolla. Tallennuksen yhteydessä kirjoitetaan samaan hakemistokansioon myös ilmoitusvarauksen tiedot erilliseen .txt tiedostoon.
 
-Kun tallennettuun ilmoitusvaraukseen lisätään myöhemmin käyttöliittymän kautta aineistoja (myyjä/asiakas/mainoststo/jne.), niin ne tallentuvat automaattisesti em. VarausNro -hakemistoon.
-Ilmoitusaineisto voidaan tallentaa heti myös painovalmiina, jolloin se siirretään autom. haluttuun hakemistoon.
+Kun tallennettuun ilmoitusvaraukseen lisätään myöhemmin käyttöliittymän kautta aineistoja (myyjä/asiakas/mainostoimisto/jne.), niin ne tallentuvat automaattisesti em. VarausNro -hakemistoon.
+
+Ilmoitusaineisto voidaan tallentaa heti myös painovalmiina, jolloin se siirretään automaattisesti haluttuun hakemistoon.
 
 Automaattisessa siirrossa palvelimen kansioissa olevat tiedostot saadaan siirtymään parissa minuutissa yrityksen omalle palvelimelle (sisäverkkoon), jossa on TaikaTilauksen palvelinta vastaava rakenne.
-Riippuen yrityskohtaisesta tarpeesta, voidaan yrityksen sisäverkkoon välittää myös yhteenvetotiedosto ko. Julkaisun kaikista sen sisältämistä ilmoitusvarauksista (esim. InDesign plug-inin käyttöön).
+
+Riippuen yrityskohtaisesta tarpeesta, voidaan yrityksen sisäverkkoon välittää myös yhteenvetotiedosto kyseisen Julkaisun kaikista sen sisältämistä ilmoitusvarauksista (esim. InDesign plug-inin käyttöön).
 
 Ilmoitusvalmistaja (käsittelijä) saa suoraan hakemistosta tarvitsemansa aineistotiedostot (ja .txt tiedoston), jonka perusteella ilmoitus voidaan tehdä.
+
 Valmis ilmoitus tallennetaan yrityksen omalle palvelimelle, josta se taas siirtyy TaikaTilauksen palvelimelle automaattisesti.
-Tämän siirron yhteydessä voidaan ilmoitusasiakkaalle myös lähettää autom. hyväksymispyyntö -viesti.
+Tämän siirron yhteydessä voidaan ilmoitusasiakkaalle myös lähettää automaattinen hyväksymispyyntö -viesti.
