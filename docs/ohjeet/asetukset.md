@@ -134,8 +134,6 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 - **Stripe tuotetyyppi ja PriceID**: Stripe-palveluun määritellyn tuotteen tyyppi ja API PriceID
 - **SKU-koodi**: Tuotteen yksilöivä koodi m.m. kirjamyynnissä.
 
-/// tekstien laajennus tähän
-
 ## Erillistuotteet
 
 Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat esimerkiksi Laskutuslisä, Paperilaskutuslisä, jne. Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita.
