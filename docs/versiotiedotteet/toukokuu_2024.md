@@ -26,5 +26,8 @@ Uusi jaksotusraportti
 ## Pakettimyynti
 
 
-## Planner-integraatio
+## Planner-liittymä
 Integraatio toteutettu Anygraaf Planner-suunnittelutyökaluun. Integraation avulla voit siirtää TaikaTilauksessa käsiteltyjä ilmoitusvarauksia ja aineistoja Planneriin.
+
+## Fennoa-liittymä
+Myyntilaskujen kirjanpitotositteiden automaattinen vienti TaikaTilauksesta Fennoaan. Toiminto vähentää kirjanpitäjän työtä.
