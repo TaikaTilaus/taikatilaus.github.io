@@ -123,9 +123,9 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen6.png)
 
-- Tuotteelle on määriteltävä **Valittavissa aikavälillä** -aikarajaus. Jos tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050)
+- Tuotteelle on määriteltävä **Valittavissa aikavälillä** -aikarajaus. Jos tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050). Valittavuus tarkoittaa, että tuote on valittavissa ohjelman valikoissa.
 - Tuotteelle määritellään myös **Tilaus mahdollinen aikavälillä** -aikarajaus, joka rajaa sen käytettävissä olevan tilausjakson. Yksittäisen tilauksen alku- ja loppupäivät tulee mahtua annetun aikarajoituksen sisään. Mikäli tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050), koska ’toistaiseksi voimassaolevaa’ tuotetyyppiä ei ole käytettävissä
-- **Tilauksen päättymisaika tuotteesta**: //teksti puuttuu, mitä tarkoittaa
+- **Tilauksen päättymisaika tuotteesta**: 
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen7.png)
 
@@ -133,6 +133,10 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 - **Digipalvelu**–kentän avulla tuotteita voi ryhmitellä saman Digipalvelu-ryhmän alle. Digipalveluissa voidaan tutkia onko tilaajalla aktiivisena tiettyä Digipalvelua ja täten näyttää muun muassa wwww-sivun sisältö sen mukaan.
 - **Stripe tuotetyyppi ja PriceID**: Stripe-palveluun määritellyn tuotteen tyyppi ja API PriceID
 - **SKU-koodi**: Tuotteen yksilöivä koodi m.m. kirjamyynnissä.
+
+## Tilauspaketit
+
+![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti.png)
 
 ## Erillistuotteet
 
@@ -401,31 +405,34 @@ Esim. <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/ha
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja.png)
 
-**Pääkäyttäjä**–välilehden tietoja voi muokata vain palvelun Pääkäyttäjiksi nimetyt. 
+**Pääkäyttäjä**–välilehden tietoja voi muokata vain palvelun **pääkäyttäjiksi nimetyt käyttäjät**. 
 
-Välilehdeltä voi lisätä mm.
+Välilehdeltä voi muokata mm.
 - yrityksen ja sen tuotteiden perustietoja
 - uusia Lehtien tilaustapoja
 - muuttaa Laskunumerosarjan alku- ja loppunumerointeja
-- aktivoinnin Kampanja tuotteiden käyttöä varten
-- rajoituksen tekstiviestien lkm/päivä
-- määrityksen painotalon asettamalle jakelunippujen minimikoolle
-- aktivoinnin Ilmoitusmyynti -toimintoihin ja niiden kenttien näkyvyyksiin
-- aktivoinnin OmaPalvelun -toimintoihin
-- aktivoinnin Paperilaskutuslisän käytölle
+- aktivoida Kampanja tuotteiden käytön
+- asettaa rajoituksen tekstiviestien lkm/päivä
+- määrittää jakelunippujen minimikoon
+- aktivoida Ilmoitusmyynti-toiminnot ja siihen liittyvät kentät
+- aktivoida OmaPalvelu-toiminnot
+- aktivoida Paperilaskutuslisän käyttöön
 
-- Tiedostoja lähetettäväksi ylläpitäjälle esim. asiakastietoja massapäivitystä varten
-- Tiedostoja noudettavaksi ylläpitäjältä esim. tarkastamista varten.
+Voit myös lähettää tiedostoja ylläpitäjälle esim. asiakastietoja massapäivitystä varten tai nuotaa tiedostoja ylläpitäjältä esim. tarkastamista varten.
 
-### Lomakkeen alkupään toiminnot
+### Laskun muodostamistiedot
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja2.png)
+![Pääkäyttäjä](/img/ohjeet/paakayttaja9.png)
 
 Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta avautuu uusi välilehti, missä näet laskutustiedot eri tuotteille.
 - välilehdeltä näet mm. minä päivinä laskuja muodostetaan automaattisesti ja mikä on eri tuotteiden huomautusaika maksumuistutuksille
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja3.png)
 *Laskujen muodostamistiedot -näkymä.*
+
+### Lomakkeen alkupään toiminnot
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja2.png)
 
 - **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä 
 - **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen
@@ -436,37 +443,94 @@ Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta ava
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja4.png)
 
-- Ei laskutuslisää kenttä käytössä
-- Uusi tilaus kenttä käytössä
-- Kampanja käytössä
-- Tekstiviestien max. lähetysmäärä päivässä
-- Lehtien painoaineistossa minimi nippukoko
-- Lehtien tilausmyyjät
-- Myyjätieto laskulle
-- Kirjautumistunniste käytössä
-- Paketti käytössä
+- **Ei laskutuslisää -kenttä käytössä** -kentän aktivoidessa asiakaskortille tulee näkyviin *Ei laskutuslisää* -kenttä.
+- **Uusi tilaus -kenttä käytössä** -kentän aktivoidessa Tilaus-näytölle ilmestyy *Uusi tilaus* -kenttä.
+- **Kampanja käytössä** -kentän aktivoidessa tuotteita voidaan ryhmitellä erilaisiin kampanjoihin
+- **Tekstiviestien max. lähetysmäärä päivässä** -kenttään syötetään luku (0-10,000), joka kertoo, kuinka monta tekstiviestiä voi lähettää päivittäin ohjelman avulla
+- **Lehtien painoaineistossa minimi nippukoko** -kenttään annetaan lehtien nippujen minimikoko
+- **Lehtien tilausmyyjät** -annetaan lista lehtimyyjistä, joita voi tämän jälkeen valita valikosta tilauksille tilauksia tehtäessä
+
+![Pääkäyttäjä](/img/ohjeet/myyjat-asetukset.png)
+*Kun tilaus on tehty myyjän kautta, valitaan tilausta kirjatessa tilauksen tehneen myyjän nimi valikosta.*
+
+- **Myyjätieto laskulle** -kentän aktivoidessa tulee myyjätieto esiin laskulle
+- **Kirjautumistunniste käytössä** -kentän aktivoidessa käytetään ePaper-kirjautumispinnassa vaihtuvaa käyttäjäkohtaista kirjautumistunnistetta
+- **Paketti käytössä** -kentän aktivoidessa voi tilaustuotteista muodostaa paketteja ja asetuksiin tulee näkyviin Tilauspaketit-välilehti
 
 ### Ilmoitusmyynti
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja5.png)
 
+- **Vapauta ilmoitusvaraus laskutukseen** -kenttään annetaan ilmoitusvarauksen varausnumero ja painetaan *Vapauta ilmoitusvaraus laskutukseen* -painiketta. Käytetään esim. kun lasku on lähtenyt väärälle henkilölle
+- **OmaIlmo-sovelluksen nimi** -kenttään annetaan OmaIlmo-sovelluksen nimi
+- **Myyntituotteen lisääminen laskulla** -kentän aktivoidessa laskun tuoteriviksi voi lisätä myyntituotteen
+- **Julkiset lisätiedot käytössä** -kentän aktivoidessa ilmoitusvarauksen lisätiedot ovat julkisia ja siten asiakkaalle näkyvissä
+- **Laskutuspäivä käytössä** -kentän aktivoidessa ilmoitusvaraukseen voidaan lisätä laskutuspäivä, joilloin lasku lähetetään asiakkaalle
+- **Värillisyys käytössä** -kentän aktivoidessa voidaan valita ilmoituksen väriksi mustavalkoinen tai värikäs
+- **Piilota Palstoja, Korkeus, ja Ilmoitusosasto** -kentän aktivoidessa ilmoitusvarauslomakkeelta piilotetaan Pastoja, Korkeus, ja Ilmoitusosasto -kentät.
+
+![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja.png)
+*Pääkäyttäjä voi muokata ilmoitusvarauslomakkeen kenttien näkyvyyttä Pääkäyttäjä-välilehdeltä.*
+
+- **Aineisto on valmis ilmoitukseksi - valinta oletuksena päällä** -kentän aktivoidessa ilmoitusvaraukseen aineistoa lisätessä on *Aineisto on valmis ilmoitukseksi* -kenttä oletuksena päällä
+- **Näytä myyjään liitetty laskutustieto eli millä tiedoilla ilmoitusvarauksen lasku luodaan**
+- **Laskutetaan omanaan-ruksi** -kentän aktivoidessa tulee pelkistetylle ilmoitusvarauslomakkeelle näkyviin *Laskutetaan omanaan* -valinta
+- **Ilmoitus on valmis-ruksi** -kentän aktivoidessa tulee pelkistetylle ilmoitusvarauslomekkeella näkyviin *Ilmoitus on valmis* -valinta
+
+![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja2.png)
+
+- **YT-hinta käytössä** -kentän aktivoidessa voidaan tuotteelle määritellä yhteistyöhinta, mitä käytetään sisäisessä laskutuksessa
+
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja6.png)
 
+- **AdWizard-käytössä** -kenttä aktivoidaan, jos ilmoitusvarauksia käsitellään Mediaboxin InDesign Scoop-lisäosalla
+- **Laskutus kuun viim. kalenteripäivänä-valinta** -kentän aktivoidessa ilmoitusvarauslomakkeelle tulee kyseinen valinta käyttöön laskutustavaksi
+
+![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja3.png)
+
+- **Raportoinnissa Reskontraluottelo 2 käytössä** - ///?????
+- **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** -///????
+- **Valmistuslisän tuoteID** -kenttään syötetään ilmoitusvarauksen valmistuslisän tuotenumero
+- **Käyttäjätunnukset joilla oikeus myyntikiellon käsittelyyn** -kenttään syötetään niiden käyttäjien käyttäjätunnukset, joilla on oikeus ilmoitusasiakkaan myyntikiellon käsittelyyn
 
 ### Osoitekentät
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja9.png)
-
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja7.png)
+
+Osoitekenttiin voidaan syöttää:
+
+- **Asiakkaan oman www-sivuston osoite**: URL-osoite, minne käyttäjä ohjataan esim. epäonnistuneen sisäänkirjautumisen jälkeen
+- **Asiakkaan oman www-sivuston TaikaTilaus -sisäänkirjauksen vastaanotto**: URL-osoite, minne voidaan lähettää TaikaTilaus-ohjelman sisäänkirjautumisien tiedot
+- **Asiakkaan oman www-sivuston Palvelut-lomakkeen paluun vastaanotto**: URL-osoite, minne palataan Palvelut-lomakkeelta mm. tilaamisen jälkeen
 
 ### Lomakkeen loppupään toiminnot
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja8.png)
 
-Sekä koostaa raportin Koko Asiakasrekisteri Exceliin + tilaus, lasku ja myyntitiedot –taulukkoon
-- tuo KAIKKI, (Poistettu 0=normaali / Poistettu 1=poistettu) , jonka avulla voidaan päättää mm. palvelusta pois siivottavat vanhat tiedot (kuten tupla-asiakaskortit)
+**Ylläpidon raportit**
+- koostaa raportin Koko Asiakasrekisteristä Exceliin + tilaus, lasku ja myyntitiedot –taulukkoon. Raportin luominen suuresta asiakasrekisteristä saattaa viedä aikaa. Haku kestää noin 1000 kontaktia/1 minuutti.
+- kun raportti on luotu, ilmestyy raportin lataamiseen linkki
 
-Ja muuttaa tiliöintien tilitietoja, sekä lähettää/vastaanottaa palveluun liittyviä siirtotiedostoja.
+![Pääkäyttäjä](/img/ohjeet/paakayttaja9.png)
+
+**Pääkäyttäjätoiminnot**
+- Testaa Wordpress-salasanan tarkistamista ///???
+
+**Muuta tiliöinnin tiliä**
+- painikkeesta painamalla muodostuu alla olevan kuvan mukaiset kentät, joista voi muuttaa yksittäisten tiliöintien tiliä
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja10.png)
+
+**Lataa tiedosto TaikaTilaukselta**
+- painikkeen kautta voit ladata TaikaTilauksen sinulle toimittamia tiedostoja
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja11.png)
+
+**Toimita tiedosto TaikaTilaukselle**
+- painikkeen kautta voit lähettää tiedostoja TaikaTilauksella (esim. isot muutokset asiakasrekisterissä)
+- ilmoita tuki@taikatilaus.fi tiedoston lähettämisestä
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja12.png)
 
 ## Käyttäjät
 
