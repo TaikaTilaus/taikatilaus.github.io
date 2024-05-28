@@ -399,9 +399,11 @@ Esim. <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/ha
 
 ## Pääkäyttäjä
 
-///laajennus tähän
+![Pääkäyttäjä](/img/ohjeet/paakayttaja.png)
 
-Pääkäyttäjä–välilehden tietoja voi muokata vain palvelun Pääkäyttäjiksi nimetyt. Välilehdeltä voi lisätä mm.
+**Pääkäyttäjä**–välilehden tietoja voi muokata vain palvelun Pääkäyttäjiksi nimetyt. 
+
+Välilehdeltä voi lisätä mm.
 - yrityksen ja sen tuotteiden perustietoja
 - uusia Lehtien tilaustapoja
 - muuttaa Laskunumerosarjan alku- ja loppunumerointeja
@@ -415,39 +417,103 @@ Pääkäyttäjä–välilehden tietoja voi muokata vain palvelun Pääkäyttäji
 - Tiedostoja lähetettäväksi ylläpitäjälle esim. asiakastietoja massapäivitystä varten
 - Tiedostoja noudettavaksi ylläpitäjältä esim. tarkastamista varten.
 
+### Lomakkeen alkupään toiminnot
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja2.png)
+
+Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta avautuu uusi välilehti, missä näet laskutustiedot eri tuotteille.
+- välilehdeltä näet mm. minä päivinä laskuja muodostetaan automaattisesti ja mikä on eri tuotteiden huomautusaika maksumuistutuksille
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja3.png)
+*Laskujen muodostamistiedot -näkymä.*
+
+- **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä 
+- **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen
+- **Lehtien tilaustavat** -kenttään kirjataan, miltä kanavilta lehtiä voi tilata
+- **Etusivun asiakkaiden max. näyttömäärä** -kenttään kirjataan maksimissaan kuinka monta asiakasta näytetään etusivun hakulistassa
+- **Laske laskun summat 5:llä desimaalilla** -kentän aktivoidessa laskujen summat lasketaan viiden desimaalin tarkkuudella yksikköhinnasta
+- **OmaPalvelu-osio näkyvissä kontaktikortilla** -kentän aktivoidessa OmaPalvelu-alivalikko näytetään asiakaskortilla
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja4.png)
+
+- Ei laskutuslisää kenttä käytössä
+- Uusi tilaus kenttä käytössä
+- Kampanja käytössä
+- Tekstiviestien max. lähetysmäärä päivässä
+- Lehtien painoaineistossa minimi nippukoko
+- Lehtien tilausmyyjät
+- Myyjätieto laskulle
+- Kirjautumistunniste käytössä
+- Paketti käytössä
+
+### Ilmoitusmyynti
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja5.png)
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja6.png)
+
+
+### Osoitekentät
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja9.png)
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja7.png)
+
+### Lomakkeen loppupään toiminnot
+
+![Pääkäyttäjä](/img/ohjeet/paakayttaja8.png)
+
 Sekä koostaa raportin Koko Asiakasrekisteri Exceliin + tilaus, lasku ja myyntitiedot –taulukkoon
 - tuo KAIKKI, (Poistettu 0=normaali / Poistettu 1=poistettu) , jonka avulla voidaan päättää mm. palvelusta pois siivottavat vanhat tiedot (kuten tupla-asiakaskortit)
 
-Ja muuttaa tiliöintien tilitietoja, sekä lähettää/vastaanottaa palveluun liittyviä siirtotiedostoja
+Ja muuttaa tiliöintien tilitietoja, sekä lähettää/vastaanottaa palveluun liittyviä siirtotiedostoja.
 
 ## Käyttäjät
 
 ![Käyttäjät](/img/ohjeet/kayttajat.png)
 *Pääkäyttäjät voivat hallinoida palveluiden käyttäjiä Käyttäjät-välilehdeltä.*
 
-Käyttäjät –välilehdellä Pääkäyttäjäksi nimetyt voivat lisätä uusia, muuttaa ja poistaa olemassa olevia TaikaTilaus –palvelun käyttäjiä
+**Käyttäjät**–välilehdellä Pääkäyttäjäksi nimetyt voivat lisätä uusia, muuttaa ja poistaa olemassa olevia TaikaTilaus –palvelun käyttäjiä.
 
-Käyttäjätunnus sarakkeen yksittäistä tunnusta klikattaessa avautuu sen tarkemmat tiedot
+**Käyttäjätunnus**-sarakkeen yksittäistä tunnusta klikattaessa avautuu sen tarkemmat tiedot. **Lisää**-painikkeella voit lisätä uuden käyttäjän.
 
-Käyttäjillä on palvelussa erilaisia Rooleja (esim. Myyjä/Käsittelijä) riippuen heidän tarvitsemista toiminnallisuuksista
-- Myyjä roolissa olevat käyttäjätunnukset (myyjät) voidaan sitoa asiakaskortilla asiakkaisiin. Tällöin ko. asiakkaasta tulee Ilmoitusmyynnin asiakas
-- Rekisterin ylläpitäjä ei kuulu mihinkään rooliin, vaan sallitut toiminnot asetetaan käyttöoikeuksilla
+![Käyttäjät](/img/ohjeet/kayttajat5.png)
 
-Erikoiskäyttöoikeus 'Vain postituslista' on tarkoitettu esim. lehden painon käyttöön
-- Ei näytä muita toimintoja lainkaan
-Postituslistojen hakuun jakelua varten
+### Käyttäjien tietojen muokkaaminen
 
-Käyttäjälle voi antaa tietyn tai satunnaisen salasanan, jonka hän voi itse muuttaa ja tunnukselle voi antaa voimassaoloajan (esim. kesäapulaisia varten)
+Käyttäjän **perustiedot** täydennetään ensin ja valitaan hänen tarvitsemansa **Rooli** (esim. ilmoitusten Käsittelijä)
+- Perustiedot pitää ensin **tallentaa** ennen kuin voi lisätä aktivoitavat toiminnot
 
-Käyttäjän tiedot –näkymässä ylläpidetään olemassa olevia tunnuksia
+![Käyttäjät](/img/ohjeet/kayttajat2.png)
 
-Käyttöoikeudet eri toimintoihin aktivoidaan käyttäjäkohtaisesti
-- Myös Ilmoitusmyynti sovellus lisätään käyttöön täällä.
+Uusille käyttäjille syötetään **perustiedot**:
+- Käyttäjätunnus
+- Nimi
+- Sähköposti
+- Matkapuhelin
 
-Käyttäjän perustiedot täydennetään ensin ja valitaan hänen tarvitsemansa Rooli (esim. ilmoitusten Käsittelijä)
-- Perustiedot pitää ensin tallentaa ennen kuin voi lisätä aktivoitavat toiminnot
+Käyttäjillä on palvelussa erilaisia **Rooleja** (esim. Myyjä/Käsittelijä) riippuen heidän tarvitsemista toiminnallisuuksista
+- **Myyjä**-roolissa olevat käyttäjätunnukset (myyjät) voidaan sitoa asiakaskortilla asiakkaisiin. Tällöin kyseisestä asiakkaasta tulee ilmoitusmyynnin asiakas
 
-Tarvittavat toiminnot lisätään Käyttöoikeudet –valikon avulla, josta voi liittää tarvittavat toiminnot valitsemalla sen/kaikki vasemman puoleisesta laatikosta ja siirtämällä sen/kaikki oikean puoleiseen laatikkoon välissä olevilla Nuolipainikkeilla (ja poistaa tekemällä päinvastoin)
+Käyttäjälle voi antaa **tietyn tai satunnaisen salasanan**, jonka hän voi itse muuttaa ja tunnukselle voi antaa **voimassaoloajan** (esim. kesäapulaisia varten).
+
+Jos käyttäjällä on otettu käyttöön **kaksivaiheinen tunnistautuminen** (MFA), sen voi kytkeä päälle ja pois käyttäjän tiedoista.
+
+**Sallitut sähköpostiosoitteet** ovat osoitteita mihinkä kyseisellä käyttäjätunnuksella saa lähettää sähköposteja. Jos rajauksia ei ole, jätä tyhjäksi.
+
+![Käyttäjät](/img/ohjeet/kayttajat3.png)
+
+**Käyttäjäoikeudet** voidaan asettaa uudelle käyttäjälle perustietojen täyttämisen ja tallentamisen jälkeen. Käyttöoikeudet eri toimintoihin aktivoidaan **käyttäjäkohtaisesti**. Myös **Ilmoitusmyynti**-sovellus lisätään käyttöön käyttöoikeuksista. 
+
+Käyttöoikeiksia asetetaan aktiiviseksi **siirtämällä ne Valittavat toiminnot -kentästä Valitut toiminnot -kenttään**. Toimintoja voi siirtää kentästä toiseen kenttien välissä olevien **nuolien** avulla.  Valitut käyttöoikeudet vaikutttavat siihen mitä ominaisuuksia käyttäjä voi käyttää ohjelmaa käyttäessään (esim. Laskujen lähetys olessa valituissa toiminnoissa, kyseinen käyttäjä voi lähettää laskuja asiakkaille ohjelman kautta)
+
+**Yrityksen pääkäyttäjä** -kentässä kerrotaan onko muokattava käyttäjä pääkäyttäjä vai ei. Jos haluat yrityksellesi uuden pääkäyttäjän ota yhteyttä TaikaTilaukseen osoitteesta: tuki@taikatilaus.fi.
+
+![Käyttäjät](/img/ohjeet/kayttajat4.png)
+
+Jos käyttäjällä on käyttöoikeus <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/raportit">raportteihin</a>, voit myös määrittää, mitä raportteja käyttäjä voi nähdä siirtämällä valittuja raportteja kenttien välissä olevilla nuolilla. Raportti tulee käyttäjän näkyväksi **siirtämällä se Valittavat raportit -kentästä Valitut raportit -kenttään**. 
+
+Voit myös poistaa käyttäjän painamalla **Poista**-painiketta lomakkeen oikeassa alakulmassa.
 
 ## OmaPalvelu
 
