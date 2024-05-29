@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Oletusasetuksien hallinnointi
 
-Käytön yhteydessä hyödynnetään tiettyjä yleisiä perustietoja, joiden määrityksiä käytetään oletuksena eri toiminnoissa. 
+Käytön yhteydessä hyödynnetään tiettyjä yleisiä perustietoja, joiden määrityksiä käytetään oletuksena eri toiminnoissa.
 
 Vasemmasta valikosta klikataan **Asetukset**–linkkiä, niin saadaan näkymä, jossa sovelluksen perustietoja voi luoda/muokata.
 
