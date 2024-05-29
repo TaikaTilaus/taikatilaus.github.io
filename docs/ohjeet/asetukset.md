@@ -457,7 +457,7 @@ Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta ava
 ![Pääkäyttäjä](/img/ohjeet/myyjat-asetukset.png)
 *Kun tilaus on tehty myyjän kautta, valitaan tilausta kirjatessa tilauksen tehneen myyjän nimi valikosta.*
 
-- **Myyjätieto laskulle** -kentän aktivoidessa tulee myyjätieto esiin laskulle
+- **Myyjätieto laskulle** -kentän aktivoidessa tulee Lasku-näkymään ilmestyy Myyjä-valintalista
 - **Kirjautumistunniste käytössä** -kentän aktivoidessa käytetään ePaper-kirjautumispinnassa vaihtuvaa käyttäjäkohtaista kirjautumistunnistetta
 - **Paketti käytössä** -kentän aktivoidessa voi tilaustuotteista muodostaa paketteja ja asetuksiin tulee näkyviin Tilauspaketit-välilehti
 

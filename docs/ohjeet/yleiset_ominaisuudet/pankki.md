@@ -8,7 +8,7 @@ sidebar_position: 4
 
 ![Pankki-välilehti](/img/ohjeet/pankki1.png)
 
-**Pankki**–välilehdellä tuodaan sovellukseen laskuihin liittyvät viitemaksut, sekä e-laskujen vastaanottoilmoitukset
+**Pankki**–välilehdellä tuodaan sovellukseen laskuihin liittyvät viitemaksut, sekä e-laskujen vastaanottoilmoitukset. Pankki-toiminto ei ole välttämättä kaikilla näkyvissä, koska aineistot esitetään luettavammassa muodossa Suoritukset-välilehdellä.
 
 Aineistojen tuonti voidaan määrittää automaattiseksi, esim. kerran yössä tehtäväksi.
 
