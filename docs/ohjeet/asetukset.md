@@ -581,13 +581,78 @@ Voit myös poistaa käyttäjän painamalla **Poista**-painiketta lomakkeen oikea
 
 ## OmaPalvelu
 
-OmaPalvelu –välilehdellä määritellään asiakaskohtaiset asetukset lehti- ja ilmoitusasiakkaiden OmaPalvelun käyttöä varten
+![OmaPalvelu](/img/ohjeet/omapalvelu.png)
+
+**OmaPalvelu**–välilehdellä määritellään asiakaskohtaiset asetukset lehti- ja ilmoitusasiakkaiden OmaPalvelun käyttöä varten
 
 Oletusasetuksiin määritellään kirjautumiseen liittyen mm.
 - Sovelluksen nettiosoite ja nimi
-. Kirjautumisnäkymien otsikot ja muut ohjetekstit
+- Kirjautumisnäkymien otsikot ja muut ohjetekstit
 - Oheistoimintojen ohjauslinkit
 - Toimintoihin liittyvien viestien otsikot ja sisältötekstit
+
+### Lomakkeen yksityiskohtainen läpikäynti
+
+![OmaPalvelu](/img/ohjeet/omapalvelu2.png)
+
+- Tilauslomakkeen tuotteet:
+- TIlauslomakkeen piilotetut tuotteet
+- Tilauslomakkeen tarjoustuotteet:
+- Tilauslomakkeen oletuksena valittu tuote
+- Siirry lehtien tilauslomakkeella ensin tuotelistaan
+
+### Automaattiviestit
+
+![OmaPalvelu](/img/ohjeet/omapalvelu3.png)
+
+- OmaPalvelun käyttäjätunnuksen luontisähköposti
+- Salasanan resetöintisähköposti
+
+![OmaPalvelu](/img/ohjeet/omapalvelu4.png)
+
+- Korttiveloituksen epäonnistuminen
+- Perhekutsu
+
+![OmaPalvelu](/img/ohjeet/omapalvelu5.png)
+
+- Viestin kiellistys
+
+### Toiminnot
+
+![OmaPalvelu](/img/ohjeet/omapalvelu6.png)
+
+- OmaPalvelu2 -toiminnot käytössä:
+- Asiakasyrityksen tyylisivu
+- Perhetunnus käytössä
+- Toiminnallisuuksien aktivointi:
+
+![OmaPalvelu](/img/ohjeet/omapalvelu7.png)
+
+- Ryhmäkysely:
+- Supertarjous
+- HTML
+
+### Kirjautumisnäkymien otsikot ja palvelun osoitteet
+
+![OmaPalvelu](/img/ohjeet/omapalvelu8.png)
+
+- Kirjautumisnäytön Rekisteröidy-linkin osoite
+- OmaPalvelu-sovelluksen nimi
+- Kirjautumisnäytön kirjautumisen otsikko
+- Kirjautumisnäytön rekisteröidy teksti
+- Kirjautumisnäytön kertakirjautumissivun otsikko
+
+![OmaPalvelu](/img/ohjeet/omapalvelu9.png)
+
+- Kirjautumisnäytön kertakirjautumissivun teksti
+- Kirjautumisnäytön kertakirjautumissivun ohje
+- Kirjautumisnäytön kertakirjautumismeilin otsikko
+- Kirjautumisnäytön kertakirjautumismeilin viesti
+
+![OmaPalvelu](/img/ohjeet/omapalvelu10.png)
+
+- Tietosuojasivun osoite
+- REST-API URL
 
 ## Varhaisjakelu
 
