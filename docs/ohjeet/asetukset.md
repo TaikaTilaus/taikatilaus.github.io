@@ -656,29 +656,28 @@ Oletusasetuksiin määritellään kirjautumiseen liittyen mm.
 
 ## Varhaisjakelu
 
-Varhaisjakelu –näkymässä ylläpidetään varhaisjakelussa käytettävää osoitteistoa
+![Varhaisjakelu](/img/ohjeet/varhaisjakelu.png)
+
+**Varhaisjakelu**–näkymässä ylläpidetään varhaisjakelussa käytettävää osoitteistoa
 - Osoitteisto päivitetään käyttöönoton yhteydessä ja tarvittaessa muulloinkin sähköisen tiedostosiirron avulla
 
-Varhaisjakeluun liittyvät osoitteistot ja nippujen tiedot määritellään asetuksissa, kuten esim.
-- Postin varhaisjakelurekisteri ja käytettävät piirinumerot
-- Postin kimputusrekisteri
-- SanomaManun varhaisjakelurekisteri ja käytettävät piirinumerot
+Varhaisjakeluun liittyvät osoitteistot ja nippujen tiedot määritellään asetuksissa:
+- Postin varhaisjakelurekisteri ja käytettävät nippunumerot
 - Vakioniput
 - Varhaisjakelun reitit
+- Peittojakelu
+- Lehdetön peittojakelu
+- Yhdistettävät niput
 
-- Päivitä nippunumerot koko asiakasrekisteriin
-- Näytä nippujen koot
-- Näytä nipulliset osoitteet
-- Näytä nippujen koot tilauksellisista
-- Näytä nippujen osoitteet tilauksellisista
-- Näytä tilaukselliset osoitteet
+### Postin varhaisjakelurekisteri ja käytettävät nippunumerot
 
-Palveluun tullaan saadaan myös näkyviin Postin välittämät ilmoitukset esim. Jakeluhäiriöistä ja niiden kestosta, sekä
-Ilmoitettua Postille asiakkaan ilmoittamat jakeluvirheet, kuten puuttuvan lehden, jonka Posti toimittaa asiakkaalle erilliskuljetuksena
+![Varhaisjakelu](/img/ohjeet/varhaisjakelu2.png)
 
-### Varhaisjakelunippujen päivittäminen
+### Vakioniput
 
-Varhaisjakelu –näkymässä ylläpidetään myös esim. Vakioniput –rekisteriä, jossa listataan
+![Varhaisjakelu](/img/ohjeet/varhaisjakelu3.png)
+
+Varhaisjakelu –näkymässä ylläpidetään myös esim. Vakioniput–rekisteriä, jossa listataan
 - mm. lehden toimistoon vietävän nipun koko
 - Painon varalehtien nipun koko
 - Muut vakioniput ja niiden sisältämät lehtimäärät
@@ -689,3 +688,20 @@ Yksittäiset vakioniput listataan alle aukeavaan tekstikenttään
 
 Muutokset (esim. lisälehtiä nippuun) päivitetään ko. vakionipun riville ja tallennetaan
 - Mikäli muutos on tilapäinen, tulee se palauttaa päivittämällä muutostieto takaisin (normimäärään) poikkeavan postituksen jälkeen
+
+### Varhaisjakelun reitit
+
+![Varhaisjakelu](/img/ohjeet/varhaisjakelu4.png)
+
+### Peittojakelu
+
+![Varhaisjakelu](/img/ohjeet/varhaisjakelu5.png)
+
+### Lehdetön peittojakelu
+
+![Varhaisjakelu](/img/ohjeet/varhaisjakelu6.png)
+
+### Yhdistettävät niput
+
+![Varhaisjakelu](/img/ohjeet/varhaisjakelu7.png)
+
