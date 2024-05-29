@@ -138,6 +138,10 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti.png)
 
+### Tilauspakettien lisääminen
+
+![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketin-lisaaminen.png)
+
 ## Erillistuotteet
 
 Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat esimerkiksi Laskutuslisä, Paperilaskutuslisä, jne. Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita.
@@ -673,35 +677,66 @@ Varhaisjakeluun liittyvät osoitteistot ja nippujen tiedot määritellään aset
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu2.png)
 
+Tähän välilehteen syötetään Postilta saatu varhaisjakelun **katurekisteri**. Kadut ja niiden katunumerot on kohdistettu piireihin. Katurekisteri ladataan leikepöydän kautta CSV-muodossa. 
+
+Osoitteet **syötetään** riveittäin muodossa: Paikannimi;Parittomat;Parilliset;Postinumero;Postitoimipaikka;Reittitunnus (nippunumero). 
+
+**Postin varhaisjakeluosoitteiston käytettävät piirinumerot (nippunumerot)** -kenttään syötetään piirinumerot, joilla varhaisjakelua halutaan käytettävän. Piirinumerot **syötetään** omille riveilleen muodossa: Nippunumero;Lehti.
+
 ### Vakioniput
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu3.png)
 
-Varhaisjakelu –näkymässä ylläpidetään myös esim. Vakioniput–rekisteriä, jossa listataan
+Varhaisjakelu –näkymässä ylläpidetään myös **Vakioniput**–rekisteriä, jossa listataan
 - mm. lehden toimistoon vietävän nipun koko
 - Painon varalehtien nipun koko
 - Muut vakioniput ja niiden sisältämät lehtimäärät
 
-Yksittäiset vakioniput listataan alle aukeavaan tekstikenttään
+Yksittäiset vakioniput **listataan** tekstikenttään 
 - jokainen omalle rivilleen kentät puolipisteillä eroteltuina
+- muodosssa Lehti;Reitti;Jättöpaikka1;Jättöpaikka2;Nippu;Kuljetuksenohjaus1;Kuljetuksenohjaus2;Vastaanottaja;Osoite;Postinumero+Postitoimipaikka;Jakelu(VARHAIS/PÄIVÄ);Kpl
 - sarakkeita on 12kpl ja niiden järjestys sekä maksimi pituus näkyy ohjeen mallirivistä
 
-Muutokset (esim. lisälehtiä nippuun) päivitetään ko. vakionipun riville ja tallennetaan
+Muutokset (esim. lisälehtiä nippuun) päivitetään kyseisen vakionipun riville ja tallennetaan
 - Mikäli muutos on tilapäinen, tulee se palauttaa päivittämällä muutostieto takaisin (normimäärään) poikkeavan postituksen jälkeen
 
 ### Varhaisjakelun reitit
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu4.png)
 
+Tälle välilehdelle syötetään varhaisjakelun reitit. 
+
+Reitit syötetään muodossa: Kuljetus nro (Reitti);Jättöpaikka;Piiri nro (Nippu);Piirinimi;Kuljetusnimi;Jättöpaikan osoite
+
 ### Peittojakelu
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu5.png)
+
+Kun tehdään lehden **peittojakelua** (Lehti + lisälehti), syötetään tälle välilehdelle peittojakelun reitit. Postituslistan luontivaiheessa ohjelma hakee kyseiseen lehteen ja ilmestymiseen lisättävät lisälehdet ja lisää ne postituslistalle.
+
+Peittojakelun reiti syötetään jokainen omalle rivilleen eri kentät puolipisteillä eroteltuina.
+
+Sarakkeiden järjestys: Lehti;Piiri nro (Nippu);Lehden ilmestymispäivä;Kpl
 
 ### Lehdetön peittojakelu
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu6.png)
 
+Kun tehdään **vain lisälehden peittojakelu**, syötetään tälle välilehdelle peittojakelun reitti. Peittojakelun voi lisätä postitukseen painamalla **Lisää lehdetön peittojakelu postitukseen** -painiketta.
+
+Peittojakelun reiti syötetään jokainen omalle rivilleen eri kentät puolipisteillä eroteltuina.
+
+Sarakkeiden järjestys: Lehti;Reitti;Jättöpaikka1;JÄTTÖPAIKKA2;Nippu;Kuljetuksenohjaus1;Kuljetuksenohjaus2;VASTAANOTTAJA;Osoite;POSTINUMERO+POSTITOIMIPAIKKA;Lehden ilmestymispäivä;Kpl
+
 ### Yhdistettävät niput
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu7.png)
+
+**Yhdistettävät niput** -välilehdellä voidaan yhdistää varhaisjakelun pieniä nippuja yhteen. 
+
+Ohjelma kerää postituslistaan annettujen nippujen osoitteet samaan annettuun nippuun ja lisää kyseisen nipun kansilehdelle maininnan siitä että nippu sisältää useamman nipun tietoja.
+
+**Syötä** kunkin yhdistetyn nipun tiedot allekkain muodossa Lehden nimi TAB Nippunumero. Muitakin sarakkeita voi olla mutta niitä ei tulkita. Ensimmäistä nippunumeroa käytetään Ferakissa ja siihen yhdistetään muut niput. Mikäli ensimmäisessä nippunumerossa **ei ole yhtään lehteä käytetään seuraavaa**.
+
+Erottele yhdistettävät niput tyhjällä rivillä. Tuo tiedot Excelistä jolloin **Lehden nimen ja Nippunumero** -sarakkeiden väliin tulee TAB eli tabulaattori.
 
