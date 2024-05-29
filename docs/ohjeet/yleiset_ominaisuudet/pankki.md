@@ -27,7 +27,7 @@ Lisätiedot yksittäisistä suorituksista avautuvat erilliseen popup-ikkunaan, j
 
 **Lisätyt aineistot** –välilehdellä tarkasteltavia pankkiaineistoja ja niiden sisältöjä päivitetään tarvittaessa klikkaamalla ensin
 
-- **Virheelliset** sarakkeen Nro tietoa: Ei löydy viitenumerolla maksujen lkm / Maksamatta summa ei täsmää ja maksamatta summa yli 0 eur maksujen lkm. / Maksamatta summa ei täsmää ja maksamatta summa on 0 eur maksujen lkm
+- **Virheelliset** sarakkeessa olevaa numeroa
 
 Virheilmoitusten mukaiset **vertailut ja mahdolliset korjaukset tehdään manuaalisesti** kyseisen asiakkaan / laskun tietoihin ja tarvittaessa
 - Lähetetään uusi lasku asiakkaalle esim. puuttuvasta osuudesta
