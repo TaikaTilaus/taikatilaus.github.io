@@ -22,9 +22,10 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 
 ### Yleistietoa
 
-**Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja, ja **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. Autolehti Kestotilaus 12 kk). 
+**Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja, ja **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. Autolehti Kestotilaus 12 kk).
 
-**Tuotelistauksessa** on tuotteista seuraavat tiedot: 
+**Tuotelistauksessa** on tuotteista seuraavat tiedot:
+
 - **Tuotenumero**
 - **Tuoteryhmä**
 - kuuluuko tuote johonkin **Kampanjaan**
