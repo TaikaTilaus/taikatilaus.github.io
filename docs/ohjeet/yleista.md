@@ -8,8 +8,8 @@ sidebar_position: 1
 
 Paketista riippuen palvelu sisältää:
 
-- **Tilauksenhallinnan**, jolla hallinnoidaan myytäviä tilaustuotteita ja niiden jakelua, sekä tuotteita ostavien asiakkaiden tietoja, tilauksia ja laskuja.
-- **Ilmoitusmyynninhallinnan**, jossa hallinnoidaan mediamyynnin asiakkaita, mediamyyntiä, ja sen laskuttamista.
+- **Tilausten hallinnan**, jolla hallinnoidaan myytäviä tilaustuotteita ja niiden jakelua, sekä tuotteita ostavien asiakkaiden tietoja, tilauksia ja laskuja.
+- **Ilmoitusmyynnin hallinnan**, jossa hallinnoidaan mediamyynnin asiakkaita, mediamyyntiä, ja sen laskuttamista.
 - **OmaPalvelun**, jossa asiakkaat (lehden tilaajat ja ilmoituksen ostajat) pääsevät ylläpitämään omia tietojaan, tekemään uusia tilauksia ja hallinnoimaan ilmoituksiaan/mainoksiaan, sekä näkevät aiemman tilaus-, osto- ja laskutushistoriansa. **Näköislehti** voidaan myös julkaista OmaPalvelussa.
 - **OmaIlmoitus-palvelun**, jossa hallinnoidaan yksittäisen ilmoituksen materiaaleja esim. ulkopuolisen aineiston käsittelijän kanssa.
 
@@ -19,7 +19,7 @@ Sovelluksen käyttöön aktivoidut toiminnallisuudet näkyvät **vasemman reunan
 
 ![TaikaTilaus-sovelluksen päävalikko](/img/ohjeet/yleista1.png)
 
-*TaikaTilaus-sovelluksen pää-toiminnallisuudet löytyy sovelluksen vasemmasta reunassa olevasta valikosta*
+*TaikaTilaus-sovelluksen päätoiminnallisuudet löytyvät sovelluksen vasemmasta reunassa olevasta valikosta*
 
 ## Käyttäjätunnukset ja kirjautuminen
 

@@ -36,8 +36,8 @@ Nyt voit asetuksista muodostaa tilaustuotteista tilauspaketteja, joilla on yksi 
 
 ## Planner-liittymä
 
-Integraatio toteutettu Anygraaf Planner-suunnittelutyökaluun. Integraation avulla voit siirtää TaikaTilauksessa käsiteltyjä ilmoitusvarauksia ja aineistoja Planneriin.
+Uusi integraatio Anygraaf Planner-suunnittelutyökaluun. Integraation avulla voit siirtää TaikaTilauksessa käsiteltyjä ilmoitusvarauksia ja aineistoja Planneriin.
 
 ## Fennoa-liittymä
 
-Myyntilaskujen kirjanpitotositteiden automaattinen vienti TaikaTilauksesta Fennoaan. Toiminto vähentää kirjanpitäjän työtä.
+Uusi integraatio myyntilaskujen kirjanpitotositteiden automaattiseen vientiin TaikaTilauksesta Fennoa taloushallinto-ohjelmaan. Toiminto vähentää kirjanpitäjän työtä.
