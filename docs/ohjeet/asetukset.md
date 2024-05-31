@@ -139,7 +139,7 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 
 ## Tilauspaketit
 
-![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti.png)
+![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti-etusivu.png)
 
 **Tilauspaketit**-välilehdellä voit muodostaa eri tilaustuotteista tilauspaketteja. Tilauspaketille voi antaa erillisen hinnan, jolloin tilaustuotteiden yksittäistä hintaa ei huomioida.
 
