@@ -126,7 +126,7 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 
 - Tuotteelle on määriteltävä **Valittavissa aikavälillä** -aikarajaus. Jos tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050). Valittavuus tarkoittaa, että tuote on valittavissa ohjelman valikoissa.
 - Tuotteelle määritellään myös **Tilaus mahdollinen aikavälillä** -aikarajaus, joka rajaa sen käytettävissä olevan tilausjakson. Yksittäisen tilauksen alku- ja loppupäivät tulee mahtua annetun aikarajoituksen sisään. Mikäli tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050), koska ’toistaiseksi voimassaolevaa’ tuotetyyppiä ei ole käytettävissä
-- **Tilauksen päättymisaika tuotteesta**: 
+- **Tilauksen päättymisaika tuotteesta**: ???
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen7.png)
 
@@ -139,11 +139,35 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti.png)
 
-Välilehdellä voit muodostaa tilaustuotteista tilauspaketteja.
+**Tilauspaketit**-välilehdellä voit muodostaa eri tilaustuotteista tilauspaketteja. Tilauspaketille voi antaa erillisen hinnan, jolloin tilaustuotteiden yksittäistä hintaa ei huomioida.
+
+Voit hakea tilauspaketteja valitsemalla **hakukenttään hakukriteerin ja syöttämällä hakuehdon**.
+
+**Näytä piilotetut** -kentän aktivoimalla saat näkyviin piilotetut tilauspaketit.
+
+**Näytä vain tarjouspaketit** -kentän aktivoimalla tulee listaukseen näkyviin vain tarjouspaketit.
+
+**Näytä vain hinnalliset** -kentän aktivoimalla tulee listaukseen näkyviin paketit, joille on asetettu hinta.
 
 ### Tilauspakettien lisääminen
 
+**Olemassa olevaa** tilauspakettia voit muokata painamalla **pakettinumeroa**. Uuden paketin voit lisätä painamalla **Lisää tilauspaketti** -painiketta.
+
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketin-lisaaminen.png)
+
+- Tilauspaketille muodostuu uniikki **TilauspakettiID**, kun se on tallennettu
+- Paketille annetaan **pakettinumero**, **pakettiryhmä** (esim. BlackWeek) ja **paketin nimi**
+- **Paketin ulkoinen nimi** on se nimi, joka näkyy asiakkaille esimerkiksi tilauslomakkeella
+- Paketille voidaa antaa **hinta**, jolloin siihen kuuluvien tilaustuotteiden hinnat jätetään huomiotta hintaa muodostaessa
+- Voit myös asettaa paketin hinnan kun se maksetaan **useassa erässä**
+- Paketille asetetaan **aikaväli**, milloin se on valittavissa tilauslomakkeen valikosta
+- **Pakettityyppi** -kenttä on informatiivinen. Tilaustuotteen tyyppi määrittää millä tilauksen tyypillä (kestotilaus, määräaikainen) tilaus muodostuu.
+- Paketille annetaan **tilausjakso**, joka määrittää kuinka kauan siihen kuuluvat tilaukset kestävät (esim. 12 kuukautta)
+- Jos paketti kuuluu **kampanjaan** voidaan sille asettaa **KampanjanNumeroa ja nimi**
+- **Lisätietoihin** voi kirjoitaa oleellista lisätietoa paketista
+- Jos paketti on **tarjouspaketti**, joka jatkuu tarjousjakson jälkeen normaalilla tilauspaketilla, laitetaan lomakkeeseen sen paketin **PakettiID**, millä tilaus jatkuu
+- Kun **Piilotettu**-kenttä on aktivoitu, on paketti piilotettu hausta ja valintavalikoista
+- **Pakettiin kuuluvat tuotteet** lisätään antamalla niiden **TuoteID:t** pilkulla eroteltuina (esim. 2575, 2548)
 
 ## Erillistuotteet
 
