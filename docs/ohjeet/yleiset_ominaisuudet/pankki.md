@@ -27,7 +27,7 @@ Lisätiedot yksittäisistä suorituksista avautuvat erilliseen popup-ikkunaan, j
 
 **Lisätyt aineistot** –välilehdellä tarkasteltavia pankkiaineistoja ja niiden sisältöjä päivitetään tarvittaessa klikkaamalla ensin
 
-- **Virheelliset** sarakkeessa olevaa numeroa
+- **Virheelliset**-sarakkeessa olevaa numeroa
 
 Virheilmoitusten mukaiset **vertailut ja mahdolliset korjaukset tehdään manuaalisesti** kyseisen asiakkaan / laskun tietoihin ja tarvittaessa
 - Lähetetään uusi lasku asiakkaalle esim. puuttuvasta osuudesta
