@@ -87,7 +87,7 @@ Etusivun kautta voidaan tehdä erilaisia hakuja asiakasrekisteristä.Etusivun ha
 
 **Käyttäjän tiedot** –näkymässä kirjautunut käyttäjä pääsee muokkaamaan omia tietojaan.
 
-## Käyttäjätietojen muokkaus
+### Käyttäjätietojen muokkaus
 
 **Käyttäjän tiedot** -linkkiä klikkaamalla **Omat tiedot** -valikon alta, pääset muokkaamaan omia **yhteystietojasi** (esim. nimi, sähköposti) sekä vaihtamaan sovelluksen **kielen ja teeman**. Voit myös ottaa käyttöön **pelkistetyn ilmoitusvarauslomakkeen**.
 
