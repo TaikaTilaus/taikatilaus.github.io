@@ -4,8 +4,6 @@ title: Ohjevideot
 ---
 ### Tilauksen katkaisu
 
-
-
                 <div class="ratio ratio-16x9">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/s4Mtsigivxo?si=rGLcsrvXrXQDfK1z"
                         title="YouTube video player" frameborder="0"
@@ -22,7 +20,6 @@ title: Ohjevideot
                         allowfullscreen></iframe>
                 </div>
 
-
 ### Laskun kopionti  
 
                 <div class="ratio ratio-16x9">
@@ -31,7 +28,6 @@ title: Ohjevideot
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
-
 
 ### Laskun uudelleen lähettäminen sähköpostitse
 
@@ -87,3 +83,16 @@ title: Ohjevideot
                         allowfullscreen></iframe>
                 </div>
 
+### Kaksivaiheisen tunnistautumisen aktivointi
+
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mnluKXqfPUM?si=oiTYd4GrUaKsxqC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div> 
+
+### Saldon siirtäminen maksetusta tilauksesta asiakkaalle
+
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Le4eWG-_epc?si=-CfW0WhoQxFb1bfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
