@@ -13,7 +13,7 @@ Paketista riippuen palvelu sisältää:
 - **OmaPalvelun**, jossa asiakkaat (lehden tilaajat ja ilmoituksen ostajat) pääsevät ylläpitämään omia tietojaan, tekemään uusia tilauksia ja hallinnoimaan ilmoituksiaan/mainoksiaan, sekä näkevät aiemman tilaus-, osto- ja laskutushistoriansa. **Näköislehti** voidaan myös julkaista OmaPalvelussa.
 - **OmaIlmoitus-palvelun**, jossa hallinnoidaan yksittäisen ilmoituksen materiaaleja esim. ulkopuolisen aineiston käsittelijän kanssa.
 
-Eri toimintojen näkyvyyttä hallitaan erikseen aktivoitavilla, **toimintokohtaisilla käyttöoikeuksilla**.
+Eri toimintojen näkyvyyttä hallitaan erikseen käyttäjien henkilökohtaisille tunnuksille aktivoitavilla, **toimintokohtaisilla käyttöoikeuksilla**.
 
 Sovelluksen käyttöön aktivoidut toiminnallisuudet näkyvät **vasemman reunan valikkolistalla** ja niiden järjestys päivittyy **dynaamisesti** eli käyttäjän toimintatapojen mukaisesti (eniten käytetyt näkymät/toiminnot ’nousevat’ valikkolistalla ylemmäksi)
 
@@ -46,7 +46,7 @@ Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät TaikaTilaus-
 ![Ohjesivusto](/img/ohjeet/tukiportaali.png)
 *Ohjesivuston etusivu.*
 
-Palveluun liittyvä viestintä on nähtävissä kaikille käyttäjille **Tiedotteet**–ikonia klikkaamalla. Näkymään koostetaan mm. **TaikaTilauksen tiedotteet, Palvelun kehitysuutiset, Asiakaskohtainen tilannetiedotus** (esim. yleisen vian tukipyynnöt/tilannetiedot). 
+Palveluun liittyvä viestintä on nähtävissä kaikille käyttäjille **Tiedotteet**–ikonia klikkaamalla. Näkymään koostetaan mm. **TaikaTilauksen tiedotteet, Palvelun kehitysuutiset, Asiakaskohtainen tilannetiedotus** (esim. yleisen vian tukipyynnöt/tilannetiedot).
 
 ![Tiedotteet](/img/ohjeet/ohjeet-tiedotteet.png)
 *Ohjelmiston tiedotteisiin pääse painamalla Tiedotteet-ikonia.*
@@ -58,7 +58,7 @@ Selaimen siirtymispainikkeita **EI SAA KÄYTTÄÄ**, vaan pitää käyttää pal
 ![Palaa-painikkeet](/img/ohjeet/palaa-painikkeet.png)
 *Käytä ohjelmiston omia Palaa-painikkeita!*
 
-Paluu-painikkeen viereen ilmestyy erilaisia lisäikoneita, kuten **Leikepöytä**, ja **taulukon ja laskun lataaminen** jatkokäsittelyä varten (esim. tulostamista), kun teet niihin liittyviä toimintoja.
+**Paluu**-painikkeen viereen ilmestyy erilaisia lisäikoneita, kuten **Leikepöytä**, ja **taulukon ja laskun lataaminen** jatkokäsittelyä varten (esim. tulostamista), kun teet niihin liittyviä toimintoja.
 
 Ohjelma näyttää **virheilmoitukset** punaisella virhekentällä, missä lukee lisätietoja virhetapauksesta. Huomion arvoiset aiheet, jotka eivät välttämättä ole virheitä, korostetaan **punaisella tekstillä**.
 
@@ -70,7 +70,7 @@ Ohjelma näyttää **virheilmoitukset** punaisella virhekentällä, missä lukee
 
 ## Etusivu
 
-Etusivun kautta voidaan tehdä erilaisia hakuja asiakasrekisteristä.
+Etusivun kautta voidaan tehdä erilaisia hakuja asiakasrekisteristä.Etusivun hakukenttien **näkyvyys** vaihtelee käytössä olevien palveluiden mukaisesti. Mikäli käytössä on **vain Tilaushallinta**, niin Varausnumero ja Myyjät -hakukenttiä ei näy
 
 ![sovelluksen etusivu](/img/ohjeet/etusivu.png)
 *TaikaTilaus-sovelluksen etusivu*
@@ -85,11 +85,13 @@ Etusivun kautta voidaan tehdä erilaisia hakuja asiakasrekisteristä.
 
 **Kirjaudu ulos** -valinnalla päätetään työskentely ja kirjaudutaan ulos palvelusta.
 
-**Käyttäjän tiedot** –näkymässä kirjautunut käyttäjä pääsee muokkaamaan yhteystietojaan.
+**Käyttäjän tiedot** –näkymässä kirjautunut käyttäjä pääsee muokkaamaan omia tietojaan.
 
 ## Käyttäjätietojen muokkaus
 
-**Käyttäjän tiedot** -linkkiä klikkaamalla **Omat tiedot** -valikon alta, pääset muokkaamaan omia **yhteystietojasi** (esim. nimi, sähköposti) sekä vaihtamaan sovelluksen **kielen ja teeman**. Voit myös ottaa käyttöön **pelkistetyn ilmoitusvarauslomakkeen**. ///mikä tämä on? selitys siitä
+**Käyttäjän tiedot** -linkkiä klikkaamalla **Omat tiedot** -valikon alta, pääset muokkaamaan omia **yhteystietojasi** (esim. nimi, sähköposti) sekä vaihtamaan sovelluksen **kielen ja teeman**. Voit myös ottaa käyttöön **pelkistetyn ilmoitusvarauslomakkeen**.
+
+**Pelkistetty ilmoitusvarauslomake** on lyhennetty/karsittu versio Ilmoitusvaraus-lomakkeesta, jossa vain osa alkuperäisen lomakkeen kaikista kentistä näytetään (mahdolliset muutokset/näytettäviksi jätettävät kentät sovitaan erikseen asiakkaan kanssa).
 
 ![Käyttäjän tiedot](/img/ohjeet/kayttajantiedot2.png)
 *Käyttäjän tiedoista voit muuttaa yhteystietojasi, sekä sovelluksen kieltä ja teemaa.*

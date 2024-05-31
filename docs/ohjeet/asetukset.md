@@ -56,7 +56,8 @@ Oletuksena välilehti näyttää **kaikki aktiiviset tuotteet** (Piilotet tuotte
 
 Olemassa olevia **tuotteita voi hakea** valitsemalla hakukriteerin ja syöttämällä hakuehdon sille tarkoitettuun kenttään.
 
-**Esimerkki**: haet tuotteita, jotka ovat kestotilauksia. 
+**Esimerkki**: haet tuotteita, jotka ovat kestotilauksia.
+
 - Valitse sopiva **hakukriteeri**
 - Kirjoita "kestotilaus" **Hakuehto**-kenttään
 - Paina **Hae**
@@ -77,11 +78,12 @@ Klikkaamalla aktiiviseksi **Laske voimassa olevat tilaukset** -kentän haun yhte
 Olemassa olevan tuotteen käsittelylomake ja Tuotteen lisääminen -lomake näyttävät samoilta. Niiden tietoja lisäämällä/muokkaamalla, voi tuotteiden tietoja hallita.
 
 Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
+
 - mihin **Tuoteryhmään** ja **Kampanjaan** tuote kuuluu
 - asiakkaille näkyvä **tuotenimi**, joka näkyy esim. lehden tilauslomakkeella tai laskussa. Jos tämä kenttä on tyhjä, käytetään oletuksena tuotenimeä.
 - **Hinta** ja **Tili** -tiedot
 - **Tilaustyyppi** ja **Kesto**
-- **Digitiedot** (t.s. onko tuote digitaalinen vai ei?)
+- **Digitiedot** (esim. lehden digitaalisuus)
 - Tuotteen **käyttöajat**
 
 ### Lomakkeeseen lisättävät tiedot
@@ -89,7 +91,7 @@ Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen.png)
 
 - **TuoteID**: jokaisella tuotteella on ohjelman automaattisesti generoima TuoteID.
-- **Tuotenumero**-kenttään lisätään tuotteen uniikki tuotenumero.
+- **Tuotenumero**-kenttään lisätään tuotenumero, joka auttaa mm. tuotteiden ryhmittelyssä
 - **Tuoteryhmä**-kenttään lisätään mihin tuoteryhmään tuote kuuluu (esim. jos tilaustuotteena on lehti, laitetaan lehden nimi tähän kohtaan)
 - **Kampanja**-kenttään voi lisätä mihin kampanjaan tuote kuuluu, jos mihininkään.
 - **Tuotenimi**-kenttään laitetaan tuotteen sisäinen tuotenimi (esim. Kestotilaus III; Määräaikainen, digi)
@@ -114,7 +116,7 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen4.png)
 
 - **Myyntitili, ALV velkatili** ja **Myyntisaamiset**-tili määritellään **Tilit** -välilehdellä ja ne tulee merkitä kaikille laskutettaville tuotteille. Laskua luotaessa tilöintitilit haetaan tuotekortilta ja niiden avulla muodostetaan laskulle tarvittavat tiliöintirivit, joihin maksetut suoritukset myöhemmin liitetään kirjanpitoa varten.
-- **Laskuerien lukumäärä** /// teksti puuttuu, mitä tarkoittaa?
+- **Laskuerien lukumäärä** -kenttään määrätään, kuinka monessa erässä kyseisen tuotteen voi maksaa (ohjelma automaattisesti jakaa laskutuspyynnöt eriin tilauksen tallennuksen yhteydessä)
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen5.png)
 
@@ -133,7 +135,7 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 - **Tuote on piilotettu:** Tuotteen voi piilottaa, milloin sitä ei näe hakuja tehtäessä eikä sitä voi valita uutta tilausta tehtäessä.
 - **Digipalvelu**–kentän avulla tuotteita voi ryhmitellä saman Digipalvelu-ryhmän alle. Digipalveluissa voidaan tutkia onko tilaajalla aktiivisena tiettyä Digipalvelua ja täten näyttää muun muassa wwww-sivun sisältö sen mukaan.
 - **Stripe tuotetyyppi ja PriceID**: Stripe-palveluun määritellyn tuotteen tyyppi ja API PriceID
-- **SKU-koodi**: Tuotteen yksilöivä koodi m.m. kirjamyynnissä.
+- **SKU-koodi**: Tuotteen yksilöivä koodi mm. kirjamyynnissä.
 
 ## Tilauspaketit
 
@@ -171,7 +173,9 @@ Voit hakea tilauspaketteja valitsemalla **hakukenttään hakukriteerin ja syött
 
 ## Erillistuotteet
 
-Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat esimerkiksi Laskutuslisä, Paperilaskutuslisä, jne. Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita.
+Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat Laskutuslisä, Paperilaskutuslisä, jne.
+
+**Erillistuotteet**-välilehdellä voit muokata ja lisätä erillistuotteita.
 
 ![Erillistuotteet-näkymä](/img/ohjeet/erillistuotteet.png)
 *Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita, ja tarkastella jo olemassa olevia erillistuotteita.*
@@ -208,15 +212,18 @@ Kun tiliä lisätään tai muokataan, tarvitaan seuraavat tiedot:
 
 Palvelussa käytetään **Suoriteperusteista kirjapitoa**, jossa
 kulut ja tulot kirjataan kirjanpitoon sen mukaan milloin kulut syntyvät eli **laskupäivän perusteella**
+
 - esim. myyntilasku, joka tehdään tammikuun lopussa ja maksetaan maaliskuun alussa
 - Tämä myynti näkyy tuloslaskelmassa suoriteperusteisesti tammikuussa (eikä maaliskuussa kuten maksuperusteisesti)
 
 Suoriteperusteisessa kirjanpidossa kulu kirjataan
+
 - laskupäivän mukaan **kulutilin debitteihin** ja **ostovelkojen kreditteihin**
 - Myöhemmin, **kun lasku maksetaan** kirjaus menee **pankkitilin kreditteihin ja ostovelkojen debitteihin**
 - Maksun yhteydessä ostovelat siis nollautuvat
 
 **Myyntien** osalta kirjaukset menevät samalla logiikalla, mutta **debitit ja kreditit ovat päinvastaiset**
+
 - Myyntilasku kirjataan laskun päivämäärän mukaan kredittiin (esim. 1502 Lehtitilaussaamiset TaikaVakka) ja myyntisaamisten (saamiset asiakkailta) debittiin (esim. 30090 Suomi vuositilaus TaikaVakka alv 10% ja 2470 Myynnin 10% ALV-velka)
 - Myöhemmin, kun asiakas suorittaa laskun pankkitilille, kirjaus menee pankkitilin debittiin (esim. 1710 Nordea) ja myyntisaamisten kredittiin (esim. 1502 Lehtitilaussaamiset TaikaVakka)
 - Suorituksen yhteydessä myyntisaamiset siis nollautuvat
@@ -232,12 +239,13 @@ Suoriteperusteisessa kirjanpidossa kulu kirjataan
 
 *Laskutekstit-välilehdeltä voi luoda laskuille tekstipohjia.*
 
-Välilehdeltä voi lisätä tekstejä tilaustuotteiden, erillistuotteiden ja ilmoitusmyynnin laskuille sekä lisätä lähetystiedot sähköpostin kautta lähetettävien laskujen sähköpostipohjaan.
+Välilehdeltä voi lisätä toisistaan poikkeavia tekstejä tilaustuotteiden, erillistuotteiden ja ilmoitusmyynnin laskuille sekä lisätä lähetystiedot sähköpostin kautta lähetettävien laskujen sähköpostipohjaan.
 
 ![Laskutekstit-välilehti](/img/ohjeet/laskutekstit2.png)
 *Laskulle lisättävä teksti -lomake*
 
 TIlauslaskuille voi lisätä:
+
 - tekstin laskulle
 - laskutekstin //what is the difference?
 - maksumuistutuksien tekstit
@@ -246,6 +254,7 @@ TIlauslaskuille voi lisätä:
 *Sähköpostikanavan lähetystiedot -lomake*
 
 Sähköpostin lähetystietoihin voi lisätä:
+
 - sähköpostiosoitteen, josta lasku lähetetään
 - otsikon
 - laskuviestin
@@ -259,6 +268,7 @@ Ohjelma valitsee automaattisesti oikean sähköpostiviestin riippuen minkä lehd
 ## Viestipohjat
 
 **Viestipohjat** välilehdeltä voi muokata **tilaus/ilmoitusvarausvahvistuksien viestipohjia**. Voit muokata:
+
 - Lähettäjän sähköpostia
 - Sähköpostin piilokopion vastaanottajaa
 - Sähköpostin otsikkoa
