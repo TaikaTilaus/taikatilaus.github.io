@@ -151,11 +151,13 @@ Voit hakea tilauspaketteja valitsemalla **hakukenttään hakukriteerin ja syött
 
 **Näytä vain hinnalliset** -kentän aktivoimalla tulee listaukseen näkyviin paketit, joille on asetettu hinta.
 
+![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti2.png)
+
 ### Tilauspakettien lisääminen
 
 **Olemassa olevaa** tilauspakettia voit muokata painamalla **pakettinumeroa**. Uuden paketin voit lisätä painamalla **Lisää tilauspaketti** -painiketta.
 
-/// kuva tähän
+![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti.png)
 
 - Tilauspaketille muodostuu uniikki **TilauspakettiID**, kun se on tallennettu
 - Paketille annetaan **pakettinumero**, **pakettiryhmä** (esim. BlackWeek) ja **paketin nimi**
@@ -467,7 +469,7 @@ Voit myös lähettää tiedostoja ylläpitäjälle esim. asiakastietoja massapä
 
 ### Laskun muodostamistiedot
 
-//väärä kuva ollut, oikea kuva paikalle
+![Pääkäyttäjä](/img/ohjeet/paakayttaja13.png)
 
 Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta avautuu uusi välilehti, missä näet laskutustiedot eri tuotteille.
 - välilehdeltä näet mm. minä päivinä laskuja muodostetaan automaattisesti ja mikä on eri tuotteiden huomautusaika maksumuistutuksille
