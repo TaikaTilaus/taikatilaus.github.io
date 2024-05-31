@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Oletusasetukset
+# Asetukset
 
-## Oletusasetuksien hallinnointi
+## Asetuksien hallinnointi
 
 Käytön yhteydessä hyödynnetään tiettyjä yleisiä perustietoja, joiden määrityksiä käytetään oletuksena eri toiminnoissa.
 
