@@ -254,20 +254,63 @@ Lopuksi näet yhteenvedon laskutusajosta ja voit ladata tiedot PDF:lle.
 
 ## Laskujen lähetys
 
-Laskujen postitus (L.postitus) –välilehdellä tarkastellaan laskuja, ennen niiden lähetystä matkaan eri kanavien kautta (esim. KIRJE,SPOSTI,VERKKOLASKU)
+![Laskujen lähetys](/img/ohjeet/laskujen-lahetys.png)
+*Laskujen lähetys -välilehti.*
+
+### Laskujen haku ja suodatus välilehdellä
+
+**Laskujen lähetys** –välilehdellä tarkastellaan laskuja ennen niiden lähetystä matkaan eri kanavien kautta (esim. KIRJE, SPOSTI, VERKKOLASKU). Laskujen tuoterivit saat näkymään aktivoimalla **Näytä tuoterivit** -kentän.
 
 Laskut voidaan hakea suodatettuna halutulla
 
 - toimituspäivällä
 - toimitustavalla
 
-Laskunumeroa klikkaamalla pääsee muokkaamaan kyseistä laskua
+![Laskujen lähetys](/img/ohjeet/laskujen-lahetys2.png)
 
-- Listauksella punaisella näkyvät puutteelliset tiedot korjataan Asiakaskortille (pysyvät muutokset)
-- esim. puuttuva Postinumero –tieto korjataan ja asiakastiedot haetaan uudelleen laskun Hae maksajaa –painikkeen kautta
+Painamalla **Lisähakuehdot**-painiketta saat näkyviin lisää hakuehtoja, jolla voit suodattaa laskuja. Lisähakuehtoja ovat:
 
-Hakulistaukselta (esim. Toimitustapa=Sähköposti) voi valita yksittäin/Kaikki laskut ja klikattaessa Lähetä laskut sähköpostilla –painiketta ne lähtevät asiakkaille virheellisiä lukuun ottamatta
-Luotuja postitusaineistoja tarkastellaan Luodut aineistot -välilehdellä
+- Laskun muoto (esim. lasku, maksumuistutus, hyvityslasku)
+- Aikaväli, jolloin lasku on luotu
+- Laskun tyyppi (esim. TILAUS, ILMOITUS)
+- Luontitunnus - kaikilla samaan aikaan ajetuilla laskuilla on sama luontitunnus, voit siis hakea tällä ehdolla esim. juuri ajamasi laskut
+- Laskun summa
+- Teksti tuoterivissä - esim. tilauksen saajan nimi, tai tilaustuotteen nimi
+
+![Laskujen lähetys](/img/ohjeet/laskujen-lahetys3.png)
+
+**Laskunumeroa** klikkaamalla pääsee muokkaamaan kyseistä laskua
+
+- Listauksella **punaisella** näkyvät puutteelliset tiedot korjataan Asiakaskortille (pysyvät muutokset)
+- esim. puuttuva **Postinumero**–tieto korjataan ja asiakastiedot haetaan uudelleen laskun **Hae maksajaa** –painikkeen kautta
+
+Valitsemalla laskun/laskuja aktivoimalla taulukon ensimmäisessä sarakkeessa olevan kentän ja painamalla **Tulosta PDF** -painiketta, muodostuu laskusta PDF tarkistelua varten.
+
+![Laskujen lähetys](/img/ohjeet/laskujen-lahetys8.png)
+
+### Laskujen lähetys
+
+Laskut lähetetään **toimitustapa kerrallaan**. 
+
+Valitaan Toimitustapa-hakuehdoksi esimerkiksi **VERKKOLASKU** ja haetaan laskut. Listaukseen tulee vain laskut, joissa toimitustapana on verkkolasku. **Valitaan** kaikki laskut, tai vain osa laskuista. Jos haluat lähettää vain tietyt laskut, niitä voi valita aktivoimalla **ekassa sarakkeessa olevan valintakentän**. 
+
+Kun laskut on valittu, painetaan **Lähetä laskut verkkolaskuina** -painiketta. 
+
+![Laskujen lähetys](/img/ohjeet/laskujen-lahetys4.png)
+
+Voit vielä **tarkistaa** laskut PDF-muodossa ennen lähetystä aktivoimalla **Älä lähetä, tee laskuista vain PDF tarkastelua varten** -kentän ja painamalla **Lähetä**. Deaktivoimalla kentän ja painamalla **Lähetä** voit suorittaa varsinaisen laskujen lähetyksen.
+
+![Laskujen lähetys](/img/ohjeet/laskujen-lahetys5.png)
+
+### Lähetettyjen laskujen tarkistelu
+
+Luotuja postitusaineistoja voit tarkastella **Luodut aineistot** -välilehdellä.
+
+![Laskujen lähetys](/img/ohjeet/laskujen-lahetys6.png)
+
+Tiedoston nimeä klikkaamalla avautuu selaimessa uusi välilehti, missä luotuja laskuja voi tarkastella PDF muodossa.
+
+![Laskujen lähetys](/img/ohjeet/laskujen-lahetys7.png)
 
 ## Laskut-välilehti
 
