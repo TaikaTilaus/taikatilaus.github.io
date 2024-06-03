@@ -219,7 +219,7 @@ Voit hakea ilmoitusmyynnin laskutuspyyntöjä:
 
 ### Laskutusajon tarkistus ja suoritus
 
-Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla **Hae laskutuspyynnöt** –painiketta
+Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla **Hae laskutuspyynnöt** –painiketta.
 
 Ennen varsinaista Laskutuspyyntöjen hakua voi halutessaan aktivoida välitarkistusta varten **Korosta jos laskutuspyynnön ja tuotteen hinta eroaa** -kentän, joka korostaa hakulistauksella näkyvän laskutuspyynnön summan punaisella, mikäli se ja tuotteen verollinen oletushinta eroavat toisistaan. Näin on esimerkiksi tapauksissa, joissa tilauksille on asetettu alennusprosentti.
 
