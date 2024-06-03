@@ -8,6 +8,8 @@ Koko laskutusprosessin voi halutessaan **automatisoida** TaikaTilaus-ohjelmalla,
 
 ## Yleistä laskuista
 
+### Yksittäisen asiakkaan laskujen käsittely
+
 Asiakkaan yksittäisiä laskuja pääsee muokkaamaan **Asiakastiedot**-näkymän **Laskut**-osiossa painamalla laskun **numeroa**. 
 
 ![Asiakastiedot - Laskut](/img/ohjeet/laskut1.png)
@@ -162,7 +164,7 @@ Manuaalinen laskun lisääminen asiakkaalle tehdään
 
 Lisää laskujen käsittelyn esimerkkejä löytyy Ohjeet / Laskut -kohdan lopusta
 
-### Saldon käyttäminen laskun maksamiseen
+### Saldon siirtäminen asiakkaalle maksetusta laskusta
 
 **Saldoa** kertyy asiakkaalle esimerkiksi siinä tapauksessa, että asiakas on **maksanut** jonkun tilauksen, mutta haluaa sittenkin **vaihtaa** sen toiseen tilaustuotteeseen. Kun tilaus katkaistaan, tulee asiakkaalle hyvityksenä tilauksen **saamattomista lehdistä** tietty euromäärä. Tämä määrä siirtyy asiakkaan saldoon, jota voidaan käytettää tulevien laskujen maksamiseen.
 
