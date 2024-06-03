@@ -4,35 +4,57 @@ sidebar_position: 2
 
 # Laskut ja laskutus
 
+Koko laskutusprosessin voi halutessaan **automatisoida** TaikaTilaus-ohjelmalla, mutta laskuja on myös mahdollista käsitellä ja lähettää manuaalisesti.
+
 ## Yleistä laskuista
 
-Asiakastiedot -näkymässä listatuista ja sen Laskut -osion Numero –sarakkeessa valitun yksittäisen laskun tietoja pääsee muokkaamaan/lisäämään
-joko Kynä painikkeesta
+Asiakkaan yksittäisiä laskuja pääsee muokkaamaan **Asiakastiedot**-näkymän **Laskut**-osiossa painamalla laskun **numeroa**. 
+
+![Asiakastiedot - Laskut](/img/ohjeet/laskut1.png)
+
+![Asiakastiedot - Laskut](/img/ohjeet/laskut4.png)
+*Laskun numeroa klikkaamalla aukeaa näkymä, josta näkyy kaikki laskun tiedot.*
+
+Valitun yksittäisen laskun tietoja pääsee muokkaamaan, joko **Kynä**-painikkeesta
+
 1. Laskun tietoja
 2. Maksajan tietoja
-3. Laskulle voidaan sitoa Myyjä (aktivointi tehdään Pääkäyttäjän asetuksista)
+
+![laskun tiedot](/img/ohjeet/laskut2.png)
 
 tai sarakkeiden numeroita klikattaessa
+
 4. Tuotteiden tietoja (TuoteriviID)
+
+![Laskut - Tuotteen käsittely](/img/ohjeet/laskut3.png)
+
 5. Tiliöinnin tietoja (TiliöintiID)
 
-Tarvittaessa voi hakea tai lisätä uuden maksajan ja tuotteen, Sekä lisätä yksittäisiä tiliöintejä ja suorituksia (esim. käteismaksu)
--Mikäli laskulla ei ole suorituksia, ei Lisää tiliöinti suoritukselle -painiketta näytetä
-- Laskutusajossa luotavien laskujen (tuoterivien) tiliöinnit (L) tehdään automaattisesti, mutta niitä voi tarvittaessa muuttaa (ennen laskun lähettämistä)
-Tai liitää suorituksia, jotka eivät ole automaattisesti kohdentuneet pankkiaineiston käsittelyn yhteydessä (esim. viitevirheet)
-Laskun käsittelyyn liittyvät toiminnot ovat
--Luo hyvityslasku
--Luo Maksumuistutus #1 ja/tai
--Luo Maksumuistutus #2
--Luo laskusta kopio
--Luo laskusta kopio ilman maksajan tietoja
--Tulosta lasku
--Lähetä lasku sähköpostilla
--Siirrä lasku toiselle tilaukselle
+![Laskut - Tuotteen käsittely](/img/ohjeet/laskut5.png)
 
-Mikäli tulee tarve palauttaa Avoin –tilassa (uusi) oleva lasku takaisin Laskutuspyynnöksi (esim. luotu laskuksi liian aikaisin)
-- Tämä jo luotu lasku tulee erikseen Hyvittää
-- Sen purkamisesta tehdään erillinen tukipyyntö, jossa asiakastuki palauttaa laskutuspyynnöt laskun luontia edeltäneeseen tilaan, jotta lasku voidaan luoda uudelleen
+Tarvittaessa voi **hakea** tai **lisätä uuden** maksajan ja tuotteen, sekä **lisätä** yksittäisiä tiliöintejä ja suorituksia (esim. käteismaksu)
+
+- Mikäli laskulla ei ole suorituksia, ei Lisää tiliöinti laskulle -painiketta näytetä
+- Laskutusajossa luotavien laskujen (tuoterivien) tiliöinnit (L) tehdään automaattisesti, mutta niitä voi tarvittaessa muuttaa (ennen laskun lähettämistä)
+- Tai **liittää** suorituksia, jotka eivät ole automaattisesti kohdentuneet pankkiaineiston käsittelyn yhteydessä (esim. viitevirheet)
+
+**Laskun käsittelyyn** liittyvät toiminnot ovat
+
+- Luo hyvityslasku
+- Luo Maksumuistutus #1 ja/tai Luo Maksumuistutus #2
+- Luo laskusta kopio - luo laskusta kopion kaikilla tiedoilla
+- Luo laskusta kopio ilman maksajan tietoja
+- Tulosta lasku - luo laskusta PDF:n, jonka voi sitten tulostaa 
+- Lähetä lasku sähköpostilla - voit lähettää laskun heti asiakastiedoissa olevaan sähköpostiosoitteeseen
+- Siirrä lasku toiselle tilaukselle - siirrä lasku toiselle tilaukselle antamalla sen tilausnumero
+- Suoramaksuilmoitus - voit lähettää laskusta ilmoituksen suoraveloituksella maksaville asiakkaille tai tulostaa ilmoituksen
+
+![Laskut - Tuotteen käsittely](/img/ohjeet/laskut6.png)
+
+Mikäli tulee tarve palauttaa **Avoin**–tilassa oleva uusi lasku takaisin Laskutuspyynnöksi (esim. tapauksessa, jossa pyyntö on luotu laskuksi liian aikaisin)
+
+- Tämä jo luotu lasku tulee erikseen **Hyvittää**
+- Sen purkamisesta tehdään erillinen **tukipyyntö**, jossa asiakastuki palauttaa laskutuspyynnöt laskun luontia edeltäneeseen tilaan, jotta lasku voidaan luoda uudelleen
 
 ### Laskun tulostaminen
 
@@ -40,69 +62,90 @@ Voi olla tarve tulostaa lasku esim. konttoriasioinnin yhteydessä
 - Asiakas maksaa tilauksen/ilmoituksen paikan päällä
 - Asiakas tarvitsee alkuperäisen laskun kopiona kirjanpitoa varten
 
-1. Uuden tilauksen Laskutuspyynnöstä voi luoda asiakkaalle laskun/kuitin Tee laskutuspyynnöstä lasku –painikkeen kautta
+1. **Uuden tilauksen laskutuspyynnöstä** voi luoda asiakkaalle laskun/kuitin **Tee laskutuspyynnöstä lasku** –painikkeen kautta
 
-Siirtymällä Laskut –näkymään ja hakemalla ko. laskun (esim. asiakasnumerolla) listaukselle ja klikkaamalla laskurivillä
-- näkyvää Tulostin –ikonia tai
-- 1. valintaruutua ja Tulosta PDF –painiketta listauksen yläpuolella
+![Tilaus - Laskutuspyynnöt](/img/ohjeet/laskut7.png)
 
-Lataa PDF –ikoni ilmestyy näkymän yläpalkkiin (Palaa –ikonin viereen) ja sitä klikkaamalla ilmestyy tulostettava tiedosto näkymän vasempaan alakulmaan (selaimesta riippuen)
+Siirtymällä **Laskut** –näkymään ja hakemalla kyseisen laskun (esim. asiakasnumerolla) listaukselle ja klikkaamalla laskurivillä
 
-2. Aiemman laskun voi tulostaa asiakkaalle siirtymällä Laskut –näkymään ja hakemalla ko. laskun (esim. asiakasnumerolla) listaukselle ja klikkaamalla sen Numeroa laskurivillä.
+-  näkyvää **Tulostin**–ikonia tai
+
+![Laskut](/img/ohjeet/laskut8.png)
+
+- aktivoimalla ensimmäisessä sarakkeessa olevan **valintakentän** ja painamalla **Tulosta PDF** –painiketta
+
+![Laskut](/img/ohjeet/laskut9.png)
+
+**Lataa PDF** –ikoni ilmestyy näkymän yläpalkkiin (Palaa–ikonin viereen) ja sitä klikkaamalla tulostettava tiedosto ilmestyy selaimen ladattuihin tiedoistoihin
+
+![Laskut](/img/ohjeet/laskut11.png)
+
+2. **Aiemman laskun** voi tulostaa asiakkaalle siirtymällä **Laskut**–näkymään ja hakemalla kyseisen laskun (esim. asiakasnumerolla) ja klikkaamalla sen numeroa
 
 Valitusta laskusta saa tulostettua
-- kuitin Tulosta lasku –painikkeesta (laskun oltava Maksettu -tilassa)
-- alkuperäisen Laskun Tulosta lasku LASKU-muodossa –painikkeesta (esim. Maksuhuomautuksen jälkeen)
+- kuitin **Tulosta lasku** –painikkeesta
+- alkuperäisen Laskun **Tulosta lasku LASKU-muodossa** –painikkeesta (valinta tulee näkyviin maksumuistutuksen luomisen jälkeen)
 
-Tarvittaessa voi vielä tässäkin vaiheessa lisätä yksittäiselle laskulle ja sen tuoteriville tulostuvaa lisätietoa.
-Lisätiedot laskulle –kentässä annetaan asiakkaan laskulle näkyviin haluttavat tiedot
-- Ne voidaan myös tallentaa Lisää vakiotekstiksi –painikkeesta ja käyttää jatkossakin
-- Tallennettujen listaus avautuu Laskun vakiotekstit –painikkeesta ja Valitse –painikkeesta klikkaamalla kopioituu ko. teksti kenttään, jossa sitä voi tarvittaessa vielä muokata
-- Poista –painikkeesta tallennettu viesti poistuu käytöstä
+![Laskut](/img/ohjeet/laskut10.png)
 
 ### Suoramaksu verkkopankissa
 
-Asiakkaille, jotka haluavat laskunsa Suoramaksuna verkkopankin kautta, määritellään asiakaskortille
-- Laskun toimitustavaksi VERKKOLASKU
-- Aktivoidaan Suoramaksu –kenttä
+Asiakkaille, jotka haluavat maksaa laskunsa **Suoramaksuna** verkkopankin kautta, määritellään asiakaskortille
 
-Laskujen lähetyksen yhteydessä
-- Suoraveloitettaville verkkomaksuille luodaan kirjeviestit, joissa kerrotaan automaattisesti tehtävästä suoraveloituksesta
-- Kirje lähetetään samalla ajolla kuin itse laskukin
-- Tieto kirjelähetyksestä merkitään Laskun lähetetty info –kenttään lokitietona (esim. Itella / Suoramaksuviesti..)
+- Laskun toimitustavaksi **VERKKOLASKU**
+- Aktivoidaan **Suoramaksu**–kenttä
 
-Suoramaksun ilmoitusviestin voi myös tulostaa ja lähettää erikseen Suoramaksuilmoitus -painikkeesta avautuvien
-- Tulosta suoramaksuilmoitus -painikkeesta
-- Lähetä suoramaksuilmoitus kirjeenä –painikkeesta
+![Laskut](/img/ohjeet/laskut12.png)
 
-Laskun toimitustavan VERKKOLASKU ja Suoramaksun aktivointi
+Laskujen **lähetyksen yhteydessä**
 
-Laskun tiedoissa Lasku lähetetty info -kenttä
+- Suoraveloitettaville verkkomaksuille **luodaan kirjeviestit**, joissa kerrotaan automaattisesti tehtävästä suoraveloituksesta
+- Kirje **lähetetään samalla ajolla** kuin itse laskukin
+- Tieto kirjelähetyksestä merkitään **Laskun lähetetty info** –kenttään lokitietona (esim. Itella / Suoramaksuviesti..)
 
-Suoramaksuilmoituksen tulostaminen
+![Laskut](/img/ohjeet/laskut14.png)
 
-Suoramaksuilmoituksen tulostus ja lähetys
+Suoramaksun ilmoitusviestin voi myös tulostaa ja lähettää erikseen **Suoramaksuilmoitus**-painikkeesta avautuvien
+- **Tulosta suoramaksuilmoitus** -painikkeesta
+- **Lähetä suoramaksuilmoitus kirjeenä** –painikkeesta
 
-Suoramaksun tiedot laskulomakkeella
+![Laskut](/img/ohjeet/laskut13.png)
 
 ### Lisää lasku
 
-Tarvittaessa voi lisätä uuden laskun esim. oheistuotteiden myynteihin liittyen
+Tarvittaessa voi **lisätä uuden laskun** esim. oheistuotteiden myynteihin liittyen
 
-Lisäyksen voi tehdä klikkaamalla Lisää lasku / Lisää uusi lasku -painiketta
-- Asiakkaan koontinäkymän Laskut –osion kautta, jolloin asiakkaan tiedot kopioituvat automaattisesti uudelle laskulle
-- Laskut –näkymässä
+Lisäyksen voi tehdä klikkaamalla **Lisää lasku / Lisää uusi lasku** -painiketta
+- Asiakkaan tietojen **Laskut**–osion kautta, jolloin asiakkaan tiedot kopioituvat automaattisesti uudelle laskulle
 
-Näkymään avautuu tyhjä laskulomake, johon
+![Laskut](/img/ohjeet/laskut15.png)
+
+- **Laskut**-välilehdellä
+
+![Laskut](/img/ohjeet/laskut16.png)
+
+Näkymään avautuu **tyhjä laskulomake**, johon
+
 - lisätään/muutetaan tiedot tarpeen mukaan ja lasku tallennetaan
 - Huomioi, että laskulle luodaan numero vasta kun laskun lähetys on sallittu
-- Uusi lasku siis luodaan ja tallennetaan (1. kerralla) Laskunumerolla 0
+- Uusi lasku siis luodaan ja tallennetaan (ensimmäisellä kerralla) Laskunumerolla 0
 
-Laskulle lisätään perustiedot ja maksajan tiedot, jotka voi
-- hakea olemassa olevista asiakastiedoista Hae maksajaa –painikkeesta tai
-- lisäämällä uuden asiakkuuden Lisää uusi maksaja –painikkeen kautta
+![Laskut](/img/ohjeet/laskut17.png)
 
-Laskutettava tuote/tuotteet lisätään Lisää tuote –painikkeen avulla
+Laskulle **lisätään perustiedot** ja maksajan tiedot, jotka voi
+
+- hakea olemassa olevista asiakastiedoista **Hae maksajaa** –painikkeesta tai
+- lisäämällä uuden asiakkuuden **Lisää uusi maksaja** –painikkeen kautta
+
+![Laskut](/img/ohjeet/laskut18.png)
+
+Laskutettava tuote/tuotteet lisätään **Lisää tuote** –painikkeen avulla.
+
+![Laskut](/img/ohjeet/laskut19.png)
+
+Avautuu näkymä kaikista ohjelmaan tallennetuista tuotteista. Tuotteita voi hakea hakukenttien avulle. Tuote valitaan laskulle painamalla halutun tuotteen **tuotenumeroa**.
+
+![Laskut](/img/ohjeet/laskut20.png)
 
 ### Lasku esimerkki 1 - Manuaalinen laskun lisääminen
 
@@ -131,7 +174,7 @@ Saldon siirto asiakkaan tiedoille tehdään tilauksen tiedoista, painamalla **Ma
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo4.png)
 *Saldo näkyy asiakaskortilla laskutustietojen alla.*
 
-## Laskujen lähetys
+## Laskutusajo
 
 ### Yleistä laskutusajosta
 
@@ -163,6 +206,18 @@ Listauksella näkyy punaisella mahdolliset virheelliset tiedot, jotka tulee korj
 Varsinainen laskutusajo tehdään
 - Poistamalla valinta Esikatselu laskutuksesta -kentästä
 - klikkaamalla Suorita laskutusajo –painiketta
+
+## Laskujen lähetys
+
+Laskujen postitus (L.postitus) –välilehdellä tarkastellaan laskuja, ennen niiden lähetystä matkaan eri kanavien kautta (esim. KIRJE,SPOSTI,VERKKOLASKU)
+Laskut voidaan hakea suodatettuna halutulla
+-toimituspäivällä
+-toimitustavalla
+Laskunumeroa klikkaamalla pääsee muokkaamaan kyseistä laskua
+-Listauksella punaisella näkyvät puutteelliset tiedot korjataan Asiakaskortille (pysyvät muutokset)
+-esim. puuttuva Postinumero –tieto korjataan ja asiakastiedot haetaan uudelleen laskun Hae maksajaa –painikkeen kautta
+Hakulistaukselta (esim. Toimitustapa=Sähköposti) voi valita yksittäin/Kaikki laskut ja klikattaessa Lähetä laskut sähköpostilla –painiketta ne lähtevät asiakkaille virheellisiä lukuun ottamatta
+Luotuja postitusaineistoja tarkastellaan Luodut aineistot -välilehdellä
 
 ## Laskut-välilehti
 
@@ -481,34 +536,3 @@ Tiliöintivirhe voi liittyä esim. ’ennakkomaksuun’, jossa asiakas on maksan
 Tiliöinnit tulee korjata laskulle muuttamalla
 - Laskun tiedot / Laskun päivä –kentän päiväys samaksi kuin saapuneen Suorituksen kirjauspäivä
 - ja Tallenna
-
-## Yleistä laskutusajosta
-
-Laskutus –välilehdellä käsitellään laskutuspyynnöistä luotavat laskut Tilauksista ja Ilmoituksista Laskutuspyyntöjä voidaan tarkastella ennen niiden muodostamista varsinaiseksi laskuiksi
-
-Rajaavia hakukriteereitä voi aktivoida tarpeen mukaan mm.
--Vain ajopäivä, joka tuo vain laskutuspyynnöt jotka saa luoda ajopäivänä
-
--Yksittäiset laskut, jotka luodaan Koontilasku –määrityksestä huolimatta
-Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla Hae laskutuspyynnöt –painiketta
-
-Varsinainen laskutusajo tehdään klikkaamalla Suorita laskutusajo –painiketta, joka näytetään hakulistauksen suorittamisen jälkeen. Laskutusajo voidaan myös automatisoida tapahtuvaksi tiettynä päivänä/ajankohtana.
-
-Palvelussa on mahdollista aktivoida erilaisia laskupohjia - Esim. vanhemmat lehtien lukijat ovat tottuneet perinteiseen pankkisiirtolomakkeen laskupohjaan - Ja kuluttaja-asiakkaille tiedotetaan pankkiin lähetetyistä Suoramaksuista laskulomakkeen lisätiedoissa
-
-### Laskutusajon tarkastaminen
-
-Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla Hae laskutuspyynnöt –painiketta
-
-Ennen varsinaista Laskutuspyyntöjen hakua voi halutessaan aktivoida välitarkistusta varten Korosta jos laskutuspyynnön ja tuotteen hinta eroaa -kentän, joka korostaa hakulistauksella näkyvää Laskutuspyynnön Summa verollinen -sarakkeen hintaa (pun), mikäli sen ja itse tuotteen verolliset summat eroavat toisistaan
-
-Hakutuloslistauksen yläpuolella näkyy yhteenvetotiedot löytyneistä ja mahdollisista virheellisistä laskutuspyynnöistä
-
-Esikatselu laskutuksesta -valinnan ollessa aktivoituna haetaan laskujen tiedot listalle, mutta niistä ei vielä tehdä varsinaisia laskuja tietokantaan
-
-Listauksella näkyy punaisella mahdolliset virheelliset tiedot, jotka tulee korjata manuaalisesti asiakastietoihin ennen varsinaisen ajon suorittamista
-- esim. puuttuvat KIRJE / katuosoitteet, SÄHKÖPOSTI / spostiosoitteet jne.
-
-Varsinainen laskutusajo tehdään
-- Poistamalla valinta Esikatselu laskutuksesta -kentästä
-- klikkaamalla Suorita laskutusajo –painiketta
