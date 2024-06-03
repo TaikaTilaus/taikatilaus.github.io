@@ -165,22 +165,38 @@ Saldon siirto asiakkaan tiedoille tehdään tilauksen tiedoista, painamalla **Ma
 
 ### Yleistä laskutusajosta
 
-**Laskutus** –välilehdellä käsitellään laskutuspyynnöistä luotavat laskut ja voidaan tarkastella niitä ennen niiden muodostamista varsinaiseksi laskuiksi.
+![Laskutus](/img/ohjeet/laskutus.png)
+
+**Laskutus** –välilehdellä käsitellään laskutuspyynnöistä luotavat laskut ja voidaan tarkastella niitä ennen niiden muodostamista varsinaisiksi laskuiksi.
 
 Rajaavia hakukriteereitä voi aktivoida tarpeen mukaan mm.
 
--Vain ajopäivä, joka tuo vain laskutuspyynnöt jotka saa luoda ajopäivänä
--Yksittäiset laskut, jotka luodaan Koontilasku –määrityksestä huolimatta
+- **Hae vain ajopäivän laskutuspyynnöt** -kenttä - haku tuo vain laskutuspyynnöt, jotka saa luoda ajopäivänä
 
-Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla Hae laskutuspyynnöt –painiketta
+Voit myös määrittää laskujen luontimääritykset mm.
 
-Varsinainen laskutusajo tehdään klikkaamalla Suorita laskutusajo –painiketta, joka näytetään hakulistauksen suorittamisen jälkeen. Laskutusajo voidaan myös automatisoida tapahtuvaksi tiettynä päivänä/ajankohtana.
+- **Tee laskut yksittäisinä** -kentän aktivoimalla - kaikki laskut luodaan yksittäisinä huolimatta maksajan Koontilasku-määrityksestä
+- Syöttämällä laskulle kirjatta **laskun päivämäärä**
+- Laskun eräpäivä
+- Laskuer
 
-Palvelussa on mahdollista aktivoida erilaisia laskupohjia - Esim. vanhemmat lehtien lukijat ovat tottuneet perinteiseen pankkisiirtolomakkeen laskupohjaan - Ja kuluttaja-asiakkaille tiedotetaan pankkiin lähetetyistä Suoramaksuista laskulomakkeen lisätiedoissa
+Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla **Hae laskutuspyynnöt** –painiketta
+
+Varsinainen laskutusajo tehdään klikkaamalla **Suorita laskutusajo** –painiketta, joka näytetään haun suorittamisen jälkeen. Laskutusajo voidaan myös automatisoida tapahtuvaksi tiettynä päivänä/ajankohtana.
 
 ### Tilausmyynnin laskutusajo
 
+![Laskutus](/img/ohjeet/laskutus2.png)
+
+Voit hakea tilausmyynnin laskutuspyyntöjä:
+
+- Tuoteryhmällä ja Tilaustuotteella
+- Maksajan asiakasnumerolla
+- Summalla
+
 ### Ilmoitusmyynnin laskutusajo
+
+![Laskutus](/img/ohjeet/laskutus3.png)
 
 ### Laskutusajon tarkastaminen
 
