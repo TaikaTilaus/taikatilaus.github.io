@@ -438,7 +438,7 @@ Samoin ne on katsottavissa Raportit / Automaattiajolla katkaistut tilaukset –p
 
 ## Esimerkkitapauksia laskuista
 
-#### Lisää uusi lasku
+### Lisää uusi lasku
 
 Tarvittaessa voi lisätä uuden laskun esim. oheistuotteiden myynteihin liittyen
 
@@ -460,7 +460,7 @@ Laskulle lisätään perustiedot ja maksajan tiedot, jotka voi
 
 Laskutettava tuote/tuotteet lisätään Lisää tuote –painikkeen avulla
 
-#### Lasku esimerkki 1 - Manuaalinen laskun lisääminen
+### Lasku esimerkki 1 - Manuaalinen laskun lisääminen
 
 Voi olla tarve luoda ”ylimääräinen” lasku esim. peruutuksen yhteydessä jolloin
 Lasku voi koskea jo ilmestynyttä, mutta maksamatonta lehteä (lähetetty asiakkaalle ennen peruutusta)
@@ -475,7 +475,7 @@ Manuaalinen laskun lisääminen asiakkaalle tehdään
 
 Lisää laskujen käsittelyn esimerkkejä löytyy Ohjeet / Laskut -kohdan lopusta
 
-#### Lasku esimerkki 2
+### Lasku esimerkki 2
 
 Laskut-näkymässä listatuista ja sen listausosion Numero –sarakkeessa pääsee muokkaamaan valitun yksittäisen laskun tietoja ko. laskun numeroa klikkaamalla
 
@@ -493,7 +493,7 @@ Lisää suoritus –painike on tarkoitettu maksuihin, jotka saadaan jotakin muut
 
 Liitä suoritus –painike on tarkoitettu maksuihin, jotka saadaan esim. Maventa/Kuluttajalaskut tai pankkien viitemaksuaineistojen kautta (saapunut maksu)
 
-#### Lasku esimerkki 3
+### Lasku esimerkki 3
 
 Laskut–näkymän hakulistauksen avulla pääsee hakemaan aiemman laskun, josta halutaan lähettää uusi lasku (aiemman pohjatiedoilla)
 Voi olla tarve luoda ”korvaava” lasku esim. hyvityslaskun yhteydessä
@@ -511,7 +511,7 @@ Esimerkiksi laskun kopioiminen asiakkaalle tehdään:
 5. Tallennetaan ja
 6. Jatketaan L.postitus -toiminnoissa laskun lähettämiseksi asiakkaalle
 
-#### Lasku esimerkki 4
+### Lasku esimerkki 4
 
 Laskut–näkymän hakulistauksen avulla pääsee hakemaan aiemman laskun, josta halutaan lähettää uusi osahyvityslasku (aiemman pohjatiedoilla)
 
@@ -530,7 +530,7 @@ b. Lisätään (alkup. tuotetiliöinnissä käytetty) Kuittaustili K ja hyvitett
 c. Lisätään Kulutili T (esim. Luottotappiotili tai vastaava) ja hyvitettävä Rahamäärä +nn,nn €
 4. Asiakkaalle lähetetään lasku (uudella jäännössummalla eli Maksamatta osuus), jossa muuttunut Summa -tieto näkyy laskupohjan Pankkisiirto -osassa
 
-#### Lasku esimerkki 5
+### Lasku esimerkki 5
 
 Laskut–näkymän hakulistauksen avulla pääsee hakemaan aiemman Hyvityslaskun, joka halutaan poistaa kokonaan
 
