@@ -149,21 +149,6 @@ Avautuu näkymä kaikista ohjelmaan tallennetuista tuotteista. Tuotteita voi hak
 
 ![Laskut](/img/ohjeet/laskut20.png)
 
-### Lasku esimerkki 1 - Manuaalinen laskun lisääminen
-
-Voi olla tarve luoda ”ylimääräinen” lasku esim. peruutuksen yhteydessä jolloin
-Lasku voi koskea jo ilmestynyttä, mutta maksamatonta lehteä (lähetetty asiakkaalle ennen peruutusta)
-Manuaalinen laskun lisääminen asiakkaalle tehdään
-
-1.Haetaan ko. asiakkaan tiedot Etusivun –listauksen kautta
-2.Avataan ko. asiakkaan Tilaustiedot Tilaus –sarakkeen nimi -linkkiä klikkaamalla
-3.Avataan Laskutuspyynnöt -osion Lisää laskutuspyyntö –toiminto
-4.Täydennetään Laskutuspyynnön tiedot ja Tallennetaan
-–Lisätään jo lähetetyn julkaisun yksikköhinta ja muut tiedot
-5.Täydennetään tarvittaessa myös Tilauksen maksajan tiedot
-
-Lisää laskujen käsittelyn esimerkkejä löytyy Ohjeet / Laskut -kohdan lopusta
-
 ### Saldon siirtäminen asiakkaalle maksetusta laskusta
 
 **Saldoa** kertyy asiakkaalle esimerkiksi siinä tapauksessa, että asiakas on **maksanut** jonkun tilauksen, mutta haluaa sittenkin **vaihtaa** sen toiseen tilaustuotteeseen. Kun tilaus katkaistaan, tulee asiakkaalle hyvityksenä tilauksen **saamattomista lehdistä** tietty euromäärä. Tämä määrä siirtyy asiakkaan saldoon, jota voidaan käytettää tulevien laskujen maksamiseen.
@@ -180,17 +165,22 @@ Saldon siirto asiakkaan tiedoille tehdään tilauksen tiedoista, painamalla **Ma
 
 ### Yleistä laskutusajosta
 
-Laskutus –välilehdellä käsitellään laskutuspyynnöistä luotavat laskut Tilauksista ja Ilmoituksista Laskutuspyyntöjä voidaan tarkastella ennen niiden muodostamista varsinaiseksi laskuiksi
+**Laskutus** –välilehdellä käsitellään laskutuspyynnöistä luotavat laskut ja voidaan tarkastella niitä ennen niiden muodostamista varsinaiseksi laskuiksi.
 
 Rajaavia hakukriteereitä voi aktivoida tarpeen mukaan mm.
--Vain ajopäivä, joka tuo vain laskutuspyynnöt jotka saa luoda ajopäivänä
 
+-Vain ajopäivä, joka tuo vain laskutuspyynnöt jotka saa luoda ajopäivänä
 -Yksittäiset laskut, jotka luodaan Koontilasku –määrityksestä huolimatta
+
 Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla Hae laskutuspyynnöt –painiketta
 
 Varsinainen laskutusajo tehdään klikkaamalla Suorita laskutusajo –painiketta, joka näytetään hakulistauksen suorittamisen jälkeen. Laskutusajo voidaan myös automatisoida tapahtuvaksi tiettynä päivänä/ajankohtana.
 
 Palvelussa on mahdollista aktivoida erilaisia laskupohjia - Esim. vanhemmat lehtien lukijat ovat tottuneet perinteiseen pankkisiirtolomakkeen laskupohjaan - Ja kuluttaja-asiakkaille tiedotetaan pankkiin lähetetyistä Suoramaksuista laskulomakkeen lisätiedoissa
+
+### Tilausmyynnin laskutusajo
+
+### Ilmoitusmyynnin laskutusajo
 
 ### Laskutusajon tarkastaminen
 
@@ -203,54 +193,71 @@ Hakutuloslistauksen yläpuolella näkyy yhteenvetotiedot löytyneistä ja mahdol
 Esikatselu laskutuksesta -valinnan ollessa aktivoituna haetaan laskujen tiedot listalle, mutta niistä ei vielä tehdä varsinaisia laskuja tietokantaan
 
 Listauksella näkyy punaisella mahdolliset virheelliset tiedot, jotka tulee korjata manuaalisesti asiakastietoihin ennen varsinaisen ajon suorittamista
+
 - esim. puuttuvat KIRJE / katuosoitteet, SÄHKÖPOSTI / spostiosoitteet jne.
 
 Varsinainen laskutusajo tehdään
+
 - Poistamalla valinta Esikatselu laskutuksesta -kentästä
 - klikkaamalla Suorita laskutusajo –painiketta
 
 ## Laskujen lähetys
 
 Laskujen postitus (L.postitus) –välilehdellä tarkastellaan laskuja, ennen niiden lähetystä matkaan eri kanavien kautta (esim. KIRJE,SPOSTI,VERKKOLASKU)
+
 Laskut voidaan hakea suodatettuna halutulla
--toimituspäivällä
--toimitustavalla
+
+- toimituspäivällä
+- toimitustavalla
+
 Laskunumeroa klikkaamalla pääsee muokkaamaan kyseistä laskua
--Listauksella punaisella näkyvät puutteelliset tiedot korjataan Asiakaskortille (pysyvät muutokset)
--esim. puuttuva Postinumero –tieto korjataan ja asiakastiedot haetaan uudelleen laskun Hae maksajaa –painikkeen kautta
+
+- Listauksella punaisella näkyvät puutteelliset tiedot korjataan Asiakaskortille (pysyvät muutokset)
+- esim. puuttuva Postinumero –tieto korjataan ja asiakastiedot haetaan uudelleen laskun Hae maksajaa –painikkeen kautta
+
 Hakulistaukselta (esim. Toimitustapa=Sähköposti) voi valita yksittäin/Kaikki laskut ja klikattaessa Lähetä laskut sähköpostilla –painiketta ne lähtevät asiakkaille virheellisiä lukuun ottamatta
 Luotuja postitusaineistoja tarkastellaan Luodut aineistot -välilehdellä
 
 ## Laskut-välilehti
 
-Laskut –välilehdellä käsitellään sovelluksen luomia laskuja tai lisätään uudet laskut
+Laskut–välilehdellä käsitellään sovelluksen luomia laskuja tai lisätään uudet laskut
+
 Pelkkä Hae -painikkeen klikkaus listaa kaikki laskut.
+
 Mikäli laskulla on virheitä, ne näytetään listauksella punaisella värillä (esim. jos laskun eräpäivä on pienempi kuin laskun päivä, näytetään eräpäivä punaisella)
+
 Perushaku toimii Laskun numerolla, jolloin muita hakuehtoja ei huomioida
+
 Muita hakuehtoja voi käyttää yksittäin tai yhdistettynä ja niiden näkyvyys voidaan määritellä asiakaskohtaisesti.
+
 Esim.Yritys ja Laskusarja -kenttiä/valikoita käytetään, mikäli samalla asiakkaalla on tarve eritellä useamman lehden laskutus toisistaan.
 Tai esim. Laskun tyyppi ja/tai Laskun tarkenne -hakukenttiä hyödyntäen voidaan myös suodattaa listaukselle näkyviin vain niihin liittyvät/halutut laskut.
+
 - Laskun tarkenne -kentän tarkoituksena on mahdollistaa tarkentavien lisätietojen vapaan tekstisyötön täydentämään kolmen (3) Laskun päätyypin tietoja (Tilaus/Ilmoitus/Erillistuote) tarvittaessa, esim. Tilausten Loppulaskut voi jatkossa hakea tämän kenttätiedon avulla (Toimitt).
 
-Palvelussa voi luoda laskuja myös luonnoksina (nollalaskuja), jotka saadaan omalle listaukselle Nollalaskuja nn kpl
-–painikkeella
+Palvelussa voi luoda laskuja myös luonnoksina (nollalaskuja), jotka saadaan omalle listaukselle Nollalaskuja nn kpl–painikkeella
 Näkymässä voidaan listaukselta valitut laskut
--Merkitä lähetetyiksi
--Lähettää sähköpostilla
--Uudelleen lähettää
--Siirtää perintään
--Luoda maksumuistutus
+- Merkitä lähetetyiksi
+- Lähettää sähköpostilla
+- Uudelleen lähettää
+- Siirtää perintään
+- Luoda maksumuistutus
+
 Laskun Numeroa klikkaamalla päästään kyseisen laskun tietoihin käsiksi
+
 Laskurivin Tulostin -kuvakkeesta voidaan tulostaa yksittäinen lasku.
+
 Listausnäkymässä voidaan valita yksitellen tai kaikki laskut kerrallaan, ja esim. tulostaa ne yhteen Excel tai PDF -tiedostoon jatkokäsittelyä varten
 
 Mikäli tulee tarve palauttaa Avoin –tilassa (uusi) oleva lasku takaisin Laskutuspyynnöksi (esim. luotu laskuksi liian aikaisin)
+
 - Tämä jo luotu lasku tulee erikseen Hyvittää
 - Sen purkamisesta tehdään erillinen tukipyyntö, jossa asiakastuki palauttaa laskutuspyynnöt laskun luontia edeltäneeseen tilaan, jotta lasku voidaan luoda uudelleen
 
 ### Hyvityslaskun luonti ja poistaminen
 
-Laskut –välilehdellä käsitellään myös hyvitettävät laskut, joista luodaan Luo Hyvityslasku –painikkeella erilliset laskut, jotka ovat muuten keskenään identtiset, mutta tiliöinneiltään vastakohtia (kuvan +/- 50,00 €)
+Laskut–välilehdellä käsitellään myös hyvitettävät laskut, joista luodaan Luo Hyvityslasku –painikkeella erilliset laskut, jotka ovat muuten keskenään identtiset, mutta tiliöinneiltään vastakohtia (kuvan +/- 50,00 €)
+
 - Alkuperäinen lasku merkitään Hyvitetyksi (tila Hyvitetty) ja laskun tietoihin lisätään mm. Hyvityslaskun uusi laskunumero ja avoimet tuoterivien tiliöinnit kuitataan autom. kirjanpitoon (Maksettu summa 0,00 €)
 - Uudella Hyvityslaskulla näkyy laskun tiedoissa Hyvitetyn laskun tiedot (tila Hyvitys) ja avoimet tuoterivien tiliöinnit kuitataan autom. kirjanpitoon alkup. laskun vastasummilla (Maksettu summa 0,00 €)
 - Osahyvitykset tehdään aina alkup. laskuille tiliöintien avulla, eikä siis Luo hyvityslasku –painikkeen kautta
@@ -274,15 +281,17 @@ Näin jäljelle jää alkuperäinen lasku ja hyvityslasku katoaa listaukselta ja
 
 ### Maksumuistutukset
 
-Laskut –välilehdellä käsitellään myös erääntyneitä laskuja, joista halutaan lähettää esim. maksumuistutuksia
+Laskut–välilehdellä käsitellään myös erääntyneitä laskuja, joista halutaan lähettää esim. maksumuistutuksia
 
 Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään Asetukset / Maksumuistutukset –näkymässä
 
 Ennen Muistutuslaskujen luontia tulee varmistaa, että mahdolliset virhetilanteet on korjattu
+
 - Pankki / Lisätyt aineistot – virheelliset
 - Suoritukset - info
 
 Valitsemalla esim. Laskun tila –valikosta hakukriteeriksi Erääntynyt ja klikkaamalla Hae -painiketta listataan kaikki laskut, joita ei ole laskun eräpäivään mennessä maksettu
+
 - Valitse kaikki –painikkeella valitaan kaikki listauksella olevat laskut jatkokäsittelyä varten
 - Yksittäisen laskun Numeroa klikkaamalla päästään kyseisen laskun tietoihin käsiksi
 
@@ -291,6 +300,7 @@ Erilliset Hae maksumuistutettavat #1 ja Hae maksumuistutettavat #2 –painikkeet
 Laskutusajon automatisointi sovitaan asiakaskohtaisesti (esim. kerran viikossa tapahtuvaksi), jolloin sekä alkuperäiset laskut että Maksumuistutuslaskut, luodaan ja lähetetään tausta-ajoina suoraan palvelusta sovittujen määrittelyjen mukaisesti
 
 Listaukselta valituille muodostetaan Maksumuistutuslaskut
+
 - Luo maksumuistutus #1 –painikkeella
 - Luo maksumuistutus #2 –painikkeella
 - Siirrä perintään –painikkeella, jonka jälkeen valitut laskut eivät ole enää käsiteltävissä palvelussa
@@ -308,6 +318,7 @@ Tarvittaessa voi jo lähetetystä Maksumuistutuksesta tulostaa alkuperäisen Las
 Tilauksiin liittyviin Maksumuistutus -laskuihin voidaan lisätä automaattinen päätöskäsittely, mikäli Maksumuistutus #2 –laskua ei ole maksettu
 
 Eräpäivän jälkeen Maksamatta –tilassa oleva Maksumuistutus #2 lasku käsitellään haluttaessa automaattisesti
+
 - Laskun Tuoterivillä mainittu Tilaus katkaistaan lisäämällä Tilaukselle Katkaisupäivä ja syy
 - Alkuperäinen lasku hyvitetään kokonaisuudessaan
 - Tilauksen Alkupäivän ja käsittelypäivän välissä jaetuista Julkaisuista (kpl) muodostetaan uusi Loppulasku
@@ -316,61 +327,87 @@ esim. Olemme aikaisemmin lähettäneet tilauksestanne laskun ja kaksi maksuhuoma
 - Loppulasku lähetetään asiakkaalle
 
 Mikäli asiakas ei maksa myöskään Loppulaskua, niin se käsitellään eräpäivän jälkeen automaattisesti
+
 - Määriteltävissä erikseen näiden loppulaskujen käsittelyn alaraja (esim. 5€ pienempiä ei enää käsitellä)
 - Avoimet tiliöintierät tiliöidään Maksuhuomautus- ja Luottotappio-tileille
 
 Poikkeukset automaattiseen käsittelyyn:
+
 - Asiakkaiden haluamia Koontilaskuja ei käsitellä automaattisesti, vaan se on tehtävä aina manuaalisesti
 - Jos asiakas maksaakin laskun alkuperäisen koko pääoman, jätetään suoritus virhelistalle ja kohdistus käsitellään manuaalisesti samoin kuin tilauksen käsittely (Katkaisun poisto/uusi tilaus ym.)
 
 Nämä katkaistujen tilauksien loppulaskut löytyvät Laskut -listauksen hakukriteereillä Laskun tyyppi -kentän TILAUS vaihtoehdolla ja kirjoittamalla Laskun takenne.-kenttään "Toimitt"
 
 Samoin ne on katsottavissa Raportit / Automaattiajolla katkaistut tilaukset –painikkeen avulla
+
 - Raportti tulostettavissa Excel-taulukkoon jatkokäsittelyä varten listauksen alla olevalla Lataa KatkaistavatTilaukset_ … -painikkeella
 
-#### Lasku esimerkkitapauksia
+## Esimerkkitapauksia laskuista
 
-##### Lisää uusi lasku
+#### Lisää uusi lasku
 
 Tarvittaessa voi lisätä uuden laskun esim. oheistuotteiden myynteihin liittyen
 
 Lisäyksen voi tehdä klikkaamalla Lisää lasku / Lisää uusi lasku -painiketta
+
 - Asiakkaan koontinäkymän Laskut –osion kautta, jolloin asiakkaan tiedot kopioituvat automaattisesti uudelle laskulle
 - Laskut –näkymässä
 
 Näkymään avautuu tyhjä laskulomake, johon
+
 - muutetaan tiedot tarpeen mukaan ja lasku tallennetaan
 - Huomioi, että laskulle luodaan numero vasta kun laskun lähetys on sallittu
 - Uusi lasku siis luodaan ja tallennetaan (1. kerralla) Laskunumerolla 0
 
 Laskulle lisätään perustiedot ja maksajan tiedot, jotka voi
+
 - hakea olemassa olevista asiakastiedoista Hae maksajaa –painikkeesta tai
 - lisäämällä uuden asiakkuuden Lisää uusi maksaja –painikkeen kautta
 
 Laskutettava tuote/tuotteet lisätään Lisää tuote –painikkeen avulla
 
-##### Lasku esimerkki 2
+#### Lasku esimerkki 1 - Manuaalinen laskun lisääminen
 
-Laskut -näkymässä listatuista ja sen listausosion Numero –sarakkeessa pääsee muokkaamaan valitun yksittäisen laskun tietoja ko. laskun numeroa klikkaamalla
+Voi olla tarve luoda ”ylimääräinen” lasku esim. peruutuksen yhteydessä jolloin
+Lasku voi koskea jo ilmestynyttä, mutta maksamatonta lehteä (lähetetty asiakkaalle ennen peruutusta)
+Manuaalinen laskun lisääminen asiakkaalle tehdään
+
+1. Haetaan ko. asiakkaan tiedot Etusivun –listauksen kautta
+2. Avataan ko. asiakkaan Tilaustiedot Tilaus –sarakkeen nimi -linkkiä klikkaamalla
+3. Avataan Laskutuspyynnöt -osion Lisää laskutuspyyntö –toiminto
+4. Täydennetään Laskutuspyynnön tiedot ja Tallennetaan
+–Lisätään jo lähetetyn julkaisun yksikköhinta ja muut tiedot
+5. Täydennetään tarvittaessa myös Tilauksen maksajan tiedot
+
+Lisää laskujen käsittelyn esimerkkejä löytyy Ohjeet / Laskut -kohdan lopusta
+
+#### Lasku esimerkki 2
+
+Laskut-näkymässä listatuista ja sen listausosion Numero –sarakkeessa pääsee muokkaamaan valitun yksittäisen laskun tietoja ko. laskun numeroa klikkaamalla
+
 Esimerkiksi suorituksen lisääminen laskulle tehdään:
-1.Haetaan ko. asiakkaan tiedot esim. Kentästä/Ehdolla –hakukriteerien avulla Sukunimi/yritys = Asiakkaan sukunimi
+1. Haetaan ko. asiakkaan tiedot esim. Kentästä/Ehdolla –hakukriteerien avulla Sukunimi/yritys = Asiakkaan sukunimi
 tai Laskun numero -hakukentän avulla
 
-2.Avataan ko. laskun tiedot Numero –sarakkeen numeroa klikkaamalla
+2. Avataan ko. laskun tiedot Numero –sarakkeen numeroa klikkaamalla
 
-3.Avataan Myynnit ja suoritukset -osion Lisää uusi suoritus –toiminto
+3. Avataan Myynnit ja suoritukset -osion Lisää uusi suoritus –toiminto
 
-4.Täydennetään tili- ym. Rahamäärätiedot ja Tallennetaan
+4. Täydennetään tili- ym. Rahamäärätiedot ja Tallennetaan
 
 Lisää suoritus –painike on tarkoitettu maksuihin, jotka saadaan jotakin muuta kautta kuin esim. elektroniset pankkien viitemaksuaineistot (eli mm. käteismaksut).
+
 Liitä suoritus –painike on tarkoitettu maksuihin, jotka saadaan esim. Maventa/Kuluttajalaskut tai pankkien viitemaksuaineistojen kautta (saapunut maksu)
 
-##### Lasku esimerkki 3
+#### Lasku esimerkki 3
 
-Laskut –näkymän hakulistauksen avulla pääsee hakemaan aiemman laskun, josta halutaan lähettää uusi lasku (aiemman pohjatiedoilla)
+Laskut–näkymän hakulistauksen avulla pääsee hakemaan aiemman laskun, josta halutaan lähettää uusi lasku (aiemman pohjatiedoilla)
 Voi olla tarve luoda ”korvaava” lasku esim. hyvityslaskun yhteydessä
--Lasku voi koskea asiakas- tai laskutustietojen muuttumista
+
+- Lasku voi koskea asiakas- tai laskutustietojen muuttumista
+
 Esimerkiksi laskun kopioiminen asiakkaalle tehdään:
+
 1. Haetaan ko. laskun tiedot Laskut –listauksen kautta
 2. Avataan ko. laskun tiedot Numero –sarakkeen numero -linkkiä klikkaamalla
 3. Valitaan haluttu kopio Luo laskusta kopio / Luo laskusta kopio ilman maksajan tietoja –painikkeista
@@ -380,11 +417,12 @@ Esimerkiksi laskun kopioiminen asiakkaalle tehdään:
 5. Tallennetaan ja
 6. Jatketaan L.postitus -toiminnoissa laskun lähettämiseksi asiakkaalle
 
-##### Lasku esimerkki 4
+#### Lasku esimerkki 4
 
-Laskut –näkymän hakulistauksen avulla pääsee hakemaan aiemman laskun, josta halutaan lähettää uusi osahyvityslasku (aiemman pohjatiedoilla)
+Laskut–näkymän hakulistauksen avulla pääsee hakemaan aiemman laskun, josta halutaan lähettää uusi osahyvityslasku (aiemman pohjatiedoilla)
 
 Voi olla tarve luoda ”korvaava” lasku esim. hyvityslaskun yhteydessä
+
 - Lasku voi koskea maksutietojen muuttumista osahyvityksen takia
 - Hyvittävän laskun tuoterivin summaa voi muuttaa osahyvityksen summalla ja muutos vaikuttaa hyvitetyn laskun maksamatta summaan (eli osahyvityksen jälkeen maksettavaksi jäävä summa).
 
@@ -398,9 +436,9 @@ b. Lisätään (alkup. tuotetiliöinnissä käytetty) Kuittaustili K ja hyvitett
 c. Lisätään Kulutili T (esim. Luottotappiotili tai vastaava) ja hyvitettävä Rahamäärä +nn,nn €
 4. Asiakkaalle lähetetään lasku (uudella jäännössummalla eli Maksamatta osuus), jossa muuttunut Summa -tieto näkyy laskupohjan Pankkisiirto -osassa
 
-##### Lasku esimerkki 5
+#### Lasku esimerkki 5
 
-Laskut –näkymän hakulistauksen avulla pääsee hakemaan aiemman Hyvityslaskun, joka halutaan poistaa kokonaan
+Laskut–näkymän hakulistauksen avulla pääsee hakemaan aiemman Hyvityslaskun, joka halutaan poistaa kokonaan
 
 Voi olla tarve poistaa hyvityslasku kokonaan, vaikka normaalisti ei Hyvityslaskua tulisikaan poistaa
 - Esim. aiheeton Hyvityslasku luotu vahingossa
@@ -418,9 +456,9 @@ Esimerkki hyvityslaskun poistaminen asiakkaalta tehdään
 6. Avataan ko. alkuperäisen laskun tiedot Numero –sarakkeen numero -linkkiä klikkaamalla
 7. Poistetaan ko. alkuperäiseltä laskulta liitos hyvityslaskuun Poista hyvityslasku-liitos –painiketta klikkaamalla (lomakkeen alaosassa)
 
-### Tiliöintien muokkaus
+## Tiliöintien muokkaus
 
-#### Esimerkkejä
+### Esimerkkejä
 
 Tiliöinnin käsittely -valikossa näkyvät Tilien/Tiliöintien numerot ja nimet määritellään Asetukset / Tilit näkymässä
 
@@ -525,7 +563,7 @@ Esim. 11: Ennakkomaksun kirjaaminen laskun tiliöinteihin:
 - Kuittaustilille (S) +65,00 €
 - Tilausmyyntisaamiset (K) -65,00 € (kuittaa laskun maksetuksi)
 
-##### Malli Esimerkin 11 korjauksesta
+### Malli Esimerkin 11 korjauksesta
 Raportit –näkymän
 
 Tarkistusraportit / Laskujen pikatiliöintivirheet –raporttipohjaan ajetaan automaattisesti tiliöintitiedot nopeaa raportointia varten
