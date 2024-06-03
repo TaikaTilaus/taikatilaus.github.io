@@ -178,13 +178,19 @@ Voit myös määrittää laskujen luontimääritykset mm.
 - **Tee laskut yksittäisinä** -kentän aktivoimalla - kaikki laskut luodaan yksittäisinä huolimatta maksajan Koontilasku-määrityksestä
 - Syöttämällä laskulle kirjatta **laskun päivämäärä**
 - Laskun eräpäivä
-- Laskuer
+- Laskuerän luontitunnus - kaikilla samaan aikaan ajetuilla laskuilla on sama luontitunnus, jonka voit asettaa itse tai käyttää valmiiksi luotua tunnusta
 
 Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla **Hae laskutuspyynnöt** –painiketta
 
+**Laske summat maksajittain** -kentän aktivoimalla listaukseen tulee näkyviin laskutuspyyntöjen summat maksajittain.
+
+![Laskutus](/img/ohjeet/laskutus8.png)
+
+Aktivoimalla **Näytä peruutetun peruutussumma** -kentän listauksessa näytetään laskutettava summa peruutetun tilauksen jo toimitetuista lehdistä.
+
 Varsinainen laskutusajo tehdään klikkaamalla **Suorita laskutusajo** –painiketta, joka näytetään haun suorittamisen jälkeen. Laskutusajo voidaan myös automatisoida tapahtuvaksi tiettynä päivänä/ajankohtana.
 
-### Tilausmyynnin laskutusajo
+### Tilausmyynnin laskutusajon haut
 
 ![Laskutus](/img/ohjeet/laskutus2.png)
 
@@ -194,28 +200,57 @@ Voit hakea tilausmyynnin laskutuspyyntöjä:
 - Maksajan asiakasnumerolla
 - Summalla
 
-### Ilmoitusmyynnin laskutusajo
+![Laskutus](/img/ohjeet/laskutus4.png)
+
+### Ilmoitusmyynnin laskutusajon haut
 
 ![Laskutus](/img/ohjeet/laskutus3.png)
 
-### Laskutusajon tarkastaminen
+Voit hakea ilmoitusmyynnin laskutuspyyntöjä:
 
-Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla Hae laskutuspyynnöt –painiketta
+- Myyjällä
+- Kanavalla
+- Julkaisulla
+- Maksajan asiakasnumerolla
+- Varausnumerolla
+- Summalla
 
-Ennen varsinaista Laskutuspyyntöjen hakua voi halutessaan aktivoida välitarkistusta varten Korosta jos laskutuspyynnön ja tuotteen hinta eroaa -kentän, joka korostaa hakulistauksella näkyvää Laskutuspyynnön Summa verollinen -sarakkeen hintaa (pun), mikäli sen ja itse tuotteen verolliset summat eroavat toisistaan
+![Laskutus](/img/ohjeet/laskutus5.png)
 
-Hakutuloslistauksen yläpuolella näkyy yhteenvetotiedot löytyneistä ja mahdollisista virheellisistä laskutuspyynnöistä
+### Laskutusajon tarkistus ja suoritus
 
-Esikatselu laskutuksesta -valinnan ollessa aktivoituna haetaan laskujen tiedot listalle, mutta niistä ei vielä tehdä varsinaisia laskuja tietokantaan
+Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla **Hae laskutuspyynnöt** –painiketta.
 
-Listauksella näkyy punaisella mahdolliset virheelliset tiedot, jotka tulee korjata manuaalisesti asiakastietoihin ennen varsinaisen ajon suorittamista
+Ennen varsinaista Laskutuspyyntöjen hakua voi halutessaan aktivoida välitarkistusta varten **Korosta jos laskutuspyynnön ja tuotteen hinta eroaa** -kentän, joka korostaa hakulistauksella näkyvän laskutuspyynnön summan punaisella, mikäli se ja tuotteen verollinen oletushinta eroavat toisistaan. Näin on esimerkiksi tapauksissa, joissa tilauksille on asetettu alennusprosentti.
+
+![Laskutus](/img/ohjeet/laskutus6.png)
+
+Hakutuloksien yläpuolella näkyy yhteenvetotiedot löytyneistä ja mahdollisista virheellisistä laskutuspyynnöistä.
+
+![Laskutus](/img/ohjeet/laskutus7.png)
+
+**Virheelliset tiedot** näkyvät listauksella **punaisella**. Tiedot tulee korjata manuaalisesti asiakastietoihin ennen varsinaisen ajon suorittamista. 
 
 - esim. puuttuvat KIRJE / katuosoitteet, SÄHKÖPOSTI / spostiosoitteet jne.
 
-Varsinainen laskutusajo tehdään
+Virheitä voi hakea listauksesta painamalla CTRL + F ja kirjoittamalla hakukenttään virhe.
 
-- Poistamalla valinta Esikatselu laskutuksesta -kentästä
-- klikkaamalla Suorita laskutusajo –painiketta
+![Laskutus](/img/ohjeet/laskutus9.png)
+
+**Esikatselu laskutuksesta** -valinnan ollessa aktivoituna haetaan laskujen tiedot listalle, mutta niistä ei vielä tehdä varsinaisia laskuja tietokantaan. Voit ladata laskujen tiedot PDF:lle painamalla vihreää **Lataa PDF** -painiketta.
+
+![Laskutus](/img/ohjeet/laskutus10.png)
+
+**Varsinainen laskutusajo** suoritetaan
+
+- Poistamalla valinta **Esikatselu laskutuksesta** -kentästä
+- klikkaamalla **Suorita laskutusajo** –painiketta
+
+![Laskutus](/img/ohjeet/laskutus11.png)
+
+Lopuksi näet yhteenvedon laskutusajosta ja voit ladata tiedot PDF:lle.
+
+![Laskutus](/img/ohjeet/laskutus12.png)
 
 ## Laskujen lähetys
 
