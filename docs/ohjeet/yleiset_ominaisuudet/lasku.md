@@ -314,28 +314,29 @@ Tiedoston nimeä klikkaamalla avautuu selaimessa uusi välilehti, missä luotuja
 
 ## Laskut-välilehti
 
-Laskut–välilehdellä käsitellään sovelluksen luomia laskuja tai lisätään uudet laskut
+![Laskut-välilehti](/img/ohjeet/laskut-vl.png)
 
-Pelkkä Hae -painikkeen klikkaus listaa kaikki laskut.
+**Laskut**–välilehdellä käsitellään sovelluksen luomia laskuja tai voidaan lisätä uusia laskuja.
 
-Mikäli laskulla on virheitä, ne näytetään listauksella punaisella värillä (esim. jos laskun eräpäivä on pienempi kuin laskun päivä, näytetään eräpäivä punaisella)
+Mikäli laskulla on **virheitä**, ne näytetään listauksella **punaisella värillä** (esim. jos laskun eräpäivä on pienempi kuin laskun päivä, näytetään eräpäivä punaisella).
 
-Perushaku toimii Laskun numerolla, jolloin muita hakuehtoja ei huomioida
+![Laskut-välilehti](/img/ohjeet/laskut-vl2.png)
 
-Muita hakuehtoja voi käyttää yksittäin tai yhdistettynä ja niiden näkyvyys voidaan määritellä asiakaskohtaisesti.
+Palvelussa voi luoda laskuja myös **luonnoksina** (nollalaskuja), jotka saadaan omalle listaukselle Nollalaskuja nn kpl–painikkeella.
 
-Esim.Yritys ja Laskusarja -kenttiä/valikoita käytetään, mikäli samalla asiakkaalla on tarve eritellä useamman lehden laskutus toisistaan.
-Tai esim. Laskun tyyppi ja/tai Laskun tarkenne -hakukenttiä hyödyntäen voidaan myös suodattaa listaukselle näkyviin vain niihin liittyvät/halutut laskut.
+![Laskut-välilehti](/img/ohjeet/laskut-vl4.png)
 
-- Laskun tarkenne -kentän tarkoituksena on mahdollistaa tarkentavien lisätietojen vapaan tekstisyötön täydentämään kolmen (3) Laskun päätyypin tietoja (Tilaus/Ilmoitus/Erillistuote) tarvittaessa, esim. Tilausten Loppulaskut voi jatkossa hakea tämän kenttätiedon avulla (Toimitt).
+Näkymässä voidaan listaukselta valitut laskut:
 
-Palvelussa voi luoda laskuja myös luonnoksina (nollalaskuja), jotka saadaan omalle listaukselle Nollalaskuja nn kpl–painikkeella
-Näkymässä voidaan listaukselta valitut laskut
+- Tulostaa PDF:ksi
+- Tulostaa Exceliksi
 - Merkitä lähetetyiksi
 - Lähettää sähköpostilla
 - Uudelleen lähettää
 - Siirtää perintään
 - Luoda maksumuistutus
+
+![Laskut-välilehti](/img/ohjeet/laskut-vl3.png)
 
 Laskun Numeroa klikkaamalla päästään kyseisen laskun tietoihin käsiksi
 
@@ -348,9 +349,36 @@ Mikäli tulee tarve palauttaa Avoin –tilassa (uusi) oleva lasku takaisin Lasku
 - Tämä jo luotu lasku tulee erikseen Hyvittää
 - Sen purkamisesta tehdään erillinen tukipyyntö, jossa asiakastuki palauttaa laskutuspyynnöt laskun luontia edeltäneeseen tilaan, jotta lasku voidaan luoda uudelleen
 
+### Laskujen haku ja suodatus välilehdeltä
+
+![Laskut-välilehti](/img/ohjeet/laskut-vl5.png)
+
+Pelkkä **Hae**-painikkeen klikkaus, ilman hakuehtoja, listaa kaikki laskut.
+
+Perushaku toimii **laskun numerolla**, jolloin muita hakuehtoja ei huomioida. Aktivoimalla **Ohita muut ehdot** -kentän, voit hakea vain **asiakasnumerolla**, ohittaen muiden kenttien ehdot.
+
+Muita hakuehtoja voi käyttää yksittäin tai yhdistettynä ja niiden **näkyvyys** voidaan määritellä **asiakaskohtaisesti**.
+
+- Esim. Yritys ja Laskusarja -kenttiä käytetään, mikäli samalla asiakkaalla on tarve eritellä useamman lehden laskutus toisistaan.
+Tai esim. Laskun tyyppi ja/tai Laskun tarkenne -hakukenttiä hyödyntäen voidaan myös suodattaa listaukselle näkyviin vain niihin liittyvät/halutut laskut.
+
+**Hakuehtoja** on mm.
+
+- Haku kentistä tietyllä hakuehdolla
+- Hakupäivä - esim. laskun luomispäivä, laskun eräpäivä
+- Aikaväli, jolta laskuja haetaan
+- Laskun tila - esim. avoin, lähetetty, erääntynyt, maksettu
+- Toimitustapa - esim. kirje, verkkolasku
+- Laskun tyyppi - esim. ilmoitus, tilaus
+- Laskun tarkenne -kentän tarkoituksena on mahdollistaa tarkentavien lisätietojen vapaan tekstisyötön esim. toimitettu tuote, www-verkkokauppa
+- Laskusarja - minkä numeroisia laskuja haetaan esim. 10000-10100 
+- Muita ehtoja - ///???
+
+Painamalla **Hae maksumuistutettavat #1/#2** -painikkeita, ohjelma hakee laskut, jotka ovat erääntyneet. Haun jälkeen voit valita laskut ja halutessa lähettää ne uudestaan.
+
 ### Hyvityslaskun luonti ja poistaminen
 
-Laskut–välilehdellä käsitellään myös hyvitettävät laskut, joista luodaan Luo Hyvityslasku –painikkeella erilliset laskut, jotka ovat muuten keskenään identtiset, mutta tiliöinneiltään vastakohtia (kuvan +/- 50,00 €)
+**Laskut**–välilehdellä käsitellään myös hyvitettävät laskut, joista luodaan **Luo Hyvityslasku** –painikkeella erilliset laskut, jotka ovat muuten keskenään identtiset, mutta tiliöinneiltään vastakohtia (kuvan +/- 50,00 €)
 
 - Alkuperäinen lasku merkitään Hyvitetyksi (tila Hyvitetty) ja laskun tietoihin lisätään mm. Hyvityslaskun uusi laskunumero ja avoimet tuoterivien tiliöinnit kuitataan autom. kirjanpitoon (Maksettu summa 0,00 €)
 - Uudella Hyvityslaskulla näkyy laskun tiedoissa Hyvitetyn laskun tiedot (tila Hyvitys) ja avoimet tuoterivien tiliöinnit kuitataan autom. kirjanpitoon alkup. laskun vastasummilla (Maksettu summa 0,00 €)
