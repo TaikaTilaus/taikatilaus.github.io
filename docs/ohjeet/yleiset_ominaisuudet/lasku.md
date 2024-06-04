@@ -374,30 +374,50 @@ Tai esim. Laskun tyyppi ja/tai Laskun tarkenne -hakukenttiä hyödyntäen voidaa
 - Laskusarja - minkä numeroisia laskuja haetaan esim. 10000-10100 
 - Muita ehtoja - ///???
 
+Painamalla **Hae uusimmat** -painiketta tulee listaukseen 100 laskua jotka on luotu tai joita on muokattu äskettäin.
+
 Painamalla **Hae maksumuistutettavat #1/#2** -painikkeita, ohjelma hakee laskut, jotka ovat erääntyneet. Haun jälkeen voit valita laskut ja halutessa lähettää ne uudestaan.
+
+![Laskut-välilehti](/img/ohjeet/laskut-vl6.png)
 
 ### Hyvityslaskun luonti ja poistaminen
 
 **Laskut**–välilehdellä käsitellään myös hyvitettävät laskut, joista luodaan **Luo Hyvityslasku** –painikkeella erilliset laskut, jotka ovat muuten keskenään identtiset, mutta tiliöinneiltään vastakohtia (kuvan +/- 50,00 €)
 
-- Alkuperäinen lasku merkitään Hyvitetyksi (tila Hyvitetty) ja laskun tietoihin lisätään mm. Hyvityslaskun uusi laskunumero ja avoimet tuoterivien tiliöinnit kuitataan autom. kirjanpitoon (Maksettu summa 0,00 €)
-- Uudella Hyvityslaskulla näkyy laskun tiedoissa Hyvitetyn laskun tiedot (tila Hyvitys) ja avoimet tuoterivien tiliöinnit kuitataan autom. kirjanpitoon alkup. laskun vastasummilla (Maksettu summa 0,00 €)
-- Osahyvitykset tehdään aina alkup. laskuille tiliöintien avulla, eikä siis Luo hyvityslasku –painikkeen kautta
+![Laskut-välilehti](/img/ohjeet/laskut-vl7.png)
 
-Esimerkiksi voi olla tarve luoda ”korvaava” lasku esim. hyvityslaskun yhteydessä
-Lasku voi koskea asiakas- tai laskutustietojen muuttumista (Ohjeissa Esimerkki 3)
+- Alkuperäinen lasku merkitään Hyvitetyksi (tila Hyvitetty) ja laskun tietoihin lisätään mm. Hyvityslaskun uusi laskunumero ja avoimet tuoterivien tiliöinnit kuitataan automaattisesti kirjanpitoon (Maksettu summa 0,00 €)
 
-Mikäli Hyvityslasku on luotu vahingossa tai se halutaan muusta syystä perua kokonaan, vaikka normaalisti ei Hyvityslaskua tulisikaan poistaa
-- Esim. aiheeton Hyvityslasku luotu vahingossa (Ohjeissa esimerkki 5)
+![Laskut-välilehti](/img/ohjeet/laskut-vl9.png)
 
-Poisto tulee tehdä niin, että
-1) Ensin avataan alkup. Lasku (tila Hyvitetty) ja klikataan Poista hyvityslasku-liitos –painiketta
+- Uudella Hyvityslaskulla näkyy laskun tiedoissa Hyvitetyn laskun tiedot (tila Hyvitys) ja avoimet tuoterivien tiliöinnit kuitataan automaattisesti kirjanpitoon alkuperäisen laskun vastasummilla (Maksettu summa 0,00 €)
 
-2) Sitten avataan Hyvityslasku (tila Hyvitys), jolta poistetaan yksitellen
-- Tiliöintirivit rivien lopussa näkyvällä X –ikonilla
-- Tuoterivit rivien lopussa näkyvällä X –ikonilla
+![Laskut-välilehti](/img/ohjeet/laskut-vl8.png)
 
-3) Ja lopuksi avataan Laskun tiedot (laskun ylin) –osio, johon on tullut näkyviin Poista lasku -painike
+- Osahyvitykset tehdään aina alkuperäisille laskuille tiliöintien avulla, eikä siis **Luo hyvityslasku** –painikkeen kautta
+
+#### Hyvityslaskun poisto
+
+Mikäli hyvityslasku on luotu **vahingossa** tai se halutaan muusta syystä perua kokonaan, vaikka normaalisti ei hyvityslaskua tulisikaan poistaa
+- Esim. aiheeton hyvityslasku luotu vahingossa
+
+**Poisto** tulee tehdä niin, että
+1) Ensin avataan alkuperäinen lasku, joka on hyvitetty, ja klikataan **Poista hyvityslasku-liitos** –painiketta
+
+![Laskut-välilehti](/img/ohjeet/laskut-vl10.png)
+
+2) Sitten avataan hyvityslasku, jolta poistetaan yksitellen
+- **Tiliöintirivit**, rivien lopussa näkyvällä X–ikonilla
+
+![Laskut-välilehti](/img/ohjeet/laskut-vl11.png)
+
+- **Tuoterivit**, rivien lopussa näkyvällä X–ikonilla
+
+![Laskut-välilehti](/img/ohjeet/laskut-vl13.png)
+
+3) Ja lopuksi avataan laskun tiedot **kynä**-ikonista, ja painetaan **Poista lasku** -painiketta.
+
+![Laskut-välilehti](/img/ohjeet/laskut-vl12.png)
 
 Näin jäljelle jää alkuperäinen lasku ja hyvityslasku katoaa listaukselta ja sen uudelleen käsittelyä voi jatkaa.
 
