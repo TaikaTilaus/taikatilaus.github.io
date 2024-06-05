@@ -4,9 +4,13 @@ sidebar_position: 6
 
 # Ohjeet tukiportaalin käyttöön
 
-### Käyttäjätunnuksen Aktivointi
+TaikaTilaus käyttää tukiportaalina **Freshdesk**-järjestelmää. Tukiportaali löytyy osoitteesta: https://taikatilausoy.freshdesk.com/support/home.
 
-1. Saat Alla olevan olevan viestin sähköpostiisi, joka sisältää linkin tunnuksen luomiseen.
+### Käyttäjätunnuksen aktivointi
+
+Kun pyydät tunnuksia tukiportaaliin (lähetä viesti osoitteeseen: tuki@taikatilaus.fi):
+
+1. Saat alla olevan olevan viestin sähköpostiisi, joka sisältää linkin tunnuksen luomiseen.
 
 ![Aktivointisahkoposti](/img/tukiportaali/tuki-sahkoposti.png)
 
@@ -16,15 +20,13 @@ sidebar_position: 6
 
 ### Kirjautuminen tukiportaalin
 
-Tukiportaalin osoitelinkki on:
-https://taikatilausoy.freshdesk.com/support/home
+Etusivun näkymästä voit lähettää tukipyynnön myös ilman erillistä kirjautumista **Lähetä tukipyyntö** -painikkeesta. Tarvittaessa klikkaa kirjaudu painikkeesta.
 
-Etusivun näkymästä voit lähettää tukipyynnön myös ilman erillistä kirjautumista
-lähetä tukipyyntö painikkeesta
-
-Tarvittaessa klikkaa kirjaudu painikkeesta
-Muista minut tällä tietokoneella -aktivointi halutessa
+![Tukiportaali](/img/ohjeet/tuki1.png)
 
 Kirjautuneelle käyttäjälle näytetään
-Näytä kaikki tukipyynnöt -painike
-Lähetä tukipyyntö -painike
+- **Haku** - mistä voit hakea tukipyynnöistä aiheita syöttämälläsi hakusanalla
+- **Näytä kaikki tukipyynnöt** -painike, mitä painamalla voit tutkia menneitä ja nykyisiä tukipyyntöjäsi, ja seurata niiden edistymistä
+- **Lähetä tukipyyntö** -painike
+
+![Tukiportaali](/img/ohjeet/tuki3.png)
