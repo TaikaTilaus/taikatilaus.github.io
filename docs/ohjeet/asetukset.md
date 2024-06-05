@@ -177,15 +177,27 @@ Voit hakea tilauspaketteja valitsemalla **hakukenttään hakukriteerin ja syött
 
 ## Erillistuotteet
 
-Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat Laskutuslisä, Paperilaskutuslisä, jne.
-
-**Erillistuotteet**-välilehdellä voit muokata ja lisätä erillistuotteita.
-
 ![Erillistuotteet-näkymä](/img/ohjeet/erillistuotteet.png)
 *Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita, ja tarkastella jo olemassa olevia erillistuotteita.*
 
+Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat Laskutuslisä, Paperilaskutuslisä, jne.
+
+**Erillistuotteet**-välilehdellä voit muokata ja lisätä erillistuotteita. Olemassa olevaa erillistuotetta voidaan muokata painamalla sen tuotenumeroa. Uuden erillistuotteen voi lisätä painamalla **Lisää erillistuote** -painiketta.
+
+Erillistuotteelle lisätään:
+
+- **Tuotenumero**-kenttään tuotenumero, joka auttaa mm. tuotteiden ryhmittelyssä
+- **Tuoteryhmä**-kenttään mihin tuoteryhmään tuote kuuluu (esim. oheistuote)
+- **Tuotteen nimi** -kenttään tuotteen nimi (esim. Lippalakki M)
+- Tarvittaessa **lisätietoja**
+- **Yksikkö** (esim. kpl)
+- Veroton **hinta**
+- **ALV-prosentti** erillistuotteen tyypin mukaisesti
+- Voit myös antaa **verollisen hinnan** ja laskea siitä verottoman hinnan (muista lisätä ALV)
+- **Myyntitili, ALV velkatili** ja **Myyntisaamiset**-tilit
+- Voit myös **piilottaa** tuotteen välilehdeltä ja valikoista aktivoimalla **Tuote on piilotettu** -kentän
+
 ![Erillistuotteet- Tuotteen muokkaus](/img/ohjeet/erillistuotteet2.png)
-*Erillistuotteen käsittely -näkymältä voit muokata erillistuotteen tietoja.*
 
 ## Tilit
 

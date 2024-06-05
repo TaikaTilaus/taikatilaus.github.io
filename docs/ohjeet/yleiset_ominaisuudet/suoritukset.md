@@ -102,3 +102,122 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 - Laskulomakkeen yläosassa on alkup. maksutiedot
 - Pankkisiirto-osan Summa–kentässä on **Maksamatta**-summa
 
+## Esimerkkejä tiliöintien muokkauksesta
+
+Tiliöinnin käsittely -valikossa näkyvät Tilien/Tiliöintien numerot ja nimet määritellään Asetukset / Tilit näkymässä
+
+### Maksumuistutuksen lisämaksun kirjaaminen laskun tiliöinteihin:
+- Maksettu 50,00 €, Lasku 45,00 €, Maksumuistutus 5,00 € kirjataan
+- Pankkitilille (S) +50,00 €
+- Tilausmyyntisaamiset (K) -45,00 € (kuittaa laskun maksetuksi)
+- Muistutusmaksu-tilille (T) -5,00 €
+
+### Maksamattoman Maksumuistutuksen kirjaaminen laskun tiliöinteihin:
+- Maksettu 45,00 €, Lasku 45,00 € + 5,00 € Maksumuistutus kirjataan
+- Pankkitilille (S) +45,00 €
+- Tilausmyyntisaamiset (K) -50,00 € (kuittaa laskun maksetuksi)
+- Muistutusmaksu-tilille (T) +5,00 €
+
+### Liian vähän maksetun summan kirjaaminen laskun tiliöinteihin ja uusi lasku:
+- Maksettu 35,00 €, Lasku 50,00 € kirjataan
+- Pankkitilille (S) +35,00 €
+- Tilausmyyntisaamiset (K) -35,00 € (kuittaa laskun maksetuksi)
+- Maksamatta summaksi jää 15,00 €
+- ko. lasku lähetetään uudelleen asiakkaalle (Pankkisiirto-osassa näkyy Maksamatta summa)
+
+### Liian vähän maksetun summan kirjaaminen laskun tiliöinteihin ja laskun kuittaaminen maksetuksi:
+- Maksettu 35,00 €, Lasku 50,00 € kirjataan
+- Pankkitilille (S) +35,00 €
+- Tilausmyyntisaamiset (K) -50,00 € (kuittaa laskun maksetuksi)
+- Oikaisu -tilille (T) +15,00 € (tai Luottotappio -tilille jos loppuosaa ei haluta periä asiakkaalta)
+
+### Liian suuren summan kirjaaminen ja maksu takaisin asiakkaalle:
+- Asiakas maksanut 80,00 €, vaikka Lasku oli 50,00 € korjataan
+- Pankkitilille (S) +80,00 €
+- Myyntisaamisiin (K) -50,00 € (kuittaa laskun maksetuksi)
+- Pankki-/Kulu-/Oikaisutililtä (T) -30,00 € (tili määräytyy tilitston mukaisesti)
+- Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille +30,00 €
+
+### Kahdesti maksetun summan kirjaaminen ja ylimääräinen maksu takaisin asiakkaalle:
+- Asiakas maksanut yhteensä 80,00 €, vaikka Lasku oli 40,00 € korjataan
+- Pankkitilille (S) +80,00 €
+- Myyntisaamisiin (K) -40,00 € (kuittaa laskun maksetuksi)
+- Pankki-/Kulu-/Oikaisutililtä (T) -40,00 € (tili määräytyy tilitston mukaisesti)
+- Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille +40,00 €
+
+### Laskun osittaisen maksun kirjaaminen ja loppuosan maksu takaisin asiakkaalle.
+- Kun asiakas on maksanut koko laskun 103,00 €, mutta peruutuksen jälkeen laskutetaan vain jo jaetut lehdet 9,00 €:
+- Pankkitilille (S) +103,00 €
+- Myyntisaamisiin (K) -94,00 €
+- Pankki-/Kulu-/Oikaisutililtä (T) -9,00 € (tili määräytyy tilitston mukaisesti)
+- Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille +9,00 €
+
+### Koko laskun takaisinmaksun kirjaaminen ja maksu takaisin asiakkaalle:
+- Asiakas maksanut 100,00 €, mutta esim. peruuttaakin koko tilauksen
+- Tehdään hyvityslasku koko laskusta (ohje ylempänä kohdassa Hyvityslaskun luonti ja poistaminen)
+- Pankkitilillä näkyy Suoritus +100,00 €
+- Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille -100,00 €
+- Hyvityslasku on kuitannut laskun maksetuksi palvelussa (Maksettu 0,00 €)
+
+### Osahyvityksen kirjaaminen laskun tiliöinteihin:
+- Alkuperäinen lasku 100,00 €, josta sovittu maksettavaksi 80,00 € kirjataan
+- Pankkia vastaava Kuittaustili (S) 20,00 €
+- Myyntisaamisiin (K) -20,00 € (kuittaa hyvityksen laskulta maksetuksi)
+- Maksamatta summaksi jää 80,00 €
+- ko. lasku lähetetään uudelleen asiakkaalle (Pankkisiirto-osassa näkyy Maksamatta summa)
+
+### Osasuorituksen kirjaaminen laskun tiliöinteihin:
+- Alkuperäinen lasku 100,00 €, josta maksettu vain 80,00 € kirjataan
+- Pankkitilille (S) +80,00 €
+- Myyntisaamisiin (K) -80,00 € (kuittaa osasuorituksen laskulta maksetuksi)
+- Maksamatta summaksi jää 20,00 €
+
+### (kokonaan) Maksamatta jääneen laskun kirjaaminen:
+- Asiakkaan alkuperäinen Lasku oli 50 € kirjataan
+- Pankkitilille (S) +0,00 €
+- Myyntisaamisiin (K) -50,00 € (kuittaa laskun maksetuksi)
+- Luottotappiot (T) +50,00 €
+
+### Paytrail provision kirjaaminen laskun tiliöinteihin:
+- Asiakas maksanut 50,00 €, mutta Paytrail tilittänyt 48,50 € kirjataan
+- Pankkitilille (S) +48,50 €
+- Myyntisaamisiin (K) -50,00 € (kuittaa laskun maksetuksi)
+- Pankkikulutililtä (T) +1,50 €
+
+### Useampi (erilliset laskut) maksettu yhdellä laskulla ja niiden kirjaaminen yksittäisten laskujen tiliöinteihin:
+- Esim. Lasku1 100,00 / Lasku2 50,00 / Lasku3 150,00
+- Lasku1:lle 300,00 € kirjataan
+- Pankkitilille (S) +300,00 €
+- Tilausmyyntisaamiset (K) -100,00 € (kuittaa laskun maksetuksi)
+- Siirto-/Kuittaustilille (T) -50,00 € (Lasku2) (esim. Oikaisutili)
+- Siirto-/Kuittaustilille (T) -150,00 € (Lasku3) (esim. Oikaisutili)
+
+- Lasku2:lle 50,00 € kirjataan
+- Pankkitilille (S) 0,00 €
+- Tilausmyyntisaamiset (K) -50,00 €
+- Siirto-/Kuittaustilille (S) 50,00 € (esim. Oikaisutili)
+
+- Lasku3:lle 150,00 € kirjataan
+- Pankkitilille (S) 0,00 €
+- Tilausmyyntisaamiset (K) -150,00 €
+- Siirto-/Kuittaustilille (S) 150,00 € (esim. Oikaisutili)
+
+### Ennakkomaksun kirjaaminen laskun tiliöinteihin:
+- Maksettu 65,00 €, tulossa olevasta Laskusta kirjataan (sallittua vain saman kuukauden aikana)
+- Kuittaustilille (S) +65,00 €
+- Tilausmyyntisaamiset (K) -65,00 € (kuittaa laskun maksetuksi)
+
+#### Malli esimerkin korjauksesta
+Raportit –näkymän
+
+Tarkistusraportit / Laskujen pikatiliöintivirheet –raporttipohjaan ajetaan automaattisesti tiliöintitiedot nopeaa raportointia varten
+- Samassa yhteydessä tarkistetaan tiliöintien oikeellisuus ja virheet kirjataan laskulle
+- Virheelliset laskut saa haettua tämän raportin avulla ja niiden tiliöinnit tulisi korjata ennen kirjanpitoraporttien ottamista (esim. Reskontraluettelo)
+
+Tiliöintivirhe voi liittyä esim. ’ennakkomaksuun’, jossa asiakas on maksanut suorituksen pankkitilille ennen alkup. laskun luontia
+- jolloin Laskun päivä on ’suurempi’ kuin Suorituksen kirjauspäivä esim. Laskun päivä 05.03.2022 ja Suorituspäivä 28.02.2022
+
+Tiliöinnit tulee korjata laskulle muuttamalla
+- Laskun tiedot / Laskun päivä –kentän päiväys samaksi kuin saapuneen Suorituksen kirjauspäivä
+- ja Tallenna
+
