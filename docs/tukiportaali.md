@@ -30,3 +30,16 @@ Kirjautuneelle käyttäjälle näytetään
 - **Lähetä tukipyyntö** -painike
 
 ![Tukiportaali](/img/ohjeet/tuki3.png)
+
+### Tukipyynnön lähettäminen
+
+Täytä tukipyynnön tiedot
+
+- Oma sähköpostisi
+- Aihe (ts. viestin otsikko)
+- Valitse tukipyynnön tyyppi (esim. ongelma, kehityspyyntö)
+- Kuvaile pyyntösi mahdollisimman tarkasti. Jos voit ottaa kuvia esim. mahdollisesta virheviestistä, se auttaa meitä ratkaisemaan pyyntösi nopeammin
+
+Paina Lähetä.
+
+![Tukiportaali](/img/ohjeet/tuki2.png)
