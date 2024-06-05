@@ -53,6 +53,8 @@ Tarvittaessa voi **hakea** tai **lisätä uuden** maksajan ja tuotteen, sekä **
 
 ![Laskut - Tuotteen käsittely](/img/ohjeet/laskut6.png)
 
+### Avoimen laskun palauttaminen laskutuspyynnöksi
+
 Mikäli tulee tarve palauttaa **Avoin**–tilassa oleva uusi lasku takaisin Laskutuspyynnöksi (esim. tapauksessa, jossa pyyntö on luotu laskuksi liian aikaisin)
 
 - Tämä jo luotu lasku tulee erikseen **Hyvittää**
@@ -338,16 +340,11 @@ Näkymässä voidaan listaukselta valitut laskut:
 
 ![Laskut-välilehti](/img/ohjeet/laskut-vl3.png)
 
-Laskun Numeroa klikkaamalla päästään kyseisen laskun tietoihin käsiksi
+Laskun **numeroa** klikkaamalla päästään kyseisen laskun tietoihin käsiksi.
 
-Laskurivin Tulostin -kuvakkeesta voidaan tulostaa yksittäinen lasku.
+Laskurivin **Tulostin** -kuvakkeesta voidaan tulostaa yksittäinen lasku.
 
-Listausnäkymässä voidaan valita yksitellen tai kaikki laskut kerrallaan, ja esim. tulostaa ne yhteen Excel tai PDF -tiedostoon jatkokäsittelyä varten
-
-Mikäli tulee tarve palauttaa Avoin –tilassa (uusi) oleva lasku takaisin Laskutuspyynnöksi (esim. luotu laskuksi liian aikaisin)
-
-- Tämä jo luotu lasku tulee erikseen Hyvittää
-- Sen purkamisesta tehdään erillinen tukipyyntö, jossa asiakastuki palauttaa laskutuspyynnöt laskun luontia edeltäneeseen tilaan, jotta lasku voidaan luoda uudelleen
+Listausnäkymässä voidaan valita laskuja yksitellen tai kaikki laskut kerrallaan, ja esim. tulostaa ne yhteen **Excel tai PDF** -tiedostoon jatkokäsittelyä varten.
 
 ### Laskujen haku ja suodatus välilehdeltä
 
@@ -386,11 +383,11 @@ Painamalla **Hae maksumuistutettavat #1/#2** -painikkeita, ohjelma hakee laskut,
 
 ![Laskut-välilehti](/img/ohjeet/laskut-vl7.png)
 
-- Alkuperäinen lasku merkitään Hyvitetyksi (tila Hyvitetty) ja laskun tietoihin lisätään mm. Hyvityslaskun uusi laskunumero ja avoimet tuoterivien tiliöinnit kuitataan automaattisesti kirjanpitoon (Maksettu summa 0,00 €)
+- Alkuperäinen lasku merkitään Hyvitetyksi (tila Hyvitetty) ja laskun tietoihin lisätään mm. Hyvityslaskun uusi laskunumero ja avoimet tuoterivien tiliöinnit kuitataan automaattisesti kirjanpitoon (Maksamatta summa 0,00 €)
 
 ![Laskut-välilehti](/img/ohjeet/laskut-vl9.png)
 
-- Uudella Hyvityslaskulla näkyy laskun tiedoissa Hyvitetyn laskun tiedot (tila Hyvitys) ja avoimet tuoterivien tiliöinnit kuitataan automaattisesti kirjanpitoon alkuperäisen laskun vastasummilla (Maksettu summa 0,00 €)
+- Uudella Hyvityslaskulla näkyy laskun tiedoissa Hyvitetyn laskun tiedot (tila Hyvitys) ja avoimet tuoterivien tiliöinnit kuitataan automaattisesti kirjanpitoon alkuperäisen laskun vastasummilla (Maksamatta summa 0,00 €)
 
 ![Laskut-välilehti](/img/ohjeet/laskut-vl8.png)
 
@@ -423,62 +420,69 @@ Näin jäljelle jää alkuperäinen lasku ja hyvityslasku katoaa listaukselta ja
 
 ### Maksumuistutukset
 
-Laskut–välilehdellä käsitellään myös erääntyneitä laskuja, joista halutaan lähettää esim. maksumuistutuksia
+**Laskut**–välilehdellä käsitellään myös erääntyneitä laskuja, joista halutaan lähettää esim. maksumuistutuksia. **Laskutusajon automatisointi sovitaan asiakaskohtaisesti** (esim. kerran viikossa tapahtuvaksi), jolloin sekä alkuperäiset laskut että maksumuistutuslaskut, luodaan ja lähetetään tausta-ajoina suoraan palvelusta sovittujen määrittelyjen mukaisesti.
 
-Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään Asetukset / Maksumuistutukset –näkymässä
+#### Muistutuslaskujen tekstitykset
 
-Ennen Muistutuslaskujen luontia tulee varmistaa, että mahdolliset virhetilanteet on korjattu
+Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään <a href="https://taikatilaus.github.io/docs/ohjeet/asetukset#laskutekstit">**Asetukset/Laskutekstit** –näkymässä</a>.
 
-- Pankki / Lisätyt aineistot – virheelliset
-- Suoritukset - info
+#### Ennen muistutuslaskujen luontia
 
-Valitsemalla esim. Laskun tila –valikosta hakukriteeriksi Erääntynyt ja klikkaamalla Hae -painiketta listataan kaikki laskut, joita ei ole laskun eräpäivään mennessä maksettu
+Ennen muistutuslaskujen luontia tulee varmistaa, että mahdolliset **virhetilanteet on korjattu**. Virheellisiä suorituksia löytää:
 
-- Valitse kaikki –painikkeella valitaan kaikki listauksella olevat laskut jatkokäsittelyä varten
-- Yksittäisen laskun Numeroa klikkaamalla päästään kyseisen laskun tietoihin käsiksi
+- <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/pankki#pankkiaineistojen-k%C3%A4sittely">Pankki/Lisätyt aineistot</a> -näkymästä
+- <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/suoritukset">Suoritukset</a>-välilehdeltä
 
-Erilliset Hae maksumuistutettavat #1 ja Hae maksumuistutettavat #2 –painikkeet listaavat jo lähetetyt maksumuistutukset asiakaskohtaisesti sovittujen eräpäivien laskentakaavojen mukaisesti (esim. laskun Eräpäivä + 14 vrk / Muistutusmaksu #1 Eräpäivä + 7 vrk)
+#### Muistutuslaskujen haku
 
-Laskutusajon automatisointi sovitaan asiakaskohtaisesti (esim. kerran viikossa tapahtuvaksi), jolloin sekä alkuperäiset laskut että Maksumuistutuslaskut, luodaan ja lähetetään tausta-ajoina suoraan palvelusta sovittujen määrittelyjen mukaisesti
+Valitsemalla esim. **Laskun tila** –valikosta hakukriteeriksi **Erääntynyt** ja klikkaamalla **Hae** -painiketta listataan kaikki laskut, joita ei ole laskun eräpäivään mennessä maksettu.
 
-Listaukselta valituille muodostetaan Maksumuistutuslaskut
+Erilliset **Hae maksumuistutettavat #1** ja **Hae maksumuistutettavat #2** –painikkeet listaavat jo lähetetyt maksumuistutukset asiakaskohtaisesti sovittujen eräpäivien laskentakaavojen mukaisesti (esim. laskun Eräpäivä + 14 vrk / Muistutusmaksu #1 Eräpäivä + 7 vrk).
 
-- Luo maksumuistutus #1 –painikkeella
-- Luo maksumuistutus #2 –painikkeella
-- Siirrä perintään –painikkeella, jonka jälkeen valitut laskut eivät ole enää käsiteltävissä palvelussa
+- **Valitse kaikki** –painikkeella valitaan kaikki listauksella olevat laskut jatkokäsittelyä varten
+- Yksittäisen laskun **numeroa** klikkaamalla päästään kyseisen laskun tietoihin käsiksi
 
-Muistutuslaskut luodaan heti painikkeen klikkauksen jälkeen ja sen onnistumisesta näytetään koonti-ilmoitus
+![Laskut-välilehti](/img/ohjeet/laskut-vl14.png)
 
-Luotujen Muistutuslaskujen Muoto –sarakkeen tila päivittyy esim. Maksum.#1 (klikkaa Hae -painiketta uudelleen)
+#### Maksumuistutuksien luominen
 
-Myös yksittäisestä laskusta voi luoda Maksumuistutuksen, jolloin valittavana oleva Luo maksumuistutus #1 tai Luo maksumuistutus #2 –painike näytetään ko. laskun Muoto –sarakkeen mukaisen tilan mukaisesti (esim. jos Maksumuistutus #1 on jo lähetetty, niin painike vaihtuu Luo maksumuistutus #2:ksi)
+Listaukselta valituille muodostetaan maksumuistutuslaskut
 
-Tarvittaessa voi jo lähetetystä Maksumuistutuksesta tulostaa alkuperäisen Lasku –lomakkeen Tulosta lasku LASKU-muodossa –painikkeen kautta
+- **Luo maksumuistutus #1** –painikkeella
+- **Luo maksumuistutus #2** –painikkeella
+- **Siirrä perintään** –painikkeella, jonka jälkeen valitut laskut eivät ole enää käsiteltävissä palvelussa
 
-### Loppulaskut
+Muistutuslaskut luodaan heti painikkeen klikkauksen jälkeen ja sen onnistumisesta näytetään koonti-ilmoitus.
 
-Tilauksiin liittyviin Maksumuistutus -laskuihin voidaan lisätä automaattinen päätöskäsittely, mikäli Maksumuistutus #2 –laskua ei ole maksettu
+![Laskut-välilehti](/img/ohjeet/laskut-vl15.png)
 
-Eräpäivän jälkeen Maksamatta –tilassa oleva Maksumuistutus #2 lasku käsitellään haluttaessa automaattisesti
+Luotujen muistutuslaskujen **Muoto**–sarakkeen tila päivittyy esim. Maksum.#1 (päivitys näkyy kun klikkaa Hae-painiketta uudelleen).
 
-- Laskun Tuoterivillä mainittu Tilaus katkaistaan lisäämällä Tilaukselle Katkaisupäivä ja syy
-- Alkuperäinen lasku hyvitetään kokonaisuudessaan
-- Tilauksen Alkupäivän ja käsittelypäivän välissä jaetuista Julkaisuista (kpl) muodostetaan uusi Loppulasku
-- Loppulaskun lomakkeelle määritellään halutut lisätiedot
-esim. Olemme aikaisemmin lähettäneet tilauksestanne laskun ja kaksi maksuhuomautusta. Tarkistusajon ja kirjanpitomme mukaan emme ole suoritustanne saaneet, tilauksenne on katkaistu 11.05.2021 maksamattomana. Tämä lasku on teille ennen katkaisua toimitetuista lehdistä.
-- Loppulasku lähetetään asiakkaalle
+Myös yksittäisestä laskusta voi luoda maksumuistutuksen, jolloin valittavana oleva Luo maksumuistutus #1 tai Luo maksumuistutus #2 –painike näytetään kyseisen laskun Muoto–sarakkeen mukaisen tilan mukaisesti (esim. jos Maksumuistutus #1 on jo lähetetty, niin painike vaihtuu Luo maksumuistutus #2:ksi).
 
-Mikäli asiakas ei maksa myöskään Loppulaskua, niin se käsitellään eräpäivän jälkeen automaattisesti
+Tarvittaessa voi jo lähetetystä maksumuistutuksesta tulostaa alkuperäisen Lasku–lomakkeen **Tulosta lasku LASKU-muodossa** –painikkeen kautta
 
-- Määriteltävissä erikseen näiden loppulaskujen käsittelyn alaraja (esim. 5€ pienempiä ei enää käsitellä)
-- Avoimet tiliöintierät tiliöidään Maksuhuomautus- ja Luottotappio-tileille
+### Maksamattomien tilausten loppulaskut
 
-Poikkeukset automaattiseen käsittelyyn:
+Tilauksiin liittyviin Maksumuistutus-laskuihin voidaan lisätä automaattinen **päätöskäsittely**, mikäli Maksumuistutus #2 –laskua ei ole maksettu. 
 
-- Asiakkaiden haluamia Koontilaskuja ei käsitellä automaattisesti, vaan se on tehtävä aina manuaalisesti
-- Jos asiakas maksaakin laskun alkuperäisen koko pääoman, jätetään suoritus virhelistalle ja kohdistus käsitellään manuaalisesti samoin kuin tilauksen käsittely (Katkaisun poisto/uusi tilaus ym.)
+Ohjeet maksamattoman tilauksen manuaaliseen katkaisuun löytyy <a href="https://taikatilaus.github.io/docs/ohjeet/tilaustenhallinta/tilaukset#tilauksen-katkaisu-maksamattomana">Tilaus-välilehdeltä.</a> Tilauksen katkaisun yhteydessä muodostetaan **Loppulasku** jo toimitetuista lehdistä.
 
-Nämä katkaistujen tilauksien loppulaskut löytyvät Laskut -listauksen hakukriteereillä Laskun tyyppi -kentän TILAUS vaihtoehdolla ja kirjoittamalla Laskun takenne.-kenttään "Toimitt"
+Mikäli asiakas ei maksa myöskään **Loppulaskua**, niin se käsitellään eräpäivän jälkeen **automaattisesti**.
+
+- Määriteltävissä erikseen näiden loppulaskujen käsittelyn **alaraja** (esim. 5€ pienempiä ei enää käsitellä)
+- Avoimet tiliöintierät **tiliöidään** Maksuhuomautus- ja Luottotappio-tileille
+
+**Poikkeukset** automaattiseen käsittelyyn:
+
+- Asiakkaiden haluamia **Koontilaskuja** ei käsitellä automaattisesti, vaan se on tehtävä aina manuaalisesti
+- Jos asiakas maksaakin laskun alkuperäisen pääoman, jätetään suoritus virhelistalle ja kohdistus käsitellään manuaalisesti samoin kuin tilauksen käsittely (Katkaisun poisto/uusi tilaus ym.)
+
+Nämä katkaistujen tilauksien loppulaskut löytyvät Laskut-listauksen hakukriteereillä kirjoittamalla **TOIMITETUT TUOTTEET** Laskun tyyppi -kenttään.
+
+![Laskut-välilehti](/img/ohjeet/laskut-vl16.png)
+
+/// löytyykö alla olevaa raporttia enää?
 
 Samoin ne on katsottavissa Raportit / Automaattiajolla katkaistut tilaukset –painikkeen avulla
 

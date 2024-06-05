@@ -83,9 +83,6 @@ Asiakkaan **voimassa oleva tilaus**, jota ei ole maksettu, voidaan tarvittaessa 
 
 Tilauslomakkeen alaosasta löytyvää **Katkaisukäsittely**–painiketta painamalla pääset tilauksen katkaisukäsittelyyn.
 
-![Katkaisukäsittely](/img/ohjeet/katkaisutoimet.png)
-*Tilauksen katkaisun ohessa voidaan luoda lasku jo toimitetuista tuotteista.*
-
 Lomakkeelle täytetään
 - Katkaisutiedot - **Katkaisupäivä ja Katkaisun syy**
 - **Avoimet Laskut** –listauksesta aktivoidaan tilaukseen liittyvät maksamattomat laskut käsittelyyn
@@ -96,6 +93,8 @@ Lomakkeelle täytetään
 - Tilaus katkaistaan
 - Alkuperäinen avoin lasku Hyvitetään
 - Uusi lasku muodostetaan
+
+![Katkaisukäsittely](/img/ohjeet/katkaisutoimet.png)
 
 Lehden katkaisun yhteydessä **tulee samalla muuttaa tilauksen Loppupäivä samaksi kuin Katkaisupäivä**.
 Tällöin vältytään tilanteelta, jossa Kestojatkon ajossa toinen voimassaoleva tilaus ei uusiutuisikaan.
