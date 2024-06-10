@@ -179,11 +179,26 @@ Viestilähetyksen vahvistus listataan lomakkeen alaosaan.
 
 ![OmaPalvelu](/img/omapalvelu/19.png)
 
+**Vakituinen osoitteenmuutos** -välilehdeltä käyttäjä voi tarkastella nykyisiä yhteistietojaan ja muokata vakituista osoitettaan, joka sitten päivittyy käyttäjän tilauksiin.
+
+Osoittetta muuttaessaan voi asiakas antaa:
+- Osoitetiedot
+- Yhteystiedot (sähköposti ja puhelinnumero)
+- Mahdolliset yritystiedot
+
+Nimitietoja ei voi oletuksena muuttaa, mutta senkin mahdollisuudesta voidaan sopia yrityskohtaisesti.
+
 ![OmaPalvelu](/img/omapalvelu/20.png)
 
 ### Väliaikainen osoitteenmuutos
 
 ![OmaPalvelu](/img/omapalvelu/17.png)
+
+**Väliaikainen osoitteenmuutos** -välilehdellä voi asiakas asettaa väliaikaisen osoitteen tilauksiin vaikka kesäloman ajaksi.
+
+Väliaikaiseen osoitteenmuutokseen annetaan:
+- osoitteenmuutoksen kesto
+- osoitetiedot
 
 ![OmaPalvelu](/img/omapalvelu/18.png)
 
@@ -191,13 +206,24 @@ Viestilähetyksen vahvistus listataan lomakkeen alaosaan.
 
 ![OmaPalvelu](/img/omapalvelu/21.png)
 
+**Paperilehden jakelunkeskeytys** -välilehdeltä voi asiakas väliaikaisesti keskeyttää tilauksen jakamisen vaikka pitemmän ulkomaanmatkan ajaksi. Keskeytykselle annetaan aikaväli, jonka maksimipituuden voidaan määrittää yrityskohtaisesti.
+
 ![OmaPalvelu](/img/omapalvelu/22.png)
 
 ### Ilmoita paperilehden jakeluvirheestä
 
+**Ilmoita paperilehden jakeluvirheestä** -välilehdellä käyttäjä voi ilmoittaa mahdollisista jakeluvirheistä. Tieto siirtyy käyttäjän asiakaskortille, josta nähdään myös aiempi jakeluhäiriöhistoria. 
+
+Lomakkeella:
+- Valitaan, mitä lehteä jakeluhäiriö koske
+- Selitetään millaisesta häiriöistä on kyse
+- Voidaan myös valita mahdollinen hyvitys (yrityiskohtaisesti aktivoitavissa)
+
 ![OmaPalvelu](/img/omapalvelu/23.png)
 
 ### Muuta nykyistä tilaustasi
+
+**Muuta nykyistä tilaustasi** -välilehdeltä käyttäjä voi muuttaa olemassa olevaa tilaustaan.
 
 ![OmaPalvelu](/img/omapalvelu/24.png)
 
@@ -207,7 +233,7 @@ Viestilähetyksen vahvistus listataan lomakkeen alaosaan.
 
 ### Perhetunnukset
 
-![OmaPalvelu](/img/omapalvelu/25.png)
+![OmaPalvelu](/img/omapalvelu/26.png)
 
 ### Siirry lukemaan
 
