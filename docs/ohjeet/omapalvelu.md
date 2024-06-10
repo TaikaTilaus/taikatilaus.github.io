@@ -30,96 +30,115 @@ Mikäli yrityksen sivustolla on käytössä oma rekisteröinti-/kirjautumislomak
 
 Palvelusta kirjaudutaan ulos avaamalla oikean reunan sivupalkki ja painamalla **Kirjaudu ulos** -painikkeesta.
 
-![Suoritukset](/img/omapalvelu/3.png)
+![OmaPalvelu](/img/omapalvelu/3.png)
 
 Hallintakäyttäjän ylläpito-ohjeet tunnuksen salasanaa varten löytyvät <a href="http://localhost:3000/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#omapalvelu">täältä.</a>
 
 ## Salasanan vaihtaminen
 
-Asiakas voi tarvittaessa tilata sähköpostiinsa linkin salasanan vaihtamiseen
-- Unohtuiko salasana –painikkeesta
+Asiakas voi tarvittaessa tilata sähköpostiinsa linkin salasanan vaihtamiseen painamalla **Unohtuiko salasana** –painikkeesta
 - lisätään oma sähköposti ja
 - klikataan Lähetä linkki sähköpostiin
 
-Viestin linkkiä klikattaessa avautuu selaimeen lomake, jossa annetaan
+![OmaPalvelu](/img/omapalvelu/4.png)
+
+Viestin linkkiä klikattaessa avautuu selaimeen lomake, jossa
+
 - Käyttäjätunnus/Sähköposti on annettu valmiina (viestin pohjalta) eikä sitä voi muokata
-- Uusi salasana
-- Uusi salasana uudelleen
+- Annetaan Uusi salasana
+- Annetaan Uusi salasana uudelleen
 
-Salasanassa pitää olla vähintään 6 merkkiä ja siinä tulee olla ainakin yksi pieni ja iso kirjain, yksi numero ja yksi erikoismerkki
+Salasanassa pitää olla vähintään 6 merkkiä ja siinä tulee olla ainakin yksi pieni ja iso kirjain, yksi numero ja yksi erikoismerkki.
 
-Mikäli asiakas ei keksi uutta salasanaa itse, hän voi pyytää ohjelmaa luomaa automaattisesti generoidun salasanan En keksi salasanaa, luo sellainen –painikkeesta
+Mikäli asiakas ei keksi uutta salasanaa itse, hän voi pyytää ohjelmaa luomaa automaattisesti generoidun salasanan **En keksi salasanaa, luo sellainen** –painikkeesta
+
 - Lomakkeen alla näytetään Ehdotettu salasana, joka
 - Kopioidaan Uusi salasana ja Uusi salasana uudelleen –kenttiin
 
-Lisätyt salasanat Tallennetaan palveluun, jonka jälkeen pääsee Siirtymään kirjautumiseen
+Lisätyt salasanat tallennetaan palveluun, jonka jälkeen pääsee siirtymään kirjautumiseen.
 
 ## Sisältö
 
-Sisäänkirjauksen jälkeen käyttäjälle näytetään häneen liittyviä koontitietoja
-- Näytettävät välilehdet ja niiden muokkauksen sallivat kentät sovitaan yrityskohtaisesti.
+![OmaPalvelu](/img/omapalvelu/5.png)
 
-- Yhteystiedot -välilehdellä voi muuttaa omia henkilötietojaan, kuten esim. osoitetta
+Sisäänkirjauksen jälkeen käyttäjälle näytetään OmaPalvelun etusivu. Näytettävät välilehdet ja kentät, joiden muokkaus sallitaan, sovitaan **yrityskohtaisesti**. Yleisiä välilehtiä ovat mm.
+
+- Omat tietosi -välilehdellä voi muuttaa tunnukseen liittyviä tietoja, kuten nimeä ja puhelinnumeroa
 - Tilaa lehti –välilehdellä voi tilata lehtiä itselle tai lahjaksi
-- Omat ilmoitukset –välilehdellä voivat Ilmoitusasiakkaat hyväksyä ja kommentoida ostamaansa ilmoitusta ennen kuin se julkaistaan
-- Näköislehdet -välilehdellä voidaan esittää Lehtitilaajille paperijulkaisujen digiversiot ja/tai Ilmoitusasiakkaille ne julkaisut, joissa on heidän ostamansa ilmoitus
-- Laskut –välilehdellä voi katsella omaa laskutushistoriaansa
-- Tilaukset -välilehdellä voi katsella omaa tilaushistoriaansa ja tilata uuden lehden
-- Asiakaspalvelu -välilehdellä voi lähettää viestin, joka käsitellään yrityksen omassa asiakaspalvelussa
+- Ilmoitukset–välilehdellä voivat ilmoitusasiakkaat hyväksyä ja kommentoida ostamaansa ilmoitusta ennen kuin se julkaistaan
+- Digilehdet-välilehdellä voidaan esittää lehtitilaajille paperijulkaisujen digiversiot ja/tai ilmoitusasiakkaille ne julkaisut, joissa on heidän ostamansa ilmoitus
+- Laskut–välilehdellä voi katsella omaa laskutushistoriaansa
+- Tilaukset-välilehdellä voi katsella omaa tilaushistoriaansa ja peruuttaa tilauksia
+- Ota yhteyttä tilajaapalveluun -välilehdellä voi lähettää viestin, joka käsitellään yrityksen omassa asiakaspalvelussa
 
-Mikäli välilehdellä on jotain asiakkaan huomiota odottavaa tietoa (esim. uusi lasku), näkyy punainen pallo, jonka sisällä oleva numero ilmaisee uudet huomion kohteet
+Mikäli välilehdellä on jotain asiakkaan huomiota odottavaa tietoa (esim. uusi lasku), näkyy punainen pallo, jonka sisällä oleva numero ilmaisee uudet huomion kohteet.
 
-### Aloitussivu
+Voit myös **mainostaa** esim. erillaisia tapahtumia etusivulla.
 
-Aloitus- eli Koontisivulla näytetään kirjautuneen asiakkaan yhteenvetotietoja esim.
-- Yhteystiedoista
-- Väliaikaisen osoitteen voimassaolosta
-- Aktiivisista tilauksista
+### Omat tiedot
 
-Mahdollisuus tarjota myös viimeisimmän julkaisun lukumahdollisuus suoraan Lue lehti -painikkeesta
+![OmaPalvelu](/img/omapalvelu/6.png)
 
-### Yhteystiedot
-
-Yhteystiedot -näkymässä käyttäjä voi päivittää omia tietojaan Muokkaa yhteystietoja –painikkeesta esim.
+**Omat tiedot** -näkymässä käyttäjä voi päivittää omia tietojaan Muuta tunnustietoja –painikkeesta esim.
 - Nimeä
-- Osoitetta
-- Sähköpostia
 - Puhelinnumeroa
-- Laskutustietoja
-- Markkinointilupaa
+- Syntymäpäivää
 
-Lisätä/päivittää väliaikaista osoitetta (esim. kesämökille) Muokkaa väliaikaista osoitetta -painikkeesta antamalla
-- Siirron ajankohdan Alku-/Loppupäivät
-- Toisen osoitteen tiedot
+**Vaihda salasana** -painikkeesta tulee käyttäjän sähköpostiin linkki, josta hän voi vaihtaa salasanaa.
+
+Jos on useampi käyttäjä, valitsemalla käyttäjätunnuksen pääse käyttäjä muokkaamaan sen käyttäjän tilauksia.
 
 ### Tilaa lehti
 
-Tilaa lehti -näkymässä käyttäjä voi tilata haluamansa julkaisun esim.
-- joko itselleen tai lahjaksi toiselle
-- toivomallaan maksutavalla joko Verkkomaksulla heti tai Laskulla eräpäivänä
+![OmaPalvelu](/img/omapalvelu/7.png)
 
-Hinta –painikkeesta valitun tilausmuodon valinnan jälkeen avautuu Tilauslomake, jolle lisätään
-- toivottu Tilauksen alkamispäivä
+**Tilaa lehti** -näkymässä käyttäjä voi tilata haluamansa julkaisun esim.
+
+- joko itselleen tai lahjaksi toiselle
+- toivomallaan maksutavalla, esim. joko Verkkomaksulla heti tai Laskulla eräpäivänä
+
+Tilaustuotteen valinnan jälkeen avautuu Tilauslomake, jolle lisätään
+- Tilaustyyppi
+- Laskutusväli
+- Toivottu tilauksen alkamispäivä
+
+![OmaPalvelu](/img/omapalvelu/8.png)
+
 - Lehden saaja (itselle/lahjaksi)
 - Lehden saajan osoite- ja muut yhteystiedot
 
-Tilaa lehti –painikkeesta annetut tiedot tallentuvat palveluun
+![OmaPalvelu](/img/omapalvelu/9.png)
 
-### Näköislehdet
+- Maksutapa
 
-Näköislehdet -näkymässä käyttäjälle näytetään hänelle avoimien julkaisujen tietoja
+![OmaPalvelu](/img/omapalvelu/10.png)
 
-Lue lehti –painiketta klikkaamalla avautuu kyseisen julkaisun näköislehti selaimen uuteen ikkunaan
+- Hyväksytään tilausehdot
+- Annetaan luvat markkinointiin
+
+![OmaPalvelu](/img/omapalvelu/11.png)
+
+Tilauslomakkeen kautta tehtyjen tilauksien tiedot tallentuvat Taikatilaus-ohjelmaan automaattisesti.
+
+### Digilehti
+
+![OmaPalvelu](/img/omapalvelu/13.png)
+
+**Digilehti**-näkymässä käyttäjä voi selata ja lukea digijulkaisuja tilaamistaan lehdistä, jos hänellä on **oikeus** digilehden lukemiseen.
+
+**Lue**–painiketta klikkaamalla avautuu kyseisen julkaisun näköislehti uuteen ikkunaan selaimessa.
 
 Julkaisua voi mm. selata, suurentaa ja hakea hakusanoilla
-- Alareunan painikkeilla
+- Yläreunan painikkeilla
 - Vasemman/oikean reunan nuolipainikkeilla < >
 
-Vanhemmat lehdet –painikkeesta avautuu listaus aiempiin tilauksiin liittyvistä näköislehdistä
+![OmaPalvelu](/img/omapalvelu/12.png)
 
-### Omat ilmoitukset
+### Ilmoitukset
 
-Omat ilmoitukset -välilehdellä käyttäjälle näytetään asiakkaan ostamien ilmoitusten tietoja
+/// en saa kuvaa tähän
+
+**Ilmoitukset**-välilehdellä käyttäjälle näytetään tietoja ostamistaan ilmoituksista.
 
 Uusin ilmoitusvaraus, joka vaatii Hyväksyntää tai Kommenttia näytetään oletuksena avattuna
 - Kommentin tilaruutua voi laajentaa alakulman ruutua kursorilla raahaamalla
@@ -130,28 +149,106 @@ Käytettävissä olevat lisätoiminnot sovitaan yrityskohtaisesti
 - Maksamattomat ilmoitusvaraukset voi maksaa valitsemalla v ja klikkaamalla Maksa valitut –painiketta (esim. Verkkomaksulla heti)
 - Uusi ilmoitus, jolla voi tehdä uuden, alustava ilmoitusvarauksen, jonka Myyjä voi jatkokäsitellä
 
-### Laskut
+### Laskusi
 
-Laskut -näkymässä käyttäjälle näytetään asiakkaaseen liittyvien laskujen tiedot
+**Laskusi**-näkymässä käyttäjälle näytetään avoimet laskut ja laskutushistoria. Laskun numeroja painamalla käyttäjä näkee laskun tiedot PDF-muodossa.
 
-Viimeisin avoimena oleva lasku näytetään laskunäkymän avauksen yhteydessä
+Käyttäjä voi myös vaihtaa laskun toimitustapaa.
 
-Valitsemalla yksittäiset laskut ja klikkaamalla Maksa valitut –painiketta päästään siirtymään esim. Verkkopankkiin
+![OmaPalvelu](/img/omapalvelu/14.png)
 
-Maksetut -painiketta klikkaamalla avautuu koko laskutus historiatietoineen
-- Maksamattomat laskut voi maksaa valitsemalla v ja klikkaamalla Maksa valitut –painiketta (esim. Verkkomaksulla heti)
+### Tilauksesi
 
-### Tilaukset
+**Tilauksesi**-välilehdellä käyttäjälle näytetään käyttäjän avoimet ja päättyneet tilaukset. Käyttäjä voi myös peruuttaa tilauksia.
 
-Tilaukset -välilehdellä käyttäjälle näytetään hänen omien tilauksien tiedot
-- Voimassa olevat ?
-- Päättyneet x
+![OmaPalvelu](/img/omapalvelu/15.png)
 
-### Asiakaspalvelu
+### Ota yhteyttä tilaajapalveluun
 
-Asiakaspalvelu -välilehdellä käyttäjä näkee Asiakaspalvelun yhteystiedot ja voi lähettää viestin
-- Viesti ohjataan jatkokäsittelyä varten yrityksen oman Asiakaspalvelun sähköpostiin
+**Ota yhteyttä tilaajapalveluun** -välilehdellä käyttäjä näkee yrityksen asiakaspalvelun yhteystiedot ja voi lähettää viestin
 
-Viestin tilaruutua voi laajentaa alakulman ruutua kursorilla raahaamalla
+- Viesti ohjataan jatkokäsittelyä varten yrityksen oman asiakaspalvelun sähköpostiin
 
-Viestilähetyksen vahvistus listataan lomakkeen alaosaan
+Viestin tilaruutua voi laajentaa alakulman ruutua kursorilla raahaamalla.
+
+Viestilähetyksen vahvistus listataan lomakkeen alaosaan.
+
+![OmaPalvelu](/img/omapalvelu/16.png)
+
+### Vakituinen osoitteenmuutos
+
+![OmaPalvelu](/img/omapalvelu/19.png)
+
+![OmaPalvelu](/img/omapalvelu/20.png)
+
+### Väliaikainen osoitteenmuutos
+
+![OmaPalvelu](/img/omapalvelu/17.png)
+
+![OmaPalvelu](/img/omapalvelu/18.png)
+
+### Paperilehden jakelunkeskeytys
+
+![OmaPalvelu](/img/omapalvelu/21.png)
+
+![OmaPalvelu](/img/omapalvelu/22.png)
+
+### Ilmoita paperilehden jakeluvirheestä
+
+![OmaPalvelu](/img/omapalvelu/23.png)
+
+### Muuta nykyistä tilaustasi
+
+![OmaPalvelu](/img/omapalvelu/24.png)
+
+### Tilaa digilukuoikeus
+
+![OmaPalvelu](/img/omapalvelu/25.png)
+
+### Perhetunnukset
+
+![OmaPalvelu](/img/omapalvelu/25.png)
+
+### Siirry lukemaan
+
+![OmaPalvelu](/img/omapalvelu/27.png)
+
+### Juttuvinkki
+
+![OmaPalvelu](/img/omapalvelu/28.png)
+
+### Arvonta
+
+![OmaPalvelu](/img/omapalvelu/29.png)
+
+### Uutiset
+
+![OmaPalvelu](/img/omapalvelu/30.png)
+
+### Sääennuste
+
+![OmaPalvelu](/img/omapalvelu/31.png)
+
+### Päivän sarjakuvat
+
+![OmaPalvelu](/img/omapalvelu/32.png)
+
+### Kyselyt
+
+![OmaPalvelu](/img/omapalvelu/33.png)
+
+### Viihde
+
+![OmaPalvelu](/img/omapalvelu/34.png)
+
+### Sosiaalinen media
+
+![OmaPalvelu](/img/omapalvelu/35.png)
+
+### Kaavio
+
+![OmaPalvelu](/img/omapalvelu/36.png)
+
+### Tilaushinnat
+
+// ei kuvaa

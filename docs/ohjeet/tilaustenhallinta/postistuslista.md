@@ -34,7 +34,7 @@ Listauksessa erotat päiväjakoon pakotetut tilaukset **Varhaisjakelun esto** -s
 
 Voi esiintyä esimerkiksi tilanne, missä asiakas on soittanut ja ilmoittanut, että lehteä ei ole tullut. Tällöin voit postituslistan haun kautta tarkistaa mm.
 
-1. Onko asiakas ylipäätään postituslistalla
+1. Onko asiakas ylipäätään ollut postituslistalla
 2. Ovatko osoitetiedot oikein
 
 Tämä tehdään suorittamalla haku asiakkaan **asiakasnumerolla**. Valitsemalla lehden ilmestymispäivän voit hakea tiettyä julkaisua. Jättämällä **Ilmestymispäivä**-kentän tyhjäksi, saat asiakkaan koko **postitushistorian**. Näin voit tarkastella mahdollisia osoitteenmuutoksia tai eroavuuksia postitusten välillä.
