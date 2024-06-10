@@ -369,7 +369,7 @@ Tai esim. Laskun tyyppi ja/tai Laskun tarkenne -hakukenttiä hyödyntäen voidaa
 - Laskun tyyppi - esim. ilmoitus, tilaus
 - Laskun tarkenne -kentän tarkoituksena on mahdollistaa tarkentavien lisätietojen vapaan tekstisyötön esim. toimitettu tuote, www-verkkokauppa
 - Laskusarja - minkä numeroisia laskuja haetaan esim. 10000-10100 
-- Muita ehtoja - ///???
+- Muita ehtoja (saa lähettää, ei saa lähettää, perintäkielto)
 
 Painamalla **Hae uusimmat** -painiketta tulee listaukseen 100 laskua jotka on luotu tai joita on muokattu äskettäin.
 

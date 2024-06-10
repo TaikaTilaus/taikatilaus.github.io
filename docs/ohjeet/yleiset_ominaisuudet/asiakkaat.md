@@ -78,25 +78,31 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 
 ### OmaPalvelu
 
+![Asiakaskortti - OmaPalvelu](/img/ohjeet/omapalvelu-tunnukset.png)
+
 **Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalveluun.
 
-Käyttäjätunnus –kenttään tallennetaan sovittu tunnuksen muoto esim.
+**Käyttäjätunnus**–kenttään tallennetaan sovittu tunnuksen muoto esim.
 - Asiakasnumero
 - Sähköpostiosoite
 
-Salasana–kenttään voidaan antaa
-- selkokielinen salasana tai
-- Luo uusi salasana –painikkeesta ohjelma luo ehdotuksen alustavasta salasanasta
-Molemmat tallentuvat palveluun salattuna [SALATTU], vasta sen jälkeen, kun ne on tallennettu Tallenna tunnus ja salasana –painikkeella
+**Liitoksen tyyppi** -kenttään valitaan onko käyttäjätunnus pääkäyttäjän vai alikäyttäjän (esim. perhetunnus) tunnus. Alikäyttäjällä on rajatummat oikeudet muuttaa tietoja OmaPalvelussa.
 
-Lähetä uusi tunnus –sähköposti –painikkeella lähetetään asiakkaalle viesti, jossa kerrotaan tunnuksen aktivoinnista ja pyydetään luomaan uusi salasana.
+![Asiakaskortti - OmaPalvelu](/img/ohjeet/tunnuksen-luonti2.png)
 
-Lähetä salasanan resetointi –sähköposti –painikkeesta lähetetään asiakkaalle viesti, jossa pyydetään antamaan uusi salasana
+Tallennettuasi, voit käyttäjätunnusta klikkaamalla asettaa sille salasanan painamalla **Muuta salasana** -painikkeesta.
 
+**Lähetä uusi tunnus –sähköposti** –painikkeella lähetetään asiakkaalle viesti, jossa kerrotaan tunnuksen aktivoinnista ja pyydetään luomaan uusi salasana.
 
-/// Onko oikein, puuttuuko jotain?
+**Lähetä salasanan resetointi –sähköposti** –painikkeesta lähetetään asiakkaalle viesti, jossa pyydetään antamaan uusi salasana.
 
-![Asiakaskortti - OmaPalvelu](/img/ohjeet/omapalvelu-tunnukset.png)
+**Lähetä kertakirjautumislinkki** -painikkeesta lähetään asiakkaalle viesti, joka sisältää kertakirjautumislinkin, jolla asiakas voi kerran 1 vuorokauden aikana kirjautua palveluun.
+
+**Kirjaudu OmaPalveluun** -painikkeesta voidaan kirjautua suoraan OmaPalveluun kyseisellä tunnuksella.
+
+**Poista käyttäjätunnus** -painikkeesta poistetaan kyseinen käyttäjätunnus.
+
+![Asiakaskortti - OmaPalvelu](/img/ohjeet/tunnuksen-luonti.png)
 
 ### Muut tiedot
 

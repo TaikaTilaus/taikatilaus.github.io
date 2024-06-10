@@ -10,49 +10,66 @@ sidebar_position: 3
 
 Painotalolle voidaan luoda oma käyttäjätunnus, millä se voi itse käydä lataamassa postituslistan suoraan sovelluksesta haluttuna päivänä.
 
+## Postitusten haku
+
+**Postitusten haku** –välilehdellä luodaan eri jakelukanaviin lähetettävät osoitteistotiedostot.
+- Jos halutaan tarkastella tiettyä postitusta, valitaan **Lehti** ja **Ilmestymispäivä**, sekä mahdolliset muut ehdot ennen **Hae** –painikkeen klikkausta (LähetysID on sama koko postituksella)
+
+![Postituslista - Postitusten haku](/img/ohjeet/postitustenhaku1.png)
+
+Valitsemalla Niputustapa-valikosta Varhaisjakelu, saat listaukselle näkyviin vain varhaisjakelun niput. 
+
+![Postituslista - Postitusten haku](/img/ohjeet/niputustapa.png)
+
+Valitsemalla Kyllä Varhaisjakelun esto -valikosta, saat listaukselle näkyviin ne tilaukset, mitkä on asiakaskortilta pakotettu päiväjakoon varhaisjakelun sijaan.
+
+Eston aiheuttamia nippujen muutoksia pääset tarkkailemaan painamalla **Näytä niput ilman varhaisjakeluestoa** –painikkeesta, jolloin listauksessa näkyy päiväjakoon pakotettujen tilauksien alkuperäinen nippunumero punaisella.
+
+Listauksessa erotat päiväjakoon pakotetut tilaukset **Varhaisjakelun esto** -sarakkeessa olevasta **K**-kirjaimesta.
+
+![Postituslista - Postitusten haku](/img/ohjeet/varhaisjakeluesto.png)
+
+### Osoitteistojen tiedostopainikkeet
+
+**Näytä postitusyhteenveto** –painikkeesta näytetään samat Postituslista–yhteenvetotiedot kuin <a href="https://taikatilaus.github.io/docs/ohjeet/tilaustenhallinta/postistuslista#postituslistan-luonti-1">Postituslistan luonti –sivulla</a>
+
+![Postituslista - Postitusten haku](/img/ohjeet/postitusyhteenveto.png)
+
+**Näytä muutokset edellisestä postituksesta** –painikkeesta näytetään uuden ja edellisen postituslistan tiedot muutoksien vertailua varten.
+
+![Postituslista - Postitusten haku](/img/ohjeet/edellinenpostitus.png)
+
+**Näytä lehden postituspäivät** –painikkeesta näytetään listaus lehdelle luoduista postituslistoista päiväyksineen ja LähetysID:neen.
+
+![Postituslista - Postitusten haku](/img/ohjeet/postituspaivat.png)
+
+**Peruslataus**–painikkeesta luodaan varhaisjakeluun tarvittava osoitteisto tekstiedostona ladattavaksi **Lataa TNnnnn.all.txt** –painikkeesta
+
+![Postituslista - Postitusten haku](/img/ohjeet/peruslataus.png)
+
+**Varhaisjakelun nippumuutokset** –painikkeesta luodaan yhteenveto nipuista, joissa on muutoksia aiempaan niputukseen verrattuna ja sen tietojen vienti tekstitiedostoon **Lataa nnnn.all.txt** –painikkeesta
+
+![Postitusten haku - Varhaisjakelun nippumuutokset](/img/ohjeet/nippumuutokset.png)
+
+**Excel**–painikkeesta luodaan Painoon tarvittava osoitteisto (.txt) ladattavaksi Lataa _1110.TSL.. –painikkeesta
+
+![Postitusten haku - Excel](/img/ohjeet/excel.png)
+
+**Postinumerolista**–painikkeesta luodaan tarvittava listaus Postinumeroista ja KPL määristä Excel-taulukkoon Lataa postinumerolista –painikkeesta
+
+![Postitusten haku - Postinumerolista](/img/ohjeet/postinumerolista.png)
+
+**Vertaa asiakasnumeroilla** -painikkeesta voit tarkastaa löytyykö syöttämäsi asiakasnumero/t postituslistalta. Tätä toimintoa voi käyttää esimerkiksi silloin kun asiakkaalla on usein ilmestynyt jakeluhäiriöitä.
+
+![Postitusten haku - Vertaa asiakasnumeroilla](/img/ohjeet/vertaa-asiakasnumeroilla.png)
+
+**Lähetä yhteenveto** -painikkeesta voit lähettää yhteenvedon postituslistan tiedoista aiemmin määritettyyn sähköpostiin.
+
+![Postitusten haku - Lähetä yhteenveto](/img/ohjeet/yhteenveto.png)
+
 ## Postituslistan luonti
 
-Ennen uuden Postituslistan luontia varmistetaan, että tilausten Kestojatko-ajo on tehty, mikäli uudistettavat kestotilaukset halutaan mukaan kyseiselle postituslistalle.
-
-### Kestojatkon tekeminen
-
-**Kestojatko**-näkymässä jatketaan kestotilauksia uudelle tilauskaudelle.
-
-Valitse **Lehti** ja kestojatkon **alku- ja loppupäivä**. Uuden kestojatkon **alkupäivä pitäisi olla sama kuin edellisen kestojatkon loppupäivä**. Muuten jotain tilauksia saattaa tippua välistä ja niitä ei jatketa.
-
-![Kestojatko](/img/ohjeet/kestojatko1.png)
-*Vanhan ja uuden kestojatkon loppu- ja alkupäivän tulisi olla sama.*
-
-**Hae jatkettavat kestotilaukset** –painiketta painamalla saat näkyviin listauksen kestotilauksista, jotka ovat loppumassa antamallasi aikavälillä.
-
-Listaus jakaantuu kahteen osaan:
-- Jatkettavat kestotilaukset
-- Kestotilaukset, joita ei jatketa (esim. kestotilaus on katkaistu)
-
-Kestotilauksia jatkettaessa tutkitaan lehtikohtaisesti (ei yksittäisen tilaustuotteen mukaisesti), että löytyykö uudempaa voimassa olevaa tilausta
-- jos löytyy uudempi tilaus, niin jatkamista ei tehdä
-- jos ei löydy uudempaa tilausta, niin jatkaminen tehdään
-
-Kestotilauksien käsittelyyn pääset klikkaamalla **Siirry tilausten jatkamiseen** –painiketta
-
-![Kestotilauksien jatkaminen](/img/ohjeet/kestojatko2.png)
-*Lista jatkettavista kestotilauksista*
-
-![Kestotilauksien jatkaminen](/img/ohjeet/kestotilaus3.png)
-*Lista ei-jatkettavista kestotilauksista*
-
-Tilauksien jatkamisesta muodostuville laskuille voi lisätä halutun tekstin kirjoittamalla tai klikkaamalla **Näytä aikaisemmat tekstit** -painiketta ja **Valitse**-linkkiä halutun sisällön kohdalla. 
-
-![Kestotilauksien jatkaminen](/img/ohjeet/kestojatko4.png)
-*Laskuille voi lisätä aikaisemmin käytettyjä tekstejä.*
-
-![Kestotilauksien jatkaminen](/img/ohjeet/kestojatko5.png)
-*Klikkaa Valitse haluamasi tekstin kohdalla liittääksesi se laskuille.*
-
-Painamalla **Jatka kestotilaukset** -painiketta suoritat kestojatkon. Kestojatkon suorituksesta tulee sitten tieto Kestojatko-välilehden etusivulle.
-
-![Kestotilauksien jatkaminen](/img/ohjeet/kestojatko6.png)
-*Suoritettu kestojatku näkyy välilehden etusivulla.*
+Ennen uuden Postituslistan luontia varmistetaan, että tilausten <a href="/docs/ohjeet/tilaustenhallinta/kestojatko">Kestojatko-ajo</a> on tehty, mikäli uudistettavat kestotilaukset halutaan mukaan kyseiselle postituslistalle. Kestojatko-ajot voi myös automatisoida.
 
 ### Postituslistan luonnin ennakkotoimenpiteet
 
@@ -73,8 +90,6 @@ Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim
 4) **Asetukset/Varhaisjakelu** –välilehdellä lisätään/muokataan postituksen mukaan halutut klikkaamalla **Vakioniput**-painiketta
 - **Poista** ensin mahdolliset turhat tiedot listaukselta ja sen jälkeen
 - **Päivitä/Kopioi** (malliriviksi) yksittäisten Vakionippujen osoite- ja lkm -tiedot ja Tallenna (katso ettei kentän alla olevaan listaan tule virheilmoituksia)
-
-///what does this mean?
 
 ![Asetukset-välilehti - Varhaisjakelu](/img/ohjeet/varhaisjakelu-postitus.png)
 
@@ -105,6 +120,8 @@ Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim
 
 - Luonnin jälkeen Postituslista-yhteenvetotiedot listautuvat näkymän alaosaan
 - Postituslistojen ajot voidaan myös automatisoida ja niihin voidaan liittää automaattiset koontiviestit haluttuihin sähköpostiosoitteisiin
+
+## Postitusten tiedot
 
 ### Postituslistan jatkokäsittely ja siirrot painoon/jakeluun
 
@@ -180,59 +197,6 @@ Hyvä asiakkaamme
 Olemme korjanneet sähköisen lähetyslistanne, koska lista ja lähetyserä poikkesivat toisistaan seuraavasti:
 TaikaNakka -lehden paino korjattu punnituskappaleen mukaiseksi, 70g/kpl (listalla painoksi oli ilmoitettu 57g/kpl).
 - Uusi Lapa-ajo tehtävä tarvittaessa (tietoa käytetään mm. Postin laskutusperusteena)
-
-## Postitusten haku
-
-**Postitusten haku** –välilehdellä luodaan eri jakelukanaviin lähetettävät osoitteistotiedostot.
-- Jos halutaan tarkastella tiettyä postitusta, valitaan **Lehti** ja **Ilmestymispäivä**, sekä mahdolliset muut ehdot ennen **Hae** –painikkeen klikkausta (LähetysID on sama koko postituksella)
-
-![Postituslista - Postitusten haku](/img/ohjeet/postitustenhaku1.png)
-
-Postituslistan avulla voi myös tarkastella Varhaisjakelun nippuja ja etenkin asiakaskorteille aktivoidun **Varhaisjakelu estetty** –toiminnon vaikutusta niihin (osoitteen mukainen Varhaisjakelu pakotetaan Päiväjakeluun) **Näytä niput ilman varhaisjakeluestoa** –painikkeesta
-- Aktivoituu näkyviin, kun ensin valitaan **Varhaisjakelun esto** -valikosta vaihtoehto **Kyllä**
-- **Muutostiedot** näkyvät listauksella punaisella
-
-//en tajua, selvennys
-
-![Postituslista - Postitusten haku](/img/ohjeet/varhaisjakeluesto.png)
-
-### Osoitteistojen tiedostopainikkeet
-
-**Näytä postitusyhteenveto** –painikkeesta näytetään samat Postituslista–yhteenvetotiedot kuin <a href="https://taikatilaus.github.io/docs/ohjeet/tilaustenhallinta/postistuslista#postituslistan-luonti-1">Postituslistan luonti –sivulla</a>
-
-![Postituslista - Postitusten haku](/img/ohjeet/postitusyhteenveto.png)
-
-**Näytä muutokset edellisestä postituksesta** –painikkeesta näytetään uuden ja edellisen postituslistan tiedot muutoksien vertailua varten.
-
-![Postituslista - Postitusten haku](/img/ohjeet/edellinenpostitus.png)
-
-**Näytä lehden postituspäivät** –painikkeesta näytetään listaus lehdelle luoduista postituslistoista päiväyksineen ja LähetysID:neen.
-
-![Postituslista - Postitusten haku](/img/ohjeet/postituspaivat.png)
-
-**Peruslataus**–painikkeesta luodaan varhaisjakeluun tarvittava osoitteisto tekstiedostona ladattavaksi **Lataa TNnnnn.all.txt** –painikkeesta
-
-![Postituslista - Postitusten haku](/img/ohjeet/peruslataus.png)
-
-**Varhaisjakelun nippumuutokset** –painikkeesta luodaan yhteenveto nipuista, joissa on muutoksia aiempaan niputukseen verrattuna ja sen tietojen vienti tekstitiedostoon **Lataa nnnn.all.txt** –painikkeesta
-
-![Postitusten haku - Varhaisjakelun nippumuutokset](/img/ohjeet/nippumuutokset.png)
-
-**Excel**–painikkeesta luodaan Painoon tarvittava osoitteisto (.txt) ladattavaksi Lataa _1110.TSL.. –painikkeesta
-
-![Postitusten haku - Excel](/img/ohjeet/excel.png)
-
-**Postinumerolista**–painikkeesta luodaan tarvittava listaus Postinumeroista ja KPL määristä Excel-taulukkoon Lataa postinumerolista –painikkeesta
-
-![Postitusten haku - Postinumerolista](/img/ohjeet/postinumerolista.png)
-
-**Vertaa asiakasnumeroilla** -painikkeesta voit tarkastaa löytyykö syöttämäsi asiakasnumero/t postituslistalta. Tätä toimintoa voi käyttää esimerkiksi silloin kun asiakkaalla on usein ilmestynyt jakeluhäiriöitä.
-
-![Postitusten haku - Vertaa asiakasnumeroilla](/img/ohjeet/vertaa-asiakasnumeroilla.png)
-
-**Lähetä yhteenveto** -painikkeesta voit lähettää yhteenvedon postituslistan tiedoista aiemmin määritettyyn sähköpostiin.
-
-![Postitusten haku - Lähetä yhteenveto](/img/ohjeet/yhteenveto.png)
 
 ## Postitusohjeet
 

@@ -55,7 +55,7 @@ Esimerkiksi PayTrailillä on oma käyttöliittymänsä, josta asiakas voi nähd�
 Jos halutaan seurata yksittäisiä/laskukohtaisia provisioita (esim. raporteilla), tulee ne manuaalisesti tiliöidä kyseisille laskuille.
 
 ### Virheellisten suorituksien haku
-
+59A52Cff3c68
 Hakukenttien alapuolella on kenttä **Hae vain käsittelyä vaativat**, jonka **aktivointi piilottaa** listaukselta kaikki ne suoritukset
 - jotka on liitetty laskulle **virheettöminä** (saapuneesta pankkiaineistoista)
 - jotka on **manuaalisesti** lisätty laskuille (käyttäjän tekemät) 
@@ -104,13 +104,13 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 
 ## Esimerkkejä tiliöintien muokkauksesta
 
-Tiliöinnin käsittely -valikossa näkyvät Tilien/Tiliöintien numerot ja nimet määritellään Asetukset / Tilit näkymässä
-
 ### Maksumuistutuksen lisämaksun kirjaaminen laskun tiliöinteihin:
 - Maksettu 50,00 €, Lasku 45,00 €, Maksumuistutus 5,00 € kirjataan
 - Pankkitilille (S) +50,00 €
-- Tilausmyyntisaamiset (K) -45,00 € (kuittaa laskun maksetuksi)
-- Muistutusmaksu-tilille (T) -5,00 €
+- PTilausmyyntisaamiset (K) -45,00 € (kuittaa laskun maksetuksi)
+- Muistutusmaksu-tilille (K) -5,00 €
+
+![Suoritukset](/img/ohjeet/tiliointi-esimerkki1.png)
 
 ### Maksamattoman Maksumuistutuksen kirjaaminen laskun tiliöinteihin:
 - Maksettu 45,00 €, Lasku 45,00 € + 5,00 € Maksumuistutus kirjataan
