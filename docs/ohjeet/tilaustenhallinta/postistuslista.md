@@ -13,6 +13,7 @@ Painotalolle voidaan luoda oma käyttäjätunnus, millä se voi itse käydä lat
 ## Postitusten haku
 
 **Postitusten haku** –välilehdellä luodaan eri jakelukanaviin lähetettävät osoitteistotiedostot.
+
 - Jos halutaan tarkastella tiettyä postitusta, valitaan **Lehti** ja **Ilmestymispäivä**, sekä mahdolliset muut ehdot ennen **Hae**–painikkeen klikkausta (LähetysID on sama koko postituksella)
 
 ![Postituslista - Postitusten haku](/img/ohjeet/postitustenhaku1.png)
@@ -28,6 +29,17 @@ Varhaisjakelun eston aiheuttamia nippujen muutoksia pääset tarkkailemaan paina
 Listauksessa erotat päiväjakoon pakotetut tilaukset **Varhaisjakelun esto** -sarakkeessa olevasta **K**-kirjaimesta.
 
 ![Postituslista - Postitusten haku](/img/ohjeet/varhaisjakeluesto.png)
+
+### Esimerkkihaku
+
+Voi esiintyä esimerkiksi tilanne, missä asiakas on soittanut ja ilmoittanut, että lehteä ei ole tullut. Tällöin voit postituslistan haun kautta tarkistaa mm.
+
+1. Onko asiakas ylipäätään postituslistalla
+2. Ovatko osoitetiedot oikein
+
+Tämä tehdään suorittamalla haku asiakkaan **asiakasnumerolla**. Valitsemalla lehden ilmestymispäivän voit hakea tiettyä julkaisua. Jättämällä **Ilmestymispäivä**-kentän tyhjäksi, saat asiakkaan koko **postitushistorian**. Näin voit tarkastella mahdollisia osoitteenmuutoksia tai eroavuuksia postitusten välillä.
+
+![Postituslista - Postitusten haku](/img/ohjeet/esimerkkihaku-pl.png)
 
 ### Osoitteistojen tiedostopainikkeet
 
