@@ -13,17 +13,17 @@ Painotalolle voidaan luoda oma käyttäjätunnus, millä se voi itse käydä lat
 ## Postitusten haku
 
 **Postitusten haku** –välilehdellä luodaan eri jakelukanaviin lähetettävät osoitteistotiedostot.
-- Jos halutaan tarkastella tiettyä postitusta, valitaan **Lehti** ja **Ilmestymispäivä**, sekä mahdolliset muut ehdot ennen **Hae** –painikkeen klikkausta (LähetysID on sama koko postituksella)
+- Jos halutaan tarkastella tiettyä postitusta, valitaan **Lehti** ja **Ilmestymispäivä**, sekä mahdolliset muut ehdot ennen **Hae**–painikkeen klikkausta (LähetysID on sama koko postituksella)
 
 ![Postituslista - Postitusten haku](/img/ohjeet/postitustenhaku1.png)
 
-Valitsemalla Niputustapa-valikosta Varhaisjakelu, saat listaukselle näkyviin vain varhaisjakelun niput. 
+Valitsemalla **Niputustapa**-valikosta **Varhaisjakelu**, saat listaukselle näkyviin vain varhaisjakelun nippuihin kuuluvat tilaukset. 
 
 ![Postituslista - Postitusten haku](/img/ohjeet/niputustapa.png)
 
-Valitsemalla Kyllä Varhaisjakelun esto -valikosta, saat listaukselle näkyviin ne tilaukset, mitkä on asiakaskortilta pakotettu päiväjakoon varhaisjakelun sijaan.
+Valitsemalla Kyllä **Varhaisjakelun esto** -valikosta, saat listaukselle näkyviin vain ne tilaukset, mitkä on asiakaskortilta pakotettu päiväjakoon varhaisjakelun sijaan.
 
-Eston aiheuttamia nippujen muutoksia pääset tarkkailemaan painamalla **Näytä niput ilman varhaisjakeluestoa** –painikkeesta, jolloin listauksessa näkyy päiväjakoon pakotettujen tilauksien alkuperäinen nippunumero punaisella.
+Varhaisjakelun eston aiheuttamia nippujen muutoksia pääset tarkkailemaan painamalla **Näytä niput ilman varhaisjakeluestoa** –painikkeesta, jolloin listauksessa näkyy päiväjakoon pakotettujen tilauksien alkuperäinen nippunumero punaisella.
 
 Listauksessa erotat päiväjakoon pakotetut tilaukset **Varhaisjakelun esto** -sarakkeessa olevasta **K**-kirjaimesta.
 
