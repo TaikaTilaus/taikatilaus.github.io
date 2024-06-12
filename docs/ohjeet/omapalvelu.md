@@ -22,7 +22,7 @@ Aiemmin käyttämällään tunnuksellaan (esim. Asiakasnumero) asiakas voi kirja
 
 - Asiakaskortilla oltava **pakolliset tiedot**: Etunimi, Sukunimi, Asiakasnumero ja Sähköpostiosoite
 
-Taikatilaus-ylläpitäjä voi myös **luoda tunnuksen** asiakkaalle tämän asiakaskortilla.
+Taikatilaus-ylläpitäjä voi myös **luoda tunnuksen** asiakkaalle tämän asiakaskortilla. Hallintakäyttäjän ylläpito-ohjeet tunnuksen salasanaa varten löytyvät <a href="http://localhost:3000/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#omapalvelu">täältä.</a>
 
 Uudelle asiakkaalle lähetetään tunnuksen aktivoitumisesta viesti, kun tilauksesta lähetetty lasku on maksettu.
 
@@ -31,8 +31,6 @@ Mikäli yrityksen sivustolla on käytössä oma rekisteröinti-/kirjautumislomak
 Palvelusta kirjaudutaan ulos avaamalla oikean reunan sivupalkki ja painamalla **Kirjaudu ulos** -painikkeesta.
 
 ![OmaPalvelu](/img/omapalvelu/3.png)
-
-Hallintakäyttäjän ylläpito-ohjeet tunnuksen salasanaa varten löytyvät <a href="http://localhost:3000/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#omapalvelu">täältä.</a>
 
 ## Salasanan vaihtaminen
 
@@ -223,58 +221,82 @@ Lomakkeella:
 
 ### Muuta nykyistä tilaustasi
 
-**Muuta nykyistä tilaustasi** -välilehdeltä käyttäjä voi muuttaa olemassa olevaa tilaustaan.
+**Muuta nykyistä tilaustasi** -välilehdeltä käyttäjä voi muuttaa olemassa olevaa tilaustaan valitsemalla muutettavan tilauksen, miten hän haluaa sitä muuttaa ja milloin muutos astuu voimaan. Halutessaan käyttäjä voi lisätä lisätietoja.
 
 ![OmaPalvelu](/img/omapalvelu/24.png)
 
 ### Tilaa digilukuoikeus
 
+**Tilaa digilukuoikeus** -välilehdeltä käyttäjä voi tilata lehteen digilukuoikeuden ja siirtyä maksamaan sen.
+
 ![OmaPalvelu](/img/omapalvelu/25.png)
 
 ### Perhetunnukset
+
+**Perhetunnukset**-välilehdellä käyttäjä voi liittää tunnukseensa perhetunnuksia. Perhetunnuksien aktivoinnin ja määrän voidaan määrittää yrityskohtaisesti.
 
 ![OmaPalvelu](/img/omapalvelu/26.png)
 
 ### Siirry lukemaan
 
+**Siirry lukemaan** -välilehdeltä käyttäjä voi siirtyä näköislehden sivuille.
+
 ![OmaPalvelu](/img/omapalvelu/27.png)
 
 ### Juttuvinkki
+
+**Juttuvinkki** - välilehden kautta käyttäjä voi lähettää lehden toimitukselle juttuvinkkejä ja tarvittaessa liittää vinkkiin mediaa.
 
 ![OmaPalvelu](/img/omapalvelu/28.png)
 
 ### Arvonta
 
+**Arvonta**-välilehdeltä käyttäjä voi osallistua yrityksen pitämiin arvontoihin.
+
 ![OmaPalvelu](/img/omapalvelu/29.png)
 
 ### Uutiset
+
+**Uutiset**-välilehdeltä käyttäjä näkee newsfeedin ja pääsee siirtymään lukemaan uutisia linkkien kautta.
 
 ![OmaPalvelu](/img/omapalvelu/30.png)
 
 ### Sääennuste
 
+**Sääennuste**-välilehdeltä käyttäjä näkee sääennusteen ja pääsee linkkien kautta lukemaan säätiedotteita.
+
 ![OmaPalvelu](/img/omapalvelu/31.png)
 
 ### Päivän sarjakuvat
+
+**Päivän sarjakuvat** -välilehdeltä käyttäjä pääsee lukemaan päivän sarjakuvat suoraan ohjelmasta.
 
 ![OmaPalvelu](/img/omapalvelu/32.png)
 
 ### Kyselyt
 
+**Kyselyt**-välilehdeltä käyttäjä pääsee vastaamaan yrityksen pitämiin kyselyihin.
+
 ![OmaPalvelu](/img/omapalvelu/33.png)
 
 ### Viihde
+
+**Viihde**-välilehdeltä käyttäjä pääsee pelaamaan pelejä.
 
 ![OmaPalvelu](/img/omapalvelu/34.png)
 
 ### Sosiaalinen media
 
+**Sosiaalinen media** -välilehdeltä käyttäjä pääsee näkemään esim. yrityksen Facebook feedin.
+
 ![OmaPalvelu](/img/omapalvelu/35.png)
 
 ### Kaavio
+
+**Kaavio**-välilehdeltä käyttäjä pääsee katsomaan yrityksen jakamaa kaaviota.
 
 ![OmaPalvelu](/img/omapalvelu/36.png)
 
 ### Tilaushinnat
 
-// ei kuvaa
+// ei kuvaa enkä ole varma mitä tämä tekee
