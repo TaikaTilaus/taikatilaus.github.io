@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Ohjeet": {
+    "message": "Ohjeet",
+    "description": "The label for category Ohjeet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tilausten hallinta": {
+    "message": "Tilausten hallinta",
+    "description": "The label for category Tilausten hallinta in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tilausten hallinta.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Tilausten hallinta in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Ilmoitusten hallinta": {
+    "message": "Ilmoitusten hallinta",
+    "description": "The label for category Ilmoitusten hallinta in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Yleiset ominaisuudet": {
+    "message": "Yleiset ominaisuudet",
+    "description": "The label for category Yleiset ominaisuudet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pikaohjeet": {
+    "message": "Pikaohjeet",
+    "description": "The label for category Pikaohjeet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.FAQ": {
+    "message": "FAQ",
+    "description": "The label for category FAQ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Versiotiedotteet": {
+    "message": "Versiotiedotteet",
+    "description": "The label for category Versiotiedotteet in sidebar tutorialSidebar"
+  }
+}

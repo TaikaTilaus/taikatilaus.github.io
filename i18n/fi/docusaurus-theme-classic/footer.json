@@ -1,0 +1,42 @@
+{
+  "link.title.Ohjeet": {
+    "message": "Ohjeet",
+    "description": "The title of the footer links column with title=Ohjeet in the footer"
+  },
+  "link.title.Tukipalvelu": {
+    "message": "Tukipalvelu",
+    "description": "The title of the footer links column with title=Tukipalvelu in the footer"
+  },
+  "link.title.Ajankohtaista": {
+    "message": "Ajankohtaista",
+    "description": "The title of the footer links column with title=Ajankohtaista in the footer"
+  },
+  "link.item.label.Ohjeet": {
+    "message": "Ohjeet",
+    "description": "The label of footer link with label=Ohjeet linking to /docs/etusivu"
+  },
+  "link.item.label.Pikaohjeet": {
+    "message": "Pikaohjeet",
+    "description": "The label of footer link with label=Pikaohjeet linking to /docs/pikaohjeet/alennuksen-lisaaminen"
+  },
+  "link.item.label.Tukiportaalin ohjeet": {
+    "message": "Tukiportaalin ohjeet",
+    "description": "The label of footer link with label=Tukiportaalin ohjeet linking to /docs/tukiportaali"
+  },
+  "link.item.label.Tukipyyntö": {
+    "message": "Tukipyyntö",
+    "description": "The label of footer link with label=Tukipyyntö linking to https://taikatilausoy.freshdesk.com/support/home"
+  },
+  "link.item.label.Uutiset": {
+    "message": "Uutiset",
+    "description": "The label of footer link with label=Uutiset linking to /blog"
+  },
+  "link.item.label.TaikaTilaus": {
+    "message": "TaikaTilaus",
+    "description": "The label of footer link with label=TaikaTilaus linking to https://www.taikatilaus.fi"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 TaikaTilaus Oy.",
+    "description": "The footer copyright"
+  }
+}

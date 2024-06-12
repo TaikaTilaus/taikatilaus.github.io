@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "TaikaTilaus",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "TaikaTilaus Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Ohjeet": {
+    "message": "Ohjeet",
+    "description": "Navbar item with label Ohjeet"
+  },
+  "item.label.Pikaohjeet": {
+    "message": "Pikaohjeet",
+    "description": "Navbar item with label Pikaohjeet"
+  },
+  "item.label.Ohjevideot": {
+    "message": "Ohjevideot",
+    "description": "Navbar item with label Ohjevideot"
+  },
+  "item.label.Uutiset": {
+    "message": "Uutiset",
+    "description": "Navbar item with label Uutiset"
+  },
+  "item.label.Tukipyyntö": {
+    "message": "Tukipyyntö",
+    "description": "Navbar item with label Tukipyyntö"
+  }
+}
