@@ -293,6 +293,6 @@ Lomakkeella:
 
 ### Omat toiminnot
 
-Voit myös tehdä omia sisältöjä HTML:llä asetuksien kautta. Tässä esimerkkinä HTML:llä tehty kaavio.
+Voit myös tehdä omia sisältöjä HTML:llä <a href="/docs/ohjeet/asetukset#toiminnot">asetuksien kautta</a>. Tässä esimerkkinä HTML:llä tehty kaavio.
 
 ![OmaPalvelu](/img/omapalvelu/36.png)
