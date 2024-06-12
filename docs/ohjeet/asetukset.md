@@ -644,73 +644,76 @@ Voit myös poistaa käyttäjän painamalla **Poista**-painiketta lomakkeen oikea
 
 **OmaPalvelu**–välilehdellä määritellään asiakaskohtaiset asetukset lehti- ja ilmoitusasiakkaiden OmaPalvelun käyttöä varten
 
-Oletusasetuksiin määritellään kirjautumiseen liittyen mm.
+Asetuksiin määritellään kirjautumiseen liittyen mm.
 
 - Sovelluksen nettiosoite ja nimi
 - Kirjautumisnäkymien otsikot ja muut ohjetekstit
 - Oheistoimintojen ohjauslinkit
 - Toimintoihin liittyvien viestien otsikot ja sisältötekstit
 
-### Lomakkeen yksityiskohtainen läpikäynti
+### Tilauslomakkeen asetukset
 
-- Tilauslomakkeen tuotteet:
-- TIlauslomakkeen piilotetut tuotteet
-- Tilauslomakkeen tarjoustuotteet:
-- Tilauslomakkeen oletuksena valittu tuote
-- Siirry lehtien tilauslomakkeella ensin tuotelistaan
+Tilauslomakkeen asetukset määrittävät, mitä tuotteita on saatavilla uuden tilauksen lomakkeella OmaPalvelussa
+
+- **Tilauslomakkeen tuotteet** -kenttään annetaan niiden tuotteiden TuoteID:t, jotka halutaan olevan valittavissa tilauslomakkeella
+- **Tilauslomakkeen piilotetut tuotteet** -kenttään annetaan sen tuotteen TuoteID, joka tulee näkyviin vain kun lomakkeelle siirrytään tarjouslinkin kautta
+- **Tilauslomakkeen tarjoustuotteet** -kenttään merkitään yllä listatuista tuoteista ne, jotka ovat tarjoustuoitteita
+- **Tilauslomakkeen oletuksena valittu tuote** -kenttään laitetaan sen tuotteen TuoteID, joka on lomakkeella oletuksena valittuna
+- **Siirry lehtien tilauslomakkeella ensin tuotelistaan** -kentän aktivoidessa lomakkeen aloitussivuna toimii tuotelista
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu2.png)
 
+![OmaPalvelu](/img/omapalvelu/tuotelista.png)
+*Tilauslomakkeen tuotelista*
+
 ### Automaattiviestit
 
-- OmaPalvelun käyttäjätunnuksen luontisähköposti
-- Salasanan resetöintisähköposti
+- **OmaPalvelun käyttäjätunnuksen luontisähköposti** -kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetään, kun asiakkaalle on luotu tunnus OmaPalveluun
+- **Salasanan resetöintisähköposti** -kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetään, kun asiakas on pyytänyt salasanan resetointia
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu3.png)
 
-- Korttiveloituksen epäonnistuminen
-- Perhekutsu
+- **Automaattisen korttiveloituksen epäonnistuminen** -kenttiin voit asettaa otsikon ja tekstin viestiin, joka lähetetään, kun automaattinen korttiveloitus epäonnistuu
+- **Perhekutsu** -kentistä voit asettaa otsikon ja tekstin viestille, joka lähetetään, kun OmaPalvelun käyttäjä on lisännyt tililleen perhetunnuksia
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu4.png)
 
-- Viestin kiellistys
+- **Viestin kiellistys**: jos on tarvetta voit lisätä eri kieliversiota automaattiviesteihin. Viestien kieli määräytyy OmaPalvelun käyttäjän  omasta kiellistys asetuksesta.
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu5.png)
 
 ### Toiminnot
 
-- OmaPalvelu2 -toiminnot käytössä:
-- Asiakasyrityksen tyylisivu
-- Perhetunnus käytössä
-- Toiminnallisuuksien aktivointi:
+- **OmaPalvelu2 -toiminnot käytössä** -kentästä aktivoidaan käyttöön OmaPalvelu2-ohjelman toiminnot. Vanhasta OmaPalvelusta ollaan siirtymävaiheessa uuteen palveluun.
+- **Asiakasyrityksen tyylisivu** -kenttään ladataan yrityksen tyylisivu
+- **Perhetunnus käytössä** -kentästä aktivoidaan perhetunnukset käyttöön
+- **Toiminnallisuuksien aktivointi:** kentistä aktivoidaan käyttöön eri toiminnallisuuksia, joista voit lukea enemmän <a href="/docs/ohjeet/omapalvelu#sisältö">täältä</a>
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu6.png)
 
-- Ryhmäkysely:
-- Supertarjous
-- HTML
+- **Ryhmäkysely** -toiminnon aktivoidessasi tulee OmaPalveluun kysely, johon vastaavat asiakkaat voidaan lajitellaan omaan ryhmäänsä. Näin voit suorittaa esim. arvontoja
+- **Supertarjous** -kentän aktivoimalla voit kohdistaa OmaPalvelussa mainontaa tietylle asiakasryhmälle
+- **HTML** -kentillä voit tehdä OmaPalveluun omia sisältöjä
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu7.png)
 
 ### Kirjautumisnäkymien otsikot ja palvelun osoitteet
 
-- Kirjautumisnäytön Rekisteröidy-linkin osoite
-- OmaPalvelu-sovelluksen nimi
-- Kirjautumisnäytön kirjautumisen otsikko
-- Kirjautumisnäytön rekisteröidy teksti
-- Kirjautumisnäytön kertakirjautumissivun otsikko
+- **Kirjautumisnäytön Rekisteröidy-linkin osoite** -kenttään asetetaan, minkä osoitteen kautta palveluun rekisröidytään
+- **OmaPalvelu-sovelluksen nimi** -kenttään määritetään OmaPalvelu-sovelluksen yrityskohtainen nimi
+- **Kirjautumisnäytön kirjautumisen otsikko** -kenttään määritetään kirjaustumisnäyttöön tuleva kirjautumisen otsikko
+- **Kirjautumisnäytön rekisteröidy teksti** -kenttään määritetään rekisteröitymiseen tuleva teksti
+- **Kirjautumisnäytön kertakirjautumissivun otsikko** -kenttään määritetään kertakirjautumisvaihtoehdolle tuleva otsikko
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu8.png)
 
-- Kirjautumisnäytön kertakirjautumissivun teksti
-- Kirjautumisnäytön kertakirjautumissivun ohje
-- Kirjautumisnäytön kertakirjautumismeilin otsikko
-- Kirjautumisnäytön kertakirjautumismeilin viesti
+- **Kirjautumisnäytön kertakirjautumissivun ohje** -kenttään määritetään kertakirjautumista koskeva ohje
+- **Kirjautumisnäytön kertakirjautumismeilin otsikko ja viesti** -kenttiin määritetään sisältö sähköpostilla lähetettävään automaattiviestiin, joka lähetetään kun asiakas on pyytänyt kertakirjautumislinkkiä
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu9.png)
 
-- Tietosuojasivun osoite
-- REST-API URL
+- **Tietosuojasivun osoite** -kenttään määritetään osoite, josta löytyy sovelluksen tietosuojatiedote
+- **REST-API URL** //???
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu10.png)
 

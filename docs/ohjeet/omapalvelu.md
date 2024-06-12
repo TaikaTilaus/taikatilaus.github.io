@@ -291,12 +291,8 @@ Lomakkeella:
 
 ![OmaPalvelu](/img/omapalvelu/35.png)
 
-### Kaavio
+### Omat toiminnot
 
-**Kaavio**-välilehdeltä käyttäjä pääsee katsomaan yrityksen jakamaa kaaviota.
+Voit myös tehdä omia sisältöjä HTML:llä asetuksien kautta. Tässä esimerkkinä HTML:llä tehty kaavio.
 
 ![OmaPalvelu](/img/omapalvelu/36.png)
-
-### Tilaushinnat
-
-// ei kuvaa enkä ole varma mitä tämä tekee
