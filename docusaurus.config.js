@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TaikaTilaus tukipalvelu',
+  title: 'TaikaTilaus-tukipalvelu',
   tagline: 'Kuinka voimme auttaa?',
   favicon: 'img/favicon.png',
 

@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Ohjeet',
-    Svg: require('@site/static/img/manual-book.svg').default,
+    Svg: require('@site/static/img/user-guide.svg').default,
     description: (
       <>
         Yksityiskohtaiset ohjeet TaikaTilaus-sovelluksen käyttöön.
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Pikaohjeet',
-    Svg: require('@site/static/img/time-passing.svg').default,
+    Svg: require('@site/static/img/quick-guide.svg').default,
     description: (
       <>
         Pikaohjeita tavallisiin käyttötapauksiin.
@@ -35,7 +35,7 @@ const FeatureList = [
   },  
   {
     title: 'Ohjevideot',
-    Svg: require('@site/static/img/digital-product.svg').default,
+    Svg: require('@site/static/img/video-guide.svg').default,
     description: (
       <>
         TaikaTilaus-sovelluksen ohjevideoita.
@@ -45,7 +45,7 @@ const FeatureList = [
   },  
   {
     title: 'Tukiportaalin ohjeet',
-    Svg: require('@site/static/img/customer-service.svg').default,
+    Svg: require('@site/static/img/support.svg').default,
     description: (
       <>
         Freshdesk-tukiportaalin ohjeet.
@@ -55,7 +55,7 @@ const FeatureList = [
   },
   {
     title: 'Uutiset',
-    Svg: require('@site/static/img/megaphone.svg').default,
+    Svg: require('@site/static/img/ilmoitukset.svg').default,
     description: (
       <>
         Uutisarkisto ja versiotiedotteet.
