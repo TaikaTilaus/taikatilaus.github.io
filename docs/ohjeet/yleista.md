@@ -31,7 +31,7 @@ Palvelussa käytetään erilaisia kirjautumistapoja, kuten henkilökohtaiset **t
 
 *TaikaTilaus-sovelluksen kirjautumiskenttä*
 
-**Tilaaja-/ilmoitusasiakkaat** pääsevät kirjautumaan käyttämään **OmaPalvelu**-toimintoja https://OmaTaika.taikatilaus.fi osoitteessa. Selaimen osoite muuttuu **asiakaskohtaisesti**, esim. OmaLehti. Asiakas pääse sitten sisään palveluun syöttämällä heille luodun käyttäjätunnuksen ja salasanan avautuvaan kirjautumisikkunaan.
+**Tilaaja-/ilmoitusasiakkaat** pääsevät kirjautumaan käyttämään **OmaPalvelu**-toimintoja https://oma.taikatilaus.fi osoitteessa. Selaimen osoite muuttuu **asiakaskohtaisesti**, esim. OmaLehti. Asiakas pääse sitten sisään palveluun syöttämällä heille luodun käyttäjätunnuksen ja salasanan avautuvaan kirjautumisikkunaan.
 
 ## Ohjeet ja ilmoitukset
 
@@ -41,7 +41,7 @@ Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät TaikaTilaus-
 
 *TaikaTilaus-palvelusta pääsee ohjesivustolle **Ohjeet**-ikonia painamalla.*
 
-**Pikaohjeet**- ja **FAQ**-välilehdistä löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **Ohjevideot**-välilehdestä. Pidemmät ohjeet lyödät **Ohjeet**-välilehdeltä. Ohjesivustolta löytyy myös ohjeet **Freshdesk**-tukiportaalin käyttöön. TaikaTilauksen **uutiskirjearkiston** ja **versiotiedotteet** löydät myös tukiportaalista **Uutiset**-välilehdeltä.
+**[Pikaohjeet](/docs/category/pikaohjeet)**- ja **[FAQ](/docs/category/faq)**-sivuilta löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **[Ohjevideot](/docs/ohjevideot)**-sivulta. Pidemmät ohjeet lyödät **[Ohjeet](/docs/category/ohjeet)**-välilehdeltä. Ohjesivustolta löytyy myös ohjeet **[Freshdesk](/docs/tukiportaali)**-tukiportaalin käyttöön. TaikaTilauksen **uutiskirjearkiston** ja **versiotiedotteet** löydät myös tukiportaalista **[Uutiset](/blog)**-välilehdeltä.
 
 ![Ohjesivusto](/img/ohjeet/tukiportaali.png)
 *Ohjesivuston etusivu.*
@@ -70,7 +70,7 @@ Ohjelma näyttää **virheilmoitukset** punaisella virhekentällä, missä lukee
 
 ## Etusivu
 
-Etusivun kautta voidaan tehdä erilaisia hakuja asiakasrekisteristä.Etusivun hakukenttien **näkyvyys** vaihtelee käytössä olevien palveluiden mukaisesti. Mikäli käytössä on **vain Tilaushallinta**, niin Varausnumero ja Myyjät -hakukenttiä ei näy
+Etusivun kautta voidaan tehdä erilaisia hakuja asiakasrekisteristä.Etusivun hakukenttien **näkyvyys** vaihtelee käytössä olevien palveluiden mukaisesti. Mikäli käytössä on **vain Tilausten hallinta**, niin Varausnumero ja Myyjät -hakukenttiä ei näy
 
 ![sovelluksen etusivu](/img/ohjeet/etusivu.png)
 *TaikaTilaus-sovelluksen etusivu*
