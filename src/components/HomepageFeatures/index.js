@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Ohjeet',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/manual-book.svg').default,
     description: (
       <>
         Yksityiskohtaiset ohjeet TaikaTilaus-sovelluksen käyttöön.
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Pikaohjeet',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/time-passing.svg').default,
     description: (
       <>
         Pikaohjeita tavallisiin käyttötapauksiin.
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'FAQ',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/faq.svg').default,
     description: (
       <>
         Usein kysyttyjä kysymyksiä TaikaTilaukseen liittyvistä aiheista.
@@ -35,7 +35,7 @@ const FeatureList = [
   },  
   {
     title: 'Ohjevideot',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/digital-product.svg').default,
     description: (
       <>
         TaikaTilaus-sovelluksen ohjevideoita.
@@ -45,17 +45,17 @@ const FeatureList = [
   },  
   {
     title: 'Tukiportaalin ohjeet',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/customer-service.svg').default,
     description: (
       <>
-        Freshdesk tukiportaalin ohjeet.
+        Freshdesk-tukiportaalin ohjeet.
       </>
     ),
     url: '/docs/tukiportaali'
   },
   {
     title: 'Uutiset',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/megaphone.svg').default,
     description: (
       <>
         Uutisarkisto ja versiotiedotteet.

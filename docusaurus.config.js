@@ -78,7 +78,7 @@ const config = {
         title: 'TaikaTilaus',
         logo: {
           alt: 'TaikaTilaus Logo',
-          src: 'img/logo_bg_pun.png',
+          src: 'img/logo-orange.png',
         },
         items: [
           {
