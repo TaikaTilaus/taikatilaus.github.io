@@ -260,7 +260,7 @@ Välilehdeltä voi lisätä toisistaan poikkeavia tekstejä tilaustuotteiden, er
 TIlauslaskuille voi lisätä:
 
 - tekstin laskulle
-- laskutekstin //what is the difference?
+- tilauslaskun laskutekstin
 - maksumuistutuksien tekstit
 
 ![Laskutekstit-välilehti](/img/ohjeet/laskutekstit2.png)
@@ -407,9 +407,7 @@ Irtonumeroiden **lisäyksessä syötetään** jokainen lehden irtonumero **omall
 
 ## Vastaanottoilmoitukset
 
-/// ei mitään hajua mitä tämä tarkoittaa, selitys
-
-**Vastaanottoilmoitukset**–välilehden listauksen avulla vertaillaan vastaanotetut valtuutukset asiakasrekisteristä löytyviin asiakaskortteihin
+**Vastaanottoilmoitukset**–välilehden listauksen avulla vertaillaan vastaanotetut valtuutukset asiakasrekisteristä löytyviin asiakaskortteihin.
 
 RI-sanomassa saadut Vastaanottoilmoitusten **Koodit** ovat
 0 = Lisäys

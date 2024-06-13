@@ -36,7 +36,7 @@ Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan Avaa
 Asiakkaan **Yhteystiedot** -osiossa lisätään asiakkaalle perustietoja, kuten:
 - Yhteystiedot
 - Varhaisjakelun esto
-- Pakotus tiettyyn Varhaisjakelun nippuun //laajennus, mitä tarkoittaa
+- Pakotus tiettyyn Varhaisjakelun nippuun
 - Syntymävuosi
 - Asiakastyyppi (esim. onko kyseessä Henkilö- tai Yritysasiakas)
 
