@@ -149,12 +149,12 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: '5STAXL8M7K',
+        appId: '21SMQAJV6J',
   
         // Public API key: it is safe to commit it
-        apiKey: '9a4df9f5cc99ae0e2f77bcc29172c771',
+        apiKey: '9784c5bff78f1c6955a87080cc738edf',
   
-        indexName: 'crawler_taikatilaus.github.io',
+        indexName: 'crawler_support.taikatilaus.fi',
   
         // Optional: see doc section below
         contextualSearch: true,
