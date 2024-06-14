@@ -21,7 +21,7 @@ const FeatureList = [
         Pikaohjeita tavallisiin käyttötapauksiin.
       </>
     ),
-    url: '/docs/pikaohjeet/asiakkaan-lisaaminen'
+    url: '/docs/pikaohjeet/alennuksen-lisaaminen'
   },
   {
     title: 'FAQ',
