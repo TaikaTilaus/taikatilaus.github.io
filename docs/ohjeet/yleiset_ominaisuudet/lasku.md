@@ -424,14 +424,14 @@ Näin jäljelle jää alkuperäinen lasku ja hyvityslasku katoaa listaukselta ja
 
 #### Muistutuslaskujen tekstitykset
 
-Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään <a href="https://taikatilaus.github.io/docs/ohjeet/asetukset#laskutekstit">**Asetukset/Laskutekstit** –näkymässä</a>.
+Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään **[Asetukset/Laskutekstit](/docs/ohjeet/asetukset#laskutekstit)** –näkymässä.
 
 #### Ennen muistutuslaskujen luontia
 
 Ennen muistutuslaskujen luontia tulee varmistaa, että mahdolliset **virhetilanteet on korjattu**. Virheellisiä suorituksia löytää:
 
-- <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/pankki#pankkiaineistojen-k%C3%A4sittely">Pankki/Lisätyt aineistot</a> -näkymästä
-- <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/suoritukset">Suoritukset</a>-välilehdeltä
+- [Pankki/Lisätyt aineistot](/docs/ohjeet/yleiset_ominaisuudet/pankki#pankkiaineistojen-k%C3%A4sittely) -näkymästä
+- [Suoritukset](/docs/ohjeet/yleiset_ominaisuudet/suoritukset)-välilehdeltä
 
 #### Muistutuslaskujen haku
 
@@ -466,7 +466,7 @@ Tarvittaessa voi jo lähetetystä maksumuistutuksesta tulostaa alkuperäisen Las
 
 Tilauksiin liittyviin Maksumuistutus-laskuihin voidaan lisätä automaattinen **päätöskäsittely**, mikäli Maksumuistutus #2 –laskua ei ole maksettu. 
 
-Ohjeet maksamattoman tilauksen manuaaliseen katkaisuun löytyy <a href="https://taikatilaus.github.io/docs/ohjeet/tilaustenhallinta/tilaukset#tilauksen-katkaisu-maksamattomana">Tilaus-välilehdeltä.</a> Tilauksen katkaisun yhteydessä muodostetaan **Loppulasku** jo toimitetuista lehdistä.
+Ohjeet maksamattoman tilauksen manuaaliseen katkaisuun löytyy [Tilaus-välilehdeltä](/docs/ohjeet/tilaustenhallinta/tilaukset#tilauksen-katkaisu-maksamattomana). Tilauksen katkaisun yhteydessä muodostetaan **Loppulasku** jo toimitetuista lehdistä.
 
 Mikäli asiakas ei maksa myöskään **Loppulaskua**, niin se käsitellään eräpäivän jälkeen **automaattisesti**.
 
@@ -593,7 +593,7 @@ Esimerkiksi laskun kopioiminen asiakkaalle tehdään:
 ![Laskut-välilehti](/img/ohjeet/esimerkit4-5.png)
 
 5. Tallennetaan
-6. Jatketaan <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/lasku#laskujen-l%C3%A4hetys-1">Laskun lähetys</a> -välilehdessä laskun lähettämiseksi asiakkaalle
+6. Jatketaan [Laskun lähetys](/docs/ohjeet/yleiset_ominaisuudet/lasku#laskujen-l%C3%A4hetys-1) -välilehdessä laskun lähettämiseksi asiakkaalle
 
 ### Laskun osahyvittäminen
 

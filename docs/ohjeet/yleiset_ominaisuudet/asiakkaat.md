@@ -67,7 +67,7 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 
 ### Ryhmittely
 
-**Ryhmittely**-osiossa voidaan asiakkaalle aktivoida <a href="https://taikatilaus.github.io/docs/asetukset#muut-asetukset">asetuksista määritellyistä valikoista </a> mm.
+**Ryhmittely**-osiossa voidaan asiakkaalle aktivoida [asetuksista määritellyistä valikoista](/docs/asetukset#muut-asetukset) mm.
 - **Asiakasroolit**, jonka avulla voi tehdä hakuja ja hyödyntää mm. kohdennetussa viestinnässä
 - **Asiakasryhmät**, jota voi hyödyntää esim. asiakkaiden segmentoinnissa
 - **Vapaa ryhmittely**, johon voi kirjoittaa mitä tahansa tekstiä ja hyödyntää sitä mm. hauissa

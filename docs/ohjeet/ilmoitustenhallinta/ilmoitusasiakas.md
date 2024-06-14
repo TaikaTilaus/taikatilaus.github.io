@@ -135,7 +135,7 @@ Lisättyjä aineistoja **voi poistaa** aktivoimalla **Näytä tiedostojen poista
 - **Lisää ilmoitusvaraus** –painikkeella lisätään uusi mainos-/ilmoitusvaraus
 - **Lisää ilmoituspaketti** –painikkeella lisätään uusi ilmoituspaketin varaus
 
-<a href="https://taikatilaus.github.io/docs/asetukset#paketit">Asetuksissa on voitu luoda myyntituotteista paketteja</a>. Paketin lisäämisessä kerätään automaattisesti siihen kuuluvat myyntituotteet saman myynnin alle, mutta yksittäisten tuotteiden oletushintoja ei huomioida laskua luotaessa
+[Asetuksissa on voitu luoda myyntituotteista paketteja](/docs/asetukset#paketit). Paketin lisäämisessä kerätään automaattisesti siihen kuuluvat myyntituotteet saman myynnin alle, mutta yksittäisten tuotteiden oletushintoja ei huomioida laskua luotaessa
 
 Myynteihin liittyviä mainos-/ilmoitusvarauksia voi hakea listaukselta
 - **Ilmoitusvarauksen numerolla**
@@ -205,7 +205,7 @@ Poikkeavat käsittelyt, mitkä ovat **vain Pääkäyttäjän** tehtävissä:
 
 *Myyntipaketteja voi lisätä ilmoistusasiakkaan Myynnit-välilehdeltä.*
 
-Myytävät ilmoituspaketit pitää olla valmiiksi luotuina <a href="https://taikatilaus.github.io/docs/ohjeet/asetukset#paketit">Asetukset / Paketit -toiminnon</a> kautta.
+Myytävät ilmoituspaketit pitää olla valmiiksi luotuina [Asetukset / Paketit -toiminnon](/docs/ohjeet/asetukset#paketit) kautta.
 
 Myyntipaketin luomiseen pääset painamalla **Lisää ilmoituspaketti** –painiketta.
 

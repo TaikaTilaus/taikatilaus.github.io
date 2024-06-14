@@ -61,4 +61,4 @@ Jos Myynnille on annettu pakettihinta (esim. 50,00 €), niin sen sisältämien 
 
 ![Ilmoitusvaraukset](/img/ohjeet/ilmoitusvaraukset6.png)
 
-Yksityiskohtaiset ohjeet ilmoitusvarauksien ja myyntien hallinnoimiseen lyödät <a href="https://taikatilaus.github.io/docs/ohjeet/ilmoitustenhallinta/ilmoitusasiakas#myynti">täältä.</a>
+Yksityiskohtaiset ohjeet ilmoitusvarauksien ja myyntien hallinnoimiseen lyödät [täältä](/docs/ohjeet/ilmoitustenhallinta/ilmoitusasiakas#myynti).

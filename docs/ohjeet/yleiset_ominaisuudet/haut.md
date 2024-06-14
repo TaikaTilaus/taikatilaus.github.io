@@ -57,7 +57,7 @@ Voit aktivoida hakuihin lisäkriteerejä, jotka karsivat haun tulokset vain lis�
 
 ### Hakutuloksien jatkokäsittely
 
-Hakutulokset voidaan listaukselta siirtää <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/leikepoyta">**Leikepöydälle**</a> jatkokäsittelyä varten
+Hakutulokset voidaan listaukselta siirtää **[Leikepöydälle](/docs/ohjeet/yleiset_ominaisuudet/leikepoyta)** jatkokäsittelyä varten
 - **Lisää tilaajat leikepöydälle** –painikkeesta
 - **Lisää maksajat leikepöydälle** –painikkeesta
 
@@ -75,7 +75,7 @@ Hakutuloslistaukset voi viedä suoraan myös **Excel-taulukkoon** jatkokäsittel
 
 Muutamalla yläosan hakukriteereitä voidaan vaikuttaa myös **Valmiiden hakujen** hakuihin valittujen kriteerien mukaisesti
 - Esim. **Katkaisun syy** –valikosta **voi valita yhden tai useamman** (ctrl –painikkeen käyttö valintaklikkauksen yhteydessä) ehdon, joka **poissulkee valitut** hakutuloslistaukselta
-- Kyseisen valikon vaihtoehdot määritellään <a href="https://taikatilaus.github.io/docs/ohjeet/asetukset#muut-asetukset">**Asetukset / Muut asetukset**</a> -näkymässä
+- Kyseisen valikon vaihtoehdot määritellään **[Asetukset / Muut asetukset](/docs/ohjeet/asetukset#muut-asetukset)** -näkymässä
 
 ![Haut-välilehti](/img/ohjeet/estot.png)
 
