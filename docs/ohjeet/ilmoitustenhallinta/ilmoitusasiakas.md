@@ -135,7 +135,7 @@ Lisättyjä aineistoja **voi poistaa** aktivoimalla **Näytä tiedostojen poista
 - **Lisää ilmoitusvaraus** –painikkeella lisätään uusi mainos-/ilmoitusvaraus
 - **Lisää ilmoituspaketti** –painikkeella lisätään uusi ilmoituspaketin varaus
 
-[Asetuksissa on voitu luoda myyntituotteista paketteja](/docs/asetukset#paketit). Paketin lisäämisessä kerätään automaattisesti siihen kuuluvat myyntituotteet saman myynnin alle, mutta yksittäisten tuotteiden oletushintoja ei huomioida laskua luotaessa
+<a href="/docs/asetukset#paketit">Asetuksissa on voitu luoda myyntituotteista paketteja</a>. Paketin lisäämisessä kerätään automaattisesti siihen kuuluvat myyntituotteet saman myynnin alle, mutta yksittäisten tuotteiden oletushintoja ei huomioida laskua luotaessa
 
 Myynteihin liittyviä mainos-/ilmoitusvarauksia voi hakea listaukselta
 - **Ilmoitusvarauksen numerolla**
