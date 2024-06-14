@@ -205,7 +205,7 @@ Poikkeavat käsittelyt, mitkä ovat **vain Pääkäyttäjän** tehtävissä:
 
 *Myyntipaketteja voi lisätä ilmoistusasiakkaan Myynnit-välilehdeltä.*
 
-Myytävät ilmoituspaketit pitää olla valmiiksi luotuina [Asetukset / Paketit -toiminnon](/docs/ohjeet/asetukset#paketit) kautta.
+Myytävät ilmoituspaketit pitää olla valmiiksi luotuina <a href="/docs/ohjeet/asetukset#paketit">Asetukset / Paketit -toiminnon</a> kautta.
 
 Myyntipaketin luomiseen pääset painamalla **Lisää ilmoituspaketti** –painiketta.
 
