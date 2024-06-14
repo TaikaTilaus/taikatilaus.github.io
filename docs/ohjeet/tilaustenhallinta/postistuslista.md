@@ -43,7 +43,7 @@ Tämä tehdään suorittamalla haku asiakkaan **asiakasnumerolla**. Valitsemalla
 
 ### Osoitteistojen tiedostopainikkeet
 
-**Näytä postitusyhteenveto** –painikkeesta näytetään samat Postituslista–yhteenvetotiedot kuin <a href="https://taikatilaus.github.io/docs/ohjeet/tilaustenhallinta/postistuslista#postituslistan-luonti-1">Postituslistan luonti –sivulla</a>
+**Näytä postitusyhteenveto** –painikkeesta näytetään samat Postituslista–yhteenvetotiedot kuin [Postituslistan luonti –sivulla](/docs/ohjeet/tilaustenhallinta/postistuslista#postituslistan-luonti-1)
 
 ![Postituslista - Postitusten haku](/img/ohjeet/postitusyhteenveto.png)
 

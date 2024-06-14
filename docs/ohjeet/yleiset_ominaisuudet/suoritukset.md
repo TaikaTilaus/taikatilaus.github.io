@@ -82,7 +82,7 @@ Suoritukset–välilehden listauksen **Laskun nro / Tiliöinnit** –sarakkeiden
 - **Muokkaamaan** kyseistä laskua
 - **Lisäämään/Liittämään** tiliöintejä laskulle
 
-Luo lisää laskujen muokkaamisesta <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/lasku">täältä.</a>
+Luo lisää laskujen muokkaamisesta [täältä](/docs/ohjeet/yleiset_ominaisuudet/lasku).
 
 ### Esimerkki suorituksen korjaamisesta
 

@@ -456,7 +456,7 @@ Tämä on hyödyllistä esimerkiksi kohdennetun markkinoinnin kannalta.
 
 **Haku-näytöllä katkaisun syyt mitkä sisältyvät ehtoon: [KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]**, asetetaan ne katkaisun syyt, jotka voidaan karsia hausta. 
 
-Esim. <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/haut">**Haut**</a>-näytön kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat esim. tilaajan kuolemasta tai oikeustoimikelvottomuudesta, niin että nämä asiakkaat eivät joudu soittolistaan.
+Esim. **[Haut](/docs/ohjeet/yleiset_ominaisuudet/haut)**-näytön kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat esim. tilaajan kuolemasta tai oikeustoimikelvottomuudesta, niin että nämä asiakkaat eivät joudu soittolistaan.
 
 ## Pääkäyttäjä
 
@@ -630,7 +630,7 @@ Käyttöoikeiksia asetetaan aktiiviseksi **siirtämällä ne Valittavat toiminno
 
 ![Käyttäjät](/img/ohjeet/kayttajat3.png)
 
-Jos käyttäjällä on käyttöoikeus <a href="https://taikatilaus.github.io/docs/ohjeet/yleiset_ominaisuudet/raportit">raportteihin</a>, voit myös määrittää, mitä raportteja käyttäjä voi nähdä siirtämällä valittuja raportteja kenttien välissä olevilla nuolilla. Raportti tulee käyttäjän näkyväksi **siirtämällä se Valittavat raportit -kentästä Valitut raportit -kenttään**.
+Jos käyttäjällä on käyttöoikeus [raportteihin](/docs/ohjeet/yleiset_ominaisuudet/raportit), voit myös määrittää, mitä raportteja käyttäjä voi nähdä siirtämällä valittuja raportteja kenttien välissä olevilla nuolilla. Raportti tulee käyttäjän näkyväksi **siirtämällä se Valittavat raportit -kentästä Valitut raportit -kenttään**.
 
 Voit myös poistaa käyttäjän painamalla **Poista**-painiketta lomakkeen oikeassa alakulmassa.
 
