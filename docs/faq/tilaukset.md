@@ -26,13 +26,11 @@ Asiakaskortille määritellään uusi osoite ja siirtopäivä, jolloin lehti hal
 
 Jakelu menee automaattisesti tallennetun vakio-osoitteen mukaisesti. Jos se löytyy Varhaisjakelun rekisteristä, niin jaetaan silloin, mutta voidaan myös tarvittaessa pakottaa Päiväjakeluun.
 
-<a href="../pikaohjeet/varhaisjakelun-esto">Lue pikaohje</a>
+<a href="../pikaohjeet/varhaisjakelun-esto">Lue pikaohje.</a>
 
 ### Pysyvätkö jakelun kohdistustiedot asiakaskohtaisesti, kun varhaisjakelualueella oleva tilaus on haluttu päiväpostin kantoon?
 
-Kyllä, meillä on niin sanottu Pakotettu nippu -kenttä, jolla asiakaskohtaisesti voidaan ohittaa normirekisterit ja pakottaa lehti haluttuun/tiettyyn nippuun, vaikka osoite kuuluisi rekisterin mukaan muualle.
-
-// Pikaohje linkki
+Kyllä, meillä on niin sanottu Pakotettu nippu-kenttä, jolla asiakaskohtaisesti voidaan ohittaa normirekisterit ja pakottaa lehti haluttuun/tiettyyn nippuun, vaikka osoite kuuluisi rekisterin mukaan muualle.
 
 ### Kuinka lisään ilmaisia lehtiä tilaukselle?
 

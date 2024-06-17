@@ -86,7 +86,7 @@ Luo lisää laskujen muokkaamisesta [täältä](/docs/ohjeet/yleiset_ominaisuude
 
 ### Esimerkki suorituksen korjaamisesta
 
-/// kuvat 
+<!-- /// kuvat  -->
 
 Käsiteltäviä **Suorituksia** voi hakea mm.
 - **Suoritukset**–listauksen avulla

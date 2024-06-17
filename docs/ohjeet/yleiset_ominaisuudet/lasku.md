@@ -482,11 +482,10 @@ Nämä katkaistujen tilauksien loppulaskut löytyvät Laskut-listauksen hakukrit
 
 ![Laskut-välilehti](/img/ohjeet/laskut-vl16.png)
 
-/// löytyykö alla olevaa raporttia enää?
+<!-- /// löytyykö alla olevaa raporttia enää?
+ Samoin ne on katsottavissa Raportit / Automaattiajolla katkaistut tilaukset –painikkeen avulla
 
-Samoin ne on katsottavissa Raportit / Automaattiajolla katkaistut tilaukset –painikkeen avulla
-
-- Raportti tulostettavissa Excel-taulukkoon jatkokäsittelyä varten listauksen alla olevalla Lataa KatkaistavatTilaukset_ … -painikkeella
+- Raportti tulostettavissa Excel-taulukkoon jatkokäsittelyä varten listauksen alla olevalla Lataa KatkaistavatTilaukset_ … -painikkeella -->
 
 ## Esimerkkitapauksia laskuista
 

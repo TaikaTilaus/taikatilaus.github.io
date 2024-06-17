@@ -22,7 +22,7 @@ Aiemmin käyttämällään tunnuksellaan (esim. Asiakasnumero) asiakas voi kirja
 
 - Asiakaskortilla oltava **pakolliset tiedot**: Etunimi, Sukunimi, Asiakasnumero ja Sähköpostiosoite
 
-Taikatilaus-ylläpitäjä voi myös **luoda tunnuksen** asiakkaalle tämän asiakaskortilla. Hallintakäyttäjän ylläpito-ohjeet tunnuksen salasanaa varten löytyvät <a href="http://localhost:3000/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#omapalvelu">täältä.</a>
+Taikatilaus-ylläpitäjä voi myös **luoda tunnuksen** asiakkaalle tämän asiakaskortilla. Hallintakäyttäjän ylläpito-ohjeet tunnuksen salasanaa varten löytyvät <a href="https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#omapalvelu">täältä.</a>
 
 Uudelle asiakkaalle lähetetään tunnuksen aktivoitumisesta viesti, kun tilauksesta lähetetty lasku on maksettu.
 
@@ -134,7 +134,7 @@ Julkaisua voi mm. selata, suurentaa ja hakea hakusanoilla
 
 ### Ilmoitukset
 
-/// en saa kuvaa tähän
+<!-- /// en saa kuvaa tähän -->
 
 **Ilmoitukset**-välilehdellä käyttäjälle näytetään tietoja ostamistaan ilmoituksista.
 

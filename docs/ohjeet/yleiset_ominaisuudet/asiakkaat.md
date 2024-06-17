@@ -52,7 +52,7 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 - **Koontilasku**: Koontilaskun aktivointi on asiakkaille, jotka haluavat tilaukset yhdelle kokoomalaskulle (yksittäisten tilauslaskujen sijaan)
 - **Laskutuslisä**: Ei laskutuslisää aktivointi on asiakkaille, joilta ei haluta periä automaattisesti lisättävää (ennalta sovittua) laskutuslisää paperilaskujen lähettämisestä (esim. 5 €). Veloitettava oletushinta ja mahdollinen laskun summaan liittyvä rajoitus (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.
 - **Alennusprosentti**: voidaan lisätä, jos halutaan lisätä asiakkaalle pysyvä alennusprosentti, joka huomioidaan laskujen luontivaiheessa automaattisesti.
-- **Maksuehto päivä**: //teksti tähän
+- **Maksuehto päivä** <!-- //teksti tähän  -->
 - **Ilmoitusasiakkaat**:  Lisäksi täällä ilmoitusasiakkaalle liitetään nimetty (oletus) Myyjä, jonka avulla heille aktivoituu Näytä ilmoitusmyynti -linkki Etusivun-listausnäkymään.
 
 ![Asiakaskortti - Laskutustiedot](/img/ohjeet/laskutustiedot.png)
@@ -107,7 +107,7 @@ Tallennettuasi, voit käyttäjätunnusta klikkaamalla asettaa sille salasanan pa
 ### Muut tiedot
 
 **Muut tiedot** -osiossa voidaan asiakkaalle aktivoida mm.
-- **Y-tunnus** //what is this?
+- **Y-tunnus** eli yritystunnus
 - **Estolista**, jolloin hänelle ei toimiteta lehtiä (esim. maksamattomien laskujen takia)
 - **Sisäisiä lisätietoja**, mitkä kaikkien olisi hyvä tietää asiakkaasta
 
