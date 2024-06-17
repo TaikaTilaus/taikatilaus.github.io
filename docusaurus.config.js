@@ -64,15 +64,15 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/TaikaTilaus/taikatilaus.github.io/blob/main',
+          // editUrl:
+          //   'https://github.com/TaikaTilaus/taikatilaus.github.io/blob/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/TaikaTilaus/taikatilaus.github.io/blob/main',
+          // editUrl:
+          //   'https://github.com/TaikaTilaus/taikatilaus.github.io/blob/main',
         },
         theme: {
           customCss: './src/css/custom.css',
