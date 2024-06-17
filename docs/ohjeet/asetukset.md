@@ -126,7 +126,7 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 
 - Tuotteelle on määriteltävä **Valittavissa aikavälillä** -aikarajaus. Jos tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050). Valittavuus tarkoittaa, että tuote on valittavissa ohjelman valikoissa.
 - Tuotteelle määritellään myös **Tilaus mahdollinen aikavälillä** -aikarajaus, joka rajaa sen käytettävissä olevan tilausjakson. Yksittäisen tilauksen alku- ja loppupäivät tulee mahtua annetun aikarajoituksen sisään. Mikäli tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050), koska ’toistaiseksi voimassaolevaa’ tuotetyyppiä ei ole käytettävissä
-- **Tilauksen päättymisaika tuotteesta**: //selitys???
+- **Tilauksen päättymisaika tuotteesta** <!-- //selitys??? -->
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen6.png)
 
@@ -539,8 +539,8 @@ Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta ava
 
 ![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja3.png)
 
-- **Raportoinnissa Reskontraluottelo 2 käytössä** - ///?????
-- **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** -///????
+- **Raportoinnissa Reskontraluottelo 2 käytössä** - <!-- ///???? -->?
+- **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** - <!-- ///???? -->
 - **Valmistuslisän tuoteID** -kenttään syötetään ilmoitusvarauksen valmistuslisän tuotenumero
 - **Käyttäjätunnukset joilla oikeus myyntikiellon käsittelyyn** -kenttään syötetään niiden käyttäjien käyttäjätunnukset, joilla on oikeus ilmoitusasiakkaan myyntikiellon käsittelyyn
 
@@ -568,7 +568,7 @@ Osoitekenttiin voidaan syöttää:
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja9.png)
 
 **Pääkäyttäjätoiminnot**
-- Testaa Wordpress-salasanan tarkistamista ///???
+- Testaa Wordpress-salasanan tarkistamista <!-- ///??? -->
 
 **Muuta tiliöinnin tiliä**
 - painikkeesta painamalla muodostuu alla olevan kuvan mukaiset kentät, joista voi muuttaa yksittäisten tiliöintien tiliä
@@ -711,7 +711,7 @@ Tilauslomakkeen asetukset määrittävät, mitä tuotteita on saatavilla uuden t
 ![OmaPalvelu](/img/ohjeet/omapalvelu9.png)
 
 - **Tietosuojasivun osoite** -kenttään määritetään osoite, josta löytyy sovelluksen tietosuojatiedote
-- **REST-API URL** //???
+- **REST-API URL** <!-- //???  -->
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu10.png)
 

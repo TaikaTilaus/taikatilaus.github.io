@@ -39,7 +39,7 @@ Hakulistauksella näytettäviä sarakkeita voi muuttaa aktivoimalla
 
 ![Ilmoitusvaraukset](/img/ohjeet/ilmoitusvaraukset4.png)
 
-Laskutusajon yhteydessä ohjelma hakee yksittäisille Ilmoitusvarauksille tallennetuista **Hinta-ja laskutus** -tiedoista **PMM-hinnan** ja muut tiedot, joiden pohjalta laskut luodaan. PMM-hinta on //means what?
+Laskutusajon yhteydessä ohjelma hakee yksittäisille Ilmoitusvarauksille tallennetuista **Hinta-ja laskutus** -tiedoista **PMM-hinnan** ja muut tiedot, joiden pohjalta laskut luodaan. <!-- PMM-hinta on //means what? -->
 
 Jos Myynnille on annettu pakettihinta (esim. 50,00 €), niin sen sisältämien yksittäisten myyntivarausten oletushintoja ei sellaisenaan laskulle tulosteta, MUTTA ne **on oltava ilmoitusvarauksilla siitä huolimatta** (ei siis saa poistaa) koska paketin yksittäisiä PMM-tietoja kuitenkin käytetään sille annetun **kokonaishinnan jakamiseksi** laskulle **yksikköhintojen oikeassa suhteessa.**
 
@@ -49,7 +49,7 @@ Jos Myynnille on annettu pakettihinta (esim. 50,00 €), niin sen sisältämien 
 - **Luo Excel** –painikketta (hakutuloksien vienti Exceliin)
 - **Lehden varausluettelo** -painikketta (yksittäisen julkaisun ilmoitusvaraukset)
 - **Varausluettelo**-painikketta (kaikki varaukset valitulta aikaväliltä)
-- **Palstamillimetritilasto** –painikketta //selitys
+- **Palstamillimetritilasto** –painikketta <!-- //selitys -->
 - **Laskutuksen tarkastuslista** -painikketta (määritellyn aikavälin ilmoitusvaraukset laskutustietoineen)
 - **Laskutettavien lista** -painiketta (tiettynä päivänä laskutettavat ilmoitusvaraukset)
 
