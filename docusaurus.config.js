@@ -46,11 +46,11 @@ const config = {
       async: true,
     },
     {
-      src: 'https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.5.0-min.js.gz',
+      src: 'https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.1.9-min.js.gz',
       async: true,
     },
     {
-      src: 'https://cdn.amplitude.com/libs/plugin-autocapture-browser-0.9.2-min.js.gz',
+      src: 'https://cdn.amplitude.com/libs/plugin-autocapture-browser-0.9.0-min.js.gz',
       async: true,
     },
     {
