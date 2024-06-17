@@ -40,6 +40,24 @@ const config = {
     'docusaurus-plugin-image-zoom', // can also just be 'image-zoom'
   ],
 
+  scripts: [
+    {
+      src: 'https://cdn.amplitude.com/libs/analytics-browser-2.8.1-min.js.gz',
+      async: true,
+    },
+    {
+      src: 'https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.5.0-min.js.gz',
+      async: true,
+    },
+    {
+      src: 'https://cdn.amplitude.com/libs/plugin-autocapture-browser-0.9.2-min.js.gz',
+      async: true,
+    },
+    {
+      src: '/amplitude.js',
+    },
+  ],
+
   presets: [
     [
       'classic',

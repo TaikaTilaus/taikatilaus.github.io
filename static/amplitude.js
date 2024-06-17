@@ -1,0 +1,1 @@
+window.amplitude.init('50af07ce299d11f0d48ee7546130a825', { serverZone: 'EU', }); window.amplitude.add(window.sessionReplay.plugin({ sampleRate: 1 })); window.amplitude.add(window.amplitudeAutocapturePlugin.plugin());
