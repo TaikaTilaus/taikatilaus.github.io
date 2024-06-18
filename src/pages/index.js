@@ -29,7 +29,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={``}
       description="Ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä uusimmat tuoteuutiset, uutiskirjearkisto, ja webinaaritallenteet">
       <HomepageHeader />
       <main>
