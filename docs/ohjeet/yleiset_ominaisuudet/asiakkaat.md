@@ -51,7 +51,7 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 - **Suoramaksu**: Suoramaksun aktivointi on verkkopankittoman maksajan maksutapa, eli se sopii asiakkaalle, joka ei käytä verkkopankkia
 - **Koontilasku**: Koontilaskun aktivointi on asiakkaille, jotka haluavat tilaukset yhdelle kokoomalaskulle (yksittäisten tilauslaskujen sijaan)
 - **Laskutuslisä**: Ei laskutuslisää aktivointi on asiakkaille, joilta ei haluta periä automaattisesti lisättävää (ennalta sovittua) laskutuslisää paperilaskujen lähettämisestä (esim. 5 €). Veloitettava oletushinta ja mahdollinen laskun summaan liittyvä rajoitus (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.
-- **Perintäkielto**: aktivoimalla kentän, kyseisen asiakkaan ei maksumuistuteta tai peritä
+- **Perintäkielto**: Aktivoimalla tämän kentän, kyseiselle asiakkaalle ei lähetetä maksumuistutuksia eikä peritä laskuja.
 - **Alennusprosentti**: voidaan lisätä, jos halutaan lisätä asiakkaalle pysyvä alennusprosentti, joka huomioidaan laskujen luontivaiheessa automaattisesti.
 - **Maksuehto päivä**: voidaan lisätä kuinka monta päivää asiakkaalla on aikaa maksaa laskunsa, oletuksena aika on 14 päivää
 - **Ilmoitusasiakkaat**:  Lisäksi täällä ilmoitusasiakkaalle liitetään nimetty (oletus) Myyjä, jonka avulla heille aktivoituu Näytä ilmoitusmyynti -linkki Etusivun-listausnäkymään.
