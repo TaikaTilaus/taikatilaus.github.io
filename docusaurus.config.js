@@ -88,7 +88,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/taikatilaus-social-card.jpg',
       navbar: {
         title: 'TaikaTilaus',
         logo: {
@@ -158,6 +158,11 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} TaikaTilaus Oy.`,
       },
+      metadata: [
+        {name: 'keywords', content: 'tilausten hallinta, ilmoitusten hallinta, ilmoitusmyynti, maksumuuri, asiakashallinta, laskutus, postitus, omapalvelu, omailmoitus, subscription management, advertising, ad management'},
+        {name: 'description', content: 'Ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä uusimmat tuoteuutiset, uutiskirjearkisto, ja webinaaritallenteet' },
+        {name: 'twitter:card', content: 'summary_large_image'},
+      ],
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
