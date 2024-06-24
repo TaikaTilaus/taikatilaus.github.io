@@ -78,7 +78,7 @@ const config = {
           customCss: './src/css/custom.css',
         },
         gtag: {
-          trackingID: 'G-XDZ7S0L9K2', // Replace with your ID
+          trackingID: 'G-FE8605KBTG',
         },
       }),
     ],
