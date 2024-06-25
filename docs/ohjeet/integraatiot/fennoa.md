@@ -44,16 +44,18 @@ Liittymäprosessin suoritus etenee vaiheittain:
 Sujuvimmin käyttöönottoon liittyvät valmistelutyöt voidaan sopia lyhyessä käyttöönottopalaverissa.
 
 1. API-tunnusten tilaus ja lisääminen Fennoaan
-   - TaikaTilauksen asiakkaan tulee lisätä Fennoaan API-tunnukset testi- ja tuotantoympäristöön kirjanpitäjä-oikeuksilla.
+   - Asiakkaan tulee lisätä Fennoaan API-tunnukset testi- ja tuotantoympäristöön kirjanpitäjä-oikeuksilla.
    - Huomiothan, että API-tunnukset ovat maksullisia. Lisätietoja saat Fennoan yhteyshenkilöltäsi.
 
-2. Perustietojen toimittaminen TaikaTilaukseen
+2. Tietojen toimittaminen TaikaTilaukseen
    - Fennoa API testi- ja tuotantotunnukset
    - ajastusaikaväli ja kellonaika
    - sähköposti-ilmoitusten vastaanottaja
 
-3. Käytettävien tilien ja ALV-käsittelyn määrittely
-   - TaikaTilauksen ja Fennoan kirjanpitotilien numerot tulee vastata toisiaan
+3. Kirjanpitotositteen tietojen, käytettävien tilien ja ALV-käsittelyn määrittely
+   - Kirjanpitotositteen tositelaji,  esim. GL2
+   - Kirjanpitotositteen selite
+   - TaikaTilauksen ja Fennoan käytössä olevien tilien numerot tulee vastata toisiaan. Myyntitilit, myyntisaamiset, pankkitili, kassa, maksuhuomautukset, luottotappiot jne.
    - Automaattinen ALV-käsittely voidaan tehdä sekä TaikaTilauksessa että Fennoassa. Liittymän konfiguroinnissa tulee määritellä lähetetäänkö ALV-tiliöinnit Fennoaan. 
 
 4. Liittymän testaus testiympäristössä
