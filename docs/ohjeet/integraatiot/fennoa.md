@@ -47,7 +47,7 @@ Sujuvimmin käyttöönottoon liittyvät valmistelutyöt voidaan sopia lyhyessä 
    - Asiakkaan tulee lisätä Fennoaan API-tunnukset testi- ja tuotantoympäristöön kirjanpitäjä-oikeuksilla.
    - Huomiothan, että API-tunnukset ovat maksullisia. Lisätietoja saat Fennoan yhteyshenkilöltäsi.
 
-2. Tietojen toimittaminen TaikaTilaukseen
+2. Teknisten tietojen toimittaminen TaikaTilaukseen
    - Fennoa API testi- ja tuotantotunnukset
    - ajastusaikaväli ja kellonaika
    - sähköposti-ilmoitusten vastaanottaja
