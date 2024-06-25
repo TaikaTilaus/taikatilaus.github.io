@@ -3,7 +3,7 @@
 
 # Fennoa
 
-Yksisuuntainen integraatio myyntilaskujen kirjanpitotositteiden automaattiseen vientiin TaikaTilauksesta Fennoa taloushallinto-ohjelmaan.
+Yksisuuntainen integraatio myyntilaskujen kirjanpitotositteiden automaattiseen vientiin TaikaTilauksesta [Fennoa](https://fennoa.com/) taloushallinto-ohjelmaan.
 
 ## Yleiskuvaus
 
