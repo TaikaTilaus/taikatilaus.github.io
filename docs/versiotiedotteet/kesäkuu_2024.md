@@ -17,7 +17,7 @@ Myös webinaaritallenteet ja versiotiedotteet löytyvät jatkossa uusilta ohjesi
 
 Teknisinä parannuksia aikaisempaan ovat kattavampi ja helppokäyttöisempi teksihakutoiminto sekä parempi kuvakaappausten suurennus.
 
-Uskomme, että TaikaTilauksen ohjesivusto on laadultaan parhaimpia SaaS-tuotteiden ohjesivustoja, ja aidosti helpottaa käyttäjiemme arkea.
+Ohjesivuston tavoitteena on aidosti helpottaa käyttäjiemme arkea ja ohjeet pyritään pitämään mahdollisimman ajantasaisena.
 
 ## Rivi-ilmoitustyökalu
 
