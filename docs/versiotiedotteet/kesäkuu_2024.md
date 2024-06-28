@@ -12,12 +12,11 @@ Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](h
 
 Uusi TaikaTilaus-tukipalvelu avattu osoitteessa [support.taikatilaus.fi](https://support.taikatilaus.fi/)
 
-Uusien ohjeiden rakenne vastaa paremmin TaikaTilaus-sovelluksen päätoiminnallisuuksia. Kaikki ohjeet päivitetty vastaamaan viimeisimmän version tilannetta ja puuttuvia ohjeita on lisätty.
-Myös webinaaritallenteet ja versiotiedotteet löytyvät jatkossa uusilta ohjesivustolta.
+Uusien ohjeiden rakenne vastaa paremmin TaikaTilaus-sovelluksen päätoiminnallisuuksia. Kaikki ohjeet päivitetty vastaamaan viimeisimmän version tilannetta ja puuttuvia ohjeita on lisätty. Myös webinaaritallenteet ja versiotiedotteet löytyvät jatkossa uusilta ohjesivustolta.
 
 Teknisinä parannuksia aikaisempaan ovat kattavampi ja helppokäyttöisempi teksihakutoiminto sekä parempi kuvakaappausten suurennus.
 
-Ohjesivuston tavoitteena on aidosti helpottaa käyttäjiemme arkea ja ohjeet pyritään pitämään mahdollisimman ajantasaisena.
+Ohjesivustomme tavoitteena on aidosti helpottaa käyttäjiemme arkea, ja pyrimme pitämään ohjeet mahdollisimman ajantasaisina.
 
 ## Rivi-ilmoitustyökalu
 
