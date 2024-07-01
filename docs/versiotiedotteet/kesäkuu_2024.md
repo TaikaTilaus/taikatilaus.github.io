@@ -18,6 +18,8 @@ Teknisinä parannuksia aikaisempaan ovat kattavampi ja helppokäyttöisempi teks
 
 Ohjesivustomme tavoitteena on aidosti helpottaa käyttäjiemme arkea, ja pyrimme pitämään ohjeet mahdollisimman ajantasaisina.
 
+![Tukisivun etusivu](/img/ohjeet/tukiportaali.png)
+
 ## Rivi-ilmoitustyökalu
 
 Ilmoitusten hallinnassa voi nyt tuottaa luokiteltuja rivi-ilmoituksia, esim. Ostetaan, Myydään, Vuokrataan jne.
@@ -27,7 +29,9 @@ Rivi-ilmoituksen ilmoitusvaraus ja PDF siirtyvät integraatioissa lehden taittot
 
 ## Asiakaskohtainen perintäkielto
 
-Ohjelmaan on lisätty uusi toiminto, jolla perintäkielto voidaan määritellä asiakaskohtaisesti, ei vain laskukohtaisesti.
+Ohjelmaan on lisätty uusi toiminto, jolla perintäkielto voidaan määritellä asiakaskohtaisesti, ei vain laskukohtaisesti. Toiminnon saa näkyviin [Pääkäyttäjän asetuksista](https://support.taikatilaus.fi/docs/ohjeet/asetukset#lomakkeen-alkup%C3%A4%C3%A4n-toiminnot) ja sen saa voimaan tietylle asiakkaalle [asiakaskortin laskutustiedoista](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#laskutustiedot).
+
+![Perintökielto](/img/versiotiedotteet/perintakielto-kontakti.png)
 
 ## Alennusprosentti ilmoitusmyynnille
 
