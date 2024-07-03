@@ -37,6 +37,8 @@ Ohjelmaan on lisätty uusi toiminto, jolla perintäkielto voidaan määritellä 
 
 Asiakaskortilla on uusi alennusprosentti-kenttä, mihin voidaan lisätä erillinen alennusprosentti ilmoitusmyynnille.
 
+![Aleprosentti](/img/versiotiedotteet/aleprosentti.png)
+
 ## OmaPalvelu
 
 OmaPalvelu, tilaajien itsepalveluportaali, on kehitetty käyttöönottoprojektien myötä entistä paremmin vastaamaan asiakkaiden tarpeisiin. Palveluun on lisätty asiakaskohtaista mukautettavuutta eri osioiden asetuksiin, mikä mahdollistaa palvelun räätälöinnin lehden käytäntöjen mukaisesti. Esimerkiksi digijulkaisun perhetunnusten lukumäärä on nyt määriteltävissä, ja useimpiin OmaPalvelun osioihin, kuten jakeluhäiriöihin ja juttuvinkkeihin, voidaan määritellä asiakaskohtainen ohjeistus ja viestintäkanava.
