@@ -27,6 +27,8 @@ Ilmoituseditorissa ilmoituksen tekstiä voi muotoilla ja ilmoituksiin voi liitt�
 
 Rivi-ilmoituksen ilmoitusvaraus ja PDF siirtyvät integraatioissa lehden taittotyökaluihin, kuten AdWizard tai Planner.
 
+![Rivi-ilmoitus](/img/versiotiedotteet/RiviIlmoitus.jpg)
+
 ## Asiakaskohtainen perintäkielto
 
 Ohjelmaan on lisätty uusi toiminto, jolla perintäkielto voidaan määritellä asiakaskohtaisesti, ei vain laskukohtaisesti. Toiminnon saa näkyviin [Pääkäyttäjän asetuksista](https://support.taikatilaus.fi/docs/ohjeet/asetukset#lomakkeen-alkup%C3%A4%C3%A4n-toiminnot) ja sen saa voimaan tietylle asiakkaalle [asiakaskortin laskutustiedoista](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#laskutustiedot).
