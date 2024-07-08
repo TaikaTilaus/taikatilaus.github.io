@@ -10,4 +10,4 @@ Huhtikuussa TaikaTilauksen käyttäjät ovat saaneet käyttöönsä odotetun pä
 
 Tietoturvan parantaminen on myös ollut kehityksen ytimessä. Pääkäyttäjille tarjotaan nyt lisäsuojaa kaksivaiheisen tunnistautumisen myötä, mikä on merkittävä askel käyttäjätietojen turvaamisessa. Lisäksi olemme toteuttaneet useita teknisiä tietoturvapäivityksiä, jotka vahvistavat järjestelmän suojausta ja käyttövarmuutta. 
 
-**[Lue lisää](/docs/versiotiedotteet/huhtikuu_2024)**
+**[Lue huhtikuun versiotiedote](/docs/versiotiedotteet/huhtikuu_2024)**

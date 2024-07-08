@@ -16,4 +16,4 @@ Nyt asiakkaat voivat myös ilmoittaa kokemistaan **jakeluhäiriöistä** suoraan
 
 **Liittymät** muihin järjestelmiin ovat olennainen osa sujuvaa käyttöä ja automaatiota. Uutuutena tarjoamme liittymät Planner-suunnittelutyökaluun ja Fennoa-taloushallintojärjestelmään. 
 
-**[Lue lisää](/docs/versiotiedotteet/toukokuu_2024)**
+**[Lue toukokuun versiotiedote](/docs/versiotiedotteet/toukokuu_2024)**
