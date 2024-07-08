@@ -162,6 +162,7 @@ const config = {
         {name: 'keywords', content: 'tilausten hallinta, ilmoitusten hallinta, ilmoitusmyynti, maksumuuri, asiakashallinta, laskutus, postitus, omapalvelu, omailmoitus, subscription management, advertising, ad management'},
         {name: 'description', content: 'Ohjeet TaikaTilaus -ohjelmiston käyttöön, sekä uusimmat tuoteuutiset, uutiskirjearkisto, ja webinaaritallenteet' },
         {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'twitter:image:alt', content: 'TaikaTilaus - Monikanavaista mediaympäristöä tukevat SaaS-ratkaisut tilausten ja ilmoitusten hallintaan.'},
       ],
       prism: {
         theme: prismThemes.github,
