@@ -39,6 +39,8 @@ Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pä�
 - Myyntikielto asetetaan syöttämällä kenttään vapaamuotoista tekstiä
 - Myyntikiellon poistetaan poistamalla kenttään syötetty teksti
 
+![Ilmoitusasiakas - Myynti kielto](/img/ohjeet/myyntikielto.png)
+
 **Yhteyshenkilöt** –listaukselle voi tallentaa ilmoitusmyynteihin liittyvien henkilöiden yhteystietoja, kuten esim.
 - Aineistoista vastaavavien henkilöiden yhteystiedot
 - Ulkopuoliset aineistojen toimittajat
