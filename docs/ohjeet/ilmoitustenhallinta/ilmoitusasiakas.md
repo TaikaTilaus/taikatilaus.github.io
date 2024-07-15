@@ -35,7 +35,7 @@ Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pä�
 - Yhteyshenkilöiden tietoja
 
 **Yhteys- ja laskutustiedot** vastaavat asiakaskortille tallennettuja tietoja.
-- Laskutustiedoista voidaan myös asettaa asiakas Myyntikieltoon, milloin asiakkaalle ei voi luoda ilmoitusvarauksia (esim. laskamattomien maksujen takia)
+- Laskutustiedoista voidaan myös asettaa asiakas Myyntikieltoon, milloin asiakkaalle ei voi luoda ilmoitusvarauksia (esim. maksamattomien laksujen takia)
 - Myyntikielto asetetaan syöttämällä kenttään vapaamuotoista tekstiä
 - Myyntikiellon poistetaan poistamalla kenttään syötetty teksti
 
