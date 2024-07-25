@@ -2,7 +2,7 @@
 sidebar_position: 23
 ---
 
-# Digitilausten päivitys postiluukkuun 
+# Digitilausten päivitys lehtiluukkuun 
 
 ### 1. Postituslista/Postitusten haku -välilehdellä klikkaa **Lehtiluukkuun päivitettävät** -painiketta.
 
