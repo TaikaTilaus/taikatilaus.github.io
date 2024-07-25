@@ -75,6 +75,10 @@ Tämä tehdään suorittamalla haku asiakkaan **asiakasnumerolla**. Valitsemalla
 
 ![Postitusten haku - Vertaa asiakasnumeroilla](/img/ohjeet/vertaa-asiakasnumeroilla.png)
 
+**Lehtiluukkuun päivitettävät** -painikkeesta voit päivittää uudet digitilaajat lehtiluukkuun
+
+![Postitusten haku - Lehtiluukkuun päivitettävät](/img/ohjeet/lehtiluukku1.png)
+
 **Lähetä yhteenveto** -painikkeesta voit lähettää yhteenvedon postituslistan tiedoista aiemmin määritettyyn sähköpostiin.
 
 ![Postitusten haku - Lähetä yhteenveto](/img/ohjeet/yhteenveto.png)
