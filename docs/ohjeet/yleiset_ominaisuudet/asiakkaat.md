@@ -55,10 +55,39 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 - **Alennusprosentti**: voidaan lisätä, jos halutaan lisätä asiakkaalle pysyvä alennusprosentti, joka huomioidaan laskujen luontivaiheessa automaattisesti.
 - **Maksuehto päivä**: voidaan lisätä kuinka monta päivää asiakkaalla on aikaa maksaa laskunsa, oletuksena aika on 14 päivää
 - **Ilmoitusasiakkaat**:  Lisäksi täällä ilmoitusasiakkaalle liitetään nimetty (oletus) Myyjä, jonka avulla heille aktivoituu Näytä ilmoitusmyynti -linkki Etusivun-listausnäkymään.
-- Jos asiakkaalla on **saldoa** palautuksena katkaistuista maksetuista tilauksista, se näkyy laskutietojen alla
+- Jos asiakkaalla on **saldoa**, se näkyy laskutietojen alla. Saldoa voi lisätä asiakkaalle painamalla **Lisää saldoa** -painiketta
 
 ![Asiakaskortti - Laskutustiedot](/img/ohjeet/laskutustiedot.png)
 *Laskutiedoista pääset muokkaamaan asiakkaan maksu- ja laskutietoja tai lisäämään asiakkaan tilauksille toisen maksaja*
+
+### Saldon lisäys ja käyttö
+
+Saldoa voi lisätä asiakkaalle 
+
+1. **Maksetun tilauksen katkaisun yhteydessä**
+
+![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-lis4.png)
+
+2. **Tai lisäämällä saldoa manuaalisesti asiakaskortille, kun asiakas on maksanut etukäteen**
+- Saldoa voi lisätä painamalla **Lisää saldoa** -painiketta asiakkaan laskutustiedoista
+
+![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis.png)
+
+- Saldoa lisätessä voit kirjata kirjauspäivän, summan, lehden, sisäisen selitteen (ei näy asiakkaalle), ulkoinen selite (laskulle)
+
+![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis2.png)
+
+- Saldon määrä näkyy myös asiakkaan koontisivulla
+
+![Asiakastiedot](/img/ohjeet/saldonmaar.png)
+
+- Kun saldoa on lisätty, sitä käytetään **automaattisesti laskujen maksamiseen** laskustuajon yhteydessä. Merkintä saldon käytöstä maksamiseen tulee **laskun tuoteriville**.
+
+![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis3.png)
+
+- Tiedot saldon käytöstä päivittyvät myös laskutustietoihin. Alla olevassa esimerkistä näet sisäisestä selitteestä rahamäärän ja laskun johon saldoa on käytetty 
+
+![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis.png)
 
 ### Markkinointitiedot
 
