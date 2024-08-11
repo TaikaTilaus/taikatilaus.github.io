@@ -110,7 +110,7 @@ const config = {
           },
           {to: '/docs/ohjevideot', label: 'Ohjevideot', position: 'left'},
           {to: '/blog', label: 'Uutiset', position: 'left'},
-          {to: 'https://taikatilausoy.freshdesk.com/support/home', label: 'Tukipyyntö', position: 'right'},         
+          {to: 'https://taikatilaus.freshdesk.com/support/home', label: 'Tukipyyntö', position: 'right'},         
         ],
       },
       footer: {
@@ -138,7 +138,7 @@ const config = {
               },
               {
                 label: 'Tukipyyntö',
-                href: 'https://taikatilausoy.freshdesk.com/support/home',
+                href: 'https://taikatilaus.freshdesk.com/support/home',
               },
             ],
           },

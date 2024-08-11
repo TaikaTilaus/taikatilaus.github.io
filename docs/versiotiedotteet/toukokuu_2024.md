@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Uudistuksia TaikaTilaus-tuotteeseen 1.5.-31.5.2024 välisenä aikana.
 
-Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilausoy.freshdesk.com/).
+Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
 ## Saldo
 

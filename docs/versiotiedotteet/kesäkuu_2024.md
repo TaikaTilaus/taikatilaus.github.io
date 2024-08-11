@@ -9,7 +9,7 @@ keywords: [versiotiedote, tukisivusto, rivi-ilmoitustyökalu, perintäkielto, al
 
 Uudistuksia TaikaTilaus-tuotteeseen 1.6.-30.6.2024 välisenä aikana. Seuraava versiotiedote julkaistaan elokuun lopussa.
 
-Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilausoy.freshdesk.com/).
+Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
 ## Uusi tuki- ja ohjesivusto
 

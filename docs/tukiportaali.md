@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Ohjeet tukiportaalin käyttöön
 
-TaikaTilaus käyttää tukiportaalina **Freshdesk**-järjestelmää. Tukiportaali löytyy osoitteesta: https://taikatilausoy.freshdesk.com/support/home.
+TaikaTilaus käyttää tukiportaalina **Freshdesk**-järjestelmää. Tukiportaali löytyy osoitteesta: https://taikatilaus.freshdesk.com/support/home.
 
 ### Käyttäjätunnuksen aktivointi
 

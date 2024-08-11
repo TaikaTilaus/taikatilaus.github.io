@@ -25,7 +25,7 @@
   },
   "link.item.label.Tukipyyntö": {
     "message": "Tukipyyntö",
-    "description": "The label of footer link with label=Tukipyyntö linking to https://taikatilausoy.freshdesk.com/support/home"
+    "description": "The label of footer link with label=Tukipyyntö linking to https://taikatilaus.freshdesk.com/support/home"
   },
   "link.item.label.Uutiset": {
     "message": "Uutiset",
