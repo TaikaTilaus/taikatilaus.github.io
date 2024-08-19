@@ -96,3 +96,17 @@ title: Ohjevideot
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Le4eWG-_epc?si=-CfW0WhoQxFb1bfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
                 </div>
+
+### Myyntikiellon asettaminen ilmoitusasiakkaalle
+
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/R2n9TlCOxIc?si=5oLQWxJksX6xDwGW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+
+### Ilmoitusvarauksien aineistojen lisääminen ja poisto
+
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SRWdzp43XYw?si=9NIplVEBlYfRTIp7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
