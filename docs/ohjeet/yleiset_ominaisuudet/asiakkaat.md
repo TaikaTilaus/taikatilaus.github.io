@@ -89,6 +89,23 @@ Saldoa voi lisätä asiakkaalle
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis.png)
 
+#### Saldon poistaminen
+
+Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Poista**. Kun painat **Poista**, selain näyttää vahvistusviestin. Paina **OK**, jos haluat poistaa saldon. Saldo saattaa vielä näkyä asiakkaalla poistamisen jälkeen, mutta se poistuu näkyvistä, kun päivität sivun.
+
+![Asiakastiedot](/img/ohjeet/saldo-poisto1.png)
+
+*Pääset poistamaan saldon painamalla SaldoID:tä ja*
+
+![Asiakastiedot](/img/ohjeet/saldo-poisto2.png)
+
+*painamalla Poista-nappia*
+
+![Asiakastiedot](/img/ohjeet/saldo-poisto3.png)
+
+*Selain näyttää vahvistusviestin. Jos haluat poistaa saldon valitse OK*
+
+
 ### Markkinointitiedot
 
 **Markkinointitiedoissa** lisätään asiakkaan mahdolliset antamat markkinointiluvat ja/tai -kiellot eri kanaville ja mistä lähteestä ne on ilmoitettu.

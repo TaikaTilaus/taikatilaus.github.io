@@ -418,6 +418,18 @@ Mikäli hyvityslasku on luotu **vahingossa** tai se halutaan muusta syystä peru
 
 Näin jäljelle jää alkuperäinen lasku ja hyvityslasku katoaa listaukselta ja sen uudelleen käsittelyä voi jatkaa.
 
+#### Hyvityslaskujen hakeminen
+
+Hyvityslaskuja ja hyvitettyjä laskuja voi hakea **Laskut**-välilehdeltä valitsemalla laskun tilaksi Hyvitetty/Hyvitys. Taulokon muoto sarakkeessa lukee tieto siitä millä laskulla lasku on hyvitetty tai minkä laskun se hyvittää.
+
+![Laskut-välilehti](/img/ohjeet/hyvitetty.png)
+
+*Hyvitetyt laskut haussa*
+
+![Laskut-välilehti](/img/ohjeet/hyvitys.png)
+
+*Hyvityslaskut haussa*
+
 ### Maksumuistutukset
 
 **Laskut**–välilehdellä käsitellään myös erääntyneitä laskuja, joista halutaan lähettää esim. maksumuistutuksia. **Laskutusajon automatisointi sovitaan asiakaskohtaisesti** (esim. kerran viikossa tapahtuvaksi), jolloin sekä alkuperäiset laskut että maksumuistutuslaskut, luodaan ja lähetetään tausta-ajoina suoraan palvelusta sovittujen määrittelyjen mukaisesti.
