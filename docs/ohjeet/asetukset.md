@@ -444,7 +444,7 @@ Tämä on hyödyllistä esimerkiksi kohdennetun markkinoinnin kannalta.
 ![Ryhmittely](/img/ohjeet/ryhmittely.png)
 *Asiakasryhmän ja Asiakasroolin voi asettaa asiakkaalle asiakaskortin Ryhmittely-alavalikossa.*
 
-### Tilauksien katkaisujen syiden luottelu
+### Tilauksien katkaisujen syiden luettelu
 
 ![Katkaisun syyt](/img/ohjeet/katkaisun-syyt.png)
 *Voit asettaa katkaisujen syyt ja karsintaperusteet Muut asetukset-välilehdeltä*
