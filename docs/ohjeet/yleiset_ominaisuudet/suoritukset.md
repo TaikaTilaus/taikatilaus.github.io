@@ -19,7 +19,7 @@ Voit myös karsia hakutuloksia eri hakuehdoilla:
 - **Laskun numero**
 - Laskun **kirjauspäivä**
 - **Maksupäivä**
-- **Arkistointitunnus** - ??
+- **Arkistointitunnus** <!-- - ??-->
 - **Viitenumero**
 - **Maksajan nimi**
 - **Info** - jos tässä kentässä lukee muuta kuin OK, suoritus on virheellinen
@@ -109,8 +109,6 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 - Pankkitilille (S) +50,00 €
 - PTilausmyyntisaamiset (K) -45,00 € (kuittaa laskun maksetuksi)
 - Muistutusmaksu-tilille (K) -5,00 €
-
-![Suoritukset](/img/ohjeet/tiliointi-esimerkki1.png)
 
 ### Maksamattoman Maksumuistutuksen kirjaaminen laskun tiliöinteihin:
 - Maksettu 45,00 €, Lasku 45,00 € + 5,00 € Maksumuistutus kirjataan
