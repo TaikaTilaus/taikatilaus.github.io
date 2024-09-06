@@ -592,7 +592,7 @@ Osoitekenttiin voidaan syöttää:
 ![Käyttäjät](/img/ohjeet/kayttajat.png)
 *Pääkäyttäjät voivat hallinoida palveluiden käyttäjiä Käyttäjät-välilehdeltä.*
 
-**Käyttäjät**–välilehdellä Pääkäyttäjäksi nimetyt voivat lisätä uusia, muuttaa ja poistaa olemassa olevia TaikaTilaus –palvelun käyttäjiä.
+**Käyttäjät**–välilehdellä Pääkäyttäjäksi nimetyt voivat lisätä uusia sekä muuttaa ja poistaa olemassa olevia TaikaTilaus–palvelun käyttäjiä.
 
 **Käyttäjätunnus**-sarakkeen yksittäistä tunnusta klikattaessa avautuu sen tarkemmat tiedot. **Lisää**-painikkeella voit lisätä uuden käyttäjän.
 
