@@ -87,7 +87,7 @@ Saldoa voi lisätä asiakkaalle
 
 - Tiedot saldon käytöstä päivittyvät myös laskutustietoihin. Alla olevassa esimerkistä näet sisäisestä selitteestä rahamäärän ja laskun johon saldoa on käytetty 
 
-![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis.png)
+![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis5.png)
 
 #### Saldon poistaminen
 
