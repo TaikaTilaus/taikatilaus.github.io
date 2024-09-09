@@ -21,6 +21,8 @@ Listasta voi hakea ilmoitusvarauksia seuraavilla **hakukriteereillä**:
 - Tuote
 - Ilmoistusosasto
 
+Osa hakuehdoista tulee esiin vasta sen jälkeen, kun **kanava on valittu!**
+
 ![Ilmoitusvaraukset](/img/ohjeet/ilmoitusvaraukset2.png)
 
 **Ilmoitusvarauksen tila** voi olla
@@ -61,4 +63,4 @@ Jos Myynnille on annettu pakettihinta (esim. 50,00 €), niin sen sisältämien 
 
 ![Ilmoitusvaraukset](/img/ohjeet/ilmoitusvaraukset6.png)
 
-Yksityiskohtaiset ohjeet ilmoitusvarauksien ja myyntien hallinnoimiseen lyödät [täältä](/docs/ohjeet/ilmoitustenhallinta/ilmoitusasiakas#myynti).
+Yksityiskohtaiset ohjeet ilmoitusvarauksien ja myyntien hallinnoimiseen löydät [täältä](/docs/ohjeet/ilmoitustenhallinta/ilmoitusasiakas#myynti).
