@@ -8,6 +8,8 @@ sidebar_position: 3
 
 **Kestojatko**-näkymässä jatketaan kestotilauksia uudelle tilauskaudelle.
 
+![Kestojatko](/img/ohjeet/kestojatko.png)
+
 Valitse **Lehti** ja kestojatkon **alku- ja loppupäivä**. Uuden kestojatkon **alkupäivä pitäisi olla sama kuin edellisen kestojatkon loppupäivä**. Muuten jotain tilauksia saattaa tippua välistä ja niitä ei jatketa.
 
 ![Kestojatko](/img/ohjeet/kestojatko1.png)
@@ -30,7 +32,7 @@ Kestotilauksien käsittelyyn pääset klikkaamalla **Siirry tilausten jatkamisee
 ![Kestotilauksien jatkaminen](/img/ohjeet/kestojatko2.png)
 *Lista jatkettavista kestotilauksista*
 
-![Kestotilauksien jatkaminen](/img/ohjeet/kestotilaus3.png)
+![Kestotilauksien jatkaminen](/img/ohjeet/kestojatko3.png)
 *Lista ei-jatkettavista kestotilauksista*
 
 Tilauksien jatkamisesta muodostuville laskuille voi lisätä halutun tekstin kirjoittamalla tai klikkaamalla **Näytä aikaisemmat tekstit** -painiketta ja **Valitse**-linkkiä halutun sisällön kohdalla.
@@ -41,7 +43,7 @@ Tilauksien jatkamisesta muodostuville laskuille voi lisätä halutun tekstin kir
 ![Kestotilauksien jatkaminen](/img/ohjeet/kestojatko5.png)
 *Klikkaa Valitse haluamasi tekstin kohdalla liittääksesi se laskuille.*
 
-Painamalla **Jatka kestotilaukset** -painiketta suoritat kestojatkon. Kestojatkon suorituksesta tulee sitten tieto Kestojatko-välilehden etusivulle.
+Painamalla **Jatka kestotilaukset** -painiketta suoritat kestojatkon. Kestojatkon suorituksesta tulee tieto Kestojatko-välilehden etusivulle.
 
 ![Kestotilauksien jatkaminen](/img/ohjeet/kestojatko6.png)
 *Suoritettu kestojatku näkyy välilehden etusivulla.*
