@@ -282,7 +282,7 @@ Täyttämällä **Tarkistuskappale**-kentän, lähetetään asiakkaalle automaat
 
 **Hinta- ja laskutustiedot** –osiossa voi tarvittaessa muuttaa tuotteen Normaalihintaa (oletushinta asetetaan asetuksista) ja lisätä mahdollisen Alennusprosentin.
 
-Lopullinen hinta lasketaan annetun määrän, keston tai koon mukaan (esim. Ilmoitusosastolla voi lisäksi olla eri hinta kuin myyntituotteella). Hinnan voi muuttaa ja laskea uudelleen **Laske hinta verollisesta / Laske hinta verottomasta** -painikkeiden avulla.
+Lopullinen hinta lasketaan annetun määrän, keston tai koon mukaan (esim. Ilmoitusosastolla voi lisäksi olla eri hinta kuin myyntituotteella). Hinnan voi muuttaa ja laskea uudelleen **Laske hinta verollisesta / Laske hinta verottomasta** -painikkeiden avulla. **HUOM! pakettimyynneissä huomioitava**, että jokaisella ilmoitusvarauksella pitää aina olla joku yksikköhinta asetettuna vaikka se pakettina myytäisiinkin. Ohjelma pitää huolen, ettei yksikköhintoja käsitellä erillisinä, vaan jyvitettyinä paketille annetun hinnan mukaisesti.
 
 **Lisätiedot laskun tuoteriville** –kentässä annetaan asiakkaan laskulle näkyviin haluttavat tiedot
 - Ne voidaan myös tallentaa **Lisää vakiotekstiksi** –painikkeesta ja käyttää jatkossakin
