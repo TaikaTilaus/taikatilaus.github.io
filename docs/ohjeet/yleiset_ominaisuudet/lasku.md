@@ -599,7 +599,7 @@ Esimerkiksi laskun kopioiminen asiakkaalle tehdään:
 
 ![Laskut-välilehti](/img/ohjeet/esimerkit4-4.png)
 
-5. Tarkastuksen jälkeen aktivoidaan Laskun tiedot -osiossa muokkaustila Kynä -ikonista ja aktivoidaan Lähetys sallittu -toiminto
+5. Muokkaa laskua painamalla Kynä-ikonista. Jos on tarvetta, voit muuttaa maksajan hakemalla olemassa olevan asiakkaan tai lisäämällä uuden maksajan **Hae maksajaa** tai **Lisää uusi maksaja** -painikkeista. Tietojen tarkastuksen jälkeen aktivoidaan **Lähetys sallittu** -toiminto, jotta lasku voidaan lähettää.
 
 ![Laskut-välilehti](/img/ohjeet/esimerkit4-5.png)
 
