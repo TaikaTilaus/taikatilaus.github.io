@@ -238,7 +238,7 @@ Tämä kappale sisältää ohjeet postitusajon tekoon FTP:n kautta.
 
 ![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko10.png)
 
-5. Kun postitusajo on valmis, tila-sarakkeissa lukee valmis, ja aika joilloin ajo suoritettiin.
+5. Kun postitusajo on valmis, tila-sarakkeissa lukee **Valmis**, ja aika joilloin ajo suoritettiin.
 
 ![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko5.png)
 
