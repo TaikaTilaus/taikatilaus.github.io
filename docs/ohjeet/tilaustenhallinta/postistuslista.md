@@ -214,9 +214,9 @@ Olemme korjanneet sähköisen lähetyslistanne, koska lista ja lähetyserä poik
 TaikaNakka -lehden paino korjattu punnituskappaleen mukaiseksi, 70g/kpl (listalla painoksi oli ilmoitettu 57g/kpl).
 - Uusi Lapa-ajo tehtävä tarvittaessa (tietoa käytetään mm. Postin laskutusperusteena)
 
-## Postitusten teko FTP:n kautta
+## Postitusten teko ja ainestojen siirto Postiin, painoihin ja varhaisjakeluyhtiöihin
 
-Tämä kappale sisältää ohjeet postitusajon tekoon FTP:n kautta.
+Tämä kappale sisältää ohjeet postitusajon tekoon ja aineistojen siirtoon. **HUOM!** Ohjeessa oletetaan, että asiakas on toimittanut Postin, painojen ja varhaisjakeluyhtiöiden FTP-palvelujen tunnukset TaikaTilaukselle.
 
 1. Ennen postitusajon tekoa, suorita [kestojatko](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/kestojatko). Joillakin asiakkailla tämä tapahtuu automaattisesti ajon suorituksen yhteydessä. Näet viimeisin kestojatkon suoritusajan **Postitusten haku**-välilehdeltä. Suoritusaika kertoo täytyykö sinun tehdä kestoajo vai ei.
 
