@@ -214,8 +214,42 @@ Olemme korjanneet sähköisen lähetyslistanne, koska lista ja lähetyserä poik
 TaikaNakka -lehden paino korjattu punnituskappaleen mukaiseksi, 70g/kpl (listalla painoksi oli ilmoitettu 57g/kpl).
 - Uusi Lapa-ajo tehtävä tarvittaessa (tietoa käytetään mm. Postin laskutusperusteena)
 
-## Postitusohjeet
+## Postitusten teko FTP:n kautta
 
-Postituslistan luomiseen löytyy ohjeet myös sovelluksen sisältä Postitusohjeet-välilehdeltä.
+Tämä kappale sisältää ohjeet postitusajon tekoon FTP:n kautta.
 
-![Postituslista - Postitusohjeet](/img/ohjeet/postitusohjeet.png)
+1. Ennen postitusajon tekoa, suorita [kestojatko](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/kestojatko). Joillakin asiakkailla tämä tapahtuu automaattisesti ajon suorituksen yhteydessä. Näet viimeisin kestojatkon suoritusajan **Postitusten haku**-välilehdeltä. Suoritusaika kertoo täytyykö sinun tehdä kestoajo vai ei.
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko9.png)
+
+2. Kun kestojatko on tehty, mene **Postitusten tiedot** -välilehteen. Lisää postitus ja täytä sen **[tiedot](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/postistuslista#postituslistan-jatkok%C3%A4sittely-ja-siirrot-painoonjakeluun)**
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko.png)
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko2.png)
+
+3. Aseta postitusajon **suoritusajat** painamalla **Näytä ajoajat** -painikkeesta. Esim. jos suoritat postitusajon klo 10.15 aseta suoritusaika klo 10.00.
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko3.png)
+
+4. Suorita postitusajo painamalla **Suorita postitus palvelimella** -painikkeesta. Palvelin suorittaa ajon joka tasaminuutti, joten joudut mahdollisesti odottamaan hetken ennen kuin suoritus alkaa. Kun suoritus käynnistyy **Postitusajon/LAPA-ajon tila** -sarakkeissa lukee Suorituksessa. Saat tilan näkyviin klikkaamalla **Postitusten tiedot** -välilehteä.
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko4.png)
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko10.png)
+
+5. Kun postitusajo on valmis, tila-sarakkeissa lukee valmis, ja aika joilloin ajo suoritettiin.
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko5.png)
+
+6. Siirry **Postitusten haku** -välilehdelle. Aineistot, jotka siirretään painolle/jakelijoille on **korostettu**. Klikkaa aineistopainikkeita yksi kerrallaan, ja paina **Siirrä FTP:llä** -painiketta. Kun siirto on valmis, tieto siitä tulee näkyviin.
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko6.png)
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko7.png)
+
+7. Kun olet siirtänyt kaikki aineistot onnistuneesti, tarkista lokilta, että muistit siirtää kaikki aineistot. Lokiin pääset **Postitusten tiedot** -välilehdeltä, painamalla **Lehti**-sarakkeesta suorittamaasi postitusta.
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko11.png)
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko8.png)
