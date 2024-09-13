@@ -6,7 +6,7 @@ sidebar_position: 6
 
 ### 1. Etusivu/laskunäkymän kautta haetaan alkuperäinen lasku, jolle hyvitys on tehty
 
-![1. Etusivunäkymä](/img/pikaohjeet/hyvityslasku-poisto1.png)
+![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
 
 ### 2. Alkuperäisen laskun näkymästä valitaan Poista hyvityslasku-liitos painike
 
