@@ -6,7 +6,7 @@ sidebar_position: 14
 
 ### 1. Ohjelman oikessa ylänurkassa on Omat Tiedot. Avaa Käyttäjän tiedot
 
-![1. Omat tiedot](/img/pikaohjeet/pelkistetty1.png)
+![1. Omat tiedot](/img/pikaohjeet/authenticator.png)
 
 ### 2. Paina Pelkistetty Ilmoitusvarauslomake käytössä ja sitten Tallenna
 
