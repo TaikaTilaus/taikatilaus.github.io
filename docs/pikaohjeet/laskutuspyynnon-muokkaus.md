@@ -10,7 +10,7 @@ sidebar_position: 12
 
 ### 2. Asiakastiedoissa klikataan haluttu tilaus auki
 
-![2. Asiakastiedot](/img/pikaohjeet/Laskutuspyynnon_muokkaus2.png)
+![2. Asiakastiedot - näkymä](/img/pikaohjeet/asiamieskoodi-lisays2.png)
 
 ### 3. Tilaustietojen vieressä ovat laskutuspyynnöt. Muokkaa niitä painamalla kynäikonia
 
