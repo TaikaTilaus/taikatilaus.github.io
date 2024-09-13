@@ -6,11 +6,11 @@ sidebar_position: 4
 
 ### 1. Hae etusivunäkymältä asiakas
 
-![1. Etusivunäkymä](/img/pikaohjeet/Eri_maksaja1.png)
+![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
 
 ### 2. Asiakastiedoista klikkaa auki hakemasi tilaus
 
-![2. Asiakastiedot - näkymä](/img/pikaohjeet/Eri_maksaja2.png)
+![2. Asiakastiedot - näkymä](/img/pikaohjeet/asiamieskoodi-lisays2.png)
 
 ### 3. Tilauksen tiedoissa on lopussa Hae maksajaa ja Lisää maksajaa -painikkeet. Hae maksaja, jos hän on jo asiakkaana. Lisää maksaja, jos tilauksen maksaja ei ole vielä asiakas
 

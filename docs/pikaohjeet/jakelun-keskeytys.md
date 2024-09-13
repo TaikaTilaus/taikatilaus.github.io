@@ -6,7 +6,7 @@ sidebar_position: 7
 
 ### 1. Etusivunäkymästä haetaan asiakas
 
-![1. Etusivunäkymä](/img/pikaohjeet/jakelun-keskeytys1.png)
+![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
 
 ### 2. Paina Asiakastiedot-kentässä olevaa kynäikonia
 
