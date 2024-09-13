@@ -10,7 +10,7 @@ sidebar_position: 10
 
 ### 2. Paina Asiakastiedot-kentässä olevaa kynäikonia
 
-![2. Asiakastiedot](/img/pikaohjeet/Laskun_toimitustapa2.png)
+![2. Asiakkaan tiedot - näkymä](/img/pikaohjeet/alennus2.png)
 
 ### 3. Asiakaskortissa avataan LASKUTUSTIEDOT-valikko
 
