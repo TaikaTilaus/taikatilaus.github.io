@@ -10,7 +10,7 @@ sidebar_position: 8
 
 ### 2. Asiakastiedoista klikataan haluttu tilaus auki
 
-![2. Asiakastiedot](/img/pikaohjeet/Tilauksen_Katkaisu2.png)
+![2. Asiakastiedot - näkymä](/img/pikaohjeet/asiamieskoodi-lisays2.png)
 
 ### 3. Syötä tilaustietoihin katkaisupäivä ja katkaisun syy
 

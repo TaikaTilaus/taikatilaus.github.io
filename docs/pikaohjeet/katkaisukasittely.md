@@ -12,7 +12,7 @@ HUOM! Tarkista, että tilaus on katkaistu ennen katkaisukäsittelyn toimenpiteit
 
 ### 2. Asiakastiedoista klikataan haluttu tilaus auki
 
-![2. Asiakastiedot](/img/pikaohjeet/Katkaisukasittely2.png)
+![2. Asiakastiedot - näkymä](/img/pikaohjeet/asiamieskoodi-lisays2.png)
 
 ### 3. Tilauksen tiedoista painetaan Katkaisukäsittely -painiketta
 
