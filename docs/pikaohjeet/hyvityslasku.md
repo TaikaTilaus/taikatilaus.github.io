@@ -10,7 +10,7 @@ sidebar_position: 5
 
 ### 2. Etusivunäkymän hausta haetaan lasku valitulla hakusanalla
 
-![2. Etusivunäkymän haku](/img/pikaohjeet/hyvityslasku2.png)
+![2. Etusivunäkymän haku](/img/pikaohjeet/hakuehto.png)
 
 ### TAI 2. Laskut välilehdestä haetaan lasku laskunumerolla
 
