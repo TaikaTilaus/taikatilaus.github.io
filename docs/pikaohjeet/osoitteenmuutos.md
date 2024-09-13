@@ -10,7 +10,7 @@ sidebar_position: 19
 
 ### 2. Paina Asiakastiedot-kentässä olevaa kynäikonia
 
-![2. Asiakastiedot](/img/pikaohjeet/tulevaosoitteenmuutos2.png)
+![2. Asiakkaan tiedot - näkymä](/img/pikaohjeet/alennus2.png)
 
 ### 3. Avaa Tuleva osoitteemuutos-valikko ja täytä uuden osoitteen tiedot
 
