@@ -2,15 +2,15 @@
 sidebar_position: 16
 ---
 
-# Suorituksen liittäminen
+# Suorituksen lisääminen manuaalisesti
 
 ### 1. Miksi suoritus lisätään manuaalisesti?
 
-![1. Vastaus](/img/pikaohjeet/Suorituksen_liittaminen1.png)
+Suoritus lisätään manuaalisesti silloin, kun asiakas on maksanut laskun virheellisesti, jolloin maksu ei kohdistu suoraan avoinna olevaan laskuun. Tällainen tilanne voi olla esimerkiksi silloin, kun suoritukselta puuttuu kokonaan viitenumero.
 
 ### 2. Hae lasku joko etusivunäkymästä tai Laskut-välilehdeltä
 
-![2. Haku](/img/pikaohjeet/Suorituksen_liittaminen2.png)
+![1. Etusivunäkymä](/img/pikaohjeet/hyvityslasku1.png)
 
 ### 3. Kun olet avannut haluamasi laskun, paina LISÄÄ UUSI SUORITUS-painiketta
 
