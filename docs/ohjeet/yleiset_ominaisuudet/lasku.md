@@ -20,6 +20,18 @@ Asiakkaan yksittäisiä laskuja pääsee muokkaamaan **Asiakastiedot**-näkymän
 Valitun yksittäisen laskun tietoja pääsee muokkaamaan, joko **Kynä**-painikkeesta
 
 1. Laskun tietoja
+ 
+ Voit muuttaa:
+ - eräpäivää
+ - maksuehtoa
+ - huomautusaikaa
+ - viivästyskorkoa
+ - laskun tyyppiä
+ - tarkennetta
+ - toimitustapaa
+ - laskun lähetyspäivämäärää
+ - lisätietoja
+
 2. Maksajan tietoja
 
 ![laskun tiedot](/img/ohjeet/laskut2.png)
