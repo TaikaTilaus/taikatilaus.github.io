@@ -23,6 +23,8 @@ Laskutuspyynnöille, jotka kohdistuvat 1.9. jälkeen julkaistaviin ilmoituksiin,
 Lisäksi myyntituotteille on lisätty ominaisuutena ALV-% -kenttä, joka mahdollistaa valittujen tuotteiden laskuttamisen eri ALV-kannoilla.
 Oletuskantana on tässäkin 25,5%.
 
+![Laskun tuoterivin muokkaus](/img/versiotiedotteet/alv.jpg)
+
 ## Laskun tuoterivin muokkaus
 
 Laskun tuoterivin muokkauksessa voi hakea siihen liittyvän tilauksen tiedot uudella painikkeella.

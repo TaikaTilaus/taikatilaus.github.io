@@ -190,9 +190,10 @@ Rajaavia hakukriteereitä voi aktivoida tarpeen mukaan mm.
 Voit myös määrittää laskujen luontimääritykset mm.
 
 - **Tee laskut yksittäisinä** -kentän aktivoimalla - kaikki laskut luodaan yksittäisinä huolimatta maksajan Koontilasku-määrityksestä
-- Syöttämällä laskulle kirjatta **laskun päivämäärä**
-- Laskun eräpäivä
+- Syöttämällä laskulle kirjattava **laskun päivämäärä** ja laskun **eräpäivä**
 - Laskuerän luontitunnus - kaikilla samaan aikaan ajetuilla laskuilla on sama luontitunnus, jonka voit asettaa itse tai käyttää valmiiksi luotua tunnusta
+
+![Laskutus](/img/ohjeet/laskutus-luont.png)
 
 Laskutuspyyntöjen listaus aloitetaan lisäämällä tarvittavat hakukriteerit ja klikkaamalla **Hae laskutuspyynnöt** –painiketta
 
