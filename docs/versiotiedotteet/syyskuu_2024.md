@@ -17,7 +17,13 @@ Postituksen voi nyt tehdä käyttöliittymässä ilman ulkoista SFTP-client sove
 
 Postitusten tiedot -välilehdelle on lisätty Siirrä FTP:llä -painike, jolla postitusajon ainestot siirretään Postiin, painoihin ja varhaisjakeluyhtiöihin.
 
-[Tarkempi ohje](/docs/ohjeet/tilaustenhallinta/postistuslista#postitusten-teko-ja-ainestojen-siirto-postiin-painoihin-ja-varhaisjakeluyhti%C3%B6ihin)
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko6.png)
+
+Kun siirto on valmis, tieto siitä tulee näkyviin.
+
+![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko7.png)
+
+Lisätietoja [postitusohjeissa](/docs/ohjeet/tilaustenhallinta/postistuslista#postitusten-teko-ja-ainestojen-siirto-postiin-painoihin-ja-varhaisjakeluyhti%C3%B6ihin).
 
 ## Kontaktin laskut
 
