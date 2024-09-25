@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.6.-30.6.2024 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, tukisivusto, rivi-ilmoitustyökalu, perintäkielto, aleprosentti]
