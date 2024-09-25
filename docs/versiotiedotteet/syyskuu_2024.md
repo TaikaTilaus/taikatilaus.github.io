@@ -29,6 +29,8 @@ Lisätietoja [postitusohjeissa](/docs/ohjeet/tilaustenhallinta/postistuslista#po
 
 Asiakaskortille Laskut-kohtaan on lisätty kentät Muoto ja Tila, jotka ovat olleet aikaisemmin Laskut-näytöllä.
 
+![Asiakaskortti](/img/versiotiedotteet/lasku-muodot.png)
+
 ## Tietoturva- ja versiopäivitykset
 
 SFTP-kirjasto [SSH.NET](https://github.com/sshnet/SSH.NET) on päivitetty uuteen versioon [2024.1.0](https://github.com/sshnet/SSH.NET/releases/tag/2024.1.0). Versio on paremmin yhteensopiva uusien protokollaversioiden sekä OpensSSH-kirjaston uusimpien versioiden kanssa.
