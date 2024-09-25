@@ -13,7 +13,7 @@ Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](h
 
 ## Postitukset käyttöliittymään
 
-Postituksen voi nyt tehdä käyttöliittymässä ilman ulkoisia sovelluksia.
+Postituksen voi nyt tehdä käyttöliittymässä ilman ulkoista SFTP-client sovellusta.
 
 Postitusten tiedot -välilehdelle on lisätty Siirrä FTP:llä -painike, jolla postitusajon ainestot siirretään Postiin, painoihin ja varhaisjakeluyhtiöihin.
 

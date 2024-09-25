@@ -216,7 +216,7 @@ TaikaNakka -lehden paino korjattu punnituskappaleen mukaiseksi, 70g/kpl (listall
 
 ## Postitusten teko ja ainestojen siirto Postiin, painoihin ja varhaisjakeluyhtiöihin
 
-Tämä kappale sisältää ohjeet postitusajon tekoon ja aineistojen siirtoon. **HUOM!** Ohjeessa oletetaan, että asiakas on toimittanut Postin, painojen ja varhaisjakeluyhtiöiden FTP-palvelujen tunnukset TaikaTilaukselle.
+Tämä kappale sisältää ohjeet postitusajon tekoon ja aineistojen siirtoon. **HUOM!** Ohjeessa oletetaan, että asiakas on toimittanut Postin, painojen ja varhaisjakeluyhtiöiden SFTP-palvelujen tunnukset TaikaTilaukselle.
 
 1. Ennen postitusajon tekoa, suorita [kestojatko](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/kestojatko). Joillakin asiakkailla tämä tapahtuu automaattisesti ajon suorituksen yhteydessä. Näet viimeisin kestojatkon suoritusajan **Postitusten haku**-välilehdeltä. Suoritusaika kertoo täytyykö sinun tehdä kestoajo vai ei.
 
