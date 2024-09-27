@@ -27,7 +27,7 @@ Oletuskantana on tässäkin 25,5%.
 
 ## Laskun tuoterivin muokkaus
 
-Laskun tuoterivin muokkauksessa voi hakea siihen liittyvän tilauksen tiedot uudella painikkeella.
+Laskun tuoterivin muokkauksessa voi hakea siihen liittyvän tilauksen tiedot uudella painikkeella. Tilaustiedot tulostuvat laskuun tuoterivin kohdalle.
 
 ![Laskun tuoterivin muokkaus](/img/versiotiedotteet/laskun-tuoterivin-muokkaus.jpg)
 
