@@ -31,6 +31,12 @@ Asiakaskortille Laskut-kohtaan on lisätty kentät Muoto ja Tila, jotka ovat oll
 
 ![Asiakaskortti](/img/versiotiedotteet/lasku-muodot.png)
 
+## Laskujen kiellistys
+
+Voit nyt valita, millä kielellä asiakkaat saavat laskunsa. Tällä hetkellä vaihtoehtoina ovat suomi, englanti ja espanja. Ruotsi on työn alla. Jos haluat ottaa toiminnon käyttöön, lähetä viesti tuki@taikatilaus.fi
+
+![Asiakaskortti - Laskun kieli](/img/versiotiedotteet/lasku-kiellistys.jpg)
+
 ## Tietoturva- ja versiopäivitykset
 
 SFTP-kirjasto [SSH.NET](https://github.com/sshnet/SSH.NET) on päivitetty uuteen versioon [2024.1.0](https://github.com/sshnet/SSH.NET/releases/tag/2024.1.0). Versio on paremmin yhteensopiva uusien protokollaversioiden sekä OpensSSH-kirjaston uusimpien versioiden kanssa.

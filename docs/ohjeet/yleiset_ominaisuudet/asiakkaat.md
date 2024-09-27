@@ -35,6 +35,7 @@ Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan Avaa
 
 Asiakkaan **Yhteystiedot** -osiossa lisätään asiakkaalle perustietoja, kuten:
 - Yhteystiedot
+- Millä kielellä asiakkaan laskut ovat. Tällä hetkellä vaihtoehtoina suomi, englanti, espanja.
 - Varhaisjakelun esto
 - Pakotus tiettyyn Varhaisjakelun nippuun
 - Syntymävuosi
