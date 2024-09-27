@@ -17,6 +17,10 @@ Asiakkaan yksittäisiä laskuja pääsee muokkaamaan **Asiakastiedot**-näkymän
 ![Asiakastiedot - Laskut](/img/ohjeet/laskut4.png)
 *Laskun numeroa klikkaamalla aukeaa näkymä, josta näkyy kaikki laskun tiedot.*
 
+Näet laskun muodon (lasku/hyvityslasku) ja tilan (avoin, erääntynyt, hyvitetty, hyvitys) laskun numeron vieressä.
+
+![Asiakaskortti](/img/ohjeet/lasku-muodot.png)
+
 Valitun yksittäisen laskun tietoja pääsee muokkaamaan, joko **Kynä**-painikkeesta
 
 1. Laskun tietoja
