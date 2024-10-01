@@ -491,6 +491,29 @@ Myös yksittäisestä laskusta voi luoda maksumuistutuksen, jolloin valittavana 
 
 Tarvittaessa voi jo lähetetystä maksumuistutuksesta tulostaa alkuperäisen Lasku–lomakkeen **Tulosta lasku LASKU-muodossa** –painikkeen kautta
 
+### Perintä
+
+Laskut voi siirtää perintään valitsemalla halutut laskut ja painamalla **Siirrä perintään** -painiketta. 
+
+![Laskut-välilehti - Siirrä perintään](/img/ohjeet/perinta.png)
+
+Perintään viennit tehdään yleensä noin kerran kuukaudessa. Muistutuslaskut siirretään perintään, jos maksua ei ole suoritettu kahden viikon sisällä muistutuslaskun eräpäivästä.
+
+**Perintään siirron vaiheet:**
+
+1. Ennen perintään siirtoa käydään Laskut-listauksen erääntyneet laskut silmämääräisesti läpi. Aiemmin sovitut poikkeukset jätetään huomioimatta, eli ne jätetään pois perintäajosta.
+2. Perintäajon yhteydessä maksu hyvitetään tilaukselle tai laskulle, ja tilaukselle lisätään katkaisupäivä (esim. heti tai +30 päivää).
+3. Perintäajo tuottaa Excel-taulukon käsitellyistä laskuista. Tämä taulukko tarkistetaan ja tarvittaessa päivitetään yksittäisen maksun tai tilauksen jatkaminen.
+3. Taulukko lähetetään perintätoimistolle tarvittaessa.
+
+![Laskut-välilehti - Siirrä perintään](/img/ohjeet/perinta2.png)
+*Ohjelmisto ilmoittaa laskujen onnistuneesta siirrosta perintään*
+
+![Laskut-välilehti - Siirrä perintään](/img/ohjeet/perinta3.png)
+*Ohjelmisto luo Excelin siirretyistä laskuista tarkistusta ja päivitystä varten*
+
+**Perintätoimiston raportointi**: Perintätoimisto raportoi yritykselle, jonka asiakaspalvelu päivittää laskujen tiedot perintätoimiston ilmoittaman tilanteen mukaisesti. Perintäajossa käsiteltyjä laskuja ei voi enää tarkastella palvelussa.
+
 ### Maksamattomien tilausten loppulaskut
 
 Tilauksiin liittyviin Maksumuistutus-laskuihin voidaan lisätä automaattinen **päätöskäsittely**, mikäli Maksumuistutus #2 –laskua ei ole maksettu. 
