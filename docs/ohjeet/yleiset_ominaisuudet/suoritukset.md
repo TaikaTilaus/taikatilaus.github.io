@@ -152,7 +152,7 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 
 ### Koko laskun takaisinmaksun kirjaaminen ja maksu takaisin asiakkaalle:
 - Asiakas maksanut 100,00 €, mutta esim. peruuttaakin koko tilauksen
-- Tehdään hyvityslasku koko laskusta (ohje ylempänä kohdassa Hyvityslaskun luonti ja poistaminen)
+- Tehdään hyvityslasku koko laskusta (ohje kohdassa [Hyvityslaskun luonti ja poistaminen](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#hyvityslaskun-luonti-ja-poistaminen))
 - Pankkitilillä näkyy Suoritus +100,00 €
 - Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille -100,00 €
 - Hyvityslasku on kuitannut laskun maksetuksi palvelussa (Maksettu 0,00 €)
