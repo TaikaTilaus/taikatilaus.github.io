@@ -54,14 +54,14 @@ const FeatureList = [
     url: '/docs/tukiportaali'
   },
   {
-    title: 'Uutiset',
+    title: 'Versiotiedotteet',
     Svg: require('@site/static/img/ilmoitukset.svg').default,
     description: (
       <>
-        Uutisarkisto ja versiotiedotteet.
+        Viimeisimmät tuoteuudistukset ja parannukset.
       </>
     ),
-    url: '/blog'
+    url: '/docs/versiotiedotteet/syyskuu_2024'
   },
 
 ];

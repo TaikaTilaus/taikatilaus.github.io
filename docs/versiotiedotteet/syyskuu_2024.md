@@ -31,7 +31,7 @@ Asiakaskortille Laskut-kohtaan on lisätty kentät Muoto ja Tila, jotka ovat oll
 
 ![Asiakaskortti](/img/versiotiedotteet/lasku-muodot.png)
 
-## Laskujen kiellistys
+## Laskujen kielistys
 
 Voit nyt valita, millä kielellä asiakkaat saavat laskunsa. Tällä hetkellä vaihtoehtoina ovat suomi, englanti ja espanja. Ruotsi on työn alla. Jos haluat ottaa toiminnon käyttöön, lähetä viesti tuki@taikatilaus.fi
 

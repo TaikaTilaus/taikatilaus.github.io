@@ -98,7 +98,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'ohjeetSidebar',
             position: 'left',
             label: 'Ohjeet',
           },
@@ -109,7 +109,13 @@ const config = {
             label: 'Pikaohjeet',
           },
           {to: '/docs/ohjevideot', label: 'Ohjevideot', position: 'left'},
-          {to: '/blog', label: 'Uutiset', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'versiotiedotteetSidebar',
+            position: 'left',
+            label: 'Versiotiedotteet',
+          },        
+          // {to: '/blog', label: 'Uutiset', position: 'left'},
           {to: 'https://taikatilaus.freshdesk.com/support/home', label: 'Tukipyyntö', position: 'right'},         
         ],
       },
@@ -146,17 +152,17 @@ const config = {
             title: 'Ajankohtaista',
             items: [
               {
-                label: 'Uutiset',
-                to: '/blog',
+                label: 'Versiotiedotteet',
+                to: '/docs/versiotiedotteet/syyskuu_2024',
               },
               {
-                label: 'TaikaTilaus',
-                href: 'https://www.taikatilaus.fi',
+                label: 'Blogi',
+                href: 'https://www.taikatilaus.fi/blog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} TaikaTilaus Oy.`,
+        copyright: `<div>Copyright © ${new Date().getFullYear()} <a href="https://www.taikatilaus.fi" class="footer__link-item">TaikaTilaus Oy</a>.</div>`,
       },
       metadata: [
         {name: 'keywords', content: 'tilausten hallinta, ilmoitusten hallinta, ilmoitusmyynti, maksumuuri, asiakashallinta, laskutus, postitus, omapalvelu, omailmoitus, subscription management, advertising, ad management'},
