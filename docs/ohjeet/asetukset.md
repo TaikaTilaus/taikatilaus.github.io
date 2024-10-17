@@ -752,6 +752,35 @@ Aktivoimalla **Siirry lehtien tilauslomakkeella ensin tuotelistaan** lomakkeen a
 
 ![Tilauslomake](/img/ohjeet/tilauslomake2.png)
 
+### Yhteystiedot
+
+Yhteystiedot-kentässä voit määrittää kysytäänkö asiakkaalta:
+
+- **Maata**
+- **Puhelinnumeroa**
+
+Voit myös asettaa ne pakollisiksi tiedoiksi.
+
+![Tilauslomake](/img/ohjeet/tilauslomake4.png)
+
+### Maksutapa 
+
+Maksutapa-kohdasta voit säätää maksutapohin liittyviän asetuksia.
+
+**Valitse laskutustapa -vaihtoehdot** kohdasta voit valita maksutapavaihtoehdoiksi:
+
+- Verkkomaksun
+- Sähköpostilaskun
+- Paperilaskun
+
+Voit myös valita, mikä näistä maksutavoista on lomakkeella **oletuksena** sekä asettaa lomakkeella näkyvät otsikot ja infoteksit maksutapoihin liittyen.
+
+![Tilauslomake](/img/ohjeet/tilauslomake5.png)
+
+**Valitse verkkomaksupalvelu** kohdasta voit valita mihin verkkomaksupalveluun asiakkaat ohjataan.
+
+![Tilauslomake](/img/ohjeet/tilauslomake6.png)
+
 ## Varhaisjakelu
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu.png)
