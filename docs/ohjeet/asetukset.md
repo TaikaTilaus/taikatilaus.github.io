@@ -781,6 +781,24 @@ Voit myös valita, mikä näistä maksutavoista on lomakkeella **oletuksena** se
 
 ![Tilauslomake](/img/ohjeet/tilauslomake6.png)
 
+### Tilauksen hyväksyminen
+
+**Tilausehdot (pakollinen) -valinnan teksti** kohdasta pitää asettaa tilausehtojen hyväksymisen teksti.
+
+**Tilausehdot osoite** kohtaan laitetaan osoite, josta löytyy tilausehtojen tiedot.
+
+**Markkinointivalinnat**-kohdasta voit asettaa, millä kanavilla asiakkaalle markkinoidaan. Vaihtoehtoina ovat:
+
+- Sähköposti
+- Kirje
+- Puhelu
+
+Voit myös asettaa markkinointilupakentille otsikot.
+
+Tietosuojaselosteen otsikko ja osoite asetetaan viimeisiin kenttiin.
+
+![Tilauslomake](/img/ohjeet/tilauslomake7.png)
+
 ## Varhaisjakelu
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu.png)
