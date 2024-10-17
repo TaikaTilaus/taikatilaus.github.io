@@ -718,6 +718,40 @@ Tilauslomakkeen asetukset määrittävät, mitä tuotteita on saatavilla uuden t
 
 ## Tilauslomake
 
+![Tilauslomake](/img/ohjeet/tilauslomake.png)
+
+Tilauslomake-välilehdellä voit määrittää tilauslomakkeen asetukset. Tilauslomakkeen kautta asiakkaat voivat tilata lehden. 
+
+Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esim. hs.fi.
+
+### Tilaustuotteen valinta
+
+**Tilaustuotteen valinta** -kohdasta voit asettaa, mitkä ja minkälaiset tuotteet tulevat tilauslomakkeelle näkyviin sekä asettaa mitä tekstejä tilauslomakkeella näkyy tilaustuotetta valitessa.
+
+**Tilaustuotteen valinta otsikko** -kohtaan voit asettaa tilauslomakkeelle otsikon tuotteen valinta kohtaan.
+
+**Valitse tuote-vaihtoehdoista** voit valita voika lomakkeelta tilata digitilauksia, täystilauksisa (tilaus sisältää paperilehden ja digin) vai paperitilauksia. Voit asettaa näille tuotevaihtoehdoille myös **otsikot** ja **infotekstit**, jotka tulevat näkyviin lomakkeelle.
+
+![Tilauslomake](/img/ohjeet/tilauslomake8.png)
+
+**Tilauslomakkeen tuotteet** -valikosta voit valita, mitä tuotteita asiakas voi tilata tilauslomakkeelta.
+
+![Tilauslomake](/img/ohjeet/tilauslomake3.png)
+
+**Tilauslomakkeen piilotetut tuotteet** -valikosta voit valita tuotteet, jotka ovat tilauslomakkeelta tilattavissa, mutta ovat tilauslomakkeelta piilotettu. Tuotteita voi tilata vaan, jos on tullut lomakkeelle esim. tarjouslinkin kautta.
+
+**Tilauslomakkeen tarjoustuotteet** -valikosta voit valita, mitä tarjoustuotteita lomakkeella näkyy.
+
+**Tilauslomakkeen oletuksena valittu tuote** -valikosta voit valita, mikä tuote näkyy lomakkeella oletuksena, kun lomakkeelle ensin tullaan.
+
+**Laske ja näytä kuukausihinta tuotteille** -valikosta voit valita, mille tuotteille lasketaan ja näytetään kuukausihinta lomakkeella.
+
+Aktivoimalla **Siirry lehtien tilauslomakkeella ensin tuotelistaan** lomakkeen aloitussivuksi tulee tuotelista.
+
+**Palaa tuotelistaan -painike** kentän aktivoimalla, lomakkeelle tulee painike, josta voi palata tuotelistaan tuotteen valinnasta.
+
+![Tilauslomake](/img/ohjeet/tilauslomake2.png)
+
 ## Varhaisjakelu
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu.png)
