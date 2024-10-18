@@ -718,7 +718,7 @@ Voit asettaa OmaPalvelun eri toiminnoille otsikon ja infotekstin. Asiakaspalvelu
 
 Tilauslomake-välilehdellä voit määrittää tilauslomakkeen asetukset. Tilauslomakkeen kautta asiakkaat voivat tilata lehden. 
 
-Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esim. hs.fi.
+Tilauslomake-asetuksista voit **esikatsella tyhjää tai esitäytettyä ilmoituslomaketta**. Esikatselusta voit testata ilmoituslomaketta ja nähdä, miten muutokset vaikuttavat lomakkeeseen.
 
 ### Tilaustuotteen valinta
 
@@ -814,6 +814,14 @@ Tietosuojaselosteen otsikko ja osoite asetetaan viimeisiin kenttiin.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake14.png)
 *Maksutapa-asetukset koskevat tätä kohtaa lomakkeesta.*
+
+### Tilausvahvistus ja uudelleenohjaus
+
+**Viestipohjat**-painikkeesta sinut ohjataan Viestipohjat-välilehteen, josta voit muokata tilausvahvistuksen tekstejä.
+
+Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esim. hs.fi.
+
+![Tilauslomake](/img/ohjeet/tilauslomake16.png)
 
 ## Varhaisjakelu
 
