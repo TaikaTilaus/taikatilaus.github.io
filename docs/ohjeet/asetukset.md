@@ -734,6 +734,9 @@ Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esi
 
 ![Tilauslomake](/img/ohjeet/tilauslomake8.png)
 
+![Tilauslomake](/img/ohjeet/tilauslomake9.png)
+*Tuotteen otsikko ja info teksti näkyvät lomakkeella ympyröidyissä kohdissa.*
+
 **Tilauslomakkeen tuotteet** -valikosta voit valita, mitä tuotteita asiakas voi tilata tilauslomakkeelta.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake3.png)
@@ -746,9 +749,17 @@ Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esi
 
 **Laske ja näytä kuukausihinta tuotteille** -valikosta voit valita, mille tuotteille lasketaan ja näytetään kuukausihinta lomakkeella.
 
+![Tilauslomake](/img/ohjeet/tilauslomake12.png)
+*Kuukausihinta näkyy tilauslomakkeella ympyröidyissä kohdassa.*
+
 Aktivoimalla **Siirry lehtien tilauslomakkeella ensin tuotelistaan** lomakkeen aloitussivuksi tulee tuotelista.
 
+![Tilauslomake](/img/ohjeet/tilauslomake11.png)
+*Tuotelista-näkymä*
+
 **Palaa tuotelistaan -painike** kentän aktivoimalla, lomakkeelle tulee painike, josta voi palata tuotelistaan tuotteen valinnasta.
+
+![Tilauslomake](/img/ohjeet/tilauslomake10.png)
 
 ![Tilauslomake](/img/ohjeet/tilauslomake2.png)
 
@@ -762,6 +773,9 @@ Yhteystiedot-kentässä voit määrittää kysytäänkö asiakkaalta:
 Voit myös asettaa ne pakollisiksi tiedoiksi.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake4.png)
+
+![Tilauslomake](/img/ohjeet/tilauslomake13.png)
+*Aktivoitavat yhteystiedot näkyvät ympyröidyissä kohdissa.*
 
 ### Maksutapa 
 
@@ -798,6 +812,9 @@ Voit myös asettaa markkinointilupakentille otsikot.
 Tietosuojaselosteen otsikko ja osoite asetetaan viimeisiin kenttiin.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake7.png)
+
+![Tilauslomake](/img/ohjeet/tilauslomake14.png)
+*Maksutapa-asetukset koskevat tätä kohtaa lomakkeesta.*
 
 ## Varhaisjakelu
 
