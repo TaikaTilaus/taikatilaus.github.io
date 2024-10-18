@@ -665,6 +665,17 @@ Asetuksiin määritellään kirjautumiseen liittyen mm.
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu7.png)
 
+### Korttien tekstit
+
+Voit asettaa OmaPalvelun eri toiminnoille otsikon ja infotekstin. Asiakaspalvelu kortille voit asettaa esim. yhteystiedot ja aukioloajat.
+
+![OmaPalvelu](/img/ohjeet/omapalvelu11.png)
+![OmaPalvelu](/img/ohjeet/omapalvelu12.png)
+![OmaPalvelu](/img/ohjeet/omapalvelu13.png)
+![OmaPalvelu](/img/ohjeet/omapalvelu14.png)
+![OmaPalvelu](/img/ohjeet/omapalvelu15.png)
+![OmaPalvelu](/img/ohjeet/omapalvelu16.png)
+
 ### Kirjautumisnäkymien otsikot ja palvelun osoitteet
 
 - **Kirjautumisnäytön Rekisteröidy-linkin osoite** -kenttään asetetaan, minkä osoitteen kautta palveluun rekisröidytään
