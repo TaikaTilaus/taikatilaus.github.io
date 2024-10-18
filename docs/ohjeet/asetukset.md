@@ -650,37 +650,6 @@ Asetuksiin määritellään kirjautumiseen liittyen mm.
 - Oheistoimintojen ohjauslinkit
 - Toimintoihin liittyvien viestien otsikot ja sisältötekstit
 
-### Tilauslomakkeen asetukset
-
-Tilauslomakkeen asetukset määrittävät, mitä tuotteita on saatavilla uuden tilauksen lomakkeella OmaPalvelussa
-
-- **Tilauslomakkeen tuotteet** -kenttään annetaan niiden tuotteiden TuoteID:t, jotka halutaan olevan valittavissa tilauslomakkeella
-- **Tilauslomakkeen piilotetut tuotteet** -kenttään annetaan sen tuotteen TuoteID, joka tulee näkyviin vain kun lomakkeelle siirrytään tarjouslinkin kautta
-- **Tilauslomakkeen tarjoustuotteet** -kenttään merkitään yllä listatuista tuoteista ne, jotka ovat tarjoustuoitteita
-- **Tilauslomakkeen oletuksena valittu tuote** -kenttään laitetaan sen tuotteen TuoteID, joka on lomakkeella oletuksena valittuna
-- **Siirry lehtien tilauslomakkeella ensin tuotelistaan** -kentän aktivoidessa lomakkeen aloitussivuna toimii tuotelista
-
-![OmaPalvelu](/img/ohjeet/omapalvelu2.png)
-
-![OmaPalvelu](/img/omapalvelu/tuotelista.png)
-*Tilauslomakkeen tuotelista*
-
-### Automaattiviestit
-
-- **OmaPalvelun käyttäjätunnuksen luontisähköposti** -kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetään, kun asiakkaalle on luotu tunnus OmaPalveluun
-- **Salasanan resetöintisähköposti** -kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetään, kun asiakas on pyytänyt salasanan resetointia
-
-![OmaPalvelu](/img/ohjeet/omapalvelu3.png)
-
-- **Automaattisen korttiveloituksen epäonnistuminen** -kenttiin voit asettaa otsikon ja tekstin viestiin, joka lähetetään, kun automaattinen korttiveloitus epäonnistuu
-- **Perhekutsu** -kentistä voit asettaa otsikon ja tekstin viestille, joka lähetetään, kun OmaPalvelun käyttäjä on lisännyt tililleen perhetunnuksia
-
-![OmaPalvelu](/img/ohjeet/omapalvelu4.png)
-
-- **Viestin kiellistys**: jos on tarvetta voit lisätä eri kieliversiota automaattiviesteihin. Viestien kieli määräytyy OmaPalvelun käyttäjän  omasta kiellistys asetuksesta.
-
-![OmaPalvelu](/img/ohjeet/omapalvelu5.png)
-
 ### Toiminnot
 
 - **OmaPalvelu2 -toiminnot käytössä** -kentästä aktivoidaan käyttöön OmaPalvelu2-ohjelman toiminnot. Vanhasta OmaPalvelusta ollaan siirtymävaiheessa uuteen palveluun.
@@ -715,6 +684,22 @@ Tilauslomakkeen asetukset määrittävät, mitä tuotteita on saatavilla uuden t
 - **REST-API URL** <!-- //???  -->
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu10.png)
+
+### Automaattiviestit
+
+- **OmaPalvelun käyttäjätunnuksen luontisähköposti** -kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetään, kun asiakkaalle on luotu tunnus OmaPalveluun
+- **Salasanan resetöintisähköposti** -kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetään, kun asiakas on pyytänyt salasanan resetointia
+
+![OmaPalvelu](/img/ohjeet/omapalvelu3.png)
+
+- **Automaattisen korttiveloituksen epäonnistuminen** -kenttiin voit asettaa otsikon ja tekstin viestiin, joka lähetetään, kun automaattinen korttiveloitus epäonnistuu
+- **Perhekutsu** -kentistä voit asettaa otsikon ja tekstin viestille, joka lähetetään, kun OmaPalvelun käyttäjä on lisännyt tililleen perhetunnuksia
+
+![OmaPalvelu](/img/ohjeet/omapalvelu4.png)
+
+- **Viestin kiellistys**: jos on tarvetta voit lisätä eri kieliversiota automaattiviesteihin. Viestien kieli määräytyy OmaPalvelun käyttäjän  omasta kiellistys asetuksesta.
+
+![OmaPalvelu](/img/ohjeet/omapalvelu5.png)
 
 ## Tilauslomake
 
