@@ -731,7 +731,7 @@ Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esi
 ![Tilauslomake](/img/ohjeet/tilauslomake8.png)
 
 ![Tilauslomake](/img/ohjeet/tilauslomake9.png)
-*Tuotteen otsikko ja info teksti näkyvät lomakkeella ympyröidyissä kohdissa.*
+*Tuotteen otsikko ja info teksti näkyvät lomakkeella ympäröidyissä kohdissa.*
 
 **Tilauslomakkeen tuotteet** -valikosta voit valita, mitä tuotteita asiakas voi tilata tilauslomakkeelta.
 
@@ -746,7 +746,7 @@ Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esi
 **Laske ja näytä kuukausihinta tuotteille** -valikosta voit valita, mille tuotteille lasketaan ja näytetään kuukausihinta lomakkeella.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake12.png)
-*Kuukausihinta näkyy tilauslomakkeella ympyröidyissä kohdassa.*
+*Kuukausihinta näkyy tilauslomakkeella ympäröidyissä kohdassa.*
 
 Aktivoimalla **Siirry lehtien tilauslomakkeella ensin tuotelistaan** lomakkeen aloitussivuksi tulee tuotelista.
 
@@ -771,7 +771,7 @@ Voit myös asettaa ne pakollisiksi tiedoiksi.
 ![Tilauslomake](/img/ohjeet/tilauslomake4.png)
 
 ![Tilauslomake](/img/ohjeet/tilauslomake13.png)
-*Aktivoitavat yhteystiedot näkyvät ympyröidyissä kohdissa.*
+*Aktivoitavat yhteystiedot näkyvät ympäröidyissä kohdissa.*
 
 ### Maksutapa 
 
@@ -786,6 +786,9 @@ Maksutapa-kohdasta voit säätää maksutapohin liittyviän asetuksia.
 Voit myös valita, mikä näistä maksutavoista on lomakkeella **oletuksena** sekä asettaa lomakkeella näkyvät otsikot ja infoteksit maksutapoihin liittyen.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake5.png)
+
+![Tilauslomake](/img/ohjeet/tilauslomake15.png)
+*Valitsemasi maksutavat, niiden otsikot ja infokenttä näkyvät ympäröidyissä kohdissa.*
 
 **Valitse verkkomaksupalvelu** kohdasta voit valita mihin verkkomaksupalveluun asiakkaat ohjataan.
 
