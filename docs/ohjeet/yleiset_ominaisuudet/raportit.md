@@ -55,3 +55,13 @@ Valmiita raporttipohjia luodaan tarvittaessa **asiakaskohtaisesti** läpi käyty
 **Myynnit myyjittäin** –raportille koostetaan kaikki hakuaikavälillä myydyt ilmoitusvaraukset myyjittäin jaoteltuina.
 
 ![Raportit](/img/ohjeet/raportit6.png)
+
+## Raporttien näkyvyyden muokkaus
+
+Jos ole pääkäyttäjä, voit muokata raporttien näkyvyyttä eri käyttäjille Raportit-välilehdellä, painamalla **Raporttien näkyvyydet** -painiketta.
+
+![Raportit](/img/ohjeet/raporttien-nakyvyys.png)
+
+Kun olet painanut nappia, valitse haluamasi käyttäjä **Käyttäjätunnus**-valikosta. Säädä raporttien näkyvyyttä painamalla raporttien kohdalta. Vihreä painike tarkoittaa, että kyseinen raportti näkyy valitulle käyttäjälle ja punainen painike tarkoittaa, että se ei näy.
+
+![Raportit](/img/ohjeet/raporttien-nakyvyys2.png)
