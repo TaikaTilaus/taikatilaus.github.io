@@ -17,7 +17,9 @@ Raportteja on nyt mahdollista suorittaa tausta-ajoina. Voit valita, milloin rapo
 
 ## Raporttien käyttöoikeuksien määrittely
 
-Raporttien käyttöoikeuksien määrittely on nyt helpompi hallita suoraan Raportit-osiossa. Pääkäyttäjä voi määrittää, kuka voi suorittaa raportin.
+Raporttien käyttöoikeuksien määrittely on nyt helpompi hallita. Pääkäyttäjä voi suoraan Raportit-osiossa hallinnoida kaikkien käyttäjien raporttien näkyvyyksiä.
+
+Olemassa olevat näkyvyydet säilyvät ennallaan, mutta aikaisempi tapa hallita käyttöoikeuksia asetusten Käyttäjät-kohdasta on poistettu.
 
 ## Tilauslomakkeen ja maksumuurin asetukset
 
