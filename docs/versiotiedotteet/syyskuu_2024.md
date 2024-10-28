@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.9.-30.9.2024 välisenä aikana
 image: /img/social.png
-keywords: [versiotiedote, tukisivusto, postitukset]
+keywords: [versiotiedote, postitukset, laskut]
 ---
 
 # Syyskuu 2024
