@@ -21,12 +21,18 @@ Raporttien käyttöoikeuksien määrittely on nyt helpompi hallita. Pääkäytt�
 
 Olemassa olevat näkyvyydet säilyvät ennallaan, mutta aikaisempi tapa hallita käyttöoikeuksia asetusten Käyttäjät-kohdasta on poistettu.
 
+[Löydät ohjeet uuden ominaisuuden käyttöön täältä.](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/raportit#raporttien-n%C3%A4kyvyyden-muokkaus)
+
+![Raportit](/img/ohjeet/raporttien-nakyvyys2.png)
+
 ## Tilauslomakkeen ja maksumuurin asetukset
+
+![Tilauslomake](/img/versiotiedotteet/tilaus-ja-maksumuuri.png)
 
 Tilauslomakkeen ja maksumuurin asetukset löytyvät jatkossa omilta välilehdiltään. Toiminnallisuuksien mukautettavuutta asetuksilla on lisätty, ja esimerkiksi tilauslomakkeella näytettävät tuoteryhmät, maksutavat, sekä otsikko- ja ohjetekstit voi määritellä asetuksissa.
 
 Uutena ominaisuutena valittujen tuotteiden hinnat voi näyttää tilauslomakkeella kuukausihintoina.
 
-[Tilauslomakkeen asetukset](/docs/ohjeet/asetukset#tilauslomake).
+[Ohjeet tilauslomakkeen asetuksiin löydät täältä](/docs/ohjeet/asetukset#tilauslomake).
 
 
