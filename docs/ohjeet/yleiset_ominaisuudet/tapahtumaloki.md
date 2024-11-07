@@ -21,9 +21,11 @@ Lokilta voi hakea suoritettuja toimintoja seuraavilla hakukriteereillä:
 - **SessionID** (käyttäjän selaimen yhteystunniste. tunniste on sama niin kauan kun ohjelma on selaimella auki.)
 - **SuoritajaID** (kaikki saman käyttäjän suorittamat toimet yhdellä kirjaustumissessiolla kirjataan suoritusID:n alle)
 
-Selaimen, TCP/IP -osoitteen, ja SessionID:n **näkyvyys** määritellään käyttäjäkohtaisesti.
+Selaimen, TCP/IP -osoitteen, ja SessionID:n **näkyvyys** voidaan määrittää aktivoimalla **Näytä Selain, TCP/IP, SessionID** -kenttä.
 
-Hakuehdot voi tyhjentää painamalla **Tyhjennä hakuehdot** -painiketta.
+![Tapahtumaloki](/img/ohjeet/loki2.png)
+
+Hakuehdot voi tyhjentää painamalla **Tyhjennä hakuehdot** -painiketta. Voit siirtyä päivästä toiseen **Edellinen päivä** ja **Seuraava päivä** -painikkeista.
 
 ![Tapahtumaloki](/img/ohjeet/loki-haku.png)
 *Lokista voi hakea suoritettuja toimintoja erilaisten hakukriteerien avulla.*

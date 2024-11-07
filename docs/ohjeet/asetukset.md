@@ -712,12 +712,18 @@ Voit asettaa OmaPalvelun eri toiminnoille otsikon ja infotekstin. Asiakaspalvelu
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu5.png)
 
+<!-- //???  ## Maksumuuri
+
+![Maksumuuri](/img/ohjeet/maksumuuri.png)
+
+Maksumuuri välilehdeltä voit testata maksumuurin toimivuutta ja asettaa osoitteet, josta -->
+
 ## Tilauslomake
 
 ![Tilauslomake](/img/ohjeet/tilauslomake.png)
 
 Tilauslomake-välilehdellä voit määrittää tilauslomakkeen asetukset. Tilauslomakkeen kautta asiakkaat voivat tilata lehden. 
-
+ 
 Tilauslomake-asetuksista voit **esikatsella tyhjää tai esitäytettyä ilmoituslomaketta**. Esikatselusta voit testata ilmoituslomaketta ja nähdä, miten muutokset vaikuttavat lomakkeeseen.
 
 ### Tilaustuotteen valinta
