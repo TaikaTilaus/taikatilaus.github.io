@@ -61,7 +61,7 @@ const FeatureList = [
         Viimeisimmät tuoteuudistukset ja parannukset.
       </>
     ),
-    url: '/docs/versiotiedotteet/syyskuu_2024'
+    url: '/docs/versiotiedotteet/lokakuu_2024'
   },
 
 ];
