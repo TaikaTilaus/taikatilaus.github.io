@@ -33,6 +33,8 @@ Tilauslomakkeen ja maksumuurin asetukset löytyvät jatkossa omilta välilehdilt
 
 Uutena ominaisuutena valittujen tuotteiden hinnat voi näyttää tilauslomakkeella kuukausihintoina.
 
+Näiden välilehtien toiminnallisuuksia päivitetään vielä.
+
 [Ohjeet tilauslomakkeen asetuksiin löydät täältä](/docs/ohjeet/asetukset#tilauslomake).
 
 
