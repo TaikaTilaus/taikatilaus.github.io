@@ -100,7 +100,7 @@ Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
 
 - **Hinta veroton, ALV prosentti ja Hinta verollinen** –kentissä määritellään tuotteelle oletushintatiedot, joita voi tarvittaessa myös muuttaa tilauksen luomisen jälkeen.
 - **Hinta veroton** -tieto on aina oltava viidellä (5) desimaalilla, jonka ohjelma pyöristää automaattsiesti laskua luotaessa.
-- Veroton/verollinen hintoja voi muuttaa ja suorittaa muutetun tiedon avulla uudelleenlaskennan **Laske veroton hinta verollisesta / Laske verollinen hinta uudelleen** -painikkeiden avulla.
+- Veroton/verollinen hintoja voi uudelleenlaskea syötettyjen tietojen avulla **Laske veroton hinta verollisesta / Laske verollinen hinta uudelleen** -painikkeita painamalla.
 - **Erämaksut**: Jos lasku maksetaan erissä, yleensä ohjelma laskee erien hinnat automaattisesti, mutta erien hinnat voi myös erikseen määritellä tähän lomakkeeseen ne täyttämällä.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen2.png)
@@ -120,11 +120,11 @@ Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, 
 
 - **Kotimaan/ulkomaan tilaus** –valinta määrittelee tuotteen tilauksen näkyvyyden ja käsittelyn mm. Postituslistalla (lähetetäänkö ulkomaille eri reittiä).
 - **Digituote**–valinta määrittelee tuotteen olevan käytettävissä vain netin kautta esim. Näköislehti.
-- **Oikeuttaa digipalveluun** –valinta määrittelee tuotteen tilaukseen sisältyvän myös oikeus käyttää sivuston erillistä Digipalvelua.
+- **Oikeuttaa digipalveluun** –valinta määrittelee kuuluuko tuotteeseen oikeus digipalveluun esim. näköislehteen.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen5.png)
 
-- Tuotteelle on määriteltävä **Valittavissa aikavälillä** -aikarajaus. Jos tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050). Valittavuus tarkoittaa, että tuote on valittavissa ohjelman valikoissa.
+- Tuotteelle on määriteltävä **Valittavissa aikavälillä** -aikarajaus. Jos tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050). Valittavuus tarkoittaa, että tuote on valittavissa ohjelman valikoissa ja ulkoisella tilauslomakkeella tässä määritetyn ajan.
 - Tuotteelle määritellään myös **Tilaus mahdollinen aikavälillä** -aikarajaus, joka rajaa sen käytettävissä olevan tilausjakson. Yksittäisen tilauksen alku- ja loppupäivät tulee mahtua annetun aikarajoituksen sisään. Mikäli tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050), koska ’toistaiseksi voimassaolevaa’ tuotetyyppiä ei ole käytettävissä
 - **Tilauksen päättymisaika tuotteesta** -kentän aktivoimalla tilauksen päättymisaika määräytyy tuotteen keston mukaan. Tilaus mahdollinen aikavälillä -määrää mahdollisen aloitusajan, mutta ei päättymisaikaa.
 
