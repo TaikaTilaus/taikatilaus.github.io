@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: Uudistuksia TaikaTilaus-tuotteeseen 1.9.-30.9.2024 välisenä aikana
+description: Uudistuksia TaikaTilaus-tuotteeseen 1.10.-30.10.2024 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, raportit, tilauslomake, maksumuuri]
 ---
@@ -29,7 +29,7 @@ Olemassa olevat näkyvyydet säilyvät ennallaan, mutta aikaisempi tapa hallita 
 
 ![Tilauslomake](/img/versiotiedotteet/tilaus-ja-maksumuuri.png)
 
-Tilauslomakkeen ja [maksumuurin](taikatilaus.fi/maksumuuri) asetukset löytyvät jatkossa omilta välilehdiltään. Toiminnallisuuksien mukautettavuutta asetuksilla on lisätty, ja esimerkiksi tilauslomakkeella näytettävät tuoteryhmät, maksutavat, sekä otsikko- ja ohjetekstit voi määritellä asetuksissa.
+Tilauslomakkeen ja [maksumuurin](https://www.taikatilaus.fi/maksumuuri) asetukset löytyvät jatkossa omilta välilehdiltään. Toiminnallisuuksien mukautettavuutta asetuksilla on lisätty, ja esimerkiksi tilauslomakkeella näytettävät tuoteryhmät, maksutavat, sekä otsikko- ja ohjetekstit voi määritellä asetuksissa.
 
 Uutena ominaisuutena valittujen tuotteiden hinnat voi näyttää tilauslomakkeella kuukausihintoina.
 
