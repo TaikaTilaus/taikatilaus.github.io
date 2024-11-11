@@ -13,7 +13,7 @@ Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](h
 
 ## Raporttien ajastetut ajot
 
-Raportteja on nyt mahdollista suorittaa tausta-ajoina. Voit valita, milloin raportti ajetaan, ja määrittää, missä muodossa raportti tehdään.
+Raportteja on nyt mahdollista suorittaa tausta-ajoina. Voit valita, milloin raportti ajetaan, ja määrittää, missä muodossa raportti tehdään. Tällä hetkellä toiminto on käytössä yhdellä asiakkaalla. Kysy toiminnon aktivoimisesta käyttöösi [tuestamme](https://taikatilaus.freshdesk.com/).
 
 ## Raporttien käyttöoikeuksien määrittely
 
@@ -29,7 +29,7 @@ Olemassa olevat näkyvyydet säilyvät ennallaan, mutta aikaisempi tapa hallita 
 
 ![Tilauslomake](/img/versiotiedotteet/tilaus-ja-maksumuuri.png)
 
-Tilauslomakkeen ja maksumuurin asetukset löytyvät jatkossa omilta välilehdiltään. Toiminnallisuuksien mukautettavuutta asetuksilla on lisätty, ja esimerkiksi tilauslomakkeella näytettävät tuoteryhmät, maksutavat, sekä otsikko- ja ohjetekstit voi määritellä asetuksissa.
+Tilauslomakkeen ja [maksumuurin](taikatilaus.fi/maksumuuri) asetukset löytyvät jatkossa omilta välilehdiltään. Toiminnallisuuksien mukautettavuutta asetuksilla on lisätty, ja esimerkiksi tilauslomakkeella näytettävät tuoteryhmät, maksutavat, sekä otsikko- ja ohjetekstit voi määritellä asetuksissa.
 
 Uutena ominaisuutena valittujen tuotteiden hinnat voi näyttää tilauslomakkeella kuukausihintoina.
 
