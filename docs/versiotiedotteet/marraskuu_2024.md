@@ -11,9 +11,10 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.10.-30.11.2024 välisenä aikana.
 
 Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
-## Navigoinnin ja lajittelun parannukset
+## Navigoinnin ja taulukkojen lajittelun parannukset
 
-Navigointilinkkejä on lisätty **Asiakas-, Lasku- ja Tilausnäkymiin**, jotta liikkuminen sovelluksen sisällä olisi sujuvampaa.
+- Navigointilinkkejä on lisätty **Asiakas-, Lasku- ja Tilausnäkymiin**, jotta liikkuminen sovelluksen sisällä olisi sujuvampaa.
+- Taulukoiden lajittelutoimintoja on parannettu: nyt tietoja voi järjestellä aakkosjärjestyksen lisäksi päivämäärien ja summien mukaan
 
 ## Tapahtumaloki
 
