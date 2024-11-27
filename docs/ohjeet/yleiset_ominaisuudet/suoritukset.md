@@ -144,7 +144,7 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 - Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille +40,00 €
 
 ### Laskun osittaisen maksun kirjaaminen ja loppuosan maksu takaisin asiakkaalle.
-- Kun asiakas on maksanut koko laskun 103,00 €, mutta peruutuksen jälkeen laskutetaan vain jo jaetut lehdet 9,00 €:
+- Kun asiakas on maksanut koko laskun 103,00 €, mutta peruutuksen jälkeen laskutetaan vain jo jaetut lehdet 94,00 €:
 - Pankkitilille (S) +103,00 €
 - Myyntisaamisiin (K) -94,00 €
 - Pankki-/Kulu-/Oikaisutililtä (T) -9,00 € (tili määräytyy tilitston mukaisesti)
