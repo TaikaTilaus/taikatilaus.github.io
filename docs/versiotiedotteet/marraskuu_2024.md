@@ -2,29 +2,28 @@
 sidebar_position: 1
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.11.-30.11.2024 välisenä aikana
 image: /img/social.png
-keywords: [versiotiedote, raportit, tilauslomake, maksumuuri]
+keywords: [versiotiedote, navigointi, tapahtumaloki, integraatiot]
 ---
 
 # Marraskuu 2024
 
-Uudistuksia TaikaTilaus-tuotteeseen 1.11.-30.11.2024 välisenä aikana.
+Uudistuksia TaikaTilaus-tuotteeseen 1.10.-30.11.2024 välisenä aikana.
 
 Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
-## Parempi hyperlinkkaus
+## Navigoinnin ja taulukkojen lajittelun parannukset
 
-Laskulta on nyt linkit suoraan tilauksiin/ilmoituksiin, joihin ne liittyvät, sekä maksajaan.
+- Navigointilinkkejä on lisätty **Asiakas-, Lasku- ja Tilausnäkymiin**, jotta liikkuminen sovelluksen sisällä olisi sujuvampaa.
+- Taulukoiden lajittelutoimintoja on parannettu: nyt tietoja voi järjestellä aakkosjärjestyksen lisäksi päivämäärien ja summien mukaan
 
-![Lasku](/img/versiotiedotteet/lasku-hyper.png)
+## Tapahtumaloki
 
-Tilauksilta on linkit tilaajaan sekä maksajaan, jos maksaja on erillinen.
+- Tapahumalokille on lisätty **SuorittajaID** -arvo, jonka avulla voi seurata käyttäjän toimintaa istunnon aikana.
+- Lokista on oletuksena piilotettu teknisiä tietoja.
 
-![Raportit](/img/versiotiedotteet/lasku-hyper.png)
+## Integraatiot
 
-Etusivun listauksesta pääse nyt asiakkaiden tietojen lisäksi tilauksiin.
-
-![Raportit](/img/versiotiedotteet/lasku-hyper.png)
-
-Ilmoitusmyynnistä pääsee nyt siihen liittyvään laskuun.
-
-![Raportit](/img/versiotiedotteet/lasku-hyper.png)
+1.  Prenly-näköislehden maksumuuri-integraatio
+    - Aktiivisen tilaajan tiedot sekä käyttöoikeudet haetaan suoraan TaikaTilauksesta käyttäjän kirjautuessa näköislehteen.
+2.  Liana Commerce -verkkokaupan tilausten integraatio
+    -  Verkkokaupassa tehdyt tilaukset voidaan tuoda automaattisesti TaikaTilaukseen tilauksen yhteydessä
