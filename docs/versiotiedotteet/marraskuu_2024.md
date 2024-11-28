@@ -11,6 +11,21 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.11.-30.11.2024 välisenä aikana.
 
 Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
+## Maksetun tilauksen palautuksen automaattinen tiliöinti 
+
+Ohjelmaan on lisätty **Maksetun tilauksen katkaisu** -toiminto, jonka avulla voi katkaista maksetun tilauksen ja tehdä automaattisesti laskulle merkinnän palautuksesta (HUOM! TaikaTilauksen kautta ei liiku rahaa! Rahan palautus pitää tehdä kirjanpitonne kautta. Palautuksen tiliöinti tehdään kirjanpidon raportteja varten!). Maksetun tilauksen katkaisu -ominaisuudesta voi siirtää palautuksen myös [saldoksi](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#saldon-siirt%C3%A4minen-asiakkaalle-maksetusta-laskusta), jos teillä on saldo-ominaisuus käytössä.
+
+![Tilaus](/img/versiotiedotteet/maksetunkat.png)
+
+![Maksetun tilauksen katkaisu](/img/versiotiedotteet/maksetunkat2.png)
+
+![Lasku](/img/versiotiedotteet/maksetunkat3.png)
+*Palautuksen tiliöinti laskulla.*
+
+Katkaisukäsittely on uudelleen nimetty **Maksamattoman tilauksen katkaisuksi**, selventämään toiminnon tarkoitusta.
+
+![Tilaus](/img/versiotiedotteet/maksamatonkat.png)
+
 ## Navigoinnin ja taulukkojen lajittelun parannukset
 
 - Navigointilinkkejä on lisätty **Ilmoitusmyynti-, Lasku- ja Tilausnäkymiin**, jotta liikkuminen sovelluksen sisällä olisi sujuvampaa.
@@ -42,7 +57,3 @@ Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](h
     - Aktiivisen tilaajan tiedot sekä käyttöoikeudet haetaan suoraan TaikaTilauksesta käyttäjän kirjautuessa näköislehteen.
 2.  [Liana Commerce](https://www.lianatech.com/solutions/websites-and-commerce/commerce.html) -verkkokaupan tilausten integraatio
     -  Verkkokaupassa tehdyt tilaukset voidaan tuoda automaattisesti TaikaTilaukseen tilauksen yhteydessä
-
-<!-- ## Maksetun tilauksen palautuksen automaattinen tiliöinti 
-
-Ohjelmaan on lisätty **Maksetun tilauksen katkaisu** -toiminto, jonka avulla voi katkaista maksetun tilauksen ja tehdä automaattisesti laskulle merkinnän palautuksesta (HUOM! TaikaTilauksen kautta ei liiku rahaa! Rahan palautus pitää tehdä kirjanpitonne kautta. Palautuksen tiliöinti tehdään kirjanpidon raportteja varten!). Maksetun tilauksen katkaisu -ominaisuudesta voi siirtää palautuksen myös [saldoksi](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#saldon-siirt%C3%A4minen-asiakkaalle-maksetusta-laskusta), jos teillä on saldo-ominaisuus käytössä.-->
