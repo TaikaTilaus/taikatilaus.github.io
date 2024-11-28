@@ -1,7 +1,10 @@
 # Maventa
 
 ## Ohjeet Maventa-virheen käsittelyyn
-Jos kohtaat Maventassa virheen, noudata seuraavia ohjeita:
+
+### Maksaja ei ota vastaan e-laskuja
+
+Jos kohtaat Maventassa tämän virheen, noudata seuraavia ohjeita:
 
 1. **Tutki virheen syy**
 - Tarkista virheeseen jäänyt lasku. Esimerkiksi POP-pankin tapauksessa virheilmoitus voi liittyä asiakkaan puuttuvaan eLasku-valtuutukseen.
