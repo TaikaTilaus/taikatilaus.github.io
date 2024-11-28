@@ -13,7 +13,7 @@ Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](h
 
 ## Maksetun tilauksen palautuksen automaattinen tiliöinti 
 
-Ohjelmaan on lisätty **Maksetun tilauksen katkaisu** -toiminto, jonka avulla voi katkaista maksetun tilauksen ja tehdä automaattisesti laskulle merkinnän palautuksesta (HUOM! TaikaTilauksen kautta ei liiku rahaa! Rahan palautus pitää tehdä kirjanpitonne kautta. Palautuksen tiliöinti tehdään kirjanpidon raportteja varten!). Maksetun tilauksen katkaisu -ominaisuudesta voi siirtää palautuksen myös [saldoksi](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#saldon-siirt%C3%A4minen-asiakkaalle-maksetusta-laskusta), jos teillä on saldo-ominaisuus käytössä.
+Ohjelmaan on lisätty **Maksetun tilauksen katkaisu** -toiminto, jonka avulla voi katkaista maksetun tilauksen ja tehdä automaattisesti laskulle merkinnän palautuksesta (**HUOM! TaikaTilauksen kautta ei liiku rahaa!** Rahan palautus pitää tehdä taloushallintonne kautta. Palautuksen tiliöinti tehdään kirjanpidon raportteja varten!). Maksetun tilauksen katkaisu -ominaisuudesta voi siirtää palautuksen myös [saldoksi](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#saldon-siirt%C3%A4minen-asiakkaalle-maksetusta-laskusta), jos teillä on saldo-ominaisuus käytössä.
 
 ![Tilaus](/img/versiotiedotteet/maksetunkat.png)
 
