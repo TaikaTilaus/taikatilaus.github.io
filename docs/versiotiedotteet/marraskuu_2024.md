@@ -7,7 +7,7 @@ keywords: [versiotiedote, navigointi, tapahtumaloki, integraatiot]
 
 # Marraskuu 2024
 
-Uudistuksia TaikaTilaus-tuotteeseen 1.10.-30.11.2024 välisenä aikana.
+Uudistuksia TaikaTilaus-tuotteeseen 1.11.-30.11.2024 välisenä aikana.
 
 Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
