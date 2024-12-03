@@ -102,7 +102,11 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 - Laskulomakkeen yläosassa on alkup. maksutiedot
 - Pankkisiirto-osan Summa–kentässä on **Maksamatta**-summa
 
-## Esimerkkejä tiliöintien muokkauksesta
+## Esimerkkejä laskun tiliöintien muokkauksesta
+
+Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** - ja **Lisää uusi suoritus** -painikkeista.
+
+![Suoritukset](/img/ohjeet/suoritukset9.png)
 
 ### Maksumuistutuksen lisämaksun kirjaaminen laskun tiliöinteihin:
 - Maksettu 50,00 €, Lasku 45,00 €, Maksumuistutus 5,00 € kirjataan
@@ -116,6 +120,12 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 - Tilausmyyntisaamiset (K) -50,00 € (kuittaa laskun maksetuksi)
 - Muistutusmaksu-tilille (T) +5,00 €
 
+![Suoritukset](/img/ohjeet/suoritukset24.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/suoritukset25.png)
+*Summa suorituksen kirjauksen jälkeen*
+
 ### Liian vähän maksetun summan kirjaaminen laskun tiliöinteihin ja uusi lasku:
 - Maksettu 35,00 €, Lasku 50,00 € kirjataan
 - Pankkitilille (S) +35,00 €
@@ -123,11 +133,23 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 - Maksamatta summaksi jää 15,00 €
 - ko. lasku lähetetään uudelleen asiakkaalle (Pankkisiirto-osassa näkyy Maksamatta summa)
 
+![Suoritukset](/img/ohjeet/suoritukset10.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/suoritukset11.png)
+*Summa suorituksen kirjauksen jälkeen*
+
 ### Liian vähän maksetun summan kirjaaminen laskun tiliöinteihin ja laskun kuittaaminen maksetuksi:
 - Maksettu 35,00 €, Lasku 50,00 € kirjataan
 - Pankkitilille (S) +35,00 €
 - Tilausmyyntisaamiset (K) -50,00 € (kuittaa laskun maksetuksi)
 - Oikaisu -tilille (T) +15,00 € (tai Luottotappio -tilille jos loppuosaa ei haluta periä asiakkaalta)
+
+![Suoritukset](/img/ohjeet/suoritukset12.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/suoritukset13.png)
+*Summa suorituksen kirjauksen jälkeen*
 
 ### Liian suuren summan kirjaaminen ja maksu takaisin asiakkaalle:
 - Asiakas maksanut 80,00 €, vaikka Lasku oli 50,00 € korjataan
@@ -136,12 +158,24 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 - Pankki-/Kulu-/Oikaisutililtä (T) -30,00 € (tili määräytyy tilitston mukaisesti)
 - Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille +30,00 €
 
+![Suoritukset](/img/ohjeet/suoritukset14.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/suoritukset15.png)
+*Summa suorituksen kirjauksen jälkeen*
+
 ### Kahdesti maksetun summan kirjaaminen ja ylimääräinen maksu takaisin asiakkaalle:
 - Asiakas maksanut yhteensä 80,00 €, vaikka Lasku oli 40,00 € korjataan
 - Pankkitilille (S) +80,00 €
 - Myyntisaamisiin (K) -40,00 € (kuittaa laskun maksetuksi)
 - Pankki-/Kulu-/Oikaisutililtä (T) -40,00 € (tili määräytyy tilitston mukaisesti)
 - Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille +40,00 €
+
+![Suoritukset](/img/ohjeet/suoritukset16.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/suoritukset17.png)
+*Summa suorituksen kirjauksen jälkeen*
 
 ### Laskun osittaisen maksun kirjaaminen ja loppuosan maksu takaisin asiakkaalle.
 - Kun asiakas on maksanut koko laskun 103,00 €, mutta peruutuksen jälkeen laskutetaan vain jo jaetut lehdet 94,00 €:
@@ -164,11 +198,23 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjei
 - Maksamatta summaksi jää 80,00 €
 - ko. lasku lähetetään uudelleen asiakkaalle (Pankkisiirto-osassa näkyy Maksamatta summa)
 
+![Suoritukset](/img/ohjeet/suoritukset19.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/suoritukset20.png)
+*Summa suorituksen kirjauksen jälkeen*
+
 ### Osasuorituksen kirjaaminen laskun tiliöinteihin:
 - Alkuperäinen lasku 100,00 €, josta maksettu vain 80,00 € kirjataan
 - Pankkitilille (S) +80,00 €
 - Myyntisaamisiin (K) -80,00 € (kuittaa osasuorituksen laskulta maksetuksi)
 - Maksamatta summaksi jää 20,00 €
+
+![Suoritukset](/img/ohjeet/suoritukset21.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/suoritukset22.png)
+*Summa suorituksen kirjauksen jälkeen*
 
 ### (kokonaan) Maksamatta jääneen laskun kirjaaminen:
 - Asiakkaan alkuperäinen Lasku oli 50 € kirjataan
