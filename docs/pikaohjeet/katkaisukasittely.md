@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Katkaisukäsittely
+# Maksamattoman tilauksen katkaisu
 
 HUOM! Tarkista, että tilaus on katkaistu ennen katkaisukäsittelyn toimenpiteitä. Katso <a href="tilauksen-katkaisu">Tilauksen katkaisu</a> pikaohjeista tai manuaalistamme.
 
@@ -14,7 +14,7 @@ HUOM! Tarkista, että tilaus on katkaistu ennen katkaisukäsittelyn toimenpiteit
 
 ![2. Asiakastiedot - näkymä](/img/pikaohjeet/asiamieskoodi-lisays2.png)
 
-### 3. Tilauksen tiedoista painetaan Katkaisukäsittely -painiketta
+### 3. Tilauksen tiedoista painetaan maksamattoman tilauksen katkaisu -painiketta
 
 ![3. Tilauksen tiedot](/img/pikaohjeet/Katkaisukasittely3.png)
 
