@@ -81,7 +81,9 @@ Laskutuspyynnön voi myös poistaa Poista-painiketta painamalla.
 
 Asiakkaan **voimassa oleva tilaus**, jota ei ole maksettu, voidaan tarvittaessa katkaista ja muodostaa uusi lasku jo toimitetuista lehdistä.
 
-Tilauslomakkeen alaosasta löytyvää **Katkaisukäsittely**–painiketta painamalla pääset tilauksen katkaisukäsittelyyn.
+Tilauslomakkeen alaosasta löytyvää **Maksamattoman tilauksen katkaisu**–painiketta painamalla pääset tilauksen katkaisukäsittelyyn.
+
+![Tilauslomake](/img/ohjeet/maksamaton.png)
 
 Lomakkeelle täytetään
 - Katkaisutiedot - **Katkaisupäivä ja Katkaisun syy**
@@ -101,11 +103,15 @@ Tällöin vältytään tilanteelta, jossa Kestojatkon ajossa toinen voimassaolev
 
 ### Maksetun tilauksen katkaisu
 
-Kun maksettu tilaus katkaistaan, voidaan maksettu summa siirtää asiakkaalle saldoksi. 
+Kun maksettu tilaus katkaistaan, voidaan maksettu summa siirtää asiakkaalle saldoksi tai voidaan tehdä tiliöinti asiakkaalle palautuvasta rahasta tilauksen laskulle (**HUOM!** TaikaTilauksen kautta **ei liiku rahaa**! Palautus asiakkaan tilille pitää tehdä taloushallinnon kautta!). 
 
 **Saldoa** kertyy asiakkaalle esimerkiksi siinä tapauksessa, että asiakas on **maksanut** jonkun tilauksen, mutta haluaa sittenkin **vaihtaa** sen toiseen tilaustuotteeseen. Kun tilaus katkaistaan, tulee asiakkaalle hyvityksenä tilauksen **saamattomista lehdistä** tietty euromäärä. Tämä määrä siirtyy asiakkaan saldoon, jota voidaan käytettää tulevien laskujen maksamiseen.
 
-Maksetun tilauksen katkaisu tehdään painamalla **Maksetun tilauksen katkaisu** -painiketta. Lomakkeelle lisätään katkaisupäivä ja -syy. **Ohjelma laskee automaattisesti hyvitettävän saldon määrän**. Tarvittaessa voit muokata Viesti asiakkaalle ja Sisäinen info -kenttien tekstejä.
+Maksetun tilauksen katkaisu tehdään painamalla **Maksetun tilauksen katkaisu** -painiketta. Lomakkeelle lisätään katkaisupäivä ja -syy. **Ohjelma laskee automaattisesti hyvitettävän saldon/rahasumman määrän**. Tarvittaessa voit muokata Viesti asiakkaalle ja Sisäinen info -kenttien tekstejä.
+
+Jos haluat palauttaa takaisin maksettavan summan **saldoksi**, paina **Katkaise tilaus ja palauta toimittamaton summa asiakkaan saldoksi** -painiketta.
+
+Jos haluat palauttaa takaisin maksettavan summan asiakkaalle, paina **Katkaise tilaus ja tee palautuksen tiliöinti** -painiketta. **HUOM!** Tämä **ei** tee itse palautusta! Palautus **pitää tehdä taloushallinnon kautta**! Tiliöinti tehdään kirjanpidon raportteja varten!
 
 ![Tilauksen tiedot - Maksetun tilauksen katkaisutoimet](/img/ohjeet/maksettutilaus-katkaisu.png)
 *Maksetun tilauksen katkaisutoimet.*
@@ -114,6 +120,8 @@ Maksetun tilauksen katkaisu tehdään painamalla **Maksetun tilauksen katkaisu**
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo4.png)
 *Saldo näkyy asiakaskortilla laskutustietojen alla.*
+
+Jos valitsit rahapalautuksen tiliöinnin, tiliöinnit ilmestyvät tilaukseen liittyvälle laskulle. 
 
 ### Tilauksen jatkaminen
 
