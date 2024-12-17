@@ -3,17 +3,23 @@
 
 # Prenly
 
-[Prenly](https://www.prenly.com/) näköislehden maksumuuri-integraatio. Käyttäjän kirjautuessa näköislehteen haetaan tilaajan tiedot sekä käyttöoikeudet reaaliaikaisesti TaikaTilauksesta.
+[Prenly](https://www.prenly.com/) näköislehden maksumuuri-integraatio. 
+
+Tämä ohje kuvaa, kuinka TaikaTilauksen tilaajatiedot ja lukuoikeudet yhdistetään reaaliaikaisesti Prenlyn näköislehden kirjautumiseen. Ratkaisu varmistaa tilaajille sujuvan käyttökokemuksen ja ajantasaiset käyttöoikeudet.
 
 ## Käyttötarkoitus
 
+Reaaliaikainen integraatio TaikaTilauksen ja Prenlyn välillä mahdollistaa:
+- Välittömän pääsyn näköislehteen tilausvahvistuksen tai maksun jälkeen
+- Salasanan uusimisen suoraan TaikaTilauksen kautta
+
+## Taustaa
+
 Ajantasainen tieto voimassaolevista tilauksista ja digilehden lukuoikeuksista on TaikaTilauksessa.
 
-Prenly-näköislehteen (mobiili tai web) kirjautumisessa voidaan toteuttaa pääsynhallinta eri tavoin. Aktiiviset tilaajat voidaan ylläpitää Prenlyssä manuaalisesti, tuoda eräajoina, tai hakea kirjautumisen yhteydessä tilausjärjestelmästä.
+Prenly-näköislehteen (mobiili tai web) kirjautumisessa voidaan toteuttaa pääsynhallinta eri tavoin. Aktiiviset tilaajat voidaan ylläpitää Prenlyssä manuaalisesti, tuoda eräajoina, tai hakea kirjautumisen yhteydessä reaaliaikaisesti tilausjärjestelmästä.
 
-Reaaliaikainen lukuoikeuden tarkistus tilausjärjestelmästä on lehden lukijalle sujuvin, koska lukuoikeuden saa heti kun tilaus on voimassa, esim. tilausvahvistuksen tai verkkomaksun jälkeen.
-
-Prenly-kirjautumissivulla näytetään myös linkki unohtuneen salasanan uusimiseen TaikaTilauksessa.
+Reaaliaikainen lukuoikeuden tarkistus mahdollistaa, että lukuoikeuden saa heti kun tilaus on voimassa, esim. tilausvahvistuksen tai verkkomaksun jälkeen.
 
 ## Liittymän toimintaperiaate
 
@@ -30,17 +36,19 @@ Käyttäjän tiedot kertovat mihin tuotteisiin on käyttäjällä on lukuoikeus 
 
 ##  Liittymän käyttöönotto
 
-Prenly-integraation käyttöönotto tulee sopia Prenlyn ja TaikaTilauksen kanssa. Ota ensin yhteys Prenlyn tukeen.
 
-1. Prenlyn konfigurointi
-   - TaikaTilaus toimittaa tarvittavat tiedot Prenlyyn, jotka on märitelty [liittymäkuvauksessa](https://support.prenly.com/p/sign-in-subscriptions/remote-api/a/prenly-remote-authority-api/5567/1013545/40483451).
+1. Yhteydenotto: Ota yhteys Prenlyn tukeen ja sovi käyttöönotosta TaikaTilauksen kanssa.
+
+2. Prenlyn konfigurointi
+   - TaikaTilaus toimittaa tarvittavat tiedot Prenlyyn [liittymäkuvauksen](https://support.prenly.com/p/sign-in-subscriptions/remote-api/a/prenly-remote-authority-api/5567/1013545/40483451) mukaisesti.
   
-2. Liittymän testaus testiympäristössä. 
+3. Testaus testiympäristössä. 
    - TaikaTilaus testaa käyttäen Prenlyn [testisovellusta](https://remoteapi.prenly.com/). 
-   - Prenly vahvistaa, että liittymä on teknisesti kunnossa.
+   - Prenly vahvistaa teknisen toimivuuden.
 
-3. Liittymän käyttöönotto tuotannossa
-   * Prenly kytkee päälle kirjautumislomakkeen. Jos aikaisemmin on ollut käytössä Prenlyyn sisäänrakennettu autentikointi, nämä tunnukset lakkaavat toimimasta.
+4. Käyttöönotto tuotannossa
+   * Prenly kytkee päälle kirjautumislomakkeen. 
+   * Huom! Aiemmat tunnukset lakkaavat toimimasta, jos Prenlyyn sisäänrakennettu autentikointi oli aiemmin käytössä.
    * Asiakas viestii muutoksesta lukijoille
 
 ## Hinta
