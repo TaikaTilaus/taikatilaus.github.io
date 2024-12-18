@@ -3,7 +3,7 @@
 
 # Prenly
 
-[Prenly](https://www.prenly.com/) näköislehden maksumuuri-integraatio. 
+[Prenly](https://www.prenly.com/)-näköislehden maksumuuri-integraatio. 
 
 Tämä ohje kuvaa, kuinka TaikaTilauksen tilaajatiedot ja lukuoikeudet yhdistetään reaaliaikaisesti Prenlyn näköislehden kirjautumiseen. Ratkaisu varmistaa tilaajille sujuvan käyttökokemuksen ja ajantasaiset käyttöoikeudet.
 

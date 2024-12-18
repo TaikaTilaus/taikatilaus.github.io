@@ -41,3 +41,5 @@ Uusi integraatio Anygraaf Planner-suunnittelutyökaluun. Integraation avulla voi
 ## Fennoa-liittymä
 
 Uusi integraatio myyntilaskujen kirjanpitotositteiden automaattiseen vientiin TaikaTilauksesta Fennoa taloushallinto-ohjelmaan. Toiminto vähentää kirjanpitäjän työtaakkaa, koska kirjanpitoraportteja ei erikseen tarvitse hakea TaikaTilauksesta. Kirjanpitotosite viedään Fennoaan myyntireskontran tilitapahtumista, kuten lähetetyistä myyntilaskuista ja asiakkaan suorittamista maksuista.
+
+[Lisätietoja Fennoa-liittymästä](/docs/ohjeet/integraatiot/fennoa)

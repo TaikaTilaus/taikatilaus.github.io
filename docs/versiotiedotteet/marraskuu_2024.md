@@ -57,5 +57,6 @@ Katkaisukäsittely on uudelleen nimetty **Maksamattoman tilauksen katkaisuksi**,
 
 1.  [Prenly-näköislehden](https://www.prenly.com/) maksumuuri-integraatio
     - Aktiivisen tilaajan tiedot sekä käyttöoikeudet haetaan suoraan TaikaTilauksesta käyttäjän kirjautuessa näköislehteen.
+    - [Lisätietoja Prenly-liittymästä](/docs/ohjeet/integraatiot/prenly)
 2.  [Liana Commerce](https://www.lianatech.com/solutions/websites-and-commerce/commerce.html) -verkkokaupan tilausten integraatio
     -  Verkkokaupassa tehdyt tilaukset voidaan tuoda automaattisesti TaikaTilaukseen tilauksen yhteydessä
