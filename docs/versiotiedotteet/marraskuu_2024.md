@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.11.-30.11.2024 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, navigointi, tapahtumaloki, integraatiot]
