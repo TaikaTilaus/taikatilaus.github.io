@@ -16,6 +16,8 @@ Ohjelmaan on lisätty uusi **Viestit**-toiminto, jonka avulla käyttäjät voiva
 
 **Hallinta**-osio kytketään päälle asetuksista.
 
+![Hallinta-välilehti](/img/versiotiedotteet/hallinta.png)
+
 ## Varhaisjakelun katurekisterin muokkaus laajentunut
 TaikaTilaukseen on lisätty uusi käyttöliittymä, joka mahdollistaa Lounais-Suomen tietojakelun (LSTJ) varhaisjakelun katurekisterin muokkaamisen. Aiemmin käyttäjät pystyivät päivittämään vain Postin kohdistusrekisteriä, mikä vaati tiedostojen olevan oikeassa CSV-muodossa.
 
@@ -27,6 +29,8 @@ TaikaTilaukseen on lisätty uusi käyttöliittymä, joka mahdollistaa Lounais-Su
 ### Tulevat laajennukset
 - **Jakeluyhtiöiden laajempi tuki**: Muokkaustoiminnallisuus laajennetaan koskemaan kaikkia yleisimpiä jakeluyhtiöitä.
 - **Kayak-muotoisen aineiston tuki**: Tuontitoimintoon lisätään jatkossa tuki Kayak-muodossa toimitettaville rekisteritiedoille.
+
+![Hallinta-välilehti](/img/versiotiedotteet/varhaisjakelu.png)
 
 ## Ilmoitusvarauksiin muutostiedot
 
@@ -40,6 +44,10 @@ Ilmoitusvarauksiin on lisätty käyttäjien toivomana ominaisuutena lisäys- ja 
 
 Raskaat jaksotusraportit voidaan nyt suorittaa tausta-ajoina, jolloin ne ovat noudettavissa ajon valmistumisen jälkeen. Tämä mahdollistaa raporttien ajamisen ilman, että käyttäjän tarvitsee aktiivisesti odottaa niiden valmistumista käyttöliittymässä.
 
+![Raporttiajo](/img/versiotiedotteet/raporttiajo.png)
+
+![Raporttiajo](/img/versiotiedotteet/raporttiajo2.png)
+
 ## Integraatiot
 
-**PISA-Jakelu Oy** on lisätty uutena tuettuna varhaisjakelukumppanina. Varhaisjakeluaineiston muodostus ja siirto PISA:n järjestelmään on toteutettu osaksi TaikaTilauksen postitusprosessia. Tämä mahdollistaa asiakkaiden yhteistyön PISA-Jakelun kanssa varhaisjakelussa.
+[**PISA-Jakelu Oy**](https://www.pisajakelu.fi/) on lisätty uutena tuettuna varhaisjakelukumppanina. Varhaisjakeluaineiston muodostus ja siirto PISA:n järjestelmään on toteutettu osaksi TaikaTilauksen postitusprosessia. Tämä mahdollistaa asiakkaiden yhteistyön PISA-Jakelun kanssa varhaisjakelussa.
