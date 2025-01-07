@@ -30,14 +30,13 @@ Liittymässä hyödynnetään [Prenly Remote authority API](https://apidoc.prenl
 
 Tämä tarkoittaa, että Prenly näyttää käyttäjälle kirjautumislomakkeen, joka välittää käyttäjätunnuksen ja salasanan TaikaTilaukseen tarkistettavaksi.
 
-Täsmällisemmin Prenlyn kirjautumislomakkeelle syötetty käyttäjätunnus ja salasana lähetetään TaikaTilauksen [authenticateWithUsernameAndPassword](https://apidoc.prenly.com/remote-api/#/2.%20Built-in%20login%20form%2C%20remote%20accounts/authenticateWithUsernameAndPassword) endpointiin, joka palauttaa yksilöivän käyttäjätunnisteen, jos kirjautuminen onnistuu ja virhetiedon muussa tapauksessa.
+Täsmällisemmin, Prenlyn kirjautumislomakkeelle syötetty käyttäjätunnus ja salasana lähetetään TaikaTilauksen [authenticateWithUsernameAndPassword](https://apidoc.prenly.com/remote-api/#/2.%20Built-in%20login%20form%2C%20remote%20accounts/authenticateWithUsernameAndPassword) endpointiin, joka palauttaa yksilöivän käyttäjätunnisteen, jos kirjautuminen onnistuu ja virhetiedon muussa tapauksessa.
 
 Tämän jälkeen käyttäjätunnisteella voidaan hakea käyttäjän tiedot [getUser](https://apidoc.prenly.com/remote-api/#/2.%20Built-in%20login%20form%2C%20remote%20accounts/getUser) -kutsulla.
 
 Käyttäjän tiedot kertovat mihin tuotteisiin on käyttäjällä on lukuoikeus ja tilauksen voimassaoloajan.
 
 ##  Liittymän käyttöönotto
-
 
 1. Yhteydenotto: Ota yhteys Prenlyn tukeen ja sovi käyttöönotosta TaikaTilauksen kanssa.
 
