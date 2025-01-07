@@ -15,9 +15,9 @@ Reaaliaikainen integraatio TaikaTilauksen ja Prenlyn välillä mahdollistaa:
 
 ## Taustaa
 
-Ajantasainen tieto voimassaolevista tilauksista ja digilehden lukuoikeuksista on TaikaTilauksessa.
+Ajantasainen tieto voimassaolevista tilauksista ja digilehden lukuoikeuksista on TaikaTilauksessa. Tilauksen yhteydessä tilaaja on luonut käyttäjätunnuksen TaikaTilaukseen, jota voidaan käyttää digipalveluihin kirjautumisessa. Tarvittaessa myös TaikaTilauksen pääkäyttäjä voi luoda käyttäjätunnuksia tilaajalle.
 
-Prenly-näköislehteen (mobiili tai web) kirjautumisessa voidaan toteuttaa pääsynhallinta eri tavoin. Aktiiviset tilaajat voidaan ylläpitää Prenlyssä manuaalisesti, tuoda eräajoina, tai hakea kirjautumisen yhteydessä reaaliaikaisesti tilausjärjestelmästä.
+Prenly-näköislehteen (mobiili tai web) kirjautumisessa voidaan toteuttaa pääsynhallinta eri tavoin. Aktiiviset tilaajat voidaan ylläpitää Prenlyssä manuaalisesti, tuoda eräajoina, tai hakea kirjautumisen yhteydessä reaaliaikaisesti tilausjärjestelmästä, kuten TaikaTilaus-integraatiossa tehdään. 
 
 Reaaliaikainen lukuoikeuden tarkistus mahdollistaa, että lukuoikeuden saa heti kun tilaus on voimassa, esim. tilausvahvistuksen tai verkkomaksun jälkeen.
 
@@ -28,7 +28,9 @@ Liittymä perustuu [Prenly Remote API](https://support.prenly.com/p/sign-in-subs
 Liittymässä hyödynnetään [Prenly Remote authority API](https://apidoc.prenly.com/remote-api/) -rajapinnan varianttia 2:
 * Prenly built-in login form - login credentials are validated by your system
 
-Prenlyn kirjautumislomakkeelle syötetty käyttäjätunnus ja salasana välitetään TaikaTilauksen [authenticateWithUsernameAndPassword](https://apidoc.prenly.com/remote-api/#/2.%20Built-in%20login%20form%2C%20remote%20accounts/authenticateWithUsernameAndPassword) endpointiin, joka palauttaa yksilöivän käyttäjätunnisteen.
+Tämä tarkoittaa, että Prenly näyttää käyttäjälle kirjautumislomakkeen, joka välittää käyttäjätunnuksen ja salasanan TaikaTilaukseen tarkistettavaksi.
+
+Täsmällisemmin Prenlyn kirjautumislomakkeelle syötetty käyttäjätunnus ja salasana lähetetään TaikaTilauksen [authenticateWithUsernameAndPassword](https://apidoc.prenly.com/remote-api/#/2.%20Built-in%20login%20form%2C%20remote%20accounts/authenticateWithUsernameAndPassword) endpointiin, joka palauttaa yksilöivän käyttäjätunnisteen, jos kirjautuminen onnistuu ja virhetiedon muussa tapauksessa.
 
 Tämän jälkeen käyttäjätunnisteella voidaan hakea käyttäjän tiedot [getUser](https://apidoc.prenly.com/remote-api/#/2.%20Built-in%20login%20form%2C%20remote%20accounts/getUser) -kutsulla.
 
