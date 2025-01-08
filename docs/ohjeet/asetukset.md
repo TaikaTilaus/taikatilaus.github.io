@@ -829,6 +829,38 @@ Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esi
 
 ![Tilauslomake](/img/ohjeet/tilauslomake16.png)
 
+### Tilaajan tunnusten luominen
+
+Tunnusten luomiseen on kaksi keinoa. Kun tunnukset on luotu, ne siirtyvät näkyislehtipalveluun, jos sellainen on käytössä.
+
+1. Kun asiakas tekee tilauksen **TaikaTilauksen tilauslomakkeen kautta**, saa hän sähköpostiinsa vahvistusviestin, jonka kautta hän voi luoda tunnuksensa.
+
+![Tilauslomake](/img/ohjeet/tunnus8.png)
+
+![Tilauslomake](/img/ohjeet/tunnus5.png)
+
+Linkin kautta asiakas voi määrittää salasanansa.
+
+![Tilauslomake](/img/ohjeet/tunnus6.png)
+
+![Tilauslomake](/img/ohjeet/tunnus7.png)
+
+2. TaikaTilauksen käyttäjä voi luoda asiakkaalla tunnuksen.
+
+![Tilauslomake](/img/ohjeet/tunnus.png)
+
+- Tunnuksen **käyttäjätunnus on aina sähköposti**, voit myös valita onko luomasi tunnus päätunnus vai alitunnus (jos perhetunnukset ovat käytössä).
+
+![Tilauslomake](/img/ohjeet/tunnus2.png)
+
+- Kun olet luonut tunnuksen, voit lähettää asiakkaalle sähköpostin salasanan luomiseen **Lähetä uusi tunnnus -sähköposti** -painikkeesta. Asiakas voi näin aktivoida tunnuksensa.
+
+![Tilauslomake](/img/ohjeet/tunnus3.png)
+
+![Tilauslomake](/img/ohjeet/tunnus4.png)
+
+*Asiakas voi asettaa salasanansa saamastaan sähköpostista.*
+
 ## Varhaisjakelu
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu.png)
