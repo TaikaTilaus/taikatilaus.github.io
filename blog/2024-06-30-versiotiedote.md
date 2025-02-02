@@ -15,4 +15,4 @@ Tilausten hallinnassa uutena ominaisuutena on mahdollisuus määritellä asiakas
 
 Tilaajapalvelun itsepalvelukanava **OmaPalvelu** on hioutunut käyttöönottojen myötä entistä monipuolisemmaksi. Suosittelemme kaikille asiakkaillemme OmaPalvelun käyttöönottoa, sillä se tehostaa asiakaspalvelua ja parantaa asiakaskokemusta merkittävästi.
 
-**[Lue kesäkuun versiotiedote tästä](/docs/versiotiedotteet/kesäkuu_2024)**
+**[Lue kesäkuun versiotiedote tästä](/docs/versiotiedotteet/2024/kesäkuu_2024)**
