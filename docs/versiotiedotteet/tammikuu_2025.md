@@ -29,10 +29,6 @@ Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](h
 
 ![Haut](/img/versiotiedotteet/tilaustapa.png)
 
-## Massamuutos laskutuspyyntöihin
-
-Mahdollisuus muuttaa laskutuspyyntöjen hintoja samanaikaisesti usealle laskutuspyynnölle.
-
 ## Käyttäjätunnusten haku
 
 Uusi hallintakäyttäjän hakutoiminto mahdollistaa tilaajien käyttäjätunnusten (Maksumuuri ja OmaPalvelu) etsimisen.
