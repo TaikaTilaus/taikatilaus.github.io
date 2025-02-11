@@ -22,6 +22,14 @@ Voit hakea viestejä:
 - **vastaanottojan osoitteen**
 - TAI **lähetyksen tunnuksen** perusteella (jokaisella lähetyksellä on oma tunniste, massalähetyksissä tunniste on sama kaikilla viesteillä)
 
+Voit hakea lähettämättömät viestit painamalla **Hae lähettämättömät** -painiketta.
+
+![Viestit](/img/ohjeet/viestit2.png)
+
+Saat hakutuloksen listaan lisäkenttiä aktivoimalla niitä **Listan lisäkentät** -valikosta ja suorittamalla Haun.
+
+![Viestit](/img/ohjeet/viestit3.png)
+
 ## Tapahtumaloki
 
 ![Tapahtumaloki](/img/ohjeet/tapahtumaloki.png)
