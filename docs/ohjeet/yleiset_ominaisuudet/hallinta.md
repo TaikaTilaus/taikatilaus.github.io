@@ -62,3 +62,9 @@ Asiakaskohtaisesti sovitaan myös näytettävät muut muutokset, kuten **kenttä
 ![Kontaktien roskakori](/img/ohjeet/roskakori.png)
 
 **Kontaktien roskakori** -välilehdellä voit hakea, palauttaa tai lopullisesti poistaa poistettuja asiakaskortteja.
+
+Roskakorin listauksessa näet poistettujen asiakkaiden:
+
+- asiakasnumeron
+- yhteystiedot
+- poistoajan
