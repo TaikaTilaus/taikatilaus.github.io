@@ -2,9 +2,29 @@
 sidebar_position: 8
 ---
 
-# Tapahtumaloki
+# Hallinta
 
-![Tapahtumaloki](/img/ohjeet/loki.png)
+![Hallinta](/img/ohjeet/hallinta.png)
+
+Hallinta-välilehdeltä voit hallita järjestelmään liittyviä eri asioita, kuten asiakkaiden käyttäjätunnuksia, roskakoria ja tapahtumalokia.
+
+## Viestit
+![Viestit](/img/ohjeet/viestit.png)
+
+Hallinta-välilehden **Viestit**-alavälilehdellä voit tarkastella asiakkaille lähetettyjä viestejä, esim. tilausvahvistuksen yhteydessä.
+
+Voit hakea viestejä:
+
+- **päivän**
+- **kanavan** (kirje, sähköposti, verkkolasku, muu)
+- **lähetyksen tilan** (odottaa, lähetyksessä, lähetetty, virhe)
+- viestistä tai otsikosta löytyvän **merkkijonon**
+- **vastaanottojan osoitteen**
+- TAI **lähetyksen tunnuksen** perusteella (jokaisella lähetyksellä on oma tunniste, massalähetyksissä tunniste on sama kaikilla viesteillä)
+
+## Tapahtumaloki
+
+![Tapahtumaloki](/img/ohjeet/tapahtumaloki.png)
 
 **Tapahtumaloki**–välilehdellä tarkastellaan sovelluksessa tapahtuneita asioita, joiden on katsottu olevan oleellisia sovelluksen käytön seurannan kannalta. Lokilta voi esimerkiksi tarkistaa kuka on poistanut tilauksen tai tehnyt muun vastaavan virheen.
 
@@ -36,3 +56,9 @@ Klikkaamalla sarakkeissa olevia **Hakuun**-nappeja, siirtyvät tiedot hakukritee
 *Klikkaamalla Hakuun-painiketta saat siirrettyä lokissa esiintyviä tietoja hakukriteereiksi.*
 
 Asiakaskohtaisesti sovitaan myös näytettävät muut muutokset, kuten **kenttäkohtaiset** muutostiedot, joita käyttäjät ovat tehneet (asiakas-/tilaus-/laskutustietojen päivitykset jne.) esim. OmaPalvelussa
+
+## Kontaktien roskakori
+
+![Kontaktien roskakori](/img/ohjeet/roskakori.png)
+
+**Kontaktien roskakori** -välilehdellä voit hakea, palauttaa tai lopullisesti poistaa poistettuja asiakaskortteja.
