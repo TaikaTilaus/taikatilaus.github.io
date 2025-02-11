@@ -76,3 +76,11 @@ Roskakorin listauksessa näet poistettujen asiakkaiden:
 - asiakasnumeron
 - yhteystiedot
 - poistoajan
+
+Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painamalla **Palauta roskakorista aktiiviseksi** -painiketta, voit palauttaa asiakaskortin tietokantaan. Ohjelma kysyy sinua varmistamaan, että haluat suorittaa palautuksen.
+
+![Kontaktien roskakori](/img/ohjeet/roskakori2.png)
+
+Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painamalla **Poista lopullisesti** -painiketta, voit poistaa asiakaskortin lopullisesti tietokannasta. Tämän jälkeen ei asiakasta voi palauttaa. Ohjelma kysyy sinua varmistamaan, että haluat suorittaa poiston.
+
+![Kontaktien roskakori](/img/ohjeet/roskakori3.png)
