@@ -20,4 +20,12 @@ sidebar_position: 8
 
 ![4. Tilaustiedot](/img/pikaohjeet/Tilauksen_Katkaisu4.png)
 
-Jatka <a href="katkaisukasittely">Katkaisunkäsittelyn</a> ohjeisiin.
+### 5. Poista turhat laskutuspyynnöt - vain silloin, kun tilauksessa on tulevia, turhia laskutuspyyntöjä
+
+Jos tilaus maksetaan useassa erässä, pitää tulevat laskutuspyynnöt poistaa, että asiakkaalle ei lähde uusia laskueriä.
+
+![5. Tilaustiedot](/img/pikaohjeet/katkaisu.png)
+
+![6. Laskutuspyynnöt](/img/pikaohjeet/katkaisu2.png)
+
+![7. Tilaustiedot](/img/pikaohjeet/katkaisu3.png)
