@@ -183,6 +183,7 @@ Osoittetta muuttaessaan voi asiakas antaa:
 - Osoitetiedot
 - Yhteystiedot (sähköposti ja puhelinnumero)
 - Mahdolliset yritystiedot
+- Osoitemuutoksen voimaantuloaika (jos se on tulevaisuudessa)
 
 Nimitietoja ei voi oletuksena muuttaa, mutta senkin mahdollisuudesta voidaan sopia yrityskohtaisesti.
 
