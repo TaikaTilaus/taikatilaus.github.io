@@ -109,24 +109,44 @@ Kun maksettu tilaus katkaistaan, voidaan maksettu summa siirtää asiakkaalle sa
 
 Maksetun tilauksen katkaisu tehdään painamalla **Maksetun tilauksen katkaisu** -painiketta. Lomakkeelle lisätään katkaisupäivä ja -syy. **Ohjelma laskee automaattisesti hyvitettävän saldon/rahasumman määrän**. Tarvittaessa voit muokata Viesti asiakkaalle ja Sisäinen info -kenttien tekstejä.
 
-Jos haluat palauttaa takaisin maksettavan summan **saldoksi**, paina **Katkaise tilaus ja palauta toimittamaton summa asiakkaan saldoksi** -painiketta.
+Jos haluat palauttaa takaisin maksettavan summan **saldoksi**, paina **Katkaise tilaus ja tiliöi summa asiakkaalle saldoksi tilille [saldotili]** -painiketta.
 
-Jos haluat palauttaa takaisin maksettavan summan asiakkaalle, paina **Katkaise tilaus ja tee palautuksen tiliöinti** -painiketta. **HUOM!** Tämä **ei** tee itse palautusta! Palautus **pitää tehdä taloushallinnon kautta**! Tiliöinti tehdään kirjanpidon raportteja varten!
+![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-lis4.png)
+
+Jos haluat palauttaa takaisin maksettavan summan asiakkaalle, paina **Katkaise tilaus ja tee palautuslasku tiliöimällä summa tilille [palautustili] asiakkaalle palautettavaksi** -painiketta. **HUOM!** Tämä **ei** tee itse palautusta! Palautus **pitää tehdä taloushallinnon kautta**! Tiliöinti tehdään kirjanpidon raportteja varten!
 
 ![Tilauksen tiedot - Maksetun tilauksen katkaisutoimet](/img/ohjeet/maksettutilaus-katkaisu.png)
 *Maksetun tilauksen katkaisutoimet.*
+
+Voit palauttaa asiakkaalle suuremman summan saldoon/rahana aktivoimalla **Salli suurempi summa** -kentän ja kirjaamalla palautettavan summan **Palautettava summa** -kenttään.
+
+#### Katkaisun jälkeinen näkymä
 
 **Katkaisun jälkeen saldo tulee asiakkaan tietoihin näkyviin**. Saldoa käytetään automaattisesti seuraavan laskun maksamiseen.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo4.png)
 *Saldo näkyy asiakaskortilla laskutustietojen alla.*
 
-Jos valitsit rahapalautuksen tiliöinnin, tiliöinnit ilmestyvät tilaukseen liittyvälle laskulle. 
+Saldon palautus näkyy alkuperäisen laskun tiliöinneillä seuraavasti:
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo-palautus6.png)
+
+Jos valitsit rahapalautuksen, muodostetaan uusi hyvityslasku, joka tiliöi rahanpalautuksen asetuksissa määritetylle tilille.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo-palautus4.png)
+*Tilauksen laskuihin muodostuu palatuksesta lasku*
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo-palautus5.png)
+*Palautuslasku*
 
 ### Tilauksen jatkaminen
 
 Yksittäistä tilausta voi jatkaa vastaavilla tiedoilla **Jatka tilausta** -painikkeesta. Tilauksen jatkaminen luo uuden tilauksen tämän tilauksen perään ja tekee laskutuspyynnöt. Jatkettava tilaus voi olla kesto- tai määräaikainen. Laskutuspyynnöstä voi tehdä tilauslaskun heti ja lähettää se maksajalle.
 
+![Asiakaskortti - Laskutiedot](/img/ohjeet/jatka.png)
+
 ### Tilauksen poistaminen
 
 Yksittäisen tilauksen voi myös poistaa **Poista tilaus** -painikkeella.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/poista.png)
