@@ -154,3 +154,34 @@ Kun asiakkaan tekemässä suorituksessa on virhe, jää se käsiteltäväksi **S
 Palautus suoritetaan painamalla **Tallenna ennakkomaksu** -painiketta.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/liikasuoritus2.png)
+
+## Raportti palautettavista maksuista
+
+**Raportit**-välilehdeltä löydät raportin **Maksun palautukset**, millä listataan asiakkaille tehtävät palautukset. Raportilta voi kuitata palautetuiksi summia, jonka jälkeen ne eivät enää näy raportilla (ellet erikseen valitse niitä näkyviksi).
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti.png)
+*Raportti löytyy kirjanpidon raporteista.*
+
+Raportin määrityksistä voit valita:
+- Näkyvätkö jo käsitellyt palautukset raportilla
+- Näkyvätkö myös saldoon palautetut summat raportilla
+- Aikavälin, jolta haetaan palautettavia summia
+- Tulostusmuodon (Näytölle, Excel, PDF)
+- Kirjaisinkoon
+- Raportin ulkoasun (ruudukolla tai ilman)
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti2.png)
+
+Kun raportti on tulostettu näytölle, voit käsitelle yksittäisiä palautuksia (esimerkin raportissa näkyy myös ennakkomaksut).
+
+Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **TiliöintiID**, kopiomalla sen raportin alla olevaan kenttään (TiliöintiID) voit:
+- Kuitata summan käsitellyksi (palautus on tehty asiakkaalle), jolloin se poistuu raportilta, ellet raportin määrityksistä aseta käsiteltyjä summia näkyviksi
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti3.png)
+
+- muokata tiliöinnin 
+    - lisätietoja
+    - tilinumeroa, mihin palautus tehdään
+    - tilin numeroa, jolta palautus tehdään (esimerkissä saldo ja palautustilit)
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti4.png)
