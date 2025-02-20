@@ -284,6 +284,8 @@ Haetaan lehden tilaajat joiden viimeisin tilaus on päättynyt annetta päivää
 
 Haetaan kaikki tilaajat tilaustietoineen. Voit valita näytetäänkö sama tilaaja vain kerran.
 
+![Raportit](/img/ohjeet/tilausten-tiedot.png)
+
 ### Kontaktit joilla ei ole tilauksia
 
 Haetaan kaikki kontaktit joilla ei voimassa olevaa tilausta annetulla aikavälillä millään aikavälin osalla.
