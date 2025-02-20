@@ -100,8 +100,6 @@ Haetaan annetulla aikavälillä laskut joilla maksamatta summa alle 0 eur (ylisu
 
 ### Laskujen kaikki tiedot
 
-![Raportit](/img/ohjeet/laskujen-kaik.png)
-
 **Laskujen kaikki tiedot** -raportilla listataan oikeellisten laskujen lisäksi myös tiedot puuttuvista Tilaus- & Myyntituotteiden tili-/tiliöintimäärityksistä.
 
 ![Raportit](/img/ohjeet/raportit4.png)
