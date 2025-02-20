@@ -4,9 +4,16 @@ sidebar_position: 4
 
 # Saldo ja rahan palautus
 
+Saldo ja rahan palautus -toiminnolla voit tehdä seuraavaa:
+
+- Siirtää asiakkaalle saldoa, joka on kertynyt katkaistuista, jo maksetuista tilauksista tai liikasuorituksista. Saldoa voi käyttää tulevien laskujen maksamiseen.
+- Luoda hyvityslaskun, joka merkitsee asiakkaalle rahapalautuksen – joko katkaistusta, jo maksetusta tilauksesta tai liikasuorituksesta.
+- Lisätä asiakkaalle saldoa manuaalisesti, esimerkiksi jos asiakas on maksanut tilauksensa etukäteen.
+- Raporteilta näet palautettavat summat sekä asiakkaiden käytettävissä olevan saldon.
+
 ## Toiminnot ennen käyttöönottoa
 
-Ennen saldo ja palautus -toiminnon käyttöönottoa (tästä lähtien ennakkomaksut), pitää asetuksissa tehdä tiettyjä määrityksiä. 
+Ennen saldo ja palautus -toiminnon käyttöönottoa (tästä lähtien ennakkomaksut), pitää asetuksissa tehdä tiettyjä määrityksiä. Ottakaa yhteyttä TaikaTilaus-tukeen tuki@taikatilaus.fi, jos haluatte ottaa toiminnon käyttöön.
 
 ### Tilit
 
