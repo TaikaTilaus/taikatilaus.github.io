@@ -116,7 +116,7 @@ Raportille haetaan annetulla aikaväliltä laskut, joilla maksamatta summa alle 
 
 ### Suorituspäiväkirja
 
-Haetaan aikavälillä kirjatut suoritukset tiliöinneille. Huomaa että suoritus ei näy tällä raportilla jos sitä ei ole tiliöity (kohdistamaton laskulle).
+Raportille haetaan aikavälillä kirjatut suoritukset tiliöinneille. Huomaa, että suoritus ei näy tällä raportilla, jos sitä ei ole tiliöity (suoritusta ei ole liitetty laskulle).
 
 ![Raportit](/img/ohjeet/suorituspaivakirja.png)
 
