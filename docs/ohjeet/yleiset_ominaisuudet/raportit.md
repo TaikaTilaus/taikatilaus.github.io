@@ -58,11 +58,11 @@ Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään nii
 
 ![Raportit](/img/ohjeet/laskupaivakirja.png)
 
-### Laskupäiväkirja Digi
+<!--  ### Laskupäiväkirja Digi
 
 Raportille haetaan annetulla aikavälillä päivätyt laskut, jotka sisältävät digituotteita, ja näytetään niiden summa ja maksutiedot kuluvaan päivään verrattuna. (Huom. Laskuissa voi olla muitakin tuotteita kuin Digi).
 
-![Raportit](/img/ohjeet/laskupaivakirja-digi.png)
+![Raportit](/img/ohjeet/laskupaivakirja-digi.png)-->
 
 ### Laskupäiväkirja ilman maksutietoja
 
@@ -131,23 +131,29 @@ Raportille haetaan aikavälillä kirjatut suoritukset tiliöinneille. Huomaa, et
 
 Jos pankkiin tullut summa on eri kuin muiden tiliöintien summa näytetään erotus punaisella.
 
-![Raportit](/img/ohjeet/suorituspaivakirja.png)
+![Raportit](/img/ohjeet/suorituspaivakirja-tili.png)
 
 ### Laskujen tiliöinnit
 
-Raportille haetaan annetun aikavälin laskut sekä laskuihin liittyvät tiliöinnit. Valituilla tileillä voidaan rajata minkä tilin laskuja haetaan. Voidaan valita näytetäänkö laskulla pelkästään valitun tilin tiliöinnit vai kaikki. Raportti summaa loppuun tilien debet ja kredit -puolet.
+Raportille haetaan annetun aikavälin laskut sekä laskuihin liittyvät tiliöinnit. Raportilla voidaan rajata, minkä tilin/tilien laskuja haetaan. Voit valita näytetäänkö laskulla pelkästään valitun tilin tiliöinnit vai kaikki. Raportti summaa loppuun tilien debet ja kredit -puolet.
 
 ![Raportit](/img/ohjeet/laskujen-tilioinnit.png)
 
+![Raportit](/img/ohjeet/laskujen-tilioinnit2.png)
+
 ### Luottotappiot
 
-### Luottotappioiksi kirjatut toimitetut tuotteet
+Raportille haetaan luottotappioiksi kirjatut laskut. Luottotappio on myyjälle syntyvä tappio, joka syntyy, kun laskun saaja ei kykene maksamaan laskuaan.
 
-### Maksumuistutukset
+![Raportit](/img/ohjeet/luottotappiot.png)
+
+<!-- ### Luottotappioiksi kirjatut toimitetut tuotteet -->
+
+<!-- ### Maksumuistutukset -->
 
 ### Tilit ja tuotteet
 
-Annetulle aikavälille kirjattuihin tiliöinteihin liittyvät tilit ja niihin liittyvät tuotteet.
+Raportille haetaan annetulle aikavälille kirjattuihin tiliöinteihin liittyvät tilit ja niihin liittyvät tuotteet.
 
 ![Raportit](/img/ohjeet/tilit-ja-tuotteet.png)
 
