@@ -96,7 +96,7 @@ Raportille haetaan aikavälillä tulleet suoritukset ja näytetään ne ryhmitel
 
 ### Avoimet laskut
 
-Raportille haetaan kohdepäivänä maksamaton-tilassa olevat laskut. Raportilla huomioidaan laskujen kaikki maksusuoritukset kohdepäivää ennen ja kohdepäivänä. Maksetut laskut jätetään pois raportilta ja osasuoritukset huomioidaan maksamatta summassa. Tilinpäätöksessä (kalenterivuosi) kohdepäivänä on 31.12. jolloin huomioidaan kaikki suoritukset mitkä ovat tuleet ennen kello 23:59. Raportin lopussa esitetään raportilla olevien laskujen summa, kuittausten summa ja maksamatta summa.
+Raportille haetaan kohdepäivänä maksamaton-tilassa olevat laskut. Raportilla huomioidaan laskujen kaikki maksusuoritukset kohdepäivää ennen ja kohdepäivänä. Maksetut laskut jätetään pois raportilta ja osasuoritukset huomioidaan maksamatta summassa. Tilinpäätöksessä (kalenterivuosi) kohdepäivänä on 31.12. jolloin huomioidaan kaikki suoritukset mitkä ovat tuleet ennen kello 23:59. Raportin lopussa näytetään asiakkaat (asiakasnumero ja nimi) ja kuinka paljon yksittäisillä asiakkailla on avoimia maksuja.
 
 ![Raportit](/img/ohjeet/avoimet-laskut.png)
 
