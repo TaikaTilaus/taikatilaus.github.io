@@ -110,7 +110,7 @@ Raportille haetaan annetulla aikaväliltä laskut, joilla maksamatta summa alle 
 
 ### Laskujen kaikki tiedot
 
-**Laskujen kaikki tiedot** -raportilla listataan oikeellisten laskujen lisäksi myös tiedot puuttuvista Tilaus- & Myyntituotteiden tili-/tiliöintimäärityksistä.
+**Laskujen kaikki tiedot** -raportilla listataan oikeellisten laskujen kaikki tiedot (asiakastiedot, tuotetiedot, summatiedot, tiliöinnit). Raportilla näytetään lisäksi myös tiedot puuttuvista tili-/tiliöintimäärityksistä Tilaus- & Myyntituotteissa, jos niitä on.
 
 ![Raportit](/img/ohjeet/raportit4.png)
 
