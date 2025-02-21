@@ -272,7 +272,7 @@ Raportille haetaan asetetulla aikavälillä päättyvät tilaukset, joiden tilaa
 
 ### Tilaajien uusimmat tilaukset
 
-Haetaan tilaajat joilla aikavälillä voimassa olevia tilauksia. Tämän jälkeen haetaan erikseen jokaisen tilaajan tilaukset taulukkoon uusimmasta alkaen. Tilauksille haetaan myös niihin liittyvät laskutuspyynnöt ja laskut. Katkaistut tilaukset voidaan karsia pois valinalla.
+Raportille haetaan tilaajat, joilla on aikavälillä voimassa olevia tilauksia. Tämän jälkeen haetaan erikseen jokaisen tilaajan tilaukset taulukkoon uusimmasta alkaen. Tilauksille haetaan myös niihin liittyvät laskutuspyynnöt ja laskut. Katkaistut tilaukset voidaan karsia pois valinnalla.
 
 ![Raportit](/img/ohjeet/uudet-tilaukset.png)
 
@@ -286,9 +286,9 @@ Raportti perustuu laskutettuihin tilauksiin. Haetaan kohdepäivänä voimassa ol
 
 Raportti perustuu laskutettuihin tilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten laskut ja niiden maksusuoritukset. Laskun summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
 
-### Tilaustulojen jaksotus yhteenveto
+<!-- ### Tilaustulojen jaksotus yhteenveto 
 
-![Raportit](/img/ohjeet/tilausten-jaksotus3.png)
+![Raportit](/img/ohjeet/tilausten-jaksotus3.png)-->
 
 ### Tilaustulojen jaksotus (suorituksilla)
 
@@ -304,51 +304,67 @@ Raportti perustuu maksettuihin tilauksiin. Haetaan kohdepäivänä voimassa olev
 
 ![Raportit](/img/ohjeet/tilausten-jaksotus6.png)
 
-### Tilausten jaksotus II
+<!--  ### Tilausten jaksotus II
 
-Raportti perustuu aikavälillä luotuihin tai laskutettuihin tilauksiin.
+Raportti perustuu aikavälillä luotuihin tai laskutettuihin tilauksiin.-->
 
 ### Aikavälillä päättyneet tilaukset
 
-Haetaan lehden tilaajat joiden tilaus on päättynyt tai peruutettu aikavälillä. Karsitaan pois: poistetut (sis. kuolleet) ja markkinointikieltoiset sekä ne joiden tilauksen peruutussyy on: KUOLLUT, MAKSAMATTA PÄÄTTYNYT, SAIRAS, TALOUDELLISET SYYT. Tilauksen peruutussyy näytetään omassa sarakkeessaan.
+Raportille haetaan lehden tilaajat joiden tilaus on päättynyt tai peruutettu aikavälillä. Karsitaan pois: poistetut (sis. kuolleet) ja markkinointikieltoiset sekä ne joiden tilauksen peruutussyy on: KUOLLUT, MAKSAMATTA PÄÄTTYNYT, SAIRAS, TALOUDELLISET SYYT. Tilauksen peruutussyy näytetään omassa sarakkeessaan.
 
 ### Passiivit tilaajat
 
-Haetaan lehden tilaajat joiden viimeisin tilaus on päättynyt annetta päivää ennen. Tilauksen peruutussyy näytetään omassa sarakkeessaan (huomioi mm. maksamatta päättyneet). Voit poistaa tuplia sähköpostilla, puhelinnumerolla, osoitteella ja nimellä (hidastaa hakua huomattavasti). Ohjelma etsii tällöin esim samalla osoitteella olevia aktiivisia tilauksia ja jos löytyy osaa jättää passiivisen tilauksen pois. (Tilattu hieman eri tiedoilla). Ko. tilaukset näytetään Excelin lopussa.
+Raportille haetaan lehden tilaajat joiden viimeisin tilaus on päättynyt annetta päivää ennen. Tilauksen peruutussyy näytetään omassa sarakkeessaan (huomioi mm. maksamatta päättyneet). Voit poistaa tuplia sähköpostilla, puhelinnumerolla, osoitteella ja nimellä (hidastaa hakua huomattavasti). Ohjelma etsii tällöin esim samalla osoitteella olevia aktiivisia tilauksia ja jos löytyy osaa jättää passiivisen tilauksen pois. (Tilattu hieman eri tiedoilla). Ko. tilaukset näytetään Excelin lopussa. 
+
+Koska tämä on iso raportti, suoritetaan se taustajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä.
 
 ### Tilausten tiedot
 
-Haetaan kaikki tilaajat tilaustietoineen. Voit valita näytetäänkö sama tilaaja vain kerran.
+Raportille haetaan kaikki tilaajat tilaustietoineen. Voit valita näytetäänkö sama tilaaja vain kerran. Koska tämä on iso raportti, suoritetaan se taustajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä.
 
 ![Raportit](/img/ohjeet/tilausten-tiedot.png)
 
 ### Kontaktit joilla ei ole tilauksia
 
-Haetaan kaikki kontaktit joilla ei voimassa olevaa tilausta annetulla aikavälillä millään aikavälin osalla.
+Raportille haetaan kaikki kontaktit, joilla ei voimassa olevaa tilausta annetulla aikavälillä millään aikavälin osalla. Koska tämä on iso raportti, suoritetaan se taustajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä.
+
+![Raportit](/img/ohjeet/kontaktit-ei-tilauksia.png)
 
 ### Tilausten jaksotus aikajanalla (tiliöintien kautta)
 
 Raportti hakee annettuna aikavälinä ainakin osoittain voimassa olevat tilaukset. Tilauksiin liittyvistä summista haetaan valinnan mukaan joko laskutetut tai maksetut summat. Annettu aikaväli jaetaan kuukausille ja joka kuun vaihteessa haetaan kuitattu (suoritettu) ja maksettava rahamäärä (velka). Jaksotus tehdään valinnan mukaan joko lehden numeroiden ilmestumisillä (kaikissa kuukausissa ei välttämättä ole jaksotusta mikäli lehti ei ilmesty) tai tilausaikaa (joka kuukaudessa jaksotusta tilausajan puitteissa). Summien koostamisessa käytetään laskun tiliöintejä. Laskutetuilla tilauksilla haettaessa summat ovat verottomia (luontivaiheen Myyntitili MY) mutta maksetuilla verollisia (maksuvaiheen kuittaus K).
 
+Koska tämä on iso raportti, suoritetaan se taustajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä.
+
 ### Tilausten jaksotus aikajanalla (tuoterivien kautta)
 
 Raportti hakee annettuna aikavälinä ainakin osoittain voimassa olevat tilaukset. Tilauksiin liittyvistä summista haetaan valinnan mukaan joko laskutetut tai maksetut summat. Annettu aikaväli jaetaan kuukausille ja joka kuun vaihteessa haetaan kuitattu (suoritettu) ja maksettava rahamäärä (velka). Jaksotus tehdään valinnan mukaan joko lehden numeroiden ilmestumisillä (kaikissa kuukausissa ei välttämättä ole jaksotusta mikäli lehti ei ilmesty) tai tilausaikaa (joka kuukaudessa jaksotusta tilausajan puitteissa). Summien koostamisessa käytetään laskun tiliöintejä. Laskutetuilla tilauksilla haettaessa summat ovat verottomia (luontivaiheen Myyntitili MY) mutta maksetuilla verollisia (maksuvaiheen kuittaus K).
+
+Koska tämä on iso raportti, suoritetaan se taustajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä.
 
 ### Toimitetut tuotteet
 
 Raportti hakee annettuna aikavälinä luodut laskut liittyen maksamattomien tilausten katkaisuihin. Asiakkaan tilaus on katkaistu ja toimitetuista lehdistä on luotu lasku tarkenteella 'toimitetut tuotteet'.
 
+![Raportit](/img/ohjeet/toimitetut.png)
+
 ## Ilmoitusmyynnin raportit
 
 ### Laskutetut ilmoitusmyynnit
+
+Raportille haetaan laskutetut ilmoitusmyynnit. Raportilla näytetään laskun tiedot, asiakkaan tiedot ja ilmoitusvarauksen tiedot.
 
 ![Raportit](/img/ohjeet/laskutetut-myynnit.png)
 
 ### Laskuttamattomat ilmoitusmyynnit
 
+Raportille haetaan laskutetut ilmoitusmyynnit. Raportilla näytetään laskutuspyynnön tiedot, asiakkaan tiedot ja ilmoitusvarauksen tiedot.
+
 ![Raportit](/img/ohjeet/laskuttamattomat-myynnit.png)
 
 ### Myynnit myyjittäin laskujen kautta
+
+Raportille koostetaan kaikki hakuaikavälillä myydyt ilmoitusvaraukset myyjittäin jaoteltuina, laskujen kautta haettuna.
 
 ![Raportit](/img/ohjeet/myynnit-myyjittain.png)
 
@@ -360,9 +376,15 @@ Raportti hakee annettuna aikavälinä luodut laskut liittyen maksamattomien tila
 
 ### Myynnit myyjittäin, yhteenveto
 
+Raportilla näytetään yhteenveto ilmoitusvarausmyynneistä myyjittäin, annetun aikavälin sisällä.
+
 ![Raportit](/img/ohjeet/myynnit-yhteenveto.png)
 
 ### Laskutetut erillistuotteet
+
+Raportille haetaan asetetulla aikavälillä laskutetut erillistuotteet (esim. kirjat).
+
+![Raportit](/img/ohjeet/erillistuotteet-raportti.png)
 
 ## Graafiset raportit
 
