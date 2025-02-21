@@ -80,21 +80,27 @@ Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään nii
 
 ### Reskontraluottelo
 
-Haetaan laskut joilla tiliöintitapahtumia annetulla aikavälillä ja lasketaan näiden summat. Raportin lopussa esitetään reskontran alkusaldo, aikavälin laskutiliöinnit, aikavälin maksut (kuittaukset), aikavälin maksut (suoritukset) sekä reskontran loppusaldo löytyneiden kirjausten mukaan laskettuna.
+Raportille haetaan laskut, joilla on tiliöintitapahtumia annetulla aikavälillä ja lasketaan näiden summat. Raportin lopussa esitetään reskontran alkusaldo, aikavälin laskutiliöinnit, aikavälin maksut (kuittaukset), aikavälin maksut (suoritukset) sekä reskontran loppusaldo löytyneiden kirjausten mukaan laskettuna.
 
 ![Raportit](/img/ohjeet/reskontra.png)
 
+![Raportit](/img/ohjeet/reskontra2.png)
+
 ### Maksutapahtumaluottelo
 
-Haetaan aikavälillä tulleet suoritukset ja näytetään ne ryhmiteltyinä päivittäin. Päivän sisällä suoritukset ryhmitellään tileittäin. Raportin lopussa esitetään eri tilien summat. Huomaa että suoritus pitää tiliöidä (kohdistaa laskulle) jotta suoritus näkyy suorituspäiväkirjalla.
+Raportille haetaan aikavälillä tulleet suoritukset ja näytetään ne ryhmiteltyinä kirjauspäivän mukaan. Kirjauspäivien sisällä suoritukset ryhmitellään tileittäin. Raportin lopussa esitetään eri tilien summat. Huomaa, että suoritus pitää tiliöidä (kohdistaa laskulle), jotta suoritus näkyy suorituspäiväkirjalla.
 
 ![Raportit](/img/ohjeet/maksutapahtumaluettelo.png)
 
+![Raportit](/img/ohjeet/maksutapahtumaluettelo2.png)
+
 ### Avoimet laskut
 
-Haetaan kohdepäivänä maksamaton tilassa olevat laskut. Huomioidaan laskujen kaikki maksusuoritukset kohdepäivää ennen ja kohdepäivänä. Tilinpäätöksessä (kalenterivuosi) kohdepäivänä on 31.12. jolloin huomioidaan kaikki suoritukset mitkä ovat tuleet ennen kello 23:59. Raportin lopussa esitetään ko. laskujen summa, kuittausten summa ja maksamatta summa.
+Raportille haetaan kohdepäivänä maksamaton-tilassa olevat laskut. Raportilla huomioidaan laskujen kaikki maksusuoritukset kohdepäivää ennen ja kohdepäivänä. Maksetut laskut jätetään pois raportilta ja osasuoritukset huomioidaan maksamatta summassa. Tilinpäätöksessä (kalenterivuosi) kohdepäivänä on 31.12. jolloin huomioidaan kaikki suoritukset mitkä ovat tuleet ennen kello 23:59. Raportin lopussa esitetään raportilla olevien laskujen summa, kuittausten summa ja maksamatta summa.
 
 ![Raportit](/img/ohjeet/avoimet-laskut.png)
+
+![Raportit](/img/ohjeet/avoimet-laskut2.png)
 
 ### Laskut joissa ylisuoritus
 
