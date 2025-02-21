@@ -54,27 +54,29 @@ Valmiita raporttipohjia luodaan tarvittaessa **asiakaskohtaisesti** läpi käyty
 
 ### Laskupäiväkirja
 
-Haetaan annetulla aikavälillä päivätyt laskut ja näytetään niiden summa ja maksutiedot kuluvaan päivään verrattuna.
+Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään niiden summa ja maksutiedot kuluvaan päivään verrattuna.
 
 ![Raportit](/img/ohjeet/laskupaivakirja.png)
 
 ### Laskupäiväkirja Digi
 
-Tekee saman kuin Laskupäiväkirja mutta haetaan vain laskut joissa on Digituotteita. (Huom. Laskuissa voi olla muitakin tuotteita kuin Digi).
+Raportille haetaan annetulla aikavälillä päivätyt laskut, jotka sisältävät digituotteita, ja näytetään niiden summa ja maksutiedot kuluvaan päivään verrattuna. (Huom. Laskuissa voi olla muitakin tuotteita kuin Digi).
 
 ![Raportit](/img/ohjeet/laskupaivakirja-digi.png)
 
 ### Laskupäiväkirja ilman maksutietoja
 
-Kuten Laskupäiväkirja mutta ei näytetä maksutietoja.
+Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään niiden summa, mutta ei näytetä maksutietoja.
 
 ![Raportit](/img/ohjeet/laskupaivakirja2.png)
 
 ### Laskupäiväkirja tuoteriveillä
 
-Kuten Laskupäiväkirja mutta näytetään myös laskun tuoterivit. Raportin lopussa esitetään eri tuotteiden summat.
+Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään niiden summa, maksutiedot ja tuoterivit kuluvaan päivään verrattuna. Raportin lopussa esitetään eri tuotteiden summat yhteensä
 
 ![Raportit](/img/ohjeet/laskupaivakirja3.png)
+
+![Raportit](/img/ohjeet/laskupaivakirja3-2.png)
 
 ### Reskontraluottelo
 
