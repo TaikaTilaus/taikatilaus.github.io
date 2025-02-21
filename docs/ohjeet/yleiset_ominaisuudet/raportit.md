@@ -217,7 +217,7 @@ Raportilla näytetään tilausmyynti jokaiselta kuukaudelta vuoden aikana. Myynt
 
 ### Maksamattomat tilaukset
 
-Raportille haetaan maksamattomat laskut. Hakuehtoina voit käyttää:
+Raportille haetaan maksamattomat tilaukset. Hakuehtoina voit käyttää:
 
 - lasku on erääntynyt
 - maksumuistus #1/#2 erääntynyt
@@ -225,7 +225,7 @@ Raportille haetaan maksamattomat laskut. Hakuehtoina voit käyttää:
 - laskua maksamattomista ei ole luotu
 - lasku maksamattomista on luotu
 
-Raportin luominen vaatii vähintään yhden hakuehdon aktivointia.
+Raportin luominen vaatii vähintään yhden hakuehdon aktivointia. Voit asettaa päivän, josta eteenpäin maksamattomia laskuja haetaan. Näin karsit vanhoja maksamattomia tilauksia.
 
 1. Haetaan ne tilausten laskujen maksajat joita löytyy ainakin yksi hakuehdot täyttävä lasku.
 - Hakuehtoihin osuvat tilaukset lihavoidaan.
@@ -235,20 +235,20 @@ Raportin luominen vaatii vähintään yhden hakuehdon aktivointia.
 
 ### Maksetut tilaukset
 
-Haetaan tilaukset joiden lasku on maksettu annetulla aikavälillä. Lasketaan maksettujen laskujen summa yhteensä sekä Myyjittäin.
+Raportille haetaan tilaukset joiden lasku on maksettu annetulla aikavälillä. Lasketaan maksettujen laskujen summa yhteensä sekä Myyjittäin.
 
 ![Raportit](/img/ohjeet/maksetut-tilaukset.png)
 
 ### Tilaukset ja niiden laskut
 
-1. Haetaan tilaukset mitkä ainakin osittain voimassa annetulla aikavälillä. Tilaus haetaan vaikka se olisi katkaistu.
-2. Haetaan tilauksen hinta ja tilaukseen liittyvät laskut.
+1. Raportille haetaan tilaukset, mitkä ovat ainakin osittain voimassa annetulla aikavälillä. Tilaus haetaan vaikka se olisi katkaistu.
+2. Raportille haetaan tilauksen hinta ja tilaukseen liittyvät laskut.
 
 ![Raportit](/img/ohjeet/tilaukset-laskut.png)
 
 ### Tilaajan tilaukset laskutietoineen
 
-Aikavälin tilausten tilaajien kaikki tilaustiedot, laskutuspyynnöt ja laskut. Tilauksista haetaan vain ne mitkä päättyvät annetun alkupäivän jälkeen.
+Raportille haetaan asetetun aikavälin tilausten tilaajien kaikki tilaustiedot, laskutuspyynnöt ja laskut. Tilauksista haetaan vain ne, mitkä päättyvät annetun alkupäivän jälkeen.
 
 ![Raportit](/img/ohjeet/tilaus-laskutiedot.png)
 
@@ -260,9 +260,13 @@ Aikavälin tilausten tilaajien kaikki tilaustiedot, laskutuspyynnöt ja laskut. 
 
 ### Päättyvät tilaukset joita uudempi tilaus löytyy
 
+Raportille haetaan asetetulla aikavälillä päättyvät tilaukset, joiden tilaajilta löytyy uusi alkava tilaus päättyvän tilauksen jälkeen.
+
 ![Raportit](/img/ohjeet/paat-tilaukset.png)
 
 ### Päättyvät tilaukset joita uudempi tilaus löytyy katkaistuna
+
+Raportille haetaan asetetulla aikavälillä päättyvät tilaukset, joiden tilaajilta löytyy uusi tilaus, jolle on asetettu katkaisupäivämäärä.
 
 ![Raportit](/img/ohjeet/paat-tilaukset2.png)
 
