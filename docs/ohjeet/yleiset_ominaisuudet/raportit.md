@@ -104,7 +104,9 @@ Raportille haetaan kohdepäivänä maksamaton-tilassa olevat laskut. Raportilla 
 
 ### Laskut joissa ylisuoritus
 
-Haetaan annetulla aikavälillä laskut joilla maksamatta summa alle 0 eur (ylisuoritus).
+Raportille haetaan annetulla aikaväliltä laskut, joilla maksamatta summa alle 0 euroa (ylisuoritus). Ylisuorituksella tarkoitetaan suoritusta, joka on suurempi kuin laskun summa. 
+
+![Raportit](/img/ohjeet/ylisuoritus.png)
 
 ### Laskujen kaikki tiedot
 
