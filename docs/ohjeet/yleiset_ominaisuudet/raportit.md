@@ -165,13 +165,13 @@ Raportilla näytetään asiakkaille palautettavat summat. Palautuksen jälkeen t
 
 ### Kaikki tiliöinnit
 
-Raportilla näytetään kaikki tiliöinnit aikajärjestyksessä uusin ylinnä. Raporttia voi käyttää uusien maskujen tiliöintien tarkastamiseen.
+Raportilla näytetään kaikki tiliöinnit aikajärjestyksessä, uusin ylinnä. Raporttia voi käyttää uusien maksujen tiliöintien tarkastamiseen.
 
 ![Raportit](/img/ohjeet/tilioinnit.png)
 
 ### Asiakassaldot
 
-Asiakkaiden saldona olevat maksut.
+Raportilla näytetään asiakkaiden saldona olevat maksut.
 
 ![Raportit](/img/ohjeet/asiakassaldo.png)
 
@@ -209,13 +209,29 @@ Raportilta voi tarkistaa onko tilausten laskutuspyynnöissä/laskuissa poikkeavu
 
 ## Tilausten raportit
 
-### Tilausmyynti Vuosittain
+### Tilausmyynti vuosittain
+
+Raportilla näytetään tilausmyynti jokaiselta kuukaudelta vuoden aikana. Myyntimäärät näytetään ALV:illa ja ALV:ittomana.
+
+![Raportit](/img/ohjeet/tilausmyynti-vuosittain.png)
 
 ### Maksamattomat tilaukset
 
+Raportille haetaan maksamattomat laskut. Hakuehtoina voit käyttää:
+
+- lasku on erääntynyt
+- maksumuistus #1/#2 erääntynyt
+- tilausta ei ole katkaistu
+- laskua maksamattomista ei ole luotu
+- lasku maksamattomista on luotu
+
+Raportin luominen vaatii vähintään yhden hakuehdon aktivointia.
+
 1. Haetaan ne tilausten laskujen maksajat joita löytyy ainakin yksi hakuehdot täyttävä lasku.
-2. Käydään jokainen maksaja läpi ja haetaan tämän kaikki tilauslaskut. Laskun maksamatta summa korostetaan punaisella mikäli laskun eräpäivästä on kulunut yli 14 vrk.
 - Hakuehtoihin osuvat tilaukset lihavoidaan.
+2. Käydään jokainen maksaja läpi ja haetaan tämän kaikki tilauslaskut. Laskun maksamatta summa korostetaan punaisella mikäli laskun eräpäivästä on kulunut yli 14 vrk.
+
+![Raportit](/img/ohjeet/maksamattomat.png)
 
 ### Maksetut tilaukset
 
