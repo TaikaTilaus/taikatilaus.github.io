@@ -4,12 +4,12 @@ sidebar_position: 3
 
 # Perintä
 
-## Yleiset periaatteet
+<!-- ## Yleiset periaatteet
 
 - Palvelun roolit:
     - TaikaTilaus (Asiakaspalvelu): Vastaa ohjelmistosta, tietokannasta ja automaatiosta.
     - Asiakas/Perintätoimisto: Vastaa rekisterin sisällöstä ja perintäprosessin päätöksistä, mukaan lukien perintäkulujen ja ohimaksujen käsittely.
-- GDPR-vaatimukset: TaikaTilaus toimii tietojen käsittelijänä, ja asiakkaalla tai lehdellä on vastuu tallennetuista tiedoista.
+- GDPR-vaatimukset: TaikaTilaus toimii tietojen käsittelijänä, ja asiakkaalla tai lehdellä on vastuu tallennetuista tiedoista. -->
 
 ## Prosessin vaiheet ja ohjeet
 
