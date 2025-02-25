@@ -84,3 +84,50 @@ Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painam
 Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painamalla **Poista lopullisesti** -painiketta, voit poistaa asiakaskortin lopullisesti tietokannasta. Tämän jälkeen ei asiakasta voi palauttaa. Ohjelma kysyy sinua varmistamaan, että haluat suorittaa poiston.
 
 ![Kontaktien roskakori](/img/ohjeet/roskakori3.png)
+
+## Tuplien käsitttely
+
+![Tuplien käsittely](/img/ohjeet/tuplat.png)
+
+**Tuplien käsitelly** -välilehdellä voit yhdistää tuplana olevia asiakaskortteja. 
+
+### Ohje tuplien käsittelyyn
+
+Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt tekemään toimintoja välilehdellä, pitää sinun tehdä **kaksivaiheinen tunnistautuminen**. Käyttäjääsi yhdistettyyn sähköpostiin lähetetään **koodi**, mikä sinun pitää syöttää osoitettuun kenttään. Oikean koodin syöttämisen jälkeen voit tehdä toimintoja välilehdellä.
+
+1. Aloita tuplien käsittely painamalla **Luo CSV-tiedosto koko rekisteristä** -painiketta. Tiedoston luomisessa kestää jonkin verran aikaan, riippuen rekisterin koosta. Päivittämällä välilehden (klikkaamalla Tuplien käsittely -tekstiä) voit seurata tiedoston luomisen edistystä. Kun tiedosto on valmis ladattavaksi, ilmestyy näytölle **Lataa CSV** -painike.
+
+![Tuplien käsittely](/img/ohjeet/tuplat2.png)
+
+2. Lataa rekisteri painamalla **Lataa CSV** -painiketta.
+
+![Tuplien käsittely](/img/ohjeet/tuplat3.png)
+
+3. Avaa tiedosto Excelissä. Valitse kaikki data tiedostossa painamalla **Ctrl+A** ja valitse **Muotoile taulukoksi**
+
+![Tuplien käsittely](/img/ohjeet/tuplat4.png)
+
+4. Löydät tuplat helpoiten **lajittelemalla taulukon osoitteen mukaan**. Klikkaa osoitesarakkeessa olevaa nuolta ja lajittele osoitteet **aakkosjärjestyksessä**. (Katso kuva alta)
+
+![Tuplien käsittely](/img/ohjeet/tuplat5.png)
+
+5. Kun löydät tupla-asiakkaan, määritä ensin kumpi tuplista on **master-tunnus**, johon tupla yhdistetään. Tarvittaessa täydennä masterin tietoja esim. sähköpostilla. CSV-tiedostossa on valmiina **PAAK** ja **ALIK** sarakkeet, joissa on kontaktin yksilöivä **KontaktiID**.
+
+![Tuplien käsittely](/img/ohjeet/tuplat6.png)
+
+6. **Alitunnuksen (tuplan) KontaktiID** siirretään **PAAK-sarakkeesta ALIK-sarakkeeseen**. Kopioidaan **Masterin KontaktiID** ja lisätään se **Masterin ALIK-sarakkeeseen** ja **alitunnuksen PAAK-sarakkeeseen**. Esim.
+
+- Nessa Karjalahden päätunnuksen (jolle siirretään tuplan tiedot) KontaktiID on **746232**
+- Nessan alitunnuksen (tuplan) KontaktiID on **746768**
+
+![Tuplien käsittely](/img/ohjeet/tuplat6.png)
+
+- Siirretään **alitunnuksen KontaktiID PAAK-sarakkeesta ALIK-sarakkeeseen**.
+
+![Tuplien käsittely](/img/ohjeet/tuplat8.png)
+
+- Kopioidaan **Masterin KontaktiID** ja lisätään se **Masterin ALIK**-sarakkeeseen ja **alitunnuksen PAAK**-sarakkeeseen.
+
+![Tuplien käsittely](/img/ohjeet/tuplat7.png)
+
+7. Käsittele tietoja Excelissä haluamallasi tavalla ja **sovi TaikaTilauksen kanssa** tietojen takaisin tuomisesta. Ole tarkkana että **rivien KontaktiID:t pysyvät oikeilla riveillä**.
