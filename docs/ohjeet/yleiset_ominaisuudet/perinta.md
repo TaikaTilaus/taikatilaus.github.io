@@ -13,10 +13,14 @@ sidebar_position: 3
 
 ## Prosessin vaiheet ja ohjeet
 
-### Vaihe 1: Perinnän aloitus
+### Vaihe 1: Perinnän aloitus ja yleistä
 - Perintäprosessin aktivointi:
     - Asiakas päättää perinnän käytöstä ja tekee sopimuksen halutun perintätoimiston kanssa.
     - Asiakas seuraa ja käsittelee erääntyneet laskut.
+    - Asiakas ohjeistaa/tiedottaa/sopii perintäpalveluissa käytettävän prosessin ja aineistoille toimitusaikataulun
+    - Asiakas huolehtii toimitettavan aineiston osalta osoite/yhteystietojen ajantasaisuudesta
+    - TaikaTilauksen ulkoistettu asiakaspalvelu ohjaa asiakkaan kaikissa perintään liittyvissä yhteydenotoissa olemaan yhteydessä perintätoimiston asiakaspalveluun.
+    - TaikaTilauksen ulkoistettu asiakaspalvelu ei missään tilanteessa tee päätöksiä koskien perinnän päättämistä tai mahdollisten perintäkulujen poistamista asiakkaalta, vaan niistä vastaa aina asiakas yhdessä perintätoimiston kanssa. 
 
 ### Vaihe 2: Perintäaineistojen koonti
 
