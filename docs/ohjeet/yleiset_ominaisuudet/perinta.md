@@ -17,7 +17,7 @@ sidebar_position: 3
 - Perintäprosessin aktivointi:
     - Asiakas päättää perinnän käytöstä ja tekee sopimuksen halutun perintätoimiston kanssa.
     - Asiakas seuraa ja käsittelee erääntyneet laskut.
-    
+
 ### Vaihe 2: Perintäaineistojen koonti
 
 #### 1. tapa
@@ -61,22 +61,96 @@ Jos asiakkaalla **on käytössä** [Katkaisukäsittely](https://support.taikatil
 
 Lehti tai tilitoimisto hoitaa ohitus- tai osasuoritusten kirjaamisen.
 
-- Ohimaksujen käsittely:
+**Ohimaksujen käsittely**:
     - Ilmoita ohimaksut perintätoimistolle sovitulla tavalla.
     - Kopioi alkuperäinen lasku ja liitä saapunut ohimaksu uudelle laskulle.
     - Ilmoita ohimaksun tiedot perintätoimistolle ja kirjaa ne kirjanpitoon.
     - Asiakkaan tulee huolehtia, että perintäkulut kirjataan oikein, vaikka ohimaksu tapahtuisi.
-- Osasuoritukset:
+
+1. Ohimaksu tapahtuu
+    - Jos tilaaja maksaa alkuperäisen laskun, eikä perinnäst lähetetyn laskun, johon kuuluu perintätoimistolle maksettavat perintäkulut:
+        - Viitemaksuna (maksuun sisältyy viite)
+        - Pelkkänä panona (ilman viitettä), jolloin maksu näkyy vain tiliotteella, eikä TaikaTilauksessa
+2. Maksujen näkyvyys järjestelmässä
+    - Viitemaksu näkyy näkymässä **Suoritukset / Käsittelyä vaativat suoritukset** (viiteaineistossa tulleet)
+    - Ohimaksu jää virhelistalle, koska alkuperäinen lasku on merkitty tilaan **HYVITETTY**
+
+![Laskut-välilehti](/img/ohjeet/perinta12.png)
+
+3. Ohimaksun käsittely
+    - Avaa **alkuperäinen lasku** (HYVITETTY-tilassa)
+    - Kopioi lasku käyttäen **Luo laskusta kopio** -painiketta
+
+![Laskut-välilehti](/img/ohjeet/perinta11.png)
+
+    - Liitä saapunut ohisuoritus **uudelle laskukopiolle** käyttäen joko **Lisää uusi suoritus** tai **Liitä suoritus** -toimintoa
+        - Käytä **Lisää uusi suoritus** -toimintoa, kun maksu on tullut panona, ilman viitettä
+            - Lisää kopioidun laskun **Suorituksen Info** -kenttään tieto, esimerkiksi "Perinnän ohisuoritus"
+
+![Laskut-välilehti](/img/ohjeet/perinta10.png)
+
+        - Käytä **Liitä uusi suoritus** -toimintoa, kun maksu on tullut viitemaksuna
+
+![Laskut-välilehti](/img/ohjeet/perinta9.png)
+
+
+4. Tilauksen/-jakson voimassaolo
+    - Jos laskua koskeva tilaus tai laskutusjakso on edelleen voimassa, tee seuraavat toimenpiteet:
+        - Lisää uusi vastaava tilaus
+        - Poista muodostunut laskutuspyyntö
+        - Kirjaa tilauksen **Lisätiedot**-kenttään tiedot tehdyistä toimenpiteistä ja uuden (kopioidun) laskun numero, johon suoritus liitettiin
+5. Ilmoitus perintätoimistolle
+    - Ilmoita ohisuorituksista perintätoimistolle, jotta he voivat päättää perinnästä ja veloittaa tilaajalta maksamatta jääneet perintäkulut
+
+**Osasuorituksen käsittely:**
     - Luo kopio alkuperäisestä laskusta ja lisää uusi osasuoritus.
     - Kirjaa tilin tiedot, maksupäivä, osamäärä sekä mahdollinen jäljellä oleva summa.
     - Varmista, että osasuoritukset näkyvät oikein laskun suorituksissa ja summatiedoissa.
     - Seuraa osasuorituksia kirjaamalla ne erilliseen seurantataulukkoon (esim. maksajan nimi, tilausnumero, laskunumero, laskun summa, maksettu osamäärä ja jäljellä oleva summa).
+
+1. Ilmoitus perintätoimistolta:
+    - Perintätoimisto ilmoittaa maksusta, joka voi kattaa joko koko laskun tai vain osan siitä, ja antaa alkuperäisen laskun numeron.
+2. Laskun kopiointi:
+    - Siirry kyseiselle laskulle ja luo siitä ensin kopio.
+
+![Laskut-välilehti](/img/ohjeet/perinta11.png)
+
+3. Osasuorituksen kirjaaminen kopioidulle laskulle:
+    - Klikkaa laskulla olevaa **Lisää uusi suoritus** -painiketta.
+
+![Laskut-välilehti](/img/ohjeet/perinta7.png)
+
+    - Kirjaa seuraavat tiedot:
+        - **Tili:** Mihin maksu on saapunut
+        - **Maksupäivä:** Päivä, jolloin osamaksu on maksettu
+        - **Osasumma:** Maksettu osuus laskun summasta (osa tai kokonainen suoritus)
+        - **Selite ja lisätiedot:** Kirjaa selitteeseem ja lisätietoihin tieto siitä, että suoritus on tullut perinnän kautta
+
+![Laskut-välilehti](/img/ohjeet/perinta8.png)
+
+4. Seuranta:
+    - Osasuoritukset, jotka liittyvät perinnässä oleviin laskuihin, kannattaa kirjata seurantaa varten esim. samaan perintäaineistotaulukkoon, joka on jo lähetetty perintätoimistolle.
+        - Maksajan nimi ja asiakasnumero
+        - Tilausnumero
+        - Laskun numero
+        - Laskun summa
+        - Osamaksun määrä
+        - Osamaksun kirjaus/maksupäivä
+        - Jäljelle jäävän summan määrä
 
 #### Luottotappioiden hallinta
 
 - Luottotappioiksi kirjattavat laskut:
     - Mikäli lasku jää perimättä (esim. alle 10,00 €), kirjaa lasku luottotappioksi.
     - Käytä päätettyjä tilejä (Kassa-, myynti- ja kulutilit) luottotappiokirjauksissa.
+
+1. Klikkaa **Lisää uusi suoritus** -painiketta.
+2. Tiliöi laskun summa seuraavasti:
+- **Pankkitili:** Merkitse "Kassa" -tilille 0,00 €
+- **Myyntitili:** Käytä "Lehden myyntisaamiset" -tiliä ja kirjaa luottotappioksi jäävä summa esim. -1,91€
+- **Kulutili**: Kirjaa asiakkaan "Luottotappio" -tilille ja kirjaa luottotappioksi jäävä summa esim. 1,91€
+
+![Laskut-välilehti](/img/ohjeet/perinta6.png)
 
 #### Poikkeustapaukset
 
@@ -87,7 +161,7 @@ Lehti tai tilitoimisto hoitaa ohitus- tai osasuoritusten kirjaamisen.
     - Perintään voi liittyä asiakaskohtaisia käytäntöjä, jotka itse päätätte
 
 #### Tilausten jatkaminen perinnän jälkeen
-    - Asiakas päättää itse jatkataanko tilauksia onnistuneen perinnän jälkeen
+    - Asiakas päättää itse jatketaanko tilauksia onnistuneen perinnän jälkeen
 
 <!--  ### Vaihe 4: Raportointi
 - Raporttien laatiminen:
