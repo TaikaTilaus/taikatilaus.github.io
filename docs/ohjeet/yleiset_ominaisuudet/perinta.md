@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Perintä
+<!--  # Perintä
 
-<!-- ## Yleiset periaatteet
+## Yleiset periaatteet
 
 - Palvelun roolit:
     - TaikaTilaus (Asiakaspalvelu): Vastaa ohjelmistosta, tietokannasta ja automaatiosta.
@@ -21,7 +21,7 @@ sidebar_position: 3
     - Katkaise tilaus ja hyvitä alkuperäinen lasku.
     - Luo uusi loppulasku käyttäen jaettuja lehtiä.
     - Aktivoi katkaisukäsittely automaattisesti asiakaskohtaisten määrittelyjen mukaisesti.
-    - Asiakas ohjeistaa ja päättää katkaisukäsittelyn käytöstä.
+    - Lehti päättää itse katkaisukäsittelyn käytöstä.
 
 ### Vaihe 2: Katkaisukäsittelyn jälkeiset toimenpiteet
 - Kirjanpidon ohitus-/osasuoritukset:
@@ -99,6 +99,4 @@ sidebar_position: 3
     - Jos tilaus on perintään siirron yhteydessä katkaistu, älä muuta sitä, vaan luo tarvittaessa uusi tilaus.
 - Asiakaskohtaiset ohjeet:
     - Noudata asiakkaan ohjeita laskutuksen ja perinnän suhteen (esim. erikoismääritykset MaMu #1/#2, ohimaksujen käsittely tai perintäaineiston lähetysaikataulu).
-    - Huolehdi, että kaikki muutostoiveet kirjataan ja laskutetaan erikseen lisätyönä.
-
- -->
+    - Huolehdi, että kaikki muutostoiveet kirjataan ja laskutetaan erikseen lisätyönä. -->

@@ -99,6 +99,8 @@ Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt 
 
 ![Tuplien käsittely](/img/ohjeet/tuplat10.png)
 
+**HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
+
 1. Aloita tuplien käsittely painamalla **Luo CSV-tiedosto koko rekisteristä** -painiketta. Tiedoston luomisessa kestää jonkin verran aikaan, riippuen rekisterin koosta. Päivittämällä välilehden (klikkaamalla Tuplien käsittely -tekstiä) voit seurata tiedoston luomisen edistystä. Kun tiedosto on valmis ladattavaksi, ilmestyy näytölle **Lataa CSV** -painike.
 
 ![Tuplien käsittely](/img/ohjeet/tuplat2.png)
