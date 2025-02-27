@@ -358,7 +358,7 @@ Raportille haetaan laskutetut ilmoitusmyynnit. Raportilla näytetään laskun ti
 
 ### Laskuttamattomat ilmoitusmyynnit
 
-Raportille haetaan laskutetut ilmoitusmyynnit. Raportilla näytetään laskutuspyynnön tiedot, asiakkaan tiedot ja ilmoitusvarauksen tiedot.
+Raportille haetaan laskuttamattomat ilmoitusmyynnit. Raportilla näytetään laskutuspyynnön tiedot, asiakkaan tiedot ja ilmoitusvarauksen tiedot.
 
 ![Raportit](/img/ohjeet/laskuttamattomat-myynnit.png)
 
