@@ -21,6 +21,8 @@ Hallinta-valikon Tuplien käsittely -toiminnolla voit yhdistää asiakaskortteja
 
 [Ohjeet tuplien käsittelyyn löydät täältä](/docs/ohjeet/yleiset_ominaisuudet/hallinta#tuplien-käsitttely).
 
+![Tuplien käsittely](/img/ohjeet/tuplat.png)
+
 ## Uusittu Saldo ja rahan palautus -toiminto
 
 Saldo ja rahan palautus -toiminnolla voit tehdä seuraavaa:
@@ -34,3 +36,7 @@ Saldo ja rahan palautus -toiminnolla voit tehdä seuraavaa:
 ## Hakujen parannuksia
 
 - Puhelinnumerolla haku osaa huomioida erilaiset kirjoitustavat sekä +358 maakoodin.
+
+![Etusivun haku](/img/versiotiedotteet/haku.png)
+
+![Etusivun haku](/img/versiotiedotteet/haku2.png)
