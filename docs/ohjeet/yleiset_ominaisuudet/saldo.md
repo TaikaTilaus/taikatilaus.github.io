@@ -30,6 +30,17 @@ Tileistä kannataa keskustella kirjanpitäjän kanssa.
 
 Ennakkomaksujen tuoterivejä ja niiden tiliöintejä varten pitää luoda erillistuotteet. Mikäli on useampi lehti, tulee niille jokaiselle luoda omat vastaavat erillistuotteet.
 
+Erillistuotteelle laitetaan seuraavat tiedot (tässä esimerkissä rahan palautus):
+
+- Tuotenumero (oma valinnainen)
+- Tuoteryhmä esim. Ennakkomaksu
+- Tuotenimi esim. Ennakkomaksun palautus [lehti]
+- Myyntili (tämä on se tili, jonka kautta rahan palautus hoidetaan)
+- ALV-velkatili (tilausten alv velkatili 10%)
+- Myyntisaamiset tili (myyntisaamiset tili, jota käytetään kyseessä olevan lehden myyntisaamisissa)
+
+![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus7.png)
+
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus2.png)
 
 ### Pääkäyttäjä asetukset
