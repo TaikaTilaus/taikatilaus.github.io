@@ -148,12 +148,14 @@ Jos valitsit rahapalautuksen, muodostetaan uusi hyvityslasku, joka tiliöi rahan
 
 ### Asiakas maksaa tuplana/liikaa ja summa halutaan palauttaa asiakkaalle
 
-Kun asiakkaan tekemässä suorituksessa on virhe, jää se käsiteltäväksi **Suoritukset**-välilehdelle. Asiakkaan maksaessa summan tuplana/liikaa ja jos halutaan palauttaa liikasuoritus asiakkaalle, voidaan painaa **Liikasuorituksen palautus** -painiketta. Palautusta kirjatessa voidaan:
+Kun asiakkaan tekemässä suorituksessa on virhe, jää se käsiteltäväksi **Suoritukset**-välilehdelle. Asiakkaan maksaessa summan tuplana/liikaa ja jos halutaan palauttaa liikasuoritus asiakkaalle rahana, voidaan painaa **Liikasuorituksen palautus** -painiketta. Palautusta kirjatessa voidaan:
 
 - Asiakasnumeron kautta hakea asiakas, jolle palautus tehdään (oletuksena se, joka on suorituksen tehnyt)
 - Valita suorituksen pankkitili
 - Liikasuoritustili (jos näitä on enemmän kuin yksi)
 - Kirjata takaisin maksettava rahamäärä
+
+**HUOM!** Yleensä tarvitsee kirjata vain takaisin maksettava rahamäärä, eikä muihin asetuksiin tarvitse koskea.
 
 Palautus suoritetaan painamalla **Palauta liikasuoritus** -painiketta.
 
@@ -168,6 +170,8 @@ Kun asiakkaan tekemässä suorituksessa on virhe, jää se käsiteltäväksi **S
 - Valita suorituksen pankkitili
 - Liikasuoritustili (jos näitä on enemmän kuin yksi)
 - Kirjata takaisin maksettava rahamäärä
+
+**HUOM!** Yleensä tarvitsee kirjata vain takaisin maksettava rahamäärä, eikä muihin asetuksiin tarvitse koskea.
 
 Palautus suoritetaan painamalla **Tallenna ennakkomaksu** -painiketta.
 
