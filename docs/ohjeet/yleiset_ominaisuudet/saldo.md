@@ -187,7 +187,6 @@ Palautus suoritetaan painamalla **Tallenna ennakkomaksu** -painiketta.
 
 Raportin määrityksistä voit valita:
 - Näkyvätkö jo käsitellyt palautukset raportilla
-- Näkyvätkö myös saldoon palautetut summat raportilla
 - Aikavälin, jolta haetaan palautettavia summia
 - Tulostusmuodon (Näytölle, Excel, PDF)
 - Kirjaisinkoon
@@ -205,6 +204,5 @@ Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **Tili�
 - muokata tiliöinnin 
     - lisätietoja
     - tilinumeroa, mihin palautus tehdään
-    - tilin numeroa, jolta palautus tehdään (esimerkissä saldo ja palautustilit)
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti4.png)
