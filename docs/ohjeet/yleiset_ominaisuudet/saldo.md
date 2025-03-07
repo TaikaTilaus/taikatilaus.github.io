@@ -198,6 +198,7 @@ Kun raportti on tulostettu näytölle, voit käsitelle yksittäisiä palautuksia
 
 Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **TiliöintiID**, kopiomalla sen raportin alla olevaan kenttään (TiliöintiID) voit:
 - Kuitata summan käsitellyksi (palautus on tehty asiakkaalle), jolloin se poistuu raportilta, ellet raportin määrityksistä aseta käsiteltyjä summia näkyviksi
+    - **Kuittaa käsitellyksi** -toiminto palauttaa pankkiin (pankkitilin tiliöinti) kyseisen summan (-) sekä tiliöi summan pois palautusten tililtä (+).
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti3.png)
 
