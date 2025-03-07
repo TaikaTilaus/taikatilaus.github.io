@@ -208,6 +208,24 @@ Viimeisellä rivillä ennen seuraava asiakasta, lukee asiakkaan tämänhetkinen 
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot3.png)
 
+### Ennakkomaksut-tili
+
+**Raportit**-välilehdeltä löydät raportin **Ennakkomaksut-tili**, jolta näet Ennakkomaksutilin (saldotili) tapahtumat ja saldon kohdepäivänä.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/ennakkomaksut.png)
+
+Raportilla näkyy:
+- saldotiliin liittyvät tiliöinnit (lisäys tilille on miinusmerkkinen - , ja saldon käyttö on plussamerkkinen +)
+- kirjauspäivät
+- summat
+- laskun numerot
+- asiakasnumerot
+- asiakkaan tiedot
+- tiliöintien määrät ja summan yhteensä per asiakas
+- yhteenvedon raportin lopussa
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/ennakkomaksut3.png)
+
 ### Maksun palautukset
 
 **Raportit**-välilehdeltä löydät raportin **Maksun palautukset**, millä listataan asiakkaille tehtävät palautukset. Raportilta voi kuitata palautetuiksi summia, jonka jälkeen ne eivät enää näy raportilla (ellet erikseen valitse niitä näkyviksi).
