@@ -47,8 +47,9 @@ Erillistuotteelle laitetaan seuraavat tiedot (tässä esimerkissä rahan palautu
 
 Asetukset/Pääkäyttäjä -välilehdellä pitää laittaa paikalleen 
 
-- palautuksen tilin
 - saldotilin
+    - määrittely siitä, mille lehdille saldoa voi käyttää (muodossa LehdenLyhenne;LehdenLyhenne esim. TAN;TAND)
+- palautuksen tilin
 - lehtikohtaiset erillistuotteet (muodossa: LehdenNimi;ErillistuotteenTuoteID) esim. TaikaNakka;2584
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
