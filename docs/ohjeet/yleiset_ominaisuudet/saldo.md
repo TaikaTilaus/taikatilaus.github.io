@@ -178,7 +178,37 @@ Palautus suoritetaan painamalla **Tallenna ennakkomaksu** -painiketta.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/liikasuoritus2.png)
 
-## Raportti palautettavista maksuista
+## Raportit
+
+### Asiakassaldot
+
+**Raportit**-välilehdeltä löydät raportin **Asiakassaldot**, jolta näet asiakkailla olevat saldot ja saldotapahtumat (esim. saldoa on käytetty laskun maksamiseen).
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot.png)
+
+Raportin määrityksistä voit valita:
+- Aikavälin, jolta haetaan palautettavia summia
+- Tulostusmuodon (Näytölle, Excel, PDF)
+- Kirjaisinkoon
+- Raportin ulkoasun (ruudukolla tai ilman)
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot2.png)
+
+Raportilta näet:
+- SaldoIDn
+- Kirjauspäivän
+- Saldosumman
+- Sisäisen selitteen, jossa lukee tiedot saldon käytöstä, esim. saldon summa ja minkä laskun maksamiseen saldoa on käytetty.
+- Ulkoisen selitteen, joka näkyy laskulla
+- Lehden, johon saldo liittyy
+- Laskun numeron, johon saldoa on käytetty
+- Käyttöpäivän
+
+Viimeisellä rivillä ennen seuraava asiakasta, lukee asiakkaan tämänhetkinen saldo.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot3.png)
+
+### Maksun palautukset
 
 **Raportit**-välilehdeltä löydät raportin **Maksun palautukset**, millä listataan asiakkaille tehtävät palautukset. Raportilta voi kuitata palautetuiksi summia, jonka jälkeen ne eivät enää näy raportilla (ellet erikseen valitse niitä näkyviksi).
 
