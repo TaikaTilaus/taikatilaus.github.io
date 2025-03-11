@@ -83,9 +83,10 @@ Etusivun kautta voidaan tehdä erilaisia hakuja asiakasrekisteristä.Etusivun ha
 
 **Omat tiedot** -valikosta voi muokata kirjautuneen käyttäjän tietoja sekä vaihtaa tunnukseen liittyvän salasanan.
 
-**Kirjaudu ulos** -valinnalla päätetään työskentely ja kirjaudutaan ulos palvelusta.
-
-**Käyttäjän tiedot** –näkymässä kirjautunut käyttäjä pääsee muokkaamaan omia tietojaan.
+- **Käyttäjän tiedot** –näkymässä kirjautunut käyttäjä pääsee muokkaamaan omia tietojaan.
+- **Vaihda salasana**
+- **Siirry Demosivulle** -valinnalla voit siirtyä TaikaTilauksen demojärjestelmään, jossa voit mm. testata uusia ominaisuuksia turvallisessa ympäristössä.
+- **Kirjaudu ulos** -valinnalla päätetään työskentely ja kirjaudutaan ulos palvelusta.
 
 ### Käyttäjätietojen muokkaus
 
