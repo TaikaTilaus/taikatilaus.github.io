@@ -11,6 +11,8 @@ Saldo ja rahan palautus -toiminnolla voit tehdä seuraavaa:
 - Lisätä asiakkaalle saldoa manuaalisesti, esimerkiksi jos asiakas on maksanut tilauksensa etukäteen.
 - Raporteilta näet palautettavat summat sekä asiakkaiden käytettävissä olevan saldon.
 
+**HUOM! ETTÄ RAHANPALAUTUS TILIÖITYY OIKEIN, PITÄÄ RAHANPALAUTUKSET KÄSITELLÄ NIIHIN LIITTYVÄLLÄ [RAPORTILLA.](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksun-palautukset)**
+
 ## Toiminnot ennen käyttöönottoa
 
 Ennen saldo ja palautus -toiminnon käyttöönottoa (tästä lähtien ennakkomaksut), pitää asetuksissa tehdä tiettyjä määrityksiä. Ottakaa yhteyttä TaikaTilaus-tukeen tuki@taikatilaus.fi, jos haluatte ottaa toiminnon käyttöön.
@@ -139,6 +141,8 @@ Saldon palautus näkyy alkuperäisen laskun tiliöinneillä seuraavasti:
 
 Jos valitsit rahapalautuksen, muodostetaan uusi hyvityslasku, joka tiliöi rahanpalautuksen asetuksissa määritetylle tilille.
 
+**HUOM! ETTÄ RAHANPALAUTUS TILIÖITYY OIKEIN, PITÄÄ RAHANPALAUTUKSET KÄSITELLÄ NIIHIN LIITTYVÄLLÄ [RAPORTILLA.](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksun-palautukset)**
+
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo-palautus4.png)
 *Tilauksen laskuihin muodostuu palatuksesta lasku*
 
@@ -228,7 +232,9 @@ Raportilla näkyy:
 
 ### Maksun palautukset
 
-**Raportit**-välilehdeltä löydät raportin **Maksun palautukset**, millä listataan asiakkaille tehtävät palautukset. Raportilta voi kuitata palautetuiksi summia, jonka jälkeen ne eivät enää näy raportilla (ellet erikseen valitse niitä näkyviksi).
+**HUOM! ETTÄ RAHANPALAUTUS TILIÖITYY OIKEIN, PITÄÄ RAHANPALAUTUKSET KÄSITELLÄ TÄLLÄ RAPORTILLA.**
+
+**Raportit**-välilehdeltä löydät raportin **Maksun palautukset**, millä listataan asiakkaille tehtävät palautukset. Raportilta voi kuitata palautetuiksi summia, jonka jälkeen ne eivät enää näy raportilla (ellet erikseen valitse niitä näkyviksi) ja ne tiliöityvät oikein.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti.png)
 *Raportti löytyy kirjanpidon raporteista.*
@@ -246,9 +252,17 @@ Kun raportti on tulostettu näytölle, voit käsitelle yksittäisiä palautuksia
 
 Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **TiliöintiID**, kopiomalla sen raportin alla olevaan kenttään (TiliöintiID) voit:
 - Kuitata summan käsitellyksi (palautus on tehty asiakkaalle), jolloin se poistuu raportilta, ellet raportin määrityksistä aseta käsiteltyjä summia näkyviksi
-    - **Kuittaa käsitellyksi** -toiminto palauttaa pankkiin (pankkitilin tiliöinti) kyseisen summan (-) sekä tiliöi summan pois palautusten tililtä (+).
+    - **Kuittaa käsitellyksi** -toiminto palauttaa kyseisen summan (-) pankkiin (pankkitilin tiliöinti) sekä tiliöi summan pois palautusten tililtä (+).
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti3.png)
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti5.png)
+
+*Valitse yrityksesi pankkitili, jolta palautus asiakkaan tilille tehtiin.*
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti6.png)
+
+*Painamalla Kuittaa palautus käsitellyksi -painiketta, luot palautuksen tiliöinnit ja merkitset palautuksen käsitellyksi, jolloin se poistuu raportilta.*
 
 - muokata tiliöinnin 
     - lisätietoja
