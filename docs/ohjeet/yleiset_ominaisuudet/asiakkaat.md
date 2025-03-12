@@ -63,13 +63,15 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 
 ### Saldon lisäys ja käyttö
 
+#### Saldon lisäys
+
 Saldoa voi lisätä asiakkaalle 
 
 1. **Maksetun tilauksen katkaisun yhteydessä**
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-lis4.png)
 
-2. **Tai lisäämällä saldoa manuaalisesti asiakaskortille, kun asiakas on maksanut etukäteen**
+2. **TAI lisäämällä saldoa manuaalisesti asiakaskortille, kun asiakas on maksanut etukäteen**
 - Saldoa voi lisätä painamalla **Lisää saldoa** -painiketta asiakkaan laskutustiedoista
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis.png)
@@ -78,15 +80,21 @@ Saldoa voi lisätä asiakkaalle
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis2.png)
 
-- Saldon määrä näkyy myös asiakkaan koontisivulla
+3. **TAI Virheellisten suorituksien käsittelyn yhteydessä painamalla Liikasuoritus ennakkomaksuksi -painiketta**
+
+![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis6.png)
+
+#### Saldon käyttö
+
+Kun saldoa on lisätty, tulee sen määrä näkyviin myös asiakkaan koontisivulla
 
 ![Asiakastiedot](/img/ohjeet/saldonmaar.png)
 
-- Kun saldoa on lisätty, sitä käytetään **automaattisesti laskujen maksamiseen** laskustuajon yhteydessä. Merkintä saldon käytöstä maksamiseen tulee **laskun tuoteriville**.
+Kun saldoa on lisätty, sitä käytetään **automaattisesti laskujen maksamiseen** laskustusajon yhteydessä. Merkintä saldon käytöstä maksamiseen tulee **laskun tuoteriville**.
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis3.png)
 
-- Tiedot saldon käytöstä päivittyvät myös laskutustietoihin. Alla olevassa esimerkistä näet sisäisestä selitteestä rahamäärän ja laskun johon saldoa on käytetty 
+Tiedot saldon käytöstä päivittyvät myös laskutustietoihin. Alla olevassa esimerkistä näet sisäisestä selitteestä rahamäärän ja laskun johon saldoa on käytetty 
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis5.png)
 
@@ -105,7 +113,6 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 ![Asiakastiedot](/img/ohjeet/saldo-poisto3.png)
 
 *Selain näyttää vahvistusviestin. Jos haluat poistaa saldon valitse OK*
-
 
 ### Markkinointitiedot
 
