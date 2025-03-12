@@ -30,6 +30,12 @@ Saat hakutuloksen listaan lisäkenttiä aktivoimalla niitä **Listan lisäkentä
 
 ![Viestit](/img/ohjeet/viestit3.png)
 
+## Tunnukset
+
+Hallintakäyttäjän hakutoiminto mahdollistaa tilaajien käyttäjätunnusten (Maksumuuri ja OmaPalvelu) etsimisen. Hakutuloksissa näytetään, koska tunnusta on viimeksi käytetty eri palveluissa. Voit hakea tunnusta syöttämällä asiakkaan käyttäjätunnukseksi liitetyn sähköpostin **Käyttäjätunnus**-kenttään.
+
+![Viestit](/img/ohjeet/tunnukset.png)
+
 ## Tapahtumaloki
 
 ![Tapahtumaloki](/img/ohjeet/tapahtumaloki.png)
@@ -84,6 +90,68 @@ Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painam
 Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painamalla **Poista lopullisesti** -painiketta, voit poistaa asiakaskortin lopullisesti tietokannasta. Tämän jälkeen ei asiakasta voi palauttaa. Ohjelma kysyy sinua varmistamaan, että haluat suorittaa poiston.
 
 ![Kontaktien roskakori](/img/ohjeet/roskakori3.png)
+
+<!--  ## Kontaktien päivitys
+
+**Kontaktien päivitys** -välilehdellä voit päivittää yhdellä kertaa monta asiakasta ja heidän tietojaan rekisteriin. Tällä toiminnolla voi esimerkiksi ajaa rekisterin tarkistuspalvelun tuottamat muutostiedot tai messuilta kerättyjen listojen päivityksen. Tuontitoiminto tunnistaa muuttuneet tiedot ja kysyy käyttäjältä niiden käsittelystä.
+
+Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt tekemään toimintoja välilehdellä, pitää sinun tehdä **lisätunnistautuminen sähköpostin kautta**. Käyttäjääsi yhdistettyyn sähköpostiin lähetetään **koodi**, mikä sinun pitää syöttää osoitettuun kenttään. Oikean koodin syöttämisen jälkeen voit tehdä toimintoja välilehdellä.
+
+![Tuplien käsittely](/img/ohjeet/tuplat9.png)
+
+![Tuplien käsittely](/img/ohjeet/tuplat10.png)
+
+**HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!** -->
+
+## Rekisterin huoltotoimet
+
+![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet.png)
+
+**Rekisterin huoltotoimet** -välilehdellä voit etsiä rekisteristä virheellisiä asiakastietoja ja suorittaa manuaalisia ja automaattisia korjauksia. Ohjelma tutki rekisteriä ja etsii virheitä. Vain löydetyt virheelliset kontaktit näytetään.
+Osan korjauksista ohjelma pystyy tekemään automaattisesti, mutta suuressa osassa korjaus tulee tehdä manuaalisesti. Manuaalista korjausta voidaan tehdä suoraan käyttöliittymässä tai massakorjauksia varten tiedot voi siirtää Exceliin ja **Kontaktien päivitys** -toiminnon kautta takaisin rekisteriin. 
+
+- **Tarkista sähköpostiosoitteet** -painike hakee virheelliset sähköpostit.
+- **Tarkista postinumerot** -painike hakee virheelliset postinumerot.
+- **Tarkista puhelinnumerot** -painike hakee virheelliset puhelinnumerot.
+- **Hae kaikki** -painike hakee koko rekisterin.
+
+Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt tekemään toimintoja välilehdellä, pitää sinun tehdä **lisätunnistautuminen sähköpostin kautta**. Käyttäjääsi yhdistettyyn sähköpostiin lähetetään **koodi**, mikä sinun pitää syöttää osoitettuun kenttään. Oikean koodin syöttämisen jälkeen voit tehdä toimintoja välilehdellä.
+
+![Tuplien käsittely](/img/ohjeet/tuplat9.png)
+
+![Tuplien käsittely](/img/ohjeet/tuplat10.png)
+
+### Ohjeet rekisterin huoltotoimiin
+
+<!--  **Päivitä tiedot vain vertailuja varten (ei kosketa näkyviin tietoihin)** -painikkeesta
+
+![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet8.png) -->
+
+Päivitämme esimerkissä asiakkaiden sähköpostiosoitteita. **HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
+
+1. Painetaan **Tarkista sähköpostiosoitteet** -painiketta.
+
+![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet7.png)
+
+2. Järjestelmä tarkistaa asiakkaiden sähköpostiosoitteet ja listaa virheelliset. Voit rajata näytettävää tietomäärää **pienentämällä Asiakasnumeroiden hakuväliä**.
+
+![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet2.png)
+
+3. Kun virheenä on tyhjä tila datan edessä/takana, voit valita ne aktivoimalla kentän asiakasnumeron edessä ja painaa **Korjaa valitut automaattisesti** -painiketta.
+
+![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet5.png)
+
+4. Järjestelmä näyttää vahvistusviestin, kun automaattinen korjaus on suoritettu.
+
+![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet6.png)
+
+5. Kun virhettä ei voi korjata automaattisesti, painetaan ensimmäisessä sarakkeessa olevaa **Kynä**-ikonia. Näytölle tulee pop-up ikkuna, jossa voit korjata asiakkaan tietoja. 
+
+![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet3.png)
+
+6. Kun tiedot ovat oikein, paina **Tallenna** (ei sulje pop-up ikkunaa ja näyttää pop-ikkunalla vahvistusviestin) tai **Tallenna ja sulje** (sulkee pop-ikkunan). Voit siirtyä edelliseen/seuravaan asiakkaaseen **Edellinen/Seuraava**-painikkeilla.
+
+![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet4.png)
 
 ## Tuplien käsitttely
 
