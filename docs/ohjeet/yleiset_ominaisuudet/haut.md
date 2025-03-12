@@ -28,7 +28,8 @@ Tilauksia voi hakea:
 - **Tuoteella** (esim. Kestotilaus III)
 - **Tilaustyyppillä** (Kesto tai Määräaikainen)
 - **Maalla** (ns. kotimaa, ulkomaa)
-- **Laskun toimitustavalla** (esim. kirje)
+- **Laskun toimitustavalla** (esim. kirje, verkkolasku)
+- **Tilaustavalla** (minkä kanavan kautta tilaus on tehty esim. puhelin, www, sähköposti)
 - **Tilauksen nimellä**
 - **Myyjän nimellä**
 - **Tilauksen katkaisun syyllä**
@@ -47,6 +48,7 @@ Voit aktivoida hakuihin lisäkriteerejä, jotka karsivat haun tulokset vain lis�
 - **Ei kirjemarkkinointiestoa** haetaan vain asiakkatia, joilla ei ole kirjemarkkinointiestoa aktivoituna
 - **Tuotteen hinta yli 0 euroa** tilaukseen liitetyn tuotteen hinta on yli 0 euroa
 - **Tuotteen hinta 0 euroa** tilaukseen liitetyn tuotteen hinta on 0 euroa (esim. lehtien vapaakappaleet)
+- **Ei katkaistuja** jätetään haun tuloksista pois ne tilaukset, jotka on katkaistu
 - **Sähköpostiosoite** asiakkaan tiedoista löytyy sähköpostiosoite
 - **Tuotetyyppi vaihtunut** tilauksen tyyppi on vaihtunut (esim. digilehtitilaus on vaihtunut paperilehtitilaukseksi)
 - **Edell. tilauksesta väh. 14vrk** saman lehden edellisen tilauksen päättymisestä on vähintään 14 vuorokautta

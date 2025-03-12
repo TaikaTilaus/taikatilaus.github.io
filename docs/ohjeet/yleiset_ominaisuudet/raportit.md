@@ -157,12 +157,6 @@ Raportille haetaan annetulle aikavälille kirjattuihin tiliöinteihin liittyvät
 
 ![Raportit](/img/ohjeet/tilit-ja-tuotteet.png)
 
-### Maksun palautukset
-
-Raportilla näytetään asiakkaille palautettavat summat. Palautuksen jälkeen tiliöinnit voi kuitata pois (raha palautettu).
-
-![Raportit](/img/ohjeet/maksunpalautus.png)
-
 ### Kaikki tiliöinnit
 
 Raportilla näytetään kaikki tiliöinnit aikajärjestyksessä, uusin ylinnä. Raporttia voi käyttää uusien maksujen tiliöintien tarkastamiseen.
@@ -171,9 +165,97 @@ Raportilla näytetään kaikki tiliöinnit aikajärjestyksessä, uusin ylinnä. 
 
 ### Asiakassaldot
 
-Raportilla näytetään asiakkaiden saldona olevat maksut.
+**Raportit**-välilehdeltä löydät raportin **Asiakassaldot**, jolta näet asiakkailla olevat saldot ja saldotapahtumat (esim. saldoa on käytetty laskun maksamiseen).
 
-![Raportit](/img/ohjeet/asiakassaldo.png)
+![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot.png)
+
+Raportin määrityksistä voit valita:
+- Aikavälin, jolta haetaan palautettavia summia
+- Tulostusmuodon (Näytölle, Excel, PDF)
+- Kirjaisinkoon
+- Raportin ulkoasun (ruudukolla tai ilman)
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot2.png)
+
+Raportilta näet:
+- SaldoIDn
+- Kirjauspäivän
+- Saldosumman
+- Sisäisen selitteen, jossa lukee tiedot saldon käytöstä, esim. saldon summa ja minkä laskun maksamiseen saldoa on käytetty.
+- Ulkoisen selitteen, joka näkyy laskulla
+- Lehden, johon saldo liittyy
+- Laskun numeron, johon saldoa on käytetty
+- Käyttöpäivän
+
+Viimeisellä rivillä ennen seuraava asiakasta, lukee asiakkaan tämänhetkinen saldo.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot3.png)
+
+### Ennakkomaksut-tili
+
+**Raportit**-välilehdeltä löydät raportin **Ennakkomaksut-tili**, jolta näet Ennakkomaksutilin (saldotili) tapahtumat ja saldon kohdepäivänä.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/ennakkomaksut.png)
+
+Raportilla näkyy:
+- saldotiliin liittyvät tiliöinnit (lisäys tilille on miinusmerkkinen - , ja saldon käyttö on plussamerkkinen +)
+- kirjauspäivät
+- summat
+- laskun numerot
+- asiakasnumerot
+- asiakkaan tiedot
+- tiliöintien määrät ja summan yhteensä per asiakas
+- yhteenvedon raportin lopussa
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/ennakkomaksut3.png)
+
+### Maksun palautukset
+
+**HUOM! ETTÄ RAHANPALAUTUS TILIÖITYY OIKEIN, PITÄÄ RAHANPALAUTUKSET KÄSITELLÄ TÄLLÄ RAPORTILLA.**
+
+**Raportit**-välilehdeltä löydät raportin **Maksun palautukset**, millä listataan asiakkaille tehtävät palautukset. Raportilta voi kuitata palautetuiksi summia, jonka jälkeen ne eivät enää näy raportilla (ellet erikseen valitse niitä näkyviksi) ja ne tiliöityvät oikein.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti.png)
+*Raportti löytyy kirjanpidon raporteista.*
+
+Raportin määrityksistä voit valita:
+- Näkyvätkö jo käsitellyt palautukset raportilla
+- Aikavälin, jolta haetaan palautettavia summia
+- Tulostusmuodon (Näytölle, Excel, PDF)
+- Kirjaisinkoon
+- Raportin ulkoasun (ruudukolla tai ilman)
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti2.png)
+
+Kun raportti on tulostettu näytölle, voit käsitelle yksittäisiä palautuksia (esimerkin raportissa näkyy myös ennakkomaksut).
+
+Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **TiliöintiID**, kopiomalla sen raportin alla olevaan kenttään (TiliöintiID) voit:
+- Kuitata summan käsitellyksi (palautus on tehty asiakkaalle), jolloin se poistuu raportilta, ellet raportin määrityksistä aseta käsiteltyjä summia näkyviksi
+    - **Kuittaa käsitellyksi** -toiminto palauttaa kyseisen summan (-) pankkiin (pankkitilin tiliöinti) sekä tiliöi summan pois palautusten tililtä (+).
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti3.png)
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti5.png)
+
+*Valitse yrityksesi pankkitili, jolta palautus asiakkaan tilille tehtiin.*
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti6.png)
+
+*Painamalla Kuittaa palautus käsitellyksi -painiketta, luot palautuksen tiliöinnit ja merkitset palautuksen käsitellyksi, jolloin se poistuu raportilta.*
+
+- muokata tiliöinnin 
+    - lisätietoja
+    - tilinumeroa, mihin palautus tehdään
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti4.png)
+
+### Tiliöintien lukitseminen
+
+Tiliöintitapahtumat voidaan lukita haluttuun historiapäivään saakka. Esim. edellisen vuoden viimeinen päivä. Kirjauksia ei voi lukitsemisen jälkeen tehdä valitulle päivälle tai sitä aikaisemmille päiville.
+
+![Tiliöintien lukitseminen](/img/ohjeet/lukittu.png)
+
+![Tiliöintien lukitseminen](/img/ohjeet/lukittu2.png)
 
 ## Tarkastusraportit
 
@@ -206,6 +288,8 @@ Raportti näyttää laskut joiden summan ja tiliöintien summan välillä on ero
 Raportilta voi tarkistaa onko tilausten laskutuspyynnöissä/laskuissa poikkeavuutta tilauksen hinnan kanssa. Joissain tapauksissa poikkeavuudet voivat olla tarkoituksellisia. Esim. asiakkaan kanssa on sovittu erikseen hinnasta. Jos poikkeavuudet eivät ole tarkoituksellisia, pitää mennä kyseiselle tilauksella ja ratkaista tilauksen hinnan ja laskutuspyyntöjen eroavuus, esim. muokkaamalla laskutuspyyntöjä.
 
 ![Raportit](/img/ohjeet/lapy-poikkeavuus.png)
+
+<!-- Saldojen tarkastus -->
 
 ## Tilausten raportit
 
@@ -348,6 +432,8 @@ Raportti hakee annettuna aikavälinä luodut laskut liittyen maksamattomien tila
 
 ![Raportit](/img/ohjeet/toimitetut.png)
 
+<!-- Jakelureklamaatiot -->
+
 ## Ilmoitusmyynnin raportit
 
 ### Laskutetut ilmoitusmyynnit
@@ -385,6 +471,20 @@ Raportilla näytetään yhteenveto ilmoitusvarausmyynneistä myyjittäin, annetu
 Raportille haetaan asetetulla aikavälillä laskutetut erillistuotteet (esim. kirjat).
 
 ![Raportit](/img/ohjeet/erillistuotteet-raportti.png)
+
+### Ilmoitusvarauksien raportit
+
+Saat lisää ilmoitusmyyntiin liittyviä raportteja [**Ilmoitusvaraukset**](/docs/ohjeet/ilmoitustenhallinta/ilmoistusvaraukset)-välilehdeltä.
+
+**Hakutuloksista** voi luoda erilaisia raportteja painamalla **Raportit**-painiketta ja sitten:
+- **Luo Excel** –painikketta (hakutuloksien vienti Exceliin)
+- **Lehden varausluettelo** -painikketta (yksittäisen julkaisun ilmoitusvaraukset)
+- **Varausluettelo**-painikketta (kaikki varaukset valitulta aikaväliltä)
+- **Palstamillimetritilasto** –painikketta <!-- //selitys -->
+- **Laskutuksen tarkastuslista** -painikketta (määritellyn aikavälin ilmoitusvaraukset laskutustietoineen)
+- **Laskutettavien lista** -painiketta (tiettynä päivänä laskutettavat ilmoitusvaraukset)
+
+![Ilmoitusvaraukset](/img/ohjeet/ilmoitusvaraukset5.png)
 
 ## Graafiset raportit
 
