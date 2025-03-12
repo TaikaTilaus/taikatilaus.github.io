@@ -11,20 +11,21 @@ Asiakkaita hallinnoidaan **Etusivulla**, jonka kautta voi hakea henkilöitä ja 
 ![Etusivu - Haku ](/img/ohjeet/esimerkkihaku.png)
 
 Asiakasrekisteristä voi **hakea henkilöitä, yrityksiä tai yhteisöjä** mm. seuraavilla hakuehdoilla:
-- Asiakasnumero
-- Yrityksen nimi
-- Yrityksen Y-tunnus
-- Sukunimen alku
-- Sähköpostiosoite
-- haluamallaan Lasku-, Tilaus- ja Varausnumerolla siihen liittyvät asiakastiedot
+- **Asiakasnumero**
+- **Yrityksen nimi**
+- **Yrityksen Y-tunnus**
+- **Sukunimen alku**
+- **Sähköpostiosoite**
+- **Puhelinnumerolla** (puhelinnumeron voi syöttää eri muodossa esim. +358 234567890 tai 023 4567890, ohjelma löytää numeron asiakkaan tiedoista riippumatta siitä, miten se on sinne kirjoitettu)
+- haluamallaan **Lasku-, Tilaus- ja Varausnumerolla** siihen liittyvät asiakastiedot
 
 Voi myös hakea koko nimellä esim: Virtanen Pekka.
 
 Haun muodostamassa listassa näet erinäisiä asiakkaita koskevia tietoja:
-- Asiakasnumeron
-- Nimen ja yrityksen
-- Osoitteen
-- Sähköpostin ja puhelinnumeron
+- **Asiakasnumeron**
+- **Nimen ja yrityksen**
+- **Osoitteen**
+- **Sähköpostin ja puhelinnumeron**
 
 Listauksessa on myös tilausmyynti- ja ilmoitusmyyntikohtaiset sarakkeet.
 
