@@ -117,8 +117,20 @@ Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** 
 ### Maksumuistutuksen lisämaksun kirjaaminen laskun tiliöinteihin:
 - Maksettu 50,00 €, Lasku 45,00 €, Maksumuistutus 5,00 € kirjataan
 - Pankkitilille (S) +50,00 €
-- PTilausmyyntisaamiset (K) -45,00 € (kuittaa laskun maksetuksi)
+- Tilausmyyntisaamiset (K) -45,00 € (kuittaa laskun maksetuksi)
 - Muistutusmaksu-tilille (K) -5,00 €
+
+![Suoritukset](/img/ohjeet/mamu.png)
+*Maksumuistutus on erillisenä tuotteena laskulla ja sillä on omat tiliöinnit.*
+
+![Suoritukset](/img/ohjeet/mamu2.png)
+*Kun kirjaat suoritusta, paina **Näytä lisää tiliöintejä** -painiketta, jotta saat toisen myyntitilin näkyviin.*
+
+![Suoritukset](/img/ohjeet/mamu3.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/mamu4.png)
+*Summa suorituksen kirjauksen jälkeen*
 
 ### Maksamattoman Maksumuistutuksen kirjaaminen laskun tiliöinteihin:
 - Maksettu 45,00 €, Lasku 45,00 € + 5,00 € Maksumuistutus kirjataan
@@ -197,6 +209,12 @@ Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** 
 - Kirjanpidossa (esim. tilitsto) maksetaan takaisin asiakkaan tilille -100,00 €
 - Hyvityslasku on kuitannut laskun maksetuksi palvelussa (Maksettu 0,00 €)
 
+![Suoritukset](/img/ohjeet/hyvityslasku.png)
+*Hyvityslasku luodaan painamalla **Luo hyvityslasku** -painiketta*
+
+![Suoritukset](/img/ohjeet/hyvityslasku2.png)
+*Hyvityslaskun summa ja tiliöinnit ovat vastakkaisia kuin alkuperäisen laskun.*
+
 ### Osahyvityksen kirjaaminen laskun tiliöinteihin:
 - Alkuperäinen lasku 100,00 €, josta sovittu maksettavaksi 80,00 € kirjataan
 - Pankkia vastaava Kuittaustili (S) 20,00 €
@@ -240,33 +258,73 @@ Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** 
 - Myyntisaamisiin (K) -50,00 € (kuittaa laskun maksetuksi)
 - Pankkikulutililtä (T) +1,50 €
 
+![Suoritukset](/img/ohjeet/paytrail.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/paytrail2.png)
+*Summa suorituksen kirjauksen jälkeen*
+
 ### Useampi (erilliset laskut) maksettu yhdellä laskulla ja niiden kirjaaminen yksittäisten laskujen tiliöinteihin:
-- Esim. Lasku1 100,00 / Lasku2 50,00 / Lasku3 150,00
-- Lasku1:lle 300,00 € kirjataan
+
+Esim. **Lasku 1** 100,00€ / **Lasku 2** 50,00€ / **Lasku 3** 150,00€
+
+**Lasku 1:lle** 300,00 € kirjataan
+
 - Pankkitilille (S) +300,00 €
 - Tilausmyyntisaamiset (K) -100,00 € (kuittaa laskun maksetuksi)
 - Siirto-/Kuittaustilille (T) -50,00 € (Lasku2) (esim. Oikaisutili)
 - Siirto-/Kuittaustilille (T) -150,00 € (Lasku3) (esim. Oikaisutili)
 
-- Lasku2:lle 50,00 € kirjataan
+![Suoritukset](/img/ohjeet/koontilasku.png)
+*Kun kirjaat suoritusta, paina **Näytä lisää tiliöintejä** -painiketta, jotta saat toisen kulutilin näkyviin.*
+
+![Suoritukset](/img/ohjeet/koontilasku2.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/koontilasku3.png)
+*Summa suorituksen kirjauksen jälkeen*
+
+**Lasku 2:lle** 50,00 € kirjataan
+
 - Pankkitilille (S) 0,00 €
 - Tilausmyyntisaamiset (K) -50,00 €
 - Siirto-/Kuittaustilille (S) 50,00 € (esim. Oikaisutili)
 
-- Lasku3:lle 150,00 € kirjataan
+![Suoritukset](/img/ohjeet/koontilasku4.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/koontilasku5.png)
+*Summa suorituksen kirjauksen jälkeen*
+
+**Lasku 3:lle** 150,00 € kirjataan
+
 - Pankkitilille (S) 0,00 €
 - Tilausmyyntisaamiset (K) -150,00 €
 - Siirto-/Kuittaustilille (S) 150,00 € (esim. Oikaisutili)
+
+![Suoritukset](/img/ohjeet/koontilasku6.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/koontilasku7.png)
+*Summa suorituksen kirjauksen jälkeen*
 
 ### Ennakkomaksun kirjaaminen laskun tiliöinteihin:
 - Maksettu 65,00 €, tulossa olevasta Laskusta kirjataan (sallittua vain saman kuukauden aikana)
 - Kuittaustilille (S) +65,00 €
 - Tilausmyyntisaamiset (K) -65,00 € (kuittaa laskun maksetuksi)
+- Infokenttään esim. "Ennakkomaksu"
 
-#### Malli esimerkin korjauksesta
-Raportit –näkymän
+![Suoritukset](/img/ohjeet/ennakkomaksu.png)
+*Suorituksen kirjaaminen*
 
-Tarkistusraportit / Laskujen pikatiliöintivirheet –raporttipohjaan ajetaan automaattisesti tiliöintitiedot nopeaa raportointia varten
+![Suoritukset](/img/ohjeet/ennakkomaksu2.png)
+*Summa suorituksen kirjauksen jälkeen*
+
+<!-- #### Malli ennakkomaksun tiliöintien korjauksesta
+
+**Raportit** –näkymän
+
+**Tarkistusraportit / Laskujen pikatiliöintivirheet** –raporttipohjaan ajetaan automaattisesti tiliöintitiedot nopeaa raportointia varten
 - Samassa yhteydessä tarkistetaan tiliöintien oikeellisuus ja virheet kirjataan laskulle
 - Virheelliset laskut saa haettua tämän raportin avulla ja niiden tiliöinnit tulisi korjata ennen kirjanpitoraporttien ottamista (esim. Reskontraluettelo)
 
@@ -274,6 +332,6 @@ Tiliöintivirhe voi liittyä esim. ’ennakkomaksuun’, jossa asiakas on maksan
 - jolloin Laskun päivä on ’suurempi’ kuin Suorituksen kirjauspäivä esim. Laskun päivä 05.03.2022 ja Suorituspäivä 28.02.2022
 
 Tiliöinnit tulee korjata laskulle muuttamalla
-- Laskun tiedot / Laskun päivä –kentän päiväys samaksi kuin saapuneen Suorituksen kirjauspäivä
-- ja Tallenna
-
+- **Laskun tiedot / Laskun päivä** –kentän päiväys samaksi kuin saapuneen **Suorituksen kirjauspäivä**
+- ja **Tallenna**
+ -->
