@@ -92,21 +92,42 @@ Luo lisää laskujen muokkaamisesta [täältä](/docs/ohjeet/yleiset_ominaisuude
 
 ### Esimerkki suorituksen korjaamisesta
 
-<!-- /// kuvat  -->
-
 Käsiteltäviä **Suorituksia** voi hakea mm.
 - **Suoritukset**–listauksen avulla
+    - Aktivoimalla **Hae vain käsittelyä vaativat** -kentän (1) ja painamalla **Hae** (2)
 - **Raportit** / Tarkastusraportit - **Suoritukset joiden tiliöinneissä virheitä** –raportin avulla
 
-**Suoritukset** –välilehden listauksen **Laskun nro** –sarakkeen numerotietoa klikkaamalla pääsee **muokkaamaan** kyseistä laskua
+**Suoritukset** –välilehden listauksen **Laskun nro** –sarakkeen numerotietoa klikkaamalla (3) pääsee **muokkaamaan** kyseistä laskua
+
+![Suoritukset](/img/ohjeet/suorituksen-korjaus.png)
 
 Esim. **Lisäämään** kyseisen suorituksen tiliöinnin ko. laskulle
 - Jos asiakas on **maksanut vain osan** laskun summasta
-- Liitetään/lisätään suoritus **vastaavalla summalla** (S/K) tiliöinneiksi
+- Liitetään/lisätään suoritus **vastaavalla summalla** (S/K) tiliöinneiksi (4-5)
 
-Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla tai tulosteena kirjeitse
-- Laskulomakkeen yläosassa on alkup. maksutiedot
-- Pankkisiirto-osan Summa–kentässä on **Maksamatta**-summa
+![Suoritukset](/img/ohjeet/suorituksen-korjaus2.png)
+
+![Suoritukset](/img/ohjeet/suorituksen-korjaus3.png)
+
+Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla (6) tai tulosteena kirjeitse
+- Laskulomakkeen yläosassa on alkup. maksutiedot (7)
+- Pankkisiirto-osan Summa–kentässä on **Maksamatta**-summa (8)
+
+![Suoritukset](/img/ohjeet/suorituksen-korjaus4.png)
+
+![Suoritukset](/img/ohjeet/suorituksen-korjaus5.png)
+
+Merkitse suoritus **käsitellyksi**:
+
+- Siirry suorituksen käsitellyyn **SuoritusID**:stä (9)
+- Kirjoita selitys **Käsitelty info** -kenttään (10)
+- **Tallenna** (11)
+
+Suoritus poistuu täten käsiteltävistä suorituksista.
+
+![Suoritukset](/img/ohjeet/suorituksen-korjaus6.png)
+
+![Suoritukset](/img/ohjeet/suorituksen-korjaus7.png)
 
 ## Esimerkkejä laskun tiliöintien muokkauksesta
 
