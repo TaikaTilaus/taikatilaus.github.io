@@ -228,6 +228,12 @@ Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** 
 - Myyntisaamisiin (K) -50,00 € (kuittaa laskun maksetuksi)
 - Luottotappiot (T) +50,00 €
 
+![Suoritukset](/img/ohjeet/luottotappio.png)
+*Suorituksen kirjaaminen*
+
+![Suoritukset](/img/ohjeet/luottotappio2.png)
+*Summa suorituksen kirjauksen jälkeen*
+
 ### Paytrail provision kirjaaminen laskun tiliöinteihin:
 - Asiakas maksanut 50,00 €, mutta Paytrail tilittänyt 48,50 € kirjataan
 - Pankkitilille (S) +48,50 €
