@@ -91,7 +91,9 @@ Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painam
 
 ![Kontaktien roskakori](/img/ohjeet/roskakori3.png)
 
-<!--  ## Kontaktien päivitys
+## Kontaktien päivitys
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys.png)
 
 **Kontaktien päivitys** -välilehdellä voit päivittää yhdellä kertaa monta asiakasta ja heidän tietojaan rekisteriin. Tällä toiminnolla voi esimerkiksi ajaa rekisterin tarkistuspalvelun tuottamat muutostiedot tai messuilta kerättyjen listojen päivityksen. Tuontitoiminto tunnistaa muuttuneet tiedot ja kysyy käyttäjältä niiden käsittelystä.
 
@@ -101,7 +103,49 @@ Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt 
 
 ![Tuplien käsittely](/img/ohjeet/tuplat10.png)
 
-**HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!** -->
+**HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
+
+### Ohjeet kontaktien päivitykseen
+
+1. Aloitetaan kontaktien päivitys painamalla **Luo kontakteista CSV-tiedosto**
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys11.png)
+
+2. Valitse kontaktien kentät (esim. etunimi, sukunimi, sähköposti)
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys2.png)
+
+3. Kun olet valinnut haluamasi kentät, paina **Luo CSV**
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys3.png)
+
+4. Järjestelmä luo tiedoston, jossa on kaikki kontaktit valitsemallasi kentillä. Lataa se koneellesi painamalla **Lataa**-napista.
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys4.png)
+
+5. Avaa tiedosto **Excel-tiedostona** (EI CSV-muodossa) ja muokkaa kontaktien tietoja. Kun olet valmis, kopioi tiedot (Ctrl+A -> Ctrl + C)
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys5.png)
+
+6. Kun olet valmis, palaa **Kontaktien päivitys** -välilehteen ja paina **Tuo kontaktien tiedot** -painiketta. Liitä kopioimasi tiedot **Tuotavat Excelin tiedot** -kenttään (Ctrl + V). Paina **Luo sisään esikatseluun.**
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys6.png)
+
+7. Tarkista tuomasi data esikatselussa. Kun olet tarkistanut datan, paina **Vertaa tietoja tietokantaa**.
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys7.png)
+
+8. Tarkista kontaktien muuttuneet tiedot. Muuttuneet tiedot näkyvät **vihreällä** ja **ensimmäisessä sarakkeessa** lukee ovatko kontaktin tiedot muuttuneet. Katso, että muuttuneet tiedot ovat järkeviä. Kun olet valmis, paina **Lue tiedot sisään tietokantaan.**
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys8.png)
+
+9. Tieto onnistuneesta tietojen tuonnista näytetään ruudulla.
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys9.png)
+
+10. **Tapahtumalokilta** näet tiedot kontaktien muuttuneista tiedoista. 
+
+![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys10.png)
 
 ## Rekisterin huoltotoimet
 
