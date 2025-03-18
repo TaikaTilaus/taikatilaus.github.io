@@ -73,8 +73,14 @@ Virheellisten suorituksien käsittelyssä pitää merkitä **Käsitelty info** -
 ![Suoritukset](/img/ohjeet/suoritukset5.png)
 
 **Suoritukset** –välilehden listauksen **SuoritusID**–sarakkeen numerotietoa klikkaamalla pääsee **käsittelemään** kyseistä suoritusta:
-1. **Poistamaan** kyseisen suorituksen
-2. **Muuttamaan** suorituksen tiliöintitiliä
+1. **Muuttamaan** suorituksen tietoja
+2. **Lähettämään asiakkaalle sähköpostia suoritukseen liittyen** 
+3. **Palauttamaan liikasuorituksen**, jos teillä on [saldo ja rahanpalautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#virheellisten-suorituksien-k%C3%A4sittely) -toiminto käytössä
+4. **Siirtämään liikasuorituksen saldoksi**, jos teillä on [saldo ja rahanpalautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#virheellisten-suorituksien-k%C3%A4sittely) -toiminto käytössä
+5. **Poistamaan suoritukseen liittyvät tiliöinnit**
+6. **Hyvittämään suorituksen** - luo uuden suorituksen, minkä summatiedot ovat päinvastoin
+
+Virheellisen suorituksen voi merkata käsitellyksi kirjoittamalla **Käsitelty info** -kenttään tietoa siitä, mitä virheelliselle suoritukselle on tehty. (esim. "OK - liikasuoritus palautettu asiakkaalle")
 
 ![Suoritukset](/img/ohjeet/suoritukset4.png)
 
