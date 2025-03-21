@@ -238,7 +238,7 @@ Uuden ilmoitusvarauksen pääset lisäämään **Lisää ilmoitusvaraus** –pai
 
 ![Ilmoitusasiakas - Myynnit ](/img/ohjeet/lisaailmoitusvaraus.png)
 
-*Ilmoitusvarauksen lisäämiseen pääsee ilmoitusasikkaan Myynnit-välilehdeltä.*
+*Ilmoitusvarauksen lisäämiseen pääsee ilmoitusasiakkaan Myynnit-välilehdeltä.*
 
 - Valitse **Myyjä**, mikäli eri kuin asiakkaaseen liitetty myyjä
 - Valitse **Kanava**, jolloin alle avautuu siihen kuuluvat tuotteet
