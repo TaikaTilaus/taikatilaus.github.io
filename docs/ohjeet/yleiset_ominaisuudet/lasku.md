@@ -23,20 +23,25 @@ Näet laskun muodon (lasku/hyvityslasku) ja tilan (avoin, erääntynyt, hyvitett
 
 Valitun yksittäisen laskun tietoja pääsee muokkaamaan, joko **Kynä**-painikkeesta
 
-1. Laskun tietoja
+1. **Laskun tietoja**
  
- Voit muuttaa:
- - eräpäivää
- - maksuehtoa
- - huomautusaikaa
- - viivästyskorkoa
- - laskun tyyppiä
- - tarkennetta
- - toimitustapaa
- - laskun lähetyspäivämäärää
- - lisätietoja
+Voit muuttaa:
+- laskun päivää
+- eräpäivää
+- maksuehtoa
+- huomautusaikaa
+- viivästyskorkoa
+- viitettä
+- laskun tyyppiä
+- tarkennetta
+- toimitustapaa
+- laskun lähetyspäivämäärää
+- lisätietoja
+    - ulkoiset sisätiedot tulostuvat laskulle
+    - sisäiset lisätiedot näkyvät vain järjestelmässä, eivät asiakkaalle
+- asettaa laskun perintäkieltoon
 
-2. Maksajan tietoja
+2. **Maksajan tietoja**
 
 ![laskun tiedot](/img/ohjeet/laskut2.png)
 
