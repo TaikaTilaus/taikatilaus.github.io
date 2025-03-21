@@ -215,22 +215,19 @@ Myytävät ilmoituspaketit pitää olla valmiiksi luotuina <a href="/docs/ohjeet
 
 Myyntipaketin luomiseen pääset painamalla **Lisää ilmoituspaketti** –painiketta.
 
-Oletuksena myyntiin on lisättty asiakkaaseen liitetty myyjä. Voit kuitenkin vaihtaa **myyjän** tarvittaessa.
+#### Ilmoituspaketin muokkaus: 
 
-**Myynnin lisätiedot** –kenttään voi kirjoittaa myyntiin liittyviä tietoja, jotka eivät näy asiakkaalle, eikä käsittelijöille.
-
-**Myyntipaketti**–valikosta valitun paketin mukaisesti myyntiin lisätään automaattisesti kaikki kyseisen myyntipaketin ilmoitusvaraukset.
-
-Ohjelma lisää automaattisesti kyseiseen myyntipakettiin kuuluvat ilmoitusvaraukset, mutta **tallennuksen jälkeen pitää vielä lisätä mihin julkaisuun kyseiset ilmoitukset tulevat**.
-
-**Laskun tuoterivi** –kenttään voi määrittää myyntipaketin laskulle tulostuvan tuoterivitiedon. 
-
-Voit myös määrittää paketin verottoman **yhteishinnan**. Mikäli se on määritelty, yksittäisten ilmoitusvarauksien hintoja **ei huomioida**. Lopulliset hintatiedot lasketaan **automaattisesti** syötetystä **Hinta** ja **Alennusprosentti**-luvuista.
-
-**Laskujen muodostuminen** –osiossa voi määrittää (ilmestyy näkyviin, kun paketin Hinta–tieto on ensin annettu)
-- Kuinka moneen **laskutuserään** paketin kokonaishinta jaksotetaan
-- Koska paketin **ensimmäinen erä** laskutetaan
-- Koska paketin **viimeinen erä** laskutetaan
+1. Oletuksena myyntiin on lisättty asiakkaaseen liitetty myyjä. Voit kuitenkin vaihtaa **myyjän** tarvittaessa.
+2. **Myynnin lisätiedot** –kenttään voi kirjoittaa myyntiin liittyviä tietoja, jotka eivät näy asiakkaalle, eikä käsittelijöille.
+3. **Myyntipaketti**–valikosta valitun paketin mukaisesti myyntiin lisätään automaattisesti kaikki kyseisen myyntipaketin ilmoitusvaraukset.
+    - Ohjelma lisää automaattisesti kyseiseen myyntipakettiin kuuluvat ilmoitusvaraukset, mutta **tallennuksen jälkeen pitää vielä lisätä mihin julkaisuun kyseiset ilmoitukset tulevat**.
+4. **Laskun tuoterivi** –kenttään voi määrittää myyntipaketin laskulle tulostuvan tuoterivitiedon. 
+5. Voit myös määrittää paketin verottoman **yhteishinnan**. Mikäli se on määritelty, yksittäisten ilmoitusvarauksien hintoja **ei huomioida**.  
+    - Lopulliset hintatiedot lasketaan **automaattisesti** syötetystä **Hinta** ja **Alennusprosentti**-luvuista.
+6. **Laskujen muodostuminen** –osiossa voi määrittää (ilmestyy näkyviin, kun paketin Hinta–tieto on ensin annettu)
+    - **6.1** Kuinka moneen **laskutuserään** paketin kokonaishinta jaksotetaan
+    - **6.2.** Koska paketin **ensimmäinen erä** laskutetaan
+    - **6.3.** Koska paketin **viimeinen erä** laskutetaan
 
 ![Myynti - Myynnin lisääminen](/img/ohjeet/ilmoituspaketti.png)
 *Myynnin lisääminen -lomake*
