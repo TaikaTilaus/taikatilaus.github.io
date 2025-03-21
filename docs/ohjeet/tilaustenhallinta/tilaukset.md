@@ -24,13 +24,40 @@ Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näk
 Asiakkaan **voimassa olevaa tilausta** voidaan tarvittaessa muuttaa
 - Esim. asiakas on maksanut epähuomiossa laskun kahteen kertaan
 
-Tilauksen Tilaustiedot–osiossa siirretään tilauksen alkuperäinen Loppuaika ylimääräisen maksuosuuden verran eteenpäin (esim. 3 kk Määräaikaistilauksen lasku maksettu kahteen kertaan, jolloin Loppuaikaa muutetaan 16.04.2024 -> 16.07.2024)
+Tilauksen Tilaustiedot–osiossa siirretään tilauksen alkuperäinen Loppuaika ylimääräisen maksuosuuden verran eteenpäin (esim. 1 kk Määräaikaistilauksen lasku maksettu kahteen kertaan, jolloin Loppuaikaa muutetaan 15.05.2024 -> 15.06.2024)
+
+![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko.png)
+
+![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko2.png)
 
 Tilauksen alkuperäinen lasku on myös päivitettävä samalla kertaa
-- Hakemalla se Laskut–listauksen kautta muokattavaksi
-- Lisäämällä laskun Tuotteet–osioon jatkettavan ajanjakson tuoterivi Lisää tuote –painikkeesta
+- Valitsemalla tilaukseen liittyvän laskun painamalla laskun numerosta
+
+![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko3.png)
+
+- Lisäämällä laskun **Tuotteet**–osioon jatkettavan ajanjakson tuoterivi **Lisää tuote** –painikkeesta
+
+![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko4.png)
+
+![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko5.png)
+
+*Valitse tilausta vastaava tuote tuotelistalta.*
+
+![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko6.png)
+
+*Muokkaa tuoteriviä painamalla TuoteriviID:stä.*
+
+![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko7.png)
+
+*Hae tuoteriville tilaustiedot painamalla **Hae tilaustiedot** -painikkeesta.*
+
+![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko8.png)
+
+*Muokkaa aika vastaamaan lisättyä tilausjaksoa.*
+
 - Tallentamalla muutokset ja
-- Liittämällä asiakkaan maksama (tupla)suoritus Myynnit ja suoritukset -osiossa Liitä suoritus –painikkeen kautta
+
+- Liittämällä asiakkaan maksama (tupla)suoritus **Myynnit ja suoritukset** -osiossa **Liitä suoritus** –painikkeen kautta
 
 ### Laskutuspyynnöt
 
