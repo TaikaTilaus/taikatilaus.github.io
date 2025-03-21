@@ -251,6 +251,17 @@ Raportin määrityksistä voit valita:
 Kun raportti on tulostettu näytölle, voit käsitelle yksittäisiä palautuksia (esimerkin raportissa näkyy myös ennakkomaksut).
 
 Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **TiliöintiID**, kopiomalla sen raportin alla olevaan kenttään (TiliöintiID) voit:
+
+- muokata tiliöinnin 
+    - lisätietoja, esim. selitys siitä mihin palautus liittyy (esim. Suorituksen liikamaksun palautus)
+    - tilinumeroa, mihin palautus tehdään ja tarvittaessa tilauksen maksajan nimi, mikäli maksaja on ollut eri kuin tilaaja
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti7.png)
+*Voit muokata palautuksen tietoja painamalla **Muuta tietoja** -painiketta.*
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti4.png)
+*Voit muokata palautuksen liittyvää lisätieto-kenttää ja palautuksen saajan tilinumeroa ja nimeä.*
+
 - Kuitata summan käsitellyksi (palautus on tehty asiakkaalle), jolloin se poistuu raportilta, ellet raportin määrityksistä aseta käsiteltyjä summia näkyviksi
     - **Kuittaa käsitellyksi** -toiminto palauttaa kyseisen summan (-) pankkiin (pankkitilin tiliöinti) sekä tiliöi summan pois palautusten tililtä (+).
 
@@ -262,10 +273,4 @@ Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **Tili�
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti6.png)
 
-*Painamalla Kuittaa palautus käsitellyksi -painiketta, luot palautuksen tiliöinnit ja merkitset palautuksen käsitellyksi, jolloin se poistuu raportilta.*
-
-- muokata tiliöinnin 
-    - lisätietoja
-    - tilinumeroa, mihin palautus tehdään
-
-![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti4.png)
+*Painamalla **Kuittaa palautus käsitellyksi** -painiketta, luot palautuksen tiliöinnit ja merkitset palautuksen käsitellyksi, jolloin se poistuu raportilta.*
