@@ -336,10 +336,6 @@ Toiminnallisesti molemmat lomakkeet ovat siis samat kuin tähänkin asti ja käy
 
 Ilmoitusvarauksen tallentamisen jälkeen ilmestyy lomakkeelle muutama lisätoiminto.
 
-![Myynnit - Ilmoitusvarauksen muokkaus](/img/ohjeet/valmisilmoitus.png)
-
-*Valmiin ilmoitusvarauksen alapalkissa on lisätoimintoja, joita luomisen aikana ei näy.*
-
 **Laskujen muodostuminen** -kentässä lukee lisätietoja laskun muodostamisesta ja lähetyspäivästä.
 
 Varausilmoituksen voi tulostaa PDF-tulosteena ja tallentaa tiedostoksi omalle koneelle klikkaamalla ensin **Tulosta**-painiketta, jonka jälkeen ilmestyy **Avaa PDF-tuloste** -painike.
@@ -349,3 +345,7 @@ Varausilmoituksen voi tulostaa PDF-tulosteena ja tallentaa tiedostoksi omalle ko
 **Kopioi**-painikkeesta pystyy luomaan uuden ilmoitusvarauksen aiemman ilmoituksen pohjatiedoilla. Klikkauksen jälkeen avautuu uusi ilmoitusvaraus-lomake, johon tehdään tarvittavat muutokset (esim. Julkaisun valinta) ennen tallennusta.
 
 Ilmoitusvarauksen voi poistaa painamalla **Poista**-painiketta.
+
+![Myynnit - Ilmoitusvarauksen muokkaus](/img/ohjeet/valmisilmoitus.png)
+
+*Valmiin ilmoitusvarauksen alapalkissa on lisätoimintoja, joita luomisen aikana ei näy.*
