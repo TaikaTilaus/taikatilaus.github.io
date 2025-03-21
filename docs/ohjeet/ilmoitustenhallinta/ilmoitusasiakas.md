@@ -161,6 +161,8 @@ Mikäli käyttäjä on aktivoinut omissa tiedoissaan <a href="/docs/pikaohjeet/i
 
 ### Yksittäisen myynnin käsittely
 
+![Myynti - Laskun muokkaus](/img/ohjeet/myynninkasittely5.png)
+
 Yksittäisen myynnin näkymästä pääset tarkastelemaan siihen liittyviä mainos/ilmoitusvarauksia sekä muokkaamaan myynnin tietoja.
 
 Myynnin tiedoissa näet tiedon siitä **milloin myynti on lisännyt** ja mikä käyttäjä on sen lisännyt, sekä päivämäärän ja kelloajan, milloin **myyntiä on viimeksi muutettu**, ja kenen toimesta.
@@ -170,6 +172,8 @@ Myynnin tiedoissa näet tiedon siitä **milloin myynti on lisännyt** ja mikä k
 Myyntiä pääsee muokkaamaan **Muokkaa myyntiä** –painikkeen kautta.
 
 **Poista myynti** -painike näkyy vain, mikäli kyseistä myyntiä ei ole vielä laskutettu.
+
+![Myynti - Laskun muokkaus](/img/ohjeet/myynninkasittely3.png)
 
 Myynnin Laskutuspyyntöjä (josta varsinainen lasku luodaan) pääsee muokkaamaan
 - **Kynä**-ikonista koko sisältöä
@@ -181,6 +185,8 @@ Myynnin Laskutuspyyntöjä (josta varsinainen lasku luodaan) pääsee muokkaamaa
 - **Saa luoda pvä** -linkistä laskutuspäivää
 - **Luo lasku** -painikkeesta ohittamaan laskutuspäivän ja luomaan laskun välittömästi
 
+![Myynti - Laskun muokkaus](/img/ohjeet/myynninkasittely4.png)
+
 Jos myynnille on asetettu pakettihinta, tulee näkyviin **Lisää myynnille laskutuspyyntö** -painike.
 
 ![Myynti - Myynnin käsittely](/img/ohjeet/pakettihinta.png)
@@ -191,7 +197,6 @@ Jos myynnille on asetettu pakettihinta, tulee näkyviin **Lisää myynnille lask
 Ilmoitusvarauksen **numeroa** klikkaamalla pääsee yksittäisen ilmoitusvarauksen tietoihin.
 
 ![Myynti - Myynnin käsittely](/img/ohjeet/myynninkasittely.png)
-*Myynnin käsittely -lomake.*
 
 ### Yksittäisen myynnin muokkaaminen
 
