@@ -370,9 +370,11 @@ Raportti perustuu laskutettuihin tilauksiin. Haetaan kohdepäivänä voimassa ol
 
 Raportti perustuu laskutettuihin tilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten laskut ja niiden maksusuoritukset. Laskun summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
 
-<!-- ### Tilaustulojen jaksotus yhteenveto 
+### Tilaustulojen jaksotus yhteenveto 
 
-![Raportit](/img/ohjeet/tilausten-jaksotus3.png)-->
+Yhteenveto tilaustulojen jaksotuksesta, jossa lasketaan kuinka paljon tilausmaksuista on jo suoritettu ja kuinka paljon suorittamatta annetulla ajanjaksolla.
+
+![Raportit](/img/ohjeet/tilausten-jaksotus3.png)
 
 ### Tilaustulojen jaksotus (suorituksilla)
 
