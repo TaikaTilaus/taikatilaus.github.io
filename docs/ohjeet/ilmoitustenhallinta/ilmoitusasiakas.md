@@ -335,6 +335,8 @@ Ilmoitusvarauksen tallentamisen jälkeen ilmestyy lomakkeelle muutama lisätoimi
 
 Varausilmoituksen voi tulostaa PDF-tulosteena ja tallentaa tiedostoksi omalle koneelle klikkaamalla ensin **Tulosta**-painiketta, jonka jälkeen ilmestyy **Avaa PDF-tuloste** -painike.
 
+**Lähetä varausvahvistus** -painikkeesta voit lähettää asiakkaalle varausvahvistuksen, jos asiakkaan tiedoista löytyy sähköposti.
+
 **Kopioi**-painikkeesta pystyy luomaan uuden ilmoitusvarauksen aiemman ilmoituksen pohjatiedoilla. Klikkauksen jälkeen avautuu uusi ilmoitusvaraus-lomake, johon tehdään tarvittavat muutokset (esim. Julkaisun valinta) ennen tallennusta.
 
 Ilmoitusvarauksen voi poistaa painamalla **Poista**-painiketta.
