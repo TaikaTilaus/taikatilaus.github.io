@@ -89,7 +89,7 @@ Ennen uuden Postituslistan luontia varmistetaan, että tilausten <a href="/docs/
 
 ### Postituslistan luonnin ennakkotoimenpiteet
 
-1) Tee **Kestojatko**
+1) Tee **[Kestojatko](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/kestojatko)**
 
 2) **Asetukset/Irtonumerot** -välilehdellä
 - **Poista** ensin vanhat tiedot listaukselta ja sen jälkeen
@@ -102,6 +102,10 @@ Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim
 ![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot-postituslista-virhe.png)
 
 3) Jos sinulla on ilmoitusmyynninhallinta käytössä klikkaa **Hae irtonumerot postituspäivältä** –painiketta, joka hakee kyseisenä päivänä julkaistavista ilmoitusvarauksista aktivoidut **Tarkistuskappaleet** ja lisää niiden maksajat automaattisesti **Irtonumerot**–listalle. **Tallenna**.
+
+![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot2.png)
+
+![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot3.png)
 
 4) **Asetukset/Varhaisjakelu** –välilehdellä lisätään/muokataan postituksen mukaan halutut klikkaamalla **Vakioniput**-painiketta
 - **Poista** ensin mahdolliset turhat tiedot listaukselta ja sen jälkeen
