@@ -163,10 +163,11 @@ Mikäli käyttäjä on aktivoinut omissa tiedoissaan <a href="/docs/pikaohjeet/i
 
 Yksittäisen myynnin näkymästä pääset tarkastelemaan siihen liittyviä mainos/ilmoitusvarauksia sekä muokkaamaan myynnin tietoja.
 
-![Myynti - Myynnin käsittely](/img/ohjeet/myynninkasittely.png)
-*Myynnin käsittely -lomake.*
+Myynnin tiedoissa näet tiedon siitä **milloin myynti on lisännyt** ja mikä käyttäjä on sen lisännyt, sekä päivämäärän ja kelloajan, milloin **myyntiä on viimeksi muutettu**, ja kenen toimesta.
 
-Myyntiä pääsee muokkaamaan **Muokkaa myyntiä** –painikkeen kautta:
+![Myynti - Laskun muokkaus](/img/ohjeet/myynninkasittely2.png)
+
+Myyntiä pääsee muokkaamaan **Muokkaa myyntiä** –painikkeen kautta.
 
 **Poista myynti** -painike näkyy vain, mikäli kyseistä myyntiä ei ole vielä laskutettu.
 
@@ -188,6 +189,9 @@ Jos myynnille on asetettu pakettihinta, tulee näkyviin **Lisää myynnille lask
 **Lisää myynnille ilmoitusvaraus** –painikkeella lisätään uusi ilmoitusvaraus tähän kyseiseen myyntiin. **Poista laskuttamattomat ilmoitusvaraukset** -painikkeesta voit poistaa myynniltä ilmoitusvaraukset, joita ei ole vielä laskutettu.
 
 Ilmoitusvarauksen **numeroa** klikkaamalla pääsee yksittäisen ilmoitusvarauksen tietoihin.
+
+![Myynti - Myynnin käsittely](/img/ohjeet/myynninkasittely.png)
+*Myynnin käsittely -lomake.*
 
 ### Yksittäisen myynnin muokkaaminen
 
