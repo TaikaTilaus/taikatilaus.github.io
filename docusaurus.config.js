@@ -153,7 +153,7 @@ const config = {
             items: [
               {
                 label: 'Versiotiedotteet',
-                to: '/docs/versiotiedotteet/tammikuu_2025',
+                to: '/docs/versiotiedotteet/helmikuu_2025',
               },
               {
                 label: 'Blogi',
