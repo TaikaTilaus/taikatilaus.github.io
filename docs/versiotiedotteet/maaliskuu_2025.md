@@ -13,12 +13,15 @@ Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](h
 
 ##  Suora kirjautuminen testisivustolle omalta sivustolta
 
-TaikaTilauksen käyttäjät voivat nyt kirjautua TaikaNakka-testisivustolle suoraan Omat tiedot -valikosta.
+TaikaTilauksen käyttäjät voivat nyt kirjautua TaikaNakka-testisivustolle suoraan **Omat tiedot**-valikosta.
+
+![Omat tiedot](/img/ohjeet/kayttajantiedot.png)
 
 Testiympäristössä (hiekkalaatikossa) voi turvallisesti kokeilla sellaisia TaikaTilauksen toimintoja, joilla voi olla vaikutuksia esimerkiksi laskutukseen tai kirjanpitoon.
 
-Testiympäristö palautetaan alkuperäiseen tilaansa päivittäin.
+Testiympäristö palautetaan alkuperäiseen tilaansa päivittäin. 
 
+**[Lue lisää.](https://support.taikatilaus.fi/docs/etusivu#testaa-uusia-toimintoja-demoj%C3%A4rjestelm%C3%A4ss%C3%A4)**
 
 ## E-laskun maksunaihe
 
@@ -26,4 +29,4 @@ Laskulomakkeelle on lisätty uusi kenttä ”E-laskun maksunaihe”. Kenttä on 
 
 Maksunaihe tarkoittaa kuluttajaverkkolaskun laskutusaiheen koodia (Finvoice: EpiPaymentInstructionId). Kyseinen koodi määritellään laskuttajailmoituksessa (SI-sanoman kentässä PaymentInstructionIdentifier). Lähetetyllä laskulla olevan koodin tulee vastata laskuttajailmoituksen koodia, jotta e-lasku välittyy oikein verkkopankkiin.
 
-
+![Omat tiedot](/img/versiotiedotteet/maksunaihe.png)
