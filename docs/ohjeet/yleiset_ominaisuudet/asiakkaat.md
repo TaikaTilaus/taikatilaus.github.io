@@ -139,25 +139,25 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 **Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalveluun.
 
-**Lisää käyttäjätunnus** -painikkeesta voit lisätä käyttäjälle tunnuksen.
+**Lisää tunnus** -painikkeesta voit lisätä käyttäjälle tunnuksen.
 
-**Käyttäjätunnus**–kenttään tallennetaan asiakkaan käyttäjännus, joka on aina asiakkaan **sähköposti**.
+    - **Käyttäjätunnus**–kenttään tallennetaan asiakkaan käyttäjännus, joka on aina asiakkaan **sähköposti**.
 
-**Liitoksen tyyppi** -kenttään valitaan onko käyttäjätunnus pääkäyttäjän vai alikäyttäjän (esim. perhetunnus) tunnus. Alikäyttäjällä on rajatummat oikeudet muuttaa tietoja OmaPalvelussa.
+    - **Liitoksen tyyppi** -kenttään valitaan onko käyttäjätunnus pääkäyttäjän vai alikäyttäjän (esim. perhetunnus) tunnus. Alikäyttäjällä on rajatummat oikeudet muuttaa tietoja OmaPalvelussa.
 
 ![Asiakaskortti - OmaPalvelu](/img/ohjeet/tunnuksen-luonti2.png)
 
-Tallennettuasi, voit käyttäjätunnusta klikkaamalla asettaa sille salasanan painamalla **Muuta salasana** -painikkeesta.
+- Tallennettuasi, voit käyttäjätunnusta klikkaamalla asettaa sille salasanan painamalla **Muuta salasana** -painikkeesta.
 
-**Lähetä uusi tunnus –sähköposti** –painikkeella lähetetään asiakkaalle viesti, jossa kerrotaan tunnuksen aktivoinnista ja pyydetään luomaan uusi salasana.
+- **Lähetä uusi tunnus –sähköposti** –painikkeella lähetetään asiakkaalle viesti, jossa kerrotaan tunnuksen aktivoinnista ja pyydetään luomaan uusi salasana.
 
-**Lähetä salasanan resetointi –sähköposti** –painikkeesta lähetetään asiakkaalle viesti, jossa pyydetään antamaan uusi salasana.
+- **Lähetä salasanan resetointi –sähköposti** –painikkeesta lähetetään asiakkaalle viesti, jossa pyydetään antamaan uusi salasana.
 
-**Lähetä kertakirjautumislinkki** -painikkeesta lähetään asiakkaalle viesti, joka sisältää kertakirjautumislinkin, jolla asiakas voi kerran 1 vuorokauden aikana kirjautua palveluun.
+- **Lähetä kertakirjautumislinkki** -painikkeesta lähetään asiakkaalle viesti, joka sisältää kertakirjautumislinkin, jolla asiakas voi kerran 1 vuorokauden aikana kirjautua palveluun.
 
-**Kirjaudu OmaPalveluun** -painikkeesta voidaan kirjautua suoraan OmaPalveluun kyseisellä tunnuksella.
+- **Kirjaudu OmaPalveluun** -painikkeesta voidaan kirjautua suoraan OmaPalveluun kyseisellä tunnuksella.
 
-**Poista käyttäjätunnus** -painikkeesta poistetaan kyseinen käyttäjätunnus.
+- **Poista käyttäjätunnus** -painikkeesta poistetaan kyseinen käyttäjätunnus.
 
 ![Asiakaskortti - OmaPalvelu](/img/ohjeet/tunnuksen-luonti.png)
 
