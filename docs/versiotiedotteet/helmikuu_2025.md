@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.2.-28.2.2025 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, import, export, tuplienkäsittely, haut, saldo]

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.1.-31.1.2025 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, raportit, haut, laskutuspyynnöt, tietoturva]

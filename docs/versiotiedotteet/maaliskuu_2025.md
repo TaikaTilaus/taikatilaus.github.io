@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.3.-31.3.2025 välisenä aikana
 image: /img/social.png
-keywords: [versiotiedote, import, export, tuplienkäsittely, haut, saldo]
+keywords: [versiotiedote, testisivusto, hiekkalaatikko, maksunaihe, e-Lasku]
 ---
 
 # Maaliskuu 2025
