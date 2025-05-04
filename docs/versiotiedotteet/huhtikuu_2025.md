@@ -2,7 +2,7 @@
 sidebar_position: 1
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.4.-30.4.2025 välisenä aikana
 image: /img/social.png
-keywords: [versiotiedote, ilmoitusten hallinta, ilmoitusstudio]
+keywords: [versiotiedote, ilmoitusten hallinta, ilmoitusstudio, stripe-kuponki]
 ---
 
 # Huhtikuu 2025
@@ -17,12 +17,17 @@ IlmoitusStudio on uusi, erityisesti ilmoitusten hallinnan ylläpitäjille ja tra
 
 Keskeiset ominaisuudet:
 
-✅ Ilmoitusvarausten lisääminen asiakkaille
+- Ilmoitusvarausten lisääminen asiakkaille
 
-✅ Aineistolinkkien lähetys aineistotoimittajille
+-  Aineistolinkkien lähetys aineistotoimittajille
 
-✅ Aineistojen käsittelyprosessin seuranta
+-  Aineistojen käsittelyprosessin seuranta
 
-✅ Aineistojen kopiointi ilmoitusvarauksille
+-  Aineistojen kopiointi ilmoitusvarauksille
 
 IlmoitusStudio korvaa vaiheittain aiemmat, päällekkäiset käyttöliittymät.
+
+## Stripe-tarjouskuponki
+
+Toistuvaisveloitteiseen Stripe-maksutapaan ja tilaustuotteisiin on lisätty kuponki-ominaisuus, jolla tilauksen ensimmäisestä kuukaudesta voidaan vähentää tarjous.
+
