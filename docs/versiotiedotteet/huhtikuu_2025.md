@@ -19,11 +19,11 @@ Keskeiset ominaisuudet:
 
 - Ilmoitusvarausten lisääminen asiakkaille
 
--  Aineistolinkkien lähetys aineistotoimittajille
+- Aineistolinkkien lähetys aineistotoimittajille
 
--  Aineistojen käsittelyprosessin seuranta
+- Aineistojen käsittelyprosessin seuranta
 
--  Aineistojen kopiointi ilmoitusvarauksille
+- Aineistojen kopiointi ilmoitusvarauksille
 
 IlmoitusStudio korvaa vaiheittain aiemmat, päällekkäiset käyttöliittymät.
 
