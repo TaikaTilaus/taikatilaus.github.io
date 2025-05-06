@@ -182,6 +182,15 @@ Palautus suoritetaan painamalla **Tallenna ennakkomaksu** -painiketta.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/liikasuoritus2.png)
 
+Saldon tiliöinnit voi poistaa painamalla **Suorituksen tiliöinnin poistaminen** -painikkeesta
+
+1) Kopioi saldon **TiliöintiID**
+2) Paina **Poista tiliöinti**
+
+Tämä poistaa saldon asiakkaalta ja raporteilta.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/suorituksen-tilioinnin-poisto.png)
+
 ## Raportit
 
 ### Asiakassaldot
