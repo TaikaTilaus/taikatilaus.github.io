@@ -23,3 +23,13 @@ sidebar_position: 9
 ### 5. Lopuksi paina Suorita katkaisun käsittelytoimet -painiketta
 
 ![5. Tilauksen katkaisutoimet](/img/pikaohjeet/Katkaisukasittely5.png)
+
+### 6. Poista vielä turhat laskutuspyynnöt - vain silloin, kun tilauksessa on tulevia, turhia laskutuspyyntöjä
+
+Jos tilaus maksetaan useassa erässä, pitää tulevat laskutuspyynnöt poistaa, että asiakkaalle ei lähde uusia laskueriä.
+
+![5. Tilaustiedot](/img/pikaohjeet/katkaisu.png)
+
+![6. Laskutuspyynnöt](/img/pikaohjeet/katkaisu2.png)
+
+![7. Tilaustiedot](/img/pikaohjeet/katkaisu3.png)
