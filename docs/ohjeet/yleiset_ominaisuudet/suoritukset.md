@@ -55,7 +55,7 @@ Esimerkiksi PayTrailillä on oma käyttöliittymänsä, josta asiakas voi nähd�
 Jos halutaan seurata yksittäisiä/laskukohtaisia provisioita (esim. raporteilla), tulee ne manuaalisesti tiliöidä kyseisille laskuille.
 
 ### Virheellisten suorituksien haku
-59A52Cff3c68
+
 Hakukenttien alapuolella on kenttä **Hae vain käsittelyä vaativat**, jonka **aktivointi piilottaa** listaukselta kaikki ne suoritukset
 - jotka on liitetty laskulle **virheettöminä** (saapuneesta pankkiaineistoista)
 - jotka on **manuaalisesti** lisätty laskuille (käyttäjän tekemät) 
