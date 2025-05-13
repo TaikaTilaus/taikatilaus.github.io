@@ -4,8 +4,6 @@ sidebar_position: 9
 
 # Maksamattoman tilauksen katkaisu
 
-HUOM! Tarkista, että tilaus on katkaistu ennen katkaisukäsittelyn toimenpiteitä. Katso <a href="tilauksen-katkaisu">Tilauksen katkaisu</a> pikaohjeista tai manuaalistamme.
-
 ### 1. Etusivunäkymästä haetaan asiakas
 
 ![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
