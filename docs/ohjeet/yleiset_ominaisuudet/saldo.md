@@ -26,7 +26,7 @@ Ennakkomaksujen tiliöintejä varten tarvitaan omat tilit
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus.png)
 
-Tileistä kannataa keskustella kirjanpitäjän kanssa. 
+Tileistä kannattaa keskustella kirjanpitäjän kanssa. 
 
 ### Erillistuotteet
 
@@ -37,21 +37,21 @@ Erillistuotteelle laitetaan seuraavat tiedot (tässä esimerkissä rahan palautu
 - Tuotenumero (oma valinnainen)
 - Tuoteryhmä esim. Ennakkomaksu
 - Tuotenimi esim. Ennakkomaksun palautus [lehti]
-- Myyntili (tämä on se tili, jonka kautta rahan palautus hoidetaan)
-- ALV-velkatili (tilausten alv velkatili 10%)
-- Myyntisaamiset tili (myyntisaamiset tili, jota käytetään kyseessä olevan lehden myyntisaamisissa)
+- Myyntitili (tämä on se tili, jonka kautta rahan palautus hoidetaan)
+- ALV-velkatili (tilausten ALV-velkatili 10 %)
+- Myyntisaamistili (myyntisaamistili, jota käytetään kyseessä olevan lehden myyntisaamisissa)
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus7.png)
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus2.png)
 
-### Pääkäyttäjä asetukset
+### Pääkäyttäjäasetukset
 
 Asetukset/Pääkäyttäjä -välilehdellä pitää laittaa paikalleen 
 
-- saldotilin
+- saldotili
     - määrittely siitä, mille lehdille saldoa voi käyttää (muodossa LehdenLyhenne;LehdenLyhenne esim. TAN;TAND)
-- palautuksen tilin
+- palautustili
 - lehtikohtaiset erillistuotteet (muodossa: LehdenNimi;ErillistuotteenTuoteID) esim. TaikaNakka;2584
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
@@ -89,7 +89,7 @@ Kun saldoa on lisätty, sitä käytetään **automaattisesti laskujen maksamisee
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis3.png)
 
-Tiedot saldon käytöstä päivittyvät myös laskutustietoihin. Alla olevassa esimerkistä näet sisäisestä selitteestä rahamäärän ja laskun johon saldoa on käytetty 
+Tiedot saldon käytöstä päivittyvät myös laskutustietoihin. Alla olevassa esimerkissä näet sisäisestä selitteestä rahamäärän ja laskun johon saldoa on käytetty 
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis5.png)
 

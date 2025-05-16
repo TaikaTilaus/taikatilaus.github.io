@@ -12,7 +12,7 @@ sidebar_position: 6
 
 Raporttien painikkeen **?** -ikonista löytyy lisätietoja sen koostamiseen liittyen.
 
-Valmiita raporttipohjia luodaan tarvittaessa **asiakaskohtaisesti** läpi käytyjen ja kunkin käyttäjän tarpeiden mukaisesti esim.
+Valmiita raporttipohjia luodaan tarvittaessa **asiakaskohtaisesti** läpi käytyjen ja kunkin käyttäjän tarpeiden mukaisesti esimerkiksi
 - Kirjanpitoon
 - Laskutukseen
 - Tilausmääriin
@@ -22,12 +22,12 @@ Valmiita raporttipohjia luodaan tarvittaessa **asiakaskohtaisesti** läpi käyty
 
 ![Raportit](/img/ohjeet/raportit2.png)
 
-**Raporttipohjan valinnan** jälkeen määritellään tarkemmat hakukriteerit tietojen listausta varten esim.
+**Raporttipohjan valinnan** jälkeen määritellään tarkemmat hakukriteerit tietojen listausta varten esimerkiksi
 - **syöttämällä** itse haluttu hakuaikavälin alku- ja loppupäivät
-- Raportin haluttu **tulostustapa** (näytölle, PDF:lle, taulukkoon)
-- **Kirjaisinkoko**, jolla voi esim. pienentää fonttia, mikäli haetut tiedot eivät mahdu siististi haetulle raportille
-- **Raportin ulkoasu** (ruudukolla tai ilman), jolla voi häivyttää näkyvistä raportin taustataulukoinnin rajaviivat
-- muita valintoja **raporttikohtaisesti** (esim. laskun tila Maksamattomat tilaukset -raportissa)
+- Raportin haluttu **tulostustapa** (näytölle, PDF-muotoon, taulukkoon)
+- **Kirjaisinkoko**, jolla voi esimerkiksi pienentää fonttia, mikäli haetut tiedot eivät mahdu siististi haetulle raportille
+- **Raportin ulkoasu** (ruudukolla tai ilman), jolla voi poistaa näkyvistä raportin taustataulukoinnin rajaviivat
+- muita valintoja **raporttikohtaisesti** (esimerkiksi laskun tila Maksamattomat tilaukset -raportissa)
 
 **Tee raportti** –painike tuottaa varsinaisen raportin tulostustavan mukaisesti
 - Raportti ilmestyy näytölle
@@ -36,13 +36,13 @@ Valmiita raporttipohjia luodaan tarvittaessa **asiakaskohtaisesti** läpi käyty
 
 ![Raportit](/img/ohjeet/raportit7.png)
 
-**Näytä raportin kuvaus** -painikkeesta saat näkyviin lisätietoa raportin luomiseen liittyen.
+**Näytä raportin kuvaus** -painikkeesta saat näkyviin lisätietoja raportin luomiseen liittyen.
 
 ## Kirjanpidon raporttien kuvaukset
 
 ### Kirjanpitoyhteenveto
 
-**Kirjanpitoyhteenveto**-raportilla haetaan annetulla aikavälillä kirjatut tiliöintitapahtumat tileittäin tilin debet- ja kredit puolille sekä lasketaan näiden summat. Jos kirjanpidossa ei ole virheitä, pitäisi debet ja kredet yhteensä olla saman suuruisia.
+**Kirjanpitoyhteenveto**-raportilla haetaan annetulla aikavälillä kirjatut tiliöintitapahtumat tileittäin tilin debet- ja kredit puolille sekä lasketaan näiden summat. Jos kirjanpidossa ei ole virheitä, debet- ja kredit-puolien summien tulisi olla yhtä suuret.
 
 ![Raportit](/img/ohjeet/kirjanpitoyhteenveto.png)
 
@@ -165,7 +165,7 @@ Raportilla näytetään kaikki tiliöinnit aikajärjestyksessä, uusin ylinnä. 
 
 ### Asiakassaldot
 
-**Raportit**-välilehdeltä löydät raportin **Asiakassaldot**, jolta näet asiakkailla olevat saldot ja saldotapahtumat (esim. saldoa on käytetty laskun maksamiseen).
+**Raportit**-välilehdeltä löydät raportin **Asiakassaldot**, jolta näet asiakkailla olevat saldot ja saldotapahtumat (esimerkiksi saldoa on käytetty laskun maksamiseen).
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot.png)
 
@@ -181,7 +181,7 @@ Raportilta näet:
 - SaldoIDn
 - Kirjauspäivän
 - Saldosumman
-- Sisäisen selitteen, jossa lukee tiedot saldon käytöstä, esim. saldon summa ja minkä laskun maksamiseen saldoa on käytetty.
+- Sisäisen selitteen, jossa lukee tiedot saldon käytöstä, esimerkiksi saldon summa ja minkä laskun maksamiseen saldoa on käytetty.
 - Ulkoisen selitteen, joka näkyy laskulla
 - Lehden, johon saldo liittyy
 - Laskun numeron, johon saldoa on käytetty
@@ -251,7 +251,7 @@ Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **Tili�
 
 ### Tiliöintien lukitseminen
 
-Tiliöintitapahtumat voidaan lukita haluttuun historiapäivään saakka. Esim. edellisen vuoden viimeinen päivä. Kirjauksia ei voi lukitsemisen jälkeen tehdä valitulle päivälle tai sitä aikaisemmille päiville.
+Tiliöintitapahtumat voidaan lukita haluttuun historiapäivään saakka. esimerkiksi edellisen vuoden viimeinen päivä. Kirjauksia ei voi lukitsemisen jälkeen tehdä valitulle päivälle tai sitä aikaisemmille päiville.
 
 ![Tiliöintien lukitseminen](/img/ohjeet/lukittu.png)
 
@@ -285,7 +285,7 @@ Raportti näyttää laskut joiden summan ja tiliöintien summan välillä on ero
 
 ### Tilausten laskutuspyynnöt ja laskut joissa poikkeavuutta
 
-Raportilta voi tarkistaa onko tilausten laskutuspyynnöissä/laskuissa poikkeavuutta tilauksen hinnan kanssa. Joissain tapauksissa poikkeavuudet voivat olla tarkoituksellisia. Esim. asiakkaan kanssa on sovittu erikseen hinnasta. Jos poikkeavuudet eivät ole tarkoituksellisia, pitää mennä kyseiselle tilauksella ja ratkaista tilauksen hinnan ja laskutuspyyntöjen eroavuus, esim. muokkaamalla laskutuspyyntöjä.
+Raportilta voi tarkistaa onko tilausten laskutuspyynnöissä/laskuissa poikkeavuutta tilauksen hinnan kanssa. Joissain tapauksissa poikkeavuudet voivat olla tarkoituksellisia. esimerkiksi asiakkaan kanssa on sovittu erikseen hinnasta. Jos poikkeavuudet eivät ole tarkoituksellisia, pitää mennä kyseiselle tilauksella ja ratkaista tilauksen hinnan ja laskutuspyyntöjen eroavuus, esimerkiksi muokkaamalla laskutuspyyntöjä.
 
 ![Raportit](/img/ohjeet/lapy-poikkeavuus.png)
 
@@ -470,7 +470,7 @@ Raportilla näytetään yhteenveto ilmoitusvarausmyynneistä myyjittäin, annetu
 
 ### Laskutetut erillistuotteet
 
-Raportille haetaan asetetulla aikavälillä laskutetut erillistuotteet (esim. kirjat).
+Raportille haetaan asetetulla aikavälillä laskutetut erillistuotteet (esimerkiksi kirjat).
 
 ![Raportit](/img/ohjeet/erillistuotteet-raportti.png)
 

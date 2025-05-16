@@ -22,11 +22,11 @@ Asiakastietoja voidaan hakea valitsemalla hakukriteeri **Hakukenttä**-valikosta
 
 Tilauksia voi hakea:
 
-- **Tilauksen statuksella** (esim. katkaistu, päättynyt, voimasssa) tietyllä aikavälillä (muista asettaa päivämäärät!)
+- **Tilauksen statuksella** (esim. katkaistu, päättynyt, voimassa) tietyllä aikavälillä (muista asettaa päivämäärät!)
 - **Tilauksen sijoittumisella** (esim. ensimmäinen tilaus tuotteessa)
 - **Tuoteryhmällä** (esim. Autolehti)
-- **Tuoteella** (esim. Kestotilaus III)
-- **Tilaustyyppillä** (Kesto tai Määräaikainen)
+- **Tuotteella** (esim. Kestotilaus III)
+- **Tilaustyypillä** (Kesto tai Määräaikainen)
 - **Maalla** (ns. kotimaa, ulkomaa)
 - **Laskun toimitustavalla** (esim. kirje, verkkolasku)
 - **Tilaustavalla** (minkä kanavan kautta tilaus on tehty esim. puhelin, www, sähköposti)
@@ -45,7 +45,7 @@ Voit aktivoida hakuihin lisäkriteerejä, jotka karsivat haun tulokset vain lis�
 - **Ei puhelinmarkkinointiestoa** haetaan vain asiakkaita, joilla ei ole puhelinmarkkinointiestoa aktivoituna
 - **Ei sähköpostimarkkinointiestoa** haetaan vain asiakkaita, joilla ei ole sähköpostimarkkinointiestoa aktivoituna
 - **Ei estolistalaisia** haetaan vain asiakkaat, jotka eivät ole estolistalla
-- **Ei kirjemarkkinointiestoa** haetaan vain asiakkatia, joilla ei ole kirjemarkkinointiestoa aktivoituna
+- **Ei kirjemarkkinointiestoa** haetaan vain asiakkaita, joilla ei ole kirjemarkkinointiestoa aktivoituna
 - **Tuotteen hinta yli 0 euroa** tilaukseen liitetyn tuotteen hinta on yli 0 euroa
 - **Tuotteen hinta 0 euroa** tilaukseen liitetyn tuotteen hinta on 0 euroa (esim. lehtien vapaakappaleet)
 - **Ei katkaistuja** jätetään haun tuloksista pois ne tilaukset, jotka on katkaistu
@@ -55,7 +55,7 @@ Voit aktivoida hakuihin lisäkriteerejä, jotka karsivat haun tulokset vain lis�
 - **Tilaus lehtikohtaisesti** paperi ja digitilaukset samasta lehdestä tulkitaan samaksi tuotteeksi
 - **Karsi tuotetta vaihtaneet** karsitaan tilaukset, joiden tyyppi on vaihtunut edellisestä tilauksesta
 - **Näytä luodut laskut sekä laskutuspyynnöt** hakutuloksiin tulee näkyviin tilauksiin liittyvät laskut ja laskutuspyynnöt
-- **Näytä haun muodostus (admin)** näytetään miten haku on muodostunut (haku ja siihen littyvät lisäehdot)
+- **Näytä haun muodostus (admin)** näytetään, miten haku on muodostunut (haku ja siihen liittyvät lisäehdot)
 
 ### Hakutuloksien jatkokäsittely
 

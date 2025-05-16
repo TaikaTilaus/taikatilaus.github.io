@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Etusivun hakuehdot
 
-Asiakkaita hallinnoidaan **Etusivulla**, jonka kautta voi hakea henkilöitä ja yrityksiä antamalla mm. **asiakasnumeron** tai **nimen**, esim. syöttämällä "Antti" hakukenttään ja klikkaamalla **Hae** –painiketta, niin saa listauksen näkyviin kaikista asiakkaista joiden nimessä esintyy "Antti". Alla olevassa kuvassa näet esimerkin mukaisen hakutuloksen (huom. tiedot ovat kuvitteellisia, eivät oikeiden ihmisten tietoja). 
+Asiakkaita hallinnoidaan **Etusivulla**, jonka kautta voi hakea henkilöitä ja yrityksiä antamalla mm. **asiakasnumeron** tai **nimen**, esim. syöttämällä "Antti" hakukenttään ja klikkaamalla **Hae**–painiketta, niin saa listauksen näkyviin kaikista asiakkaista joiden nimessä esiintyy "Antti". Alla olevassa kuvassa näet esimerkin mukaisen hakutuloksen (huom. tiedot ovat kuvitteellisia, eivät oikeiden ihmisten tietoja). 
 
 ![Etusivu - Haku ](/img/ohjeet/esimerkkihaku.png)
 
@@ -47,7 +47,7 @@ Listauksessa on myös tilausmyynti- ja ilmoitusmyyntikohtaiset sarakkeet.
 ![Omat tiedot](/img/ohjeet/ilmoitusmyyntihaku.png)
 *Ilmoitusmyyntiä koskevat hakukentät*
 
-Ilmoitusmyynnin olessa voimassa, voit hakea: 
+Ilmoitusmyynnin ollessa voimassa, voit hakea: 
 - vain tiettyyn myyjään liitettyjä asiakkaita valitsemalla **Valitse myyjä** -valikosta suodatuksen
 - tiettyjä ilmoitusvarauksia **varausnumerolla**
 

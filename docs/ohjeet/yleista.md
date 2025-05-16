@@ -31,7 +31,7 @@ Palvelussa käytetään erilaisia kirjautumistapoja, kuten henkilökohtaiset **t
 
 *TaikaTilaus-sovelluksen kirjautumiskenttä*
 
-**Tilaaja-/ilmoitusasiakkaat** pääsevät kirjautumaan käyttämään **OmaPalvelu**-toimintoja https://oma.taikatilaus.fi osoitteessa. Selaimen osoite muuttuu **asiakaskohtaisesti**, esim. OmaLehti. Asiakas pääse sitten sisään palveluun syöttämällä heille luodun käyttäjätunnuksen ja salasanan avautuvaan kirjautumisikkunaan.
+**Tilaaja-/ilmoitusasiakkaat** pääsevät kirjautumaan käyttämään **OmaPalvelu**-toimintoja https://oma.taikatilaus.fi osoitteessa. Selaimen osoite muuttuu **asiakaskohtaisesti**, esimerkiksi OmaLehti. Asiakas pääse sitten sisään palveluun syöttämällä heille luodun käyttäjätunnuksen ja salasanan avautuvaan kirjautumisikkunaan.
 
 ## Ohjeet ja ilmoitukset
 
@@ -41,12 +41,12 @@ Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät TaikaTilaus-
 
 *TaikaTilaus-palvelusta pääsee ohjesivustolle **Ohjeet**-ikonia painamalla.*
 
-**[Pikaohjeet](/docs/category/pikaohjeet)**- ja **[FAQ](/docs/category/faq)**-sivuilta löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **[Ohjevideot](/docs/ohjevideot)**-sivulta. Pidemmät ohjeet lyödät **[Ohjeet](/docs/category/ohjeet)**-välilehdeltä. Ohjesivustolta löytyy myös ohjeet **[Freshdesk](/docs/tukiportaali)**-tukiportaalin käyttöön. TaikaTilauksen **uutiskirjearkiston** ja **versiotiedotteet** löydät myös tukiportaalista **[Uutiset](/blog)**-välilehdeltä.
+**[Pikaohjeet](/docs/category/pikaohjeet)**- ja **[FAQ](/docs/category/faq)**-sivuilta löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **[Ohjevideot](/docs/ohjevideot)**-sivulta. Pidemmät ohjeet löydät **[Ohjeet](/docs/category/ohjeet)**-välilehdeltä. Ohjesivustolta löytyy myös ohjeet **[Freshdesk](/docs/tukiportaali)**-tukiportaalin käyttöön. TaikaTilauksen **uutiskirjearkiston** ja **versiotiedotteet** löydät myös tukiportaalista **[Uutiset](/blog)**-välilehdeltä.
 
 ![Ohjesivusto](/img/ohjeet/tukiportaali.png)
 *Ohjesivuston etusivu.*
 
-Palveluun liittyvä viestintä on nähtävissä kaikille käyttäjille **Tiedotteet**–ikonia klikkaamalla. Näkymään koostetaan mm. **TaikaTilauksen tiedotteet, Palvelun kehitysuutiset, Asiakaskohtainen tilannetiedotus** (esim. yleisen vian tukipyynnöt/tilannetiedot).
+Palveluun liittyvä viestintä on kaikkien käyttäjien nähtävissä **Tiedotteet**-ikonia klikkaamalla.. Näkymään koostetaan mm. **TaikaTilauksen tiedotteet, Palvelun kehitysuutiset, Asiakaskohtainen tilannetiedotus** (esim. yleisen vian tukipyynnöt/tilannetiedot).
 
 ![Tiedotteet](/img/ohjeet/ohjeet-tiedotteet.png)
 *Ohjelmiston tiedotteisiin pääse painamalla Tiedotteet-ikonia.*

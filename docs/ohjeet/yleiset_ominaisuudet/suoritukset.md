@@ -15,13 +15,13 @@ sidebar_position: 3
 Voit myös karsia hakutuloksia eri hakuehdoilla:
 - **SuoritusID** - suorituksen yksilöivä numero
 - **AinestoID** - pankista haettujen viitemaksujen numero, joka vaihtuu joka yö
-- **Pankkitilin numero**
-- **Laskun numero**
-- Laskun **kirjauspäivä**
-- **Maksupäivä**
-- **Arkistointitunnus** <!-- - ??-->
-- **Viitenumero**
-- **Maksajan nimi**
+- **Pankkitilin numero** - tilin numero, jolle maksu on tullut
+- **Laskun numero** - suoritukseen liittyvän laskun numero TaikaTilauksessa
+- Laskun **kirjauspäivä** - päivä, jona suoritus on kirjattu
+- **Maksupäivä** - päivä, jona lasku on maksettu
+- **Arkistointitunnus** - Pankin antama yksilöllinen tunniste, jonka avulla maksutapahtuma löytyy tarvittaessa pankin arkistointijärjestelmästä. Tunnus näkyy sekä laskuttajan että maksajan tiliotteilla, ja sitä käytetään mahdollisissa maksujen selvittelytilanteissa.
+- **Viitenumero** - suoritukseen littyvän laskun viitenumero
+- **Maksajan nimi** - maksajan nimi (voi olla oudossa muodossa, jos sisältää ääkkösiä)
 - **Info** - jos tässä kentässä lukee muuta kuin OK, suoritus on virheellinen
 - **Käsitelty info** - Tähän kenttään pitää kirjoittaa tietoa suorituksen korjauksen yhteydessä, jotta ohjelma lukee sen käsitellyksi
 

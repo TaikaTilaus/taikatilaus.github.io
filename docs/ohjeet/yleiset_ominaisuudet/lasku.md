@@ -17,11 +17,11 @@ Asiakkaan yksittäisiä laskuja pääsee muokkaamaan **Asiakastiedot**-näkymän
 ![Asiakastiedot - Laskut](/img/ohjeet/laskut4.png)
 *Laskun numeroa klikkaamalla aukeaa näkymä, josta näkyy kaikki laskun tiedot.*
 
-Näet laskun muodon (lasku/hyvityslasku) ja tilan (avoin, erääntynyt, hyvitetty, hyvitys) laskun numeron vieressä.
+Näet laskun muodon (lasku / hyvityslasku) ja tilan (avoin, erääntynyt, hyvitetty, hyvitys) laskun numeron vieressä.
 
 ![Asiakaskortti](/img/ohjeet/lasku-muodot.png)
 
-Valitun yksittäisen laskun tietoja pääsee muokkaamaan, joko **Kynä**-painikkeesta
+Valitun yksittäisen laskun tietoja pääsee muokkaamaan joko **Kynä**-painikkeesta
 
 1. **Laskun tietoja**
  
@@ -37,7 +37,7 @@ Voit muuttaa:
 - toimitustapaa
 - laskun lähetyspäivämäärää
 - lisätietoja
-    - ulkoiset sisätiedot tulostuvat laskulle
+    - ulkoiset lisätiedot tulostuvat laskulle
     - sisäiset lisätiedot näkyvät vain järjestelmässä, eivät asiakkaalle
 - asettaa laskun perintäkieltoon
 
@@ -130,7 +130,7 @@ Laskujen **lähetyksen yhteydessä**
 
 ![Laskut](/img/ohjeet/laskut14.png)
 
-Suoramaksun ilmoitusviestin voi myös tulostaa ja lähettää erikseen **Suoramaksuilmoitus**-painikkeesta avautuvien
+Suoramaksun ilmoitusviestin voi myös tulostaa ja lähettää erikseen **Suoramaksuilmoitus**-painikkeesta avautuvien vaihtoehtojen avulla:
 - **Tulosta suoramaksuilmoitus** -painikkeesta
 - **Lähetä suoramaksuilmoitus kirjeenä** –painikkeesta
 

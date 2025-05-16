@@ -69,7 +69,7 @@ Klikkaamalla sarakkeissa olevia **Hakuun**-nappeja, siirtyvät tiedot hakukritee
 ![Tapahtumaloki](/img/ohjeet/loki-hakuun.png)
 *Klikkaamalla Hakuun-painiketta saat siirrettyä lokissa esiintyviä tietoja hakukriteereiksi.*
 
-Asiakaskohtaisesti sovitaan myös näytettävät muut muutokset, kuten **kenttäkohtaiset** muutostiedot, joita käyttäjät ovat tehneet (asiakas-/tilaus-/laskutustietojen päivitykset jne.) esim. OmaPalvelussa
+Asiakaskohtaisesti sovitaan myös näytettävät muut muutokset, kuten **kenttäkohtaiset** muutostiedot, joita käyttäjät ovat tehneet (asiakas-/tilaus-/laskutustietojen päivitykset jne.) esim. OmaPalvelussa.
 
 ## Kontaktien roskakori
 

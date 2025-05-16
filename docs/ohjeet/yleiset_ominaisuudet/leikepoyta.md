@@ -47,10 +47,10 @@ Painamalla **Hae ja siirrä löytyneet valittuihin** hakuehdon täyttäneet asia
 ## Tietojen käsittely
 
 Leikepöytä-näkymässä voidaan käsitellä listauksille lisättyjä tietoja ja lähettää näille viestejä, sekä tulostaa Excel taulukkoon. Jatkotoimintojen painikkeet tulevat näkyviin vasta, kun jotain asiakastietoa on valittuna Valittujen listalla. 
-- **Lähetä sähköposti/Lähetä tekstiviesti** = Leikepöydällä oleville lähetetään viesti
-- **Luo Excel** = Leikepöydällä olevat tiedot tulostetaan taulukkoon
-- **Luo osoitetarrat** = Leikepöydällä olevien tiedot tulostetaan tarrapohjaan
-- **Lähetä kirje** = Leikepöydällä oleville lähetetään tulostettava viesti
+- **Lähetä sähköposti / Lähetä tekstiviesti**: Leikepöydällä oleville lähetetään viesti
+- **Luo Excel**: Leikepöydällä olevat tiedot tulostetaan taulukkoon
+- **Luo osoitetarrat**: Leikepöydällä olevien tiedot tulostetaan tarrapohjaan
+- **Lähetä kirje**: Leikepöydällä oleville lähetetään tulostettava viesti
 
 ![Leikepöytä](/img/ohjeet/leikepyota6.png)
 

@@ -52,7 +52,7 @@ Taulukon sarakkeiden **otsikoita** klikkaamalla voi tiedot järjestää uudellee
 
 ### Tuotteiden haku
 
-Oletuksena välilehti näyttää **kaikki aktiiviset tuotteet** (Piilotet tuotteet saa näkyviin listaukseen aktivoimalla **Näytä piilotetut**-kentän, joka sijaitsee Hae-nappulan vieressä.)
+Oletuksena välilehti näyttää **kaikki aktiiviset tuotteet** (Piilotetut tuotteet saa näkyviin listaukseen aktivoimalla **Näytä piilotetut**-kentän, joka sijaitsee Hae-nappulan vieressä.)
 
 Olemassa olevia **tuotteita voi hakea** valitsemalla hakukriteerin ja syöttämällä hakuehdon sille tarkoitettuun kenttään.
 
@@ -88,10 +88,10 @@ Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
 
 ### Lomakkeeseen lisättävät tiedot
 
-- **TuoteID**: jokaisella tuotteella on ohjelman automaattisesti generoima TuoteID.
+- **TuoteID**: jokaisella tuotteella on ohjelman automaattisesti luoma TuoteID.
 - **Tuotenumero**-kenttään lisätään tuotenumero, joka auttaa mm. tuotteiden ryhmittelyssä
 - **Tuoteryhmä**-kenttään lisätään mihin tuoteryhmään tuote kuuluu (esim. jos tilaustuotteena on lehti, laitetaan lehden nimi tähän kohtaan)
-- **Kampanja**-kenttään voi lisätä mihin kampanjaan tuote kuuluu, jos mihininkään.
+- **Kampanja**-kenttään voi lisätä mihin kampanjaan tuote kuuluu, jos mihinkään.
 - **Tuotenimi**-kenttään laitetaan tuotteen sisäinen tuotenimi (esim. Kestotilaus III; Määräaikainen, digi)
 - **Ulkoinen tuotenimi**-kentässä määritellään, miltä tuotenimi näyttää (esim. tilauslomakkeella tai laskussa) asiakkaalle, joka tilaa lehteä.
 - **Lisätiedot**-kenttään voi kirjata tuotteelle tärkeitä lisätietoja, joita haluat muiden käyttäjien tietoon.
@@ -99,7 +99,7 @@ Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen.png)
 
 - **Hinta veroton, ALV prosentti ja Hinta verollinen** –kentissä määritellään tuotteelle oletushintatiedot, joita voi tarvittaessa myös muuttaa tilauksen luomisen jälkeen.
-- **Hinta veroton** -tieto on aina oltava viidellä (5) desimaalilla, jonka ohjelma pyöristää automaattsiesti laskua luotaessa.
+- **Hinta veroton** -tieto on aina oltava viidellä (5) desimaalilla, jonka ohjelma pyöristää automaattisesti laskua luotaessa.
 - Veroton/verollinen hintoja voi uudelleenlaskea syötettyjen tietojen avulla **Laske veroton hinta verollisesta / Laske verollinen hinta uudelleen** -painikkeita painamalla.
 - **Erämaksut**: Jos lasku maksetaan erissä, yleensä ohjelma laskee erien hinnat automaattisesti, mutta erien hinnat voi myös erikseen määritellä tähän lomakkeeseen ne täyttämällä.
 

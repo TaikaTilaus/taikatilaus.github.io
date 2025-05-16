@@ -9,7 +9,7 @@ sidebar_position: 1
 ![Asiakkaan tiedot](/img/ohjeet/asiakastiedot.png)
 *Asiakastiedot-näkymästä näet asiakkaan tiedot, tilaukset ja laskut.*
 
-Yksittäisen asiakkaan tiedot saat näkyviin hakemalla asiakasta etusivulta ja klikkaamalla As.ro -sarakkeen numeroa. Pääset myös suoraan asiakkaan tietoihin hakemalla asiakasta asiakasnumerolla.
+Yksittäisen asiakkaan tiedot saat näkyviin hakemalla asiakasta etusivulta ja klikkaamalla As.ro-sarakkeen numeroa. Pääset myös suoraan asiakkaan tietoihin hakemalla asiakasta asiakasnumerolla.
 
 ![Asiakasnumero](/img/ohjeet/asiakas1.png)
 *Pääset asiakkaan tietoihin klikkaamalla asiakasnumeroa*
@@ -26,7 +26,7 @@ Asiakkaaseen liittyvät Laskut ja Tilaukset näytetään kootusti omissa kentiss
 
 ## Asiakastietojen muokkaus
 
-Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan Avaaa-ikonista ja valittu esitystapa tallentuu käyttäjäkohtaisesti.
+Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan Avaa-ikonista ja valittu esitystapa tallentuu käyttäjäkohtaisesti.
 
 ![Asiakaskortti](/img/ohjeet/asiakaskortti.png)
 *Asiakaskortille kootaan kaikki asiakasta koskevat tiedot*
@@ -51,10 +51,10 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 - **Laskun toimitustapa** -valikosta määritellään oletustapa, jolla laskut välitetään asiakkaalle (muutettavissa esim. laskukohtaisesti).
 - **Suoramaksu**: Suoramaksun aktivointi on verkkopankittoman maksajan maksutapa, eli se sopii asiakkaalle, joka ei käytä verkkopankkia
 - **Koontilasku**: Koontilaskun aktivointi on asiakkaille, jotka haluavat tilaukset yhdelle kokoomalaskulle (yksittäisten tilauslaskujen sijaan)
-- **Laskutuslisä**: Ei laskutuslisää aktivointi on asiakkaille, joilta ei haluta periä automaattisesti lisättävää (ennalta sovittua) laskutuslisää paperilaskujen lähettämisestä (esim. 5 €). Veloitettava oletushinta ja mahdollinen laskun summaan liittyvä rajoitus (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.
-- **Perintäkielto**: Aktivoimalla tämän kentän, kyseiselle asiakkaalle ei lähetetä maksumuistutuksia eikä peritä laskuja.
+- **Laskutuslisä**: Ei laskutuslisää -aktivointi on asiakkaille, joilta ei haluta periä automaattisesti lisättävää (ennalta sovittua) laskutuslisää paperilaskujen lähettämisestä (esim. 5 €). Veloitettava oletushinta ja mahdollinen laskun summaan liittyvä rajoitus (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.
+- **Perintäkielto**: Aktivoimalla tämän kentän kyseiselle asiakkaalle ei lähetetä maksumuistutuksia eikä peritä laskuja.
 - **Alennusprosentti tilauksille**: voidaan lisätä, jos halutaan lisätä asiakkaalle pysyvä alennusprosentti, joka huomioidaan laskujen luontivaiheessa automaattisesti.
-- **Alennusprosentti ilmoituslaskuille**: toimii muistutuksena, ei lisätä automaattisesti ilmoituslaskuille.
+- **Alennusprosentti ilmoituslaskuille**: toimii muistutuksena, eikä sitä lisätä automaattisesti ilmoituslaskuille
 - **Maksuehtopäivä**: voidaan lisätä kuinka monta päivää asiakkaalla on aikaa maksaa laskunsa, oletuksena aika on 14 päivää
 - **Asiakkaan myyjä**:  Lisäksi ilmoitusasiakkaalle liitetään nimetty (oletus) Myyjä, jonka avulla heille aktivoituu **Näytä ilmoitusmyynti** -linkki Etusivun-listausnäkymään.
 - Jos asiakkaalla on **saldoa**, se näkyy laskutietojen alla. Saldoa voi lisätä asiakkaalle painamalla **Lisää saldoa** -painiketta

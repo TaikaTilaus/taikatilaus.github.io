@@ -19,13 +19,13 @@ Yksittäisen huomion **numeroa** klikkaamalla pääsee katsomaan lisätietoja, l
 ![Huomiot](/img/ohjeet/huomiot-esimerkki.png)
 *Esimerkki vastaanotetusta huomiosta.*
 
-Usein riittää pelkkä käsitellyksi kuittaaminen (mm. lehden lukija muuttanut omia tietojaan), mutta uuden tilauksen käsittelyyn voi liittyä esim. tilaajalahjan toimittaminen
+Usein riittää pelkkä käsitellyksi kuittaaminen (mm. lehden lukija muuttanut omia tietojaan), mutta uuden tilauksen käsittelyyn voi liittyä esimerkiksi tilaajalahjan toimittaminen
 
 ## Huomiot OmaPalvelua käytettäessä
 
-Asiakastietojen tarkka **lokitieto muutoksista** kerätään OmaPalvelun kautta
+Asiakastietojen tarkat **lokitiedot muutoksista** kerätään OmaPalvelun kautta
 
-Jos OmaPalveluun **kirjautunut käyttäjä** esim. muuttaa omia yhteystietojaan, jotka on sallittuja muuttaa, kerätään lokille vanha ja uusi tieto.
+Jos OmaPalveluun **kirjautunut käyttäjä** esimerkiksi muuttaa omia yhteystietojaan, jotka ovat sallittuja muuttaa, kerätään lokille vanha ja uusi tieto.
 
 Näistä muutoksista tulee uusi **Huomio**, joka tilaajarekisterin käyttäjän toimesta käydään tarkastamassa TaikaTilaus-ohjelmassa.
 

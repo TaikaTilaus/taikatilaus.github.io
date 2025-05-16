@@ -72,9 +72,9 @@ Lehti tai tilitoimisto hoitaa ohitus- tai osasuoritusten kirjaamisen.
     - Asiakkaan tulee huolehtia, että perintäkulut kirjataan oikein, vaikka ohimaksu tapahtuisi.
 
 1. Ohimaksu tapahtuu
-    - Jos tilaaja maksaa alkuperäisen laskun, eikä perinnäst lähetetyn laskun, johon kuuluu perintätoimistolle maksettavat perintäkulut:
+    - Jos tilaaja maksaa alkuperäisen laskun, eikä perinnästä lähetetyn laskun, johon kuuluu perintätoimistolle maksettavat perintäkulut:
         - Viitemaksuna (maksuun sisältyy viite)
-        - Pelkkänä panona (ilman viitettä), jolloin maksu näkyy vain tiliotteella, eikä TaikaTilauksessa
+        - Pelkkänä maksuna (ilman viitettä), jolloin maksu näkyy vain tiliotteella, eikä TaikaTilauksessa
 2. Maksujen näkyvyys järjestelmässä
     - Viitemaksu näkyy näkymässä **Suoritukset / Käsittelyä vaativat suoritukset** (viiteaineistossa tulleet)
     - Ohimaksu jää virhelistalle, koska alkuperäinen lasku on merkitty tilaan **HYVITETTY**

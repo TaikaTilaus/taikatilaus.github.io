@@ -14,7 +14,7 @@ Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näk
 - Tilaustietoja (esim. tilauksen Katkaisun syyn)
 - Hinta- ja maksutietoja (tilaushetkellä kiinnitetyn tuotteen hinta)
 - Laskutietoja
-- Tilaaja ja Maksaja tietoja
+- Tilaaja- ja maksajatietoja
 - Laskutuspyyntöjä, joiden kautta tilaus laskutetaan
 
 ![Tilauksen muokkaus](/img/ohjeet/tilaukset2.png)
@@ -85,7 +85,7 @@ Voit muokata:
 
 *Voit valita laskulle tulevat tuotetekstit.*
 
-**Lisätiedot tuoteriville** –kentässä luodaan asiakkaan laskulle näkyviin haluttava teksti
+**Lisätiedot tuoteriville** –kentässä voit lisätä asiakkaan laskulle halutun tekstin tuoterivin kohdalle
 - Ne voidaan myös tallentaa **Lisää vakiotekstiksi** –painikkeesta ja käyttää jatkossakin
 - Voit käyttää aikaisemmin käytettyjä laskutekstejä painamalla **Tuoterivin vakiotekstit** –painikkeesta ja valitsemalla haluamasi tekstin. Teksti kopioituu tekstikenttään, jossa sitä voi tarvittaessa vielä muokata.
 

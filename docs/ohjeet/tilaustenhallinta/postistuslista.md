@@ -85,13 +85,13 @@ Tämä tehdään suorittamalla haku asiakkaan **asiakasnumerolla**. Valitsemalla
 
 ## Postituslistan luonti
 
-Ennen uuden Postituslistan luontia varmistetaan, että tilausten <a href="/docs/ohjeet/tilaustenhallinta/kestojatko">Kestojatko-ajo</a> on tehty, mikäli uudistettavat kestotilaukset halutaan mukaan kyseiselle postituslistalle. Kestojatko-ajot voi myös automatisoida.
+Ennen uuden Postituslistan luontia varmistetaan, että tilausten <a href="/docs/ohjeet/tilaustenhallinta/kestojatko">Kestojatkoajo</a> on tehty, mikäli uudistettavat kestotilaukset halutaan mukaan kyseiselle postituslistalle. Kestojatko-ajot voi myös automatisoida.
 
 ### Postituslistan luonnin ennakkotoimenpiteet
 
 1) Tee **[Kestojatko](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/kestojatko)**
 
-2) **Asetukset/Irtonumerot** -välilehdellä
+2) **Asetukset/Irtonumerot**-välilehdellä
 - **Poista** ensin vanhat tiedot listaukselta ja sen jälkeen
 - **Kopioi** yksittäisten Irtonumeroiden osoitetiedot ja Tallenna (katso ettei alempana olevaan listaan tule virheilmoituksia)
 
@@ -130,7 +130,7 @@ Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim
 
 ![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista3.png)
 
-- Tilauksissa olevat poikkeukset näet painamalla **Näytä poikkeukset** -nappia
+- Tilauksissa olevat poikkeukset näet painamalla **Näytä poikkeukset** -painiketta.
 
 ![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista5.png)
 

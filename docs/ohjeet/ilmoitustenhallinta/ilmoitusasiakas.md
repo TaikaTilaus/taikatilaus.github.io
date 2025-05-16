@@ -37,16 +37,16 @@ Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pä�
 **Yhteys- ja laskutustiedot** vastaavat asiakaskortille tallennettuja tietoja.
 - Laskutustiedoista voidaan myös asettaa asiakas Myyntikieltoon, milloin asiakkaalle ei voi luoda ilmoitusvarauksia (esim. maksamattomien laksujen takia)
 - Myyntikielto asetetaan syöttämällä kenttään vapaamuotoista tekstiä
-- Myyntikiellon poistetaan poistamalla kenttään syötetty teksti
+- Myyntikielto poistetaan poistamalla kenttään syötetty teksti
 
 **Yhteyshenkilöt** –listaukselle voi tallentaa ilmoitusmyynteihin liittyvien henkilöiden yhteystietoja, kuten esim.
-- Aineistoista vastaavavien henkilöiden yhteystiedot
+- Aineistoista vastaavien henkilöiden yhteystiedot
 - Ulkopuoliset aineistojen toimittajat
 
 ![Ilmoitusasiakas - Omat tiedot](/img/ohjeet/omattiedot-ilmoitusmyynti.png)
 *Ilmoitusasiakkaan omissa tiedoissa ovat asiakkaan yhteystiedot ja laskutustiedot*
 
-![Ilmoitusasiakas - Myynti kielto](/img/ohjeet/myyntikielto.png)
+![Ilmoitusasiakas - Myyntikielto](/img/ohjeet/myyntikielto.png)
 *Ilmoitusasiakkaan myynti välilehdeltä näet, jos asiakkaalle on asetettu myyntikielto*
 
 ### Aineistopankki
@@ -55,7 +55,7 @@ Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pä�
 - Logoja
 - Kuvia
 
-Ladattava aineisto haetaan omalta koneelta ja lisätään kuvaus sen sisällöstä (esim. logo (väri), logo (mv)). Lineisto tallennetaan palveluun **Lisää aineisto aineistopankkiin** -painikkeesta.
+Ladattava aineisto haetaan omalta koneelta ja lisätään kuvaus sen sisällöstä (esim. logo (väri), logo (mv)). Aineisto tallennetaan palveluun **Lisää aineisto aineistopankkiin** -painikkeesta.
 
 ![Ilmoitusasiakas - Aineistopankki](/img/ohjeet/aineistopankki.png)
 
@@ -71,13 +71,13 @@ Ladattava aineisto haetaan omalta koneelta ja lisätään kuvaus sen sisällöst
 Listauksella näytettäviä ilmoitusvarauksia voi järjestää
 - **Lajittelutieto**–valikon (Alkupäivä / Varausnumero) ja
 - **Lajittelujärjestys**–valikon avulla (Nouseva / Laskeva)
-- Aktivoimalla **Piilota menneet** –valintaruutu, mikä piilottaa kaikki ilmoitukset jotkat ovat ilmestyneet menneissä julkaisuissa.
+- Aktivoimalla **Piilota menneet** –valintaruutu, mikä piilottaa kaikki ilmoitukset, jotka ovat ilmestyneet menneissä julkaisuissa.
 
 ![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/ilmoitukset-suodatus.png)
-*Voit järjestää ja suodataa ilmoituksien listausta eri valinnoilla.*
+*Voit järjestää ja suodattaa ilmoitusten listausta eri valinnoilla.*
 
 Avoimia ilmoitusvarauksia voi käsitellä
-- päivittämällä Ilmoitustekstitystä
+- päivittämällä Ilmoitustekstiä
 - lisäämällä kuva-aineistoa
 - lähettämällä aineiston ulkopuoliselle käsittelijälle latauslinkin palveluun
 

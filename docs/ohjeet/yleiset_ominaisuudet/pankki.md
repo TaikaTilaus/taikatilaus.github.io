@@ -29,7 +29,7 @@ Lisätiedot yksittäisistä suorituksista avautuvat erilliseen popup-ikkunaan, j
 
 - **Virheelliset**-sarakkeessa olevaa numeroa
 
-Virheilmoitusten mukaiset **vertailut ja mahdolliset korjaukset tehdään manuaalisesti** kyseisen asiakkaan / laskun tietoihin ja tarvittaessa
+Virheilmoitusten mukaiset **vertailut ja mahdolliset korjaukset tehdään manuaalisesti** kyseisen asiakkaan tai laskun tietoihin ja tarvittaessa
 - Lähetetään uusi lasku asiakkaalle esim. puuttuvasta osuudesta
 
-Lisätiedot yksittäisistä suorituksista avautuvat erilliseen popup-ikkunaan, josta ne voi **Tulostaa tai Avata PDF-tulosteeksi**.
+Lisätiedot yksittäisistä suorituksista avautuvat erilliseen popup-ikkunaan, josta ne voi **tulostaa tai avata PDF-tulosteeksi**.
