@@ -108,8 +108,8 @@ Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
 - **Tilaustyyppi** tarvitaan, mikäli tuotteen tilaus halutaan jaettavaksi postitse. Postituslistalle kerätään VAIN Kesto- ja Määräaikaiset tilaukset. Jos halutaan, että ko. tuote EI NOUSE postituslistalle, valitaan tyypiksi Ei määritelty (esim. jos lehti ilmestyy digitaalisena). Määräaikaisen tarjoustuotteen Tilaustyyppi tulee olla Kesto, mikäli tuote halutaan nousevan automaattisesti jatkettavien tilausten Kestojatko-listalle.
 - **JatkotuoteID** –tieto kertoo esim. tarjoustuotteella sen tuotteen ID-numeron, jolla tilausta jatketaan automaattisesti tarjousajan päätyttyä (esim. normaali Kestotilaus). 
 - **Tilauksen kesto** –kentässä määritellään tuotteen pituus oletuksena kuukausissa.
-Keston yksikön voi tarvittaessa muuttaa valikosta, jossa vaihtoehtoina päivä/viikko/vuosi.
-Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, sillä muuten ne eivät nouse automaattiseen Kestojatko-ajoon mukaan.
+    - Keston yksikön voi tarvittaessa muuttaa valikosta, jossa vaihtoehtoina päivä/viikko/vuosi.
+    - Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, sillä muuten ne eivät nouse automaattiseen Kestojatko-ajoon mukaan.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen3.png)
 
@@ -226,8 +226,7 @@ Kun tiliä lisätään tai muokataan, tarvitaan seuraavat tiedot:
 
 ### Suoriteperusteinen kirjanpito
 
-Palvelussa käytetään **Suoriteperusteista kirjapitoa**, jossa
-kulut ja tulot kirjataan kirjanpitoon sen mukaan milloin kulut syntyvät eli **laskupäivän perusteella**
+Palvelussa käytetään **Suoriteperusteista kirjapitoa**, jossa kulut ja tulot kirjataan kirjanpitoon sen mukaan milloin kulut syntyvät eli **laskupäivän perusteella**
 
 - esim. myyntilasku, joka tehdään tammikuun lopussa ja maksetaan maaliskuun alussa
 - Tämä myynti näkyy tuloslaskelmassa suoriteperusteisesti tammikuussa (eikä maaliskuussa kuten maksuperusteisesti)

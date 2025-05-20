@@ -208,7 +208,7 @@ Raportin määrityksistä voit valita:
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot2.png)
 
 Raportilta näet:
-- SaldoIDn
+- **SaldoID**n
 - Kirjauspäivän
 - Saldosumman
 - Sisäisen selitteen, jossa lukee tiedot saldon käytöstä, esim. saldon summa ja minkä laskun maksamiseen saldoa on käytetty.
