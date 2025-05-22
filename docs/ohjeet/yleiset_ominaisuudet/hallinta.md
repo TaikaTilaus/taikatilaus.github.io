@@ -197,11 +197,11 @@ Päivitämme esimerkissä asiakkaiden sähköpostiosoitteita. **HUOM! KAIKKI DAT
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet4.png)
 
-## Tuplien käsitttely
+## Tuplien käsittely
 
 ![Tuplien käsittely](/img/ohjeet/tuplat.png)
 
-**Tuplien käsitelly** -välilehdellä voit yhdistää tuplana olevia asiakaskortteja. 
+**Tuplien käsittely** -välilehdellä voit yhdistää tuplana olevia asiakaskortteja. 
 
 ### Ohje tuplien käsittelyyn
 
