@@ -430,7 +430,7 @@ Oletuksena näitä vastaanottoilmoituksia haetaan palveluun 6 h välein.
 **Muut asetukset** –välilehdellä voi lisätä asiakasryhmiä ja -rooleja, sekä tilauksien katkaisujen syitä.
 
 ![Muut asetukset](/img/ohjeet/muut-asetukset.png)
-*Muut asetukset-välilehti*
+*Muut asetukset -välilehti*
 
 ### Asiakasryhmät ja roolit
 
@@ -440,22 +440,28 @@ Voit luetella kenttiin erilaisia **Asiakasryhmiä ja Asiakasrooleja**, jotka
 
 Tämä on hyödyllistä esimerkiksi kohdennetun markkinoinnin kannalta.
 
+![Muut asetukset](/img/ohjeet/muut-asetukset2.png)
+
 ![Ryhmittely](/img/ohjeet/ryhmittely.png)
 *Asiakasryhmän ja Asiakasroolin voi asettaa asiakkaalle asiakaskortin Ryhmittely-alavalikossa.*
 
 ### Tilauksien katkaisujen syiden luettelu
 
-![Katkaisun syyt](/img/ohjeet/katkaisun-syyt.png)
-*Voit asettaa katkaisujen syyt ja karsintaperusteet Muut asetukset-välilehdeltä*
-
 **Katkaisun syyt**-valikkoon kirjataan mahdollisia tilauksen katkaisusyitä, joita voi valita tilauksen katkaisun yhteydessä. (Esim. "Lehti on liian kallis")
 
+![Katkaisun syyt](/img/ohjeet/katkaisun-syyt.png)
+*Voit asettaa katkaisujen syyt ja karsintaperusteet Muut asetukset -välilehdeltä*
+
 ![Katkaisun syyt](/img/ohjeet/katkaisun-syyt2.png)
-*Voit valita tällä välilehdelle asettemasi syyt katkaisulle tilaukselle katkaisun yhteydessä.*
+*Voit valita tällä välilehdellä asettamasi syyt katkaisulle tilaukselle katkaisun yhteydessä.*
 
 **Haku-näytöllä katkaisun syyt mitkä sisältyvät ehtoon: [KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]**, asetetaan ne katkaisun syyt, jotka voidaan karsia hausta. 
 
-Esim. **[Haut](/docs/ohjeet/yleiset_ominaisuudet/haut)**-näytön kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat esim. tilaajan kuolemasta tai oikeustoimikelvottomuudesta, niin että nämä asiakkaat eivät joudu soittolistaan.
+Esim. **[Haut](/docs/ohjeet/yleiset_ominaisuudet/haut)**-välilehden kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat tilaajan kuolemasta, niin että nämä asiakkaat eivät joudu soittolistaan. **Asetukset/Muut asetukset** -välilehdeltä määritellään tähän kenttään, että katkaisusyy **ESTE: Kuollut** karsitaan karsitaan hausta, kun hakuehtona on KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT.
+
+![Muut asetukset](/img/ohjeet/muut-asetukset3.png)
+
+![Muut asetukset](/img/ohjeet/muut-asetukset4.png)
 
 ## Pääkäyttäjä
 
