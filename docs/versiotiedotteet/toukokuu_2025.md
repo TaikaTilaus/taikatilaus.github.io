@@ -18,7 +18,7 @@ Uudet ominaisuudet IlmoitusStudioon:
 - **Ulkoinen ID** - Mahdollisuus liittää myyntiin tai ilmoitusvaraukseen ulkoinen tunniste (esim. CRM ID)
 - **Inventaario** - Mahdollisuus rajoittaa varattavissa olevien ilmoitusvarauksien määrää (esim. etukansi, takakansi)
 
-### Myyntituotteet
+## Myyntituotteet
 
 Uusia kenttiä myyntituotteisiin:
 - **Tuotekohtainen saatavuus** - Tuotteen saatavuuden määrittely (esim. 1 kpl / julkaisu)
