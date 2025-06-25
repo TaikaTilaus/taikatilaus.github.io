@@ -66,16 +66,16 @@ Saldoa voi lisätä asiakkaalle
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-lis4.png)
 
-2. **TAI lisäämällä saldoa manuaalisesti asiakaskortille, kun asiakas on maksanut etukäteen**
+<!-- 2. **TAI lisäämällä saldoa manuaalisesti asiakaskortille, kun asiakas on maksanut etukäteen**
 - Saldoa voi lisätä painamalla **Lisää saldoa** -painiketta asiakkaan laskutustiedoista
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis.png)
 
 - Saldoa lisätessä voit kirjata kirjauspäivän, summan, lehden, sisäisen selitteen (ei näy asiakkaalle), ulkoinen selite (laskulle)
 
-![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis2.png)
+![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis2.png) -->
 
-3. **TAI Virheellisten suorituksien käsittelyn yhteydessä painamalla Liikasuoritus ennakkomaksuksi -painiketta**
+2. **TAI Virheellisten suorituksien käsittelyn yhteydessä painamalla Liikasuoritus ennakkomaksuksi -painiketta**
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis6.png)
 
