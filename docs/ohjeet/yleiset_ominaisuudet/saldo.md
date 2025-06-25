@@ -93,7 +93,7 @@ Tiedot saldon käytöstä päivittyvät myös laskutustietoihin. Alla olevassa e
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis5.png)
 
-### Saldon poistaminen
+<!-- ### Saldon poistaminen 
 
 Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Poista**. Kun painat **Poista**, selain näyttää vahvistusviestin. Paina **OK**, jos haluat poistaa saldon. Saldo saattaa vielä näkyä asiakkaalla poistamisen jälkeen, mutta se poistuu näkyvistä, kun päivität sivun.
 
@@ -107,7 +107,7 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 ![Asiakastiedot](/img/ohjeet/saldo-poisto3.png)
 
-*Selain näyttää vahvistusviestin. Jos haluat poistaa saldon valitse OK*
+*Selain näyttää vahvistusviestin. Jos haluat poistaa saldon valitse OK*-->
 
 ## Maksetun tilauksen katkaisu
 
@@ -181,6 +181,8 @@ Kun asiakkaan tekemässä suorituksessa on virhe, jää se käsiteltäväksi **S
 Palautus suoritetaan painamalla **Tallenna ennakkomaksu** -painiketta.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/liikasuoritus2.png)
+
+#### Saldon poistaminen
 
 Saldon tiliöinnit voi poistaa painamalla **Suorituksen tiliöinnin poistaminen** -painikkeesta
 
