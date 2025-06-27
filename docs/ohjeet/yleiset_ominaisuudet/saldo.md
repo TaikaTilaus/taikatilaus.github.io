@@ -109,6 +109,24 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 *Selain näyttää vahvistusviestin. Jos haluat poistaa saldon valitse OK*-->
 
+### Saldon palautus rahana asiakkaalle
+
+Jos asiakas esim. kuolee ja omaiset haluavat saldon rahana takaisin, voi saldon muuttaa palautettavaksi. 
+
+1. Mennään asiakaskortille. Painetaan saldon **TiliöintiIDtä**
+
+![Asiakaskortti - Laskutustiedot](/img/ohjeet/saldo-pal3.png)
+
+2. Vaihdetaan saldon tili saldotilistä palautustiliksi. Voit myös kirjoittaa selityksen tapahtuneesta. 
+
+![Asiakaskortti - Laskutustiedot](/img/ohjeet/saldo-pal2.png)
+
+![Asiakaskortti - Laskutustiedot](/img/ohjeet/saldo-pal4.png)
+
+3. Palautettava summa näkyy asiakkaan tiedoissa kunnes kuittaat sen **[Maksun palautukset](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksun-palautukset)** -raportilta.
+
+![Asiakaskortti - Laskutustiedot](/img/ohjeet/saldo-pal.png)
+
 ## Maksetun tilauksen katkaisu
 
 Kun maksettu tilaus katkaistaan, voidaan maksettu summa siirtää asiakkaalle saldoksi tai voidaan tehdä tiliöinti asiakkaalle palautuvasta rahasta tilauksen laskulle (**HUOM!** TaikaTilauksen kautta **ei liiku rahaa**! Palautus asiakkaan tilille pitää tehdä taloushallinnon kautta!). **HUOM! ETTÄ RAHANPALAUTUS TILIÖITYY OIKEIN, PITÄÄ RAHANPALAUTUKSET KÄSITELLÄ NIIHIN LIITTYVÄLLÄ [RAPORTILLA.](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksun-palautukset)**
@@ -194,34 +212,6 @@ Tämä poistaa saldon asiakkaalta ja raporteilta.
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/suorituksen-tilioinnin-poisto.png)
 
 ## Raportit
-
-### Asiakassaldot
-
-**Raportit**-välilehdeltä löydät raportin **Asiakassaldot**, jolta näet asiakkailla olevat saldot ja saldotapahtumat (esim. saldoa on käytetty laskun maksamiseen).
-
-![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot.png)
-
-Raportin määrityksistä voit valita:
-- Aikavälin, jolta haetaan palautettavia summia
-- Tulostusmuodon (Näytölle, Excel, PDF)
-- Kirjaisinkoon
-- Raportin ulkoasun (ruudukolla tai ilman)
-
-![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot2.png)
-
-Raportilta näet:
-- **SaldoID**n
-- Kirjauspäivän
-- Saldosumman
-- Sisäisen selitteen, jossa lukee tiedot saldon käytöstä, esim. saldon summa ja minkä laskun maksamiseen saldoa on käytetty.
-- Ulkoisen selitteen, joka näkyy laskulla
-- Lehden, johon saldo liittyy
-- Laskun numeron, johon saldoa on käytetty
-- Käyttöpäivän
-
-Viimeisellä rivillä ennen seuraava asiakasta, lukee asiakkaan tämänhetkinen saldo.
-
-![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot3.png)
 
 ### Ennakkomaksut-tili
 
