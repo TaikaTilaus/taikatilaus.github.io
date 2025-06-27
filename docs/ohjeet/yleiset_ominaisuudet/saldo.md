@@ -117,6 +117,9 @@ Jos asiakas esim. kuolee ja omaiset haluavat saldon rahana takaisin, voi saldon 
 
 ![Asiakaskortti - Laskutustiedot](/img/ohjeet/saldo-pal3.png)
 
+![Asiakaskortti - Laskutustiedot](/img/ohjeet/saldo-pal6.png)
+*Jos asiakkaalla on monta riviä saldoa, viimeisin on aina alin rivi.*
+
 2. Vaihdetaan saldon tili saldotilistä palautustiliksi. Voit myös kirjoittaa selityksen tapahtuneesta. 
 
 ![Asiakaskortti - Laskutustiedot](/img/ohjeet/saldo-pal2.png)
