@@ -91,6 +91,56 @@ Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painam
 
 ![Kontaktien roskakori](/img/ohjeet/roskakori3.png)
 
+## Tuplien käsittely
+
+**Tuplien käsittely** -välilehdellä voit yhdistää kaksi asiakaskorttia yhdeksi. Näin toimitaan esimerkiksi silloin, kun samalla asiakkaalla on kaksi asiakaskorttia. 
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely.png)
+
+### Ohjeet tuplien käsittelyyn
+
+**1.** Jos tiedät yhdistettävän asiakkaan asiakasnumerot, voit syöttää ne **Säilytettävä Kontakti** ja **Poistettava Kontakti** -kenttiin ja painaa **Hae**.
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely2.png)
+
+**1.b.** Vaihtoehtoisesti voit hakea asiakkaan asiakaskortit **Etusivun** kautta ja siirtää ne **Leikepöydälle**. 
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely3.png)
+
+**1.b.2.** Jos hakutulos tuo suuren määrän asiakkaita, voit siirtää haluamasi asiakaskortit suoraan asiakaskortilta **Leikepöydälle**
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely4.png)
+
+**2.** Kun haluamasi asiakaskortit ovat leikepöydällä, voit siirtää ne tuplien käsittelyyn painamalla **Tuplien käsittely** -painikkeesta
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely5.png)
+
+**3.** Kun asiakaskortit ovat tuplien käsittelyssä, voit:
+
+- Vaihtaa kontaktit keskenään **Vaihda kontaktit päittäin** -painikkeella
+- Siirtää tietoja asiakaskortista toiseen painamalla kenttien vieressä olevaa **Ota**-painiketta
+- Täydentää **säilytettävän kontaktin tietoja**, esimerkiksi lisäämällä puhelinnumeron
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely6.png)
+
+**4.** Kun **Säilytettävän kontaktin** tiedot ovat kunnossa, paina **Suorita kontaktien yhdistäminen** -painiketta yhdistääksesi asiakaskortit. 
+
+- Tämä siirtää **Poistettavan kontaktin** roskakoriin ja sen **laskut sekä tilaukset Säilytettävän kontaktin alle**.
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely7.png)
+
+**5.** Järjestelmä pyytää vahvistusta. Paina OK, jos haluat yhdistää kontaktit.
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely8.png)
+
+**6.** Järjestelmä näyttää viestin yhdistämisen onnistumisesta.
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely9.png)
+
+**7.** Painamalla **Hae** kontaktien kohdalla voit tarkastaa, että tilaukset ja laskut ovat siirtyneet ja että poistettava kontakti on roskakorissa.
+
+![Tuplien käsittely](/img/ohjeet/tuplien-kasittely10.png)
+
 ## Kontaktien päivitys
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys.png)
@@ -99,9 +149,9 @@ Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painam
 
 Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt tekemään toimintoja välilehdellä, pitää sinun tehdä **lisätunnistautuminen sähköpostin kautta**. Käyttäjääsi yhdistettyyn sähköpostiin lähetetään **koodi**, mikä sinun pitää syöttää osoitettuun kenttään. Oikean koodin syöttämisen jälkeen voit tehdä toimintoja välilehdellä.
 
-![Tuplien käsittely](/img/ohjeet/tuplat9.png)
+![Kontaktien päivitys](/img/ohjeet/tuplat9.png)
 
-![Tuplien käsittely](/img/ohjeet/tuplat10.png)
+![Kontaktien päivitys](/img/ohjeet/tuplat10.png)
 
 **HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
 
@@ -197,13 +247,13 @@ Päivitämme esimerkissä asiakkaiden sähköpostiosoitteita. **HUOM! KAIKKI DAT
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet4.png)
 
-## Tuplien käsittely
+## Tuplien massakäsittely
 
 ![Tuplien käsittely](/img/ohjeet/tuplat.png)
 
 **Tuplien käsittely** -välilehdellä voit yhdistää tuplana olevia asiakaskortteja. 
 
-### Ohje tuplien käsittelyyn
+### Ohje tuplien massakäsittelyyn
 
 Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt tekemään toimintoja välilehdellä, pitää sinun tehdä **lisätunnistautuminen sähköpostin kautta**. Käyttäjääsi yhdistettyyn sähköpostiin lähetetään **koodi**, mikä sinun pitää syöttää osoitettuun kenttään. Oikean koodin syöttämisen jälkeen voit tehdä toimintoja välilehdellä.
 
