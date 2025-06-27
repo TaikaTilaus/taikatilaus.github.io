@@ -163,34 +163,6 @@ Raportilla näytetään kaikki tiliöinnit aikajärjestyksessä, uusin ylinnä. 
 
 ![Raportit](/img/ohjeet/tilioinnit.png)
 
-### Asiakassaldot
-
-**Raportit**-välilehdeltä löydät raportin **Asiakassaldot**, jolta näet asiakkailla olevat saldot ja saldotapahtumat (esimerkiksi saldoa on käytetty laskun maksamiseen).
-
-![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot.png)
-
-Raportin määrityksistä voit valita:
-- Aikavälin, jolta haetaan palautettavia summia
-- Tulostusmuodon (Näytölle, Excel, PDF)
-- Kirjaisinkoon
-- Raportin ulkoasun (ruudukolla tai ilman)
-
-![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot2.png)
-
-Raportilta näet:
-- SaldoIDn
-- Kirjauspäivän
-- Saldosumman
-- Sisäisen selitteen, jossa lukee tiedot saldon käytöstä, esimerkiksi saldon summa ja minkä laskun maksamiseen saldoa on käytetty.
-- Ulkoisen selitteen, joka näkyy laskulla
-- Lehden, johon saldo liittyy
-- Laskun numeron, johon saldoa on käytetty
-- Käyttöpäivän
-
-Viimeisellä rivillä ennen seuraava asiakasta, lukee asiakkaan tämänhetkinen saldo.
-
-![Asiakaskortti - Laskutiedot](/img/ohjeet/asiakassaldot3.png)
-
 ### Ennakkomaksut-tili
 
 **Raportit**-välilehdeltä löydät raportin **Ennakkomaksut-tili**, jolta näet Ennakkomaksutilin (saldotili) tapahtumat ja saldon kohdepäivänä.
