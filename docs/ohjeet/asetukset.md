@@ -132,10 +132,17 @@ Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
 
 - **Tuote on piilotettu:** Tuotteen voi piilottaa, milloin sitä ei näe hakuja tehtäessä eikä sitä voi valita uutta tilausta tehtäessä.
 - **Digipalvelu**–kentän avulla tuotteita voi ryhmitellä saman Digipalvelu-ryhmän alle. Digipalveluissa voidaan tutkia onko tilaajalla aktiivisena tiettyä Digipalvelua ja täten näyttää muun muassa wwww-sivun sisältö sen mukaan.
-- **Stripe tuotetyyppi ja PriceID**: Stripe-palveluun määritellyn tuotteen tyyppi ja API PriceID
 - **SKU-koodi**: Tuotteen yksilöivä koodi mm. kirjamyynnissä.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen7.png)
+
+Voit muuttaa tuotteen hintaa etukäteen asettamalla seuraavat kentät:
+
+- **Hinnaston aktivoitumispäivä** – ohjelma siirtää uuden hinnan automaattisesti vanhan hinnan paikalle kyseisenä päivänä. Palvelimella ajetaan joka yö prosessi, joka tarkistaa aktivoitumispäivät.
+- **Uusi hinta** – tuotteen uusi hinta, joka astuu voimaan aktivoitumispäivänä.
+- Jos tuotteella on eri hinta erämaksuissa, voit muuttaa erähinnan vastaaviin kenttiin.
+
+![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen8.png)
 
 ## Tilauspaketit
 
@@ -907,6 +914,26 @@ Yksittäiset vakioniput **listataan** tekstikenttään
 
 Muutokset (esim. lisälehtiä nippuun) päivitetään kyseisen vakionipun riville ja tallennetaan
 - Mikäli muutos on tilapäinen, tulee se palauttaa päivittämällä muutostieto takaisin (normimäärään) poikkeavan postituksen jälkeen
+
+Voit muuttaa kaikkien vakionippujen tietoja kerrallaan / lisätä vakionippuja viemällä tiedot Exceliin **Vie Exceliin** -painikkeesta.
+
+![Varhaisjakelu](/img/ohjeet/vakionippu2.png)
+
+Muuta nippujen tietoja, poista nippuja ja/tai lisää nippuja Excelissä. 
+
+![Varhaisjakelu](/img/ohjeet/vakionippu3.png)
+
+Tuo päivitetyt niput järjestelmään **Tuo Excelistä** -painikkeella.
+
+![Varhaisjakelu](/img/ohjeet/vakionippu4.png)
+
+Kopioi niput Excelistä ja liitä ne järjestelmässä olevaan kenttään. Lopuksi klikkaa **Lue Excel sisään** -painiketta.
+
+![Varhaisjakelu](/img/ohjeet/vakionippu5.png)
+
+Niput ovat tämän jälkeen päivittyneet
+
+![Varhaisjakelu](/img/ohjeet/vakionippu6.png)
 
 ### Varhaisjakelun reitit
 

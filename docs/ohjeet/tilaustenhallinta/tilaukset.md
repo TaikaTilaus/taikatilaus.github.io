@@ -104,7 +104,7 @@ Laskutuspyynnön voi myös poistaa Poista-painiketta painamalla.
 
 ![Tilausvahvistus](/img/ohjeet/tilausvahvistus.png)
 
-### Tilauksen katkaisu maksamattomana
+### Maksamattoman tilauksen katkaisu
 
 Asiakkaan **voimassa oleva tilaus**, jota ei ole maksettu, voidaan tarvittaessa katkaista ja muodostaa uusi lasku jo toimitetuista lehdistä.
 
@@ -168,13 +168,37 @@ Jos valitsit rahapalautuksen, muodostetaan uusi hyvityslasku, joka tiliöi rahan
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/saldo-palautus5.png)
 *Palautuslasku*
 
-### Tilauksen jatkaminen
+### Hyvitä tilausjaksoa
+
+![Tilauksen tiedot](/img/ohjeet/hyvita-tilaus.png)
+
+**Hyvitä tilausjaksoa** -toiminnolla voit muuttaa tilauksen loppupäivämäärää ja lisätä asiakkaan seuraavalle laskulle merkinnän hyvityksestä.
+
+Toimintoa käytetään esimerkiksi silloin, kun asiakas ei ole saanut lehteä, ja tilaus halutaan hyvittää pidentämällä sen kestoa puuttuneen lehden verran. 
+
+**Huom!** Saattaa olla, että sinun täytyy poistua tilaukselta ja palata sille uudelleen, jotta muutettu tilausaika päivittyy näkymään oikein.
+
+![Tilauksen tiedot](/img/ohjeet/hyvita-tilaus2.png)
+
+Tieto hyvityksestä tulee automaattisesti näkyviin tilauksen tietoihin.
+
+![Tilauksen tiedot](/img/ohjeet/hyvita-tilaus3.png)
+
+Asiakas näkee tiedon hyvityksestä seuraavassa laskussaan.
+
+Jos tilaus on jo kokonaan maksettu, hyvitystieto siirtyy seuraavan tilauskauden ensimmäiseen laskuun.
+
+Teksti siirtyy automaattisesti kestojatkoissa tilauksen mukana. Kun teksti on kerran lisätty laskulle, se poistuu automaattisesti.
+
+![Tilauksen tiedot](/img/ohjeet/hyvita-tilaus4.png)
+
+### Jatka tilausjaksoa
 
 Yksittäistä tilausta voi jatkaa vastaavilla tiedoilla **Jatka tilausta** -painikkeesta. Tilauksen jatkaminen luo uuden tilauksen tämän tilauksen perään ja tekee laskutuspyynnöt. Jatkettava tilaus voi olla kesto- tai määräaikainen. Laskutuspyynnöstä voi tehdä tilauslaskun heti ja lähettää se maksajalle.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/jatka.png)
 
-### Tilauksen poistaminen
+### Poista tilaus
 
 Yksittäisen tilauksen voi myös poistaa **Poista tilaus** -painikkeella.
 
