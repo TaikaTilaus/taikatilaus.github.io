@@ -13,24 +13,24 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.6.-30.6.2025 välisenä aikana.
 
 ## Tuplien käsittely
 
-* [Tuplien käsittely -välilehdellä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/hallinta#tuplien-k%C3%A4sittely) voit yhdistää kaksi asiakaskorttia yhdeksi
+* [Tuplien käsittely](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/hallinta#tuplien-k%C3%A4sittely) -välilehdellä voit yhdistää kaksi asiakaskorttia yhdeksi
 
-* [Tuplien massakäsittely -välilehdellä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/hallinta#tuplien-massak%C3%A4sittely) voit käsitellä tuplia CSV-tiedoston kautta 
+* [Tuplien massakäsittely](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/hallinta#tuplien-massak%C3%A4sittely) -välilehdellä voit käsitellä tuplia eräajona CSV-tiedoston kautta 
 
 ## Hyvitykset
-* Tilauksen hyvityksestä teksti seuraavalle laskulle
+* Tilauksen hyvityksestä voidaan näyttää tieto seuraavalla laskulla
 * Digimaksujen hyvitykset (=laskun hyvitys + palautettava summa palautukseen)
 
-## Hinnasto
-* Hinnaston aktivoitumispäivä ja uusi hinta -kentät mahdollistavat hintojen [ennalta syötön](https://support.taikatilaus.fi/docs/ohjeet/asetukset#lomakkeeseen-lis%C3%A4tt%C3%A4v%C3%A4t-tiedot)
+## Tilaustuotteet
+* Hinnaston aktivoitumispäivä ja uusi hinta -kentät mahdollistavat hintojen [syöttämisen ennakkoon](https://support.taikatilaus.fi/docs/ohjeet/asetukset#lomakkeeseen-lis%C3%A4tt%C3%A4v%C3%A4t-tiedot)
 
-## LajitteluPalvelu (LAPA)
-* LAPA:n palauttama jakelutieto lisätty näkyviin käyttöliittymään
+## Postin LajitteluPalvelu (LAPA)
+* LAPA:n palauttama jakelutieto lisätty näkyviin postitusten käyttöliittymään
 
 ## Vakioniput
-* Vakionippujen päivitys mahdollista [Excel-tuonnin/viennin kautta](https://support.taikatilaus.fi/docs/ohjeet/asetukset#vakioniput)
+* Vakionippujen päivitys mahdollista [Excel-tuonnin/viennin](https://support.taikatilaus.fi/docs/ohjeet/asetukset#vakioniput) kautta
 
 ## Muita uudistuksia
-* Tilauksen nukutus näkymään seuraavalle laskulle
-* Ahvenanmaan tullaustoiminnon koodi osoitekortille
+* Tilauksen nukutuksesta voidaan näyttää tieto seuraavalla laskulla
+* Ahvenanmaan tullaustoiminnon koodi lisättävissä osoitekortille
 
