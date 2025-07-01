@@ -915,6 +915,8 @@ Yksittäiset vakioniput **listataan** tekstikenttään
 Muutokset (esim. lisälehtiä nippuun) päivitetään kyseisen vakionipun riville ja tallennetaan
 - Mikäli muutos on tilapäinen, tulee se palauttaa päivittämällä muutostieto takaisin (normimäärään) poikkeavan postituksen jälkeen
 
+#### Nippujen päivitys
+
 Voit muuttaa kaikkien vakionippujen tietoja kerrallaan / lisätä vakionippuja viemällä tiedot Exceliin **Vie Exceliin** -painikkeesta.
 
 ![Varhaisjakelu](/img/ohjeet/vakionippu2.png)
