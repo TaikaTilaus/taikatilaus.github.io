@@ -245,14 +245,14 @@ Raportilla näkyy:
 
 Raportin määrityksistä voit valita:
 - Näkyvätkö jo käsitellyt palautukset raportilla
-- Aikavälin, jolta haetaan palautettavia summia
+- Aikavälin, jolta haetaan palautettavia summia (**HUOM!** anna riittävä aikaväli, suorituksiin liittyvät palautukset kirjautuvat suorituksen kirjauspäivälle esim. jos suoritus kirjattu 3.6. ja palautus tehdään 1.7. palautuksen kirjauspäivä on kuitenkin 3.6.)
 - Tulostusmuodon (Näytölle, Excel, PDF)
 - Kirjaisinkoon
 - Raportin ulkoasun (ruudukolla tai ilman)
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti2.png)
 
-Kun raportti on tulostettu näytölle, voit käsitelle yksittäisiä palautuksia (esimerkin raportissa näkyy myös ennakkomaksut).
+Kun raportti on tulostettu näytölle, voit käsitellä yksittäisiä palautuksia (esimerkin raportissa näkyy myös ennakkomaksut).
 
 Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **TiliöintiID**, kopiomalla sen raportin alla olevaan kenttään (TiliöintiID) voit:
 
