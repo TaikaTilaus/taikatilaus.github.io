@@ -22,10 +22,13 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.6.-30.6.2025 välisenä aikana.
 ![Tuplien käsittely](/img/ohjeet/tuplat.png)
 
 ## Hyvitykset
+
+### Tilausjakson hyvitys
 * Tilausjakson **[hyvityksestä](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/tilaukset#hyvit%C3%A4-tilausjaksoa)** voidaan näyttää tieto seuraavalla laskulla
 
 ![Varhaisjakelu](/img/versiotiedotteet/hyvita.png)
 
+### Maksujen palautus
 * Maksujen palautukset (=laskun hyvitys + palautettava summa palautukseen)
     - **Luo maksun palautus** - toimintoa käytetään, kun maksettu lasku halutaan hyvittää kokonaisuudessaan ja **[saldo-ominaisuus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo)** on käytössä. Toiminto luo palautuslaskun koko laskun summasta ja asiakkaan tietoihin tiliöidään laskun summa palautettavaksi. Jos haluat hyvittää **vain osan laskusta**, esim. kun tilaaja katkaisee tilauksen ja halutaan laskuttaa vain toimitetut lehdet, käytä **[Maksetun tilauksen katkaisu](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksetun-tilauksen-katkaisu)** -toimintoa.
     - **HUOM!** TaikaTilauksen kautta ei liiku rahaa. Itse palautus suoritetaan taloudenhallinnon/kirjapidon puolelta.
