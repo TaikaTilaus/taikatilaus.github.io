@@ -28,7 +28,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.6.-30.6.2025 välisenä aikana.
 * LAPA:n palauttama jakelutieto lisätty näkyviin postitusten käyttöliittymään
 
 ## Vakioniput
-* Vakionippujen päivitys mahdollista [Excel-tuonnin/viennin](https://support.taikatilaus.fi/docs/ohjeet/asetukset#vakioniput) kautta
+* Vakionippujen päivitys mahdollista [Excel-tuonnin/viennin](https://support.taikatilaus.fi/docs/ohjeet/asetukset#nippujen-p%C3%A4ivitys) kautta
 
 ## Muita uudistuksia
 * Tilauksen nukutuksesta voidaan näyttää tieto seuraavalla laskulla
