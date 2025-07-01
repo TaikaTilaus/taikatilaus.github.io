@@ -61,16 +61,17 @@ Tarvittaessa voi **hakea** tai **lisätä uuden** maksajan ja tuotteen, sekä **
 - Laskutusajossa luotavien laskujen (tuoterivien) tiliöinnit (L) tehdään automaattisesti, mutta niitä voi tarvittaessa muuttaa (ennen laskun lähettämistä)
 - Tai **liittää** suorituksia, jotka eivät ole automaattisesti kohdentuneet pankkiaineiston käsittelyn yhteydessä (esim. viitevirheet)
 
-**Laskun käsittelyyn** liittyvät toiminnot ovat
+#### **Laskun käsittelyyn** liittyvät toiminnot ovat:
 
-- Luo hyvityslasku
-- Luo Maksumuistutus #1 ja/tai Luo Maksumuistutus #2
-- Luo laskusta kopio - luo laskusta kopion kaikilla tiedoilla
-- Luo laskusta kopio ilman maksajan tietoja
-- Tulosta lasku - luo laskusta PDF:n, jonka voi sitten tulostaa 
-- Lähetä lasku sähköpostilla - voit lähettää laskun heti asiakastiedoissa olevaan sähköpostiosoitteeseen
-- Siirrä lasku toiselle tilaukselle - siirrä lasku toiselle tilaukselle antamalla sen tilausnumero
-- Suoramaksuilmoitus - voit lähettää laskusta ilmoituksen suoraveloituksella maksaville asiakkaille tai tulostaa ilmoituksen
+- **Luo hyvityslasku** (**Poista hyvityslasku-liitos**, jos laskusta on jo tehty hyvityslasku)
+- **Luo Maksumuistutus #1** ja/tai **Luo Maksumuistutus #2** (jos lasku on erääntynyt)
+- **Luo laskusta kopio** - luo laskusta kopion kaikilla tiedoilla
+- **Luo laskusta kopio ilman maksajan tietoja**
+- **Tulosta lasku** - luo laskusta PDF:n, jonka voi sitten tulostaa 
+- **Lähetä lasku sähköpostilla** - voit lähettää laskun heti asiakastiedoissa olevaan sähköpostiosoitteeseen
+- **Siirrä lasku toiselle tilaukselle** - siirrä lasku toiselle tilaukselle antamalla sen tilausnumero
+- **Suoramaksuilmoitus** - voit lähettää laskusta ilmoituksen suoraveloituksella maksaville asiakkaille tai tulostaa ilmoituksen
+- **Luo maksun palautus** - toimintoa käytetään, kun maksettu lasku halutaan hyvittää ja **[saldo-ominaisuus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo)** on käytössä. Luo palautuslaskun koko laskun summasta ja asiakkaan tietoihin tiliöidään laskun summa palautettavaksi. Jos haluat hyvittää **vain osan laskusta**, esim. kun tilaaja katkaisee tilauksen ja halutaan laskuttaa vain toimitetut lehdet, käytä **[Maksetun tilauksen katkaisu](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksetun-tilauksen-katkaisu)** -toimintoa.
 
 ![Laskut - Tuotteen käsittely](/img/ohjeet/laskut6.png)
 
