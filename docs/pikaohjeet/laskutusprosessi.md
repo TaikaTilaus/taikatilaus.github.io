@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Laskutusprosessi
 
-### 1. Aloitetaan laskutusprosessi Laskut-välilehdeltä
+### 1. Aloitetaan laskutusprosessi Laskut-valikosta, Laskujen haku-välilehdeltä.
 
 ![1. Etusivunäkymä](/img/pikaohjeet/laskutusprosessi.png)
 
@@ -28,7 +28,7 @@ sidebar_position: 6
 
 ![6. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi6.png)
 
-### 7. Kun maksumuistutukset on luotu, siirrytään Laskutus-välilehdelle.
+### 7. Kun maksumuistutukset on luotu, siirrytään Laskujen luonti-välilehdelle.
 
 ![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi7.png)
 
