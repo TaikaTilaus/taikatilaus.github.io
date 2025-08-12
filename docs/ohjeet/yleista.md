@@ -15,7 +15,7 @@ Paketista riippuen palvelu sisältää:
 
 Eri toimintojen näkyvyyttä hallitaan erikseen käyttäjien henkilökohtaisille tunnuksille aktivoitavilla, **toimintokohtaisilla käyttöoikeuksilla**.
 
-Sovelluksen käyttöön aktivoidut toiminnallisuudet näkyvät **vasemman reunan valikkolistalla** ja niiden järjestys päivittyy **dynaamisesti** eli käyttäjän toimintatapojen mukaisesti (eniten käytetyt näkymät/toiminnot ’nousevat’ valikkolistalla ylemmäksi)
+Sovelluksen käyttöön aktivoidut toiminnallisuudet näkyvät **vasemman reunan valikkolistalla**.
 
 ![TaikaTilaus-sovelluksen päävalikko](/img/ohjeet/yleista1.png)
 
@@ -41,7 +41,7 @@ Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät TaikaTilaus-
 
 *TaikaTilaus-palvelusta pääsee ohjesivustolle **Ohjeet**-ikonia painamalla.*
 
-**[Pikaohjeet](/docs/category/pikaohjeet)**- ja **[FAQ](/docs/category/faq)**-sivuilta löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **[Ohjevideot](/docs/ohjevideot)**-sivulta. Pidemmät ohjeet löydät **[Ohjeet](/docs/category/ohjeet)**-välilehdeltä. Ohjesivustolta löytyy myös ohjeet **[Freshdesk](/docs/tukiportaali)**-tukiportaalin käyttöön. TaikaTilauksen **uutiskirjearkiston** ja **versiotiedotteet** löydät myös tukiportaalista **[Uutiset](/blog)**-välilehdeltä.
+**[Pikaohjeet](/docs/category/pikaohjeet)**- ja **[FAQ](/docs/category/faq)**-sivuilta löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **[Ohjevideot](/docs/ohjevideot)**-sivulta. Pidemmät ohjeet löydät **[Ohjeet](/docs/category/ohjeet)**-välilehdeltä. Ohjesivustolta löytyy myös ohjeet **[Freshdesk](/docs/tukiportaali)**-tukiportaalin käyttöön. TaikaTilauksen **versiotiedotteet** löydät myös tukiportaalista **[Versiotiedotteet](/docs/category/versiotiedotteet)**-välilehdeltä.
 
 ![Ohjesivusto](/img/ohjeet/tukiportaali.png)
 *Ohjesivuston etusivu.*
@@ -49,6 +49,7 @@ Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät TaikaTilaus-
 Palveluun liittyvä viestintä on kaikkien käyttäjien nähtävissä **Tiedotteet**-ikonia klikkaamalla.. Näkymään koostetaan mm. **TaikaTilauksen tiedotteet, Palvelun kehitysuutiset, Asiakaskohtainen tilannetiedotus** (esim. yleisen vian tukipyynnöt/tilannetiedot).
 
 ![Tiedotteet](/img/ohjeet/ohjeet-tiedotteet.png)
+
 *Ohjelmiston tiedotteisiin pääse painamalla Tiedotteet-ikonia.*
 
 ## TaikaTilaus-sovelluksen käyttö
