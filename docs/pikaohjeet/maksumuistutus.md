@@ -4,11 +4,11 @@ sidebar_position: 13
 
 # Maksumuistutuksen luominen
 
-### 1. Klikkaa Laskut-välilehdeltä Hae maksumuistutettavat #1 -painiketta, kun haet laskuja, joiden eräpäivästä on kulunut yli 14 vuorokautta
+### 1. Klikkaa Laskujen haku -välilehdeltä Hae maksumuistutettavat #1 -painiketta, kun haet laskuja, joiden eräpäivästä on kulunut yli 14 vuorokautta
 
 ![1. Laskut-välilehti](/img/pikaohjeet/mamu1.png)
 
-### TAI 1. Klikkaa Laskut-välilehdeltä Hae maksumuistutettavat #2 -painiketta, kun haet laskuja, joiden ensimmäisen maksumuistutuksen eräpäivästä on kulunut yli 7 vuorokautta
+### TAI 1. Klikkaa Laskujen haku -välilehdeltä Hae maksumuistutettavat #2 -painiketta, kun haet laskuja, joiden ensimmäisen maksumuistutuksen eräpäivästä on kulunut yli 7 vuorokautta
 
 ![1. Laskut-välilehti](/img/pikaohjeet/mamu2.png)
 

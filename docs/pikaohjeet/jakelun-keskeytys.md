@@ -12,6 +12,6 @@ sidebar_position: 7
 
 ![2. Asiakastiedot](/img/pikaohjeet/alennus2.png)
 
-### 3. Avataan JAKELUN KESKEYTYS -valikko ja asetetaan jakelun keskeytykselle aloitus- että lopetuspäivämäärä. Paina lopuksi Tallenna!
+### 3. Avataan JAKELUN KESKEYTYS -valikko ja asetetaan jakelun keskeytykselle sekä aloitus- että lopetuspäivämäärä. Paina lopuksi Tallenna!
 
 ![3. Asiakaskortti - Jakelun keskeytys](/img/pikaohjeet/jakelun-keskeytys3.png)

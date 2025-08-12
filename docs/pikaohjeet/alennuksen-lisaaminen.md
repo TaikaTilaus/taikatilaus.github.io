@@ -14,6 +14,8 @@ sidebar_position: 1
 
 ### 3. Asiakaskortin laskutustiedoista lisätään laskutusprosentti ja painetaan tallenna
 
+HUOM! Ilmoituksien alennusprosentti toimii tällä hetkellä vain muistutuksena, eikä sitä lisätä automaattisesti ilmoitusvaraukselle. Tilauksien alennusprosentti siirtyy automaattisesti tilauksille.
+
 ![3. Asiakaskortin tarkemmat tiedot](/img/pikaohjeet/alennus3.png)
 
 ### 4. Alennusprosentti siirtyy laskuttamattomille laskuille laskutusajon yhteydessä

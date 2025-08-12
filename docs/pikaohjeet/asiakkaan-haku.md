@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Asiakkaan haku postituslistalta
 
-### 1. Siirrytään Postituslista -valikkoon ja avataan Postitusten haku -välilehti
+### 1. Siirrytään Postitus -valikkoon ja avataan Postitusten haku -välilehti
 
 ![1. Etusivunäkymä](/img/pikaohjeet/asiakashakuposti1.png)
 

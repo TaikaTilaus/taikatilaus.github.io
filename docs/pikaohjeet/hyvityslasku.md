@@ -12,14 +12,14 @@ sidebar_position: 5
 
 ![2. Etusivunäkymän haku](/img/pikaohjeet/hakuehto.png)
 
-### TAI 2. Laskut välilehdestä haetaan lasku laskunumerolla
+### TAI 2. Laskut -valikosta Laskujen haku -välilehdestä haetaan lasku laskunumerolla
 
 ![2. Laskut - välilehden haku](/img/pikaohjeet/hyvityslasku3.png)
 
-### 3. Laskut välilehden hausta klikataan lasku suoraan auki laskunumeroa painamalla
+### 3. Avaa lasku klikkaamalla laskun numeroa
 ![3. Laskut -hakutulos](/img/pikaohjeet/hyvityslasku4.png)
 
-### 4. Laskunäkymän alakulmasta painetaan Luo hyvityslasku-painiketta
+### 4. Laskunäkymän alapalkista painetaan Luo hyvityslasku-painiketta
 ![4. Laskunäkymä](/img/pikaohjeet/hyvityslasku5.png)
 
 ### 5. Hyvityslaskun luonti vahvistetaan

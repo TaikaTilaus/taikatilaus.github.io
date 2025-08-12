@@ -4,7 +4,7 @@ sidebar_position: 21
 
 # Virheellisen suorituksen tiliöinti
 
-### 1. Avaa Suoritukset-välilehti ja valitse Hae vain käsittelyä vaativat. Paina Hae
+### 1. Avaa Laskut/Suoritukset-välilehti ja aktivoi Hae vain käsittelyä vaativat -kenttä. Paina Hae
 
 ![1. Suoritukset välilehti](/img/pikaohjeet/virheellisensuorituksentiliointi1.png)
 

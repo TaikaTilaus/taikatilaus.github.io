@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ![1. Etusivunäkymä](/img/pikaohjeet/erillistuote.png)
 
-### 2. Erillistuotteet laskutetaan lisäämällä uusi lasku Laskut-välilehdeltä
+### 2. Erillistuotteet laskutetaan lisäämällä uusi lasku Laskut/Laskujen haku -välilehdeltä
 
 Voit myös lisätä erillistuotteen olemassa olevaan laskuun, kunhan sitä ei ole lähetetty.
 
@@ -38,7 +38,7 @@ Voit myös lisätä erillistuotteen olemassa olevaan laskuun, kunhan sitä ei ol
 
 ![1. Etusivunäkymä](/img/pikaohjeet/erillistuote8.png)
 
-### 9. Valitse laskun toimitustapa. Voit myös muuttaa muita laskutustietoja, kun eräpäivää, jos on tarvetta.
+### 9. Valitse laskun toimitustapa. Voit myös muuttaa muita laskutustietoja, kuten eräpäivää, jos on tarvetta.
 
 ![1. Etusivunäkymä](/img/pikaohjeet/erillistuote9.png)
 
