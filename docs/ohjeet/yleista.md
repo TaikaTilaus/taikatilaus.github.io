@@ -41,6 +41,10 @@ Kaikkiin tämän palvelun toimintoihin liittyvät ohjeet löytyvät TaikaTilaus-
 
 *TaikaTilaus-palvelusta pääsee ohjesivustolle **Ohjeet**-ikonia painamalla.*
 
+Löydät valikon välilehtiin liittyvät ohjeet jokaisen välilehden yläpalkista.
+
+![Ohjeet](/img/ohjeet/ohjeet-ikoni2.png)
+
 **[Pikaohjeet](/docs/category/pikaohjeet)**- ja **[FAQ](/docs/category/faq)**-sivuilta löydät nopeita vastauksia yleisille ongelmille. Jos olet visuaalisempi oppija, löydät ohjevideoita **[Ohjevideot](/docs/ohjevideot)**-sivulta. Pidemmät ohjeet löydät **[Ohjeet](/docs/category/ohjeet)**-välilehdeltä. Ohjesivustolta löytyy myös ohjeet **[Freshdesk](/docs/tukiportaali)**-tukiportaalin käyttöön. TaikaTilauksen **versiotiedotteet** löydät myös tukiportaalista **[Versiotiedotteet](/docs/category/versiotiedotteet)**-välilehdeltä.
 
 ![Ohjesivusto](/img/ohjeet/tukiportaali.png)
