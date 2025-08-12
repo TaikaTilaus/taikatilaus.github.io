@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Kestojatkon tekeminen
 
-**Kestojatko**-näkymässä voit jatkaa kestotilauksia uudelle tilauskaudelle.
+**Kestojatko**-välilehdellä voit jatkaa kestotilauksia uudelle tilauskaudelle.
 
 ![Kestojatko](/img/ohjeet/kestojatko.png)
 

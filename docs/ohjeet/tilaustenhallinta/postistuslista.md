@@ -2,11 +2,11 @@
 sidebar_position: 3
 ---
 
-# Postituslista
+# Postitus
 
 ## Yleistä
 
-**Postituslista**–välilehdellä koostetaan tietyn lehden postituslista sen painamista varten.
+**Postitus**-valikossa koostetaan tietyn lehden postituslista sen painamista varten.
 
 Painotalolle voidaan luoda oma käyttäjätunnus, millä se voi itse käydä lataamassa postituslistan suoraan sovelluksesta haluttuna päivänä.
 
