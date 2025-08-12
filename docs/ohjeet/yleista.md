@@ -63,6 +63,8 @@ Selaimen siirtymispainikkeita **EI SAA KÄYTTÄÄ**, vaan pitää käyttää pal
 
 Ohjelma näyttää **virheilmoitukset** punaisella virhekentällä, missä lukee lisätietoja virhetapauksesta. Huomion arvoiset aiheet, jotka eivät välttämättä ole virheitä, korostetaan **punaisella tekstillä**.
 
+![Palaa-painikkeet](/img/ohjeet/virhetilanne.png)
+
 **Kenttäkohtaiset ohjeet** löytyvät viemällä hiiren kursorin kentän nimen vieressä olevan **kysymysmerkki-ikonin** kohdalle
 
 ![Apua](/img/ohjeet/apua.png)

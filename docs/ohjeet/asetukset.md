@@ -321,6 +321,7 @@ Määritellyt kanavat lajitellaan ohjelmaan koodattuihin **kanavatyyppeihin**, k
 
 - Jokainen kanavan ilmoitusosasto kirjoitetaan **omalle rivilleen puolipisteillä (;) eroteltuina**
 - Uusi ilmoitusosasto lisätään muodossa: **tunniste;kanavan nimi;ilmoitusosasto;hinta**. Esim. 1;LEHTI;etusivu;1,55
+    - Tunnisteen pitää olla yksilöllinen, eli se ei saa olla sama kun toisen ilmoitusosaston tunniste. Tunniste saa olla mikä tahansa numero tai numeroyhdistelmä. Tunnistetta käytetään avaimena tietokannassa.
 
 ![Ilmoitusosastot](/img/ohjeet/kanavat2.png)
 *LEHTI-tyypin kanaville määritellään ilmoitusosastot*
