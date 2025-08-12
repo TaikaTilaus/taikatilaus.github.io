@@ -4,12 +4,12 @@ sidebar_position: 1
 
 # Tilaus
 
-## Tilauslomake ja -tiedot
+## Tilaustiedot
 Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näkymässä omassa kentässään. Yksittäistä tilausta klikkaamalla pääset muokkaamaan sen tietoja. Pääset tiettyyn tilaukseen myös suoraan etusivulta **hakemalla tilausnumeroa**.
 
 ![Asiakas - Tilaukset](/img/ohjeet/tilaukset1.png)
 
-**Tilauslomakkeella** voit muokata seuraavia tietoja:
+**Tilauksessa** voit muokata seuraavia tietoja:
 
 - Tilaustietoja (esim. tilauksen Katkaisun syyn)
 - Hinta- ja maksutietoja (tilaushetkellä kiinnitetyn tuotteen hinta)
@@ -24,7 +24,7 @@ Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näk
 Asiakkaan **voimassa olevaa tilausta** voidaan tarvittaessa muuttaa
 - Esim. asiakas on maksanut epähuomiossa laskun kahteen kertaan
 
-Tilauksen Tilaustiedot–osiossa siirretään tilauksen alkuperäinen Loppuaika ylimääräisen maksuosuuden verran eteenpäin (esim. 1 kk Määräaikaistilauksen lasku maksettu kahteen kertaan, jolloin Loppuaikaa muutetaan 15.05.2024 -> 15.06.2024)
+Tilauksen **Tilaustiedot**–osiossa siirretään tilauksen alkuperäinen Loppuaika ylimääräisen maksuosuuden verran eteenpäin (esim. 1 kk Määräaikaistilauksen lasku maksettu kahteen kertaan, jolloin Loppuaikaa muutetaan 15.05.2024 -> 15.06.2024)
 
 ![Tilauksen muokkaus](/img/ohjeet/tilaus-jatko.png)
 
@@ -96,7 +96,7 @@ Laskutuspyynnön voi myös poistaa Poista-painiketta painamalla.
 ## Alapalkin toiminnot
 
 ![Tilauksen tiedot -alapalkki](/img/ohjeet/tilaukset3.png)
-*Tilauslomakkeen alapalkista voi nappeja painamalla suorittaa eri toimintoja.*
+*Tilaustietojen alapalkista voi nappeja painamalla suorittaa eri toimintoja.*
 
 ### Tilausvahvistus
 
@@ -108,9 +108,9 @@ Laskutuspyynnön voi myös poistaa Poista-painiketta painamalla.
 
 Asiakkaan **voimassa oleva tilaus**, jota ei ole maksettu, voidaan tarvittaessa katkaista ja muodostaa uusi lasku jo toimitetuista lehdistä.
 
-Tilauslomakkeen alaosasta löytyvää **Maksamattoman tilauksen katkaisu**–painiketta painamalla pääset tilauksen katkaisukäsittelyyn.
+Tilaustietojen alaosasta löytyvää **Maksamattoman tilauksen katkaisu**–painiketta painamalla pääset tilauksen katkaisukäsittelyyn.
 
-![Tilauslomake](/img/ohjeet/maksamaton.png)
+![Tilaustiedot](/img/ohjeet/maksamaton.png)
 
 Lomakkeelle täytetään
 - Katkaisutiedot - **Katkaisupäivä ja Katkaisun syy**
