@@ -16,11 +16,17 @@ sidebar_position: 8
 
 ![3. Tilaustiedot](/img/pikaohjeet/Tilauksen_Katkaisu3.png)
 
-### 4. Paina Tallenna
+### 4. Muuta tilauksen loppupäivä vastaamaan katkaisupäivää
+
+Tällöin vältytään tilanteelta, jossa Kestojatkon ajossa toinen voimassaoleva tilaus ei uusiutuisikaan.
+
+![4. Tilaustiedot](/img/pikaohjeet/Tilauksen_Katkaisu5.png)
+
+### 5. Paina Tallenna
 
 ![4. Tilaustiedot](/img/pikaohjeet/Tilauksen_Katkaisu4.png)
 
-### 5. Poista turhat laskutuspyynnöt - vain silloin, kun tilauksessa on tulevia, turhia laskutuspyyntöjä
+### 6. Poista turhat laskutuspyynnöt - vain silloin, kun tilauksessa on tulevia, turhia laskutuspyyntöjä
 
 Jos tilaus maksetaan useassa erässä, pitää tulevat laskutuspyynnöt poistaa, että asiakkaalle ei lähde uusia laskueriä.
 
