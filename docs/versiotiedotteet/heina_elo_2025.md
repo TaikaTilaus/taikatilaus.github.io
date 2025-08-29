@@ -27,9 +27,13 @@ Käyttöliittymän päävalikkoa on uudistettu. Dynaaminen valikko on poistettu 
 
 *Postitukseen liittyvät erilliset välilehdet on yhdistetty yhden valikon alle*
 
-## Vastaanottoilmoitukset asetuksista laskuihin
+## Kuluttajien e-laskutilausten käsittely 
 
-Vastaanottoilmoitukset on siiretty Asetuksista [Laskutus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#vastaanottoilmoitukset) -välilehdelle.
+Kuluttajien verkkopankissa tekemät e-laskutilaukset tuodaan automaattisesti TaikaTilaukseen päivittäin, ja samalla oletusmaksutapa ja verkkolaskuosoite päivitetään asiakkaalle.
+
+Manuaalisesti pitää käsitellä vain virheelliset, joita ei onnistuta kohdistamaan asiakasnumerolla tai viitenumerolla.
+
+E-laskutilausten vastaanottoilmoitukset on siiretty Asetuksista [Laskutus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#vastaanottoilmoitukset) -välilehdelle.
 
 ![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
 
