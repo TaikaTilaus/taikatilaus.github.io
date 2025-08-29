@@ -412,27 +412,6 @@ Irtonumeroiden **lisäyksessä syötetään** jokainen lehden irtonumero **omall
 ![Irtonumerot](/img/ohjeet/irtonumerot.png)
 *Irtonumerot-välilehdelle lisätään irtonumerojen saajat*
 
-## Vastaanottoilmoitukset
-
-**Vastaanottoilmoitukset**–välilehden listauksen avulla vertaillaan vastaanotetut valtuutukset asiakasrekisteristä löytyviin asiakaskortteihin.
-
-RI-sanomassa saadut Vastaanottoilmoitusten **Koodit** ovat
-0 = Lisäys
-1 = Muutos
-2 = Poisto
-
-Ja Vastaanottoilmoitusten Suoramaksujen **Tyypit** ovat
-00 = eLasku
-01 = Suoramaksu
-
-Tarvittaessa **päivitetään asiakkaan** IBAN/BIC tiedot asiakaskortin **Laskutustietoihin.**
-
-**Käsittele vastaanottoilmoitukset** –painikkeella muutokset päivittyvät vertailulistaukselle
-
-Oletuksena näitä vastaanottoilmoituksia haetaan palveluun 6 h välein.
-
-![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
-
 ## Muut asetukset
 
 **Muut asetukset** –välilehdellä voi lisätä asiakasryhmiä ja -rooleja, sekä tilauksien katkaisujen syitä.

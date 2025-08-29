@@ -682,3 +682,65 @@ Esimerkiksi laskun osahyvittäminen asiakkaalle tehdään:
 4. Asiakkaalle lähetetään lasku (uudella jäännössummalla eli Maksamatta osuus), jossa muuttunut Summa-tieto näkyy laskupohjan Pankkisiirto-osassa
 
 ![Laskujen haku -välilehti](/img/ohjeet/esimerkit5-4.png)
+
+## Vastaanottoilmoitukset
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
+
+**Vastaanottoilmoitukset**–välilehden listauksen avulla vertaillaan vastaanotetut verkkomaksu valtuutukset asiakasrekisteristä löytyviin asiakaskortteihin. Oletuksena vastaanottoilmoituksia haetaan palveluun 6 h välein.
+
+RI-sanomassa saadut Vastaanottoilmoitusten **Koodit** ovat
+- 0 = Lisäys (verkkomaksuvaltuutuksen lisäys)
+- 1 = Muutos (verkkomaksutietojen muutos)
+- 2 = Poisto (verkkomaksuvaltuutuksen poisto)
+
+Ja Vastaanottoilmoitusten Suoramaksujen **Tyypit** ovat
+- 00 = eLasku
+- 01 = Suoramaksu
+
+**Käsittele vastaanottoilmoitukset** –painikkeella vastaanototetut muutokset päivittyvät vertailulistaukselle.
+
+### Manuaalinen käsittely virhetilanteessa
+
+Tarvittaessa **päivitetään asiakkaan** IBAN/BIC tiedot asiakaskortin **Laskutustietoihin** manuaalisesti virheen tapahtuessa. Näet, että vastaanottoilmoitus on jäänyt virheeseen, kun **Käsitelty info** -sarakkeessa lukee joitain muuta kuin Käsitelty OK.
+
+**Esim.** alla olevassa kuvassa (tiedot kuvitteellisia) Testaaja Teemu on tehnyt verkkomaksuvaltuutuksen (KOODI=ADD). Valtuutusta ei olla pystytty liittämään asiakaskorttiin, koska asiakasnumero on ollut virheellinen. Näet tiedon **Käsitelty info** -sarakkeessa.
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset1.png)
+
+Menetellään seuraavasti:
+
+1) Etsitään asiakas esim. nimen perusteella
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset2.png)
+
+2) Avataan asiakkaan asiakaskortin tiedot Kynä-ikonilla
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset3.png)
+
+3) Kopioidaan IBAN ja BIC vastaanottoilmoituksesta asiakkaan tietoihin
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset4.png)
+
+4) Vaihdetaan laskun toimitustavaksi VERKKOLASKU
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset5.png)
+
+5) Tallenna
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset6.png)
+
+6) Vastaanottoilmoitus kuitataan käsitellyksi painamalla numeroa ja kuittaamalla tehdyksi
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset7.png)
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset8.png)
+
+Seuraava lasku lähetetään asiakkaalle verkkolaskuna (olettaen, että asiakas on laittanut oikeat tiedot)
+
+
+
+
+
+
+
