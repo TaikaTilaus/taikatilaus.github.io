@@ -33,9 +33,14 @@ Vastaanottoilmoitukset on siiretty Asetuksista [Laskutus](https://support.taikat
 
 ![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
 
-<!-- ## Karenssi
+## Karenssiaika tilauksille
 
-## Kirjelaskuja ei jatkossa lähetetä perjantaina -->
+Tuotteelle voidaan määritellä karenssiaika, jonka aikana tuotetta ei voi tilata uudelleen samalla sähköpostiosoitteella. Esimerkiksi jos 1kk tarjoustuotteen karenssiaika on 6kk, sen voi tilata uudestaan vasta 6kk kuluttua edellisestä tilauksesta.
+
+<!-- ## Kirjelaskuja ei jatkossa lähetetä perjantaina
+
+Laskutusautomaatioon voidaan määritellä, ettei kirjelaskuja lähetetä perjantaisin.
+Tällöin laskun päivä ja vastaanottopäivä   -->
 
 ## Asetuksiin on lisätty valikkoja
 
