@@ -23,7 +23,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.6.-30.6.2025 välisenä aikana.
 
 ## Vastaanottoilmoituset 
 
-Vastaanottoilmoitukset on siiretty asetuksista [Laskutus]() -välilehdelle.
+Vastaanottoilmoitukset on siiretty asetuksista Laskutus -välilehdelle.
 
 
 
