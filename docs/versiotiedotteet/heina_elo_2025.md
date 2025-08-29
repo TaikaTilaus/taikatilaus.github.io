@@ -29,7 +29,7 @@ Käyttöliittymän päävalikkoa on uudistettu. Dynaaminen valikko on poistettu 
 
 ## Kuluttajien e-laskutilausten käsittely 
 
-Kuluttajien verkkopankissa tekemät e-laskutilaukset tuodaan automaattisesti TaikaTilaukseen päivittäin, ja samalla oletusmaksutapa ja verkkolaskuosoite päivitetään asiakkaalle.
+Kuluttajien verkkopankissa tekemät e-laskutilaukset tuodaan automaattisesti TaikaTilaukseen, ja samalla oletusmaksutapa ja verkkolaskuosoite päivitetään asiakkaalle.
 
 Manuaalisesti pitää käsitellä vain virheelliset, joita ei onnistuta kohdistamaan asiakasnumerolla tai viitenumerolla.
 
