@@ -7,7 +7,7 @@ keywords: [versiotiedote, tuplien käsittely, hyvitykset, hinnasto, LAPA, vakion
 
 # Heinäkuu-Elokuu 2025
 
-Uudistuksia TaikaTilaus-tuotteeseen 1.6.-30.6.2025 välisenä aikana.
+Uudistuksia TaikaTilaus-tuotteeseen 1.7.-31.8.2025 välisenä aikana.
 
 > Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
