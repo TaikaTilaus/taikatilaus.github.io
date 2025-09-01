@@ -33,7 +33,7 @@ Kuluttajien verkkopankissa tekemät e-laskutilaukset tuodaan automaattisesti Tai
 
 Manuaalisesti pitää käsitellä vain virheelliset, joita ei onnistuta kohdistamaan asiakasnumerolla tai viitenumerolla.
 
-E-laskutilausten vastaanottoilmoitukset on siiretty Asetuksista [Laskutus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#vastaanottoilmoitukset) -välilehdelle.
+E-laskutilausten vastaanottoilmoitukset on siiretty Asetuksista [Laskut](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#vastaanottoilmoitukset) -valikkoon.
 
 ![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
 
