@@ -51,7 +51,7 @@ Kirjelaskuja ei enää lähetetä automaattisesti perjantaisin, koska ne eivät 
 
 ## Asetuksiin on lisätty valikkoja
 
-Nyt voit tilaus-, myynti ja erillistuotteissa valita tilit valikkojen kautta, sen sijaan että yrittäisit muistaa ne ulkoa tai mennä edes takaisin tuote ja tilit -välilehdillä.
+Nyt voit valita tilit suoraan valikoista tilaus-, myynti- ja erillistuotteissa. Sinun ei enää tarvitse muistaa tilejä ulkoa tai siirtyä edestakaisin Tuotteet- ja Tilit-välilehtien välillä.
 
 ![Etusivun haku](/img/versiotiedotteet/tilit.png)
 
