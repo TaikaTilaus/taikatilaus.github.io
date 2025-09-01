@@ -27,15 +27,19 @@ Käyttöliittymän päävalikkoa on uudistettu. Dynaaminen valikko on poistettu 
 
 *Postitukseen liittyvät erilliset välilehdet on yhdistetty yhden valikon alle*
 
-## Vastaanottoilmoitukset asetuksista laskuihin
+## Kuluttajien e-laskutilausten käsittely 
 
-Vastaanottoilmoitukset on siiretty Asetuksista [Laskutus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#vastaanottoilmoitukset) -välilehdelle.
+Kuluttajien verkkopankissa tekemät e-laskutilaukset tuodaan automaattisesti TaikaTilaukseen, ja samalla oletusmaksutapa ja verkkolaskuosoite päivitetään asiakkaalle.
+
+Manuaalisesti pitää käsitellä vain virheelliset, joita ei onnistuta kohdistamaan asiakasnumerolla tai viitenumerolla.
+
+E-laskutilausten vastaanottoilmoitukset on siiretty Asetuksista [Laskutus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku#vastaanottoilmoitukset) -välilehdelle.
 
 ![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
 
 ## Karenssi
 
-- Tuoteasetuksiin voi määrittää karenssin, eli tietyn päivämäärien määrän, jonka sisällä sama asiakasnumero ei voi ostaa uudelleen samaa tuotetta.
+- Tuotteelle voidaan määritellä karenssiaika, jonka aikana tuotetta ei voi tilata uudelleen samalla sähköpostiosoitteella. Esimerkiksi jos 1kk digitarjouksen karenssiaika on 6kk, sen voi tilata uudestaan vasta 6kk kuluttua edellisestä tilauksest
 - Karenssi koskee aina vain kyseistä tuotetta. Asiakas voi siis ostaa muita tuotteita normaalisti, vaikka karenssi olisi voimassa.
 - Käytetään tilauslomakkeella estämään samaa tilaajaa tilaamasta esim. tarjoustuotetta uudelleen ja uudelleen. Käyttäjälle näytetään ilmoitus: 'Tämä tarjous on vain uusille asiakkaille. Palaa tilaustuotteen valitsemiseen.'
 
