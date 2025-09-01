@@ -33,9 +33,17 @@ Vastaanottoilmoitukset on siiretty Asetuksista [Laskutus](https://support.taikat
 
 ![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
 
-<!-- ## Karenssi
+## Karenssi
 
-## Kirjelaskuja ei jatkossa lähetetä perjantaina -->
+- Tuoteasetuksiin voi määrittää karenssin, eli tietyn päivämäärien määrän, jonka sisällä sama asiakasnumero ei voi ostaa uudelleen samaa tuotetta.
+- Karenssi koskee aina vain kyseistä tuotetta. Asiakas voi siis ostaa muita tuotteita normaalisti, vaikka karenssi olisi voimassa.
+- Käytetään tilauslomakkeella estämään samaa tilaajaa tilaamasta esim. tarjoustuotetta uudelleen ja uudelleen. Käyttäjälle näytetään ilmoitus: 'Tämä tarjous on vain uusille asiakkaille. Palaa tilaustuotteen valitsemiseen.'
+
+![Tilaustuotteen asetukset](/img/versiotiedotteet/karenssi.png)
+
+## Kirjelaskuja ei enää automaattisesti lähetetä perjantaisin
+
+Kirjelaskuja ei enää lähetetä automaattisesti perjantaisin, koska ne eivät ehtisi asiakkaille ennen viikonloppua. Tämä lyhentäisi maksuaikaa kahdella päivällä.
 
 ## Asetuksiin on lisätty valikkoja
 
