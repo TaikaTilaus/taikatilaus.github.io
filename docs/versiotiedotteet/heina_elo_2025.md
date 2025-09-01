@@ -37,7 +37,7 @@ E-laskutilausten vastaanottoilmoitukset on siiretty Asetuksista [Laskutus](https
 
 ![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset.png)
 
-## Karenssi
+## Karenssiaika tilaustuotteille
 
 - Tuotteelle voidaan määritellä karenssiaika, jonka aikana tuotetta ei voi tilata uudelleen samalla sähköpostiosoitteella. Esimerkiksi jos 1kk digitarjouksen karenssiaika on 6kk, sen voi tilata uudestaan vasta 6kk kuluttua edellisestä tilauksest
 - Karenssi koskee aina vain kyseistä tuotetta. Asiakas voi siis ostaa muita tuotteita normaalisti, vaikka karenssi olisi voimassa.
