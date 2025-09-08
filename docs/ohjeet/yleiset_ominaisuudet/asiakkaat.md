@@ -31,6 +31,20 @@ Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan Avaa
 ![Asiakaskortti](/img/ohjeet/asiakaskortti.png)
 *Asiakaskortille kootaan kaikki asiakasta koskevat tiedot*
 
+### Muutosloki
+
+Löydät asiakaskortilta **muutoslokin**, josta näet asiakaskortille ja asiakkaan tilauksille tehdyt muutokset.
+
+![Asiakaskortti](/img/ohjeet/muutosloki2.png)
+
+Muutoslokilta näet:
+
+- mitä tietoja on muutettu
+- kuka käyttäjä on tehnyt muutokset
+- lisättyjen tilauksien tiedot
+
+![Muutosloki](/img/ohjeet/muutosloki.png)
+
 ### Yhteystiedot
 
 Asiakkaan **Yhteystiedot** -osiossa lisätään asiakkaalle perustietoja, kuten:
