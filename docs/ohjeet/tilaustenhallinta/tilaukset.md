@@ -19,6 +19,59 @@ Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näk
 
 ![Tilauksen muokkaus](/img/ohjeet/tilaukset2.png)
 
+### Tilaajan tietojen muuttaminen
+
+### Maksajan tietojen muuttaminen
+
+Jos tilauksella on eri maksaja kuin tilaaja, esim. lahjatilaus, voit lisätä tilaukselle maksajan:
+
+- **Hae maksajaa** -painikkeesta: jos maksajalla on olemassa oleva asiakaskortti.
+- **Lisää maksaja** -painikkeesta: jos maksajalla ei ole olemassa olevaa asiakaskorttia.
+
+Jos tilauksella ei ole erillistä maksajaa, on tilaaja oletuksena maksajana.
+
+![Maksajan muokkaus](/img/ohjeet/maksaja.png)
+
+Jos maksaja vaihtuu, voit poistaa maksajan ja vaihtaa uuteen maksajaan tai jättää maksajan tyhjäksi, jos uusi maksaja on myös tilaaja.
+
+#### Hae maksajaa
+
+Hae maksaja joko asiakasnumerolla, yrityksellä, sukunimellä tai etunimellä. 
+
+![Maksajan muokkaus](/img/ohjeet/maksaja2.png)
+
+Valitse hakutuloksista haluamasi maksaja. Linkki on alleviivattu.
+
+![Maksajan muokkaus](/img/ohjeet/maksaja3.png)
+
+Valitsemasi asiakas on nyt tilauksella maksajana.
+
+![Maksajan muokkaus](/img/ohjeet/maksaja4.png)
+
+Voit muuttaa maksajan tietoja tai poistaa maksajan tilaukselta alla olevista painikkeista.
+
+![Maksajan muokkaus](/img/ohjeet/maksaja5.png)
+
+#### Lisää maksaja
+
+Kun olet painanut **Lisää maksaja** -painiketta, avautuu asiakastieto lomake. Täytä maksajan yhteys- ja laskutustiedot.
+
+Voit lisätä myös alennusprosentin ja määrittää menevätkö laskut maksajalle koontilaskuna.
+
+![Maksajan muokkaus](/img/ohjeet/maksaja6.png)
+
+Valitsemasi asiakas on nyt tilauksella maksajana.
+
+![Maksajan muokkaus](/img/ohjeet/maksaja7.png)
+
+Maksajan lisääminen luo maksajalle asiakaskortin. Näet maksajan asiakaskortilla tilauksen, johon lisäsit asiakkaan maksajaksi.
+
+![Maksajan muokkaus](/img/ohjeet/maksaja8.png)
+
+Voit muuttaa maksajan tietoja tai poistaa maksajan tilaukselta alla olevista painikkeista.
+
+![Maksajan muokkaus](/img/ohjeet/maksaja5.png)
+
 ### Esimerkki tilauksen muuttamisesta
 
 Asiakkaan **voimassa olevaa tilausta** voidaan tarvittaessa muuttaa
