@@ -21,6 +21,59 @@ Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näk
 
 ### Tilaajan tietojen muuttaminen
 
+Voit muuttaa tilaaja yhteys- ja laskutustietoja suoraan tilauksesta painamalla **Muuta tilaajan tietoja** -painikeesta. Voit myös poistaa tilaajaan **Poista tilauksesta tilaaja** -painikkeesta.
+
+![Tilaajan muokkaus](/img/ohjeet/tilaaja.png)
+
+#### Muuta tilaajan tietoja
+
+Painikkeesta avautuvasta lomakkeesta voit päivittää tilaajan yhteys- ja laskutustietoja. Lomakkeella muutetut tiedot päivittyvät myös asiakaskortille.
+
+![Tilaajan muokkaus](/img/ohjeet/tilaaja2.png)
+
+#### Poista tilauksesta tilaaja
+
+Voit poistaa tilauksesta tilaajan ja vaihtaa tilalle toisen asiakkaan, esim. kun tilaaja on kuollut ja tilaus siirretään omaiselle.
+
+Kun painat **Poista tilauksesta tilaaja** -painiketta, järjestelmä kysyy varmistusta. Paina OK.
+
+![Tilaajan muokkaus](/img/ohjeet/tilaaja3.png)
+
+Voit lisätä uuden tilaajan painamalla:
+
+- **Hae tilaajaa** -painiketta: kun uudella tilaajalla on jo olemassa oleva asiakaskortti
+- **Lisää tilaaja** -painiketta: kun uudella tilaajalle ei ole olemassa olevaa asiakaskorttia
+
+![Tilaajan muokkaus](/img/ohjeet/tilaaja4.png)
+
+#### Hae tilaajaa
+
+Hae tilaaja joko asiakasnumerolla, yrityksellä tai nimellä.
+
+![Tilaajan muokkaus](/img/ohjeet/tilaaja5.png)
+
+Valitse hakutuloksista haluamasi maksaja. Linkki on alleviivattu.
+
+![Tilaajan muokkaus](/img/ohjeet/tilaaja6.png)
+
+Valitsemasi asiakas on nyt tilauksella tilaajana.
+
+![Tilaajan muokkaus](/img/ohjeet/tilaaja7.png)
+
+#### Lisää tilaaja
+
+Kun olet painanut **Lisää tilaaja** -painiketta, avautuu asiakastieto lomake. Täytä tilaajan yhteys- ja laskutustiedot.
+
+Voit lisätä myös alennusprosentin ja määrittää menevätkö laskut tilaajalle koontilaskuna.
+
+![Tilaajan muokkaus](/img/ohjeet/tilaaja8.png)
+
+Valitsemasi asiakas on nyt tilauksella tilaajana.
+
+![Maksajan muokkaus](/img/ohjeet/tilaaja9.png)
+
+Tilaajan lisääminen luo uudelle tilaajalle asiakaskortin. Näet tilaajan asiakaskortilla tilauksen, johon lisäsit asiakkaan tilaajaksi.
+
 ### Maksajan tietojen muuttaminen
 
 Jos tilauksella on eri maksaja kuin tilaaja, esim. lahjatilaus, voit lisätä tilaukselle maksajan:
