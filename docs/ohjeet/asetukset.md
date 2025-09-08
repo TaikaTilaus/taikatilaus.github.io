@@ -506,7 +506,7 @@ Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta ava
 
 ### Saldoasetukset
 
-Näitä asetuksia tarvitaan saldo ja rahan palautus -toiminnon käyttöönottoon.
+Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo) -toiminnon käyttöönottoon.
 
 - **Ennakkomaksujen (saldo) tili:** mille tilille saldoa lisätään ja käytetään
 - **Ennakkomaksujen käyttö eri lehtiin**: määrittely siitä, mille lehdille saldoa voi käyttää 
