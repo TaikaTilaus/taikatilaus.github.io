@@ -47,14 +47,20 @@ Erillistuotteelle laitetaan seuraavat tiedot (tässä esimerkissä rahan palautu
 
 ### Pääkäyttäjäasetukset
 
-Asetukset/Pääkäyttäjä -välilehdellä pitää laittaa paikalleen 
+Näitä asetuksia tarvitaan saldo ja rahan palautus -toiminnon käyttöönottoon.
 
-- saldotili
-    - määrittely siitä, mille lehdille saldoa voi käyttää (muodossa LehdenLyhenne;LehdenLyhenne esim. TAN;TAND)
-- palautustili
-- lehtikohtaiset erillistuotteet (muodossa: LehdenNimi;ErillistuotteenTuoteID) esim. TaikaNakka;2584
+- **Ennakkomaksujen (saldo) tili:** mille tilille saldoa lisätään ja käytetään
+- **Ennakkomaksujen käyttö eri lehtiin**: määrittely siitä, mille lehdille saldoa voi käyttää 
+    - muodossa LehdenLyhenne,LehdenLyhenne esim. TAN,TAV, jos saldoa käytetään molempiin lehtiin ilman erittelyä. Muodossa TAN;TAV, jos saldon käyttö eritellään, eli TaikaNakka-lehden (TAN) peruutuksesta tullutta saldoa voidaan käyttää vain TaikaNakka-lehden laskuihin
+- **Lehti#1,2,3: Ennakkomaksujen Lehti ja TuoteID**: lehdet ja erillistuote ID, jota käytetään luomaan tuoterivejä laskuille, kun saldoa käytetään. Muodossa LehdenLyhenne;TuoteID
+- **Maksun palautusten tili**: mille tilille palautettavat rahat merkitään odottamaan palautusta ja miltä palautukset kuitataan maksetuiksi
+- **Lehti#1,2,3: Maksun palautusten Lehti ja TuoteID**: lehdet ja erillistuote ID, jota käytetään luomaan tuoterivejä palaustuslaskuille. Muodossa LehdenLyhenne;TuoteID
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
+
+- **Maksetun laskun rahan palautus** -kentän aktivoidessa laskulle tulee painike, jota painamalla voi hyvittää kyseisen laskun ja laskun maksetun summan voi siirtää asiakkaalle palautettavaksi
+
+![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus8.png)
 
 ## Saldon lisäys ja käyttö
 
