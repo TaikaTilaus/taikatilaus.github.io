@@ -500,8 +500,26 @@ Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta ava
 - **Myyjätieto laskulle** -kentän aktivoidessa tulee Lasku-näkymään ilmestyy Myyjä-valintalista
 - **Kirjautumistunniste käytössä** -kentän aktivoidessa käytetään ePaper-kirjautumispinnassa vaihtuvaa käyttäjäkohtaista kirjautumistunnistetta
 - **Paketti käytössä** -kentän aktivoidessa voi tilaustuotteista muodostaa paketteja ja asetuksiin tulee näkyviin Tilauspaketit-välilehti
+- **Osissa maksettaviin tilauksiin jaksotieto päivinä** -kentän aktivoidessa osissa maksettavien tilauksien laskuille lisätään laskutusjakso päivinä, esim. 1.1.2025-31.1.2025.
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja4.png)
+
+### Saldoasetukset
+
+Näitä asetuksia tarvitaan saldo ja rahan palautus -toiminnon käyttöönottoon.
+
+- **Ennakkomaksujen (saldo) tili:** mille tilille saldoa lisätään ja käytetään
+- **Ennakkomaksujen käyttö eri lehtiin**: määrittely siitä, mille lehdille saldoa voi käyttää 
+    - muodossa LehdenLyhenne,LehdenLyhenne esim. TAN,TAV, jos saldoa käytetään molempiin lehtiin ilman erittelyä. Muodossa TAN;TAV, jos saldon käyttö eritellään, eli TaikaNakka-lehden (TAN) peruutuksesta tullutta saldoa voidaan käyttää vain TaikaNakka-lehden laskuihin
+- **Lehti#1,2,3: Ennakkomaksujen Lehti ja TuoteID**: lehdet ja erillistuote ID, jota käytetään luomaan tuoterivejä laskuille, kun saldoa käytetään. Muodossa LehdenLyhenne;TuoteID
+- **Maksun palautusten tili**: mille tilille palautettavat rahat merkitään odottamaan palautusta ja miltä palautukset kuitataan maksetuiksi
+- **Lehti#1,2,3: Maksun palautusten Lehti ja TuoteID**: lehdet ja erillistuote ID, jota käytetään luomaan tuoterivejä palaustuslaskuille. Muodossa LehdenLyhenne;TuoteID
+
+![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
+
+- **Maksetun laskun rahan palautus** -kentän aktivoidessa laskulle tulee painike, jota painamalla voi hyvittää kyseisen laskun ja laskun maksetun summan voi siirtää asiakkaalle palautettavaksi
+
+![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus8.png)
 
 ### Ilmoitusmyynti
 
