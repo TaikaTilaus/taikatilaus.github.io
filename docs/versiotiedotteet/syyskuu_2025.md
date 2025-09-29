@@ -27,6 +27,8 @@ Voit nyt muuttaa tilaajan/maksajan puhelinnumeroa suoraan tilauksesta **Muuta ti
 
 [Tuplien käsitttely](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/hallinta#tuplien-k%C3%A4sittely) -toiminto siirtää nyt myös asiakkaaseen liittyvät ilmoitusvaraukset.
 
-<!-- ## IlmoitusStudion parannuksia -->
+## IlmoitusStudion parannuksia
+
+- Aineistopäivän voi muuttaa varauskohtaisesti IlmoitusStudion listanäkymässä
 
 
