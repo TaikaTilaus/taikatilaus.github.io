@@ -4,6 +4,8 @@ sidebar_position: 9
 
 # Maksamattoman tilauksen katkaisu
 
+Toimintoa käytetään, kun asiakkaalle on lähetetty maksamattomasta tilauksesta jo lehtiä, jotka halutaan veloittaa katkaisun yhteydessä. Usein toimintoa käytetään maksamattomien tilausten perintään. 
+
 ### 1. Etusivunäkymästä haetaan asiakas
 
 ![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
@@ -20,11 +22,15 @@ sidebar_position: 9
 
 ![4. Tilauksen katkaisutoimet](/img/pikaohjeet/Katkaisukasittely4.png)
 
-### 5. Lopuksi paina Suorita katkaisun käsittelytoimet -painiketta
+### 5. Koska loppulaskuja käytetään usein perintään, on laskulla oletuksena perintään liittyvä teksti. Jos teksti ei ole asiakkaan kohdalla oleellinen, muokkaa se sopivaksi.
+
+![5. Tilauksen katkaisutoimet](/img/pikaohjeet/katkaisu4.png)
+
+### 6. Lopuksi paina Suorita katkaisun käsittelytoimet -painiketta
 
 ![5. Tilauksen katkaisutoimet](/img/pikaohjeet/Katkaisukasittely5.png)
 
-### 6.. Muuta tilauksen loppupäivä vastaamaan katkaisupäivää
+### 7. Muuta tilauksen loppupäivä vastaamaan katkaisupäivää
 
 Tällöin vältytään tilanteelta, jossa Kestojatkon ajossa toinen voimassaoleva tilaus ei uusiutuisikaan. 
 
@@ -32,7 +38,7 @@ Tällöin vältytään tilanteelta, jossa Kestojatkon ajossa toinen voimassaolev
 
 ![4. Tilaustiedot](/img/pikaohjeet/Tilauksen_Katkaisu5.png)
 
-### 7. Poista vielä turhat laskutuspyynnöt - vain silloin, kun tilauksessa on tulevia, turhia laskutuspyyntöjä
+### 8. Poista vielä turhat laskutuspyynnöt - vain silloin, kun tilauksessa on tulevia, turhia laskutuspyyntöjä
 
 Jos tilaus maksetaan useassa erässä, pitää tulevat laskutuspyynnöt poistaa, että asiakkaalle ei lähde uusia laskueriä.
 

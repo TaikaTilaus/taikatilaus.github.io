@@ -4,6 +4,8 @@ sidebar_position: 8
 
 # Tilauksen katkaisu
 
+Tilauksen manuaalista katkaisua käytetään, kun asiakkaalle ei ole vielä toimitettu lehtiä, jolloin loppulaskua ei tarvitse toimittaa. Tai, maksetun tilauksen katkaisuun, kun [saldo-toiminto](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo) ei ole käytössä.
+
 ### 1. Etusivunäkymästä haetaan asiakas
 
 ![1. Etusivunäkymä](/img/pikaohjeet/hakuehto.png)
@@ -35,3 +37,7 @@ Jos tilaus maksetaan useassa erässä, pitää tulevat laskutuspyynnöt poistaa,
 ![6. Laskutuspyynnöt](/img/pikaohjeet/katkaisu2.png)
 
 ![7. Tilaustiedot](/img/pikaohjeet/katkaisu3.png)
+
+### 7. Jos kyseessä on juuri alkanut tilaus, jonka asiakas on peruuttanut, muista hyvittää tilaukseen kuuluva lasku. 
+
+Ohjeet laskun hyvitykseen [täällä](https://support.taikatilaus.fi/docs/pikaohjeet/hyvityslasku).
