@@ -14,7 +14,10 @@ sidebar_position: 7
 
 ### Asiakashaku-ehdot
 
-Asiakastietoja voidaan hakea valitsemalla hakukriteeri **Hakukenttä**-valikosta ja syöttämällä hakumerkkijonon (esim. Virtanen). Aktivoimalla **Hae vain asiakkaista huomioimatta tilauksia** –valinta jättää tilauksiin liittyvät hakukriteerit huomioimatta. **Hae vain ilmoitusasiakkaita** -kentän aktivoimalla voit hakea vain ilmoitusmyyntiasiakkaita.
+Asiakastietoja voidaan hakea valitsemalla hakukriteeri **Hakukenttä**-valikosta ja syöttämällä hakumerkkijonon (esim. Virtanen). 
+
+- Aktivoimalla **Hae vain asiakkaista huomioimatta tilauksia** –valinta jättää tilauksiin liittyvät hakukriteerit huomioimatta. 
+- **Hae vain ilmoitusasiakkaita** -kentän aktivoimalla voit hakea vain ilmoitusmyyntiasiakkaita.
 
 ![Haut-välilehti](/img/ohjeet/haut2.png)
 
@@ -33,6 +36,8 @@ Tilauksia voi hakea:
 - **Tilauksen nimellä**
 - **Myyjän nimellä**
 - **Tilauksen katkaisun syyllä**
+- **Kampanjalla**
+- **Kampanjatunnisteella** - tämän voi asettaa tilauksella tai asiakas voi antaa sen, kun hän tekee tilauksen tilauslomakkeella
 
 ![Haut-välilehti](/img/ohjeet/haut3.png)
 
@@ -41,11 +46,12 @@ Tilauksia voi hakea:
 ![Haut-välilehti](/img/ohjeet/haut4.png)
 
 Voit aktivoida hakuihin lisäkriteerejä, jotka karsivat haun tulokset vain lisäkriteerit täyttäviin asiakkaisiin/tilauksiin.
-- **Ei markkinointiestoa** haetaan vain asiakkaita, joilla ei ole mitään markkinointiestoja aktivoituna
-- **Ei puhelinmarkkinointiestoa** haetaan vain asiakkaita, joilla ei ole puhelinmarkkinointiestoa aktivoituna
-- **Ei sähköpostimarkkinointiestoa** haetaan vain asiakkaita, joilla ei ole sähköpostimarkkinointiestoa aktivoituna
+- **Sähköpostimarkkinointi** sallittu tai kielletty
+- **Puhelinmerkkinointi** sallittu tai kielletty
+- **Kirjemarkkinointi** sallittu tai kielletty
+- **Tekstiviestimarkkinointi** sallittu tai kielletty
+- **Asetus annettu** huomioi vain asiakkaat, joiden asiakaskortilla on sallittu/kielletty markkinointikielto, eli ei tyhjiä tai ei tiedossa -valintaa
 - **Ei estolistalaisia** haetaan vain asiakkaat, jotka eivät ole estolistalla
-- **Ei kirjemarkkinointiestoa** haetaan vain asiakkaita, joilla ei ole kirjemarkkinointiestoa aktivoituna
 - **Tuotteen hinta yli 0 euroa** tilaukseen liitetyn tuotteen hinta on yli 0 euroa
 - **Tuotteen hinta 0 euroa** tilaukseen liitetyn tuotteen hinta on 0 euroa (esim. lehtien vapaakappaleet)
 - **Ei katkaistuja** jätetään haun tuloksista pois ne tilaukset, jotka on katkaistu
