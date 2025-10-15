@@ -549,7 +549,7 @@ Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätä
 Ennen muistutuslaskujen luontia tulee varmistaa, että mahdolliset **virhetilanteet on korjattu**.  
 Virheellisiä suorituksia löytyy:
 
-- **[Suoritukset](/docs/ohjeet/ohjeet/yleiset_ominaisuudet/suoritukset)** -välilehdeltä
+- **[Suoritukset](/docs/ohjeet/yleiset_ominaisuudet/suoritukset)** -välilehdeltä
 - **[Tarkistusraporteilta Raportit -välilehdeltä](/docs/ohjeet/yleiset_ominaisuudet/raportit#tarkastusraportit)**  
 
 #### Muistutuslaskujen haku
