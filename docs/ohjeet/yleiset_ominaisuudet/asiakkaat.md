@@ -14,26 +14,26 @@ Yksittäisen asiakkaan tiedot saat näkyviin hakemalla asiakasta etusivulta ja k
 ![Asiakasnumero](/img/ohjeet/asiakas1.png)
 *Pääset asiakkaan tietoihin klikkaamalla asiakasnumeroa*
 
-Asiakastiedoissa näkyy asiakkaan yhteys- ja laskutustiedot, asiakkaan ryhmittely ja muut sisäiset tiedot (esim. "Tämä asiakas tapaa myöhästyä laskujen maksamisessa"). Asiakastietoja pääset muokkaamaan kynäikonia painamalla. Leikepöydälle-nappia painamalla saat siirrettyä asiakkaan tiedot leikepöydälle jatkokäsittelyä varten. Nuolista pääset edelliseen ja seuraavan asiakkaaseen ja/tai hakutulokseen. 
+Asiakastiedoissa näkyy asiakkaan yhteys- ja laskutustiedot, asiakkaan ryhmittely ja muut sisäiset tiedot (esim. "Tämä asiakas tapaa myöhästyä laskujen maksamisessa"). Asiakastietoja pääset muokkaamaan kynäikonia painamalla. Leikepöydälle-painiketta painamalla saat siirrettyä asiakkaan tiedot leikepöydälle jatkokäsittelyä varten. Nuolista pääset edelliseen ja seuraavan asiakkaaseen ja/tai hakutulokseen. 
 
 ![Asiakas - Navigointi](/img/ohjeet/asiakas2.png)
 *Asiakaskortin yläpalkista pääset muokkaamaan asiakaskorttia, siirtämään tietoja leikepöydälle ja navigoimaan asiakkaiden välillä*
 
-Asiakkaaseen liittyvät Laskut ja Tilaukset näytetään kootusti omissa kentissään. Niitä pääset lisäämään painamalla Lisää tilaus/lasku -painikkeista. Yksittäisiä laskuja pääset muokkaamaan painamalla laskun numerosta. Tilauksia pääsee muokkaamaan klikkaamalla tilauksen nimeä.
+Asiakkaaseen liittyvät Laskut ja Tilaukset näytetään kootusti omissa kentissään. Niitä pääset lisäämään painamalla Lisää tilaus/lasku -painikkeista. Yksittäisiä laskuja pääset muokkaamaan painamalla laskun numeroa. Tilauksia pääsee muokkaamaan klikkaamalla tilauksen nimeä.
 
 ![Tilaukset ja laskut](/img/ohjeet/asiakas3.png)
 *Asiakkaaseen liittyvät tilaukset ja laskut näet asiakastiedoissa erillisillä kentillään.*
 
 ## Asiakastietojen muokkaus
 
-Asiakaskortin eri osiot voidaan avata ja sulkea otsikkopalkin oikean reunan Avaa-ikonista ja valittu esitystapa tallentuu käyttäjäkohtaisesti.
+Asiakaskortin eri osiot voidaan avata ja sulkea painamalla **Avaa**-ikonista. Valittu esitystapa tallentuu käyttäjäkohtaisesti.
 
 ![Asiakaskortti](/img/ohjeet/asiakaskortti.png)
 *Asiakaskortille kootaan kaikki asiakasta koskevat tiedot*
 
 ### Muutosloki
 
-Löydät asiakaskortilta **muutoslokin**, josta näet asiakaskortille ja asiakkaan tilauksille tehdyt muutokset.
+Löydät asiakaskortilta **muutoslokin**, josta näet asiakkaaseen ja hänen tilauksiinsa tehdyt muutokset.
 
 ![Asiakaskortti](/img/ohjeet/muutosloki2.png)
 
@@ -61,17 +61,17 @@ Asiakkaan **Yhteystiedot** -osiossa lisätään asiakkaalle perustietoja, kuten:
 ### Laskutustiedot
 
 Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita tietoja, kuten:
-- **Toinen maksaja**: Laskutusosoitteeksi voidaan **liittää eri maksaja** maksutietoineen (nimi-/osoite-/verkkolaskutiedot ja toimitustapa) jos tilaajalla on eri saaja kuin maksaja. Tämä tehdään liittämällä maksaja **Laskutusosoite asiakkaasta** -kenttään.
+- **Toinen maksaja**: Laskutusosoitteeksi voidaan **liittää eri maksaja** maksutietoineen (nimi-/osoite-/verkkolaskutiedot ja toimitustapa), jos asiakkaan laskut maksaa joku toinen henkilö. Tämä tehdään liittämällä maksaja **Laskutusosoite asiakkaasta** -kenttään, painamalla **Liitä maksaja** -painiketta.
 - **Laskun toimitustapa** -valikosta määritellään oletustapa, jolla laskut välitetään asiakkaalle (muutettavissa esim. laskukohtaisesti).
-- **Suoramaksu**: Suoramaksun aktivointi on verkkopankittoman maksajan maksutapa, eli se sopii asiakkaalle, joka ei käytä verkkopankkia
-- **Koontilasku**: Koontilaskun aktivointi on asiakkaille, jotka haluavat tilaukset yhdelle kokoomalaskulle (yksittäisten tilauslaskujen sijaan)
-- **Laskutuslisä**: Ei laskutuslisää -aktivointi on asiakkaille, joilta ei haluta periä automaattisesti lisättävää (ennalta sovittua) laskutuslisää paperilaskujen lähettämisestä (esim. 5 €). Veloitettava oletushinta ja mahdollinen laskun summaan liittyvä rajoitus (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.
-- **Perintäkielto**: Aktivoimalla tämän kentän kyseiselle asiakkaalle ei lähetetä maksumuistutuksia eikä peritä laskuja.
+- **Suoramaksu**: Suoramaksu on maksutapa asiakkaille, jotka eivät voi käyttää verkkopankkia, mutta haluavat maksaa laskun suoraan pankin kautta.
+- **Koontilasku**: Koontilaskun aktivointi tarkoittaa sitä, että tilausten ja/tai ilmoitusten laskut yhdistetään yhdeksi kokoomalaskuksi yksittäisten laskujen sijaan.
+- **Laskutuslisä**: Ei laskutuslisää -aktivointi on asiakkaille, joilta ei haluta periä laskutuslisää paperilaskujen lähettämisestä (esim. 5 €). Laskutuslisän summa ja siihen mahdollisesti liittyvät rajoitukset (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.
+- **Perintäkielto**: Aktivoimalla tämän kentän, kyseiselle asiakkaalle ei lähetetä maksumuistutuksia eikä peritä laskuja.
 - **Alennusprosentti tilauksille**: voidaan lisätä, jos halutaan lisätä asiakkaalle pysyvä alennusprosentti, joka huomioidaan laskujen luontivaiheessa automaattisesti.
 - **Alennusprosentti ilmoituslaskuille**: toimii muistutuksena, eikä sitä lisätä automaattisesti ilmoituslaskuille
 - **Maksuehtopäivä**: voidaan lisätä kuinka monta päivää asiakkaalla on aikaa maksaa laskunsa, oletuksena aika on 14 päivää
 - **Asiakkaan myyjä**:  Lisäksi ilmoitusasiakkaalle liitetään nimetty (oletus) Myyjä, jonka avulla heille aktivoituu **Näytä ilmoitusmyynti** -linkki Etusivun-listausnäkymään.
-- Jos asiakkaalla on **saldoa**, se näkyy laskutietojen alla. Saldoa voi lisätä asiakkaalle painamalla **Lisää saldoa** -painiketta
+ - Jos asiakkaalla on **saldoa**, se näkyy laskutietojen alla. <!--Saldoa voi lisätä asiakkaalle painamalla **Lisää saldoa** -painiketta -->
 
 ![Asiakaskortti - Laskutustiedot](/img/ohjeet/laskutustiedot.png)
 *Laskutiedoista pääset muokkaamaan asiakkaan maksu- ja laskutietoja tai lisäämään asiakkaan tilauksille toisen maksaja*
@@ -80,13 +80,13 @@ Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita t
 
 #### Saldon lisäys
 
-Saldoa voi lisätä asiakkaalle 
+Saldoa voi lisätä asiakkaalle seuraavilla tavoilla:
 
 1. **Maksetun tilauksen katkaisun yhteydessä**
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-lis4.png)
 
-2. **TAI lisäämällä saldoa manuaalisesti asiakaskortille, kun asiakas on maksanut etukäteen**
+<!-- 2. **TAI lisäämällä saldoa manuaalisesti asiakaskortille, kun asiakas on maksanut etukäteen**
 - Saldoa voi lisätä painamalla **Lisää saldoa** -painiketta asiakkaan laskutustiedoista
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis.png)
@@ -94,8 +94,8 @@ Saldoa voi lisätä asiakkaalle
 - Saldoa lisätessä voit kirjata kirjauspäivän, summan, lehden, sisäisen selitteen (ei näy asiakkaalle), ulkoinen selite (laskulle)
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis2.png)
-
-3. **TAI Virheellisten suorituksien käsittelyn yhteydessä painamalla Liikasuoritus ennakkomaksuksi -painiketta**
+ -->
+2. **TAI Virheellisten suorituksien käsittelyn yhteydessä painamalla Liikasuoritus ennakkomaksuksi -painiketta**
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis6.png)
 
@@ -113,7 +113,7 @@ Tiedot saldon käytöstä päivittyvät myös laskutustietoihin. Alla olevassa e
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis5.png)
 
-#### Saldon poistaminen
+<!-- #### Saldon poistaminen
 
 Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Poista**. Kun painat **Poista**, selain näyttää vahvistusviestin. Paina **OK**, jos haluat poistaa saldon. Saldo saattaa vielä näkyä asiakkaalla poistamisen jälkeen, mutta se poistuu näkyvistä, kun päivität sivun.
 
@@ -127,7 +127,7 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 ![Asiakastiedot](/img/ohjeet/saldo-poisto3.png)
 
-*Selain näyttää vahvistusviestin. Jos haluat poistaa saldon valitse OK*
+*Selain näyttää vahvistusviestin. Jos haluat poistaa saldon valitse OK* -->
 
 ### Markkinointitiedot
 
@@ -157,7 +157,7 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
     - **Käyttäjätunnus**–kenttään tallennetaan asiakkaan käyttäjännus, joka on aina asiakkaan **sähköposti**.
 
-    - **Liitoksen tyyppi** -kenttään valitaan onko käyttäjätunnus pääkäyttäjän vai alikäyttäjän (esim. perhetunnus) tunnus. Alikäyttäjällä on rajatummat oikeudet muuttaa tietoja OmaPalvelussa.
+    - **Liitoksen tyyppi** -kenttään valitaan onko käyttäjätunnus pääkäyttäjän vai alikäyttäjän (esim. perhetunnus) tunnus. Alikäyttäjällä on rajoitetummat oikeudet muokata tietoja OmaPalvelussa.
 
 ![Asiakaskortti - OmaPalvelu](/img/ohjeet/tunnuksen-luonti2.png)
 
@@ -167,7 +167,7 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 - **Lähetä salasanan resetointi –sähköposti** –painikkeesta lähetetään asiakkaalle viesti, jossa pyydetään antamaan uusi salasana.
 
-- **Lähetä kertakirjautumislinkki** -painikkeesta lähetään asiakkaalle viesti, joka sisältää kertakirjautumislinkin, jolla asiakas voi kerran 1 vuorokauden aikana kirjautua palveluun.
+- **Lähetä kertakirjautumislinkki** -painikkeesta lähetetään asiakkaalle viesti, joka sisältää kertakirjautumislinkin, jolla asiakas voi kirjautua palveluun yhden kerran 24 tunnin aikana.
 
 - **Kirjaudu OmaPalveluun** -painikkeesta voidaan kirjautua suoraan OmaPalveluun kyseisellä tunnuksella.
 
@@ -223,9 +223,9 @@ Lomakkeeseen lisätään:
 
 ### Tuleva osoitteenmuutos
 
-**Tuleva osoitemuutos** –osion kautta lisätään uusi osoite, jonka halutaan aktivoituvan tulevaisuudessa
-- Osoitteenmuutos astuu voimaan -kenttään merkitään päivä, mistä lähtien jakelun halutaan kohdistuvan uuteen vakiosoitteeseen
-- Ohjelma päivittää uuden osoitteen **automaattisesti** asiakaskortille, kun se aktivoituu
+**Tuleva osoitemuutos** –osion kautta lisätään uusi osoite, jonka halutaan astuvan voimaan tulevaisuudessa
+- **Osoitemuutos astuu voimaan** -kenttään merkitään päivä, mistä lähtien jakelun halutaan kohdistuvan uuteen vakiosoitteeseen
+- Ohjelma päivittää uuden osoitteen **automaattisesti** asiakaskortille, kun se tulee voimaan
 
 ![Asiakaskortti - Tuleva osoitteenmuutos](/img/ohjeet/osoitteenmuutos.png)
 *Asiakkaan vanha osoite vaihtuu automaattisesti asiakkaan tulevaan osoitteeseen määrättynä aktivointipäivänä.*
