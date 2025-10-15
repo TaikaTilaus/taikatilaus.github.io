@@ -118,7 +118,7 @@ Kun esimerkiksi muokkaat tuotteen hintaa (katso edellinen osio Tuoterivin muokka
 
 **Liitä suoritus** -painikkeella voit liittää suorituksen laskuun, johon se ei ole automaattisesti kohdentunut — esimerkiksi silloin, kun viitenumero on ollut virheellinen.
 
-Voit lukea lisää suorituksista [täältä](/ohjeet/yleiset_ominaisuudet/suoritukset)
+Voit lukea lisää suorituksista [täältä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)
 
 ![Laskut - Tuotteen käsittely](/img/ohjeet/laskut5.png)
 
@@ -549,7 +549,7 @@ Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätä
 Ennen muistutuslaskujen luontia tulee varmistaa, että mahdolliset **virhetilanteet on korjattu**.  
 Virheellisiä suorituksia löytyy:
 
-- **[Suoritukset](/docs/ohjeet/yleiset_ominaisuudet/suoritukset)** -välilehdeltä
+- **[Suoritukset](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)** -välilehdeltä
 - **[Tarkistusraporteilta Raportit -välilehdeltä](/docs/ohjeet/yleiset_ominaisuudet/raportit#tarkastusraportit)**  
 
 #### Muistutuslaskujen haku
