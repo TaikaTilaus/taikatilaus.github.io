@@ -4,74 +4,139 @@ sidebar_position: 2
 
 # Laskut ja laskutus
 
-Koko laskutusprosessin voi halutessaan **automatisoida** TaikaTilaus-ohjelmalla, mutta laskuja on myös mahdollista käsitellä ja lähettää manuaalisesti.
+Laskutusprosessin voi halutessaan **automatisoida** TaikaTilaus-ohjelmalla, mutta laskuja voi myös käsitellä ja lähettää manuaalisesti.
 
 ## Yleistä laskuista
 
 ### Yksittäisen asiakkaan laskujen käsittely
 
-Asiakkaan yksittäisiä laskuja pääsee muokkaamaan **Asiakastiedot**-näkymän **Laskut**-osiossa painamalla laskun **numeroa**. 
+Asiakkaan yksittäisiä laskuja voi muokata **Asiakastiedot**-näkymän **Laskut**-osiossa painamalla laskun **numeroa**. 
 
 ![Asiakastiedot - Laskut](/img/ohjeet/laskut1.png)
 
 ![Asiakastiedot - Laskut](/img/ohjeet/laskut4.png)
-*Laskun numeroa klikkaamalla aukeaa näkymä, josta näkyy kaikki laskun tiedot.*
+*Laskun numeroa klikkaamalla avautuu näkymä, josta näkyvät kaikki laskun tiedot.*
 
-Näet laskun muodon (lasku / hyvityslasku) ja tilan (avoin, erääntynyt, hyvitetty, hyvitys) laskun numeron vieressä.
+Näet laskun muodon (lasku/hyvityslasku) ja tilan (avoin, erääntynyt, hyvitetty, hyvitys) laskun numeron vieressä.
 
 ![Asiakaskortti](/img/ohjeet/lasku-muodot.png)
 
-Valitun yksittäisen laskun tietoja pääsee muokkaamaan joko **Kynä**-painikkeesta
+Laskun tietoja voi muokata **Kynä**-painikkeesta.
 
 1. **Laskun tietoja**
  
-Voit muuttaa:
-- laskun päivää
-- eräpäivää
-- maksuehtoa
-- huomautusaikaa
-- viivästyskorkoa
-- viitettä
-- laskun tyyppiä
-- tarkennetta
-- toimitustapaa
-- laskun lähetyspäivämäärää
-- lisätietoja
-    - ulkoiset lisätiedot tulostuvat laskulle
-    - sisäiset lisätiedot näkyvät vain järjestelmässä, eivät asiakkaalle
-- asettaa laskun perintäkieltoon
+Voit muuttaa seuraavia tietoja:
+- laskun päivämäärä
+- eräpäivä
+- maksuehto
+- huomautusaika
+- viivästyskorko
+- viite
+- laskun tyyppi ja tarkenne
+- toimitustapa (kirje, sähköposti, verkkolasku)
+- laskun lähetyspäivämäärä
+- lisätiedot
+    - **Ulkoiset lisätiedot** tulostuvat laskulle.
+    - **Sisäiset lisätiedot** näkyvät vain järjestelmässä, eivät asiakkaalle.
+- asettaa laskun perintäkieltoon aktivoimalla Perintä-kielto kentän
 
 2. **Maksajan tietoja**
 
+**Maksajan tietoja** -kohdassa voit muokata seuraavia tietoja:
+
+- sukunimi
+- etunimi
+- yritys
+- osasto
+- Y-tunnus
+- lähiosoite
+- postinumero
+- postitoimipaikka
+- maa
+- c/o-osoite
+- sähköpostiosoite
+- puhelinnumero
+- alennusprosentti
+- kuluttajan IBAN
+- kuluttajan BIC
+- yrityksen verkkolaskuosoite
+- yrityksen OVT-tunnus
+- yrityksen välittäjätunnus
+- laskutusviite tai sopimusnumero
+
+Lisäksi voit aktivoida Suoramaksu-kentän, jolloin laskusta muodostuu suoramaksulasku.
+
+**Hae maksajaa** -painikkeesta voit siirtää laskun toiselle asiakkaalle.
+Maksajalla tulee olla olemassa oleva asiakaskortti.
+
+**Lisää uusi maksaja** -painikkeesta kaikki maksajan tiedot tyhjenevät, ja voit lisätä uuden maksajan, jolla ei ole vielä asiakaskorttia.
+Kun olet täydentänyt tiedot ja tallentanut, ohjelma luo asiakaskortin uudelle maksajalle automaattisesti.
+
 ![laskun tiedot](/img/ohjeet/laskut2.png)
 
-tai sarakkeiden numeroita klikattaessa
-
 4. Tuotteiden tietoja (TuoteriviID)
+
+**Lisää tuote** -painikkeesta voit lisätä laskulle uuden tuotteen.
+
+Tuotteiden tietoja voi muokata painamalla **TuoteriviID**-sarakkeessa olevaa numeroa.
+
+Voit muokata tuotteen nimeä, lisätietoja ja hintaa.
+
+Tuotteen hintaa voi muuttaa antamalla halutun tuoterivin summan ja painamalla **Laske veroton hinta summasta** -painiketta, minkä jälkeen valitse **Laske**.
+
+Voit myös muokata **alennusprosenttia** ja **ALV-prosenttia**, jotka vaikuttavat laskentakaavaan.
+
+**Hae tilaustiedot** -painikkeesta voit hakea laskuun liittyvän tilauksen tiedot (tilausnumero, tilausjakso, lehden saaja) **Lisätiedot**-kenttään.
+
+**Lisätiedot**-kentän sisältö tulostuu asiakkaalle menevälle laskulle samalla tavoin kuin muutkin tuotetiedot.
 
 ![Laskut - Tuotteen käsittely](/img/ohjeet/laskut3.png)
 
 5. Tiliöinnin tietoja (TiliöintiID)
 
+Tiliöinnin tietoja voi muokata painamalla TiliöintiID-sarakkeessa olevaa numeroa.
+
+Voit muokata seuraavia tietoja:
+- Tili
+- Summa
+- Kirjauspäivä
+- TuoteriviID
+
+Muutosten jälkeen muista tallentaa tiedot ennen näkymästä poistumista.
+
+Tiliöinteihin ei yleensä tarvitse tehdä muutoksia, ellei kyseessä ole virheellinen suoritus, jota olet kirjaamassa järjestelmään.
+
+Kun esimerkiksi muokkaat tuotteen hintaa (katso edellinen osio Tuoterivin muokkaamisesta), se päivittyy automaattisesti tiliöinteihin.
+
+**Lisää tiliöinti laskulle** -painikkeesta voit lisätä uuden tiliöinnin laskulle.
+
+**Lisää tiliöinti suorituksella** -painikkeesta voit lisätä tiliöinnin suoritukselle, esimerkiksi silloin, kun maksettu summa poikkeaa laskun summasta ja erotus halutaan käsitellä kirjanpidollisesti, eikä periä asiakkaalta.
+- Tämä voi koskea esimerkiksi tilanteita, joissa asiakas on maksanut hieman liian vähän, mutta erotus on merkityksettömän pieni, tai joissa laskulla ollut maksumuistutusmaksu jää perimättä.
+- Mikäli laskulla ei ole suorituksia, **Lisää tiliöinti suoritukselle** -painiketta ei näytetä.
+
+**Lisää uusi suoritus** -painikkeesta voit lisätä manuaalisesti suorituksen laskulle, esimerkiksi silloin, kun asiakas on maksanut laskun toimistolla paikan päällä.
+
+**Liitä suoritus** -painikkeella voit liittää suorituksen laskuun, johon se ei ole automaattisesti kohdentunut — esimerkiksi silloin, kun viitenumero on ollut virheellinen.
+
+Voit lukea lisää suorituksista [täältä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)
+
 ![Laskut - Tuotteen käsittely](/img/ohjeet/laskut5.png)
 
-Tarvittaessa voi **hakea** tai **lisätä uuden** maksajan ja tuotteen, sekä **lisätä** yksittäisiä tiliöintejä ja suorituksia (esim. käteismaksu)
+#### **Laskun käsittelyyn** liittyvät toiminnot
 
-- Mikäli laskulla ei ole suorituksia, ei Lisää tiliöinti laskulle -painiketta näytetä
-- Laskutusajossa luotavien laskujen (tuoterivien) tiliöinnit (L) tehdään automaattisesti, mutta niitä voi tarvittaessa muuttaa (ennen laskun lähettämistä)
-- Tai **liittää** suorituksia, jotka eivät ole automaattisesti kohdentuneet pankkiaineiston käsittelyn yhteydessä (esim. viitevirheet)
+Seuraavilla toiminnoilla voit käsitellä ja hallita yksittäisiä laskuja:
 
-#### **Laskun käsittelyyn** liittyvät toiminnot ovat:
-
-- **Luo hyvityslasku** (**Poista hyvityslasku-liitos**, jos laskusta on jo tehty hyvityslasku)
-- **Luo Maksumuistutus #1** ja/tai **Luo Maksumuistutus #2** (jos lasku on erääntynyt)
-- **Luo laskusta kopio** - luo laskusta kopion kaikilla tiedoilla
-- **Luo laskusta kopio ilman maksajan tietoja**
-- **Tulosta lasku** - luo laskusta PDF:n, jonka voi sitten tulostaa 
-- **Lähetä lasku sähköpostilla** - voit lähettää laskun heti asiakastiedoissa olevaan sähköpostiosoitteeseen
-- **Siirrä lasku toiselle tilaukselle** - siirrä lasku toiselle tilaukselle antamalla sen tilausnumero
-- **Suoramaksuilmoitus** - voit lähettää laskusta ilmoituksen suoraveloituksella maksaville asiakkaille tai tulostaa ilmoituksen
-- **Luo maksun palautus** - toimintoa käytetään, kun maksettu lasku halutaan hyvittää ja **[saldo-ominaisuus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo)** on käytössä. Luo palautuslaskun koko laskun summasta ja asiakkaan tietoihin tiliöidään laskun summa palautettavaksi. Jos haluat hyvittää **vain osan laskusta**, esim. kun tilaaja katkaisee tilauksen ja halutaan laskuttaa vain toimitetut lehdet, käytä **[Maksetun tilauksen katkaisu](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksetun-tilauksen-katkaisu)** -toimintoa.
+- **Luo hyvityslasku** – painike näkyy, kun laskua ei ole vielä hyvitetty. Sen avulla voit luoda hyvityslaskun kyseisestä laskusta.
+- **Poista hyvityslasku-liitos **– painike näkyy, jos lasku on jo hyvitetty. Sen avulla voit poistaa olemassa olevan hyvityslaskun liitoksen.
+- **Luo maksumuistutus #1 ja/tai maksumuistutus #2** – luo maksumuistutus, jos lasku on erääntynyt.
+- **Luo laskusta kopio** – luo uuden laskun, joka sisältää kaikki alkuperäisen tiedot.
+- **Luo laskusta kopio ilman maksajan tietoja** – luo laskusta kopio, josta maksajan tiedot on poistettu.
+- **Tulosta lasku** – luo laskusta PDF-tiedosto, jonka voi tulostaa.
+- **Tulosta lasku LASKU-muodossa** – luo PDF-tiedoston, joka näyttää laskun sen alkuperäisessä muodossa, ennen maksumuistutuksia.
+- **Lähetä lasku sähköpostilla** – lähetä lasku asiakastiedoissa olevaan sähköpostiosoitteeseen.
+- **Siirrä lasku toiselle tilaukselle** – siirrä lasku toiseen tilaukseen antamalla sen tilausnumero.
+- **Suoramaksuilmoitus** – lähetä tai tulosta ilmoitus laskusta suoraveloitusasiakkaille.
+- **Luo maksun palautus** – käytetään, kun maksettu lasku halutaan hyvittää ja **[saldo-ominaisuus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo)** on käytössä. Luo palautuslaskun koko laskun summasta ja kirjaa summa asiakkaan tietoihin palautettavaksi.Jos haluat hyvittää vain osan laskusta (esim. tilaaja katkaisee tilauksen ja laskutetaan vain toimitetut lehdet), käytä **[Maksetun tilauksen katkaisu](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksetun-tilauksen-katkaisu)** -toimintoa.
 
 ![Laskut - Tuotteen käsittely](/img/ohjeet/laskut6.png)
 
