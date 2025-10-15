@@ -237,16 +237,17 @@ Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** 
 *Hyvityslaskun summa ja tiliöinnit ovat vastakkaisia kuin alkuperäisen laskun.*
 
 ### Osahyvityksen kirjaaminen laskun tiliöinteihin:
-- Alkuperäinen lasku 100,00 €, josta sovittu maksettavaksi 80,00 € kirjataan
-- Pankkia vastaava Kuittaustili (S) 20,00 €
-- Myyntisaamisiin (K) -20,00 € (kuittaa hyvityksen laskulta maksetuksi)
-- Maksamatta summaksi jää 80,00 €
-- ko. lasku lähetetään uudelleen asiakkaalle (Pankkisiirto-osassa näkyy Maksamatta summa)
+- Alkuperäinen lasku 80,00 €, josta sovittu maksettavaksi 20,00 € kirjataan
+- Pankkitilille (S) 0,00 €  
+- Myyntisaamisiin (K) -20,00 €
+- Kulutilille (T) -20,00 €
+- Maksamatta summaksi jää 60,00 €
+- kyseinen lasku lähetetään uudelleen asiakkaalle (laskun Pankkisiirto-osiossa näkyy Maksamatta summa)
 
-![Suoritukset](/img/ohjeet/suoritukset19.png)
+![Laskujen haku -välilehti](/img/ohjeet/osahyvitys.png)
 *Suorituksen kirjaaminen*
 
-![Suoritukset](/img/ohjeet/suoritukset20.png)
+![Laskujen haku -välilehti](/img/ohjeet/osahyvitys2.png)
 *Summa suorituksen kirjauksen jälkeen*
 
 ### Osasuorituksen kirjaaminen laskun tiliöinteihin:
