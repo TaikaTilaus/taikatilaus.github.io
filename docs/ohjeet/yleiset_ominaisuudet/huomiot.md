@@ -8,25 +8,40 @@ sidebar_position: 10
 
 ![Huomiot](/img/ohjeet/huomiot.png)
 
-**Huomiot**–välilehdellä näytetään toimenpiteitä, jotka sovelluksen käyttäjän tulee tarkastaa ja kuitata. Oletuksena näytetään käsittelemättömiä huomioita, mutta aktivoimalla **Näytä kaikki** -kentän, saat näkyviin myös kuitatut huomiot.
+**Huomiot**-välilehdellä näytetään toimenpiteet, jotka sovelluksen käyttäjän tulee tarkastaa ja kuitata.  
+Oletuksena näkymässä näytetään **käsittelemättömät huomiot**, mutta aktivoimalla **Näytä kaikki** -kentän, saat näkyviin myös kuitatut huomiot.
 
-Vasemmassa päävalikossa näytetään **käsittelemättömien lukumäärä.**
+Vasemman reunan päävalikossa näytetään käsittelemättömien huomioiden **lukumäärä**.
 
 ![Huomiot](/img/ohjeet/huomiot1.png)
 
-Yksittäisen huomion **numeroa** klikkaamalla pääsee katsomaan lisätietoja, lisäämään kommentteja ja kuittaamaan huomion käsitellyksi **Tallenna kuitatuksi** -painikkeella.
+## Yksittäisen huomion käsittely
 
-![Huomiot](/img/ohjeet/huomiot-esimerkki.png)
+Yksittäisen huomion **numeroa** klikkaamalla pääsee tarkastelemaan lisätietoja, lisäämään kommentteja ja kuittaamaan huomion käsitellyksi **Tallenna kuitatuksi** -painikkeella.
+
+![Huomioesimerkki](/img/ohjeet/huomiot-esimerkki.png)
 *Esimerkki vastaanotetusta huomiosta.*
 
-Usein riittää pelkkä käsitellyksi kuittaaminen (mm. lehden lukija muuttanut omia tietojaan), mutta uuden tilauksen käsittelyyn voi liittyä esimerkiksi tilaajalahjan toimittaminen
+Usein riittää pelkkä **käsitellyksi kuittaaminen** (esim. lehden lukija on muuttanut omia tietojaan), mutta joihinkin huomioihin voi liittyä erillisiä toimenpiteitä, kuten esimerkiksi tilaajalahjan toimittaminen uuden tilauksen yhteydessä.
+
+Joskus asiakkaat voivat kirjoittaa esimerkiksi **osoitetietonsa virheellisesti**.  
+Tällöin tieto täytyy **korjata manuaalisesti asiakaskortille**.  
+Virheen huomaa vertaamalla uutta osoitetta vanhaan:  
+muutokset asiakkaan tietoihin näytetään huomiossa muodossa  
+
+> vanha tieto → uusi tieto
+
+Esimerkiksi:
+
+> 00440 > 004409 (mutta osoite on muuten ennallaan)
+
+Tarkoittaa, että asiakas on vahingossa lisännyt postinumeroon yhden numeron liikaa, jolloin tieto pitää mennä korjaamaan asiakaskortille.
 
 ## Huomiot OmaPalvelua käytettäessä
 
-Asiakastietojen tarkat **lokitiedot muutoksista** kerätään OmaPalvelun kautta
+Asiakastietojen tarkat **lokitiedot muutoksista** kerätään **OmaPalvelun** kautta.  
+Jos OmaPalveluun kirjautunut käyttäjä muuttaa omia yhteystietojaan (sallittuja kenttiä), järjestelmä kirjaa lokille sekä **vanhan että uuden tiedon**.
 
-Jos OmaPalveluun **kirjautunut käyttäjä** esimerkiksi muuttaa omia yhteystietojaan, jotka ovat sallittuja muuttaa, kerätään lokille vanha ja uusi tieto.
+Näistä muutoksista muodostuu uusi **Huomio**, joka tulee tarkastaa **TaikaTilaus-ohjelmassa** tilaajarekisterin käyttäjän toimesta.
 
-Näistä muutoksista tulee uusi **Huomio**, joka tilaajarekisterin käyttäjän toimesta käydään tarkastamassa TaikaTilaus-ohjelmassa.
-
-- Tällä estetään mahdolliset turhat/virheelliset muutokset
+Tällä menettelyllä estetään mahdolliset **turhat tai virheelliset muutokset** asiakastietoihin.
