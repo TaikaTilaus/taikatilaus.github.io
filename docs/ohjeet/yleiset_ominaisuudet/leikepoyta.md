@@ -6,96 +6,103 @@ sidebar_position: 5
 
 ## Vienti leikepöydälle
 
-**Leikepöydälle**–painikkeen klikkauksen jälkeen ilmestyy uusi **Leikepöytä**-ikoni ohjelman yläpalkkiin (**Palaa**–ikonin viereen)
+**Leikepöydälle**-painikkeen klikkauksen jälkeen ilmestyy uusi **Leikepöytä**-ikoni ohjelman yläpalkkiin (**Palaa**-ikonin viereen).
 
 ![Etusivu - Vie leikepöydälle](/img/ohjeet/leikepyota1.png)
 
-**Leikepöytä**–välilehdellä voi tehdä erilaisia toimenpiteitä saman aikaisesti useammalle asiakkaalle, jotka käyttäjä on valinnut käsiteltäviksi esimerkiksi etusivun asiakaslistaukselta **Lisää leikepöydälle** –painikkeen avulla.
+**Leikepöytä**-välilehdellä voi tehdä erilaisia toimenpiteitä samanaikaisesti useammalle asiakkaalle, jotka käyttäjä on valinnut käsiteltäviksi esimerkiksi **Etusivun asiakaslistaukselta** painamalla **Lisää leikepöydälle** -painiketta.
 
 ![Leikepöytä](/img/ohjeet/leikepyota2.png)
 
-1. Oletuslistauksella näytetään ensin Valitsemattomien lista, josta voi siirtää asiakkaita valittujen listaan
-- Painamalla **Siirrä kaikki valittuihin** -nappia, mikä siirtää kaikki leikepöydällä olevat asiakkaat valituiksi
-- Painamalla + symbolia valittujen asiakkaiden kohdalla
-2. Asiakkaat voi poistaa leikepöydältä **Poista kaikki leikepöydältä** -painikkeesta
+1. Oletuslistauksella näytetään ensin **Valitsemattomien lista**, josta voi siirtää asiakkaita **Valittujen listaan**:
+   - Painamalla **Siirrä kaikki valittuihin** -painiketta, joka siirtää kaikki leikepöydällä olevat asiakkaat valituiksi
+   - Painamalla **+** -symbolia yksittäisen asiakkaan kohdalla
+
+2. Asiakkaat voi poistaa leikepöydältä painamalla **Poista kaikki leikepöydältä** -painiketta.
 
 ![Leikepöytä](/img/ohjeet/leikepyota3.png)
 
-Leikepöydän yksittäisen välilehden tiedot voi myös tyhjentää kokonaan pois käsittelystä **Poista kaikki leikepöydältä** -painikkeella
+Yksittäisen leikepöydän välilehden tiedot voi tyhjentää kokonaan käsittelystä painamalla **Poista kaikki leikepöydältä** -painiketta.
 
-Leikepöydän tiedot voi tarvittaessa palauttaa käsittelyyn poiston jälkeenkin **Palauta alkutilaan** -painikkeella
+Poiston jälkeen tiedot voi tarvittaessa palauttaa käsittelyyn **Palauta alkutilaan** -painikkeella.
 
-Leikepöydän kaikki tiedot molemmilta välilehdiltä voi tyhjentää **Tyhjennä leikepöytä** -painikkeella
+Kaikki leikepöydän tiedot molemmilta välilehdiltä voi tyhjentää kerralla painamalla **Tyhjennä leikepöytä** -painiketta.
 
 ![Leikepöytä](/img/ohjeet/leikepyota7.png)
 
 ## Näytettävät kentät
 
-1. Klikattaessa **Määritä näytettävät kentät** –painiketta, avautuu alle valikko, josta voi valita listaukselle näkyviin halutut tietosarakkeet
+1. Klikkaamalla **Määritä näytettävät kentät** -painiketta avautuu valikko, josta voi valita listaukselle näkyviin halutut tietosarakkeet.
 
 ![Leikepöytä](/img/ohjeet/leikepyota4.png)
 
-2. Klikattaessa **Hakuehdot**–painiketta, avautuu alle valikko, josta voi valita tarkempia hakukriteereitä
-- **Hakukenttä**-toiminnossa valitaan listassa haluttu kenttä johon haku kohdistetaan (esim. osoite)
-- **Hakuehto**–toiminnossa valitaan vertailutapa, jolla haun suodatus tehdään (esim. merkkijonossa merkit)
-- **Hakumerkkijono**–toiminnossa kirjoitetaan haettava merkkijono tai sen osa (esim. Helsinki)
+2. Klikkaamalla **Hakuehdot** -painiketta avautuu valikko, josta voi valita tarkempia hakukriteereitä:
 
-Painamalla **Hae ja siirrä löytyneet valittuihin** hakuehdon täyttäneet asiakkaat siirretään valittujen listaan. **Näytä löytyneet** -painiketta painamalla hakuehdon täyttävien asiakkaiden tiedot lihavoidaan. 
+   - **Hakukenttä**: valitaan listasta kenttä, johon haku kohdistetaan (esim. osoite)  
+   - **Hakuehto**: valitaan vertailutapa, jolla haun suodatus tehdään (esim. *merkkijonossa merkit*)  
+   - **Hakumerkkijono**: kirjoitetaan haettava merkkijono tai sen osa (esim. *Helsinki*)
+
+   Painamalla **Hae ja siirrä löytyneet valittuihin** hakuehdon täyttäneet asiakkaat siirretään valittujen listaan.  
+   Painamalla **Näytä löytyneet** -painiketta hakuehdon täyttävien asiakkaiden tiedot **lihavoidaan** listauksessa.
 
 ![Leikepöytä](/img/ohjeet/leikepyota5.png)
 
 ## Tietojen käsittely
 
-Leikepöytä-näkymässä voidaan käsitellä listauksille lisättyjä tietoja ja lähettää näille viestejä, sekä tulostaa Excel taulukkoon. Jatkotoimintojen painikkeet tulevat näkyviin vasta, kun jotain asiakastietoa on valittuna Valittujen listalla. 
-- **Lähetä sähköposti / Lähetä tekstiviesti**: Leikepöydällä oleville lähetetään viesti
-- **Luo Excel**: Leikepöydällä olevat tiedot tulostetaan taulukkoon
-- **Luo osoitetarrat**: Leikepöydällä olevien tiedot tulostetaan tarrapohjaan
-- **Lähetä kirje**: Leikepöydällä oleville lähetetään tulostettava viesti
+**Leikepöytä**-näkymässä voidaan käsitellä listaukselle lisättyjä tietoja, lähettää valituille asiakkaille viestejä sekä tulostaa tiedot Excel-taulukkoon. Jatkotoimintojen painikkeet tulevat näkyviin vasta, kun vähintään yksi asiakas on valittuna **Valittujen listalla**.
+
+- **Lähetä sähköposti / Lähetä tekstiviesti** – lähetetään viesti leikepöydällä oleville asiakkaille  
+- **Luo Excel** – tulostaa leikepöydällä olevat tiedot taulukkoon  
+- **Luo osoitetarrat** – tulostaa leikepöydällä olevien asiakkaiden tiedot tarrapohjaan  
+- **Lähetä kirje** – lähettää tulostettavan kirjeen leikepöydällä oleville asiakkaille  
 
 ![Leikepöytä](/img/ohjeet/leikepyota6.png)
 
-Valitut asiakkaat voi tarvittaessa kerralla siirtää pois **Valittujen lista** -välilehdeltä **Siirrä kaikki valitsemattomiin** -painikkeella. Yksittäisen asiakkan voi poistaa - symbolia painamalla.
+Valitut asiakkaat voi tarvittaessa siirtää kerralla pois **Valittujen lista** -välilehdeltä painamalla **Siirrä kaikki valitsemattomiin** -painiketta. Yksittäisen asiakkaan voi poistaa listalta **–** -symbolia painamalla.
 
 ### Sähköpostin lähetys
 
-Leikepöydän **Sähköpostin lähetys** -näkymässä voidaan lähettää sähköpostiviestejä
+**Leikepöydän Sähköpostin lähetys** -näkymässä voidaan lähettää sähköpostiviestejä valituille asiakkaille.
 
-Leikepöydältä valituille asiakkaille voi lähettää viestejä
-- Lisäämällä lähettäjän sähköpostiosoitteen
-- Ja viestin sisällön
+Leikepöydältä valituille asiakkaille voi lähettää viestejä:
 
-Näkymässä voidaan myös ajastaa viestien lähetysaika tulevaisuuteen (oletuksena kuluva aika, joka lähettää viestit heti)
+- Lisäämällä **lähettäjän sähköpostiosoitteen**  
+- Kirjoittamalla **viestin sisällön**
 
-Voit tehdä viestin myös HTML-muodossa.
+Näkymässä voidaan myös **ajastaa viestien lähetysaika** tulevaisuuteen (oletuksena kuluva aika, jolloin viestit lähetetään heti).  
+Viestin voi kirjoittaa myös **HTML-muodossa**.
 
-Viestin voi myös lähettää testilähetyksenä omaan sähköpostiosoitteesi, sisällön ja ulkoasun tarkastamiseksi.
+Ennen varsinaista lähetystä viestin voi lähettää **testilähetyksenä omaan sähköpostiosoitteeseen**, jotta sisällön ja ulkoasun voi tarkistaa etukäteen.
 
 ![Leikepöytä - Sähköpostin lähetys](/img/ohjeet/leikepoyta-email.png)
 *Esimerkki sähköpostista.*
 
 ### Tekstiviestien lähetys
 
-Leikepöydän **Tekstiviestien lähetys** -näkymässä voidaan lähettää tekstiviestejä
+**Leikepöydän Tekstiviestien lähetys** -näkymässä voidaan lähettää tekstiviestejä valituille asiakkaille.
 
-Leikepöydältä valituille asiakkaille voi lähettää viestejä
-- Lisäämällä Lähettäjän nimen (max. 11 merkkiä, ilman välilyöntejä) tai Matkapuhelinnumeron (max. 16 merkkiä)
-- Ja Viestin sisällön (max. 160 merkkiä), jonka käytettävissä olevien merkkien määrä näkyy alla olevassa laskurissa
+Leikepöydältä valituille asiakkaille voi lähettää viestejä:
 
-Viestien lähetysmäärää hallinnoidaan Asetuksissa
+- Lisäämällä **lähettäjän nimen** (max. 11 merkkiä, ilman välilyöntejä) tai **matkapuhelinnumeron** (max. 16 merkkiä)  
+- Kirjoittamalla **viestin sisällön** (max. 160 merkkiä) — käytettävissä olevien merkkien määrä näkyy alla olevassa laskurissa
+
+Viestien max. lähetysmäärää hallinnoidaan **Asetukset**-välilehdellä.
 
 ![Leikepöytä - sms](/img/ohjeet/leikepoyta-sms.png)
 *Esimerkki tekstiviestistä.*
 
 ### Osoitetarrojen luonti
-Leikepöydän **Osoitetarrojen luominen** -näkymässä voidaan tulostaa tarroja
-- Täydentämällä tarra-arkin mukaiset **lukumäärä- ja kokotiedot** kenttiin
-- **Piirrä kohdistusviivat** -valinnan aktivointi auttaa sijoittelun määrittelyssä
-- Tarvittaessa voi ensin **Luoda testiaineiston** sisällön kohdistumisen varmistamiseksi
+
+**Leikepöydän Osoitetarrojen luominen** -näkymässä voidaan tulostaa osoitetarroja seuraavasti:
+
+- Täydennä tarra-arkin mukaiset **lukumäärä- ja kokotiedot** kenttiin  
+- Aktivoi **Piirrä kohdistusviivat** -valinta, jos haluat apuviivat sijoittelun määrittelyyn  
+- Halutessasi voit ensin **luoda testiaineiston** sisällön kohdistumisen varmistamiseksi  
 
 ![Leikepöytä - Osoitetarrojen luominen](/img/ohjeet/leikepoyta-tarrat.png)
-*Muista tarkistaa tarrojen koot ja lukumäärä.*
+*Muista tarkistaa tarrojen koko ja lukumäärä ennen tulostusta.*
 
-Tarkasta tarrojen asettelu tulostamalla PDF:n ensimmäisen sivun. Jos korjattavaa, on muutettava asetuksia ja klikattava 'Luo tarrat' uudelleen.
+Tarkista tarrojen asettelu tulostamalla ensin **PDF:n ensimmäinen sivu**. Jos asettelu ei ole oikein, muuta tarvittavia asetuksia ja klikkaa **Luo tarrat** -painiketta uudelleen.
 
 ![PDF-osoitetarrat](/img/ohjeet/luodut-tarrat.png)
 
