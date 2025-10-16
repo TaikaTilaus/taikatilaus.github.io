@@ -8,53 +8,60 @@ sidebar_position: 6
 
 ![Raportit](/img/ohjeet/raportit.png)
 
-**Raportit**–välilehdellä koostetaan erilaisia raportteja sovelluksen tiedoista käyttäjän valitsemassa tulostusmuodossa.
+**Raportit**-välilehdellä koostetaan erilaisia raportteja sovelluksen tiedoista käyttäjän valitsemassa tulostusmuodossa.
 
-Raporttien painikkeen **?** -ikonista löytyy lisätietoja sen koostamiseen liittyen.
+Raporttien painikkeen **?**-ikonista löytyy lisätietoja raportin koostamiseen ja käyttötarkoitukseen liittyen.
 
-Valmiita raporttipohjia luodaan tarvittaessa **asiakaskohtaisesti** läpi käytyjen ja kunkin käyttäjän tarpeiden mukaisesti esimerkiksi
-- Kirjanpitoon
-- Laskutukseen
-- Tilausmääriin
-- Myyntimääriin liittyen
+Valmiita raporttipohjia voidaan tarvittaessa luoda **asiakaskohtaisesti** läpi käytyjen tarpeiden mukaisesti.  
+Raportteja voidaan tuottaa esimerkiksi:
+
+- **Kirjanpitoa** varten  
+- **Laskutukseen** liittyen  
+- **Tilausmääriä** varten  
+- **Myyntimääriä** varten
 
 ### Raportin hakukriteerien määrittely
 
 ![Raportit](/img/ohjeet/raportit2.png)
 
-**Raporttipohjan valinnan** jälkeen määritellään tarkemmat hakukriteerit tietojen listausta varten esimerkiksi
-- **syöttämällä** itse haluttu hakuaikavälin alku- ja loppupäivät
-- Raportin haluttu **tulostustapa** (näytölle, PDF-muotoon, taulukkoon)
-- **Kirjaisinkoko**, jolla voi esimerkiksi pienentää fonttia, mikäli haetut tiedot eivät mahdu siististi haetulle raportille
-- **Raportin ulkoasu** (ruudukolla tai ilman), jolla voi poistaa näkyvistä raportin taustataulukoinnin rajaviivat
-- muita valintoja **raporttikohtaisesti** (esimerkiksi laskun tila Maksamattomat tilaukset -raportissa)
+**Raporttipohjan valinnan** jälkeen määritellään tarkemmat hakukriteerit tietojen listausta varten.  
 
-**Tee raportti** –painike tuottaa varsinaisen raportin tulostustavan mukaisesti
-- Raportti ilmestyy näytölle
-- Ilmestyy linkki raportin lataamiseen Excel-taulukkoon
-- Ilmestyy linkki raportin lataamiseen PDF-tulosteeksi
+Näitä voivat olla esimerkiksi:
+
+- **Hakuaikaväli** – syötä itse halutut alku- ja loppupäivät  
+- **Tulostustapa** – valitse, tulostetaanko raportti näytölle, PDF-muotoon vai taulukoksi  
+- **Kirjaisinkoko** – voit pienentää fonttia, jos tiedot eivät mahdu siististi raportille  
+- **Raportin ulkoasu** – valitse, näytetäänkö raportti ruudukolla vai ilman taustataulukoinnin rajaviivoja  
+- Muut valinnat **raporttikohtaisesti** (esim. laskun tila *Maksamattomat tilaukset* -raportissa)
+
+**Tee raportti** -painike tuottaa varsinaisen raportin valitun tulostustavan mukaisesti:
+
+- Raportti avautuu **näytölle**  
+- Ilmestyy **linkki Excel-taulukkoon**  
+- Ilmestyy **linkki PDF-tulosteeseen**
 
 ![Raportit](/img/ohjeet/raportit7.png)
 
-**Näytä raportin kuvaus** -painikkeesta saat näkyviin lisätietoja raportin luomiseen liittyen.
+**Näytä raportin kuvaus** -painikkeella saa näkyviin lisätietoja raportin luomiseen ja sisältöön liittyen.
 
 ## Kirjanpidon raporttien kuvaukset
 
 ### Kirjanpitoyhteenveto
 
-**Kirjanpitoyhteenveto**-raportilla haetaan annetulla aikavälillä kirjatut tiliöintitapahtumat tileittäin tilin debet- ja kredit puolille sekä lasketaan näiden summat. Jos kirjanpidossa ei ole virheitä, debet- ja kredit-puolien summien tulisi olla yhtä suuret.
+**Kirjanpitoyhteenveto**-raportilla haetaan annetulla aikavälillä kirjatut tiliöintitapahtumat tileittäin, jaoteltuna tilin **debet**- ja **kredit**-puolille. Raportilla lasketaan näiden summat, ja jos kirjanpidossa ei ole virheitä, debet- ja kredit-puolien summien tulisi olla yhtä suuret.
 
 ![Raportit](/img/ohjeet/kirjanpitoyhteenveto.png)
 
 ### Vientiluettelo
 
-**Vientiluettelo**-raportilla näytetään kaikki tiliöintitapahtumat valitulta aikaväliltä ja ryhmitellään ne tileittäin. Raportilla näytetään myös tiliöintitapahtumaan liittyvä lasku ja laskun maksajan asiakasnumero.
+**Vientiluettelo**-raportilla näytetään kaikki tiliöintitapahtumat valitulta aikaväliltä, ja ne ryhmitellään tileittäin.  
+Raportilla näytetään myös tiliöintitapahtumaan liittyvä **lasku** ja **laskun maksajan asiakasnumero**.
 
 ![Raportit](/img/ohjeet/vientiluettelo.png)
 
 ### Laskupäiväkirja
 
-Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään niiden summa ja maksutiedot kuluvaan päivään verrattuna.
+**Laskupäiväkirja**-raportille haetaan annetulla aikavälillä päivätyt laskut, ja raportilla näytetään laskujen summat ja maksutiedot verrattuna kuluvaan päivään.
 
 ![Raportit](/img/ohjeet/laskupaivakirja.png)
 
@@ -66,13 +73,16 @@ Raportille haetaan annetulla aikavälillä päivätyt laskut, jotka sisältävä
 
 ### Laskupäiväkirja ilman maksutietoja
 
-Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään niiden summa, mutta ei näytetä maksutietoja.
+**Laskupäiväkirja ilman maksutietoja** -raportille haetaan annetulla aikavälillä päivätyt laskut.  
+Raportilla näytetään laskujen summat, mutta **maksutietoja ei esitetä**.
 
 ![Raportit](/img/ohjeet/laskupaivakirja2.png)
 
 ### Laskupäiväkirja tuoteriveillä
 
-Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään niiden summa, maksutiedot ja tuoterivit kuluvaan päivään verrattuna. Raportin lopussa esitetään eri tuotteiden summat yhteensä
+**Laskupäiväkirja tuoteriveillä** -raportille haetaan annetulla aikavälillä päivätyt laskut, ja raportilla näytetään laskujen summat, maksutiedot sekä **tuoterivit** kuluvaan päivään verrattuna.  
+
+Raportin lopussa esitetään **eri tuotteiden summat yhteensä**.
 
 ![Raportit](/img/ohjeet/laskupaivakirja3.png)
 
@@ -80,15 +90,24 @@ Raportille haetaan annetulla aikavälillä päivätyt laskut ja näytetään nii
 
 ### Reskontraluottelo
 
-Raportille haetaan laskut, joilla on tiliöintitapahtumia annetulla aikavälillä ja lasketaan näiden summat. Raportin lopussa esitetään reskontran alkusaldo, aikavälin laskutiliöinnit, aikavälin maksut (kuittaukset), aikavälin maksut (suoritukset) sekä reskontran loppusaldo löytyneiden kirjausten mukaan laskettuna.
+**Reskontraluettelo**-raportille haetaan laskut, joilla on tiliöintitapahtumia annetulla aikavälillä, ja lasketaan näiden summat.  
+Raportin lopussa esitetään:
+
+- **Reskontran alkusaldo**  
+- **Aikavälin laskutiliöinnit**  
+- **Aikavälin maksut (kuittaukset)**  
+- **Aikavälin maksut (suoritukset)**  
+- **Reskontran loppusaldo**, laskettuna löytyneiden kirjausten perusteella
 
 ![Raportit](/img/ohjeet/reskontra.png)
 
 ![Raportit](/img/ohjeet/reskontra2.png)
 
-### Maksutapahtumaluottelo
+### Maksutapahtumaluettelo
 
-Raportille haetaan aikavälillä tulleet suoritukset ja näytetään ne ryhmiteltyinä kirjauspäivän mukaan. Kirjauspäivien sisällä suoritukset ryhmitellään tileittäin. Raportin lopussa esitetään eri tilien summat. Huomaa, että suoritus pitää tiliöidä (kohdistaa laskulle), jotta suoritus näkyy suorituspäiväkirjalla.
+**Maksutapahtumaluettelo**-raportille haetaan annetulla aikavälillä tulleet **suoritukset**, jotka näytetään **ryhmiteltyinä kirjauspäivän mukaan**. Kunkin kirjauspäivän sisällä suoritukset ryhmitellään **tileittäin**, ja raportin lopussa esitetään eri tilien summat.
+
+> **Huom.** Suoritus on tiliöitävä (eli kohdistettava laskulle), jotta se näkyy **suorituspäiväkirjalla**.
 
 ![Raportit](/img/ohjeet/maksutapahtumaluettelo.png)
 
@@ -96,7 +115,11 @@ Raportille haetaan aikavälillä tulleet suoritukset ja näytetään ne ryhmitel
 
 ### Avoimet laskut
 
-Raportille haetaan kohdepäivänä maksamaton-tilassa olevat laskut. Raportilla huomioidaan laskujen kaikki maksusuoritukset kohdepäivää ennen ja kohdepäivänä. Maksetut laskut jätetään pois raportilta ja osasuoritukset huomioidaan maksamatta summassa. Tilinpäätöksessä (kalenterivuosi) kohdepäivänä on 31.12. jolloin huomioidaan kaikki suoritukset mitkä ovat tuleet ennen kello 23:59. Raportin lopussa näytetään asiakkaat (asiakasnumero ja nimi) ja kuinka paljon yksittäisillä asiakkailla on avoimia maksuja.
+**Avoimet laskut** -raportille haetaan kohdepäivänä **maksamaton**-tilassa olevat laskut. Raportilla huomioidaan laskujen kaikki maksusuoritukset, jotka on tehty **kohdepäivää ennen tai kohdepäivänä**. Maksetut laskut jätetään pois raportilta, ja **osasuoritukset** huomioidaan maksamatta olevassa summassa. 
+
+Tilinpäätöstä varten (esim. kalenterivuosi) kohdepäiväksi asetetaan **31.12.**, jolloin huomioidaan kaikki suoritukset, jotka ovat tulleet ennen klo **23:59**. 
+
+Raportin lopussa näytetään **asiakkaat (asiakasnumero ja nimi)** sekä se, kuinka paljon yksittäisillä asiakkailla on avoimia maksuja.
 
 ![Raportit](/img/ohjeet/avoimet-laskut.png)
 
@@ -104,19 +127,21 @@ Raportille haetaan kohdepäivänä maksamaton-tilassa olevat laskut. Raportilla 
 
 ### Laskut joissa ylisuoritus
 
-Raportille haetaan annetulla aikaväliltä laskut, joilla maksamatta summa alle 0 euroa (ylisuoritus). Ylisuorituksella tarkoitetaan suoritusta, joka on suurempi kuin laskun summa. 
+**Laskut, joissa ylisuoritus** -raportille haetaan annetulta aikaväliltä laskut, joiden **maksamatta oleva summa on alle 0 euroa** (ylisuoritus). Ylisuorituksella tarkoitetaan suoritusta, joka on **suurempi kuin laskun summa**.
 
 ![Raportit](/img/ohjeet/ylisuoritus.png)
 
 ### Laskujen kaikki tiedot
 
-**Laskujen kaikki tiedot** -raportilla listataan oikeellisten laskujen kaikki tiedot (asiakastiedot, tuotetiedot, summatiedot, tiliöinnit). Raportilla näytetään lisäksi myös tiedot puuttuvista tili-/tiliöintimäärityksistä Tilaus- & Myyntituotteissa, jos niitä on.
+**Laskujen kaikki tiedot** -raportilla listataan oikeellisten laskujen kaikki tiedot, kuten **asiakastiedot**, **tuotetiedot**, **summatiedot** ja **tiliöinnit**. Raportilla näytetään lisäksi myös tiedot **puuttuvista tili- ja tiliöintimäärityksistä** Tilaus- ja Myyntituotteissa, jos sellaisia on.
 
 ![Raportit](/img/ohjeet/raportit4.png)
 
 ### Suorituspäiväkirja
 
-Raportille haetaan aikavälillä kirjatut suoritukset tiliöinneille. Huomaa, että suoritus ei näy tällä raportilla, jos sitä ei ole tiliöity (suoritusta ei ole liitetty laskulle).
+**Suorituspäiväkirja**-raportille haetaan aikavälillä kirjatut **suoritukset tiliöinneille**.  
+
+> **Huom.** Suoritus on tiliöitävä (eli kohdistettava laskulle), jotta se näkyy **suorituspäiväkirjalla**.
 
 ![Raportit](/img/ohjeet/suorituspaivakirja.png)
 
