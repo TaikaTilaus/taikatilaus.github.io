@@ -147,20 +147,23 @@ Raportin lopussa näytetään **asiakkaat (asiakasnumero ja nimi)** sekä se, ku
 
 ### Suorituspäiväkirja myyntitilillä
 
-1. Haetaan laskut joissa on aikavälillä tiliöityjä suorituksia ja lajitellaan laskut kirjauspäivän mukaan.
-2. Käydään laskut läpi ja haetaan laskuun kohdistuvat tiliöinnit (ei myyntisaamiset MS)
-* Pankkiin kohdistuvat tiliöinnit (tiliöinnin tyyppi PA)
-* Myyntiin kohdistuvat tiliöinnit (tiliöinnin tyyppi MY)
-* ALV:hen kohdistuvat tiliöinnit (tiliöinnin tyyppi ALV)
-* Loput tiliöinnit (ei MS)
+1. Haetaan laskut, joissa on aikavälillä tiliöityjä suorituksia, ja lajitellaan laskut **kirjauspäivän mukaan**.  
+2. Käydään laskut läpi ja haetaan niihin kohdistuvat tiliöinnit (ei myyntisaamiset, **MS**):
 
-Jos pankkiin tullut summa on eri kuin muiden tiliöintien summa näytetään erotus punaisella.
+   - **Pankkiin** kohdistuvat tiliöinnit (tiliöinnin tyyppi **PA**)  
+   - **Myyntiin** kohdistuvat tiliöinnit (tiliöinnin tyyppi **MY**)  
+   - **ALV:hen** kohdistuvat tiliöinnit (tiliöinnin tyyppi **ALV**)  
+   - **Muut** tiliöinnit (ei **MS**)
+
+Jos pankkiin tullut summa on eri kuin muiden tiliöintien yhteissumma, **erotus näytetään punaisella**.
 
 ![Raportit](/img/ohjeet/suorituspaivakirja-tili.png)
 
 ### Laskujen tiliöinnit
 
-Raportille haetaan annetun aikavälin laskut sekä laskuihin liittyvät tiliöinnit. Raportilla voidaan rajata, minkä tilin/tilien laskuja haetaan. Voit valita näytetäänkö laskulla pelkästään valitun tilin tiliöinnit vai kaikki. Raportti summaa loppuun tilien debet ja kredit -puolet.
+**Laskujen tiliöinnit** -raportille haetaan annetun aikavälin laskut sekä niihin liittyvät **tiliöinnit**. Raportilla voidaan rajata, **minkä tilin tai tilien laskuja** haetaan. Voit valita, näytetäänkö laskulla pelkästään **valitun tilin tiliöinnit** vai **kaikki tiliöinnit**.
+
+Raportin lopussa summataan **tilien debet- ja kredit-puolet**.
 
 ![Raportit](/img/ohjeet/laskujen-tilioinnit.png)
 
@@ -168,7 +171,7 @@ Raportille haetaan annetun aikavälin laskut sekä laskuihin liittyvät tiliöin
 
 ### Luottotappiot
 
-Raportille haetaan luottotappioiksi kirjatut laskut. Luottotappio on myyjälle syntyvä tappio, joka syntyy, kun laskun saaja ei kykene maksamaan laskuaan.
+**Luottotappiot**-raportille haetaan laskut, jotka on kirjattu **luottotappioiksi**. Luottotappio tarkoittaa myyjälle syntyvää tappiota, joka syntyy silloin, kun laskun saaja **ei kykene maksamaan laskuaan**.
 
 ![Raportit](/img/ohjeet/luottotappiot.png)
 
@@ -178,57 +181,59 @@ Raportille haetaan luottotappioiksi kirjatut laskut. Luottotappio on myyjälle s
 
 ### Tilit ja tuotteet
 
-Raportille haetaan annetulle aikavälille kirjattuihin tiliöinteihin liittyvät tilit ja niihin liittyvät tuotteet.
+*Tilit ja tuotteet** -raportille haetaan annetulle aikavälille kirjattuihin **tiliöinteihin liittyvät tilit** ja niihin liittyvät **tuotteet**.
 
 ![Raportit](/img/ohjeet/tilit-ja-tuotteet.png)
 
 ### Kaikki tiliöinnit
 
-Raportilla näytetään kaikki tiliöinnit aikajärjestyksessä, uusin ylinnä. Raporttia voi käyttää uusien maksujen tiliöintien tarkastamiseen.
+**Kaikki tiliöinnit** -raportilla näytetään kaikki tiliöinnit **aikajärjestyksessä**, uusin ylinnä. Raporttia voidaan käyttää **uusien maksujen tiliöintien tarkastamiseen**.
 
 ![Raportit](/img/ohjeet/tilioinnit.png)
 
 ### Ennakkomaksut-tili
 
-**Raportit**-välilehdeltä löydät raportin **Ennakkomaksut-tili**, jolta näet Ennakkomaksutilin (saldotili) tapahtumat ja saldon kohdepäivänä.
-
-![Asiakaskortti - Laskutiedot](/img/ohjeet/ennakkomaksut.png)
+**Ennakkomaksut-tili** –raportille haetaan annetun aikavälin **Ennakkomaksutilin (saldotilin)** tapahtumat ja saldo kohdepäivänä. Raportilla näytetään kaikki tiliöinnit, jotka liittyvät asiakkaiden ennakkomaksuihin.
 
 Raportilla näkyy:
-- saldotiliin liittyvät tiliöinnit (lisäys tilille on miinusmerkkinen - , ja saldon käyttö on plussamerkkinen +)
-- kirjauspäivät
-- summat
-- laskun numerot
-- asiakasnumerot
-- asiakkaan tiedot
-- tiliöintien määrät ja summan yhteensä per asiakas
-- yhteenvedon raportin lopussa
+
+- saldotiliin liittyvät tiliöinnit (lisäys tilille on miinusmerkkinen –, saldon käyttö plussamerkkinen +)
+- kirjauspäivät  
+- summat  
+- laskun numerot  
+- asiakasnumerot  
+- asiakkaan tiedot  
+- tiliöintien määrät ja summat yhteensä per asiakas  
+
+Raportin lopussa esitetään **yhteenveto** tiliöintien kokonaismääristä ja summista.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/ennakkomaksut3.png)
 
 ### Maksun palautukset
 
-**HUOM! ETTÄ RAHANPALAUTUS TILIÖITYY OIKEIN, PITÄÄ RAHANPALAUTUKSET KÄSITELLÄ TÄLLÄ RAPORTILLA.**
+> **HUOM!** Jotta rahapalautus **tiliöityy oikein**, tulee kaikki palautukset käsitellä tällä raportilla.
 
-**Raportit**-välilehdeltä löydät raportin **Maksun palautukset**, millä listataan asiakkaille tehtävät palautukset. Raportilta voi kuitata palautetuiksi summia, jonka jälkeen ne eivät enää näy raportilla (ellet erikseen valitse niitä näkyviksi) ja ne tiliöityvät oikein.
+**Maksun palautukset** –raportille haetaan asiakkaille tehtävät rahapalautukset. Raportilla näkyvät palautettavat summat voidaan kuitata käsitellyiksi, jolloin ne eivät enää näy raportilla (ellet erikseen valitse käsiteltyjä summia näkyviin). Samalla palautukset tiliöityvät oikein kirjanpidossa.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti.png)
 *Raportti löytyy kirjanpidon raporteista.*
 
-Raportin määrityksistä voit valita:
-- Näkyvätkö jo käsitellyt palautukset raportilla
-- Aikavälin, jolta haetaan palautettavia summia
-- Tulostusmuodon (Näytölle, Excel, PDF)
-- Kirjaisinkoon
-- Raportin ulkoasun (ruudukolla tai ilman)
+Raportin määrityksistä voidaan valita:
+
+- Näkyvätkö jo käsitellyt palautukset raportilla  
+- Aikaväli, jolta haetaan palautettavia summia  
+- Tulostusmuoto (Näytölle, Excel, PDF)  
+- Kirjaisinkoko  
+- Raportin ulkoasu (ruudukolla tai ilman)
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti2.png)
 
-Kun raportti on tulostettu näytölle, voit käsitelle yksittäisiä palautuksia (esimerkin raportissa näkyy myös ennakkomaksut).
+Kun raportti on tulostettu näytölle, voidaan käsitellä yksittäisiä palautuksia.
 
-Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **TiliöintiID**, kopiomalla sen raportin alla olevaan kenttään (TiliöintiID) voit:
-- Kuitata summan käsitellyksi (palautus on tehty asiakkaalle), jolloin se poistuu raportilta, ellet raportin määrityksistä aseta käsiteltyjä summia näkyviksi
-    - **Kuittaa käsitellyksi** -toiminto palauttaa kyseisen summan (-) pankkiin (pankkitilin tiliöinti) sekä tiliöi summan pois palautusten tililtä (+).
+Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen yksilöllinen **TiliöintiID**. Kopioimalla sen raportin alla olevaan **TiliöintiID**-kenttään **ja painamalla Siirry palautuksen käsittelyyn** -painiketta voit:
+
+- **Kuitata summan käsitellyksi**, kun palautus on tehty asiakkaalle, jolloin se poistuu raportilta, **ellet raportin määrityksistä aseta käsiteltyjä summia näkyviksi**  
+  → **Kuittaa käsitellyksi** -toiminto palauttaa summan (-) pankkitilille ja tiliöi sen pois palautusten tililtä (+)
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti3.png)
 
@@ -238,11 +243,12 @@ Raportin ensimmäisessä sarakkeessa näkyy jokaisen palautuksen uniikki **Tili�
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti6.png)
 
-*Painamalla Kuittaa palautus käsitellyksi -painiketta, luot palautuksen tiliöinnit ja merkitset palautuksen käsitellyksi, jolloin se poistuu raportilta.*
+*Painamalla **Kuittaa palautus käsitellyksi** -painiketta luot palautuksen tiliöinnit ja merkitset sen käsitellyksi. Palautus poistuu raportilta.*
 
-- muokata tiliöinnin 
-    - lisätietoja
-    - tilinumeroa, mihin palautus tehdään
+Palautuksen tietoja voidaan myös muokata **kopioimalla TiliöintiID raportin alla olevaan kenttään** ja painamalla **Muuta tietoja** -painiketta. Voit muokata:
+
+- Tiliöinnin lisätietoja  
+- Tilinumeroa (asiakkaan), jolle palautus tehdään  
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti4.png)
 
