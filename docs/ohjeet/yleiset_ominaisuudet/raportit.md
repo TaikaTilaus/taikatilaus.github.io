@@ -181,7 +181,7 @@ Raportin lopussa summataan **tilien debet- ja kredit-puolet**.
 
 ### Tilit ja tuotteet
 
-*Tilit ja tuotteet** -raportille haetaan annetulle aikavälille kirjattuihin **tiliöinteihin liittyvät tilit** ja niihin liittyvät **tuotteet**.
+**Tilit ja tuotteet** -raportille haetaan annetulle aikavälille kirjattuihin **tiliöinteihin liittyvät tilit** ja niihin liittyvät **tuotteet**.
 
 ![Raportit](/img/ohjeet/tilit-ja-tuotteet.png)
 
