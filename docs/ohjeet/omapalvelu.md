@@ -6,29 +6,33 @@ sidebar_position: 6
 
 ## Kertakirjautuminen
 
-OmaPalveluun kirjaudutaan tyypillisesti palvelun käyttäjäyrityksen määrittelemällä osoitteella esim. https://omataika.taikatilaus.fi.
+**OmaPalveluun** kirjaudutaan tyypillisesti palvelun käyttäjäyrityksen määrittelemällä osoitteella, esimerkiksi `https://omataika.taikatilaus.fi`.
 
 ![Suoritukset](/img/omapalvelu/1.png)
 
-Asiakas voi yksinkertaisimmillaan kirjautua sisään **Kertakirjautuminen**–painikkeen kautta antamalla oman sähköpostiosoitteensa ja tilaamalla sisäänkirjautumislinkin **Tilaa linkki** -painikkeesta
+Asiakas voi kirjautua sisään **Kertakirjautuminen**–painikkeen kautta antamalla oman sähköpostiosoitteensa ja tilaamalla sisäänkirjautumislinkin **Tilaa linkki** –painikkeella.
 
 ![Suoritukset](/img/omapalvelu/2.png)
 
-Mikäli asiakkaan sähköposti löytyy järjestelmästä ja se on yksilöllinen, sisäänkirjaus onnistuu.
+Jos asiakkaan sähköpostiosoite löytyy järjestelmästä ja on yksilöllinen, sisäänkirjautuminen onnistuu.
 
 ## Kirjautuminen tunnuksella
 
-Aiemmin käyttämällään tunnuksellaan (esim. Asiakasnumero) asiakas voi kirjautua syöttämällä sen tiedot **Käyttäjätunnus/Sähköposti** ja **Salasana**–kenttiin
+Jos asiakas on luonut OmaPalveluun tunnuksen (tunnus on aina sähköposti) hän voi kirjautua syöttämällä tiedot **Käyttäjätunnus/Sähköposti** ja **Salasana** –kenttiin.
 
-- Asiakaskortilla oltava **pakolliset tiedot**: Etunimi, Sukunimi, Asiakasnumero ja Sähköpostiosoite
+- Asiakaskortilla on oltava seuraavat **pakolliset tiedot**: Etunimi, Sukunimi, Asiakasnumero ja Sähköpostiosoite.
 
-Taikatilaus-ylläpitäjä voi myös **luoda tunnuksen** asiakkaalle tämän asiakaskortilla. Hallintakäyttäjän ylläpito-ohjeet tunnuksen salasanaa varten löytyvät <a href="https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#omapalvelu">täältä.</a>
+TaikaTilaus-ylläpitäjä voi myös **luoda tunnuksen** asiakkaalle tämän asiakaskortilla. Hallintakäyttäjän ohjeet salasanan määrittämiseen löytyvät [täältä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#omapalvelu).
 
-Uudelle asiakkaalle lähetetään tunnuksen aktivoitumisesta viesti, kun tilauksesta lähetetty lasku on maksettu.
+Uudelle asiakkaalle lähetetään viesti tunnuksen aktivoitumisesta, kun tilaukseen liittyvä lasku on maksettu.
 
-Mikäli yrityksen sivustolla on käytössä oma rekisteröinti-/kirjautumislomake, voidaan sen nettiosoite linkittää OmaPalveluun **Rekisteröidy OmaPalvelun käyttäjäksi** –linkin taakse
+Jos yrityksen sivustolla on käytössä oma rekisteröinti- tai kirjautumislomake, sen nettiosoite voidaan linkittää OmaPalveluun **Rekisteröidy OmaPalvelun käyttäjäksi** –linkin taakse.
 
-Palvelusta kirjaudutaan ulos avaamalla oikean reunan sivupalkki ja painamalla **Kirjaudu ulos** -painikkeesta.
+![OmaPalvelu](/img/omapalvelu/kirjautuminen.png)
+
+## Kirjautuminen ulos
+
+Palvelusta kirjaudutaan ulos avaamalla oikean reunan sivupalkki ja painamalla **Kirjaudu ulos** –painiketta.
 
 ![OmaPalvelu](/img/omapalvelu/3.png)
 
