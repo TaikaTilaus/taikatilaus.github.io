@@ -18,7 +18,7 @@ Tilausjaksoa voidaan hyvittää esimerkiksi silloin, kun asiakkaalla on ollut ja
 
 ![3. Tilaustiedot](/img/pikaohjeet/hyvita-tilausjakso.png)
 
-### 4. Aseta tilauksella uusi loppuaika. Voit myös muuttaa seuraavalle laskulle tulevaa tekstiä. Tallenna.
+### 4. Aseta tilauksella uusi loppuaika. Voit myös muuttaa seuraavalle laskulle tulevaa tekstiä. ÄLÄ MUUTA [LOPPUAIKA]-tekstiä. Ohjelma laittaa sen automaattisesti laskulle. Tallenna.
 
 ![4. Tilaustiedot](/img/pikaohjeet/hyvita-tilausjakso2.png)
 
