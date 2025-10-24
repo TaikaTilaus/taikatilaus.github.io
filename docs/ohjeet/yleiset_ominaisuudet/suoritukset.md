@@ -6,6 +6,30 @@ sidebar_position: 3
 
 ## Yleistä suorituksista
 
+### Suoriteperusteinen kirjanpito
+
+Palvelussa käytetään **Suoriteperusteista kirjapitoa**, jossa kulut ja tulot kirjataan kirjanpitoon sen mukaan milloin kulut syntyvät eli **laskupäivän perusteella**
+
+- esim. myyntilasku, joka tehdään tammikuun lopussa ja maksetaan maaliskuun alussa
+- Tämä myynti näkyy tuloslaskelmassa suoriteperusteisesti tammikuussa (eikä maaliskuussa kuten maksuperusteisesti)
+
+Suoriteperusteisessa kirjanpidossa kulu kirjataan
+
+- laskupäivän mukaan **kulutilin debitteihin** ja **ostovelkojen kreditteihin**
+- Myöhemmin, **kun lasku maksetaan** kirjaus menee **pankkitilin kreditteihin ja ostovelkojen debitteihin**
+- Maksun yhteydessä ostovelat siis nollautuvat
+
+**Myyntien** osalta kirjaukset menevät samalla logiikalla, mutta **debitit ja kreditit ovat päinvastaiset**
+
+- Myyntilasku kirjataan laskun päivämäärän mukaan kredittiin (esim. 1502 Lehtitilaussaamiset TaikaVakka) ja myyntisaamisten (saamiset asiakkailta) debittiin (esim. 30090 Suomi vuositilaus TaikaVakka alv 10% ja 2470 Myynnin 10% ALV-velka)
+- Myöhemmin, kun asiakas suorittaa laskun pankkitilille, kirjaus menee pankkitilin debittiin (esim. 1710 Nordea) ja myyntisaamisten kredittiin (esim. 1502 Lehtitilaussaamiset TaikaVakka)
+- Suorituksen yhteydessä myyntisaamiset siis nollautuvat
+
+![Suoritukset esimerkki](/img/ohjeet/tiliointi.png)
+*Esimerkki suorituksista*
+
+### Suoritukset-välilehti
+
 ![Suoritukset](/img/ohjeet/suoritukset.png)
 
 **Suoritukset**–välilehdellä tarkastellaan sovellukseen tulevia maksuja. Suorituksia voi myös itse luoda esim. tilanteessa, jossa asiakas on maksanut laskun paikan päällä käteisellä, **Lisää suoritus** –painikkeen avulla yksittäisissä laskuissa. 

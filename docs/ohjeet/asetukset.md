@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Käytön yhteydessä hyödynnetään tiettyjä yleisiä perustietoja, joiden määrityksiä käytetään oletuksena eri toiminnoissa.
 
-Vasemmasta valikosta klikataan **Asetukset**–linkkiä, niin saadaan näkymä, jossa sovelluksen perustietoja voi luoda/muokata.
+Vasemmasta valikosta klikataan **Asetukset**–linkkiä, jolloin avautuu näkymä, jossa sovelluksen perustietoja voi luoda ja muokata.
 
 ![Asetukset - välilehti](/img/ohjeet/asetukset.png)
 *Asetukset-välilehti päävalikossa*
@@ -22,7 +22,7 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 
 ### Yleistietoa
 
-**Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja, ja **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. Autolehti Kestotilaus 12 kk).
+**Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja sekä **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. *Autolehti Kestotilaus 12 kk*).
 
 **Tuotelistauksessa** on tuotteista seuraavat tiedot:
 
@@ -39,106 +39,126 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 - tuotteen mahdolliset **lisätiedot**
 - **TuoteID**
 - **Tilaustyyppi**
-- **Jatkotuote ID**
+- **Jatkotuote ID** - sen tuotteen ID, jolla esim. tarjoustuotteen tilausta jatketaan
 - **PortalID**
-- **Piilotettu-sarake**, josta näkee onko tuote aktiivinen vai piilotettu.
+- **Piilotettu**-sarake, josta näkee, onko tuote aktiivinen vai piilotettu
 
 Tuotteita lisätään painamalla **Lisää tilaustuote** –painiketta. Jo valmiiksi olemassa olevia tuotteita pääset muokkaamaan painamalla **tuotenumeroa**.
 
 ![Tilaustuotteet-näkymä](/img/ohjeet/asetukset3.png)
-*Tilaustuotteet-välilehdeltä voit mm. hakea ja muokata olemassa olevia tuotteita, tai lisätä uuden tuotteen.*
+*Tilaustuotteet-välilehdeltä voit mm. hakea ja muokata olemassa olevia tuotteita tai lisätä uuden tuotteen.*
 
 Taulukon sarakkeiden **otsikoita** klikkaamalla voi tiedot järjestää uudelleen (esim. aakkosjärjestyksessä tai pienimmästä suurimpaan).
 
 ### Tuotteiden haku
 
-Oletuksena välilehti näyttää **kaikki aktiiviset tuotteet** (Piilotetut tuotteet saa näkyviin listaukseen aktivoimalla **Näytä piilotetut**-kentän, joka sijaitsee Hae-nappulan vieressä.)
+Oletuksena välilehti näyttää **kaikki aktiiviset tuotteet**. Piilotetut tuotteet saa näkyviin listaukseen aktivoimalla **Näytä piilotetut** -kentän, joka sijaitsee **Hae**-painikkeen vieressä.
 
 Olemassa olevia **tuotteita voi hakea** valitsemalla hakukriteerin ja syöttämällä hakuehdon sille tarkoitettuun kenttään.
 
-**Esimerkki**: haet tuotteita, jotka ovat kestotilauksia.
+**Esimerkki:** Haet tuotteita, jotka ovat kestotilauksia:
 
-- Valitse sopiva **hakukriteeri**
-- Kirjoita "kestotilaus" **Hakuehto**-kenttään
-- Paina **Hae**
-ja saa tuotelistauksen näkyviin kaikista kestotilaustuotteista.
+1. Valitse sopiva **hakukriteeri**  
+2. Kirjoita *kestotilaus* **Hakuehto**-kenttään  
+3. Paina **Hae**
+
+Näet tuotelistauksen kaikista kestotilaustuotteista.
 
 ![Tilaustuotteet - tuotteiden hakeminen](/img/ohjeet/asetukset2.png)
 
-Klikkaamalla aktiiviseksi **Näytä osamaksuhinnat** -kentän haun yhteydessä, saat tuotelistaukseen näkyviin tuotteiden osamaksuhinnat eri erissä, jos ne on erikseen määritelty.
+Klikkaamalla aktiiviseksi **Näytä osamaksuhinnat** -kentän haun yhteydessä saat tuotelistaukseen näkyviin tuotteiden osamaksuhinnat eri erissä, jos ne on erikseen määritelty.
 
 ![Tilaustuotteet - Näytä osamaksuhinnat](/img/ohjeet/tilaustuotteet-osamaksu.png)
 
-Klikkaamalla aktiiviseksi **Laske voimassa olevat tilaukset** -kentän haun yhteydessä, laskee ohjelma uuteen kenttään kaikki yksittäisten tuotteiden voimassa olevat tilaukset.
+Klikkaamalla aktiiviseksi **Laske voimassa olevat tilaukset** -kentän haun yhteydessä laskee ohjelma uuteen kenttään kaikkien yksittäisten tuotteiden voimassa olevat tilaukset.
 
 ![Tilaustuotteet - Lasku voimassa olevat tilaukset](/img/ohjeet/tilaustuotteet-voimassa.png)
 
 ### Tuotteen lisääminen tai muokkaaminen
 
-Olemassa olevan tuotteen käsittelylomake ja Tuotteen lisääminen -lomake näyttävät samoilta. Niiden tietoja lisäämällä/muokkaamalla, voi tuotteiden tietoja hallita.
+Olemassa olevan tuotteen käsittelylomake ja **Tuotteen lisääminen** -lomake näyttävät samoilta. Niiden tietoja lisäämällä tai muokkaamalla voi tuotteiden tietoja hallita.
 
-Lomakkeelle lisätään/muokataan **tuotteen perustietoja**, kuten
+Lomakkeelle lisätään tai muokataan **tuotteen perustietoja**, kuten:
 
-- mihin **Tuoteryhmään** ja **Kampanjaan** tuote kuuluu
-- asiakkaille näkyvä **tuotenimi**, joka näkyy esim. lehden tilauslomakkeella tai laskussa. Jos tämä kenttä on tyhjä, käytetään oletuksena tuotenimeä.
-- **Hinta** ja **Tili** -tiedot
-- **Tilaustyyppi** ja **Kesto**
-- **Digitiedot** (esim. lehden digitaalisuus)
-- Tuotteen **käyttöajat**
+- mihin **Tuoteryhmään** ja **Kampanjaan** tuote kuuluu  
+- asiakkaille näkyvä **tuotenimi**, joka näkyy esimerkiksi lehden tilauslomakkeella tai laskussa  
+  - jos tämä kenttä on tyhjä, käytetään oletuksena tuotteen sisäistä nimeä  
+- **Hinta**- ja **Tili**-tiedot  
+- **Tilaustyyppi** ja **Kesto**  
+- **Digitiedot** (esim. lehden digitaalisuus)  
+- tuotteen **käyttöajat**
 
 ### Lomakkeeseen lisättävät tiedot
 
 - **TuoteID**: jokaisella tuotteella on ohjelman automaattisesti luoma TuoteID.
-- **Tuotenumero**-kenttään lisätään tuotenumero, joka auttaa mm. tuotteiden ryhmittelyssä
-- **Tuoteryhmä**-kenttään lisätään mihin tuoteryhmään tuote kuuluu (esim. jos tilaustuotteena on lehti, laitetaan lehden nimi tähän kohtaan)
-- **Kampanja**-kenttään voi lisätä mihin kampanjaan tuote kuuluu, jos mihinkään.
-- **Tuotenimi**-kenttään laitetaan tuotteen sisäinen tuotenimi (esim. Kestotilaus III; Määräaikainen, digi)
-- **Ulkoinen tuotenimi**-kentässä määritellään, miltä tuotenimi näyttää (esim. tilauslomakkeella tai laskussa) asiakkaalle, joka tilaa lehteä.
-- **Lisätiedot**-kenttään voi kirjata tuotteelle tärkeitä lisätietoja, joita haluat muiden käyttäjien tietoon.
+- **Tuotenumero**-kenttään lisätään tuotenumero, joka auttaa mm. tuotteiden ryhmittelyssä.
+- **Tuoteryhmä**-kenttään lisätään, mihin tuoteryhmään tuote kuuluu (esim. jos tilaustuotteena on lehti, laitetaan lehden nimi tähän kohtaan).
+- **Kampanja**-kenttään voi lisätä, mihin kampanjaan tuote kuuluu, jos mihinkään.
+- **Tuotenimi**-kenttään laitetaan tuotteen sisäinen tuotenimi (esim. *Kestotilaus III; Määräaikainen, digi*).
+- **Ulkoinen tuotenimi**-kentässä määritellään, miltä tuotenimi näyttää asiakkaalle (esim. tilauslomakkeella tai laskussa).
+- **Lisätiedot**-kenttään voi kirjata tuotteelle tärkeitä lisätietoja, jotka haluat muiden käyttäjien tietoon.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen.png)
 
-- **Hinta veroton, ALV prosentti ja Hinta verollinen** –kentissä määritellään tuotteelle oletushintatiedot, joita voi tarvittaessa myös muuttaa tilauksen luomisen jälkeen.
-- **Hinta veroton** -tieto on aina oltava viidellä (5) desimaalilla, jonka ohjelma pyöristää automaattisesti laskua luotaessa.
-- Veroton/verollinen hintoja voi uudelleenlaskea syötettyjen tietojen avulla **Laske veroton hinta verollisesta / Laske verollinen hinta uudelleen** -painikkeita painamalla.
-- **Erämaksut**: Jos lasku maksetaan erissä, yleensä ohjelma laskee erien hinnat automaattisesti, mutta erien hinnat voi myös erikseen määritellä tähän lomakkeeseen ne täyttämällä.
+- **Hinta veroton**, **ALV-prosentti** ja **Hinta verollinen** –kentissä määritellään tuotteelle oletushintatiedot, joita voi tarvittaessa muuttaa tilauksen luomisen jälkeen.
+- **Hinta veroton** -tiedon on aina oltava viidellä (5) desimaalilla. Ohjelma pyöristää sen automaattisesti laskua luotaessa.
+- Verottomia ja verollisia hintoja voi laskea uudelleen syötettyjen tietojen perusteella **Laske veroton hinta verollisesta** / **Laske verollinen hinta uudelleen** -painikkeita painamalla.
+- **Erämaksut:** Jos lasku maksetaan erissä, ohjelma laskee erien hinnat yleensä automaattisesti, mutta ne voi myös määritellä erikseen tähän lomakkeeseen.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen2.png)
 
-- **Tilaustyyppi** tarvitaan, mikäli tuotteen tilaus halutaan jaettavaksi postitse. Postituslistalle kerätään VAIN Kesto- ja Määräaikaiset tilaukset. Jos halutaan, että ko. tuote EI NOUSE postituslistalle, valitaan tyypiksi Ei määritelty (esim. jos lehti ilmestyy digitaalisena). Määräaikaisen tarjoustuotteen Tilaustyyppi tulee olla Kesto, mikäli tuote halutaan nousevan automaattisesti jatkettavien tilausten Kestojatko-listalle.
-- **JatkotuoteID** –tieto kertoo esim. tarjoustuotteella sen tuotteen ID-numeron, jolla tilausta jatketaan automaattisesti tarjousajan päätyttyä (esim. normaali Kestotilaus). 
-- **Tilauksen kesto** –kentässä määritellään tuotteen pituus oletuksena kuukausissa.
-    - Keston yksikön voi tarvittaessa muuttaa valikosta, jossa vaihtoehtoina päivä/viikko/vuosi.
-    - Kaikissa Kestotilaustyyppisissä tuotteissa pituuden on oltava joku muu kuin 0, sillä muuten ne eivät nouse automaattiseen Kestojatko-ajoon mukaan.
+- **Tilaustyyppi** tarvitaan, mikäli tuotteen tilaus halutaan jaettavaksi postitse.  
+  - Postituslistalle kerätään vain **Kesto-** ja **Määräaikaiset** tilaukset.  
+  - Jos halutaan, että tuote **ei nouse** postituslistalle, valitaan tyypiksi **Ei määritelty** (esim. jos lehti ilmestyy digitaalisena).  
+  - Määräaikaisen tarjoustuotteen **Tilaustyyppi** tulee olla *Kesto*, mikäli tuote halutaan mukaan automaattisesti jatkettavien tilausten **Kestojatko-listalle**.
+- **JatkotuoteID** kertoo esimerkiksi tarjoustuotteella sen tuotteen ID-numeron, jolla tilausta jatketaan automaattisesti tarjousajan päätyttyä (esim. normaali Kestotilaus). 
+- **Tilauksen kesto** –kentässä määritellään tuotteen pituus oletuksena kuukausissa.  
+  - Keston yksikön voi tarvittaessa muuttaa valikosta, jossa vaihtoehtoina **päivä / viikko / vuosi**.  
+  - Kaikissa **Kestotilaus**-tyyppisissä tuotteissa pituuden on oltava jokin muu kuin 0, muuten ne eivät nouse automaattiseen **Kestojatko-ajoon** mukaan.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen3.png)
 
 - **Myyntitili, ALV velkatili** ja **Myyntisaamiset**-tili määritellään **Tilit** -välilehdellä ja ne tulee merkitä kaikille laskutettaville tuotteille. Laskua luotaessa tilöintitilit haetaan tuotekortilta ja niiden avulla muodostetaan laskulle tarvittavat tiliöintirivit, joihin maksetut suoritukset myöhemmin liitetään kirjanpitoa varten.
 - **Laskuerien lukumäärä** -kenttään määrätään, kuinka monessa erässä kyseisen tuotteen voi maksaa (ohjelma automaattisesti jakaa laskutuspyynnöt eriin tilauksen tallennuksen yhteydessä)
 
+- **Myyntitili**, **ALV-velkatili** ja **Myyntisaamiset**-tili määritellään **Tilit**-välilehdellä, ja ne tulee merkitä kaikille laskutettaville tuotteille.  
+  Laskua luotaessa tiliöintitilit haetaan tuotekortilta, ja niiden avulla muodostetaan laskulle tarvittavat tiliöintirivit, joihin maksetut suoritukset myöhemmin liitetään kirjanpitoa varten.
+
+- **Laskuerien lukumäärä** -kenttään määritellään, kuinka monessa erässä kyseinen tuote voidaan maksaa.  
+  Ohjelma jakaa laskutuspyynnöt automaattisesti eriin tilauksen tallennuksen yhteydessä.
+
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen4.png)
 
-- **Kotimaan/ulkomaan tilaus** –valinta määrittelee tuotteen tilauksen näkyvyyden ja käsittelyn mm. Postituslistalla (lähetetäänkö ulkomaille eri reittiä).
-- **Digituote**–valinta määrittelee tuotteen olevan käytettävissä vain netin kautta esim. Näköislehti.
-- **Oikeuttaa digipalveluun** –valinta määrittelee kuuluuko tuotteeseen oikeus digipalveluun esim. näköislehteen.
+- **Kotimaan/ulkomaan tilaus** -valinta määrittelee tuotteen tilauksen näkyvyyden ja käsittelyn mm. postituslistalla (esim. lähetetäänkö ulkomaille eri reittiä).  
+- **Digituote**-valinta määrittelee tuotteen olevan käytettävissä vain verkon kautta, esim. näköislehti.  
+- **Oikeuttaa digipalveluun** -valinta määrittelee, kuuluuko tuotteeseen oikeus digipalveluun, esim. näköislehteen.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen5.png)
 
-- Tuotteelle on määriteltävä **Valittavissa aikavälillä** -aikarajaus. Jos tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050). Valittavuus tarkoittaa, että tuote on valittavissa ohjelman valikoissa ja ulkoisella tilauslomakkeella tässä määritetyn ajan.
-- Tuotteelle määritellään myös **Tilaus mahdollinen aikavälillä** -aikarajaus, joka rajaa sen käytettävissä olevan tilausjakson. Yksittäisen tilauksen alku- ja loppupäivät tulee mahtua annetun aikarajoituksen sisään. Mikäli tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050), koska ’toistaiseksi voimassaolevaa’ tuotetyyppiä ei ole käytettävissä
-- **Tilauksen päättymisaika tuotteesta** -kentän aktivoimalla tilauksen päättymisaika määräytyy tuotteen keston mukaan. Tilaus mahdollinen aikavälillä -määrää mahdollisen aloitusajan, mutta ei päättymisaikaa.
+- Tuotteelle on määriteltävä **Valittavissa aikavälillä** -aikarajaus.  
+  Jos tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050).  
+  Valittavuus tarkoittaa, että tuote on valittavissa ohjelman valikoissa ja ulkoisella tilauslomakkeella tässä määritetyn ajan.
+
+- Tuotteelle määritellään myös **Tilaus mahdollinen aikavälillä** -aikarajaus, joka rajaa sen käytettävissä olevan tilausjakson.  
+  Yksittäisen tilauksen alku- ja loppupäivien tulee mahtua annetun aikarajoituksen sisään.  
+  Mikäli tuote halutaan olevan aina valittavissa, tulee päättymispäivämäärän olla riittävän kaukana tulevaisuudessa (esim. 31.12.2050), koska *toistaiseksi voimassa olevaa* tuotetyyppiä ei ole käytettävissä.
+
+- **Tilauksen päättymisaika tuotteesta** -kentän aktivoimalla tilauksen päättymisaika määräytyy tuotteen keston mukaan.  
+  *Tilaus mahdollinen aikavälillä* määrittää mahdollisen aloitusajan, mutta ei päättymisaikaa.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen6.png)
 
-- **Tuote on piilotettu:** Tuotteen voi piilottaa, milloin sitä ei näe hakuja tehtäessä eikä sitä voi valita uutta tilausta tehtäessä.
-- **Digipalvelu**–kentän avulla tuotteita voi ryhmitellä saman Digipalvelu-ryhmän alle. Digipalveluissa voidaan tutkia onko tilaajalla aktiivisena tiettyä Digipalvelua ja täten näyttää muun muassa wwww-sivun sisältö sen mukaan.
-- **SKU-koodi**: Tuotteen yksilöivä koodi mm. kirjamyynnissä.
+- **Tuote on piilotettu**: Tuotteen voi piilottaa, jolloin sitä ei näe hakuja tehtäessä eikä sitä voi valita uutta tilausta tehtäessä.  
+- **Digipalvelu**-kentän avulla tuotteita voi ryhmitellä saman Digipalvelu-ryhmän alle.  
+  Digipalveluissa voidaan tarkistaa, onko tilaajalla aktiivisena tietty digipalvelu, ja näyttää esimerkiksi verkkosivun sisältö sen mukaan.  
+- **SKU-koodi**: Tuotteen yksilöivä koodi, esimerkiksi kirjamyynnissä.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen7.png)
 
 Voit muuttaa tuotteen hintaa etukäteen asettamalla seuraavat kentät:
 
-- **Hinnaston aktivoitumispäivä** – ohjelma siirtää uuden hinnan automaattisesti vanhan hinnan paikalle kyseisenä päivänä. Palvelimella ajetaan joka yö prosessi, joka tarkistaa aktivoitumispäivät.
+- **Hinnaston aktivoitumispäivä** – ohjelma siirtää uuden hinnan automaattisesti vanhan hinnan paikalle kyseisenä päivänä.  
+  Palvelimella ajetaan joka yö prosessi, joka tarkistaa aktivoitumispäivät.
 - **Uusi hinta** – tuotteen uusi hinta, joka astuu voimaan aktivoitumispäivänä.
 - Jos tuotteella on eri hinta erämaksuissa, voit muuttaa erähinnan vastaaviin kenttiin.
 
@@ -148,72 +168,74 @@ Voit muuttaa tuotteen hintaa etukäteen asettamalla seuraavat kentät:
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti-etusivu.png)
 
-**Tilauspaketit**-välilehdellä voit muodostaa eri tilaustuotteista tilauspaketteja. Tilauspaketille voi antaa erillisen hinnan, jolloin tilaustuotteiden yksittäistä hintaa ei huomioida.
+**Tilauspaketit**-välilehdellä voit muodostaa eri tilaustuotteista tilauspaketteja. Tilauspaketille voi antaa erillisen hinnan, jolloin tilaustuotteiden yksittäisiä hintoja ei huomioida.
 
-Voit hakea tilauspaketteja valitsemalla **hakukenttään hakukriteerin ja syöttämällä hakuehdon**.
+Voit hakea tilauspaketteja valitsemalla **hakukenttään hakukriteerin** ja **syöttämällä hakuehdon**.
 
-**Näytä piilotetut** -kentän aktivoimalla saat näkyviin piilotetut tilauspaketit.
-
-**Näytä vain tarjouspaketit** -kentän aktivoimalla tulee listaukseen näkyviin vain tarjouspaketit.
-
-**Näytä vain hinnalliset** -kentän aktivoimalla tulee listaukseen näkyviin paketit, joille on asetettu hinta.
+**Näytä piilotetut** -kentän aktivoimalla saat näkyviin piilotetut tilauspaketit.  
+**Näytä vain tarjouspaketit** -kentän aktivoimalla listaukseen tulee näkyviin vain tarjouspaketit.  
+**Näytä vain hinnalliset** -kentän aktivoimalla listaukseen tulee näkyviin vain paketit, joille on asetettu hinta.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti2.png)
 
 ### Tilauspakettien lisääminen
 
-**Olemassa olevaa** tilauspakettia voit muokata painamalla **pakettinumeroa**. Uuden paketin voit lisätä painamalla **Lisää tilauspaketti** -painiketta.
+**Olemassa olevaa** tilauspakettia voi muokata klikkaamalla **pakettinumeroa**. 
+
+Uuden paketin voi lisätä painamalla **Lisää tilauspaketti** -painiketta.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketti.png)
 
-- Tilauspaketille muodostuu uniikki **TilauspakettiID**, kun se on tallennettu
-- Paketille annetaan **pakettinumero**, **pakettiryhmä** (esim. BlackWeek) ja **paketin nimi**
-- **Paketin ulkoinen nimi** on se nimi, joka näkyy asiakkaille esimerkiksi tilauslomakkeella
-- Paketille voidaa antaa **hinta**, jolloin siihen kuuluvien tilaustuotteiden hinnat jätetään huomiotta hintaa muodostaessa
-- Voit myös asettaa paketin hinnan kun se maksetaan **useassa erässä**
-- Paketille asetetaan **aikaväli**, milloin se on valittavissa tilauslomakkeen valikosta
-- **Pakettityyppi** -kenttä on informatiivinen. Tilaustuotteen tyyppi määrittää millä tilauksen tyypillä (kestotilaus, määräaikainen) tilaus muodostuu.
-- Paketille annetaan **tilausjakso**, joka määrittää kuinka kauan siihen kuuluvat tilaukset kestävät (esim. 12 kuukautta)
-- Jos paketti kuuluu **kampanjaan** voidaan sille asettaa **KampanjanNumeroa ja nimi**
-- **Lisätietoihin** voi kirjoitaa oleellista lisätietoa paketista
-- Jos paketti on **tarjouspaketti**, joka jatkuu tarjousjakson jälkeen normaalilla tilauspaketilla, laitetaan lomakkeeseen sen paketin **PakettiID**, millä tilaus jatkuu
-- Kun **Piilotettu**-kenttä on aktivoitu, on paketti piilotettu hausta ja valintavalikoista
-- **Pakettiin kuuluvat tuotteet** lisätään antamalla niiden **TuoteID:t** pilkulla eroteltuina (esim. 2575, 2548)
+- Tilauspaketille muodostuu uniikki **TilauspakettiID**, kun se on tallennettu.
+- Paketille annetaan **pakettinumero**, **pakettiryhmä** (esim. BlackWeek) ja **paketin nimi**.
+- **Paketin ulkoinen nimi** on se nimi, joka näkyy asiakkaille esimerkiksi tilauslomakkeella.
+- Paketille voidaan antaa **hinta**, jolloin siihen kuuluvien tilaustuotteiden hintoja ei huomioida hintaa muodostettaessa.
+- Voit myös asettaa paketin hinnan, kun se maksetaan **useassa erässä**.
+- Paketille asetetaan **aikaväli**, jolloin se on valittavissa tilauslomakkeen valikosta.
+- **Pakettityyppi**-kenttä on informatiivinen. Tilaustuotteen tyyppi määrittää, millä tilauksen tyypillä (kestotilaus, määräaikainen) tilaus muodostuu.
+- Paketille annetaan **tilausjakso**, joka määrittää, kuinka kauan siihen kuuluvat tilaukset kestävät (esim. 12 kuukautta).
+- Jos paketti kuuluu **kampanjaan**, sille voidaan asettaa **kampanjanumero ja nimi**.
+- **Lisätietoihin** voi kirjoittaa oleellisia lisätietoja paketista.
+- Jos paketti on **tarjouspaketti**, joka jatkuu tarjousjakson jälkeen normaalilla tilauspaketilla, lomakkeeseen lisätään sen paketin **PakettiID**, jolla tilaus jatkuu.
+- Kun **Piilotettu**-kenttä on aktivoitu, paketti on piilotettu hausta ja valintavalikoista.
+- **Pakettiin kuuluvat tuotteet** lisätään valitsemalla ne valikosta.
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilauspaketin-lisaaminen.png)
 
 ## Erillistuotteet
 
 ![Erillistuotteet-näkymä](/img/ohjeet/erillistuotteet.png)
-*Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita, ja tarkastella jo olemassa olevia erillistuotteita.*
+*Erillistuotteet-välilehdellä voit muokata ja lisätä erillistuotteita sekä tarkastella jo olemassa olevia tuotteita.*
 
-Erillistuotteita ovat tuotteet, jotka EIVÄT sovi **tilaus- tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat Laskutuslisä, Paperilaskutuslisä, jne.
+Erillistuotteita ovat tuotteet, jotka **eivät sovi tilaustuotteisiin tai myyntituotteisiin**. Esimerkkejä erillistuotteista ovat esimerkiksi *Laskutuslisä*, *Paperilaskutuslisä*, *Oheistuote*, jne.
 
-**Erillistuotteet**-välilehdellä voit muokata ja lisätä erillistuotteita. Olemassa olevaa erillistuotetta voidaan muokata painamalla sen tuotenumeroa. Uuden erillistuotteen voi lisätä painamalla **Lisää erillistuote** -painiketta.
+**Erillistuotteet**-välilehdellä voit muokata ja lisätä erillistuotteita.  
+- Olemassa olevaa erillistuotetta voi muokata klikkaamalla sen tuotenumerosta.  
+- Uuden erillistuotteen voi lisätä painamalla **Lisää erillistuote** -painiketta.
 
 Erillistuotteelle lisätään:
 
-- **Tuotenumero**-kenttään tuotenumero, joka auttaa mm. tuotteiden ryhmittelyssä
-- **Tuoteryhmä**-kenttään mihin tuoteryhmään tuote kuuluu (esim. oheistuote)
-- **Tuotteen nimi** -kenttään tuotteen nimi (esim. Lippalakki M)
-- Tarvittaessa **lisätietoja**
-- **Yksikkö** (esim. kpl)
-- Veroton **hinta**
-- **ALV-prosentti** erillistuotteen tyypin mukaisesti
-- Voit myös antaa **verollisen hinnan** ja laskea siitä verottoman hinnan (muista lisätä ALV)
-- **Myyntitili, ALV velkatili** ja **Myyntisaamiset**-tilit
-- Voit myös **piilottaa** tuotteen välilehdeltä ja valikoista aktivoimalla **Tuote on piilotettu** -kentän
+- **Tuotenumero** – tuotteen yksilöivä numero, joka auttaa mm. tuotteiden ryhmittelyssä  
+- **Tuoteryhmä** – mihin tuoteryhmään tuote kuuluu (esim. oheistuote)  
+- **Tuotteen nimi** – tuotteen nimi (esim. Lippalakki M)  
+- Tarvittaessa **lisätietoja**  
+- **Yksikkö** (esim. kpl)  
+- Veroton **hinta**  
+- **ALV-prosentti** erillistuotteen tyypin mukaisesti  
+- Voit myös antaa **verollisen hinnan** ja laskea siitä verottoman hinnan (muista lisätä ALV)  
+- **Myyntitili**, **ALV-velkatili** ja **Myyntisaamiset**-tilit  
+- Voit **piilottaa tuotteen** välilehdeltä ja valikoista aktivoimalla **Tuote on piilotettu** -kentän
 
 ![Erillistuotteet- Tuotteen muokkaus](/img/ohjeet/erillistuotteet2.png)
 
 ## Tilit
 
-**Tilit**–välilehdellä voit tarkastella ja muokata olemassa olevia tilejä, ja lisätä uusia tilejä
+**Tilit**-välilehdellä voit tarkastella ja muokata olemassa olevia tilejä sekä lisätä uusia.
 
-- kun klikkaat tietyn tilin **tilinumeroa** pääset muokkaamaan olemassa olevan tilin tietoja. Voit myös poistaa tilin.
-- kun klikkaat **Lisää tili** –painiketta, pääset kirjaamaan uuden tilin tiedot
+- Kun klikkaat tietyn tilin **tilinumeroa**, pääset muokkaamaan olemassa olevan tilin tietoja. Voit myös poistaa tilin.  
+- Kun klikkaat **Lisää tili** -painiketta, pääset kirjaamaan uuden tilin tiedot.
 
-Tilaus-/Myyntituotteilla käytetään tällä välilehdellä määriteltyjä tilitietoja.
+Tilaus- ja myyntituotteilla käytetään tällä välilehdellä määriteltyjä tilitietoja.
 
 ![Tilit-välilehti](/img/ohjeet/tilit.png)
 *Tilit-välilehdeltä voit muokata ja lisätä tilejä*
@@ -222,185 +244,193 @@ Tilaus-/Myyntituotteilla käytetään tällä välilehdellä määriteltyjä til
 
 Kun tiliä lisätään tai muokataan, tarvitaan seuraavat tiedot:
 
-- **Tilin numero**
-- **Tilin nimi**
-- Onki tili **Pankkitili, Myyntili, vai Kulutili**
-- **Tilin tyyppi** tiliöintejä varten, joka määritellään **lyhenteellä** (PA=Pankki, MS=myyntisaamiset, ALV, MY=Myynti, PY=Pyöristys, LT=Luottotappio, MUU=jokin muu tili)
+- **Tilinumero**  
+- **Tilin nimi**  
+- Onko tili **pankkitili, myyntitili vai kulutili**  
+- **Tilin tyyppi** tiliöintejä varten, joka määritellään **lyhenteellä** (PA = Pankki, MS = Myyntisaamiset, ALV, MY = Myynti, PY = Pyöristys, LT = Luottotappio, MUU = jokin muu tili)
 
 ![Tilit-välilehti - Tilien lisääminen](/img/ohjeet/tilin-lisaaminen.png)
 
-**Tilin käsittely** -lomake on muuten samannäköinen, paitsi että siinä on myös vaihtoehto tilin poistamiseen.
-
-### Suoriteperusteinen kirjanpito
-
-Palvelussa käytetään **Suoriteperusteista kirjapitoa**, jossa kulut ja tulot kirjataan kirjanpitoon sen mukaan milloin kulut syntyvät eli **laskupäivän perusteella**
-
-- esim. myyntilasku, joka tehdään tammikuun lopussa ja maksetaan maaliskuun alussa
-- Tämä myynti näkyy tuloslaskelmassa suoriteperusteisesti tammikuussa (eikä maaliskuussa kuten maksuperusteisesti)
-
-Suoriteperusteisessa kirjanpidossa kulu kirjataan
-
-- laskupäivän mukaan **kulutilin debitteihin** ja **ostovelkojen kreditteihin**
-- Myöhemmin, **kun lasku maksetaan** kirjaus menee **pankkitilin kreditteihin ja ostovelkojen debitteihin**
-- Maksun yhteydessä ostovelat siis nollautuvat
-
-**Myyntien** osalta kirjaukset menevät samalla logiikalla, mutta **debitit ja kreditit ovat päinvastaiset**
-
-- Myyntilasku kirjataan laskun päivämäärän mukaan kredittiin (esim. 1502 Lehtitilaussaamiset TaikaVakka) ja myyntisaamisten (saamiset asiakkailta) debittiin (esim. 30090 Suomi vuositilaus TaikaVakka alv 10% ja 2470 Myynnin 10% ALV-velka)
-- Myöhemmin, kun asiakas suorittaa laskun pankkitilille, kirjaus menee pankkitilin debittiin (esim. 1710 Nordea) ja myyntisaamisten kredittiin (esim. 1502 Lehtitilaussaamiset TaikaVakka)
-- Suorituksen yhteydessä myyntisaamiset siis nollautuvat
-
-![Suoritukset esimerkki](/img/ohjeet/tiliointi.png)
-*Esimerkki suorituksista*
+**Tilin käsittely** -lomake on muuten samanlainen, mutta siinä on myös vaihtoehto tilin poistamiseen.
 
 ## Laskutekstit
 
-**Laskutekstit**-välilehdeltä voi luoda laskuille lisättäviä tekstipohjia, jotka ovat laskun lähetyksen yhteydessä vielä muokattavissa. Valmiit viestipohjat voi lisätä Laskulle, Maksumuistutus #1, Maksumuistutus #2 ja Hyvityslaskulle.
+**Laskutekstit**-välilehdeltä voi luoda laskuille lisättäviä tekstipohjia, jotka ovat laskun lähetyksen yhteydessä edelleen muokattavissa. Valmiit viestipohjat voi lisätä laskuille, maksumuistutus #1:lle, maksumuistutus #2:lle ja hyvityslaskuille.
 
 ![Laskutekstit-välilehti](/img/ohjeet/laskutekstit.png)
-
 *Laskutekstit-välilehdeltä voi luoda laskuille tekstipohjia.*
 
-Välilehdeltä voi lisätä toisistaan poikkeavia tekstejä tilaustuotteiden, erillistuotteiden ja ilmoitusmyynnin laskuille sekä lisätä lähetystiedot sähköpostin kautta lähetettävien laskujen sähköpostipohjaan.
+Välilehdeltä voi lisätä eri tekstipohjia tilaustuotteiden, erillistuotteiden ja ilmoitusmyynnin laskuille sekä määrittää sähköpostin kautta lähetettävien laskujen sähköpostipohjat ja lähetystiedot.
 
-TIlauslaskuille voi lisätä:
+Tilauslaskuille voi lisätä:
 
-- tekstin laskulle
-- tilauslaskun laskutekstin
-- maksumuistutuksien tekstit
+- tekstin laskulle  
+- tilauslaskun laskutekstin  
+- maksumuistutusten tekstit  
 
 ![Laskutekstit-välilehti](/img/ohjeet/laskutekstit2.png)
 
 Sähköpostin lähetystietoihin voi lisätä:
 
-- sähköpostiosoitteen, josta lasku lähetetään
-- otsikon
-- laskuviestin
-- maksumuistutuksien otsikot ja viestit
-- hyvityslaskun otsikon ja viestin
+- sähköpostiosoitteen, josta lasku lähetetään  
+- otsikon  
+- laskuviestin  
+- maksumuistutusten otsikot ja viestit  
+- hyvityslaskun otsikon ja viestin  
 
 ![Laskutekstit-välilehti](/img/ohjeet/laskutekstit3.png)
 
-Viesti-kenttien kokoa voi laajentaa oikeasta alakulmasta kursorilla vetämällä.
+Viesti-kenttien kokoa voi laajentaa oikeasta alakulmasta vetämällä kursorilla.
 
-Ohjelma valitsee automaattisesti oikean sähköpostiviestin riippuen minkä lehden lasku on kyseessä ja mikä on kyseisen laskun muoto.
+Ohjelma valitsee automaattisesti oikean sähköpostiviestin riippuen siitä, minkä lehden laskusta on kyse ja mikä on laskun muoto (tilauslasku, ilmoituslasku, maksumuistus).
 
 ## Viestipohjat
 
-**Viestipohjat** välilehdeltä voi muokata **tilaus/ilmoitusvarausvahvistuksien viestipohjia**. Voit muokata:
+**Viestipohjat**-välilehdellä voi muokata **tilaus- ja ilmoitusvarausvahvistusten viestipohjia**. Voit muokata:
 
-- Lähettäjän sähköpostia
-- Sähköpostin piilokopion vastaanottajaa
-- Sähköpostin otsikkoa
-- Sähköpostin viestiä
+- lähettäjän sähköpostiosoitetta  
+- sähköpostin piilokopion vastaanottajaa  
+- sähköpostin otsikkoa  
+- sähköpostin viestiä  
 
 ![Viestipohjat-välilehti](/img/ohjeet/viestipohjat.png)
-*Viestipohjat välilehdellä voit muokata tilaus/myyntivahvistuksien tekstejä*
+*Viestipohjat-välilehdellä voit muokata tilaus- ja myyntivahvistusten tekstejä.*
 
-Klikkaamalla **Näytä mallipohja** -painikkeita, saat näkyviin esimerkkiviestin, jonka pohjalta voit laatia oman viestisi.
+Klikkaamalla **Näytä mallipohja** -painiketta saat näkyviin esimerkkiviestin, jonka pohjalta voit laatia oman viestisi.
 
 ![Esimerkkiviesti](/img/ohjeet/esimerkkiviesti.png)
 
-*Esimerkkiviesti toimii mallina viestipohjalle*
+*Esimerkkiviesti toimii mallina viestipohjalle.*
 
 ## Kanavat
 
-**Kanavat**–välilehdellä määritellään kanavat, joiden alle myyntituotteet ryhmitellään. Kanavia voi olla LEHTI, NETTI, UUTISKIRJE, ILMOITUSTAULU, RADIO, ja Vaihtoilmoitus-kanavat.
+**Kanavat**-välilehdellä määritellään kanavat, joiden alle myyntituotteet ryhmitellään. Kanavia voivat olla esimerkiksi **LEHTI**, **NETTI**, **UUTISKIRJE**, **ILMOITUSTAULU**, **RADIO** ja **VAIHTOILMOITUS**-kanavat.
 
-**Kanavat** erotellaan kentän listauksessa pilkuilla esim. LEHTI,UUTISKIRJE,RADIO. Kanavan voi nimetä **myös lehtikohtaisesti** esim. Autolehti,Mopolehti,Bike,Suunnistus.
+**Kanavat** erotellaan kentän listauksessa pilkuilla, esim. `LEHTI,UUTISKIRJE,RADIO`. Kanavan voi nimetä myös **lehtikohtaisesti**, esimerkiksi: `Autolehti,Mopolehti,Bike,Suunnistus`.
 
-Määritellyt kanavat lajitellaan ohjelmaan koodattuihin **kanavatyyppeihin**, koska eri kanavilla on **erityyppisiä ominaisuuksia** esim.
-- lehdillä olevat palstamillimetrit
-- radiomainoksilla CPM-arvo
-- tai Lehti-kanavalla julkaisut ovat lehtien numeroita, mutta Radio-kanavalla julkaisu voi olla vuosikohtainen
+Määritellyt kanavat lajitellaan ohjelmaan koodattuihin **kanavatyyppeihin**, koska eri kanavilla on **erilaisia ominaisuuksia**, esimerkiksi:
+
+- Lehdillä palstamillimetrit  
+- Radiomainoksilla CPM-arvo  
+- Lehti-kanavalla julkaisut ovat lehtien numeroita, mutta Radio-kanavalla julkaisu voi olla vuosikohtainen  
 
 ![Kanavat-välilehti](/img/ohjeet/kanavat1.png)
 *Kanavat lajitellaan eri kanavatyyppeihin*
 
-**Lisäksi määritellään LEHTI-tyyppisen kanavan ilmoitusosastot**
+### LEHTI-tyyppisen kanavan ilmoitusosastot
 
-- Jokainen kanavan ilmoitusosasto kirjoitetaan **omalle rivilleen puolipisteillä (;) eroteltuina**
-- Uusi ilmoitusosasto lisätään muodossa: **tunniste;kanavan nimi;ilmoitusosasto;hinta**. Esim. 1;LEHTI;etusivu;1,55
-    - Tunnisteen pitää olla yksilöllinen, eli se ei saa olla sama kun toisen ilmoitusosaston tunniste. Tunniste saa olla mikä tahansa numero tai numeroyhdistelmä. Tunnistetta käytetään avaimena tietokannassa.
+**LEHTI**-tyyppisille kanaville määritellään ilmoitusosastot.
+
+- Jokainen kanavan ilmoitusosasto kirjoitetaan **omalle rivilleen**, puolipisteillä (;) eroteltuina.  
+- Uusi ilmoitusosasto lisätään muodossa: `tunniste;kanavan nimi;ilmoitusosasto;hinta`  
+  Esimerkiksi: `1;LEHTI;etusivu;1,55`  
+  - Tunnisteen on oltava yksilöllinen, eli se ei saa olla sama kuin toisella ilmoitusosastolla.  
+  - Tunniste saa olla mikä tahansa numero tai numeroyhdistelmä, ja sitä käytetään avaimena tietokannassa.
 
 ![Ilmoitusosastot](/img/ohjeet/kanavat2.png)
-*LEHTI-tyypin kanaville määritellään ilmoitusosastot*
+*LEHTI-tyyppisille kanaville määritellään ilmoitusosastot.*
 
 ## Myyntituotteet
 
-**Myyntituotteet**–välilehdellä voit tarkastella ja muokata olemassa olevia myyntituotteita sekä lisätä uusia. Myyntituote on **sovelluksessa myytävä asia**, esim. lehden etusivun mainos/ilmoitus. Piilotetut myyntituotteet saa näkyviin klikkaamalla **Näytä piilotetut** -kentästä.
+**Myyntituotteet**-välilehdellä voit tarkastella ja muokata olemassa olevia myyntituotteita sekä lisätä uusia. Myyntituote on **järjestelmässä myytävä asia**, esimerkiksi lehden etusivun mainos tai radiokanavan spotti.  
 
-Jo luotuja myyntituotteita pääset katsomaan ja muuttamaan klikkaamalla **Numero**–sarakkeesta tietyn myyntituotteen numeroa. **Lisää**–painiketta painamalla (oikea yläkulma) voit lisätä uuden myyntituotteen.
+Piilotetut myyntituotteet saa näkyviin aktivoimalla **Näytä piilotetut** -kentän.
+
+Jo luotuja myyntituotteita pääset katsomaan ja muokkaamaan klikkaamalla **Numero**-sarakkeessa olevan tuotteen numeroa. **Lisää**-painiketta painamalla (oikeassa yläkulmassa) voit lisätä uuden myyntituotteen.
 
 ![Myyntituotteet](/img/ohjeet/myyntituotteet.png)
 
-Myyntituotteelle lisätään siihen liittyviä perustietoja, kuten
+Myyntituotteelle lisätään siihen liittyviä perustietoja:
 
-- Kanava ja Julkaisu, jossa se esitetään
-- Ryhmä ja Nimi, esim. ilmoitusosio ja sen palstakoko (1x10 ppm)
-
-Lisäksi voidaan liittää oletuskäsittelijä, joka saa tiedon mm. aineistojen tulosta.
+- **Numero** – tuotteen numero järjestelmässä, jonka avulla sitä voidaan hakea ja järjestää.
+- **Kanava** – kanava, jolla tuote julkaistaan, esim. *LEHTI*, *RADIO*, *WWW* tai *UUTISKIRJE*.
+- **Ryhmä** – ryhmä, johon tuote kuuluu, esim. *bannerit*.
+- **Tuotekoodi**
+- **Nimi** – tuotteen nimi, esim. *pysty 120x300*.
+- **Vakiokoko (palstoja)** – jos tuotteella on vakiokoko, sen leveyden voi määrittää palstoina.
+- **Vakiokoko (korkeus mm)** – jos tuotteella on vakiokoko, sen korkeuden voi määrittää millimetreinä.
+- **Poikkeava leveys** – jos tuotteen leveys poikkeaa vakiopalstakoista, se voidaan antaa tähän kenttään.
+- **Rivi-ilmoitus** – aktivoimalla kentän määrität, että tuote on rivi-ilmoitus, jonka hinnan ohjelma laskee rivien määrän mukaan.
+- **Saatavuus / Julkaisu** – jos julkaisukanavalla on rajattu määrä kyseistä tuotetta, voit antaa määrän tähän (esim. etusivulla on vain yksi mainospaikka).
+- **Muut myyntituotteet, joilla jaettu saatavuus** – jos tuote jakaa saatavuuden toisen tuotteen kanssa, sen tuotteen tai tuotteet voi valita tästä valikosta.
+- **Hinta** – tuotteen hinta.
+- **ALV-%** – tuotteen arvonlisäveroprosentti.
+- **Sopimus- / moduulihinta** – aktivoi kenttä, jos hinta koskee koko ilmoitusta eikä määräydy esimerkiksi palstojen määrän tai näyttökertojen mukaan.
+- **Lisätiedot** – kenttään voi kirjoittaa valinnaisia lisätietoja tuotteesta, jotka haluat esimerkiksi myyjien tietoon.
+- **Myyntitili** – tuotteen myyntitili.
+- **ALV-velkatili** – tuotteen ALV-velkatili.
+- **Myyntisaamiset-tili** – tuotteen myyntisaamistili.
+- **Kululaji** – kululajinumero, esimerkiksi kirjanpitoa varten.
+- **Käsittelijän sähköposti** – tuotteelle voidaan liittää oletuskäsittelijä, joka saa tiedon esimerkiksi aineistojen tulosta.
+- **Lähetä aineistolinkki** – jos kenttä on valittuna, myyntituotteen ilmoitusvarauksesta lähetetään aineistolinkki, jonka kautta esimerkiksi mainostoimisto voi toimittaa ilmoitusaineiston.
+- **Piilotettu** – jos kenttä on valittuna, tuote ei ole valittavissa myyntejä tehdessä eikä se näy myyntituotelistauksessa.
 
 ![Myyntituotteiden muokkaus](/img/ohjeet/myyntituotteen-muokkaus.png)
 
 ## Paketit
 
-**Paketit**–välilehdellä voit luoda yksittäisistä myyntituotteista **erillishinnoiteltuja tuotepaketteja** ja tarkastella/muokata jo olemassa olevia paketteja. **Lisää**–painiketta painamalla pääset lisäämään uuden paketin, ja olemassa olevan paketin **numeroa** painamalla pääset sitä muokkaamaan.
+**Paketit**-välilehdellä voit luoda yksittäisistä myyntituotteista **erillishinnoiteltuja tuotepaketteja** sekä tarkastella ja muokata jo olemassa olevia paketteja.  
+
+**Lisää**-painiketta painamalla voit lisätä uuden paketin, ja olemassa olevan paketin **numeroa** klikkaamalla pääset muokkaamaan sitä.
 
 ![Paketit-välilehti](/img/ohjeet/paketit.png)
-*Paketit välilehdellä voit muokata olemassa olevia paketteja ja luoda uusia.*
+*Paketit-välilehdellä voit muokata olemassa olevia paketteja ja luoda uusia.*
 
 ### Paketin lisääminen
 
-Kun pakettia lisätään, sille kirjataan:
+Kun pakettia lisätään, sille määritellään seuraavat tiedot:
 
-- **Numero**: numero, jolla paketti ryhmitellään ja jolla sitä voidaan hakea
-- **Nimi**: myyntipaketin nimi, esim. Black Week I
-- **Hinta**: paketin veroton hinta (annettaessa hinnan, jätetään yksittäisten myyntituotteiden hinnat huomiotta)
-- **Lisätiedot**: paketille oleellisia lisätietoja (esim. milloin pakettia myydään)
-- **Myyntituotteet**: tuotteet, jotka paketti sisältäää
+- **Numero**: numero, jolla paketti ryhmitellään ja jota voidaan käyttää haussa  
+- **Nimi**: myyntipaketin nimi, esimerkiksi *Black Week I*  
+- **Hinta**: paketin veroton hinta (kun hinta on annettu, yksittäisten myyntituotteiden hinnat jätetään huomiotta)  
+- **Lisätiedot**: paketille oleellisia lisätietoja, esimerkiksi milloin pakettia myydään  
+- **Myyntituotteet**: tuotteet, jotka paketti sisältää  
 
-Myyntituotteita **lisätään** pakettiin valitsemalla yksittäin/kaikki vasemmasta laatikosta (Kaikki myyntituotteet) ja siirtämällä valinnat oikeanpuoleiseen laatikkoon (Pakettiin valitut tuotteet) **käyttämällä välissä olevia nuolia**.
+Myyntituotteita **lisätään** pakettiin valitsemalla yksittäisiä tuotteita tai kaikki tuotteet vasemmasta laatikosta (*Kaikki myyntituotteet*) ja siirtämällä ne oikeanpuoleiseen laatikkoon (*Pakettiin valitut tuotteet*) **nuolipainikkeiden avulla**.
 
 ![Pakettien lisääminen](/img/ohjeet/paketin-lisaaminen.png)
-*Tuotteita siirretään/poistetaan paketilta nuolien avulla.*
+*Tuotteita siirretään ja poistetaan paketista nuolien avulla.*
 
-Yksittäisiä myyntituotteita voi tarvittaessa kopioida **Monista**–painikkeen avulla.
-Esim. jos sama myyntituote on useammassa eri lehdessä
+Yksittäisiä myyntituotteita voi tarvittaessa kopioida **Monista**-painikkeen avulla, jos samassa paketissa halutaan myydä useita samoja myyntituotteita.
 
 ## Julkaisut
 
-**Julkaisut**–välilehdellä voi muokata ja lisätä julkaisuja. **Julkaisu on tuote**, jossa mainos tai ilmoitus esitetään, kuten lehti, radiomainos, uutiskirje, www-sivu jne. **Lisää**–painikeella voidaan lisätä yksittäisistä julkaisuja eri kanavia varten. Julkaisuja pääsee muuttamaan/poistamaan klikkaamalla Nimi–sarakkeesta löytyvää yksittäistä nimeä.
+**Julkaisut**-välilehdellä voi muokata ja lisätä julkaisuja. **Julkaisu on tuote**, jossa mainos tai ilmoitus esitetään, kuten lehti, radiomainos, uutiskirje tai www-sivu.  
+
+**Lisää**-painikkeella voidaan lisätä yksittäisiä julkaisuja eri kanavia varten.  
+
+Julkaisuja voi muuttaa tai poistaa klikkaamalla **Nimi**-sarakkeessa olevaa julkaisun nimeä.
 
 ![Julkaisut](/img/ohjeet/julkaisut.png)
-*Julkaisut välilehti*
+*Julkaisut-välilehti*
 
 ### Julkaisun lisääminen
 
-**Julkaisulle määritellään** mm. siihen liittyvä
+**Julkaisulle määritellään** muun muassa seuraavat tiedot:
 
-- Kanava (esim. tietty lehti, nettisivu, mainostaulu), joka valitaan valikosta
-- Nimi ja Numero, jotka ovat vapaasti määriteltävissä
-- Teema, joka on vapaasti määriteltävissä
-- Sivumäärä
-- Ilmestymispäivä (jolloin esim. lehti jaetaan)
-- Aineiston viimeinen käsittelypäivä (mihin mennessä siihen halutut ilmoitusaineistot pitää olla toimitettuna)
+- **Kanava** (esim. tietty lehti, verkkosivu, mainostaulu), joka valitaan valikosta  
+- **Nimi** ja **Numero**, jotka ovat vapaasti määriteltävissä  
+- **Teema**, joka on vapaasti määriteltävissä  
+- **Sivumäärä**  
+- **Ilmestymispäivä**, eli päivä jolloin julkaisu ilmestyy (esim. lehden jakelupäivä)  
+- **Aineistopäivä ja -aika**, eli määräpäivä, johon mennessä ainestot on toimitettava painolle
 
-**Valmiin julkaisun** (PDF tiedosto) voi ladata palveluun, jolloin se tulee välittömästi näkyviin **OmaPalveluun** kaikille ko. julkaisun tilanneille asiakkaille ja/tai kaikille niille, jotka ovat siihen ostaneet mainos-/ilmoitustilaa
+**Valmiin julkaisun (PDF-tiedoston)** voi ladata palveluun, jolloin se tulee välittömästi näkyviin **OmaPalveluun** kaikille kyseisen julkaisun tilanneille asiakkaille ja/tai niille, jotka ovat siihen ostaneet mainos- tai ilmoitustilaa.
 
 ![Julkaisujen lisääminen](/img/ohjeet/julkaisun-lisaaminen.png)
 *Julkaisun tiedot*
 
 ## Irtonumerot
 
-**Irtonumerot**–välilehdellä lisätään lehtien irtonumeroiden saajat
-- vain postituslistaan ja
-- tilaus- ja asiakasnumeroksi asetetaan 999999
+**Irtonumerot**-välilehdellä lisätään lehtien irtonumeroiden saajat.  
 
-Irtonumeroiden **lisäyksessä syötetään** jokainen lehden irtonumero **omalle rivilleen puolipisteillä** eroteltuina muodossa:
+Tiedot lisätään vain **postituslistaan**, ja tilaus- sekä asiakasnumeroksi asetetaan **999999**.
+
+Irtonumeroiden **lisäyksessä syötetään** jokainen lehden irtonumero **omalle rivilleen**, ja kentät erotetaan **puolipisteillä (;)** seuraavassa muodossa:
+
 - Lehden nimi;
 - Lehden ilmestymispäivä;
-- Nimi (Suku- ja etunimi);
+- Nimi (suku- ja etunimi);
 - Yritys;
 - Katuosoite;
 - Katunumero;
@@ -410,41 +440,45 @@ Irtonumeroiden **lisäyksessä syötetään** jokainen lehden irtonumero **omall
 - Postitoimipaikka
 
 ![Irtonumerot](/img/ohjeet/irtonumerot.png)
-*Irtonumerot-välilehdelle lisätään irtonumerojen saajat*
+*Irtonumerot-välilehdellä lisätään irtonumeroiden saajat.*
 
 ## Muut asetukset
 
-**Muut asetukset** –välilehdellä voi lisätä asiakasryhmiä ja -rooleja, sekä tilauksien katkaisujen syitä.
+**Muut asetukset** -välilehdellä voi lisätä **asiakasryhmiä** ja **-rooleja**, sekä määrittää **tilausten katkaisujen syitä**.
 
 ![Muut asetukset](/img/ohjeet/muut-asetukset.png)
 *Muut asetukset -välilehti*
 
 ### Asiakasryhmät ja roolit
 
-Voit luetella kenttiin erilaisia **Asiakasryhmiä ja Asiakasrooleja**, jotka
-- näkyvät Asiakaskortin valintalistalla
-- ovat käytettävissä erilaisissa hauissa (esim. halutaan lähettää sähköpostia asikkaille, joiden rooli on johtaja asiakkuusfirmassa)
+Voit luetella kenttiin erilaisia **asiakasryhmiä** ja **asiakasrooleja**, jotka:
 
-Tämä on hyödyllistä esimerkiksi kohdennetun markkinoinnin kannalta.
+- näkyvät **asiakaskortin valintalistalla**  
+- ovat käytettävissä erilaisissa **hauissa** (esim. jos halutaan lähettää sähköpostia asiakkaille, joiden rooli on "johtaja" asiakasyrityksessä)
+
+Tämä on hyödyllistä esimerkiksi **kohdennetun markkinoinnin** kannalta.
 
 ![Muut asetukset](/img/ohjeet/muut-asetukset2.png)
 
 ![Ryhmittely](/img/ohjeet/ryhmittely.png)
-*Asiakasryhmän ja Asiakasroolin voi asettaa asiakkaalle asiakaskortin Ryhmittely-alavalikossa.*
+*Asiakasryhmän ja -roolin voi asettaa asiakkaalle asiakaskortin Ryhmittely-alavalikossa.*
 
 ### Tilauksien katkaisujen syiden luettelu
 
-**Katkaisun syyt**-valikkoon kirjataan mahdollisia tilauksen katkaisusyitä, joita voi valita tilauksen katkaisun yhteydessä. (Esim. "Lehti on liian kallis")
+**Katkaisun syyt** -valikkoon kirjataan mahdolliset tilauksen katkaisusyyt, jotka voidaan valita tilauksen katkaisun yhteydessä (esim. *"Lehti on liian kallis"*).
 
 ![Katkaisun syyt](/img/ohjeet/katkaisun-syyt.png)
 *Voit asettaa katkaisujen syyt ja karsintaperusteet Muut asetukset -välilehdeltä*
 
 ![Katkaisun syyt](/img/ohjeet/katkaisun-syyt2.png)
-*Voit valita tällä välilehdellä asettamasi syyt katkaisulle tilaukselle katkaisun yhteydessä.*
+*Voit valita tällä välilehdellä asettamasi syyt tilauksen katkaisun yhteydessä.*
 
-**Haku-näytöllä katkaisun syyt mitkä sisältyvät ehtoon: [KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]**, asetetaan ne katkaisun syyt, jotka voidaan karsia hausta. 
+**Muut asetukset-välilehdellä** voidaan määritellä, mitkä katkaisun syyt **sisältyvät Haut-välilehden ehtoon:** 
+`[KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]`.  
+Tähän asetetaan ne katkaisun syyt, jotka halutaan **karsia hausta.**
 
-Esim. **[Haut](/docs/ohjeet/yleiset_ominaisuudet/haut)**-välilehden kautta voidaan hakea katkaistujen tilauksien asiakkaita soittolistaan. Halutaan karsia ne katkaisut, jotka johtuvat tilaajan kuolemasta, niin että nämä asiakkaat eivät joudu soittolistaan. **Asetukset/Muut asetukset** -välilehdeltä määritellään tähän kenttään, että katkaisusyy **ESTE: Kuollut** karsitaan karsitaan hausta, kun hakuehtona on KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT.
+Esimerkiksi **[Haut](/docs/ohjeet/yleiset_ominaisuudet/haut)**-välilehdellä voidaan hakea katkaistujen tilausten asiakkaita soittolistaan.  
+Jos halutaan rajata pois katkaisut, jotka johtuvat tilaajan kuolemasta, määritellään **Asetukset → Muut asetukset** -välilehdeltä, että katkaisusyy **“ESTE: Kuollut”** karsitaan hausta, kun hakuehtona on **KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT.**
 
 ![Muut asetukset](/img/ohjeet/muut-asetukset3.png)
 
@@ -454,32 +488,41 @@ Esim. **[Haut](/docs/ohjeet/yleiset_ominaisuudet/haut)**-välilehden kautta void
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja.png)
 
-**Pääkäyttäjä**–välilehden tietoja voi muokata vain palvelun **pääkäyttäjiksi nimetyt käyttäjät**. 
+**Pääkäyttäjä**-välilehden tietoja voivat muokata vain palvelun **pääkäyttäjiksi nimetyt käyttäjät**. 
 
-Välilehdeltä voi muokata mm.
-- yrityksen ja sen tuotteiden perustietoja
-- uusia Lehtien tilaustapoja
-- muuttaa Laskunumerosarjan alku- ja loppunumerointeja
-- aktivoida Kampanja tuotteiden käytön
-- asettaa rajoituksen tekstiviestien lkm/päivä
-- määrittää jakelunippujen minimikoon
-- aktivoida Ilmoitusmyynti-toiminnot ja siihen liittyvät kentät
-- aktivoida OmaPalvelu-toiminnot
-- aktivoida Paperilaskutuslisän käyttöön
+Välilehdeltä voi muokata mm.:
 
-Voit myös lähettää tiedostoja ylläpitäjälle esim. asiakastietoja massapäivitystä varten tai nuotaa tiedostoja ylläpitäjältä esim. tarkastamista varten.
+- yrityksen ja sen tuotteiden perustietoja  
+- uusia lehtien tilaustapoja  
+- laskunumerosarjan alku- ja loppunumerointeja  
+- kampanjatuotteiden käytön aktivointia  
+- rajoituksia tekstiviestien määrälle per päivä  
+- jakelunippujen minimikokoa  
+- **Ilmoitusmyynti**-toimintojen ja niihin liittyvien kenttien aktivointia  
+- **OmaPalvelu**-toimintojen aktivointia  
+- **Paperilaskutuslisän** käyttöönottoa  
+
+Voit myös lähettää tiedostoja ylläpitäjälle, esimerkiksi asiakastietojen massapäivitystä varten, tai **noutaa tiedostoja ylläpitäjältä** tarkastamista varten.
 
 ### Laskun muodostamistiedot
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja13.png)
 
-Painamalla Laskun muodostamistiedot vierässä olevaa **NÄYTÄ**-painiketta avautuu uusi välilehti, missä näet laskutustiedot eri tuotteille.
-- välilehdeltä näet mm. minä päivinä laskuja muodostetaan automaattisesti ja mikä on eri tuotteiden huomautusaika maksumuistutuksille
+Painamalla **Laskun muodostamistiedot** -kohdan vieressä olevaa **NÄYTÄ**-painiketta avautuu uusi välilehti, jossa näet laskutustiedot eri tuotteille.  
+
+Välilehdeltä näet mm.:
+
+- minä päivinä laskuja muodostetaan automaattisesti  
+- minä päivinä luodut laskut lähetetään automaattisesti
+- eri tuotteiden huomautusajan maksumuistutuksille  
+
+Laskun muodostamistietoja voidaan muokata **vain TaikaTilauksen puolelta**.  
+Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja3.png)
 *Laskujen muodostamistiedot -näkymä.*
 
-### Lomakkeen alkupään toiminnot
+### Välilehden alkupään toiminnot
 
 - **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä
 - **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen
@@ -567,7 +610,7 @@ Osoitekenttiin voidaan syöttää:
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja7.png)
 
-### Lomakkeen loppupään toiminnot
+### Välilehden loppupään toiminnot
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja8.png)
 
