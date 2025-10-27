@@ -6,33 +6,37 @@ sidebar_position: 8
 
 ![Hallinta](/img/ohjeet/hallinta.png)
 
-Hallinta-välilehdeltä voit hallita järjestelmään liittyviä eri asioita, kuten asiakkaiden käyttäjätunnuksia, roskakoria ja tapahtumalokia.
+**Hallinta**–välilehdeltä voit hallita järjestelmään liittyviä eri asioita, kuten asiakkaiden käyttäjätunnuksia, roskakoria ja tapahtumalokia.
 
 ## Viestit
 ![Viestit](/img/ohjeet/viestit.png)
 
-Hallinta-välilehden **Viestit**-alavälilehdellä voit tarkastella asiakkaille lähetettyjä viestejä, esim. tilausvahvistuksen yhteydessä.
+**Viestit**–alavälilehdellä voit tarkastella asiakkaille lähetettyjä viestejä, esimerkiksi tilausvahvistusten yhteydessä.
 
-Voit hakea viestejä:
+Viestien hakua voi rajata seuraavilla ehdoilla:
 
-- **päivän**
-- **kanavan** (kirje, sähköposti, verkkolasku, muu)
-- **lähetyksen tilan** (odottaa, lähetyksessä, lähetetty, virhe)
-- viestistä tai otsikosta löytyvän **merkkijonon**
-- **vastaanottojan osoitteen**
-- TAI **lähetyksen tunnuksen** perusteella (jokaisella lähetyksellä on oma tunniste, massalähetyksissä tunniste on sama kaikilla viesteillä)
+- **Päivämäärä**  
+- **Kanava** (kirje, sähköposti, verkkolasku, muu)  
+- **Lähetyksen tila** (odottaa, lähetyksessä, lähetetty, virhe)  
+- Viestistä tai otsikosta löytyvä **merkkijono**  
+- **Vastaanottajan osoite**  
+- Tai **lähetyksen tunnus** – jokaisella lähetyksellä on oma tunniste; massalähetyksissä tunniste on sama kaikilla viesteillä  
 
 Voit hakea lähettämättömät viestit painamalla **Hae lähettämättömät** -painiketta.
 
 ![Viestit](/img/ohjeet/viestit2.png)
 
-Saat hakutuloksen listaan lisäkenttiä aktivoimalla niitä **Listan lisäkentät** -valikosta ja suorittamalla Haun.
+Saat hakutulokseen lisätietoja aktivoimalla lisäkenttiä **Listan lisäkentät** -valikosta ja suorittamalla haun uudelleen.
 
 ![Viestit](/img/ohjeet/viestit3.png)
 
 ## Tunnukset
 
-Hallintakäyttäjän hakutoiminto mahdollistaa tilaajien käyttäjätunnusten (Maksumuuri ja OmaPalvelu) etsimisen. Hakutuloksissa näytetään, koska tunnusta on viimeksi käytetty eri palveluissa. Voit hakea tunnusta syöttämällä asiakkaan käyttäjätunnukseksi liitetyn sähköpostin **Käyttäjätunnus**-kenttään.
+**Hallintakäyttäjän hakutoiminto** mahdollistaa tilaajien käyttäjätunnusten (Maksumuuri ja OmaPalvelu) etsimisen.  
+
+Hakutuloksissa näytetään, milloin tunnusta on viimeksi käytetty eri palveluissa.  
+
+Voit hakea tunnusta syöttämällä asiakkaan käyttäjätunnukseen liitetyn sähköpostiosoitteen **Käyttäjätunnus**-kenttään.
 
 ![Viestit](/img/ohjeet/tunnukset.png)
 
