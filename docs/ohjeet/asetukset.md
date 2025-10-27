@@ -524,26 +524,28 @@ Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 
 ### Välilehden alkupään toiminnot
 
-- **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä
-- **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen
-- **Lehtien tilaustavat** -kenttään kirjataan, miltä kanavilta lehtiä voi tilata
-- **Etusivun asiakkaiden max. näyttömäärä** -kenttään kirjataan maksimissaan kuinka monta asiakasta näytetään etusivun hakulistassa
-- **Kontaktin perintäkielto -kenttä käytössä** -kentän aktivoidessa asiakaskortin Laskutustiedot-osioon tulee näkyviin Perintäkielto-kenttä, jonka aktivoimalla kyseisen asiakkaan laskuista ei lähetetä maksumuistutuksia eikä niitä peritä
-- **Laske laskun summat 5:llä desimaalilla** -kentän aktivoidessa laskujen summat lasketaan viiden desimaalin tarkkuudella yksikköhinnasta
-- **OmaPalvelu-osio näkyvissä kontaktikortilla** -kentän aktivoidessa OmaPalvelu-alivalikko näytetään asiakaskortilla
+- **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä.  
+- **Lehtien tuoteryhmät** -kenttään syötetään tuoteryhmät, joiden alta lehtituotteet löytyvät.
+- **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen.
+- **Lehtien tilaustavat** -kenttään kirjataan, miltä kanavilta lehtiä voi tilata.
+- **Etusivun asiakkaiden max. näyttömäärä** -kenttään kirjataan, kuinka monta asiakasta näytetään enintään etusivun hakulistassa.  
+- **Kontaktin perintäkielto -kenttä käytössä** -kentän aktivoimalla asiakaskortin *Laskutustiedot*-osioon tulee näkyviin *Perintäkielto*-kenttä, jonka aktivoimalla kyseisen asiakkaan laskuista ei lähetetä maksumuistutuksia eikä niitä peritä.  
+- **Laske laskun summat 5:llä desimaalilla** -kentän aktivoidessa laskujen summat lasketaan viiden desimaalin tarkkuudella yksikköhinnasta.  
+- **OmaPalvelu-osio näkyvissä kontaktikortilla** -kentän aktivoidessa *OmaPalvelu*-alivalikko näytetään asiakaskortilla.  
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja2.png)
 
 - **Ei laskutuslisää -kenttä käytössä** -kentän aktivoidessa asiakaskortille tulee näkyviin *Ei laskutuslisää* -kenttä.
-- **Uusi tilaus -kenttä käytössä** -kentän aktivoidessa Tilaus-näytölle ilmestyy *Uusi tilaus* -kenttä.
-- **Kampanja käytössä** -kentän aktivoidessa tuotteita voidaan ryhmitellä erilaisiin kampanjoihin
-- **Tekstiviestien max. lähetysmäärä päivässä** -kenttään syötetään luku (0-10,000), joka kertoo, kuinka monta tekstiviestiä voi lähettää päivittäin ohjelman avulla
-- **Lehtien painoaineistossa minimi nippukoko** -kenttään annetaan lehtien nippujen minimikoko
-- **Lehtien tilausmyyjät** -annetaan lista lehtimyyjistä, joita voi tämän jälkeen valita valikosta tilauksille tilauksia tehtäessä
-- **Myyjätieto laskulle** -kentän aktivoidessa tulee Lasku-näkymään ilmestyy Myyjä-valintalista
-- **Kirjautumistunniste käytössä** -kentän aktivoidessa käytetään ePaper-kirjautumispinnassa vaihtuvaa käyttäjäkohtaista kirjautumistunnistetta
-- **Paketti käytössä** -kentän aktivoidessa voi tilaustuotteista muodostaa paketteja ja asetuksiin tulee näkyviin Tilauspaketit-välilehti
-- **Osissa maksettaviin tilauksiin jaksotieto päivinä** -kentän aktivoidessa osissa maksettavien tilauksien laskuille lisätään laskutusjakso päivinä, esim. 1.1.2025-31.1.2025.
+- **Uusi tilaus -kenttä käytössä** -kentän aktivoidessa *Tilaus*-näytölle ilmestyy *Uusi tilaus* -kenttä.
+- **Kampanja käytössä** -kentän aktivoidessa tuotteita voidaan ryhmitellä erilaisiin kampanjoihin.
+- **Tekstiviestien max. lähetysmäärä päivässä** -kenttään syötetään luku (0–10 000), joka kertoo, kuinka monta tekstiviestiä voi lähettää päivittäin ohjelman avulla.
+- **Lehtien painoaineistossa minimi nippukoko** -kenttään annetaan lehtien nippujen minimikoko.
+- **Lehtien tilausmyyjät** -kenttään annetaan lista lehtimyyjistä, joita voi tämän jälkeen valita valikosta tilauksia tehtäessä.
+- **Myyjätieto laskulle** -kentän aktivoidessa *Lasku*-näkymään ilmestyy *Myyjä*-valintalista.
+- **Kirjautumistunniste käytössä** -kentän aktivoidessa käytetään ePaper-kirjautumispinnassa vaihtuvaa käyttäjäkohtaista kirjautumistunnistetta.
+- **Paketti käytössä** -kentän aktivoidessa tilaustuotteista voi muodostaa paketteja, ja asetuksiin tulee näkyviin *Tilauspaketit*-välilehti.
+- **Osissa maksettaviin tilauksiin jaksotieto päivinä** -kentän aktivoidessa osissa maksettavien tilausten laskuille lisätään laskutusjakso päivinä, esim. 1.1.2025–31.1.2025.
+- **Tilausjakson hyvitysviesti käytössä** – kentän aktivoidessa tilaukselle tulee näkyviin *Hyvitä tilausjaksoa* -painike, jonka avulla voi siirtää tilauksen loppupäivää ja lisätä seuraavalle laskulle tekstin, jossa kerrotaan hyvityksestä.
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja4.png)
 
@@ -551,52 +553,53 @@ Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 
 Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo) -toiminnon käyttöönottoon.
 
-- **Ennakkomaksujen (saldo) tili:** mille tilille saldoa lisätään ja käytetään
-- **Ennakkomaksujen käyttö eri lehtiin**: määrittely siitä, mille lehdille saldoa voi käyttää 
-    - muodossa LehdenLyhenne,LehdenLyhenne esim. TAN,TAV, jos saldoa käytetään molempiin lehtiin ilman erittelyä. Muodossa TAN;TAV, jos saldon käyttö eritellään, eli TaikaNakka-lehden (TAN) peruutuksesta tullutta saldoa voidaan käyttää vain TaikaNakka-lehden laskuihin
-- **Lehti#1,2,3: Ennakkomaksujen Lehti ja TuoteID**: lehdet ja erillistuote ID, jota käytetään luomaan tuoterivejä laskuille, kun saldoa käytetään. Muodossa LehdenLyhenne;TuoteID
-- **Maksun palautusten tili**: mille tilille palautettavat rahat merkitään odottamaan palautusta ja miltä palautukset kuitataan maksetuiksi
-- **Lehti#1,2,3: Maksun palautusten Lehti ja TuoteID**: lehdet ja erillistuote ID, jota käytetään luomaan tuoterivejä palaustuslaskuille. Muodossa LehdenLyhenne;TuoteID
+- **Ennakkomaksujen (saldo) tili** – mille tilille saldoa lisätään ja käytetään.  
+- **Ennakkomaksujen käyttö eri lehtiin** – määrittely siitä, mille lehdille saldoa voi käyttää.  
+  - Muodossa *LehdenLyhenne,LehdenLyhenne*, esim. `TAN,TAV`, jos saldoa käytetään molempiin lehtiin ilman erittelyä.  
+  - Muodossa *TAN;TAV*, jos saldon käyttö eritellään, eli TaikaNakka-lehden (TAN) peruutuksesta tullutta saldoa voidaan käyttää vain TaikaNakka-lehden laskuihin.  
+- **Lehti#1,2,3: Ennakkomaksujen Lehti ja TuoteID** – lehdet ja erillistuote-ID, jota käytetään luomaan tuoterivejä laskuille, kun saldoa käytetään. Muodossa *LehdenLyhenne;TuoteID*.  
+- **Maksun palautusten tili** – mille tilille palautettavat rahat merkitään odottamaan palautusta ja miltä palautukset kuitataan maksetuiksi.  
+- **Lehti#1,2,3: Maksun palautusten Lehti ja TuoteID** – lehdet ja erillistuote-ID, jota käytetään luomaan tuoterivejä palautuslaskuille. Muodossa *LehdenLyhenne;TuoteID*.  
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
 
-- **Maksetun laskun rahan palautus** -kentän aktivoidessa laskulle tulee painike, jota painamalla voi hyvittää kyseisen laskun ja laskun maksetun summan voi siirtää asiakkaalle palautettavaksi
+- **Maksetun laskun rahan palautus** – kentän aktivoidessa laskulle tulee painike, jota painamalla voidaan hyvittää kyseinen lasku ja siirtää sen maksettu summa asiakkaalle palautettavaksi.
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus8.png)
 
 ### Ilmoitusmyynti
 
-- **Vapauta ilmoitusvaraus laskutukseen** -kenttään annetaan ilmoitusvarauksen varausnumero ja painetaan *Vapauta ilmoitusvaraus laskutukseen* -painiketta. Käytetään esim. kun lasku on lähtenyt väärälle henkilölle
-- **OmaIlmo-sovelluksen nimi** -kenttään annetaan OmaIlmo-sovelluksen nimi
-- **Myyntituotteen lisääminen laskulla** -kentän aktivoidessa laskun tuoteriviksi voi lisätä myyntituotteen
-- **Julkiset lisätiedot käytössä** -kentän aktivoidessa ilmoitusvarauksen lisätiedot ovat julkisia ja siten asiakkaalle näkyvissä
-- **Laskutuspäivä käytössä** -kentän aktivoidessa ilmoitusvaraukseen voidaan lisätä laskutuspäivä, joilloin lasku lähetetään asiakkaalle
-- **Värillisyys käytössä** -kentän aktivoidessa ilmoitusvarauslomakkeella voidaan valita ilmoituksen väriksi mustavalkoinen tai värillinen
-- **Piilota Palstoja, Korkeus, ja Ilmoitusosasto** -kentän aktivoidessa ilmoitusvarauslomakkeelta piilotetaan Pastoja, Korkeus, ja Ilmoitusosasto -kentät.
+- **Vapauta ilmoitusvaraus laskutukseen** – kenttään annetaan ilmoitusvarauksen varausnumero ja painetaan *Vapauta ilmoitusvaraus laskutukseen* -painiketta. Toimintoa käytetään esimerkiksi silloin, kun lasku on lähtenyt väärälle henkilölle ja ilmoitusvaraus täytyy vapauttaa uudelleen laskutettavaksi.  
+- **OmaIlmo-sovelluksen nimi** – kenttään annetaan OmaIlmoitus-sovelluksen nimi.  
+- **Myyntituotteen lisääminen laskulla** – kentän aktivoidessa laskun tuoteriviksi voi lisätä myyntituotteen.  
+- **Julkiset lisätiedot käytössä** – kentän aktivoidessa ilmoitusvarauksen lisätiedot ovat julkisia ja siten asiakkaalle näkyvissä.  
+- **Laskutuspäivä käytössä** – kentän aktivoidessa ilmoitusvaraukseen voidaan lisätä laskutuspäivä, jolloin lasku lähetetään asiakkaalle.  
+- **Värillisyys käytössä** – kentän aktivoidessa ilmoitusvarauslomakkeella voidaan valita ilmoituksen väriksi mustavalkoinen tai värillinen.  
+- **Piilota Palstoja, Korkeus ja Ilmoitusosasto** – kentän aktivoidessa ilmoitusvarauslomakkeelta piilotetaan *Palstoja*, *Korkeus* ja *Ilmoitusosasto* -kentät.
 
 ![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja.png)
 *Pääkäyttäjä voi muokata ilmoitusvarauslomakkeen kenttien näkyvyyttä Pääkäyttäjä-välilehdeltä.*
 
-- **Aineisto on valmis ilmoitukseksi - valinta oletuksena päällä** -kentän aktivoidessa ilmoitusvaraukseen aineistoa lisätessä on *Aineisto on valmis ilmoitukseksi* -kenttä oletuksena päällä
-- **Näytä myyjään liitetty laskutustieto eli millä tiedoilla ilmoitusvarauksen lasku luodaan**
-- **Laskutetaan omanaan-ruksi** -kentän aktivoidessa tulee pelkistetylle ilmoitusvarauslomakkeelle näkyviin *Laskutetaan omanaan* -valinta
-- **Ilmoitus on valmis-ruksi** -kentän aktivoidessa tulee pelkistetylle ilmoitusvarauslomekkeella näkyviin *Ilmoitus on valmis* -valinta
+- **Aineisto on valmis ilmoitukseksi -valinta oletuksena päällä** – kentän aktivoidessa ilmoitusvaraukseen aineistoa lisättäessä *Aineisto on valmis ilmoitukseksi* -kenttä on oletuksena päällä.  
+- **Näytä myyjään liitetty laskutustieto** – näyttää, millä tiedoilla ilmoitusvarauksen lasku luodaan.  
+- **Laskutetaan omanaan -ruksi** – kentän aktivoidessa pelkistetylle ilmoitusvarauslomakkeelle tulee näkyviin *Laskutetaan omanaan* -valinta.  
+- **Ilmoitus on valmis -ruksi** – kentän aktivoidessa pelkistetylle ilmoitusvarauslomakkeelle tulee näkyviin *Ilmoitus on valmis* -valinta.  
 
 ![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja2.png)
 
-- **YT-hinta käytössä** -kentän aktivoidessa voidaan tuotteelle määritellä yhteistyöhinta, mitä käytetään sisäisessä laskutuksessa
+- **YT-hinta käytössä** – kentän aktivoidessa voidaan tuotteelle määritellä yhteistyöhinta, jota käytetään sisäisessä laskutuksessa.  
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja5.png)
 
-- **AdWizard-käytössä** -kenttä aktivoidaan, jos ilmoitusvarauksia käsitellään Mediaboxin InDesign Scoop-lisäosalla
-- **Laskutus kuun viim. kalenteripäivänä-valinta** -kentän aktivoidessa ilmoitusvarauslomakkeelle tulee kyseinen valinta käyttöön laskutustavaksi
+- **AdWizard käytössä** – kenttä aktivoidaan, jos ilmoitusvarauksia käsitellään Mediaboxin InDesign Scoop -lisäosalla.  
+- **Laskutus kuun viim. kalenteripäivänä -valinta** – kentän aktivoidessa ilmoitusvarauslomakkeelle tulee kyseinen valinta laskutustavaksi.  
 
 ![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja3.png)
 
-- **Raportoinnissa Reskontraluottelo 2 käytössä** - <!-- ///???? -->?
-- **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** - <!-- ///???? -->
-- **Valmistuslisän tuoteID** -kenttään syötetään ilmoitusvarauksen valmistuslisän tuotenumero
-- **Käyttäjätunnukset joilla oikeus myyntikiellon käsittelyyn** -kenttään syötetään niiden käyttäjien käyttäjätunnukset, joilla on oikeus ilmoitusasiakkaan myyntikiellon käsittelyyn
+- **Raportoinnissa Reskontraluettelo 2 käytössä** – <!-- ??? -->  
+- **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** – <!-- ??? -->  
+- **Valmistuslisän TuoteID** – kenttään syötetään ilmoitusvarauksen valmistuslisän tuotenumero.  
+- **Käyttäjätunnukset, joilla oikeus myyntikiellon käsittelyyn** – kenttään syötetään niiden käyttäjien tunnukset, joilla on oikeus ilmoitusasiakkaan myyntikiellon käsittelyyn.  
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja6.png)
 
@@ -604,9 +607,9 @@ Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilau
 
 Osoitekenttiin voidaan syöttää:
 
-- **Asiakkaan oman www-sivuston osoite**: URL-osoite, minne käyttäjä ohjataan esim. epäonnistuneen sisäänkirjautumisen jälkeen
-- **Asiakkaan oman www-sivuston TaikaTilaus -sisäänkirjauksen vastaanotto**: URL-osoite, minne voidaan lähettää TaikaTilaus-ohjelman sisäänkirjautumisien tiedot
-- **Asiakkaan oman www-sivuston Palvelut-lomakkeen paluun vastaanotto**: URL-osoite, minne palataan Palvelut-lomakkeelta mm. tilaamisen jälkeen
+- **Asiakkaan oman www-sivuston osoite** – URL-osoite, johon käyttäjä ohjataan esimerkiksi epäonnistuneen sisäänkirjautumisen jälkeen.  
+- **Asiakkaan oman www-sivuston TaikaTilaus-sisäänkirjauksen vastaanotto** – URL-osoite, jonne voidaan lähettää TaikaTilaus-ohjelman sisäänkirjautumistiedot.  
+- **Asiakkaan oman www-sivuston Palvelut-lomakkeen paluun vastaanotto** – URL-osoite, jonne käyttäjä ohjataan Palvelut-lomakkeelta esimerkiksi tilaamisen jälkeen.  
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja7.png)
 
@@ -616,77 +619,81 @@ Osoitekenttiin voidaan syöttää:
 
 **Ylläpidon raportit**
 
-- koostaa raportin Koko Asiakasrekisteristä Exceliin + tilaus, lasku ja myyntitiedot –taulukkoon. Raportin luominen suuresta asiakasrekisteristä saattaa viedä aikaa. Haku kestää noin 1000 kontaktia/1 minuutti.
-- kun raportti on luotu, ilmestyy raportin lataamiseen linkki
+- Koostaa raportin koko asiakasrekisteristä Exceliin, sekä tilaus-, lasku- ja myyntitiedot sisältävään taulukkoon.  
+- Raportin luominen suuresta asiakasrekisteristä voi kestää jonkin aikaa — haku kestää noin 1000 kontaktia / 1 minuutti.  
+- Kun raportti on luotu, ilmestyy linkki, josta sen voi ladata.  
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja9.png)
 
-**Pääkäyttäjätoiminnot**
-- Testaa Wordpress-salasanan tarkistamista <!-- ///??? -->
+**Pääkäyttäjätoiminnot**  
+- Testaa WordPress-salasanan tarkistamista <!-- Tarkennus tarvitaan: mitä toiminto tekee käytännössä. -->
 
-**Muuta tiliöinnin tiliä**
-- painikkeesta painamalla muodostuu alla olevan kuvan mukaiset kentät, joista voi muuttaa yksittäisten tiliöintien tiliä
+**Muuta tiliöinnin tiliä**  
+- Painikkeesta painamalla avautuvat alla olevan kuvan mukaiset kentät, joista voi muuttaa yksittäisten tiliöintien tiliä.  
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja10.png)
 
-**Lataa tiedosto TaikaTilaukselta**
-- painikkeen kautta voit ladata TaikaTilauksen sinulle toimittamia tiedostoja
+**Lataa tiedosto TaikaTilaukselta**  
+- Painikkeen kautta voit ladata TaikaTilauksen toimittamia tiedostoja. 
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja11.png)
 
-**Toimita tiedosto TaikaTilaukselle**
-- painikkeen kautta voit lähettää tiedostoja TaikaTilauksella (esim. isot muutokset asiakasrekisterissä)
-- ilmoita tuki@taikatilaus.fi tiedoston lähettämisestä
+**Toimita tiedosto TaikaTilaukselle**  
+- Painikkeen kautta voit lähettää tiedostoja TaikaTilaukselle (esimerkiksi suuria muutoksia asiakasrekisterissä).  
+- Ilmoita tiedoston lähettämisestä osoitteeseen **tuki@taikatilaus.fi**.  
 
 ![Pääkäyttäjä](/img/ohjeet/paakayttaja12.png)
 
 ## Käyttäjät
 
 ![Käyttäjät](/img/ohjeet/kayttajat.png)
-*Pääkäyttäjät voivat hallinoida palveluiden käyttäjiä Käyttäjät-välilehdeltä.*
+*Pääkäyttäjät voivat hallinnoida palvelun käyttäjiä Käyttäjät-välilehdeltä.*
 
-**Käyttäjät**–välilehdellä Pääkäyttäjäksi nimetyt voivat lisätä uusia sekä muuttaa ja poistaa olemassa olevia TaikaTilaus–palvelun käyttäjiä.
+**Käyttäjät**–välilehdellä pääkäyttäjiksi nimetyt henkilöt voivat lisätä uusia sekä muokata ja poistaa olemassa olevia TaikaTilaus-palvelun käyttäjiä.
 
-**Käyttäjätunnus**-sarakkeen yksittäistä tunnusta klikattaessa avautuu sen tarkemmat tiedot. **Lisää**-painikkeella voit lisätä uuden käyttäjän.
+**Käyttäjätunnus**-sarakkeen yksittäistä tunnusta klikkaamalla avautuvat käyttäjän tarkemmat tiedot. **Lisää**-painikkeella voi lisätä uuden käyttäjän.
 
 ![Käyttäjät](/img/ohjeet/kayttajat5.png)
 
 ### Käyttäjien tietojen muokkaaminen
 
-Käyttäjän **perustiedot** täydennetään ensin ja valitaan hänen tarvitsemansa **Rooli** (esim. ilmoitusten Käsittelijä)
+Käyttäjän **perustiedot** täydennetään ensin, ja sen jälkeen valitaan hänelle sopiva **rooli** (esim. ilmoitusten käsittelijä).
 
-- Perustiedot pitää ensin **tallentaa** ennen kuin voi lisätä aktivoitavat toiminnot
+> Perustiedot on tallennettava ennen kuin käyttäjälle voidaan lisätä käyttöoikeuksia.
 
-Uusille käyttäjille syötetään **perustiedot**:
+Uudelle käyttäjälle syötetään seuraavat **perustiedot**:
 
-- Käyttäjätunnus
-- Nimi
-- Sähköposti
-- Matkapuhelin
+- Käyttäjätunnus  
+- Nimi  
+- Sähköposti  
+- Matkapuhelin  
+- Salasana
 
-Käyttäjillä on palvelussa erilaisia **Rooleja** (esim. Myyjä/Käsittelijä) riippuen heidän tarvitsemista toiminnallisuuksista
+Käyttäjillä on palvelussa erilaisia **rooleja** (esim. Myyjä, Käsittelijä) riippuen heidän tarvitsemista toiminnoista.
 
-- **Myyjä**-roolissa olevat käyttäjätunnukset (myyjät) voidaan sitoa asiakaskortilla asiakkaisiin. Tällöin kyseisestä asiakkaasta tulee ilmoitusmyynnin asiakas
+- **Myyjä-roolissa** olevat käyttäjätunnukset voidaan liittää asiakaskortilla asiakkaisiin. Tällöin kyseisestä asiakkaasta tulee ilmoitusmyynnin asiakas.
 
-Käyttäjälle voi antaa **tietyn tai satunnaisen salasanan**, jonka hän voi itse muuttaa ja tunnukselle voi antaa **voimassaoloajan** (esim. kesäapulaisia varten).
+Käyttäjälle voidaan antaa **tietty salasana** tai luoda **satunnainen salasana**, jonka hän voi myöhemmin vaihtaa. Käyttäjälle voidaan myös määrittää **voimassaoloaika** (esim. kesäapulaisia varten).
 
-Jos käyttäjällä on otettu käyttöön **kaksivaiheinen tunnistautuminen** (MFA), sen voi kytkeä päälle ja pois käyttäjän tiedoista.
+Jos käyttäjällä on otettu käyttöön **kaksivaiheinen tunnistautuminen (MFA)**, sen voi kytkeä päälle tai pois käyttäjän tiedoista.
 
-**Sallitut sähköpostiosoitteet** ovat osoitteita mihinkä kyseisellä käyttäjätunnuksella saa lähettää sähköposteja. Jos rajauksia ei ole, jätä tyhjäksi.
+**Sallitut sähköpostiosoitteet** –kenttään voi määritellä osoitteet, joihin kyseisellä käyttäjätunnuksella saa lähettää sähköposteja. Jos rajoituksia ei ole, kenttä jätetään tyhjäksi.
 
 ![Käyttäjät](/img/ohjeet/kayttajat2.png)
 
-**Käyttäjäoikeudet** voidaan asettaa uudelle käyttäjälle perustietojen täyttämisen ja tallentamisen jälkeen. Käyttöoikeudet eri toimintoihin aktivoidaan **käyttäjäkohtaisesti**. Myös **Ilmoitusmyynti**-sovellus lisätään käyttöön käyttöoikeuksista. 
+**Käyttöoikeudet** voidaan määrittää käyttäjälle perustietojen tallentamisen jälkeen. Käyttöoikeudet eri toimintoihin aktivoidaan **käyttäjäkohtaisesti**. Myös **Ilmoitusmyynti**-sovellus lisätään käyttöön tätä kautta.
 
-Käyttöoikeiksia asetetaan aktiiviseksi **siirtämällä ne Valittavat toiminnot -kentästä Valitut toiminnot -kenttään**. Toimintoja voi siirtää kentästä toiseen kenttien välissä olevien **nuolien** avulla.  Valitut käyttöoikeudet vaikutttavat siihen mitä ominaisuuksia käyttäjä voi käyttää ohjelmaa käyttäessään (esim. Laskujen lähetys olessa valituissa toiminnoissa, kyseinen käyttäjä voi lähettää laskuja asiakkaille ohjelman kautta)
+Käyttöoikeudet asetetaan aktiivisiksi **siirtämällä ne Valittavat toiminnot -kentästä Valitut toiminnot -kenttään**. Toimintoja voi siirtää kenttien välillä **nuolipainikkeilla**.
 
-**Yrityksen pääkäyttäjä** -kentässä kerrotaan onko muokattava käyttäjä pääkäyttäjä vai ei. Jos haluat yrityksellesi uuden pääkäyttäjän ota yhteyttä TaikaTilaukseen osoitteesta: tuki@taikatilaus.fi.
+Valitut käyttöoikeudet määrittävät, mitä ominaisuuksia käyttäjä voi käyttää ohjelmassa (esim. jos *Laskujen lähetys* on valittu, käyttäjä voi lähettää laskuja ohjelman kautta).
+
+**Yrityksen pääkäyttäjä** -kenttä kertoo, onko käyttäjä pääkäyttäjä. Jos haluat yrityksellesi uuden pääkäyttäjän, ota yhteyttä osoitteeseen **tuki@taikatilaus.fi**.
 
 ![Käyttäjät](/img/ohjeet/kayttajat3.png)
 
-Jos käyttäjällä on käyttöoikeus [raportteihin](/docs/ohjeet/yleiset_ominaisuudet/raportit), voit myös määrittää, mitä raportteja käyttäjä voi nähdä siirtämällä valittuja raportteja kenttien välissä olevilla nuolilla. Raportti tulee käyttäjän näkyväksi **siirtämällä se Valittavat raportit -kentästä Valitut raportit -kenttään**.
+Jos käyttäjällä on käyttöoikeus [raportteihin](/docs/ohjeet/yleiset_ominaisuudet/raportit), voidaan myös määrittää, mitä raportteja hän näkee. Raportti lisätään käyttäjälle **siirtämällä se Valittavat raportit -kentästä Valitut raportit -kenttään**. Pääkäyttäjä voi muokata raporttien näkyvyyksiä myös suoraan **[Raportit](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/raportit#raporttien-n%C3%A4kyvyyden-muokkaus)**-välilehdeltä. 
 
-Voit myös poistaa käyttäjän painamalla **Poista**-painiketta lomakkeen oikeassa alakulmassa.
+Käyttäjän voi poistaa painamalla **Poista**-painiketta lomakkeen oikeassa alakulmassa.
 
 ![Käyttäjät](/img/ohjeet/kayttajat4.png)
 
@@ -694,76 +701,210 @@ Voit myös poistaa käyttäjän painamalla **Poista**-painiketta lomakkeen oikea
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu.png)
 
-**OmaPalvelu**–välilehdellä määritellään asiakaskohtaiset asetukset lehti- ja ilmoitusasiakkaiden OmaPalvelun käyttöä varten
+**OmaPalvelu**–välilehdellä määritellään asiakaskohtaiset asetukset lehti- ja ilmoitusasiakkaiden OmaPalvelun käyttöä varten.
 
-Asetuksiin määritellään kirjautumiseen liittyen mm.
+Asetuksissa määritellään kirjautumiseen liittyen mm.:
 
-- Sovelluksen nettiosoite ja nimi
-- Kirjautumisnäkymien otsikot ja muut ohjetekstit
-- Oheistoimintojen ohjauslinkit
-- Toimintoihin liittyvien viestien otsikot ja sisältötekstit
+- Sovelluksen nettiosoite ja nimi  
+- Kirjautumisnäkymien otsikot ja muut ohjetekstit  
+- Oheistoimintojen ohjauslinkit  
+- Toimintoihin liittyvien viestien otsikot ja sisältötekstit  
 
 ### Toiminnot
 
-- **OmaPalvelu2 -toiminnot käytössä** -kentästä aktivoidaan käyttöön OmaPalvelu2-ohjelman toiminnot. Vanhasta OmaPalvelusta ollaan siirtymävaiheessa uuteen palveluun.
-- **Asiakasyrityksen tyylisivu** -kenttään ladataan yrityksen tyylisivu
-- **Perhetunnus käytössä** -kentästä aktivoidaan perhetunnukset käyttöön
-- **Toiminnallisuuksien aktivointi:** kentistä aktivoidaan käyttöön eri toiminnallisuuksia, joista voit lukea enemmän <a href="/docs/ohjeet/omapalvelu#sisältö">täältä</a>
+- **OmaPalvelu2-toiminnot käytössä** – kentästä aktivoidaan käyttöön OmaPalvelu2-ohjelman toiminnot. Vanha OmaPalvelu on siirtymässä uuteen versioon, joten tämä valinta otetaan käyttöön siirtymävaiheessa.  
+- **Asiakasyrityksen tyylisivu** – kenttään ladataan yrityksen oma tyylisivu.  
+- **Perhetunnus käytössä** – kentästä aktivoidaan perhetunnusten käyttö.  
+- **Toiminnallisuuksien aktivointi** – kentistä aktivoidaan käyttöön eri toiminnallisuuksia. Näistä voit lukea lisää [täältä](/docs/ohjeet/omapalvelu#sisältö).  
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu6.png)
 
-- **Ryhmäkysely** -toiminnon aktivoidessasi tulee OmaPalveluun kysely, johon vastaavat asiakkaat voidaan lajitellaan omaan ryhmäänsä. Näin voit suorittaa esim. arvontoja
-- **Supertarjous** -kentän aktivoimalla voit kohdistaa OmaPalvelussa mainontaa tietylle asiakasryhmälle
-- **HTML** -kentillä voit tehdä OmaPalveluun omia sisältöjä
+- **Ryhmäkysely** – toiminnon aktivoimalla OmaPalveluun lisätään kysely, jonka vastaukset voidaan ryhmitellä. Näin esimerkiksi arvontaan osallistuvat asiakkaat voidaan lajitella omaan ryhmäänsä.  
+- **Supertarjous** – kentän aktivoimalla voit kohdistaa OmaPalvelussa näkyvää mainontaa tietyille asiakasryhmille.  
+- **HTML** – kenttien avulla voit luoda OmaPalveluun omia HTML-pohjaisia sisältöjä.  
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu7.png)
 
 ### Korttien tekstit
 
-Voit asettaa OmaPalvelun eri toiminnoille otsikon ja infotekstin. Asiakaspalvelu kortille voit asettaa esim. yhteystiedot ja aukioloajat.
+Voit asettaa OmaPalvelun eri toiminnoille otsikon ja infotekstin. Esimerkiksi **Asiakaspalvelu**-kortille voit lisätä asiakaspalvelusi yhteystiedot ja aukioloajat.
+
+#### Etusivu
+
+**Etusivu-kortin** kohdalla voit määrittää:
+
+- **Otsikon**  
+- Onko **nimitieto käytössä** (näytetäänkö kirjautuneen käyttäjän nimi kortilla)  
+- Näytetäänkö **käyttäjätunnuksen** vai **kontaktin** tiedot  
+- Näytetäänkö tiedoissa **syntymävuosi**  
+- Onko **maatieto**:  
+  - vain lukutilassa (asiakas ei voi muokata)  
+  - pakollinen (tieto on pakollinen ja asiakkaan on annettava se tallennettaessa)  
+  - **sallitut arvot** (mitkä maat/maakoodit ovat sallittuja arvoja)  
+- Onko **puhelinnumero**:  
+  - vain lukutilassa  
+  - määritettynä **puhelintiedon otsikko**
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu11.png)
-![OmaPalvelu](/img/ohjeet/omapalvelu12.png)
-![OmaPalvelu](/img/ohjeet/omapalvelu13.png)
-![OmaPalvelu](/img/ohjeet/omapalvelu14.png)
-![OmaPalvelu](/img/ohjeet/omapalvelu15.png)
-![OmaPalvelu](/img/ohjeet/omapalvelu16.png)
+
+#### Tilaukset
+
+**Tilaukset**-kortin kohdalla voit määrittää:
+
+- **Otsikon**  
+- **Infotekstin**  
+- Onko **tilauksen peruminen** käytössä  
+- **Perumisen vahvistustekstin**  
+- **Perumisen syyt** valintalistalle – anna jokainen syy omalle rivilleen. Jos kenttä jätetään tyhjäksi, käytetään vapaata tekstikenttää.  
+- Näytetäänkö kirjautuneen asiakkaan **päättyneet tilaukset**
+
+![OmaPalvelu](/img/ohjeet/op-tilaukset.png)
+
+#### Jakeluvirhe
+
+**Jakeluvirhe**-kortin kohdalla voit määrittää:
+
+- **Otsikon**  
+- **Infotekstin**  
+- Meneekö **jakeluvirheen ilmoittamisesta viesti lehdelle**
+
+![OmaPalvelu](/img/ohjeet/op-jakeluvirhe.png)
+
+#### Vakituinen osoitteenmuutos
+
+**Vakituinen osoitteenmuutos**-kortin kohdalla voit määrittää:
+
+- **Infotekstin**  
+- Voiko asiakas ilmoittaa tulevan osoitteenmuutoksen **90 päivää ennakkoon**  
+- Onko **maatieto**:  
+  - vain lukutilassa (asiakas ei voi muokata)  
+  - pakollinen (tieto on pakollinen ja asiakkaan on annettava se tallennettaessa)  
+  - **sallitut arvot** (mitkä maat/maakoodit ovat sallittuja arvoja)  
+- Onko **puhelinnumero**:  
+  - määritettynä **puhelintiedon otsikko**
+
+![OmaPalvelu](/img/ohjeet/op-vakituinen.png)
+
+#### Väliaikainen osoitteen muutos
+
+**Väliaikainen osoitteenmuutos**-kortin kohdalla voit määrittää:
+
+- **Otsikon**  
+- **Infotekstin**  
+- Onko **maatieto**:  
+  - vain lukutilassa (asiakas ei voi muokata)  
+  - pakollinen (tieto on pakollinen ja asiakkaan on annettava se tallennettaessa)  
+  - **sallitut arvot** (mitkä maat/maakoodit ovat sallittuja arvoja)  
+- Onko **CO-osoite**:  
+  - määritettynä **CO-osoitteen otsikko**
+
+![OmaPalvelu](/img/ohjeet/op-valiaikainen.png)
+
+#### Jakelun keskeytys
+
+**Jakelun keskeytys**-kortin kohdalla voit määrittää:
+
+- **Otsikon**  
+- **Infotekstin**  
+- **Lisää keskeytys** -sivun infotekstin
+
+![OmaPalvelu](/img/ohjeet/op-jakelun-keskeytys.png)
+
+#### Laskut
+
+**Laskut**-kortin kohdalla voit määrittää:
+
+- **Otsikon**  
+- **Infotekstin**
+
+![OmaPalvelu](/img/ohjeet/op-laskut.png)
+
+#### Asiakaspalvelu
+
+**Asiakaspalvelu**-kortin kohdalla voit määrittää:
+
+- **Kortin otsikon**  
+- **Asiakaspalvelunäytön otsikon**  
+- **Yhteystietojen otsikon**  
+- **Aukiolotekstin**  
+- **Puhelinnumeron**  
+- **Sähköpostiosoitteen**  
+- Lähetetäänkö **asiakaspalveluyhteydenotto** sähköpostitse yrityksesi asiakaspalveluun
+- **Lähetä viestin** -painikkeen otsikko
+
+![OmaPalvelu](/img/ohjeet/op-asiakaspalvelu.png)
+
+#### Tilaa lehti
+
+**Tilaa lehti** -kortin kohdalla voit määrittää:
+
+- **Kortin otsikon**  
+  - *Esim.*: Tilaa lehti  
+- **Tilaa lehti -linkin osoitteen**  
+  - *Esim.*: /palvelut.aspx?p=til  
+- **Tilaa lehti -linkin tekstin**  
+  - *Esim.*: Tilaa lehti
+
+![OmaPalvelu](/img/ohjeet/op-tilaa.png)
+
+#### Juttuvinkki
+
+**Juttuvinkki**-kortin kohdalla voit määrittää:
+
+- **Kortin otsikon**  
+- **Kortin taustakuvan**  
+- **Juttuvinkki-näytön infotekstin otsikon**  
+- **Juttuvinkki-näytön infotekstin**  
+- **Lähetä juttuvinkki sähköpostitse** – valinta, jolla määritetään, lähetetäänkö juttuvinkki sähköpostitse esim. yrityksesi toimitukselle
+- **Juttuvinkin vastaanottajan sähköpostiosoite**  
+  - *Esim.*: toimitus@taikanakka.fi
+
+![OmaPalvelu](/img/ohjeet/op-juttuvinkki.png)
+
+#### Ilmoitukset
+
+**Ilmoitukset**-kortin kohdalla voit määrittää:
+
+- **Kortin otsikon**   
+- **Ilmoitukset-näytön infotekstin**  
+
+![OmaPalvelu](/img/ohjeet/op-ilmoitukset.png)
 
 ### Kirjautumisnäkymien otsikot ja palvelun osoitteet
 
-- **Kirjautumisnäytön Rekisteröidy-linkin osoite** -kenttään asetetaan, minkä osoitteen kautta palveluun rekisröidytään
-- **OmaPalvelu-sovelluksen nimi** -kenttään määritetään OmaPalvelu-sovelluksen yrityskohtainen nimi
-- **Kirjautumisnäytön kirjautumisen otsikko** -kenttään määritetään kirjaustumisnäyttöön tuleva kirjautumisen otsikko
-- **Kirjautumisnäytön rekisteröidy teksti** -kenttään määritetään rekisteröitymiseen tuleva teksti
-- **Kirjautumisnäytön kertakirjautumissivun otsikko** -kenttään määritetään kertakirjautumisvaihtoehdolle tuleva otsikko
+- **Kirjautumisnäytön Rekisteröidy-linkin osoite** – kenttään asetetaan osoite, jonka kautta palveluun rekisteröidytään.  
+- **Kirjautumisnäytön kirjautumisen otsikko** – kenttään määritetään kirjautumisnäkymään tuleva otsikko.  
+- **Kirjautumisnäytön rekisteröidy-teksti** – kenttään määritetään rekisteröitymiseen liittyvä teksti.  
+- **Kirjautumisnäytön kertakirjautumissivun otsikko** – kenttään määritetään kertakirjautumisvaihtoehdon otsikko.  
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu8.png)
 
-- **Kirjautumisnäytön kertakirjautumissivun ohje** -kenttään määritetään kertakirjautumista koskeva ohje
-- **Kirjautumisnäytön kertakirjautumismeilin otsikko ja viesti** -kenttiin määritetään sisältö sähköpostilla lähetettävään automaattiviestiin, joka lähetetään kun asiakas on pyytänyt kertakirjautumislinkkiä
+- **Kirjautumisnäytön kertakirjautumissivun ohje** – kenttään määritetään kertakirjautumista koskeva ohjeteksti.  
+- **Kirjautumisnäytön kertakirjautumismeilin otsikko ja viesti** – kenttiin määritetään automaattiviestin otsikko ja sisältö. Viesti lähetetään, kun asiakas on pyytänyt kertakirjautumislinkkiä. 
+- **Kirjautumisen jälkeinen pop-up teksti**
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu9.png)
 
-- **Tietosuojasivun osoite** -kenttään määritetään osoite, josta löytyy sovelluksen tietosuojatiedote
-- **REST-API URL** <!-- //???  -->
+- **Tietosuojasivun osoite** – kenttään määritetään osoite, josta löytyy sovelluksen tietosuojaseloste.  
+- **REST-API URL** <!-- Tarkennus tarvitaan: mitä varten osoite määritetään. -->  
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu10.png)
 
 ### Automaattiviestit
 
-- **OmaPalvelun käyttäjätunnuksen luontisähköposti** -kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetään, kun asiakkaalle on luotu tunnus OmaPalveluun
-- **Salasanan resetöintisähköposti** -kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetään, kun asiakas on pyytänyt salasanan resetointia
+- **OmaPalvelun käyttäjätunnuksen luontisähköposti** – kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetetään, kun asiakkaalle on luotu tunnus OmaPalveluun.  
+- **Automaattisen korttiveloituksen epäonnistuminen** – kentistä voit asettaa otsikon ja tekstin viestiin, joka lähetetään, kun automaattinen korttiveloitus epäonnistuu.
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu3.png)
 
-- **Automaattisen korttiveloituksen epäonnistuminen** -kenttiin voit asettaa otsikon ja tekstin viestiin, joka lähetetään, kun automaattinen korttiveloitus epäonnistuu
-- **Perhekutsu** -kentistä voit asettaa otsikon ja tekstin viestille, joka lähetetään, kun OmaPalvelun käyttäjä on lisännyt tililleen perhetunnuksia
+- **Perhekutsu** – kentistä voit asettaa otsikon ja tekstin viestille, joka lähetetään, kun OmaPalvelun käyttäjä on lisännyt tililleen perhetunnuksia.  
+- **Salasanan resetöintisähköposti** – kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetetään, kun asiakas on pyytänyt salasanan resetointia.  
+
+- **Siirry kirjautumiseen -linkki ohjaa ulos** – valintaruutu, jonka aktivoimalla linkki ohjaa käyttäjän ulos palvelusta salasanan uusimisen jälkeen.  
+    - Tämä mahdollistaa sen, että käyttäjä voidaan ohjata esimerkiksi maksumuuriin, verkkosivuille tai näköislehteen.  
+  - **Palaa kirjautumiseen** ja **Siirry kirjautumiseen** -linkkien **URL**-osoite määritetään tässä osiossa.
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu4.png)
-
-- **Viestin kiellistys**: jos on tarvetta voit lisätä eri kieliversiota automaattiviesteihin. Viestien kieli määräytyy OmaPalvelun käyttäjän  omasta kiellistys asetuksesta.
-
-![OmaPalvelu](/img/ohjeet/omapalvelu5.png)
 
 <!-- //???  ## Maksumuuri
 
@@ -775,44 +916,76 @@ Maksumuuri välilehdeltä voit testata maksumuurin toimivuutta ja asettaa osoitt
 
 ![Tilauslomake](/img/ohjeet/tilauslomake.png)
 
-Tilauslomake-välilehdellä voit määrittää tilauslomakkeen asetukset. Tilauslomakkeen kautta asiakkaat voivat tilata lehden. 
- 
-Tilauslomake-asetuksista voit **esikatsella tyhjää tai esitäytettyä ilmoituslomaketta**. Esikatselusta voit testata ilmoituslomaketta ja nähdä, miten muutokset vaikuttavat lomakkeeseen.
+**Tilauslomake**–välilehdellä voit määrittää tilauslomakkeen asetukset. Tilauslomakkeen kautta asiakkaat voivat tilata lehden.
+
+Tilauslomake-asetuksista voit **esikatsella tyhjää tai esitäytettyä tilauslomaketta**. Esikatselun avulla voit testata lomakkeen toimintaa ja nähdä, miten tekemäsi muutokset asetuksissa vaikuttavat siihen.
+
+### Yleiset asetukset
+
+**Yleiset asetukset** -kohdassa voit valita tilauslomakkeen kielen. Tällä hetkellä vaihtoehtoina ovat **suomi**, **englanti** ja **ruotsi**.
+
+> **Huom:** Kielen valinta ei vaikuta tuotteiden tai laskujen teksteihin.  
+> Tilauslomakkeen asetuksissa määritetyt tekstit ohittavat oletustekstit kielivalinnasta riippumatta.
+
+![Tilauslomake](/img/ohjeet/tilauslomake-yleiset.png)
 
 ### Tilaustuotteen valinta
 
-**Tilaustuotteen valinta** -kohdasta voit asettaa, mitkä ja minkälaiset tuotteet tulevat tilauslomakkeelle näkyviin sekä asettaa mitä tekstejä tilauslomakkeella näkyy tilaustuotetta valitessa.
+**Tilaustuotteen valinta** -kohdassa voit määrittää, mitkä tuotteet ja minkälaiset tuotetyypit tulevat näkyviin tilauslomakkeelle. Tässä osiossa voit myös asettaa, mitä tekstejä lomakkeella näytetään, kun tilaaja valitsee tuotteen.
 
-**Tilaustuotteen valinta otsikko** -kohtaan voit asettaa tilauslomakkeelle otsikon tuotteen valinta kohtaan.
+#### Valitse tuote -vaihtoehdot
 
-**Valitse tuote-vaihtoehdoista** voit valita voika lomakkeelta tilata digitilauksia, täystilauksisa (tilaus sisältää paperilehden ja digin) vai paperitilauksia. Voit asettaa näille tuotevaihtoehdoille myös **otsikot** ja **infotekstit**, jotka tulevat näkyviin lomakkeelle.
+**Tilaustuotteen valinta otsikko** -kentässä voit määrittää otsikon, joka näkyy lomakkeella tuotteen valintakohdassa.
+
+**Valitse tuote** -vaihtoehdoista voit määrittää, voiko lomakkeella tilata digitaalisia tilauksia, täystilauksia (paperi + digi) vai pelkkiä paperitilauksia. Näille tuotevaihtoehdoille voit asettaa omat **otsikot** ja **infotekstit**, jotka näkyvät tilaajalle lomakkeella.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake8.png)
 
 ![Tilauslomake](/img/ohjeet/tilauslomake9.png)
 *Tuotteen otsikko ja info teksti näkyvät lomakkeella ympäröidyissä kohdissa.*
 
-**Tilauslomakkeen tuotteet** -valikosta voit valita, mitä tuotteita asiakas voi tilata tilauslomakkeelta.
+#### Valitse tilauksen tyyppi -vaihtoehdot
+
+**Valitse tilauksen tyyppi** -kohdassa voit määrittää, voiko lomakkeella tilata **kestotilauksia**, **määräaikaisia tilauksia** tai molempia. Näille tilausvaihtoehdoille voit asettaa omat **otsikot** ja **infotekstit**, jotka näytetään tilaajalle lomakkeella.
+
+![Tilauslomake](/img/ohjeet/tilauslomake-tilaustyyppi.png)
+
+#### Laskutusväli / tuotteet
+
+**Tilauslomakkeen tuotteet** -valikosta voit valita, mitkä tuotteet asiakas voi tilata tilauslomakkeelta.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake3.png)
 
-**Tilauslomakkeen piilotetut tuotteet** -valikosta voit valita tuotteet, jotka ovat tilauslomakkeelta tilattavissa, mutta ovat tilauslomakkeelta piilotettu. Tuotteita voi tilata vaan, jos on tullut lomakkeelle esim. tarjouslinkin kautta.
+**Tilauslomakkeen piilotetut tuotteet** -valikosta voit valita tuotteet, jotka ovat tilattavissa, mutta piilotettu näkyvistä tilauslomakkeella.  
+- Näitä tuotteita voi tilata vain, jos lomakkeelle saavutaan esimerkiksi tarjouslinkin kautta.
 
-**Tilauslomakkeen tarjoustuotteet** -valikosta voit valita, mitä tarjoustuotteita lomakkeella näkyy.
+**Tilauslomakkeen tarjoustuotteet** -valikosta voit valita, mitkä tuotteet ovat tarjoustuotteita. 
+- Huomioi, että tuotteiden tulee olla valittuna myös **Tilauslomakkeen tuotteet** tai **Tilauslomakkeen piilotetut tuotteet** -valikossa.
+- Tilauslomakkeella tulee ikoni näiden tuotteiden viereen, että ne voi erottaa muista tuotteista.
 
-**Tilauslomakkeen oletuksena valittu tuote** -valikosta voit valita, mikä tuote näkyy lomakkeella oletuksena, kun lomakkeelle ensin tullaan.
+**Tilauslomakkeen oletuksena valittu tuote** -valikosta voit valita, mikä tuote näkyy lomakkeella oletuksena, kun käyttäjä avaa lomakkeen.
 
-**Laske ja näytä kuukausihinta tuotteille** -valikosta voit valita, mille tuotteille lasketaan ja näytetään kuukausihinta lomakkeella.
+![Tilauslomake](/img/ohjeet/tilauslomake-tuotteet.png)
+
+**Laske ja näytä kuukausihinta tuotteille** -valikosta voit valita, mille tuotteille kuukausihinta lasketaan ja näytetään lomakkeella.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake12.png)
-*Kuukausihinta näkyy tilauslomakkeella ympäröidyissä kohdassa.*
+*Kuukausihinta näkyy tilauslomakkeella kuvassa ympäröidyssä kohdassa.*
 
-Aktivoimalla **Siirry lehtien tilauslomakkeella ensin tuotelistaan** lomakkeen aloitussivuksi tulee tuotelista.
+#### Tilaus alkaa
+
+Tässä kohdassa voit asettaa **“Valitse päivämäärä”** -infotekstin, joka näytetään tilaajalle, kun hän valitsee tilauksen aloituspäivän.
+
+![Tilauslomake](/img/ohjeet/tilauslomake-tilausalkaa.png)
+
+#### Aloitussivu
+
+Aktivoimalla **Tilauslomakkeen aloitussivuna tuotelista** -asetuksen, lomakkeen aloitussivuksi tulee tuotelista.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake11.png)
 *Tuotelista-näkymä*
 
-**Palaa tuotelistaan -painike** kentän aktivoimalla, lomakkeelle tulee painike, josta voi palata tuotelistaan tuotteen valinnasta.
+Aktivoimalla **Palaa tuotelistaan -painike käytössä** -kentän, lomakkeelle lisätään painike, josta käyttäjä voi palata tuotelistaan tuotteen valinnan jälkeen.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake10.png)
 
@@ -820,201 +993,255 @@ Aktivoimalla **Siirry lehtien tilauslomakkeella ensin tuotelistaan** lomakkeen a
 
 ### Yhteystiedot
 
-Yhteystiedot-kentässä voit määrittää kysytäänkö asiakkaalta:
+**Yhteystiedot**-osiossa voit määrittää, mitkä kentät näkyvät tilaajalle tilauslomakkeella ja mitkä niistä ovat pakollisia täytettäviä kenttiä.  
 
-- **Maata**
-- **Puhelinnumeroa**
+Jokaiselle kentälle voidaan myös määrittää oma otsikko.
 
-Voit myös asettaa ne pakollisiksi tiedoiksi.
+Kenttien valinnat:
+- **Käytössä** – kun valinta on aktiivinen, kenttä näkyy lomakkeella.  
+- **Pakollinen** – kun valinta on aktiivinen, kenttä on pakollinen täyttää ennen tilauksen lähettämistä.  
+- **Otsikko** – kentän nimi, joka näytetään tilaajalle lomakkeella.
 
-![Tilauslomake](/img/ohjeet/tilauslomake4.png)
+Mahdollisia yhteystietokenttiä ovat mm.:
+- Katunumero  
+- Porras  
+- Huoneisto  
+- Maa  
+- Puhelin  
+- Asiakasroolit - asiakasryhmä
+- Kampanjatunniste - tunniste, jolla tilaus ryhmitellään tiettyyn kampanjaan kuuluvaksi
+
+![Tilauslomake](/img/ohjeet/tilauslomake-yhteystiedot.png)
 
 ![Tilauslomake](/img/ohjeet/tilauslomake13.png)
 *Aktivoitavat yhteystiedot näkyvät ympäröidyissä kohdissa.*
 
 ### Maksutapa 
 
-Maksutapa-kohdasta voit säätää maksutapohin liittyviän asetuksia.
+**Maksutapa**-kohdassa voit määrittää tilauslomakkeella käytettävät maksutapavaihtoehdot ja niihin liittyvät asetukset.
 
-**Valitse laskutustapa -vaihtoehdot** kohdasta voit valita maksutapavaihtoehdoiksi:
+**Valitse laskutustapa -vaihtoehdot** -kohdasta voit valita, mitkä maksutavat ovat asiakkaan käytettävissä:
 
-- Verkkomaksun
-- Sähköpostilaskun
-- Paperilaskun
+- Verkkomaksu  
+- Sähköpostilasku  
+- Paperilasku  
 
-Voit myös valita, mikä näistä maksutavoista on lomakkeella **oletuksena** sekä asettaa lomakkeella näkyvät otsikot ja infoteksit maksutapoihin liittyen.
+Voit myös määrittää, mikä maksutavoista on **oletuksena valittuna** sekä asettaa maksutapojen **otsikot** ja **infotekstit**, jotka näkyvät tilaajalle lomakkeella.
+
+Jos **Verkkomaksu** on valittuna, mutta se on käytössä vain kertamaksuna, voidaan kestotilauksissa ja useassa erässä laskutettavissa tilauksissa kysyä myös **seuraavan laskun toimitustapaa**. Tämä voidaan ottaa käyttöön aktivoimalla *Kysy seuraavan laskun toimitustapa* -asetus.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake5.png)
 
 ![Tilauslomake](/img/ohjeet/tilauslomake15.png)
-*Valitsemasi maksutavat, niiden otsikot ja infokenttä näkyvät ympäröidyissä kohdissa.*
+*Valitsemasi maksutavat, niiden otsikot ja infotekstit näkyvät ympäröidyissä kohdissa.*
 
-**Valitse verkkomaksupalvelu** kohdasta voit valita mihin verkkomaksupalveluun asiakkaat ohjataan.
+**Verkkomaksupalvelu**-osiossa määritellään, minkä maksunvälityspalvelun kautta tilauslomakkeen verkkomaksut käsitellään.  
+
+Valitse käytettävä verkkomaksupalvelu, johon tilaajat ohjataan maksamaan:
+- Ei käytössä  
+- **Paytrail**  
+- **Visma Pay**  
+- **Stripe**
+
+Valinnan jälkeen täydennä palvelukohtaiset tiedot:
+
+**Paytrail (Checkout)**
+- **Paytrail kauppiastunnus** – palveluntarjoajan myöntämä tunnus.  
+  Huom: käytä vain 2023 jälkeen myönnettyjä tunnuksia.  
+  Esimerkki testitunnus: `375917`
+- **Paytrail kauppiasvarmenne** – palveluntarjoajan myöntämä varmennesarja.  
+  Huom: käytä vain 2023 jälkeen myönnettyjä varmennesarjoja.  
+  Esimerkki testivarmenne: `SAIPPUAKAUPPIAS`
+
+**Visma Pay**
+- **Merchant ID**  
+- **Private Key**  
+- **API Key**
 
 ![Tilauslomake](/img/ohjeet/tilauslomake6.png)
 
 ### Tilauksen hyväksyminen
 
-**Tilausehdot (pakollinen) -valinnan teksti** kohdasta pitää asettaa tilausehtojen hyväksymisen teksti.
+**Tilausehdot (pakollinen) -valinnan teksti** -kenttään asetetaan teksti, joka näkyy asiakkaalle, kun hän hyväksyy tilausehdot ennen tilauksen lähettämistä.  
 
-**Tilausehdot osoite** kohtaan laitetaan osoite, josta löytyy tilausehtojen tiedot.
+**Tilausehdot osoite** -kenttään lisätään URL-osoite, josta löytyvät yrityksen tilausehdot.  
 
-**Markkinointivalinnat**-kohdasta voit asettaa, millä kanavilla asiakkaalle markkinoidaan. Vaihtoehtoina ovat:
+**Markkinointivalinnat**-kohdassa määritellään, millä kanavilla asiakkaalle voidaan lähettää markkinointia. Vaihtoehtoina ovat:
 
-- Sähköposti
-- Kirje
-- Puhelu
+- Sähköposti  
+- Kirje  
+- Puhelu  
 
-Voit myös asettaa markkinointilupakentille otsikot.
+Voit lisäksi määrittää markkinointilupakentille omat otsikot.  
 
-Tietosuojaselosteen otsikko ja osoite asetetaan viimeisiin kenttiin.
+**Tietosuojaselosteen otsikko** ja **Tietosuojaselosteen osoite** määritetään osion viimeisissä kentissä.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake7.png)
 
 ![Tilauslomake](/img/ohjeet/tilauslomake14.png)
-*Maksutapa-asetukset koskevat tätä kohtaa lomakkeesta.*
+
+*Tilauksen hyväksyminen -asetukset koskevat tätä kohtaa lomakkeesta.*
 
 ### Tilausvahvistus ja uudelleenohjaus
 
-**Viestipohjat**-painikkeesta sinut ohjataan Viestipohjat-välilehteen, josta voit muokata tilausvahvistuksen tekstejä.
+**Viestipohjat**-painikkeesta siirryt suoraan **[Viestipohjat](https://support.taikatilaus.fi/docs/ohjeet/asetukset#viestipohjat)**-välilehdelle, jossa voit muokata tilausvahvistusviestin otsikoita ja sisältöä.  
 
-Voit asettaa osoitteen, johon asiakas ohjataan tilauksen tekemisen jälkeen, esim. hs.fi.
+Voit myös asettaa osoitteen, johon asiakas ohjataan tilauksen, käyttäjätunnuksen luomisen tai verkkomaksun jälkeen (esimerkiksi lehden verkkosivut)  
 
 ![Tilauslomake](/img/ohjeet/tilauslomake16.png)
 
 ### Tilaajan tunnusten luominen
 
-Tunnusten luomiseen on kaksi keinoa. Kun tunnukset on luotu, ne siirtyvät näkyislehtipalveluun, jos sellainen on käytössä.
+Tunnusten luomiseen on kaksi vaihtoehtoista tapaa. Kun tunnukset on luotu, ne siirtyvät automaattisesti **näköislehtipalveluun**, jos sellainen on käytössä.
 
-1. Kun asiakas tekee tilauksen **TaikaTilauksen tilauslomakkeen kautta**, saa hän sähköpostiinsa vahvistusviestin, jonka kautta hän voi luoda tunnuksensa.
+1. **Asiakas luo tunnuksen itse TaikaTilauksen tilauslomakkeen kautta.**  
+   Kun asiakas tekee tilauksen, hän saa sähköpostiinsa vahvistusviestin, jonka kautta voi luoda oman käyttäjätunnuksensa.
 
 ![Tilauslomake](/img/ohjeet/tunnus8.png)
 
 ![Tilauslomake](/img/ohjeet/tunnus5.png)
 
-Linkin kautta asiakas voi määrittää salasanansa.
+Sähköpostissa olevan linkin kautta asiakas voi määrittää salasanansa.
 
 ![Tilauslomake](/img/ohjeet/tunnus6.png)
 
 ![Tilauslomake](/img/ohjeet/tunnus7.png)
 
-2. TaikaTilauksen käyttäjä voi luoda asiakkaalla tunnuksen.
+2. **TaikaTilauksen käyttäjä luo tunnuksen asiakkaalle.**
 
 ![Tilauslomake](/img/ohjeet/tunnus.png)
 
-- Tunnuksen **käyttäjätunnus on aina sähköposti**, voit myös valita onko luomasi tunnus päätunnus vai alitunnus (jos perhetunnukset ovat käytössä).
+Tunnuksen **käyttäjätunnus on aina asiakkaan sähköpostiosoite**.  
+> Voit myös valita, onko luotu tunnus **päätunnus vai alitunnus** (jos perhetunnukset ovat käytössä).
 
 ![Tilauslomake](/img/ohjeet/tunnus2.png)
 
-- Kun olet luonut tunnuksen, voit lähettää asiakkaalle sähköpostin salasanan luomiseen **Lähetä uusi tunnnus -sähköposti** -painikkeesta. Asiakas voi näin aktivoida tunnuksensa.
+Kun olet luonut tunnuksen, voit lähettää asiakkaalle sähköpostin salasanan luomista varten painamalla **Lähetä uusi tunnus -sähköposti** -painiketta. Näin asiakas voi aktivoida tunnuksensa ja kirjautua palveluun.
 
 ![Tilauslomake](/img/ohjeet/tunnus3.png)
 
 ![Tilauslomake](/img/ohjeet/tunnus4.png)
 
-*Asiakas voi asettaa salasanansa saamastaan sähköpostista.*
+*Asiakas voi asettaa salasanansa saamansa sähköpostin kautta.*
 
 ## Varhaisjakelu
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu.png)
 
-**Varhaisjakelu**–näkymässä ylläpidetään varhaisjakelussa käytettävää osoitteistoa
-- Osoitteisto päivitetään käyttöönoton yhteydessä ja tarvittaessa muulloinkin sähköisen tiedostosiirron avulla
+**Varhaisjakelu**–näkymässä ylläpidetään varhaisjakelussa käytettävää osoitteistoa.  
+- Osoitteisto päivitetään käyttöönoton yhteydessä ja tarvittaessa myöhemmin sähköisen tiedostosiirron avulla.
 
 Varhaisjakeluun liittyvät osoitteistot ja nippujen tiedot määritellään asetuksissa:
-- Postin varhaisjakelurekisteri ja käytettävät nippunumerot
-- Vakioniput
-- Varhaisjakelun reitit
-- Peittojakelu
-- Lehdetön peittojakelu
-- Yhdistettävät niput
+
+- Postin varhaisjakelurekisteri ja käytettävät nippunumerot  
+- Vakioniput  
+- Varhaisjakelun reitit  
+- Peittojakelu  
+- Lehdetön peittojakelu  
+- Yhdistettävät niput  
 
 ### Postin varhaisjakelurekisteri ja käytettävät nippunumerot
 
+Tähän välilehteen syötetään Postilta saatu varhaisjakelun **katurekisteri**. Kadut ja niiden katunumerot on kohdistettu piireihin. Katurekisteri ladataan leikepöydän kautta **CSV-muodossa**.  
+
+Osoitteet **syötetään** riveittäin seuraavassa muodossa:  
+`Paikannimi;Parittomat;Parilliset;Postinumero;Postitoimipaikka;Reittitunnus (nippunumero)`  
+
+**Postin varhaisjakeluosoitteiston käytettävät piirinumerot (nippunumerot)** -kenttään syötetään piirinumerot, joilla varhaisjakelua halutaan käyttää. Piirinumerot **syötetään** omille riveilleen muodossa:  
+`Nippunumero;Lehti`
+
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu2.png)
-
-Tähän välilehteen syötetään Postilta saatu varhaisjakelun **katurekisteri**. Kadut ja niiden katunumerot on kohdistettu piireihin. Katurekisteri ladataan leikepöydän kautta CSV-muodossa. 
-
-Osoitteet **syötetään** riveittäin muodossa: Paikannimi;Parittomat;Parilliset;Postinumero;Postitoimipaikka;Reittitunnus (nippunumero). 
-
-**Postin varhaisjakeluosoitteiston käytettävät piirinumerot (nippunumerot)** -kenttään syötetään piirinumerot, joilla varhaisjakelua halutaan käytettävän. Piirinumerot **syötetään** omille riveilleen muodossa: Nippunumero;Lehti.
 
 ### Vakioniput
 
+**Varhaisjakelu**–näkymässä ylläpidetään myös **Vakioniput**–rekisteriä, jossa listataan muun muassa:
+
+- Lehden toimistoon vietävän nipun koko  
+- Painon varalehtien nipun koko  
+- Muut vakioniput ja niiden sisältämät lehtimäärät  
+
+Yksittäiset vakioniput **listataan** tekstikenttään:
+- Jokainen nippu omalle rivilleen, kentät puolipisteillä eroteltuina  
+- Muodossa:  
+  `Lehti;Reitti;Jättöpaikka1;Jättöpaikka2;Nippu;Kuljetuksenohjaus1;Kuljetuksenohjaus2;Vastaanottaja;Osoite;Postinumero+Postitoimipaikka;Jakelu(VARHAIS/PÄIVÄ);Kpl`  
+- Sarakkeita on 12 kpl, ja niiden järjestys sekä maksimipituudet näkyvät ohjeen mallirivissä  
+
+Muutokset (esim. lisälehtiä nippuun) päivitetään kyseisen vakionipun riville ja tallennetaan.  
+- Mikäli muutos on **tilapäinen**, se tulee palauttaa päivittämällä muutostieto takaisin (normimäärään) poikkeavan postituksen jälkeen.  
+
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu3.png)
-
-Varhaisjakelu –näkymässä ylläpidetään myös **Vakioniput**–rekisteriä, jossa listataan
-- mm. lehden toimistoon vietävän nipun koko
-- Painon varalehtien nipun koko
-- Muut vakioniput ja niiden sisältämät lehtimäärät
-
-Yksittäiset vakioniput **listataan** tekstikenttään 
-- jokainen omalle rivilleen kentät puolipisteillä eroteltuina
-- muodosssa Lehti;Reitti;Jättöpaikka1;Jättöpaikka2;Nippu;Kuljetuksenohjaus1;Kuljetuksenohjaus2;Vastaanottaja;Osoite;Postinumero+Postitoimipaikka;Jakelu(VARHAIS/PÄIVÄ);Kpl
-- sarakkeita on 12kpl ja niiden järjestys sekä maksimi pituus näkyy ohjeen mallirivistä
-
-Muutokset (esim. lisälehtiä nippuun) päivitetään kyseisen vakionipun riville ja tallennetaan
-- Mikäli muutos on tilapäinen, tulee se palauttaa päivittämällä muutostieto takaisin (normimäärään) poikkeavan postituksen jälkeen
 
 #### Nippujen päivitys
 
-Voit muuttaa kaikkien vakionippujen tietoja kerrallaan / lisätä vakionippuja viemällä tiedot Exceliin **Vie Exceliin** -painikkeesta.
+Voit muuttaa kaikkien vakionippujen tietoja kerralla tai lisätä uusia vakionippuja viemällä tiedot Exceliin **Vie Exceliin** -painikkeesta.  
 
 ![Varhaisjakelu](/img/ohjeet/vakionippu2.png)
 
-Muuta nippujen tietoja, poista nippuja ja/tai lisää nippuja Excelissä. 
+Muokkaa nippujen tietoja, poista tarpeettomia rivejä tai lisää uusia Excelissä.  
 
 ![Varhaisjakelu](/img/ohjeet/vakionippu3.png)
 
-Tuo päivitetyt niput järjestelmään **Tuo Excelistä** -painikkeella.
+Tuo päivitetyt niput järjestelmään **Tuo Excelistä** -painikkeella.  
 
 ![Varhaisjakelu](/img/ohjeet/vakionippu4.png)
 
-Kopioi niput Excelistä ja liitä ne järjestelmässä olevaan kenttään. Lopuksi klikkaa **Lue Excel sisään** -painiketta.
+Kopioi niput Excelistä ja liitä ne järjestelmässä olevaan kenttään.  
+
+Lopuksi klikkaa **Lue Excel sisään** -painiketta.  
 
 ![Varhaisjakelu](/img/ohjeet/vakionippu5.png)
 
-Niput ovat tämän jälkeen päivittyneet
+Niput ovat tämän jälkeen päivittyneet.
 
 ![Varhaisjakelu](/img/ohjeet/vakionippu6.png)
 
 ### Varhaisjakelun reitit
 
+Tälle välilehdelle syötetään **varhaisjakelun reitit**.  
+
+Reitit **syötetään** muodossa:  
+`Kuljetus nro (Reitti);Jättöpaikka;Piiri nro (Nippu);Piirinimi;Kuljetusnimi;Jättöpaikan osoite`
+
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu4.png)
-
-Tälle välilehdelle syötetään varhaisjakelun reitit. 
-
-Reitit syötetään muodossa: Kuljetus nro (Reitti);Jättöpaikka;Piiri nro (Nippu);Piirinimi;Kuljetusnimi;Jättöpaikan osoite
 
 ### Peittojakelu
 
+Kun tehdään lehden **peittojakelua** (Lehti + lisälehti), syötetään tälle välilehdelle peittojakelun reitit.  
+
+Postituslistan luontivaiheessa ohjelma hakee kyseiseen lehteen ja ilmestymiseen lisättävät lisälehdet ja lisää ne postituslistalle automaattisesti.
+
+Peittojakelun **reitit syötetään** siten, että jokainen rivi vastaa yhtä reittiä, ja kentät erotellaan puolipisteillä.  
+
+Sarakkeiden järjestys:  
+`Lehti;Piiri nro (Nippu);Lehden ilmestymispäivä;Kpl`
+
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu5.png)
-
-Kun tehdään lehden **peittojakelua** (Lehti + lisälehti), syötetään tälle välilehdelle peittojakelun reitit. Postituslistan luontivaiheessa ohjelma hakee kyseiseen lehteen ja ilmestymiseen lisättävät lisälehdet ja lisää ne postituslistalle.
-
-Peittojakelun reiti syötetään jokainen omalle rivilleen eri kentät puolipisteillä eroteltuina.
-
-Sarakkeiden järjestys: Lehti;Piiri nro (Nippu);Lehden ilmestymispäivä;Kpl
 
 ### Lehdetön peittojakelu
 
+Kun tehdään **vain lisälehden peittojakelu**, syötetään tälle välilehdelle peittojakelun reitit.  
+
+Lehdetön peittojakelu voidaan lisätä postitukseen painamalla **Lisää lehdetön peittojakelu postitukseen** -painiketta.
+
+Peittojakelun **reitit syötetään** siten, että jokainen rivi vastaa yhtä reittiä, ja kentät erotellaan puolipisteillä.  
+
+Sarakkeiden järjestys:  
+`Lehti;Reitti;Jättöpaikka1;Jättöpaikka2;Nippu;Kuljetuksenohjaus1;Kuljetuksenohjaus2;Vastaanottaja;Osoite;Postinumero+Postitoimipaikka;Lehden ilmestymispäivä;Kpl`
+
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu6.png)
-
-Kun tehdään **vain lisälehden peittojakelu**, syötetään tälle välilehdelle peittojakelun reitti. Peittojakelun voi lisätä postitukseen painamalla **Lisää lehdetön peittojakelu postitukseen** -painiketta.
-
-Peittojakelun reiti syötetään jokainen omalle rivilleen eri kentät puolipisteillä eroteltuina.
-
-Sarakkeiden järjestys: Lehti;Reitti;Jättöpaikka1;JÄTTÖPAIKKA2;Nippu;Kuljetuksenohjaus1;Kuljetuksenohjaus2;VASTAANOTTAJA;Osoite;POSTINUMERO+POSTITOIMIPAIKKA;Lehden ilmestymispäivä;Kpl
 
 ### Yhdistettävät niput
 
+**Yhdistettävät niput** -välilehdellä voidaan yhdistää varhaisjakelun pieniä nippuja yhteen.  
+
+Ohjelma kerää postituslistaan annettujen nippujen osoitteet samaan nippuun ja lisää kansilehdelle maininnan siitä, että nippu sisältää useamman nipun tietoja.
+
+**Syötä** kunkin yhdistetyn nipun tiedot allekkain muodossa:  
+`Lehden nimi[TAB]Nippunumero`  
+
+Muitakin sarakkeita voi olla, mutta niitä ei tulkita. Ensimmäistä nippunumeroa käytetään Ferakissa, ja siihen yhdistetään muut niput. Mikäli ensimmäisessä nippunumerossa **ei ole yhtään lehteä**, käytetään seuraavaa.  
+
+Erottele yhdistettävät niput tyhjällä rivillä. Tuo tiedot Excelistä, niin **Lehden nimen ja Nippunumeron väliin tulee TAB (tabulaattori)**.
+
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu7.png)
-
-**Yhdistettävät niput** -välilehdellä voidaan yhdistää varhaisjakelun pieniä nippuja yhteen. 
-
-Ohjelma kerää postituslistaan annettujen nippujen osoitteet samaan annettuun nippuun ja lisää kyseisen nipun kansilehdelle maininnan siitä että nippu sisältää useamman nipun tietoja.
-
-**Syötä** kunkin yhdistetyn nipun tiedot allekkain muodossa Lehden nimi TAB Nippunumero. Muitakin sarakkeita voi olla mutta niitä ei tulkita. Ensimmäistä nippunumeroa käytetään Ferakissa ja siihen yhdistetään muut niput. Mikäli ensimmäisessä nippunumerossa **ei ole yhtään lehteä käytetään seuraavaa**.
-
-Erottele yhdistettävät niput tyhjällä rivillä. Tuo tiedot Excelistä jolloin **Lehden nimen ja Nippunumero** -sarakkeiden väliin tulee TAB eli tabulaattori.
 
