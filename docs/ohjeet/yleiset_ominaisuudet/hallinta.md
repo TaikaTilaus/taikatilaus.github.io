@@ -44,36 +44,37 @@ Voit hakea tunnusta syöttämällä asiakkaan käyttäjätunnukseen liitetyn sä
 
 ![Tapahtumaloki](/img/ohjeet/tapahtumaloki.png)
 
-**Tapahtumaloki**–välilehdellä tarkastellaan sovelluksessa tapahtuneita asioita, joiden on katsottu olevan oleellisia sovelluksen käytön seurannan kannalta. Lokilta voi esimerkiksi tarkistaa kuka on poistanut tilauksen tai tehnyt muun vastaavan virheen.
+**Tapahtumaloki**–välilehdellä tarkastellaan sovelluksessa tapahtuneita toimintoja, joita pidetään oleellisina sovelluksen käytön seurannan kannalta. Lokilta voi esimerkiksi tarkistaa, kuka on poistanut tilauksen tai tehnyt muun vastaavan toimenpiteen.
 
-Näitä ovat muun muassa sisään- ja uloskirjautuminen, sekä postituslistan luominen ja kestotilausten jatkaminen
-- Myös huoltoajot, kuten palvelun päivittäminen versiotietoineen voidaan tarkastaa täältä
+Lokissa näkyy muun muassa sisään- ja uloskirjautumisia sekä postituslistan luomisia ja kestotilausten jatkamisia.  
+- Myös huoltoajot, kuten palvelun päivittäminen versiotietoineen, voidaan tarkastaa täältä.
 
 Lokilta voi hakea suoritettuja toimintoja seuraavilla hakukriteereillä:
-- **Toiminto** (esim. Uloskirjaus, Myynnin poisto)
-- **Lisätiedot** (esim. Onnistui)
-- **Käyttäjätunnus ja nimi** (esim. taikauser)
-- **Lisäparametrit** (mm. Asiakasnumero / Tilausnumero tieto)
-- **Selain** (ns. ohjelmiston käyttäjän käyttämä selain ja sen version esim. Chrome 124.0)
-- **TCP/IP** (TCP/IP -osoite kertoo missä osoitteessa käyttäjä on)
-- **SessionID** (käyttäjän selaimen yhteystunniste. tunniste on sama niin kauan kun ohjelma on selaimella auki.)
-- **SuoritajaID** (kaikki saman käyttäjän suorittamat toimet yhdellä kirjaustumissessiolla kirjataan suoritusID:n alle)
 
-Selaimen, TCP/IP -osoitteen, ja SessionID:n **näkyvyys** voidaan määrittää aktivoimalla **Näytä Selain, TCP/IP, SessionID** -kenttä.
+- **Toiminto** (esim. Uloskirjaus, Myynnin poisto)  
+- **Lisätiedot** (esim. Onnistui)  
+- **Käyttäjätunnus ja nimi** (esim. taikauser)  
+- **Lisäparametrit** (esim. asiakasnumero tai tilausnumero)  
+- **Selain** (käyttäjän käyttämä selain ja sen versio, esim. Chrome 124.0)  
+- **TCP/IP** (osoite, josta käyttäjä on kirjautunut)  
+- **SessionID** (käyttäjän selaimen yhteystunniste; pysyy samana niin kauan kuin ohjelma on avoinna)  
+- **SuoritajaID** (kaikki saman käyttäjän toimet yhden kirjautumissession aikana kirjataan saman tunnisteen alle)
+
+Selaimen, TCP/IP-osoitteen ja SessionID:n **näkyvyyden** hakutuloksissa voi määrittää aktivoimalla **Näytä Selain, TCP/IP, SessionID** -kentän.
 
 ![Tapahtumaloki](/img/ohjeet/loki2.png)
 
-Hakuehdot voi tyhjentää painamalla **Tyhjennä hakuehdot** -painiketta. Voit siirtyä päivästä toiseen **Edellinen päivä** ja **Seuraava päivä** -painikkeista.
+Hakuehdot voi tyhjentää painamalla **Tyhjennä hakuehdot** -painiketta. Päivämäärien välillä voi siirtyä **Edellinen päivä** ja **Seuraava päivä** -painikkeilla.
 
 ![Tapahtumaloki](/img/ohjeet/loki-haku.png)
 *Lokista voi hakea suoritettuja toimintoja erilaisten hakukriteerien avulla.*
 
-Klikkaamalla sarakkeissa olevia **Hakuun**-nappeja, siirtyvät tiedot hakukriteereiksi, ja voit näin hakea esim. samalla IP-llä suoritettuja toimintoja.
+Klikkaamalla sarakkeissa olevia **Hakuun**-painikkeita voit siirtää kyseisen rivin tietoja hakukriteereiksi ja hakea esimerkiksi samalla IP-osoitteella tehtyjä toimintoja.
 
 ![Tapahtumaloki](/img/ohjeet/loki-hakuun.png)
-*Klikkaamalla Hakuun-painiketta saat siirrettyä lokissa esiintyviä tietoja hakukriteereiksi.*
+*Klikkaamalla Hakuun-painiketta voit siirtää lokissa esiintyviä tietoja hakukriteereiksi.*
 
-Asiakaskohtaisesti sovitaan myös näytettävät muut muutokset, kuten **kenttäkohtaiset** muutostiedot, joita käyttäjät ovat tehneet (asiakas-/tilaus-/laskutustietojen päivitykset jne.) esim. OmaPalvelussa.
+Asiakaskohtaisesti voidaan määrittää myös muut näytettävät muutokset, kuten **kenttäkohtaiset muutostiedot**, joita käyttäjät ovat tehneet (esim. asiakas-, tilaus- tai laskutustietojen päivitykset) esimerkiksi OmaPalvelussa.
 
 ## Kontaktien roskakori
 
@@ -89,59 +90,69 @@ Roskakorin listauksessa näet poistettujen asiakkaiden:
 
 Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painamalla **Palauta roskakorista aktiiviseksi** -painiketta, voit palauttaa asiakaskortin tietokantaan. Ohjelma kysyy sinua varmistamaan, että haluat suorittaa palautuksen.
 
+**Kontaktien roskakori**–välilehdellä voit hakea, palauttaa tai lopullisesti poistaa poistettuja asiakaskortteja.
+
+Roskakorin listauksessa näkyvät poistettujen asiakkaiden:
+
+- asiakasnumero  
+- yhteystiedot  
+- poistoaika  
+
+Valitse palautettava asiakaskortti aktivoimalla täppä asiakasnumeron edessä ja paina **Palauta roskakorista aktiiviseksi** -painiketta. Ohjelma pyytää vahvistamaan, että haluat palauttaa asiakaskortin tietokantaan.
+
 ![Kontaktien roskakori](/img/ohjeet/roskakori2.png)
 
-Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painamalla **Poista lopullisesti** -painiketta, voit poistaa asiakaskortin lopullisesti tietokannasta. Tämän jälkeen ei asiakasta voi palauttaa. Ohjelma kysyy sinua varmistamaan, että haluat suorittaa poiston.
+Valitse poistettava asiakaskortti aktivoimalla täppä asiakasnumeron edessä ja paina **Poista lopullisesti** -painiketta. Tämän jälkeen asiakaskorttia ei voi enää palauttaa. Ohjelma pyytää vahvistamaan, että haluat suorittaa poiston.
 
 ![Kontaktien roskakori](/img/ohjeet/roskakori3.png)
 
 ## Tuplien käsittely
 
-**Tuplien käsittely** -välilehdellä voit yhdistää kaksi asiakaskorttia yhdeksi. Näin toimitaan esimerkiksi silloin, kun samalla asiakkaalla on kaksi asiakaskorttia. 
+**Tuplien käsittely**–välilehdellä voit yhdistää kaksi asiakaskorttia yhdeksi. Tätä toimintoa käytetään esimerkiksi silloin, kun samalla asiakkaalla on vahingossa kaksi erillistä asiakaskorttia. 
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely.png)
 
 ### Ohjeet tuplien käsittelyyn
 
-**1.** Jos tiedät yhdistettävän asiakkaan asiakasnumerot, voit syöttää ne **Säilytettävä Kontakti** ja **Poistettava Kontakti** -kenttiin ja painaa **Hae**.
+**1.** Jos tiedät yhdistettävien asiakkaiden asiakasnumerot, syötä ne **Säilytettävä kontakti** ja **Poistettava kontakti** -kenttiin ja paina **Hae**.
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely2.png)
 
-**1.b.** Vaihtoehtoisesti voit hakea asiakkaan asiakaskortit **Etusivun** kautta ja siirtää ne **Leikepöydälle**. 
+**1.b.** Vaihtoehtoisesti voit hakea asiakkaiden asiakaskortit **Etusivun** kautta ja siirtää ne **Leikepöydälle**.
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely3.png)
 
-**1.b.2.** Jos hakutulos tuo suuren määrän asiakkaita, voit siirtää haluamasi asiakaskortit suoraan asiakaskortilta **Leikepöydälle**
+**1.b.2.** Jos hakutulos sisältää suuren määrän asiakkaita, voit siirtää haluamasi asiakaskortit suoraan yksittäiseltä asiakaskortilta **Leikepöydälle**.
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely4.png)
 
-**2.** Kun haluamasi asiakaskortit ovat leikepöydällä, voit siirtää ne tuplien käsittelyyn painamalla **Tuplien käsittely** -painikkeesta
+**1.b.3.** Kun haluamasi asiakaskortit ovat leikepöydällä, siirrä ne tuplien käsittelyyn painamalla **Tuplien käsittely** -painiketta.
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely5.png)
 
-**3.** Kun asiakaskortit ovat tuplien käsittelyssä, voit:
+**2.** Kun asiakaskortit ovat tuplien käsittelyssä, voit:
 
-- Vaihtaa kontaktit keskenään **Vaihda kontaktit päittäin** -painikkeella
-- Siirtää tietoja asiakaskortista toiseen painamalla kenttien vieressä olevaa **Ota**-painiketta
-- Täydentää **säilytettävän kontaktin tietoja**, esimerkiksi lisäämällä puhelinnumeron
+- Vaihtaa kontaktit keskenään painamalla **Vaihda kontaktit päittäin**  
+- Siirtää tietoja poistettavasta asiakaskortista säilytettävään painamalla kenttien vieressä olevaa **Ota**-painiketta  
+- Täydentää **säilytettävän kontaktin** tietoja, esimerkiksi lisäämällä puhelinnumeron  
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely6.png)
 
-**4.** Kun **Säilytettävän kontaktin** tiedot ovat kunnossa, paina **Suorita kontaktien yhdistäminen** -painiketta yhdistääksesi asiakaskortit. 
+**3.** Kun **säilytettävän kontaktin** tiedot ovat kunnossa, paina **Suorita kontaktien yhdistäminen** -painiketta yhdistääksesi asiakaskortit.  
 
-- Tämä siirtää **Poistettavan kontaktin** roskakoriin ja sen **laskut sekä tilaukset Säilytettävän kontaktin alle**.
+- Tämä siirtää **poistettavan kontaktin** roskakoriin ja sen **laskut, ilmoitusvaraukset sekä tilaukset säilytettävän kontaktin alle**.
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely7.png)
 
-**5.** Järjestelmä pyytää vahvistusta. Paina OK, jos haluat yhdistää kontaktit.
+**4.** Järjestelmä pyytää vahvistusta. Paina **OK**, jos haluat yhdistää kontaktit.
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely8.png)
 
-**6.** Järjestelmä näyttää viestin yhdistämisen onnistumisesta.
+**5.** Yhdistämisen jälkeen järjestelmä näyttää viestin onnistuneesta yhdistämisestä.
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely9.png)
 
-**7.** Painamalla **Hae** kontaktien kohdalla voit tarkastaa, että tilaukset ja laskut ovat siirtyneet ja että poistettava kontakti on roskakorissa.
+**6.** Paina **Hae** kontaktien kohdalla tarkistaaksesi, että tilaukset ja laskut ovat siirtyneet oikein ja että poistettava kontakti näkyy roskakorissa.
 
 ![Tuplien käsittely](/img/ohjeet/tuplien-kasittely10.png)
 
@@ -149,55 +160,57 @@ Valitsemalla asiakaskortin aktivoimalla täpän asiakasnumeron edessä ja painam
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys.png)
 
-**Kontaktien päivitys** -välilehdellä voit päivittää yhdellä kertaa monta asiakasta ja heidän tietojaan rekisteriin. Tällä toiminnolla voi esimerkiksi ajaa rekisterin tarkistuspalvelun tuottamat muutostiedot tai messuilta kerättyjen listojen päivityksen. Tuontitoiminto tunnistaa muuttuneet tiedot ja kysyy käyttäjältä niiden käsittelystä.
+**Kontaktien päivitys**–välilehdellä voit päivittää useiden asiakkaiden tietoja kerralla rekisteriin. Tätä toimintoa voidaan käyttää esimerkiksi silloin, kun ajetaan rekisterin tarkistuspalvelun tuottamat muutostiedot tai päivitetään messuilla kerättyjä asiakaslistoja.  
 
-Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt tekemään toimintoja välilehdellä, pitää sinun tehdä **lisätunnistautuminen sähköpostin kautta**. Käyttäjääsi yhdistettyyn sähköpostiin lähetetään **koodi**, mikä sinun pitää syöttää osoitettuun kenttään. Oikean koodin syöttämisen jälkeen voit tehdä toimintoja välilehdellä.
+Tuontitoiminto tunnistaa muuttuneet tiedot ja kysyy käyttäjältä, miten ne käsitellään.
+
+> Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin voit suorittaa toimintoja välilehdellä, sinun on tehtävä **lisätunnistautuminen sähköpostin kautta**. Käyttäjään liitettyyn sähköpostiin lähetetään **vahvistuskoodi**, joka syötetään sille varattuun kenttään. Kun olet syöttänyt oikean koodin, voit jatkaa toimintoja välilehdellä.
 
 ![Kontaktien päivitys](/img/ohjeet/tuplat9.png)
 
 ![Kontaktien päivitys](/img/ohjeet/tuplat10.png)
 
-**HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
+> **HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
 
 ### Ohjeet kontaktien päivitykseen
 
-1. Aloitetaan kontaktien päivitys painamalla **Luo kontakteista CSV-tiedosto**
+1. Aloita kontaktien päivitys painamalla **Luo kontakteista CSV-tiedosto**.
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys11.png)
 
-2. Valitse kontaktien kentät (esim. etunimi, sukunimi, sähköposti)
+2. Valitse haluamasi kontaktien kentät (esim. etunimi, sukunimi, sähköposti).
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys2.png)
 
-3. Kun olet valinnut haluamasi kentät, paina **Luo CSV**
+3. Kun olet valinnut kentät, paina **Luo CSV**.
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys3.png)
 
-4. Järjestelmä luo tiedoston, jossa on kaikki kontaktit valitsemallasi kentillä. Lataa se koneellesi painamalla **Lataa**-napista.
+4. Järjestelmä luo tiedoston, jossa on kaikki kontaktit valitsemillasi kentillä. Lataa tiedosto koneellesi painamalla **Lataa**-painiketta.
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys4.png)
 
-5. Avaa tiedosto **Excel-tiedostona** (EI CSV-muodossa) ja muokkaa kontaktien tietoja. Kun olet valmis, kopioi tiedot (Ctrl+A -> Ctrl + C)
+5. Avaa tiedosto **Excelissä** (ei CSV-muodossa) ja muokkaa kontaktien tietoja. Kun olet valmis, kopioi kaikki tiedot (Ctrl + A → Ctrl + C).
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys5.png)
 
-6. Kun olet valmis, palaa **Kontaktien päivitys** -välilehteen ja paina **Tuo kontaktien tiedot** -painiketta. Liitä kopioimasi tiedot **Tuotavat Excelin tiedot** -kenttään (Ctrl + V). Paina **Luo sisään esikatseluun.**
+6. Palaa **Kontaktien päivitys** -välilehdelle ja paina **Tuo kontaktien tiedot** -painiketta. Liitä kopioimasi tiedot **Tuotavat Excelin tiedot** -kenttään (Ctrl + V) ja paina **Luo sisään esikatseluun**.
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys6.png)
 
-7. Tarkista tuomasi data esikatselussa. Kun olet tarkistanut datan, paina **Vertaa tietoja tietokantaa**.
+7. Tarkista tuomasi data esikatselussa ja paina **Vertaa tietoja tietokantaan**.
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys7.png)
 
-8. Tarkista kontaktien muuttuneet tiedot. Muuttuneet tiedot näkyvät **vihreällä** ja **ensimmäisessä sarakkeessa** lukee ovatko kontaktin tiedot muuttuneet. Katso, että muuttuneet tiedot ovat järkeviä. Kun olet valmis, paina **Lue tiedot sisään tietokantaan.**
+8. Tarkista kontaktien muuttuneet tiedot. Muuttuneet tiedot näkyvät **vihreällä**, ja **ensimmäisessä sarakkeessa** ilmoitetaan, onko kontaktin tiedoissa muutoksia. Kun olet varmistanut, että tiedot ovat oikein, paina **Lue tiedot sisään tietokantaan**.
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys8.png)
 
-9. Tieto onnistuneesta tietojen tuonnista näytetään ruudulla.
+9. Onnistuneesta tietojen tuonnista näytetään ilmoitus näytöllä.
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys9.png)
 
-10. **Tapahtumalokilta** näet tiedot kontaktien muuttuneista tiedoista. 
+10. **Tapahtumaloki**-välilehdeltä voit tarkastella tuontiprosessissa tehtyjä muutoksia.
 
 ![Kontaktien päivitys](/img/ohjeet/kontaktien-paivitys10.png)
 
@@ -205,15 +218,16 @@ Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt 
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet.png)
 
-**Rekisterin huoltotoimet** -välilehdellä voit etsiä rekisteristä virheellisiä asiakastietoja ja suorittaa manuaalisia ja automaattisia korjauksia. Ohjelma tutki rekisteriä ja etsii virheitä. Vain löydetyt virheelliset kontaktit näytetään.
-Osan korjauksista ohjelma pystyy tekemään automaattisesti, mutta suuressa osassa korjaus tulee tehdä manuaalisesti. Manuaalista korjausta voidaan tehdä suoraan käyttöliittymässä tai massakorjauksia varten tiedot voi siirtää Exceliin ja **Kontaktien päivitys** -toiminnon kautta takaisin rekisteriin. 
+**Rekisterin huoltotoimet**–välilehdellä voit etsiä rekisteristä virheellisiä asiakastietoja sekä suorittaa manuaalisia ja automaattisia korjauksia. Ohjelma käy rekisterin läpi ja listaa vain ne kontaktit, joista löytyy virheitä.
 
-- **Tarkista sähköpostiosoitteet** -painike hakee virheelliset sähköpostit.
-- **Tarkista postinumerot** -painike hakee virheelliset postinumerot.
-- **Tarkista puhelinnumerot** -painike hakee virheelliset puhelinnumerot.
-- **Hae kaikki** -painike hakee koko rekisterin.
+Osa virheistä voidaan korjata automaattisesti, mutta suurin osa edellyttää manuaalista korjausta. Manuaaliset korjaukset voidaan tehdä suoraan käyttöliittymässä tai tarvittaessa Excelin kautta: tiedot voidaan viedä Exceliin ja tuoda takaisin rekisteriin **Kontaktien päivitys** -toiminnon avulla.
 
-Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt tekemään toimintoja välilehdellä, pitää sinun tehdä **lisätunnistautuminen sähköpostin kautta**. Käyttäjääsi yhdistettyyn sähköpostiin lähetetään **koodi**, mikä sinun pitää syöttää osoitettuun kenttään. Oikean koodin syöttämisen jälkeen voit tehdä toimintoja välilehdellä.
+- **Tarkista sähköpostiosoitteet** – hakee virheelliset sähköpostiosoitteet  
+- **Tarkista postinumerot** – hakee virheelliset postinumerot  
+- **Tarkista puhelinnumerot** – hakee virheelliset puhelinnumerot  
+- **Hae kaikki** – hakee koko rekisterin  
+
+> Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin voit suorittaa toimintoja välilehdellä, sinun on tehtävä **lisätunnistautuminen sähköpostin kautta**. Käyttäjään liitettyyn sähköpostiin lähetetään **vahvistuskoodi**, joka syötetään sille varattuun kenttään. Kun olet syöttänyt oikean koodin, voit jatkaa toimintoja välilehdellä.
 
 ![Tuplien käsittely](/img/ohjeet/tuplat9.png)
 
@@ -225,17 +239,18 @@ Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt 
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet8.png) -->
 
-Päivitämme esimerkissä asiakkaiden sähköpostiosoitteita. **HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
+Päivitetään esimerkissä asiakkaiden sähköpostiosoitteita.  
+> **HUOM! Kaikki esimerkkidatassa näkyvä tieto on keksittyä.**
 
-1. Painetaan **Tarkista sähköpostiosoitteet** -painiketta.
+1. Paina **Tarkista sähköpostiosoitteet** -painiketta.
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet7.png)
 
-2. Järjestelmä tarkistaa asiakkaiden sähköpostiosoitteet ja listaa virheelliset. Voit rajata näytettävää tietomäärää **pienentämällä Asiakasnumeroiden hakuväliä**.
+2. Järjestelmä tarkistaa asiakkaiden sähköpostiosoitteet ja listaa virheelliset. Voit rajata näytettävää tietomäärää **pienentämällä asiakasnumeroiden hakuväliä**.
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet2.png)
 
-3. Kun virheenä on tyhjä tila datan edessä/takana, voit valita ne aktivoimalla kentän asiakasnumeron edessä ja painaa **Korjaa valitut automaattisesti** -painiketta.
+3. Jos virhe johtuu esimerkiksi ylimääräisestä välilyönnistä datan alussa tai lopussa, valitse virheelliset rivit aktivoimalla täpät asiakasnumeron edessä ja paina **Korjaa valitut automaattisesti** -painiketta.
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet5.png)
 
@@ -243,11 +258,15 @@ Päivitämme esimerkissä asiakkaiden sähköpostiosoitteita. **HUOM! KAIKKI DAT
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet6.png)
 
-5. Kun virhettä ei voi korjata automaattisesti, painetaan ensimmäisessä sarakkeessa olevaa **Kynä**-ikonia. Näytölle tulee pop-up ikkuna, jossa voit korjata asiakkaan tietoja. 
+5. Jos virhettä ei voi korjata automaattisesti, paina ensimmäisessä sarakkeessa olevaa **Kynä**-ikonia. Näytölle avautuu pop-up-ikkuna, jossa voit korjata asiakkaan tietoja.
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet3.png)
 
 6. Kun tiedot ovat oikein, paina **Tallenna** (ei sulje pop-up ikkunaa ja näyttää pop-ikkunalla vahvistusviestin) tai **Tallenna ja sulje** (sulkee pop-ikkunan). Voit siirtyä edelliseen/seuravaan asiakkaaseen **Edellinen/Seuraava**-painikkeilla.
+
+6. Kun tiedot ovat oikein, paina **Tallenna** (ei sulje pop-up-ikkunaa ja näyttää vahvistusviestin)  
+tai **Tallenna ja sulje** (tallentaa ja sulkee pop-upin).  
+Voit siirtyä edelliseen tai seuraavaan asiakkaaseen **Edellinen** / **Seuraava** -painikkeilla.
 
 ![Rekisterin huoltotoimet](/img/ohjeet/huoltotoimet4.png)
 
@@ -255,19 +274,22 @@ Päivitämme esimerkissä asiakkaiden sähköpostiosoitteita. **HUOM! KAIKKI DAT
 
 ![Tuplien käsittely](/img/ohjeet/tuplat.png)
 
-**Tuplien käsittely** -välilehdellä voit yhdistää tuplana olevia asiakaskortteja. 
+**Tuplien käsittely** –välilehdellä voit yhdistää tuplana olevia asiakaskortteja.
 
 ### Ohje tuplien massakäsittelyyn
 
-Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt tekemään toimintoja välilehdellä, pitää sinun tehdä **lisätunnistautuminen sähköpostin kautta**. Käyttäjääsi yhdistettyyn sähköpostiin lähetetään **koodi**, mikä sinun pitää syöttää osoitettuun kenttään. Oikean koodin syöttämisen jälkeen voit tehdä toimintoja välilehdellä.
+> Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin voit suorittaa toimintoja välilehdellä, sinun on tehtävä **lisätunnistautuminen sähköpostin kautta**. Käyttäjään liitettyyn sähköpostiin lähetetään **vahvistuskoodi**, joka syötetään sille varattuun kenttään. Kun olet syöttänyt oikean koodin, voit jatkaa toimintoja välilehdellä.
 
 ![Tuplien käsittely](/img/ohjeet/tuplat9.png)
 
 ![Tuplien käsittely](/img/ohjeet/tuplat10.png)
 
-**HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
+> **HUOM! KAIKKI DATA ESIMERKISSÄ ON KEKSITTYÄ!**
 
-1. Aloita tuplien käsittely painamalla **Luo CSV-tiedosto koko rekisteristä** -painiketta. Tiedoston luomisessa kestää jonkin verran aikaan, riippuen rekisterin koosta. Päivittämällä välilehden (klikkaamalla Tuplien käsittely -tekstiä) voit seurata tiedoston luomisen edistystä. Kun tiedosto on valmis ladattavaksi, ilmestyy näytölle **Lataa CSV** -painike.
+1. Aloita tuplien käsittely painamalla **Luo CSV-tiedosto koko rekisteristä** -painiketta.  
+   Tiedoston luomisessa kestää jonkin verran aikaa rekisterin koosta riippuen.  
+   Päivittämällä välilehden (klikkaamalla *Tuplien käsittely* -tekstiä) voit seurata tiedoston luomisen etenemistä.  
+   Kun tiedosto on valmis ladattavaksi, näytölle ilmestyy **Lataa CSV** -painike.
 
 ![Tuplien käsittely](/img/ohjeet/tuplat2.png)
 
@@ -275,31 +297,38 @@ Tämä välilehti on näkyvissä **vain pääkäyttäjille**. Ennen kuin pystyt 
 
 ![Tuplien käsittely](/img/ohjeet/tuplat3.png)
 
-3. Avaa tiedosto Excelissä. Valitse kaikki data tiedostossa painamalla **Ctrl+A** ja valitse **Muotoile taulukoksi**
+3. Avaa tiedosto Excelissä.  
+   Valitse kaikki tiedot painamalla **Ctrl + A** ja valitse **Muotoile taulukoksi**.
 
 ![Tuplien käsittely](/img/ohjeet/tuplat4.png)
 
-4. Löydät tuplat helpoiten **lajittelemalla taulukon osoitteen mukaan**. Klikkaa osoitesarakkeessa olevaa nuolta ja lajittele osoitteet **aakkosjärjestyksessä**. (Katso kuva alta)
+4. Löydät tuplat helpoiten **lajittelemalla taulukon osoitteen mukaan**.  
+   Klikkaa osoitesarakkeen nuolta ja lajittele osoitteet **aakkosjärjestykseen** (katso kuva alla).
 
 ![Tuplien käsittely](/img/ohjeet/tuplat5.png)
 
-5. Kun löydät tupla-asiakkaan, määritä ensin kumpi tuplista on **master-tunnus**, johon tupla yhdistetään. Tarvittaessa täydennä masterin tietoja esim. sähköpostilla. CSV-tiedostossa on valmiina **PAAK** ja **ALIK** sarakkeet, joissa on kontaktin yksilöivä **KontaktiID**.
+5. Kun löydät tupla-asiakkaan, määritä kumpi on **master-tunnus**, johon tupla yhdistetään.  
+   Tarvittaessa täydennä masterin tietoja, esimerkiksi sähköpostiosoitteella.  
+   CSV-tiedostossa on valmiina **PAAK**- ja **ALIK**-sarakkeet, joissa on kontaktin yksilöivä **KontaktiID**.
 
 ![Tuplien käsittely](/img/ohjeet/tuplat6.png)
 
-6. **Alitunnuksen (tuplan) KontaktiID** siirretään **PAAK-sarakkeesta ALIK-sarakkeeseen**. Kopioidaan **Masterin KontaktiID** ja lisätään se **Masterin ALIK-sarakkeeseen** ja **alitunnuksen PAAK-sarakkeeseen**. Esim.
+6. Siirrä **alitunnuksen (tuplan) KontaktiID** PAAK-sarakkeesta **ALIK-sarakkeeseen**.  
+   Kopioi **masterin KontaktiID** ja lisää se sekä **masterin ALIK**- että **alitunnuksen PAAK**-sarakkeeseen.
 
-- Nessa Karjalahden päätunnuksen (jolle siirretään tuplan tiedot) KontaktiID on **746232**
-- Nessan alitunnuksen (tuplan) KontaktiID on **746768**
+**Esimerkki:**
+- Nessa Karjalahden päätunnuksen (jolle tiedot yhdistetään) **KontaktiID** on **746232**  
+- Nessan alitunnuksen (tuplan) **KontaktiID** on **746768**
 
 ![Tuplien käsittely](/img/ohjeet/tuplat6.png)
 
-- Siirretään **alitunnuksen KontaktiID PAAK-sarakkeesta ALIK-sarakkeeseen**.
+- Siirrä **alitunnuksen KontaktiID** PAAK-sarakkeesta ALIK-sarakkeeseen.
 
 ![Tuplien käsittely](/img/ohjeet/tuplat8.png)
 
-- Kopioidaan **Masterin KontaktiID** ja lisätään se **Masterin ALIK**-sarakkeeseen ja **alitunnuksen PAAK**-sarakkeeseen.
+- Kopioi **masterin KontaktiID** ja lisää se **masterin ALIK**-sarakkeeseen sekä **alitunnuksen PAAK**-sarakkeeseen.
 
 ![Tuplien käsittely](/img/ohjeet/tuplat7.png)
 
-7. Käsittele tietoja Excelissä haluamallasi tavalla ja **sovi TaikaTilauksen kanssa** tietojen takaisin tuomisesta. Ole tarkkana että **rivien KontaktiID:t pysyvät oikeilla riveillä**.
+7. Käsittele tiedot Excelissä haluamallasi tavalla ja **sovi TaikaTilauksen kanssa** tietojen tuomisesta takaisin järjestelmään.  
+   Ole tarkkana, että **rivien KontaktiID-arvot pysyvät oikeilla riveillä.**
