@@ -6,38 +6,46 @@ sidebar_position: 3
 
 ## Yleistä
 
-**Postitus**-valikossa koostetaan tietyn lehden postituslista sen painamista varten.
+**Postitus**–valikossa koostetaan lehtien postituslistat niiden painamista varten.
 
-Painotalolle voidaan luoda oma käyttäjätunnus, millä se voi itse käydä lataamassa postituslistan suoraan sovelluksesta haluttuna päivänä.
+Painotalolle voidaan luoda oma käyttäjätunnus, jolla se voi itse käydä lataamassa postituslistan suoraan sovelluksesta haluttuna päivänä.
+
+![Postituslista - Postitusten haku](/img/ohjeet/postitus.png)
+
+---
 
 ## Postitusten haku
 
-**Postitusten haku** –välilehdellä luodaan eri jakelukanaviin lähetettävät osoitteistotiedostot.
+**Postitusten haku**–välilehdellä luodaan eri jakelukanaviin lähetettävät osoitteistotiedostot.
 
-- Jos halutaan tarkastella tiettyä postitusta, valitaan **Lehti** ja **Ilmestymispäivä**, sekä mahdolliset muut ehdot ennen **Hae**–painikkeen klikkausta (LähetysID on sama koko postituksella)
+Jos haluat tarkastella tiettyä postitusta, valitse **Lehti** ja **Ilmestymispäivä**, sekä mahdolliset muut hakuehdot ennen **Hae**–painikkeen painamista. (LähetysID on sama koko postituksella.)
 
 ![Postituslista - Postitusten haku](/img/ohjeet/postitustenhaku1.png)
 
-Valitsemalla **Niputustapa**-valikosta **Varhaisjakelu**, saat listaukselle näkyviin vain varhaisjakelun nippuihin kuuluvat tilaukset. 
+Valitsemalla **Niputustapa**–valikosta **Varhaisjakelu**, saat listaukselle näkyviin vain varhaisjakelun nippuihin kuuluvat tilaukset.
 
 ![Postituslista - Postitusten haku](/img/ohjeet/niputustapa.png)
 
-Valitsemalla Kyllä **Varhaisjakelun esto** -valikosta, saat listaukselle näkyviin vain ne tilaukset, mitkä on asiakaskortilta pakotettu päiväjakoon varhaisjakelun sijaan.
+Valitsemalla **Kyllä** kohdassa **Varhaisjakelun esto**, saat listaukselle näkyviin vain ne tilaukset, jotka on asiakaskortilta pakotettu päiväjakoon varhaisjakelun sijaan.
 
-Varhaisjakelun eston aiheuttamia nippujen muutoksia pääset tarkkailemaan painamalla **Näytä niput ilman varhaisjakeluestoa** –painikkeesta, jolloin listauksessa näkyy päiväjakoon pakotettujen tilauksien alkuperäinen nippunumero punaisella.
+Varhaisjakelun eston aiheuttamia nippumuutoksia voit tarkastella painamalla **Näytä niput ilman varhaisjakeluestoa** –painiketta. Tällöin listauksessa näkyy päiväjakoon pakotettujen tilausten alkuperäinen nippunumero **punaisella**.
 
-Listauksessa erotat päiväjakoon pakotetut tilaukset **Varhaisjakelun esto** -sarakkeessa olevasta **K**-kirjaimesta.
+Listauksessa päiväjakoon pakotetut tilaukset erotat **Varhaisjakelun esto** –sarakkeessa olevasta **K**–kirjaimesta.
 
 ![Postituslista - Postitusten haku](/img/ohjeet/varhaisjakeluesto.png)
 
 ### Esimerkkihaku
 
-Voi esiintyä esimerkiksi tilanne, missä asiakas on soittanut ja ilmoittanut, että lehteä ei ole tullut. Tällöin voit postituslistan haun kautta tarkistaa mm.
+Voi esiintyä esimerkiksi tilanne, jossa asiakas on soittanut ja ilmoittanut, ettei lehteä ole tullut. Tällöin voit postituslistan haun kautta tarkistaa esimerkiksi:
 
-1. Onko asiakas ylipäätään ollut postituslistalla
+1. Onko asiakas ylipäätään ollut postituslistalla  
 2. Ovatko osoitetiedot oikein
 
-Tämä tehdään suorittamalla haku asiakkaan **asiakasnumerolla**. Valitsemalla lehden ilmestymispäivän voit hakea tiettyä julkaisua. Jättämällä **Ilmestymispäivä**-kentän tyhjäksi, saat asiakkaan koko **postitushistorian**. Näin voit tarkastella mahdollisia osoitteenmuutoksia tai eroavuuksia postitusten välillä.
+Tämä tehdään suorittamalla haku asiakkaan **asiakasnumerolla**.  
+
+Valitsemalla **Lehden ilmestymispäivän** voit hakea tiettyä julkaisua. 
+
+Jättämällä **Ilmestymispäivä**-kentän tyhjäksi saat asiakkaan koko **postitushistorian**, jolloin voit tarkastella mahdollisia osoitteenmuutoksia tai eroavaisuuksia postitusten välillä.
 
 ![Postituslista - Postitusten haku](/img/ohjeet/esimerkkihaku-pl.png)
 
@@ -82,6 +90,8 @@ Tämä tehdään suorittamalla haku asiakkaan **asiakasnumerolla**. Valitsemalla
 **Lähetä yhteenveto** -painikkeesta voit lähettää yhteenvedon postituslistan tiedoista aiemmin määritettyyn sähköpostiin.
 
 ![Postitusten haku - Lähetä yhteenveto](/img/ohjeet/yhteenveto.png)
+
+---
 
 ## Postituslistan luonti
 
@@ -140,6 +150,8 @@ Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim
 
 - Luonnin jälkeen Postituslista-yhteenvetotiedot listautuvat näkymän alaosaan
 - Postituslistojen ajot voidaan myös automatisoida ja niihin voidaan liittää automaattiset koontiviestit haluttuihin sähköpostiosoitteisiin
+
+---
 
 ## Postitusten tiedot
 
