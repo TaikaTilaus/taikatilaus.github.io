@@ -51,43 +51,43 @@ Jättämällä **Ilmestymispäivä**-kentän tyhjäksi saat asiakkaan koko **pos
 
 ### Osoitteistojen tiedostopainikkeet
 
-**Näytä postitusyhteenveto** –painikkeesta näytetään samat Postituslista–yhteenvetotiedot kuin [Postituslistan luonti –sivulla](/docs/ohjeet/tilaustenhallinta/postistuslista#postituslistan-luonti-1)
+**Näytä postitusyhteenveto** –painikkeesta avautuvat samat yhteenvetotiedot kuin [Postituslistan luonti –sivulla](/docs/ohjeet/tilaustenhallinta/postistuslista#postituslistan-luonti-1).
 
 ![Postituslista - Postitusten haku](/img/ohjeet/postitusyhteenveto.png)
 
-**Näytä muutokset edellisestä postituksesta** –painikkeesta näytetään uuden ja edellisen postituslistan tiedot muutoksien vertailua varten.
+**Näytä muutokset edellisestä postituksesta** –painikkeella voit verrata uuden ja edellisen postituslistan tietoja muutosten tarkastelua varten.
 
 ![Postituslista - Postitusten haku](/img/ohjeet/edellinenpostitus.png)
 
-**Näytä lehden postituspäivät** –painikkeesta näytetään listaus lehdelle luoduista postituslistoista päiväyksineen ja LähetysID:neen.
+**Näytä lehden postituspäivät** –painikkeesta näet listauksen lehdelle luoduista postituslistoista päiväyksineen ja LähetysID-tietoineen.
 
 ![Postituslista - Postitusten haku](/img/ohjeet/postituspaivat.png)
 
-**Peruslataus**–painikkeesta luodaan varhaisjakeluun tarvittava osoitteisto tekstiedostona ladattavaksi **Lataa TNnnnn.all.txt** –painikkeesta
+**Peruslataus** –painikkeella luodaan varhaisjakeluun tarvittava osoitteisto tekstiedostona, joka ladataan **Lataa TNnnnn.all.txt** –painikkeesta.
 
 ![Postituslista - Postitusten haku](/img/ohjeet/peruslataus.png)
 
-**Varhaisjakelun nippumuutokset** –painikkeesta luodaan yhteenveto nipuista, joissa on muutoksia aiempaan niputukseen verrattuna ja sen tietojen vienti tekstitiedostoon **Lataa nnnn.all.txt** –painikkeesta
+**Varhaisjakelun nippumuutokset** –painikkeella luodaan yhteenveto nipuista, joissa on tapahtunut muutoksia aiempaan niputukseen verrattuna. Tiedot voi viedä tekstitiedostoon **Lataa nnnn.all.txt** –painikkeesta.
 
 ![Postitusten haku - Varhaisjakelun nippumuutokset](/img/ohjeet/nippumuutokset.png)
 
-**Excel**–painikkeesta luodaan Painoon tarvittava osoitteisto (.txt) ladattavaksi Lataa _1110.TSL.. –painikkeesta
+**Excel** –painikkeella luodaan painoon tarvittava osoitteisto (.txt), joka ladataan **Lataa _1110.TSL..** –painikkeesta.
 
 ![Postitusten haku - Excel](/img/ohjeet/excel.png)
 
-**Postinumerolista**–painikkeesta luodaan tarvittava listaus Postinumeroista ja KPL määristä Excel-taulukkoon Lataa postinumerolista –painikkeesta
+**Postinumerolista** –painikkeella luodaan listaus postinumeroista ja kappalemääristä Excel-taulukkoon. Tiedosto ladataan **Lataa postinumerolista** –painikkeesta.
 
 ![Postitusten haku - Postinumerolista](/img/ohjeet/postinumerolista.png)
 
-**Vertaa asiakasnumeroilla** -painikkeesta voit tarkastaa löytyykö syöttämäsi asiakasnumero/t postituslistalta. Tätä toimintoa voi käyttää esimerkiksi silloin kun asiakkaalla on usein ilmestynyt jakeluhäiriöitä.
+**Vertaa asiakasnumeroilla** –painikkeella voit tarkistaa, löytyvätkö syöttämäsi asiakasnumerot postituslistalta. Toimintoa voi käyttää esimerkiksi silloin, kun asiakkaalla esiintyy toistuvia jakeluhäiriöitä.
 
 ![Postitusten haku - Vertaa asiakasnumeroilla](/img/ohjeet/vertaa-asiakasnumeroilla.png)
 
-**Lehtiluukkuun päivitettävät** -painikkeesta voit päivittää uudet digitilaajat lehtiluukkuun
+**Lehtiluukkuun päivitettävät** –painikkeella voit päivittää uudet digitilaajat Lehtiluukku-palveluun.
 
 ![Postitusten haku - Lehtiluukkuun päivitettävät](/img/ohjeet/lehtiluukku1.png)
 
-**Lähetä yhteenveto** -painikkeesta voit lähettää yhteenvedon postituslistan tiedoista aiemmin määritettyyn sähköpostiin.
+**Lähetä yhteenveto** –painikkeella voit lähettää yhteenvedon postituslistan tiedoista ennalta määritettyyn sähköpostiin.
 
 ![Postitusten haku - Lähetä yhteenveto](/img/ohjeet/yhteenveto.png)
 
@@ -97,44 +97,51 @@ Jättämällä **Ilmestymispäivä**-kentän tyhjäksi saat asiakkaan koko **pos
 
 Ennen uuden Postituslistan luontia varmistetaan, että tilausten <a href="/docs/ohjeet/tilaustenhallinta/kestojatko">Kestojatkoajo</a> on tehty, mikäli uudistettavat kestotilaukset halutaan mukaan kyseiselle postituslistalle. Kestojatko-ajot voi myös automatisoida.
 
+Ennen uuden postituslistan luontia varmista, että tilausten [Kestojatkoajo](/docs/ohjeet/tilaustenhallinta/kestojatko) on tehty, mikäli uudistettavat kestotilaukset halutaan mukaan kyseiselle postituslistalle. Kestojatkoajot voidaan myös automatisoida.
+
 ### Postituslistan luonnin ennakkotoimenpiteet
 
 1) Tee **[Kestojatko](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/kestojatko)**
 
-2) **Asetukset/Irtonumerot**-välilehdellä
-- **Poista** ensin vanhat tiedot listaukselta ja sen jälkeen
-- **Kopioi** yksittäisten Irtonumeroiden osoitetiedot ja Tallenna (katso ettei alempana olevaan listaan tule virheilmoituksia)
+2) **Asetukset / Irtonumerot** –välilehdellä  
+   - **Poista** ensin vanhat tiedot listaukselta ja sen jälkeen  
+   - **Kopioi** yksittäisten irtonumeroiden osoitetiedot ja **tallenna**  
+     (varmista, ettei alempana olevaan listaan tule virheilmoituksia)
 
 ![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot-postituslista.png)
 
-Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim. Yritysnimi tai rappu/hsto) vaatii sille varatun paikan rivillä.
+Virhe voi johtua riviltä puuttuvasta **;** –merkistä, sillä tyhjäkin tieto (esimerkiksi yritysnimi tai rappu/huoneisto) vaatii sille varatun paikan rivillä.
 
 ![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot-postituslista-virhe.png)
 
-3) Jos sinulla on ilmoitusmyynninhallinta käytössä klikkaa **Hae irtonumerot postituspäivältä** –painiketta, joka hakee kyseisenä päivänä julkaistavista ilmoitusvarauksista aktivoidut **Tarkistuskappaleet** ja lisää niiden maksajat automaattisesti **Irtonumerot**–listalle. **Tallenna**.
+3) Jos sinulla on ilmoitusmyynninhallinta käytössä, klikkaa **Hae irtonumerot postituspäivältä** –painiketta.  
+   Tämä hakee kyseisenä päivänä julkaistavista ilmoitusvarauksista aktivoidut **Tarkistuskappaleet**  
+   ja lisää niiden maksajat automaattisesti **Irtonumerot**–listalle.  
+   Muista lopuksi **tallentaa**.
 
 ![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot2.png)
 
 ![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot3.png)
 
-4) **Asetukset/Varhaisjakelu** –välilehdellä lisätään/muokataan postituksen mukaan halutut klikkaamalla **Vakioniput**-painiketta
-- **Poista** ensin mahdolliset turhat tiedot listaukselta ja sen jälkeen
-- **Päivitä/Kopioi** (malliriviksi) yksittäisten Vakionippujen osoite- ja lkm -tiedot ja Tallenna (katso ettei kentän alla olevaan listaan tule virheilmoituksia)
+4) **Asetukset / Varhaisjakelu** –välilehdellä lisätään tai muokataan postitukseen mukaan halutut **vakioniput** klikkaamalla **Vakioniput**–painiketta.  
+   - **Poista** ensin mahdolliset turhat tiedot listaukselta  
+   - **Päivitä / Kopioi** yksittäisten vakionippujen osoite- ja kappalemäärätiedot ja **tallenna**  
+     (varmista, ettei kentän alla olevaan listaan tule virheilmoituksia)
 
 ![Asetukset-välilehti - Varhaisjakelu](/img/ohjeet/varhaisjakelu-postitus.png)
 
-Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim. Yritysnimi tai osoite) vaatii sille varatun paikan rivillä.
+Virhe voi johtua riviltä puuttuvasta **;** –merkistä, sillä tyhjäkin tieto (esimerkiksi yritysnimi tai osoite) vaatii sille varatun paikan rivillä.
 
 ![Asetukset-välilehti - Varhaisjakelu](/img/ohjeet/virhe-vakioniput.png)
 *Esimerkki virheellisesti syötetystä tiedosta.*
 
 ### Postituslistan luonti
 
-- Valitse **Lehti** ja **voimassaolopäivä** ja klikkaa Näytä tilaukset –painiketta saadaksesi tilauksien yhteenvedon näkyviin
+- Valitse **Lehti** ja **voimassaolopäivä**, ja klikkaa **Näytä tilaukset** –painiketta saadaksesi tilauksien yhteenvedon näkyviin.
 
 ![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista1.png)
 
-- **Näytä voimassa olevat tilaukset kaikilla tiedoilla** –painike luo taulukon, jonka voi avata selaimen latausikkunasta jatkokäsittelyä varten
+- **Näytä voimassa olevat tilaukset kaikilla tiedoilla** –painikkeesta muodostuu taulukko, jonka voi avata selaimen latausikkunasta jatkokäsittelyä varten.
 
 ![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista2.png)
 
@@ -144,12 +151,12 @@ Virhe voi johtua riviltä puuttuvasta ; -merkistä, sillä tyhjäkin tieto (esim
 
 ![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista5.png)
 
-- Varsinainen postituslista luodaan klikattaessa **Tee postitusajo lehden toimittamista varten** -painiketta
+- Varsinainen postituslista luodaan klikkaamalla **Tee postitusajo lehden toimittamista varten** –painiketta.
 
 ![Postituslista - Postituslistan luonti](/img/ohjeet/postituslista4.png)
 
-- Luonnin jälkeen Postituslista-yhteenvetotiedot listautuvat näkymän alaosaan
-- Postituslistojen ajot voidaan myös automatisoida ja niihin voidaan liittää automaattiset koontiviestit haluttuihin sähköpostiosoitteisiin
+- Luonnin jälkeen postituslistan yhteenvetotiedot näkyvät näkymän alaosassa.  
+- Postituslistojen ajot voidaan myös automaattisoida, ja niiden valmistuttua voidaan lähettää automaattiset **koontiviestit** haluttuihin sähköpostiosoitteisiin.
 
 ---
 
