@@ -19,13 +19,48 @@ Myöhemmin julkaistaan myös **raportti**, josta näet kaikki poliittisiksi main
 
 ![Ilmoitusvaraus](/img/versiotiedotteet/poliittinen-mainos.png)
 
-## OmaPalvelussa voi hallita viestintävalintoja
+## Markkinointikiellot
 
-OmaPalveluun on lisätty uusi **Viestintävalinnat**-toiminto, jonka kautta tilaajat voivat itse määrittää, missä kanavissa he haluavat vastaanottaa markkinointiviestintää. Valinnat koskevat sähköpostia, puhelinta ja kirjepostia.
+### OmaPalvelussa voi hallita viestintävalintoja
+
+OmaPalveluun on lisätty uusi **Viestintävalinnat**-toiminto, jonka kautta tilaajat voivat itse määrittää, missä kanavissa he haluavat vastaanottaa markkinointiviestintää. Valinnat koskevat sähköpostia, puhelinta, tekstiviestejä ja kirjepostia.
 
 Toiminto otetaan käyttöön **Asetukset > OmaPalvelu** -välisivulta.
 
 ![OmaPalvelu](/img/omapalvelu/viestintavalinnat.png)
+
+### Tekstiviestimarkkinointi
+
+Asetuksiin on lisätty uusi **tekstiviestimarkkinointi**-lupa.  
+
+Luvan voi asettaa asiakkaalle kolmeen eri tilaan:  
+- **Sallittu**  
+- **Kielletty**  
+- **Ei tiedossa**
+
+Tiedon avulla voidaan hallita, saako asiakas vastaanottaa markkinointiviestejä tekstiviestitse.  
+
+**Haut**-välilehdellä voit hakea asiakkaita, joilla tekstiviestimarkkinointi on **sallittu** tai **kielletty**.
+
+![Asiakaskortti](/img/versiotiedotteet/tekstiviesti.png)
+
+![Haut](/img/versiotiedotteet/haut-tekstiviesti.png)
+
+### Markkinointikieltojen haut
+
+**Haut**-välilehdelle on lisätty uusi ominaisuus, jonka avulla markkinointikieltohakuja on laajennettu.  
+Voit nyt hakea asiakkaita, joilla seuraavat markkinointiluvat on **sallittu** tai **kielletty**:
+
+- **Sähköpostimarkkinointi**
+- **Puhelinmarkkinointi**
+- **Kirjemarkkinointi**
+- **Tekstiviestimarkkinointi**
+
+Valinnalla **Asetus annettu** voidaan rajata haku koskemaan vain niitä asiakkaita, joiden asiakaskortilla markkinointilupa on **erikseen asetettu** (sallittu tai kielletty) – ei siis tyhjiä tai *ei tiedossa* -valintoja. 
+
+Jos mitään valintaa ei ole tehty (ei kieltoa tai sallimista), markkinointi tulkitaan usein sallituksi, mikä ei kuitenkaan ole **GDPR:n mukaista**. Tämä valinta varmistaa, että haku kohdistuu vain niihin asiakkaisiin, joiden markkinointiasetus on tietoisesti määritetty.
+
+![Haut](/img/versiotiedotteet/haut-markkinointi.png)
 
 ## Tilauslaji
 
