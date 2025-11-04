@@ -211,10 +211,11 @@ Palautus suoritetaan painamalla **Tallenna ennakkomaksu** -painiketta.
 
 #### Saldon poistaminen
 
-Saldon tiliöinnit voi poistaa painamalla **Suorituksen tiliöinnin poistaminen** -painikkeesta
+Saldon tiliöinnit voi poistaa painamalla **Suorituksen tiliöinnin poistaminen** -painikkeesta. Poista molemmat saldoon liittyvät tiliöinnit.
 
 1) Kopioi saldon **TiliöintiID**
 2) Paina **Poista tiliöinti**
+3) Tee sama molemmilla saldoon liittyvillä tiliöinneillä 
 
 Tämä poistaa saldon asiakkaalta ja raporteilta.
 
