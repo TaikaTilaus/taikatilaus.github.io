@@ -264,7 +264,7 @@ Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** 
 - Alkuperäinen lasku 80,00 €, josta sovittu maksettavaksi 20,00 € kirjataan
 - Pankkitilille (S) 0,00 €  
 - Myyntisaamisiin (K) -20,00 €
-- Kulutilille (T) -20,00 €
+- Kulutilille (oikaisutili) (T) -20,00 € 
 - Maksamatta summaksi jää 60,00 €
 - kyseinen lasku lähetetään uudelleen asiakkaalle (laskun Pankkisiirto-osiossa näkyy Maksamatta summa)
 

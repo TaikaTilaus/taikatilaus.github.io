@@ -6,89 +6,129 @@ sidebar_position: 1
 
 ## Ilmoitusasiakas
 
-Asiakaskohtaiseen **Ilmoitusasiakas**–palveluun pääsee hakemalla asiakkaan etusivulta ja sitten klikkaamalla **Näytä ilmoitusmyynti** –linkkiä asiakasriviltä.
+Asiakaskohtaiseen **Ilmoitusasiakas**–palveluun pääsee hakemalla asiakkaan **Etusivulta** ja klikkaamalla **Näytä ilmoitusmyynti** -linkkiä asiakasriviltä.
 
 ![Etusivu](/img/ohjeet/ilmoitusasiakas.png)
 
 *Etusivun haun kautta pääset ilmoitusmyynnin hallintaan.*
 
-Ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti, josta pääsee palaamaan haetun asiakkaan tietoihin takaisin, mikäli siirtyy välillä muualle ohjelmaan.
+Kun ilmoitusasiakas on avattu, ohjelman päävalikkoon ilmestyy uusi **Ilmoitusasiakas**-välilehti. Sen kautta pääset helposti palaamaan asiakkaan tietoihin, vaikka siirtyisit välillä ohjelman muihin osiin.
 
 ![Ilmoitusasiakas-välilehti](/img/ohjeet/ilmoitusasiakas3.png)
 
 *Löydät käsittelemäsi ilmoitusasiakkaan ohjelman päävalikosta vaikka välillä tekisit ohjelmassa jotain muuta.*
 
+---
+
 ## Ilmoitusasiakkaan koontisivu ja välilehdet
 
-**Ilmoitusasiakas**-näkymässä näytetään asiakkaan tiedot ja välilehdet, jotka myös asiakas itse näkee kirjautuessaan OmaPalveluun. Myyjä näkee ylävalikossa lisäksi **Muistio** ja **Myynnit**-välilehdet, joita asiakas ei itse näe. Asiakkaan valitsemisen jälkeen myyjä näkee kyseisen asiakkaan Koonti-näkymän
+**Ilmoitusasiakas**-näkymässä näytetään asiakkaan perustiedot sekä välilehdet, jotka myös asiakas itse näkee kirjautuessaan **OmaPalveluun**. Myyjällä näkyy lisäksi ylävalikossa **Muistio** ja **Myynnit** -välilehdet, joita asiakas ei itse näe.
 
-- Myyjä voi suorittaa myös asiakkaan puolesta toimintoja, kuten omien tietojen päivittämistä
+Asiakkaan valitsemisen jälkeen myyjä näkee asiakkaan **Koonti-näkymän**, josta voi hallita myyntiä ja yhteystietoja.
+
+- Myyjä voi suorittaa asiakkaan puolesta toimintoja, kuten omien tietojen päivittämisen.
 
 ![Ilmoitusasiakas-välilehti](/img/ohjeet/ilmoitusasiakas2.png)
 *Ilmoitusasiakkaan etusivu.*
 
 ### Asiakastiedot
 
-**Asiakastiedot/Omat tiedot** –välilehdellä voi muokata asiakkaan perustietoja, kuten
-- Yhteystietoja
-- Laskutustietoja
-- Yhteyshenkilöiden tietoja
+**Asiakastiedot / Omat tiedot** –välilehdellä voidaan muokata asiakkaan perustietoja, kuten:
+- **Yhteystietoja**
+- **Laskutustietoja**
+- **Yhteyshenkilöiden tietoja**
+
+---
+
+#### Yhteys- ja laskutustiedot
 
 **Yhteys- ja laskutustiedot** vastaavat asiakaskortille tallennettuja tietoja.
-- Laskutustiedoista voidaan myös asettaa asiakas Myyntikieltoon, milloin asiakkaalle ei voi luoda ilmoitusvarauksia (esim. maksamattomien laksujen takia)
-- Myyntikielto asetetaan syöttämällä kenttään vapaamuotoista tekstiä
-- Myyntikielto poistetaan poistamalla kenttään syötetty teksti
 
-**Yhteyshenkilöt** –listaukselle voi tallentaa ilmoitusmyynteihin liittyvien henkilöiden yhteystietoja, kuten esim.
-- Aineistoista vastaavien henkilöiden yhteystiedot
-- Ulkopuoliset aineistojen toimittajat
+- **Laskutustiedoista** voidaan asettaa asiakas **Myyntikieltoon**, jolloin asiakkaalle **ei voi luoda ilmoitusvarauksia** (esim. maksamattomien laskujen vuoksi).  
+- Myyntikielto asetetaan **syöttämällä kenttään vapaamuotoinen teksti**.  
+- Myyntikielto poistetaan **poistamalla kenttään syötetty teksti**.
 
 ![Ilmoitusasiakas - Omat tiedot](/img/ohjeet/omattiedot-ilmoitusmyynti.png)
-*Ilmoitusasiakkaan omissa tiedoissa ovat asiakkaan yhteystiedot ja laskutustiedot*
+*Ilmoitusasiakkaan omissa tiedoissa näkyvät asiakkaan yhteystiedot ja laskutustiedot.*
 
 ![Ilmoitusasiakas - Myyntikielto](/img/ohjeet/myyntikielto.png)
-*Ilmoitusasiakkaan myynti välilehdeltä näet, jos asiakkaalle on asetettu myyntikielto*
+*Ilmoitusasiakkaan Myynti-välilehdeltä näet, jos asiakkaalle on asetettu myyntikielto.*
+
+---
+
+#### Yhteyshenkilöt
+
+**Yhteyshenkilöt**–listaukselle voidaan tallentaa ilmoitusmyynteihin liittyvien henkilöiden yhteystietoja, kuten esimerkiksi:
+- aineistoista vastaavien henkilöiden tiedot  
+- ulkopuoliset aineistojen toimittajat  
+
+---
 
 ### Aineistopankki
 
-**Aineistopankki**–välilehdellä voi tallentaa esim. asiakkaan usein tarvitsemia aineistoja, kuten
-- Logoja
-- Kuvia
+**Aineistopankki**–välilehdellä voidaan tallentaa asiakkaan usein käyttämiä aineistoja, kuten:
+- **Logoja**
+- **Kuvia**
 
-Ladattava aineisto haetaan omalta koneelta ja lisätään kuvaus sen sisällöstä (esim. logo (väri), logo (mv)). Aineisto tallennetaan palveluun **Lisää aineisto aineistopankkiin** -painikkeesta.
+Ladattava aineisto haetaan omalta koneelta ja sille lisätään **kuvaus sisällöstä** (esim. *logo (väri)*, *logo (mv)*). Aineisto tallennetaan palveluun **Lisää aineisto aineistopankkiin** -painikkeesta.
 
 ![Ilmoitusasiakas - Aineistopankki](/img/ohjeet/aineistopankki.png)
 
 *Voit ladata aineistopankkiin asiakkaan usein käyttämiä aineistoja.*
 
+---
+
 ### Ilmoitukset
 
-**Ilmoitukset** –välilehdellä näkee kaikki asiakkaaseen **liitetyt ilmoitukset** (menneet ja avoimet) ja voi hallinnoida mm. ilmoitustilauksiin liittyviä aineistojen tiedostoja, kommentointeja ja hyväksyntöjä. Listauksella näkee yksittäisen ilmoituksen valmistusta varten palveluun ladatut aineistot, sekä aineistojen kuvaukset.
+**Ilmoitukset**–välilehdellä näet kaikki asiakkaaseen **liitetyt ilmoitukset** (menneet ja avoimet) ja voit hallinnoida ilmoitustilauksiin liittyviä:
+- **aineistotiedostoja**
+- **kommentointeja**
+- **hyväksyntöjä**
+
+Listauksella näkyvät kaikki asiakkaan ilmoitukset sekä niihin liittyvät aineistot ja aineistojen kuvaukset.
 
 ![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/ilmoitukset-lista.png)
 *Ilmoitukset-välilehdeltä näet asiakkaan ilmoitukset ja voit hallinnoida niitä.*
 
-Listauksella näytettäviä ilmoitusvarauksia voi järjestää
-- **Lajittelutieto**–valikon (Alkupäivä / Varausnumero) ja
-- **Lajittelujärjestys**–valikon avulla (Nouseva / Laskeva)
-- Aktivoimalla **Piilota menneet** –valintaruutu, mikä piilottaa kaikki ilmoitukset, jotka ovat ilmestyneet menneissä julkaisuissa.
+---
+
+#### Ilmoitusten suodatus ja järjestäminen
+
+Ilmoitusvarauksia voi järjestää ja suodattaa seuraavasti:
+
+- **Lajittelutieto** – (Alkupäivä / Varausnumero)  
+- **Lajittelujärjestys** – (Nouseva / Laskeva)  
+- **Piilota menneet** – valintaruudulla piilotat kaikki jo ilmestyneet ilmoitukset 
 
 ![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/ilmoitukset-suodatus.png)
 *Voit järjestää ja suodattaa ilmoitusten listausta eri valinnoilla.*
 
-Avoimia ilmoitusvarauksia voi käsitellä
-- päivittämällä Ilmoitustekstiä
-- lisäämällä kuva-aineistoa
-- lähettämällä aineiston ulkopuoliselle käsittelijälle latauslinkin palveluun
+---
+
+#### Avoimien ilmoitusten käsittely
+
+Avoimia ilmoitusvarauksia voidaan käsitellä mm.:
+
+- **päivittämällä ilmoitustekstiä**  
+- **lisäämällä kuva-aineistoa**  
+- **lähettämällä aineiston toimittajalle latauslinkki** palveluun  
 
 ![Ilmoitusasiakas - Ilmoitukset](/img/ohjeet/aineisto.png)
 *Ilmoituksia voi käsitellä eri tavoilla.*
 
-**Lähetä latauslinkki** -painikkeesta lähetetään aineiston toimittajan sähköpostiin linkki, millä hän voi kirjautua OmaIlmoitus –palveluun ja siellä ladata juuri kyseiseen ilmoitukseen liittyviä aineistoja. Painike näkyy vain, jos mainosta/ilmoitusta ei ole vielä otettu käsittelyyn.
+---
+
+#### Lähetä latauslinkki
+
+**Lähetä latauslinkki** -painikkeesta lähetetään aineiston toimittajalle sähköpostitse linkki, jonka kautta hän voi tulla palveluun ja ladata kyseiseen ilmoitukseen liittyvät aineistot.  
+
+Painike näkyy vain, jos ilmoitusta **ei ole vielä otettu käsittelyyn**.
 
 ![Ilmoitukset - Latauslinkin lähetys](/img/ohjeet/latauslinkki.png)
 
 *Voit lähettää latauslinkin aineiston toimittajalle.*
+
+---
 
 **Muuta ilmoitustekstiä** -painikkeista voi antaa ilmoituksen sisältötekstin esim. rivi-ilmoitukseen. Painiketta ei näytetä, mikäli Ilmoitus tulee valmiina aineistona –asetus on myyntivarauksessa aktivoituna
 
