@@ -553,19 +553,12 @@ Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 
 Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo) -toiminnon käyttöönottoon.
 
-- **Ennakkomaksujen (saldo) tili** – mille tilille saldoa lisätään ja käytetään.  
-- **Ennakkomaksujen käyttö eri lehtiin** – määrittely siitä, mille lehdille saldoa voi käyttää.  
-  - Muodossa *LehdenLyhenne,LehdenLyhenne*, esim. `TAN,TAV`, jos saldoa käytetään molempiin lehtiin ilman erittelyä.  
-  - Muodossa *TAN;TAV*, jos saldon käyttö eritellään, eli TaikaNakka-lehden (TAN) peruutuksesta tullutta saldoa voidaan käyttää vain TaikaNakka-lehden laskuihin.  
-- **Lehti#1,2,3: Ennakkomaksujen Lehti ja TuoteID** – lehdet ja erillistuote-ID, jota käytetään luomaan tuoterivejä laskuille, kun saldoa käytetään. Muodossa *LehdenLyhenne;TuoteID*.  
-- **Maksun palautusten tili** – mille tilille palautettavat rahat merkitään odottamaan palautusta ja miltä palautukset kuitataan maksetuiksi.  
-- **Lehti#1,2,3: Maksun palautusten Lehti ja TuoteID** – lehdet ja erillistuote-ID, jota käytetään luomaan tuoterivejä palautuslaskuille. Muodossa *LehdenLyhenne;TuoteID*.  
+- **Ennakkomaksujen (saldo) tili:** mille tilille saldoa lisätään ja käytetään
+- **Saldon käytön TuoteID**: sen erillistuotteen TuoteID, jota käytetään tuoterivin luomiseen laskulle, kun saldoa käytetään laskun maksamiseen.
+- **Maksun palautusten tili**: mille tilille palautettavat rahat merkitään odottamaan palautusta ja miltä palautukset kuitataan maksetuiksi
+- **Maksetun laskun rahan palautus** -kentän aktivoidessa laskulle tulee painike, jota painamalla voi hyvittää kyseisen laskun ja laskun maksetun summan voi siirtää asiakkaalle palautettavaksi
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
-
-- **Maksetun laskun rahan palautus** – kentän aktivoidessa laskulle tulee painike, jota painamalla voidaan hyvittää kyseinen lasku ja siirtää sen maksettu summa asiakkaalle palautettavaksi.
-
-![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus8.png)
 
 ### Ilmoitusmyynti
 

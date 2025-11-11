@@ -136,7 +136,7 @@ Seuraavilla toiminnoilla voit käsitellä ja hallita yksittäisiä laskuja:
 - **Lähetä lasku sähköpostilla** – lähetä lasku asiakastiedoissa olevaan sähköpostiosoitteeseen.
 - **Siirrä lasku toiselle tilaukselle** – siirrä lasku toiseen tilaukseen antamalla sen tilausnumero.
 - **Suoramaksuilmoitus** – lähetä tai tulosta ilmoitus laskusta suoraveloitusasiakkaille.
-- **Luo maksun palautus** – käytetään, kun maksettu lasku halutaan hyvittää ja **[saldo-ominaisuus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo)** on käytössä. Luo palautuslaskun koko laskun summasta ja kirjaa summa asiakkaan tietoihin palautettavaksi.Jos haluat hyvittää vain osan laskusta (esim. tilaaja katkaisee tilauksen ja laskutetaan vain toimitetut lehdet), käytä **[Maksetun tilauksen katkaisu](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksetun-tilauksen-katkaisu)** -toimintoa.
+- **Luo maksun palautus** – käytetään, kun maksettu lasku halutaan hyvittää ja **[saldo-ominaisuus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo)** on käytössä. Luo palautuslaskun koko laskun summasta ja kirjaa summa asiakkaan tietoihin palautettavaksi. Toiminnolla siis lisätään laskun summa palautettavaksi, sitä **EI** lisätä asiakkaan saldoon. Jos haluat hyvittää vain osan laskusta (esim. tilaaja katkaisee tilauksen ja laskutetaan vain toimitetut lehdet), käytä **[Maksetun tilauksen katkaisu](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksetun-tilauksen-katkaisu)** -toimintoa.
 
 ![Laskut - Tuotteen käsittely](/img/ohjeet/laskut6.png)
 
