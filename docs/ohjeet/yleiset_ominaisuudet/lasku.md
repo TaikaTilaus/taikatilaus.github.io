@@ -127,7 +127,7 @@ Voit lukea lisää suorituksista [täältä](https://support.taikatilaus.fi/docs
 Seuraavilla toiminnoilla voit käsitellä ja hallita yksittäisiä laskuja:
 
 - **Luo hyvityslasku** – painike näkyy, kun laskua ei ole vielä hyvitetty. Sen avulla voit luoda hyvityslaskun kyseisestä laskusta.
-- **Poista hyvityslasku-liitos **– painike näkyy, jos lasku on jo hyvitetty. Sen avulla voit poistaa olemassa olevan hyvityslaskun liitoksen.
+- **Poista hyvityslasku-liitos**– painike näkyy, jos lasku on jo hyvitetty. Sen avulla voit poistaa olemassa olevan hyvityslaskun liitoksen.
 - **Luo maksumuistutus #1 ja/tai maksumuistutus #2** – luo maksumuistutus, jos lasku on erääntynyt.
 - **Luo laskusta kopio** – luo uuden laskun, joka sisältää kaikki alkuperäisen tiedot.
 - **Luo laskusta kopio ilman maksajan tietoja** – luo laskusta kopio, josta maksajan tiedot on poistettu.
