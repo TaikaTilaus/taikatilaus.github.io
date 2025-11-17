@@ -58,6 +58,8 @@ Pudotusvalikoilla voit hakea esimerkiksi tietyn lehden tietyn julkaisun ilmoitus
 
 ![IlmoitusStudio](/img/ohjeet/ilmoitusstudio-osasto.png)
 
+---
+
 ### Hakutuloksien sarakkeiden aktivointi
 
 Hakutuloksiin voi lisätä valinnaisia sarakkeita aktivoimalla hakutulosten yllä olevia valintoja.
@@ -86,6 +88,8 @@ Hakutuloksiin voi lisätä valinnaisia sarakkeita aktivoimalla hakutulosten yll�
 
 ![IlmoitusStudio](/img/ohjeet/ilmoitusstudio8.png)
 
+---
+
 ### Painikkeet
 
 ![IlmoitusStudio](/img/ohjeet/ilmoitusstudio3.png) 
@@ -112,6 +116,8 @@ Toimintoa käytetään esimerkiksi toistoilmoituksissa.
 
 ![IlmoitusStudio](/img/ohjeet/is-kopio.png) 
 
+---
+
 ### Raportit
 
 **Hakutuloksista** voi luoda erilaisia raportteja painamalla **Raportit**-painiketta ja sen jälkeen valitsemalla:
@@ -124,6 +130,8 @@ Toimintoa käytetään esimerkiksi toistoilmoituksissa.
 - **Laskutettavien lista** -painikkeen (tiettynä päivänä laskutettavat ilmoitusvaraukset)
 
 ![IlmoitusStudio](/img/ohjeet/ilmoitusstudio4.png)
+
+---
 
 ### Varauksen lisääminen
 
