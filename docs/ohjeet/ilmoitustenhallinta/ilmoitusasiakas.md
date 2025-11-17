@@ -493,6 +493,8 @@ Toiminnallisesti molemmat lomakeversiot toimivat samalla tavalla. Käyttäjä vo
 ![Myynnit - Ilmoitusvarauksen lisääminen](/img/ohjeet/ilmoitusvarauksenlisaaminen.png)
 *Pelkistetty ilmoitusvaraus-lomake*
 
+---
+
 ### Valmiin ilmoitusvarauksen lisätoiminnot
 
 Kun ilmoitusvaraus on tallennettu, lomakkeelle ilmestyy uusia toimintoja:
