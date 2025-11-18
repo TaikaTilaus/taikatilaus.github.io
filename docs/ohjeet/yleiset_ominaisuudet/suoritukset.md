@@ -8,7 +8,7 @@ sidebar_position: 3
 
 ### Suoriteperusteinen kirjanpito
 
-Palvelussa käytetään **Suoriteperusteista kirjapitoa**, jossa kulut ja tulot kirjataan kirjanpitoon sen mukaan milloin kulut syntyvät eli **laskupäivän perusteella**
+Palvelussa käytetään **suoriteperusteista kirjanpitoa**, jossa kulut ja tulot kirjataan kirjanpitoon sen mukaan, milloin ne syntyvät – eli **laskupäivän perusteella**.
 
 - esim. myyntilasku, joka tehdään tammikuun lopussa ja maksetaan maaliskuun alussa
 - Tämä myynti näkyy tuloslaskelmassa suoriteperusteisesti tammikuussa (eikä maaliskuussa kuten maksuperusteisesti)
@@ -28,91 +28,123 @@ Suoriteperusteisessa kirjanpidossa kulu kirjataan
 ![Suoritukset esimerkki](/img/ohjeet/tiliointi.png)
 *Esimerkki suorituksista*
 
-### Suoritukset-välilehti
+---
+
+## Suoritukset-välilehti
+
+**Suoritukset**–välilehdellä tarkastellaan sovellukseen tulevia maksuja. Suorituksia voi myös luoda itse esimerkiksi tilanteessa, jossa asiakas on maksanut laskun paikan päällä käteisellä. Tämä tehdään yksittäisen laskun kautta **Lisää suoritus** -painikkeella.
 
 ![Suoritukset](/img/ohjeet/suoritukset.png)
 
-**Suoritukset**–välilehdellä tarkastellaan sovellukseen tulevia maksuja. Suorituksia voi myös itse luoda esim. tilanteessa, jossa asiakas on maksanut laskun paikan päällä käteisellä, **Lisää suoritus** –painikkeen avulla yksittäisissä laskuissa. 
+---
 
-**Hae**–painike hakee kaikki saapuneet Suoritukset listaukselle.
+### Suoritusten haku
 
-Voit myös karsia hakutuloksia eri hakuehdoilla:
-- **SuoritusID** - suorituksen yksilöivä numero
-- **AinestoID** - pankista haettujen viitemaksujen numero, joka vaihtuu joka yö
-- **Pankkitilin numero** - tilin numero, jolle maksu on tullut
-- **Laskun numero** - suoritukseen liittyvän laskun numero TaikaTilauksessa
-- Laskun **kirjauspäivä** - päivä, jona suoritus on kirjattu
-- **Maksupäivä** - päivä, jona lasku on maksettu
+**Hae**–painike hakee kaikki saapuneet suoritukset listalle.
+
+Voit myös rajata hakutuloksia eri hakuehdoilla:
+
+- **SuoritusID** – suorituksen yksilöivä numero  
+- **AineistoID** – pankista haettujen viitemaksujen aineiston numero (vaihtuu joka yö)  
+- **Pankkitilin numero** – tili, jolle maksu on saapunut  
+- **Laskun numero** – suoritukseen liittyvän laskun numero TaikaTilauksessa  
+- **Laskun kirjauspäivä** – päivä, jolloin suoritus on kirjattu  
+- **Maksupäivä** – päivä, jolloin lasku on maksettu
 - **Arkistointitunnus** - Pankin antama yksilöllinen tunniste, jonka avulla maksutapahtuma löytyy tarvittaessa pankin arkistointijärjestelmästä. Tunnus näkyy sekä laskuttajan että maksajan tiliotteilla, ja sitä käytetään mahdollisissa maksujen selvittelytilanteissa.
 - **Viitenumero** - suoritukseen littyvän laskun viitenumero
-- **Maksajan nimi** - maksajan nimi (voi olla oudossa muodossa, jos sisältää ääkkösiä)
-- **Info** - jos tässä kentässä lukee muuta kuin OK, suoritus on virheellinen
-- **Käsitelty info** - Tähän kenttään pitää kirjoittaa tietoa suorituksen korjauksen yhteydessä, jotta ohjelma lukee sen käsitellyksi
+- **Maksajan nimi** – maksajan nimi (voi näkyä virheellisesti, jos sisältää ääkkösiä)  
+- **Info** – jos kentässä on muu kuin *OK*, suoritus on virheellinen  
+- **Käsitelty info** – tähän kenttään kirjoitetaan tieto suorituksen korjauksesta, jotta ohjelma merkitsee sen käsitellyksi
 
-**Tyhjennä hakuehdot** -painike poistaa aiemmin valitut hakukriteerit.
+**Tyhjennä hakuehdot** -painike poistaa kaikki valitut hakukriteerit.
 
-**Tuo suorituksia** –painikkeella voidaan siirtää palveluun esim. Excel taulukosta kopioituna aineistoa
-- **Näytä esikatselussa** -painikkeesta aineisto käsitellään ja näytetään mahdolliset toimenpiteet
-- **Lue aineisto sisään suorituksiin** -painikkeesta suoritukset käsitellään ja niihin liitetyt laskut kuitataan maksetuiksi
+![Suoritukset](/img/ohjeet/suoritukset.png)
+
+---
+
+### Painikkeet
+
+**Tuo suorituksia** –painikkeella voidaan siirtää palveluun aineistoa esimerkiksi Excel-taulukosta kopioituna.
+
+![Suoritukset](/img/ohjeet/tuosuorituksia.png)
+
+    - **Näytä esikatselussa** – aineisto käsitellään ja näytetään mahdolliset toimenpiteet  
+    - **Lue aineisto sisään suorituksiin** – suoritukset käsitellään ja niihin liitetyt laskut kuitataan maksetuiksi
 
 ![Suoritukset](/img/ohjeet/suoritukset3.png)
 
-**Kohdistusraportti** -painike luo linkin josta voit ladata viitemaksujen kohdistusraportin.
+**Kohdistusraportti** –painike luo linkin, josta voit ladata viitemaksujen kohdistusraportin.
 
 ![Suoritukset](/img/ohjeet/suoritukset6.png)
 
-**Tiedot Exceliin** -painike luo linkin josta voit ladata suoritukset Exceliin.
+**Tiedot Exceliin** –painike luo linkin, josta voit ladata suoritukset Excel-tiedostona.
 
 ![Suoritukset](/img/ohjeet/suoritukset7.png)
 
-Painamalla **Hae Paytrail -viitteellä** muodostuu uusi kenttä, jonka kautta voit hakea suorituksia Paytrail-viitteellä. 
+Painamalla **Hae Paytrail -viitteellä** avautuu uusi kenttä, jonka kautta voit hakea suorituksia Paytrail-viitteellä.
 
 ![Suoritukset](/img/ohjeet/suoritukset8.png)
 
-Suoritukset luetaan ja tiliöidään (Suoritus/Kuittaus) laskuille automaattisesti pankkiaineiston sisäänluvun yhteydessä
-- Mahdolliset **virheet korjataan manuaalisesti** kyseiselle laskulle, johon suoritus liittyy (Esim. Tiliöinnit puuttuu / Summat eivät täsmää jne.)
+---
 
-**Suoritukset**-listauksella näkyy myös mahdolliset korttimaksut, jotka ovat **VismaPayn/Paytrailin** provisiomaksuja. Ne voivat kuitenkin sisältää useamman yksittäisen provision (koonti), joten niitä ei voi suoraan tiliöidä (ohjelmallisesti) yksittäisille laskuille, koska sitä varten tarvitaan LaskuID numerot.
+### Suoritusten tiliöinti
 
-Esimerkiksi PayTrailillä on oma käyttöliittymänsä, josta asiakas voi nähdä nämä koontisuoritukset ja niiden kautta kaikki sen sisältävät yksittäiset suoritukset (joissa LaskuIDt mainittuina).
+Suoritukset luetaan ja tiliöidään laskuille automaattisesti pankkiaineiston sisäänluvun yhteydessä:
 
-Jos halutaan seurata yksittäisiä/laskukohtaisia provisioita (esim. raporteilla), tulee ne manuaalisesti tiliöidä kyseisille laskuille.
+- Mahdolliset **virheet korjataan manuaalisesti** kyseisen laskun tiliöinteihin  
+  *(esim. puuttuvat tiliöinnit, täsmäämättömät summat jne.)*
+
+**Suoritukset**-listauksessa näkyvät myös mahdolliset korttimaksut, jotka ovat **VismaPayn/Paytrailin provisiomaksuja**. Nämä voivat sisältää useita yksittäisiä provisioita (koontisuoritus), joten niitä ei voi tiliöidä automaattisesti yksittäisille laskuille, koska laskukohtaisia LaskuID-numeroita ei ole käytettävissä.
+
+Paytraililla on oma käyttöliittymä, jossa asiakas voi nähdä koontisuoritukset ja niiden sisältämät yksittäiset suoritukset (LaskuID-numeroineen).
+
+Jos halutaan seurata provisioita laskukohtaisesti (esim. raporteilla), ne tulee **tiliöidä manuaalisesti** oikeille laskuille.
+
+---
 
 ### Virheellisten suorituksien haku
 
-Hakukenttien alapuolella on kenttä **Hae vain käsittelyä vaativat**, jonka **aktivointi piilottaa** listaukselta kaikki ne suoritukset
-- jotka on liitetty laskulle **virheettöminä** (saapuneesta pankkiaineistoista)
-- jotka on **manuaalisesti** lisätty laskuille (käyttäjän tekemät) 
+Hakukenttien alapuolella on kenttä **Hae vain käsittelyä vaativat**, jonka **aktivointi piilottaa** listaukselta kaikki suoritukset:
 
-Hakulistauksella **näytetään** (aktivoinnin ollessa päällä)
-- kaikki ne suoritukset joissa **Info** -sarakkeessa ei lue OK (onnistunut suoritus)
-- joissa **EI OLE** mitään tekstiä **Käsitelty info** -sarakkeessa
+- jotka on liitetty laskulle **virheettöminä** (saapuneesta pankkiaineistosta)
+- jotka on **manuaalisesti** lisätty laskuille (käyttäjän tekemät suoritukset)
+
+Hakulistauksella **näytetään** (aktivoinnin ollessa päällä):
+
+- kaikki suoritukset, joissa **Info**-sarakkeessa ei lue *OK* (eli suoritus ei ole onnistunut)
+- suoritukset, joissa **Käsitelty info** -sarakkeessa **ei ole** mitään tietoa
 
 ![Suoritukset](/img/ohjeet/suoritukset2.png)
 
-Virheellisten suorituksien käsittelyssä pitää merkitä **Käsitelty info** -kenttään **tietoa** (esim. **OK** ja muuta lisäselvennystä), että ohjelma lukee suorituksen korjattuna/käsiteltynä.
+Virheellisten suoritusten käsittelyssä tulee merkitä **Käsitelty info** –kenttään **selite** (esim. *“OK – liikasuoritus palautettu asiakkaalle”*), jotta ohjelma merkitsee suorituksen korjatuksi/käsitellyksi.
+
+---
 
 ### Suorituksen korjaaminen
 
 ![Suoritukset](/img/ohjeet/suoritukset5.png)
 
-**Suoritukset** –välilehden listauksen **SuoritusID**–sarakkeen numerotietoa klikkaamalla pääsee **käsittelemään** kyseistä suoritusta:
-1. **Muuttamaan** suorituksen tietoja
-2. **Lähettämään asiakkaalle sähköpostia suoritukseen liittyen** 
-3. **Palauttamaan liikasuorituksen**, jos teillä on [saldo ja rahanpalautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#virheellisten-suorituksien-k%C3%A4sittely) -toiminto käytössä
-4. **Siirtämään liikasuorituksen saldoksi**, jos teillä on [saldo ja rahanpalautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#virheellisten-suorituksien-k%C3%A4sittely) -toiminto käytössä
-5. **Poistamaan suoritukseen liittyvät tiliöinnit**
-6. **Hyvittämään suorituksen** - luo uuden suorituksen, minkä summatiedot ovat päinvastoin
+**Suoritukset**-välilehden listauksen **SuoritusID**-numeron klikkaaminen avaa suorituksen käsittelyn. Toiminnoissa voi:
 
-Virheellisen suorituksen voi merkata käsitellyksi kirjoittamalla **Käsitelty info** -kenttään tietoa siitä, mitä virheelliselle suoritukselle on tehty. (esim. "OK - liikasuoritus palautettu asiakkaalle")
+1. **Muokata** suorituksen tietoja  
+2. **Lähettää asiakkaalle sähköpostia** suoritukseen liittyen  
+3. **Palauttaa liikasuorituksen**, jos [saldo ja rahanpalautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#virheellisten-suorituksien-k%C3%A4sittely) -toiminto on käytössä  
+4. **Siirtää liikasuorituksen saldoksi**, jos saldo ja rahanpalautus -toiminto on käytössä  
+5. **Poistaa suoritukseen liittyvät tiliöinnit**  
+6. **Hyvittää suorituksen** – luo uuden suorituksen, jossa summat ovat päinvastaiset (käänteinen suoritus)
+
+Virheellinen suoritus merkitään käsitellyksi kirjoittamalla **Käsitelty info** -kenttään selite siitä, mitä suoritukselle on tehty (esim. *“OK – liikasuoritus palautettu asiakkaalle”*).
 
 ![Suoritukset](/img/ohjeet/suoritukset4.png)
 
-Suoritukset–välilehden listauksen **Laskun nro / Tiliöinnit** –sarakkeiden tietoja klikkaamalla pääsee siirtymään kyseiselle laskulle ja
-- **Muokkaamaan** kyseistä laskua
-- **Lisäämään/Liittämään** tiliöintejä laskulle
+Suoritukset–välilehden listauksen **Laskun nro / Tiliöinnit** -sarakkeiden tietoja klikkaamalla pääset siirtymään kyseiselle laskulle, jossa voit:
 
-Luo lisää laskujen muokkaamisesta [täältä](/docs/ohjeet/yleiset_ominaisuudet/lasku).
+- **Muokata** laskun tietoja  
+- **Lisätä tai liittää tiliöintejä** laskulle  
+
+Lue lisää laskujen muokkaamisesta [täältä](/docs/ohjeet/yleiset_ominaisuudet/lasku).
+
+---
 
 ### Esimerkki suorituksen korjaamisesta
 
