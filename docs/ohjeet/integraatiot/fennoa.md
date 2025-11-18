@@ -3,7 +3,7 @@
 
 # Fennoa
 
-Yksisuuntainen integraatio myyntilaskujen kirjanpitotositteiden automaattiseen vientiin TaikaTilauksesta [Fennoa](https://fennoa.com/) taloushallinto-ohjelmaan.
+Yksisuuntainen integraatio myyntilaskujen kirjanpitotositteiden automaattiseen vientiin TaikaTilauksesta [Fennoa](https://fennoa.com/)-taloushallinto-ohjelmaan.
 
 ## Yleiskuvaus
 
@@ -19,15 +19,6 @@ Yksi myyntilasku tuottaa vähintään kaksi kirjanpitotositetta, yhden laskua mu
 TaikaTilaus_Fennoa -liittymä tekee TaikaTilauksen tiliöinneistä Fennoaan kelpaavat tositteet, ja siirtää nämä Fennoan päiväkirjaan, jotta kirjanpitäjän ei tarvitse manuaalisesti hakea tietoja TaikaTilauksesta.
 
 Suorituksesta ja virheistä koostetaan raportti, joka toimitetaan sähköpostilla haluttuun osoitteeseen.
-
-## Hinta
-
-Liittymästä veloitetaan käyttöönottomaksu sekä kiinteä kuukausimaksu. 
-
-Lisätietoja:   
-Jari Mäkelä  
-p. 050 557 6130  
-jari.makela@taikatilaus.fi
 
 ## Liittymän toimintaperiaate
 
@@ -61,3 +52,12 @@ Sujuvimmin käyttöönottoon liittyvät valmistelutyöt voidaan sopia lyhyessä 
 4. Liittymän testaus testiympäristössä
 
 5. Liittymän kytkeminen päälle tuotannossa
+
+## Hinta
+
+Liittymästä veloitetaan käyttöönottomaksu sekä kiinteä kuukausimaksu. 
+
+Lisätietoja:   
+Jari Mäkelä  
+p. 050 557 6130  
+jari.makela@taikatilaus.fi
