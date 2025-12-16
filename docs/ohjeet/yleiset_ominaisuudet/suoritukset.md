@@ -124,14 +124,14 @@ Virheellisten suoritusten käsittelyssä tulee merkitä **Käsitelty info** –k
 
 ![Suoritukset](/img/ohjeet/suoritukset5.png)
 
-**Suoritukset**-välilehden listauksen **SuoritusID**-numeron klikkaaminen avaa suorituksen käsittelyn. Toiminnoissa voi:
+**Suoritukset**-välilehden listauksen ensimmäisessä sarakkeessa olevaa **kynäkuvaketta** klikkaamalla avautuu suorituksen käsittely. Toiminnoissa voi:
 
 1. **Muokata** suorituksen tietoja  
 2. **Lähettää asiakkaalle sähköpostia** suoritukseen liittyen  
 3. **Palauttaa liikasuorituksen**, jos [saldo ja rahanpalautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#virheellisten-suorituksien-k%C3%A4sittely) -toiminto on käytössä  
 4. **Siirtää liikasuorituksen saldoksi**, jos saldo ja rahanpalautus -toiminto on käytössä  
 5. **Poistaa suoritukseen liittyvät tiliöinnit**  
-6. **Hyvittää suorituksen** – luo uuden suorituksen, jossa summat ovat päinvastaiset (käänteinen suoritus)
+6. **Hyvittää suorituksen** – luo uuden suorituksen, jossa summat ovat päinvastaiset (käänteinen suoritus). Tätä käytetään tapauksessa, jossa suoritusta ei ole tullutkaan.
 
 Virheellinen suoritus merkitään käsitellyksi kirjoittamalla **Käsitelty info** -kenttään selite siitä, mitä suoritukselle on tehty (esim. *“OK – liikasuoritus palautettu asiakkaalle”*).
 
@@ -159,15 +159,17 @@ Käsiteltäviä **Suorituksia** voi hakea mm.
 
 Esim. **Lisäämään** kyseisen suorituksen tiliöinnin ko. laskulle
 - Jos asiakas on **maksanut vain osan** laskun summasta
-- Liitetään/lisätään suoritus **vastaavalla summalla** (S/K) tiliöinneiksi (4-5)
+- Liitetään/lisätään suoritus **vastaavalla summalla** (S/K) tiliöinneiksi (4-7)
 
 ![Suoritukset](/img/ohjeet/suorituksen-korjaus2.png)
 
 ![Suoritukset](/img/ohjeet/suorituksen-korjaus3.png)
 
-Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla (6) tai tulosteena kirjeitse
-- Laskulomakkeen yläosassa on alkup. maksutiedot (7)
-- Pankkisiirto-osan Summa–kentässä on **Maksamatta**-summa (8)
+![Suoritukset](/img/ohjeet/suorituksen-korjaus8.png)
+
+Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla (8) tai tulosteena kirjeitse
+- Laskulomakkeen yläosassa on alkup. maksutiedot (9)
+- Pankkisiirto-osan Summa–kentässä on **Maksamatta**-summa (10)
 
 ![Suoritukset](/img/ohjeet/suorituksen-korjaus4.png)
 
@@ -175,9 +177,9 @@ Ko. Laskun **voi lähettää asiakkaalle** sähköpostilla (6) tai tulosteena ki
 
 Merkitse suoritus **käsitellyksi**:
 
-- Siirry suorituksen käsitellyyn **SuoritusID**:stä (9)
-- Kirjoita selitys **Käsitelty info** -kenttään (10)
-- **Tallenna** (11)
+- Siirry suorituksen käsitellyyn **Kynä-ikonista** (11)
+- Kirjoita selitys **Käsitelty info** -kenttään (12)
+- **Tallenna** (13)
 
 Suoritus poistuu täten käsiteltävistä suorituksista.
 
