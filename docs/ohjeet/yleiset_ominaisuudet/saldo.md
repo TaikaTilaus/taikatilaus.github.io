@@ -215,12 +215,69 @@ Palautusta kirjatessa voidaan:
 - valita suorituksen pankkitili
 - valita liikasuoritustili (jos vaihtoehtoja on useampi)
 - kirjata takaisin maksettava rahamäärä
+- tiliöidä palautuksesta pois esim. maksumuistutusmaksu 
+  - valitsemalla tili **Suorituksesta erikseen pois tiliöitävän summan tili** -valikkoon
+  - antamalla palautuksesta pois tiliöitävän summan määrä negatiivisena (esim. -5)
 
 **HUOM!** Yleensä riittää, että kirjaat vain takaisin maksettavan rahamäärän. Muihin asetuksiin ei yleensä tarvitse koskea.
 
 Palautus suoritetaan painamalla **Palauta liikasuoritus** -painiketta.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/liikasuoritus.png)
+
+> HUOM! Kun summa on palautettu asiakkaalle taloudenhallinnon kautta, kuitataan palautus tehdyksi **[Maksun palautukset](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksun-palautukset)** -raportilla.
+
+#### Esimerkki liikasuorituksen palautuksesta
+
+1. Hae **Suoritukset** -välilehdeltä haluamasi suoritus
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus.png)
+
+2. Klikkaa **Kynä**-ikonia  
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus2.png)
+
+3. Klikkaa **Liikasuorituksen palautus** -painiketta
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus3.png)
+
+4. Kirjaa takaisin palautettava määrä **Takaisin maksettava rahamäärä** -kenttään. Esimerkkitapauksessa kyseessä on tuplasuoritus, joten kirjataan suorituksen koko summa palautettavaksi.
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus4.png)
+
+5. Paina **Palauta liikasuoritus** -painikkeesta
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus5.png)
+
+6. Näytölle tulee vahvistusviesti ja tiliöinnit muodostuvat
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus6.png)
+
+7. Tee itse rahan palautus asiakkaalle **taloushallinnon/kirjanpidon kautta** (TaikaTilauksen kautta ei liiku rahaa)
+
+8. Kun olet palauttanut rahat asiakkaalle, mene **Raportit**-välilehdelle ja avaa **Maksun palautukset** -raportti
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus7.png)
+
+9. Avaa raportti näytölle (anna riittävä aikaväli, palautus kirjataan suorituksen kirjauspäivälle)
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus8.png)
+
+10. Kopio palautetun suorituksen TiliöintiID **TiliöintiID**-kenttään ja paina **Siirry palautuksen käsittelyyn**
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus9.png)
+
+11. Valitse pankkitili, josta raha on palautettu asiakkaalle
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus10.png)
+
+12. Paina **Kuittaa palautus käsitellyksi**
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus12.png)
+
+13. Näytölle tulee vahvistus palautuksen kuittauksesta. Tämän jälkeen kyseinen suoritus ei näy aktiviisena raportilla. 
+
+![Suoritukset-välilehti](/img/ohjeet/esim-palautus11.png)
 
 ### Asiakas maksaa liikaa ja liikamaksu halutaan lisätä asiakkaan saldoon
 
@@ -233,6 +290,9 @@ Palautusta kirjatessa voidaan:
 - valita suorituksen pankkitili
 - valita liikasuoritustili (jos vaihtoehtoja on useampi)
 - kirjata takaisin maksettava rahamäärä
+- tiliöidä saldosta pois esim. maksumuistutusmaksu 
+  - valitsemalla tili **Suorituksesta erikseen pois tiliöitävän summan tili** -valikkoon
+  - antamalla saldosta pois tiliöitävän summan määrä negatiivisena (esim. -5)
 
 **HUOM!** Yleensä riittää, että kirjaat vain takaisin maksettavan rahamäärän. Muihin asetuksiin ei yleensä tarvitse koskea.
 
