@@ -300,6 +300,36 @@ Palautus saldona tallennetaan painamalla **Tallenna ennakkomaksu** -painiketta.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/liikasuoritus2.png)
 
+#### Esimerkki saldon lisäämisestä asiakkaalle liikasuorituksesta
+
+1. Hae **Suoritukset** -välilehdeltä haluamasi suoritus
+
+![Suoritukset-välilehti](/img/ohjeet/liikasuoritus-saldo.png)
+
+2. Klikkaa **Kynä**-ikonia  
+
+![Suoritukset-välilehti](/img/ohjeet/liikasuoritus-saldo2.png)
+
+3. Klikkaa **Liikasuoritus ennakkomaksuksi** -painiketta
+
+![Suoritukset-välilehti](/img/ohjeet/liikasuoritus-saldo3.png)
+
+4. Kirjaa saldoksi siirrettävä määrä **Takaisin maksettava rahamäärä** -kenttään. Esimerkkitapauksessa kyseessä on tuplasuoritus, joten kirjataan suorituksen koko summa saldoon.
+
+![Suoritukset-välilehti](/img/ohjeet/liikasuoritus-saldo4.png)
+
+5. Paina **Tallenna ennakkomaksu** -painiketta
+
+![Suoritukset-välilehti](/img/ohjeet/liikasuoritus-saldo5.png)
+
+6. Järjestelmä näyttää vahvistusviestin ja luo tiliöinnit
+
+![Suoritukset-välilehti](/img/ohjeet/liikasuoritus-saldo6.png)
+
+7. Näet lisätyn saldon asiakkaan asiakaskortilla. Saldoa käytetään **automaattisesti** tulevien laskujen maksuun.
+
+![Suoritukset-välilehti](/img/ohjeet/liikasuoritus-saldo7.png)
+
 #### Saldon poistaminen
 
 Saldon tiliöinnit voi poistaa painamalla **Suorituksen tiliöinnin poistaminen** -painiketta. Muista poistaa **molemmat** saldoon liittyvät tiliöinnit.
