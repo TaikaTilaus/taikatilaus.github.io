@@ -226,9 +226,9 @@ Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** 
 ### Liian vähän maksetun summan kirjaaminen laskun tiliöinteihin ja uusi lasku:
 - Maksettu 35,00 €, Lasku 50,00 € kirjataan
 - Pankkitilille (S) +35,00 €
-- Tilausmyyntisaamiset (K) -35,00 € (kuittaa laskun maksetuksi)
+- Tilausmyyntisaamiset (K) -35,00 € (kuittaa tämän osan laskun summasta maksetuksi)
 - Maksamatta summaksi jää 15,00 €
-- ko. lasku lähetetään uudelleen asiakkaalle (Pankkisiirto-osassa näkyy Maksamatta summa)
+- kyseinen lasku lähetetään uudelleen asiakkaalle (laskulla näkyy Maksamatta oleva summa)
 
 ![Suoritukset](/img/ohjeet/suoritukset10.png)
 *Suorituksen kirjaaminen*
