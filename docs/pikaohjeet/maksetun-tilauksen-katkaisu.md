@@ -14,6 +14,8 @@ sidebar_position: 9
 
 ### 3. Tilauksen tiedoista painetaan Maksetun tilauksen katkaisu -painiketta
 
+**HUOM!** Älä muuta tilauksen loppupäivää ennen toiminnon käyttöä, muuten toiminto antaa virheilmoituksen!
+
 ![3. Tilauksen tiedot](/img/pikaohjeet/maksettu2.png)
 
 ### 4. Tarkista tiedot ja valitse katkaisun syy
