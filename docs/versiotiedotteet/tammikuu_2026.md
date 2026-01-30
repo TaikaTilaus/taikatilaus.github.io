@@ -11,14 +11,27 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.12.2025 - 31.1.2026 välisenä aikana.
 
 > Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
-
 ## Tilaustuotteen kesto numeroiden mukaan
+
+Tilaustuotteen kestoksi voi nyt valita nyt numeromäärän (esim. 10 numeroa tarkoittaa, että tilaaja saa 10 numeroa lehteä). Tilauksen kesto määrittyy julkaisukalenterin mukaan.
 
 ## Raportit
 
 ### Uudet tilaukset -raportti
 
-### Aikavälillä päättyneet tilaukset - raporttia muokattua
+**Uudet tilaukset**-raportilla voit katsoa lehtesi uudet tilaukset. 
+
+Raportti karsii jatketut tilaukset, eli se näyttää vain uudet järjestelmässä luodut/tilauslomakkeelta tulleet tilaukset. 
+
+Kestojatkolla jatketut tilaukset voi ottaa mukaan aktivoimalla **Ota mukaan myös jatketut tilaukset** -kentän. Tilauksia voidaan hakea Tilauspäivän tai tilauksen Alkamispäivän mukaan.
+
+![Raportit](/img/versiotiedotteet/uudet-tilaukset.png)
+
+### Aikavälillä päättyneet tilaukset - raporttia muokattu
+
+**Aikavälillä päättyneet tilaukset** -raportti karsii nyt tilaajat, joilla on uusi tilaus voimassa katkaisun jälkeen. 
+
+![Raportit](/img/versiotiedotteet/aikavalilla-paattyneet.png)
 
 ### Poliittisen mainonnan raportointi ja uudet TTPA-kentät
 
@@ -31,9 +44,16 @@ Poliittisen mainonnan toiminnallisuuksia on laajennettu vastaamaan EU-asetuksen 
 
 **Uusi viranomaisraportti:** Raportit-osioon on lisätty uusi raportti, jolla voidaan listata kaikki valitulla aikavälillä laskutetut poliittiset mainokset. Raportti helpottaa lakisääteistä raportointia ja läpinäkyvyyden varmistamista.
 
-
 ## Suoritukset
 
 ### Suorituksiin lisätty Kynä-ikoni, helpompi kopioida SuoritusID
 
+Suorituksista oli vaikea kopioida SuoritusID:tä, koska se oli ennen linkki, jolla suorituksen sai avattua. Nyt lisätty erillinen **Kynä**-ikoni, jolla suorituksen tiedot avataan. SuoritusID on erillisessä sarakkeessa. 
+
+![Raportit](/img/versiotiedotteet/suoritusid.png)
+
 ### Suorituksen osan tiliöinti palautukseen/saldoon
+
+Kun asiakkaalle siirrettään saldoa, voidaan tiliöidä erikseen palautuksest pois esim. maksumuistutus, jota ei palauteta asiakkaalle/asiakkaan saldoon.
+
+![Raportit](/img/versiotiedotteet/osasuoritus.png)
