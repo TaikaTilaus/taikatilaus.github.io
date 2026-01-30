@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.3.-31.3.2025 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, testisivusto, hiekkalaatikko, maksunaihe, e-Lasku]

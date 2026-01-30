@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.10.-31.10.2025 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote]

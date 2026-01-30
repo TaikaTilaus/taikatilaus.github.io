@@ -26,3 +26,13 @@ Pääkäyttäjän toimintoa, jolla ilmoitusmyynti voidaan siirtää toiselle asi
 ## Tilauslahja
 
 Tilaukselle voi nyt lisätä tilauslahjan sekä ladata raportin, joka listaa kaikki tilaukset, joihin tilauslahja on merkitty. Toiminto on toistaiseksi käytössä vain yhdellä asiakkaalla. Jos haluatte sen käyttöön, ottakaa yhteyttä: tuki@taikatilaus.fi
+
+## Uusi laskunvälityskumppani: Orbyt
+
+Uusi laskuvälitysoperaattori [Orbyt](https://orbyt.tech/fi/) otettu käyttöön ensimmäisillä asiakkaillamme.
+Laajennamme operaattorin käyttöä 2026 kuluessa.
+
+- **Pienemmät postituskulut:** Paperilaskujen automaattinen optimointi edullisimpiin kanaviin (JYS, Posti, OmaPosti, KIVRA).
+- **Halvemmat verkkolaskut:** Pienemmät transaktiokustannukset kaikille verkkolaskuille.
+- **Monipuoliset toimitustavat:** Laajempi valikoima digitaalisia kanavia parantaa laskujen perillemenoa ja asiakaskokemusta.
+ 

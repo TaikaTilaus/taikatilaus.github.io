@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.5.-31.5.2025 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, ilmoitusten hallinta, ilmoitusstudio, myyntituotteet]

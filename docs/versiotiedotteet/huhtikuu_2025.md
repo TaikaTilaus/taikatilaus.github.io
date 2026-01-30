@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.4.-30.4.2025 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, ilmoitusten hallinta, ilmoitusstudio, stripe-kuponki]

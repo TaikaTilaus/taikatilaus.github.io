@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.7.-31.8.2025 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, tuplien käsittely, hyvitykset, hinnasto, LAPA, vakioniput]
