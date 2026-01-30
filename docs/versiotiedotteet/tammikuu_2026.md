@@ -29,7 +29,7 @@ Kestojatkolla jatketut tilaukset voi ottaa mukaan aktivoimalla **Ota mukaan myö
 
 ### Aikavälillä päättyneet tilaukset - raporttia muokattu
 
-**Aikavälillä päättyneet tilaukset** -raportti karsii nyt tilaajat, joilla on uusi tilaus voimassa katkaisun jälkeen. 
+**Aikavälillä päättyneet tilaukset** -raportti karsii pois nyt tilaajat, joilla on uusi tilaus tullut voimaan katkaisun/päättymisen jälkeen. 
 
 ![Raportit](/img/versiotiedotteet/aikavalilla-paattyneet.png)
 
