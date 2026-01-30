@@ -54,6 +54,6 @@ Suorituksista oli vaikea kopioida SuoritusID:tä, koska se oli ennen linkki, jol
 
 ### Suorituksen osan tiliöinti palautukseen/saldoon
 
-Kun asiakkaalle siirrettään saldoa, voidaan tiliöidä erikseen palautuksest pois esim. maksumuistutus, jota ei palauteta asiakkaalle/asiakkaan saldoon.
+Kun asiakkaalle siirrettään saldoa, voidaan tiliöidä erikseen palautuksesta pois esim. maksumuistutus, jota ei palauteta asiakkaalle/asiakkaan saldoon.
 
 ![Raportit](/img/versiotiedotteet/osasuoritus.png)
