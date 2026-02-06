@@ -102,7 +102,7 @@ Hakutuloksiin voi lisätä valinnaisia sarakkeita aktivoimalla hakutulosten yll�
 
 ![IlmoitusStudio](/img/ohjeet/is-tilanvaihto.png) 
 
-- **ZIP**-painikkeesta voit ladata valitut ilmoitusvaraukset zip-tiedostona.
+- **ZIP**-painikkeesta voit ladata valittujen ilmoitusvarauksien ainestot zip-tiedostona.
 
 ![IlmoitusStudio](/img/ohjeet/is-zip.png) 
 
