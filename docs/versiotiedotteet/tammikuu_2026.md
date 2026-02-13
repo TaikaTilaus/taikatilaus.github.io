@@ -13,7 +13,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.12.2025 - 31.1.2026 välisenä aikana.
 
 ## Tilaustuotteen kesto numeroiden mukaan
 
-Tilaustuotteen kestoksi voi nyt valita nyt numeromäärän (esim. 10 numeroa tarkoittaa, että tilaaja saa 10 numeroa lehteä). Tilauksen kesto määrittyy julkaisukalenterin mukaan.
+Tilaustuotteen kestoksi voi nyt valita nyt numeromäärän (esim. 10 numeroa tarkoittaa, että tilaaja saa 10 numeroa lehteä). Tilauksen kesto määrittyy julkaisukalenterin mukaan. 
 
 ## Raportit
 
@@ -42,7 +42,15 @@ Poliittisen mainonnan toiminnallisuuksia on laajennettu vastaamaan EU-asetuksen 
 - **Kampanja:** Tieto siitä, mihin laajempaan kokonaisuuteen mainos liittyy.
 - **Avoimuusilmoituksen URL:** Suora linkki digitaaliseen ilmoitukseen, josta ilmenevät mainoksen rahoittajat ja kohdennusperusteet.
 
-**Uusi viranomaisraportti:** Raportit-osioon on lisätty uusi raportti, jolla voidaan listata kaikki valitulla aikavälillä laskutetut poliittiset mainokset. Raportti helpottaa lakisääteistä raportointia ja läpinäkyvyyden varmistamista.
+![Raportit](/img/versiotiedotteet/poliittinen.png)
+
+**Uusi viranomaisraportti:** Raportit-osioon on lisätty uusi raportti, jolla voidaan listata kaikki valitulla aikavälillä **laskutetut** poliittiset mainokset. Huomioi, että raportilla ei näy ilmoituksia, ennen kuin ne on laskutettu. Raportti helpottaa lakisääteistä raportointia ja läpinäkyvyyden varmistamista.
+
+![Raportit](/img/versiotiedotteet/poliittinen2.png)
+*Raportti löytyy Ilmoitusmyynnnin raporttien alta.*
+
+![Raportit](/img/versiotiedotteet/poliittinen3.png)
+*Raportin sisältö*
 
 ## Suoritukset
 
