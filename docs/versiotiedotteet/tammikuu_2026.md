@@ -13,7 +13,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.12.2025 - 31.1.2026 välisenä aikana.
 
 ## Tilaustuotteen kesto numeroiden mukaan
 
-Tilaustuotteen kestoksi voi nyt valita nyt numeromäärän (esim. 10 numeroa tarkoittaa, että tilaaja saa 10 numeroa lehteä). Tilauksen kesto määrittyy julkaisukalenterin mukaan. 
+Tilaustuotteen kestoksi voi nyt valita nyt numeromäärän (esim. 10 numeroa tarkoittaa, että tilaaja saa 10 numeroa lehteä). Tilauksen kesto määrittyy julkaisukalenterin mukaan. Saat ominaisuuden käyttöösi lähettämällä viestiä tukeen tuki@taikatilaus.fi.
 
 ## Raportit
 
