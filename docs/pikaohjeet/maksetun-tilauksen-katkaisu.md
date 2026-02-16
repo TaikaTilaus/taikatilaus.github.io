@@ -16,6 +16,8 @@ sidebar_position: 9
 
 **HUOM!** Älä muuta tilauksen loppupäivää ennen toiminnon käyttöä, muuten toiminto antaa virheilmoituksen!
 
+**HUOM!** Jos haluat eri päivän katkaisulle, kun kuluvan päivän, katkaise tilaus normaalisti tilauslomakkeella ennen **Maksetun tilauksen katkaisu** -painikkeen painamista. 
+
 ![3. Tilauksen tiedot](/img/pikaohjeet/maksettu2.png)
 
 ### 4. Tarkista tiedot ja valitse katkaisun syy
