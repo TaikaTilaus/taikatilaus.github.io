@@ -57,3 +57,25 @@ Jos haluat palauttaa takaisin maksettavan summan asiakkaalle, paina **Katkaise t
 ![3. Tilauksen tiedot](/img/pikaohjeet/maksettu10.png)
 
 **HUOM! ETTÄ RAHANPALAUTUS TILIÖITYY OIKEIN, PITÄÄ RAHANPALAUTUKSET KÄSITELLÄ NIIHIN LIITTYVÄLLÄ [RAPORTILLA](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksun-palautukset), SEN JÄLKEEN KUN RAHA ON PALAUTETTU ASIAKKAAN TILILLE**
+
+ALLA OLEVA OHJE KOSKEE VAIN MAKSUN PALAUTUSTA RAHANA ASIAKKAALLE, EI SALDOA.
+
+### 9. Kun palautus on tehty asiakkaalle, mennään Maksun palautukset -raportille
+
+![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus5.png)
+
+### 10. Varmista, että haet palautuksia tarpeeksi suurella aikavälillä. Jos et näe haluamaasi palautusta, suurenna aikaväliä. Tulosta raportti Näytölle.
+
+![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus9.png)
+
+### 11. Kopioi palautuksen TiliöintiID TiliöintiID-kenttään ja paina Siirry palautuksen käsittelyyn
+
+![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus6.png)
+
+### 12. Valitse pankkitili, josta palautus on tehty asiakkaalle ja paina Kuittaa palautus asiakkaalle -painiketta
+
+![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus7.png)
+
+### 13. Palautus on nyt käsitelty loppuun asti
+
+![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus8.png)
