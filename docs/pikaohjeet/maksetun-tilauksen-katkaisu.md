@@ -58,7 +58,7 @@ Jos haluat palauttaa takaisin maksettavan summan asiakkaalle, paina **Katkaise t
 
 **HUOM! ETTÄ RAHANPALAUTUS TILIÖITYY OIKEIN, PITÄÄ RAHANPALAUTUKSET KÄSITELLÄ NIIHIN LIITTYVÄLLÄ [RAPORTILLA](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksun-palautukset), SEN JÄLKEEN KUN RAHA ON PALAUTETTU ASIAKKAAN TILILLE**
 
-ALLA OLEVA OHJE KOSKEE VAIN MAKSUN PALAUTUSTA RAHANA ASIAKKAALLE, EI SALDOA.
+TÄSTÄ ETEENPÄIN OHJE KOSKEE VAIN MAKSUN PALAUTUSTA RAHANA ASIAKKAALLE, EI SALDOA. 
 
 ### 9. Kun palautus on tehty asiakkaalle, mennään Maksun palautukset -raportille
 
