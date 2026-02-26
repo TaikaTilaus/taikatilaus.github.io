@@ -1,0 +1,119 @@
+# TaikaTilaus-tukipalvelu
+
+> TaikaTilaus on SaaS-ratkaisu mediataloudelle tilausten ja ilmoitusten hallintaan, laskutukseen, postitukseen ja asiakashallintaan. Tämä sivusto on TaikaTilaus-ohjelmiston virallinen tukiportaali, joka sisältää yksityiskohtaiset käyttöohjeet, pikaohjeet yleisimpiin toimenpiteisiin, FAQ-vastaukset, ohjevideot sekä versiotiedotteet tuotteen kehityksestä.
+
+## Aloitus
+
+- [Etusivu](https://support.taikatilaus.fi/docs/etusivu): Yleiskatsaus tukisivustoon ja ohjeiden rakenteeseen
+- [Tukiportaalin ohjeet](https://support.taikatilaus.fi/docs/tukiportaali): Kuinka käyttää Freshdesk-tukiportaalia tukipyyntöjen lähettämiseen
+- [Tietosuoja](https://support.taikatilaus.fi/docs/tietosuoja): TaikaTilauksen tietosuojakäytännöt
+
+## Ohjeet – Yleiset ominaisuudet
+
+- [Yleistä](https://support.taikatilaus.fi/docs/ohjeet/yleista): Yleistä tietoa TaikaTilaus-ohjelmistosta
+- [Asiakkaat](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/asiakkaat): Asiakashallinnan ohjeet
+- [Haut](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/haut): Hakutoiminnot järjestelmässä
+- [Laskut](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/lasku): Laskutus ja laskujen hallinta
+- [Suoritukset](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset): Suoritusten käsittely ja tiliöinti
+- [Saldo](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo): Asiakassaldojen hallinta
+- [Pankki](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/pankki): Pankkitietojen integraatio
+- [Perintä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/perinta): Perintäprosessin ohjeet
+- [Raportit](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/raportit): Raporttien käyttö ja tulkinta
+- [Hallinta](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/hallinta): Järjestelmän hallinta-asetukset
+- [Etusivu (näyttö)](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/etusivu): TaikaTilauksen etusivunäkymä
+- [Huomiot](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/huomiot): Huomioiden ja muistiinpanojen hallinta
+- [Leikepöytä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/leikepoyta): Leikepöytätoiminnot
+
+## Ohjeet – Tilaustenhallinta
+
+- [Tilaukset](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/tilaukset): Tilausten hallinta ja käsittely
+- [Postituslistat](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/postistuslista): Postituslistojen hallinta
+- [Kestojatko](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/kestojatko): Tilausten automaattinen kestojatko
+
+## Ohjeet – Ilmoitustenhallinta
+
+- [Ilmoitusasiakkaat](https://support.taikatilaus.fi/docs/ohjeet/ilmoitustenhallinta/ilmoitusasiakas): Ilmoitusasiakkaiden hallinta
+- [Ilmoitusvaraukset](https://support.taikatilaus.fi/docs/ohjeet/ilmoitustenhallinta/ilmoistusvaraukset): Ilmoitusvarausten käsittely
+- [Ilmoitusjono](https://support.taikatilaus.fi/docs/ohjeet/ilmoitustenhallinta/ilmoistoyjono): Ilmoitusjonon hallinta
+- [IlmoitusStudio](https://support.taikatilaus.fi/docs/ohjeet/ilmoitustenhallinta/ilmoitusstudio): Ilmoitusten suunnittelutyökalu
+
+## Ohjeet – Integraatiot
+
+- [Fennoa](https://support.taikatilaus.fi/docs/ohjeet/integraatiot/fennoa): Fennoa-kirjanpitojärjestelmän integraatio
+- [Maventa](https://support.taikatilaus.fi/docs/ohjeet/integraatiot/maventa): Maventa-verkkolaskuoperaattorin integraatio
+- [Paytrail](https://support.taikatilaus.fi/docs/ohjeet/integraatiot/paytrail): Paytrail-maksunvälittäjän integraatio
+- [Prenly](https://support.taikatilaus.fi/docs/ohjeet/integraatiot/prenly): Prenly-digilehtipalvelun integraatio
+- [Stripe](https://support.taikatilaus.fi/docs/ohjeet/integraatiot/stripe): Stripe-maksunvälittäjän integraatio
+
+## Ohjeet – Lisäpalvelut
+
+- [OmaPalvelu](https://support.taikatilaus.fi/docs/ohjeet/omapalvelu): Tilaajien itsepalveluportaalin ohjeet
+- [Asetukset](https://support.taikatilaus.fi/docs/ohjeet/asetukset): Järjestelmäasetusten konfigurointi
+
+## Pikaohjeet
+
+- [Tilauksen lisäys](https://support.taikatilaus.fi/docs/pikaohjeet/tilauksen-lisays): Uuden tilauksen tekeminen
+- [Tilauksen katkaisu](https://support.taikatilaus.fi/docs/pikaohjeet/tilauksen-katkaisu): Tilauksen katkaiseminen
+- [Maksetun tilauksen katkaisu](https://support.taikatilaus.fi/docs/pikaohjeet/maksetun-tilauksen-katkaisu): Maksetun tilauksen katkaiseminen ja hyvittäminen
+- [Asiakkaan lisääminen](https://support.taikatilaus.fi/docs/pikaohjeet/asiakkaan-lisaaminen): Uuden asiakkaan luominen
+- [Asiakkaan haku](https://support.taikatilaus.fi/docs/pikaohjeet/asiakkaan-haku): Asiakkaan löytäminen järjestelmästä
+- [Alennuksen lisääminen](https://support.taikatilaus.fi/docs/pikaohjeet/alennuksen-lisaaminen): Alennuksen myöntäminen tilaukselle
+- [Osoitteenmuutos](https://support.taikatilaus.fi/docs/pikaohjeet/osoitteenmuutos): Asiakkaan osoitteen päivittäminen
+- [Väliaikainen osoitteenmuutos](https://support.taikatilaus.fi/docs/pikaohjeet/valiaikainen-osoitteenmuutos): Tilapäinen osoitemuutos esim. loman ajaksi
+- [Jakelun keskeytys](https://support.taikatilaus.fi/docs/pikaohjeet/jakelun-keskeytys): Jakelun keskeyttäminen ja lomakatko
+- [Laskun lähetys](https://support.taikatilaus.fi/docs/pikaohjeet/laskun-lahetys): Laskun lähettäminen asiakkaalle
+- [Laskun uudelleenlähetys](https://support.taikatilaus.fi/docs/pikaohjeet/laskun-uudelleenlahetys): Laskun uudelleenlähettäminen
+- [Laskun toimitustapa](https://support.taikatilaus.fi/docs/pikaohjeet/laskun-toimitustapa): Laskun toimitustavat (sähköposti, kirje, verkkolasku)
+- [Laskun reklamointi](https://support.taikatilaus.fi/docs/pikaohjeet/laskun-reklamointi): Laskureklamaation käsittely
+- [Maksetun laskun palautus](https://support.taikatilaus.fi/docs/pikaohjeet/maksetun-laskun-palautus): Maksetun laskun hyvittäminen
+- [Hyvityslasku](https://support.taikatilaus.fi/docs/pikaohjeet/hyvityslasku): Hyvityslaskun tekeminen
+- [Hyvityslasku / poisto](https://support.taikatilaus.fi/docs/pikaohjeet/hyvityslasku-poisto): Hyvityslaskun poistaminen
+- [Suorituksen lisääminen](https://support.taikatilaus.fi/docs/pikaohjeet/suorituksen-lisaaminen): Käteissuorituksen kirjaaminen
+- [Suorituksen liittäminen](https://support.taikatilaus.fi/docs/pikaohjeet/suorituksen-liittaminen): Suorituksen kohdistaminen laskulle
+- [Suorituksen tiliöinti](https://support.taikatilaus.fi/docs/pikaohjeet/suorituksen-tiliointi): Suorituksen tiliöinti kirjanpitoon
+- [Kassa-tiliöinti](https://support.taikatilaus.fi/docs/pikaohjeet/kassa-tiliointi): Kassatapahtumien tiliöinti
+- [Maksumuistutus](https://support.taikatilaus.fi/docs/pikaohjeet/maksumuistutus): Maksumuistutuksen lähettäminen
+- [Erääntymispäivän siirto](https://support.taikatilaus.fi/docs/pikaohjeet/erapaivan-siirto): Laskun eräpäivän siirtäminen
+- [Saldo](https://support.taikatilaus.fi/docs/pikaohjeet/saldo): Saldojen hallinta pikaohjeet
+- [Tilausjakson hyvitys](https://support.taikatilaus.fi/docs/pikaohjeet/tilausjakson-hyvitys): Tilausjakson hyvittäminen
+- [Tilausjakson pidentäminen](https://support.taikatilaus.fi/docs/pikaohjeet/tilausjakson-pidentaminen): Tilausjakson jatkaminen
+- [Tuotteen hinnanmuutos](https://support.taikatilaus.fi/docs/pikaohjeet/tuotteen-hinnanmuutos): Tilaustuotteen hinnan muuttaminen
+- [Koontilaskun muokkaus](https://support.taikatilaus.fi/docs/pikaohjeet/koontilaskun-muokkaus): Koontilaskun sisällön muokkaaminen
+- [Laskutusprosessi](https://support.taikatilaus.fi/docs/pikaohjeet/laskutusprosessi): Laskutusajot ja laskutusprosessi
+- [Laskutuspyynnön muokkaus](https://support.taikatilaus.fi/docs/pikaohjeet/laskutuspyynnon-muokkaus): Laskutuspyynnön tietojen muokkaaminen
+- [Postitus](https://support.taikatilaus.fi/docs/pikaohjeet/postitus): Postituslistojen ajaminen
+- [Katkaisukäsittely](https://support.taikatilaus.fi/docs/pikaohjeet/katkaisukasittely): Katkaistujen tilausten käsittely
+- [Eri tilaaja](https://support.taikatilaus.fi/docs/pikaohjeet/eri-tilaaja): Tilaus eri tilaajalle kuin maksajalle
+- [Eri maksaja](https://support.taikatilaus.fi/docs/pikaohjeet/eri-maksaja): Laskutus eri maksajalle
+- [Asiamieskoodin lisäys](https://support.taikatilaus.fi/docs/pikaohjeet/asiamieskoodin-lisays): Asiamieskoodin lisääminen tilaukseen
+- [Erillistuote](https://support.taikatilaus.fi/docs/pikaohjeet/erillistuote): Erillistuotteen lisääminen tilaukseen
+- [Pakkotetut niput](https://support.taikatilaus.fi/docs/pikaohjeet/pakotetut-niput): Niputettujen tuotteiden hallinta
+- [Lehtiluukun päivitys](https://support.taikatilaus.fi/docs/pikaohjeet/lehtiluukun-paivitys): Lehtiluukkutietojen päivittäminen
+- [Varhaisjakelun esto](https://support.taikatilaus.fi/docs/pikaohjeet/varhaisjakelun-esto): Varhaisjakelun estäminen
+- [Ilmoitusvarauslomake](https://support.taikatilaus.fi/docs/pikaohjeet/ilmoitusvarauslomake): Ilmoitusvarauksen tekeminen lomakkeella
+- [Kaksivaiheinen tunnistautuminen](https://support.taikatilaus.fi/docs/pikaohjeet/kaksivaiheinen-tunnistautuminen): 2FA-tunnistautumisen käyttöönotto
+
+## FAQ
+
+- [Tilaukset – FAQ](https://support.taikatilaus.fi/docs/faq/tilaukset): Usein kysytyt kysymykset tilauksista
+- [Laskutus – FAQ](https://support.taikatilaus.fi/docs/faq/laskutus): Usein kysytyt kysymykset laskutuksesta
+- [Postitus – FAQ](https://support.taikatilaus.fi/docs/faq/postitus): Usein kysytyt kysymykset postituksesta
+- [Käyttöönotto – FAQ](https://support.taikatilaus.fi/docs/faq/kayttoonotto): Usein kysytyt kysymykset käyttöönotosta
+
+## Ohjevideot
+
+- [Ohjevideot](https://support.taikatilaus.fi/docs/ohjevideot): Kaikki TaikaTilauksen ohjevideot
+
+## Versiotiedotteet
+
+- [Tammikuu 2026](https://support.taikatilaus.fi/docs/versiotiedotteet/tammikuu_2026): Uudistukset 1.12.2025–31.1.2026 (numeropohjainen tilauksen kesto, raportit, suoritukset)
+- [Marraskuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/marraskuu_2025): Uudistukset marraskuussa 2025
+- [Lokakuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/lokakuu_2025): Uudistukset lokakuussa 2025
+- [Syyskuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/syyskuu_2025): Uudistukset syyskuussa 2025
+- [Heinä-elokuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/heina_elo_2025): Uudistukset heinä–elokuussa 2025
+- [Kesäkuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/kesakuu_2025): Uudistukset kesäkuussa 2025
+- [Toukokuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/toukokuu_2025): Uudistukset toukokuussa 2025
+- [Huhtikuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/huhtikuu_2025): Uudistukset huhtikuussa 2025
+- [Maaliskuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/maaliskuu_2025): Uudistukset maaliskuussa 2025
+- [Helmikuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/helmikuu_2025): Uudistukset helmikuussa 2025
+- [Tammikuu 2025](https://support.taikatilaus.fi/docs/versiotiedotteet/2025/tammikuu_2025): Uudistukset tammikuussa 2025
