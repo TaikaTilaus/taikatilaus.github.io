@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=TaikaTilaus linking to https://www.taikatilaus.fi"
   },
   "copyright": {
-    "message": "<div>Copyright © 2025 <a href='https://www.taikatilaus.fi' class='footer__link-item'>TaikaTilaus Oy</a>.</div>",
+    "message": "<div>Copyright © 2026 <a href='https://www.taikatilaus.fi' class='footer__link-item'>TaikaTilaus Oy</a>.</div>",
     "description": "The footer copyright"
   }
 }
