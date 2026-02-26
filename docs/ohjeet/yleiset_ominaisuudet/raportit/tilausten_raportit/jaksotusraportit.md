@@ -1,5 +1,6 @@
 ---
-sidebar_position: 7
+sidebar_position: 2
+slug: /ohjeet/yleiset_ominaisuudet/jaksotusraportit
 ---
 
 # Jaksotusraportit
@@ -15,8 +16,12 @@ Tällä sivulla kuvataan kaksi keskeistä jaksotusraporttia:
 - **Tilausten jaksotus aikajanalla (tiliöintien kautta)** — tilauskohtainen kuukausittainen jaksotus
 - **Tilausten jaksotus siirtovelkaraportti** — kuukausittainen yhteenveto siirtovelasta ja tuloutetusta myynnistä
 
-## Hakuehdot
+## Milloin käytän tätä sivua vs. Tilausten raportit -yleiskatsausta
 
+Käytä tätä sivua, kun tarvitset **tarkan jaksotuslogiikan** kuvauksen (hakuehdot, sarakkeet, verollisuus ja siirtovelkaraportti).
+Jos haluat ensin nähdä kaikki **Tilausten raportit** -osion raportit yhdellä sivulla, aloita [Tilausten raportit -yleiskatsauksesta](/docs/ohjeet/yleiset_ominaisuudet/raportit/tilausten_raportit/yleiskatsaus).
+
+## Hakuehdot
 Molemmilla raporteilla on samat perushakuehdot:
 
 ### Aikaväli
@@ -82,7 +87,7 @@ Jokaisesta tilauksesta näytetään lisäksi tilausnumero, tilausjakso, laskun n
 Yhteenvetosarakkeiden (Myynti kk, Kuitattu, Velka) verollisuus riippuu hakuehdosta:
 
 - **Laskut**: summat ovat **verottomia** (MY-tiliöinnit)
-- **Suoritukset**: summat ovat **verollisia** (K-kuittaukset, sis. ALV)
+- **Suoritukset**: summat ovat **verollisia** (K-kuittaukset, sis. ALV) Johtuu siitä, että maksusuorituksissa on vero mukana.
 
 Tilauskohtaisissa riveissä näytetään erikseen sekä laskun veroton että verollinen summa.
 
@@ -131,7 +136,7 @@ Sarakkeiden arvot voivat poiketa toisistaan, koska ne haetaan eri tietolähteist
 Siirtovelkaraportti näyttää aina sekä verollisen että verottoman tuloutetun myynnin. Muiden sarakkeiden (IB, EB, Tilausmaksut) verollisuus riippuu hakuehdosta:
 
 - **Laskut**: IB/EB/Tilausmaksut ovat **verottomia**
-- **Suoritukset**: IB/EB/Tilausmaksut ovat **verollisia**
+- **Suoritukset**: IB/EB/Tilausmaksut ovat **verollisia** Johtuu siitä, että maksusuorituksissa on vero mukana.
 
 ## Eroavaisuudet Kirjanpitoyhteenvetoon ja Laskupäiväkirjaan
 
