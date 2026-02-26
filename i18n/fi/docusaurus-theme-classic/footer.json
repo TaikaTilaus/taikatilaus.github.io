@@ -38,5 +38,17 @@
   "copyright": {
     "message": "<div>Copyright © 2025 <a href='https://www.taikatilaus.fi' class='footer__link-item'>TaikaTilaus Oy</a>.</div>",
     "description": "The footer copyright"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date}",
+    "description": "The words used to describe at which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " päivittäjä {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Viimeksi päivitetty{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
   }
 }
