@@ -46,13 +46,13 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.6.-30.6.2025 välisenä aikana.
 *Kun palautus on tehty, kuitataan se tehdyksi [Maksun palautukset](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo#maksun-palautukset) -raportilta.*
 
 ## Tilaustuotteet
-* Hinnaston aktivoitumispäivä ja uusi hinta -kentät mahdollistavat hintojen **[syöttämisen ennakkoon](https://support.taikatilaus.fi/docs/ohjeet/asetukset#lomakkeeseen-lis%C3%A4tt%C3%A4v%C3%A4t-tiedot)**
+* Hinnaston aktivoitumispäivä ja uusi hinta -kentät mahdollistavat hintojen **[syöttämisen ennakkoon](/docs/ohjeet/asetukset/tilaustuotteet#lomakkeeseen-lis%C3%A4tt%C3%A4v%C3%A4t-tiedot)**
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen8.png)
 *Löydät toiminnon Asetukset/Tilaustuotteet asetuksista.*
 
 ## Vakioniput
-* Vakionippujen päivitys mahdollista **[Excel-tuonnin/viennin](https://support.taikatilaus.fi/docs/ohjeet/asetukset#nippujen-p%C3%A4ivitys)** kautta
+* Vakionippujen päivitys mahdollista **[Excel-tuonnin/viennin](/docs/ohjeet/asetukset/varhaisjakelu#nippujen-p%C3%A4ivitys)** kautta
 
 ![Varhaisjakelu](/img/versiotiedotteet/vakionippu.png)
 

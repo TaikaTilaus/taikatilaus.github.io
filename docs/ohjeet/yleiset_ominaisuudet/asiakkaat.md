@@ -138,7 +138,7 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 ### Ryhmittely
 
-**Ryhmittely**-osiossa voidaan asiakkaalle aktivoida <a href="/docs/asetukset#muut-asetukset">asetuksista määritellyistä valikoista</a> mm.
+**Ryhmittely**-osiossa voidaan asiakkaalle aktivoida <a href="/docs/ohjeet/asetukset/muut_asetukset">asetuksista määritellyistä valikoista</a> mm.
 - **Asiakasroolit**, jonka avulla voi tehdä hakuja ja hyödyntää mm. kohdennetussa viestinnässä
 - **Asiakasryhmät**, jota voi hyödyntää esim. asiakkaiden segmentoinnissa
 - **Vapaa ryhmittely**, johon voi kirjoittaa mitä tahansa tekstiä ja hyödyntää sitä mm. hauissa

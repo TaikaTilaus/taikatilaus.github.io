@@ -206,7 +206,7 @@ Lisättyjä aineistoja voi poistaa aktivoimalla **Näytä tiedostojen poistamine
 - **Lisää ilmoitusvaraus** –painikkeella lisätään uusi mainos-/ilmoitusvaraus.  
 - **Lisää ilmoituspaketti** –painikkeella lisätään uusi ilmoituspaketin varaus.
 
-<a href="/docs/asetukset#paketit">Asetuksissa voidaan luoda myyntituotteista valmiita paketteja</a>. Paketin lisääminen kerää automaattisesti siihen kuuluvat myyntituotteet saman myynnin alle. Yksittäisten tuotteiden oletushintoja **ei huomioida laskua luotaessa**.
+<a href="/docs/ohjeet/asetukset/paketit">Asetuksissa voidaan luoda myyntituotteista valmiita paketteja</a>. Paketin lisääminen kerää automaattisesti siihen kuuluvat myyntituotteet saman myynnin alle. Yksittäisten tuotteiden oletushintoja **ei huomioida laskua luotaessa**.
 
 ![Ilmoitusasiakas - Myynti](/img/ohjeet/myynnit.png)
 *Myynnit-välilehdeltä voit lisätä ilmoitusvarauksia ja hallita myyntejä.*
@@ -307,7 +307,7 @@ Ilmoitusvarauksen **numeroa klikkaamalla** pääsee yksittäisen varauksen tieto
 
 *Myyntipaketti lisätään asiakkaalle **Myynnit**-välilehdeltä.*
 
-Myytävät ilmoituspaketit luodaan etukäteen <a href="/docs/ohjeet/asetukset#paketit">**Asetukset → Paketit** -toiminnon</a> kautta.
+Myytävät ilmoituspaketit luodaan etukäteen <a href="/docs/ohjeet/asetukset/paketit">**Asetukset → Paketit** -toiminnon</a> kautta.
 
 Myyntipaketin lisääminen alkaa painamalla **Lisää ilmoituspaketti** -painiketta.
 

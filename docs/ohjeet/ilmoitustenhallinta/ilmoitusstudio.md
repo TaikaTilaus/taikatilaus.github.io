@@ -30,7 +30,7 @@ Voit hakea IlmoitusStudiosta järjestelmässä olevia ilmoitusvarauksia. Asettam
 
 Pudotusvalikoilla voit hakea esimerkiksi tietyn lehden tietyn julkaisun ilmoitusvarauksia.
 
-- **Myyjä**-valikosta voit valita yhden tai useamman myyjän, joiden myyntejä haluat tarkastella. Ilmoitusten myyjät asetetaan [**Käyttäjät**](https://support.taikatilaus.fi/docs/ohjeet/asetukset#k%C3%A4ytt%C3%A4j%C3%A4t)-asetuksista.
+- **Myyjä**-valikosta voit valita yhden tai useamman myyjän, joiden myyntejä haluat tarkastella. Ilmoitusten myyjät asetetaan [**Käyttäjät**](/docs/ohjeet/asetukset/kayttajat)-asetuksista.
 
 ![IlmoitusStudio](/img/ohjeet/ilmoitusstudio-myyja.png)
 
@@ -38,7 +38,7 @@ Pudotusvalikoilla voit hakea esimerkiksi tietyn lehden tietyn julkaisun ilmoitus
 
 ![IlmoitusStudio](/img/ohjeet/ilmoitusstudio-tila.png)
 
-- **Kanava**-valikosta voit valita yhden tai useamman kanavan, joiden ilmoitusvarauksia haet. Kanava on se julkaisukanava, jossa ilmoitus julkaistaan. Kanavia voivat olla lehti, uutiskirje, radioasema, nettisivu jne. Kanavat määritellään [asetuksissa](https://support.taikatilaus.fi/docs/ohjeet/asetukset#kanavat).
+- **Kanava**-valikosta voit valita yhden tai useamman kanavan, joiden ilmoitusvarauksia haet. Kanava on se julkaisukanava, jossa ilmoitus julkaistaan. Kanavia voivat olla lehti, uutiskirje, radioasema, nettisivu jne. Kanavat määritellään [asetuksissa](/docs/ohjeet/asetukset/kanavat).
 
 ![IlmoitusStudio](/img/ohjeet/ilmoitusstudio-kanava.png)
 

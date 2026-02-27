@@ -321,7 +321,7 @@ Halutessaan käyttäjä voi lisätä muutokseen **lisätietoja** ennen tallennus
 
 ### Omat toiminnot
 
-**Omat toiminnot** –välilehdellä yritys voi luoda omia sisältöjä **HTML-muodossa** <a href="/docs/ohjeet/asetukset#toiminnot">asetusten kautta</a>.  
+**Omat toiminnot** –välilehdellä yritys voi luoda omia sisältöjä **HTML-muodossa** <a href="/docs/ohjeet/asetukset/omapalvelu#toiminnot">asetusten kautta</a>.  
 
 *Esimerkkinä HTML:llä tehty kaavio.*
 

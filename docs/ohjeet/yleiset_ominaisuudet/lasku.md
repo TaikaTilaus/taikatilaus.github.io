@@ -542,7 +542,7 @@ Näin alkuperäinen lasku jää voimaan, ja hyvityslasku poistuu listaukselta. T
 
 #### Muistutuslaskujen tekstitykset
 
-Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään **[Asetukset / Laskutekstit](/docs/ohjeet/asetukset#laskutekstit)** -näkymässä.
+Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään **[Asetukset / Laskutekstit](/docs/ohjeet/asetukset/laskutekstit)** -näkymässä.
 
 #### Ennen muistutuslaskujen luontia
 

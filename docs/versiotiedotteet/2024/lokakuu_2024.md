@@ -35,6 +35,6 @@ Uutena ominaisuutena valittujen tuotteiden hinnat voi näyttää tilauslomakkeel
 
 Näiden välilehtien toiminnallisuuksia päivitetään vielä.
 
-[Ohjeet tilauslomakkeen asetuksiin löydät täältä](/docs/ohjeet/asetukset#tilauslomake).
+[Ohjeet tilauslomakkeen asetuksiin löydät täältä](/docs/ohjeet/asetukset/tilauslomake).
 
 

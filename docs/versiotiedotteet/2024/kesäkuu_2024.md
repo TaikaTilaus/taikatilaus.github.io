@@ -34,7 +34,7 @@ Rivi-ilmoituksen ilmoitusvaraus ja PDF siirtyvät integraatioissa lehden taittot
 
 ## Asiakaskohtainen perintäkielto
 
-Ohjelmaan on lisätty uusi toiminto, jolla perintäkielto voidaan määritellä asiakaskohtaisesti, ei vain laskukohtaisesti. Toiminnon saa näkyviin [Pääkäyttäjän asetuksista](https://support.taikatilaus.fi/docs/ohjeet/asetukset#lomakkeen-alkup%C3%A4%C3%A4n-toiminnot) ja sen saa voimaan tietylle asiakkaalle [asiakaskortin laskutustiedoista](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#laskutustiedot).
+Ohjelmaan on lisätty uusi toiminto, jolla perintäkielto voidaan määritellä asiakaskohtaisesti, ei vain laskukohtaisesti. Toiminnon saa näkyviin [Pääkäyttäjän asetuksista](/docs/ohjeet/asetukset/paakayttaja#v%C3%A4lilehden-alkup%C3%A4%C3%A4n-toiminnot) ja sen saa voimaan tietylle asiakkaalle [asiakaskortin laskutustiedoista](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#laskutustiedot).
 
 ![Perintökielto](/img/versiotiedotteet/perintakielto-kontakti.png)
 
