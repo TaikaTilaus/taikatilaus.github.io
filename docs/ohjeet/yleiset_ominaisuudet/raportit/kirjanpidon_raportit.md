@@ -128,6 +128,26 @@ Raportin lopussa summataan **tilien debet- ja kredit-puolet**.
 
 ![Raportit](/img/ohjeet/laskujen-tilioinnit2.png)
 
+### ALV myynnit maittain
+
+**ALV myynnit maittain** -raportilla haetaan annetulta aikaväliltä laskujen tuoterivit ja ryhmitellään ne **toimitusmaan** mukaan kolmeen ryhmään: **Suomi**, **EU** ja **Muu maailma**. Raportti on tarkoitettu ALV-raportointia varten, ja sillä voidaan tarkastella myyntien jakautumista eri maihin.
+
+Raportin määrityksistä voidaan valita:
+
+- **Aikaväli** (oletuksena kuluva kalenterivuosi)
+- **Tuoteryhmä ja tuote** – rajaa raportti tiettyihin tuoteryhmiin tai yksittäisiin tuotteisiin
+- **Toimitusmaan maakoodi** – rajaa raportti tiettyihin toimitusmaihin (tyhjä maa sekä FI ja Suomi käsitellään Suomeksi)
+- **Raportin tarkkuus**:
+  - **Erittely** – näyttää jokaisen laskun tuoterivin erikseen, sisältäen laskun numeron, päivämäärän, tuotetiedot, veroton summa, ALV-%, verollinen summa, ALV-osuus, tilinumerot, asiakastiedot, tilausnumeron sekä tilauksen alku- ja loppupäivän
+  - **Yhteenveto** – näyttää summat ryhmiteltyinä maaryhmän (Suomi / EU / Muu maailma) ja maan mukaan
+- **Asiakastyyppi**:
+  - **Kaikki** – kaikki asiakkaat
+  - **Henkilöasiakkaat** – asiakkaat, joilla ei ole VAT- tai Y-tunnusta
+  - **Yritysasiakkaat** – asiakkaat, joilla on VAT- tai Y-tunnus
+- **Tulostusmuoto** (Näytölle, Excel, PDF)
+
+Raportin lopussa esitetään **yhteensä-rivi**, jossa näkyy kaikkien rivien summat.
+
 ### Luottotappiot
 
 **Luottotappiot**-raportille haetaan laskut, jotka on kirjattu **luottotappioiksi**. Luottotappio tarkoittaa myyjälle syntyvää tappiota, joka syntyy silloin, kun laskun saaja **ei kykene maksamaan laskuaan**.
