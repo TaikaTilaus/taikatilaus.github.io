@@ -216,7 +216,8 @@ Lomakkeeseen lisätään:
 
 **Jakelun keskeytys** -osion kautta lisätään mahdollinen aikaväli, jolloin tilauksen jakeluun halutaan tilapäinen keskeytys
 - Aikarajoitus huomioidaan jakelussa **automaattisesti** annetun aikarajan mukaisesti
-- **Jatka voimassa olevia tilauksia** -linkistä jatketaan kaikkien aktiivisten tilauksien päättymispäivää keskeytyksen keston verran ajan eteenpäin
+- **Jatka voimassa olevia tilauksia** -painikkeesta jatketaan kaikkien aktiivisten tilauksien päättymispäivää keskeytyksen keston verran ajan eteenpäin. **HUOM!** Painike tulee näkyviin, kun olet tallentanut keskeytyksen aikavälin. 
+- **Keskeytyksestä viesti seuraavalle laskulle** -kenttään voidaan kirjoittaa huomautus keskeytyksestä, joka menee asiakkaan seuraavalle laskulle. 
 
 ![Asiakaskortti - Jakelun keskeytys](/img/ohjeet/keskeytys.png)
 *Asiakkaan tilauksien jakelun voi keskeyttää valituksi määräajaksi*
