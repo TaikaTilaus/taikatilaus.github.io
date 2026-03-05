@@ -22,8 +22,9 @@ Toimintoa käytetään, kun asiakkaalle on lähetetty maksamattomasta tilauksest
 
 ### 4. Tarkista tiedot ja tarvittaessa luo loppulasku painamalla Luo lasku toimitetuista tuotteista -kohdasta
 
-Valitse hyvitettävät laskut: valitse asiakkaalle mennyt alkuperäinen lasku. Valitsemalla laskun, se hyvitetään.
-Luo lasku toimitetuista lehdistä: tämän valitsemalla toiminto luo asiakkaalle loppulaskun. 
+**Valitse hyvitettävät laskut:** valitse asiakkaalle mennyt alkuperäinen lasku. Valitsemalla laskun, se hyvitetään.
+
+**Luo lasku toimitetuista lehdistä:** tämän valitsemalla toiminto luo asiakkaalle loppulaskun. 
 
 ![4. Tilauksen katkaisutoimet](/img/pikaohjeet/Katkaisukasittely4.png)
 
