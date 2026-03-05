@@ -16,9 +16,14 @@ Toimintoa käytetään, kun asiakkaalle on lähetetty maksamattomasta tilauksest
 
 ### 3. Tilauksen tiedoista painetaan Maksamattoman tilauksen katkaisu -painiketta
 
+**HUOM!** Jos haluat, että tilauksen loppupäivä on eri kuin kuluva päivä, aseta se ennen painikkeen painamista.
+
 ![3. Tilauksen tiedot](/img/pikaohjeet/Katkaisukasittely3.png)
 
-### 4. Tarkista tiedot ja tarvittaessa luo lasku painamalla Luo lasku toimitetuista tuotteista -kohdasta
+### 4. Tarkista tiedot ja tarvittaessa luo loppulasku painamalla Luo lasku toimitetuista tuotteista -kohdasta
+
+Valitse hyvitettävät laskut: valitse asiakkaalle mennyt alkuperäinen lasku. Valitsemalla laskun, se hyvitetään.
+Luo lasku toimitetuista lehdistä: tämän valitsemalla toiminto luo asiakkaalle loppulaskun. 
 
 ![4. Tilauksen katkaisutoimet](/img/pikaohjeet/Katkaisukasittely4.png)
 
@@ -28,9 +33,11 @@ Toimintoa käytetään, kun asiakkaalle on lähetetty maksamattomasta tilauksest
 
 ### 6. Lopuksi paina Suorita katkaisun käsittelytoimet -painiketta
 
+Tämä katkaisee tilauksen, hyvittää valitut laskut ja luo loppulaskun.
+
 ![5. Tilauksen katkaisutoimet](/img/pikaohjeet/Katkaisukasittely5.png)
 
-### 7. Muuta tilauksen loppupäivä vastaamaan katkaisupäivää
+### 7. Jos asiakkaalla on useampi voimassa oleva tilaus, muuta tilauksen loppupäivä vastaamaan katkaisupäivää
 
 Tällöin vältytään tilanteelta, jossa Kestojatkon ajossa toinen voimassaoleva tilaus ei uusiutuisikaan. 
 
