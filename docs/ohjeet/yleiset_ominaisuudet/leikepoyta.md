@@ -51,10 +51,9 @@ Kaikki leikepöydän tiedot molemmilta välilehdiltä voi tyhjentää kerralla p
 
 **Leikepöytä**-näkymässä voidaan käsitellä listaukselle lisättyjä tietoja, lähettää valituille asiakkaille viestejä sekä tulostaa tiedot Excel-taulukkoon. Jatkotoimintojen painikkeet tulevat näkyviin vasta, kun vähintään yksi asiakas on valittuna **Valittujen listalla**.
 
-- **Lähetä sähköposti / Lähetä tekstiviesti** – lähetetään viesti leikepöydällä oleville asiakkaille  
+- **Lähetä sähköposti** – lähetetään viesti leikepöydällä oleville asiakkaille  
 - **Luo Excel** – tulostaa leikepöydällä olevat tiedot taulukkoon  
 - **Luo osoitetarrat** – tulostaa leikepöydällä olevien asiakkaiden tiedot tarrapohjaan  
-- **Lähetä kirje** – lähettää tulostettavan kirjeen leikepöydällä oleville asiakkaille  
 
 ![Leikepöytä](/img/ohjeet/leikepyota6.png)
 
@@ -76,20 +75,6 @@ Ennen varsinaista lähetystä viestin voi lähettää **testilähetyksenä omaan
 
 ![Leikepöytä - Sähköpostin lähetys](/img/ohjeet/leikepoyta-email.png)
 *Esimerkki sähköpostista.*
-
-### Tekstiviestien lähetys
-
-**Leikepöydän Tekstiviestien lähetys** -näkymässä voidaan lähettää tekstiviestejä valituille asiakkaille.
-
-Leikepöydältä valituille asiakkaille voi lähettää viestejä:
-
-- Lisäämällä **lähettäjän nimen** (max. 11 merkkiä, ilman välilyöntejä) tai **matkapuhelinnumeron** (max. 16 merkkiä)  
-- Kirjoittamalla **viestin sisällön** (max. 160 merkkiä) — käytettävissä olevien merkkien määrä näkyy alla olevassa laskurissa
-
-Viestien max. lähetysmäärää hallinnoidaan **Asetukset**-välilehdellä.
-
-![Leikepöytä - sms](/img/ohjeet/leikepoyta-sms.png)
-*Esimerkki tekstiviestistä.*
 
 ### Osoitetarrojen luonti
 
