@@ -2,25 +2,17 @@
 sidebar_position: 11
 ---
 
-# Koontilaskun muokkaus lähetyksen jälkeen
+# Laskun muokkaus lähetyksen jälkeen
 
-Koontilaskuja voidaan joutua muokkamaan, esim. tapauksessa, jossa yksi tilaus koontilaskulta halutaan peruuttaa. 
+Laskua voidaan joutua muokkaamaan, esim. tapauksissa, jossa on lähetetty virheellinen maksumuistutus.
 
-**HUOM! TÄMÄ OHJE EI KOSKE KOONTILASKUJA, JOTKA ON MAKSETTU.**
+**HUOM! TÄMÄ OHJE EI KOSKE LASKUJA, JOTKA ON MAKSETTU.**
 
-### 1. Haetaan asiakas tai tilaus
+### 1. Haetaan asiakas tai lasku
 
 ![1. Laskut-välilehti](/img/pikaohjeet/koonti.png)
 
-### 2. Valitse peruutettu tilaus
-
-![2. Laskut-välilehti](/img/pikaohjeet/koonti2.png)
-
-### 3. Katkaise tilaus 
-
-![3. Laskujen uudelleenlähetys](/img/pikaohjeet/koonti3.png)
-
-### 4. Siirrytään koontilaskulle
+### 4. Siirrytään laskulle
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti4.png)
 
@@ -28,15 +20,19 @@ Koontilaskuja voidaan joutua muokkamaan, esim. tapauksessa, jossa yksi tilaus ko
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti5.png)
 
-### 6. Ohjelma siirtää sinut automaattisesti kopioidulle laskulle. Poista peruutetun tilauksen tuoterivi.
+### 6. Ohjelma siirtää sinut automaattisesti kopioidulle laskulle. Poista halutut tuoterivit.
 
-![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti6.png)
+Voit myös avata tuoterivin ja päivittää tuotteen hinnan, jos alkuperäisen laskun virheenä oli esim. puuttuva alennusprosentti. 
+
+![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/laskun-muokkaus.png)
 
 ### 7. Avaa laskun tiedot Kynä-ikonista.
 
-![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti7.png)
+![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/laskun-muokkaus2.png)
 
 ### 8. Aktivoi Lähetys sallittu -kenttä. Aseta Laskun saa lähettää päivämäärä. Tallenna.
+
+**Saa lähettää** -kentän aktivointi ja päivämäärän asetus tarkoittaa, että lasku lähtee automaattisessa laskutusajossa asetettuna päivämääränä, jos lehdellänne on se päällä. Jos lähetätte laskut manuaalisesti, siirry **Laskujen lähetys** -välilehdelle. 
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti8.png)
 
@@ -44,7 +40,7 @@ Koontilaskuja voidaan joutua muokkamaan, esim. tapauksessa, jossa yksi tilaus ko
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti9.png)
 
-### 10. Valitaan alkuperäinen koontilasku. 
+### 10. Valitaan alkuperäinen lasku. 
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti10.png)
 
