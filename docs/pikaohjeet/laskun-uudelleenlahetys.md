@@ -8,7 +8,7 @@ sidebar_position: 11
 
 ![1. Laskut-välilehti](/img/pikaohjeet/Laskun_uudelleenlahetys1.png)
 
-**HUOM!** Jos maksajan tiedot ovat muuttuneet, päivitä ne laskulle ennen uudelleenlähettämistä!
+**HUOM!** Jos maksajan tiedot ovat muuttuneet, avaa lasku, paina laskulla **Kynä**-ikonia ja päivitä ne maksajan tietohin ennen uudelleenlähettämistä! Muista tallentaa!
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/päivitä.png)
 
