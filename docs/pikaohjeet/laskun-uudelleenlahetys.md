@@ -8,6 +8,10 @@ sidebar_position: 11
 
 ![1. Laskut-välilehti](/img/pikaohjeet/Laskun_uudelleenlahetys1.png)
 
+**HUOM!** Jos maksajan tiedot ovat muuttuneet, päivitä ne laskulle ennen uudelleenlähettämistä!
+
+![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/päivitä.png)
+
 ### 2. Valitse haluamasi lasku ja paina Uudelleenlähetä -painiketta
 
 ![2. Laskut-välilehti](/img/pikaohjeet/Laskun_uudelleenlahetys2.png)
@@ -48,6 +52,6 @@ sidebar_position: 11
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/uudelleen6.png)
 
-### 10. Voit katsoa lähetetty laskua Luodut ainestot -välilehdeltä
+### 10. Voit katsoa lähetettyä laskua Luodut ainestot -välilehdeltä
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/uudelleen7.png)

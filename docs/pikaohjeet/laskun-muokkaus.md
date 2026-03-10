@@ -36,6 +36,10 @@ Voit myös avata tuoterivin ja päivittää tuotteen hinnan, jos alkuperäisen l
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti8.png)
 
+**HUOM!** Jos maksajan tiedot ovat muuttuneet, päivitä ne samalla, ennen tallentamista!
+
+![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/päivitä.png)
+
 ### 9. Mennään maksajan tietoihin. 
 
 ![3. Laskujen uudelleenlähetys - Muuta laskujen tietoja](/img/pikaohjeet/koonti9.png)
