@@ -62,9 +62,11 @@ Voit muuttaa seuraavia tietoja:
 - yrityksen verkkolaskuosoite
 - yrityksen OVT-tunnus
 - yrityksen välittäjätunnus
-- laskutusviite tai sopimusnumero
+- laskutusviite tai sopimusnumero (kiertokoodi tai ostajaviite)
 
 Lisäksi voit aktivoida **Suoramaksu**-kentän, jolloin laskusta muodostuu suoramaksulasku.
+
+Vastaanottajan kiertokoodi tai ostajaviite lisätään kenttään "Laskutusviite tai sopimusnumero". Kenttä näkyy verkkolaskulla Finvoice 3.0 -kentässä `Finvoice/InvoiceDetails/BuyerReferenceIdentifier`
 
 **Hae maksajaa** -painikkeesta voit siirtää laskun toiselle asiakkaalle.
 Maksajalla tulee olla olemassa oleva asiakaskortti.
