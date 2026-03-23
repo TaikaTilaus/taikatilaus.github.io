@@ -19,7 +19,7 @@ Asiakasrekisterin kontaktien vienti- ja tuontitoiminto mahdollistaa massapäivit
 
 Hallinta-valikon Tuplien käsittely -toiminnolla voit yhdistää asiakaskortteja, jotka ovat duplikaatteja. Tämä toiminto on tarkoitettu pääkäyttäjille ja perustuu tuplien tehokkaaseen massakäsittelyyn Excelissä.
 
-[Ohjeet tuplien käsittelyyn löydät täältä](/docs/ohjeet/yleiset_ominaisuudet/hallinta#tuplien-käsitttely).
+[Ohjeet tuplien käsittelyyn löydät täältä](/docs/ohjeet/yleiset_ominaisuudet/hallinta#tuplien-käsittely).
 
 ![Tuplien käsittely](/img/ohjeet/tuplat.png)
 

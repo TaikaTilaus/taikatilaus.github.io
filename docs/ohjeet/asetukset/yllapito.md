@@ -1,12 +1,12 @@
 ﻿---
-sidebar_position: 14
+sidebar_position: 8
 ---
 
-# Pääkäyttäjä
+# Ylläpito
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja.png)
+![Ylläpito](/img/ohjeet/paakayttaja.png)
 
-**Pääkäyttäjä**-välilehden tietoja voivat muokata vain palvelun **pääkäyttäjiksi nimetyt käyttäjät**. 
+**Ylläpito**-välilehden tietoja voivat muokata vain palvelun **pääkäyttäjiksi nimetyt käyttäjät**. 
 
 Välilehdeltä voi muokata mm.:
 
@@ -24,7 +24,7 @@ Voit myös lähettää tiedostoja ylläpitäjälle, esimerkiksi asiakastietojen 
 
 ### Laskun muodostamistiedot
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja13.png)
+![Ylläpito](/img/ohjeet/paakayttaja13.png)
 
 Painamalla **Laskun muodostamistiedot** -kohdan vieressä olevaa **NÄYTÄ**-painiketta avautuu uusi välilehti, jossa näet laskutustiedot eri tuotteille.  
 
@@ -37,7 +37,7 @@ Välilehdeltä näet mm.:
 Laskun muodostamistietoja voidaan muokata **vain TaikaTilauksen puolelta**.  
 Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja3.png)
+![Ylläpito](/img/ohjeet/paakayttaja3.png)
 *Laskujen muodostamistiedot -näkymä.*
 
 ### Välilehden alkupään toiminnot
@@ -51,7 +51,7 @@ Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 - **Laske laskun summat 5:llä desimaalilla** -kentän aktivoidessa laskujen summat lasketaan viiden desimaalin tarkkuudella yksikköhinnasta.  
 - **OmaPalvelu-osio näkyvissä kontaktikortilla** -kentän aktivoidessa *OmaPalvelu*-alivalikko näytetään asiakaskortilla.  
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja2.png)
+![Ylläpito](/img/ohjeet/paakayttaja2.png)
 
 - **Ei laskutuslisää -kenttä käytössä** -kentän aktivoidessa asiakaskortille tulee näkyviin *Ei laskutuslisää* -kenttä.
 - **Uusi tilaus -kenttä käytössä** -kentän aktivoidessa *Tilaus*-näytölle ilmestyy *Uusi tilaus* -kenttä.
@@ -65,7 +65,7 @@ Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 - **Osissa maksettaviin tilauksiin jaksotieto päivinä** -kentän aktivoidessa osissa maksettavien tilausten laskuille lisätään laskutusjakso päivinä, esim. 1.1.2025–31.1.2025.
 - **Tilausjakson hyvitysviesti käytössä** – kentän aktivoidessa tilaukselle tulee näkyviin *Hyvitä tilausjaksoa* -painike, jonka avulla voi siirtää tilauksen loppupäivää ja lisätä seuraavalle laskulle tekstin, jossa kerrotaan hyvityksestä.
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja4.png)
+![Ylläpito](/img/ohjeet/paakayttaja4.png)
 
 ### Saldoasetukset
 
@@ -88,31 +88,31 @@ Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilau
 - **Värillisyys käytössä** – kentän aktivoidessa ilmoitusvarauslomakkeella voidaan valita ilmoituksen väriksi mustavalkoinen tai värillinen.  
 - **Piilota Palstoja, Korkeus ja Ilmoitusosasto** – kentän aktivoidessa ilmoitusvarauslomakkeelta piilotetaan *Palstoja*, *Korkeus* ja *Ilmoitusosasto* -kentät.
 
-![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja.png)
-*Pääkäyttäjä voi muokata ilmoitusvarauslomakkeen kenttien näkyvyyttä Pääkäyttäjä-välilehdeltä.*
+![Ylläpito](/img/ohjeet/ilmoitusvaraus-paakayttaja.png)
+*Pääkäyttäjä voi muokata ilmoitusvarauslomakkeen kenttien näkyvyyttä Ylläpito-välilehdeltä.*
 
 - **Aineisto on valmis ilmoitukseksi -valinta oletuksena päällä** – kentän aktivoidessa ilmoitusvaraukseen aineistoa lisättäessä *Aineisto on valmis ilmoitukseksi* -kenttä on oletuksena päällä.  
 - **Näytä myyjään liitetty laskutustieto** – näyttää, millä tiedoilla ilmoitusvarauksen lasku luodaan.  
 - **Laskutetaan omanaan -ruksi** – kentän aktivoidessa pelkistetylle ilmoitusvarauslomakkeelle tulee näkyviin *Laskutetaan omanaan* -valinta.  
 - **Ilmoitus on valmis -ruksi** – kentän aktivoidessa pelkistetylle ilmoitusvarauslomakkeelle tulee näkyviin *Ilmoitus on valmis* -valinta.  
 
-![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja2.png)
+![Ylläpito](/img/ohjeet/ilmoitusvaraus-paakayttaja2.png)
 
 - **YT-hinta käytössä** – kentän aktivoidessa voidaan tuotteelle määritellä yhteistyöhinta, jota käytetään sisäisessä laskutuksessa.  
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja5.png)
+![Ylläpito](/img/ohjeet/paakayttaja5.png)
 
 - **AdWizard käytössä** – kenttä aktivoidaan, jos ilmoitusvarauksia käsitellään Mediaboxin InDesign Scoop -lisäosalla.  
 - **Laskutus kuun viim. kalenteripäivänä -valinta** – kentän aktivoidessa ilmoitusvarauslomakkeelle tulee kyseinen valinta laskutustavaksi.  
 
-![Pääkäyttäjä](/img/ohjeet/ilmoitusvaraus-paakayttaja3.png)
+![Ylläpito](/img/ohjeet/ilmoitusvaraus-paakayttaja3.png)
 
 - **Raportoinnissa Reskontraluettelo 2 käytössä** – <!-- ??? -->  
 - **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** – <!-- ??? -->  
 - **Valmistuslisän TuoteID** – kenttään syötetään ilmoitusvarauksen valmistuslisän tuotenumero.  
 - **Käyttäjätunnukset, joilla oikeus myyntikiellon käsittelyyn** – kenttään syötetään niiden käyttäjien tunnukset, joilla on oikeus ilmoitusasiakkaan myyntikiellon käsittelyyn.  
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja6.png)
+![Ylläpito](/img/ohjeet/paakayttaja6.png)
 
 ### Osoitekentät
 
@@ -122,11 +122,11 @@ Osoitekenttiin voidaan syöttää:
 - **Asiakkaan oman www-sivuston TaikaTilaus-sisäänkirjauksen vastaanotto** – URL-osoite, jonne voidaan lähettää TaikaTilaus-ohjelman sisäänkirjautumistiedot.  
 - **Asiakkaan oman www-sivuston Palvelut-lomakkeen paluun vastaanotto** – URL-osoite, jonne käyttäjä ohjataan Palvelut-lomakkeelta esimerkiksi tilaamisen jälkeen.  
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja7.png)
+![Ylläpito](/img/ohjeet/paakayttaja7.png)
 
 ### Välilehden loppupään toiminnot
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja8.png)
+![Ylläpito](/img/ohjeet/paakayttaja8.png)
 
 **Ylläpidon raportit**
 
@@ -134,7 +134,7 @@ Osoitekenttiin voidaan syöttää:
 - Raportin luominen suuresta asiakasrekisteristä voi kestää jonkin aikaa — haku kestää noin 1000 kontaktia / 1 minuutti.  
 - Kun raportti on luotu, ilmestyy linkki, josta sen voi ladata.  
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja9.png)
+![Ylläpito](/img/ohjeet/paakayttaja9.png)
 
 **Pääkäyttäjätoiminnot**  
 - Testaa WordPress-salasanan tarkistamista <!-- Tarkennus tarvitaan: mitä toiminto tekee käytännössä. -->
@@ -142,16 +142,16 @@ Osoitekenttiin voidaan syöttää:
 **Muuta tiliöinnin tiliä**  
 - Painikkeesta painamalla avautuvat alla olevan kuvan mukaiset kentät, joista voi muuttaa yksittäisten tiliöintien tiliä.  
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja10.png)
+![Ylläpito](/img/ohjeet/paakayttaja10.png)
 
 **Lataa tiedosto TaikaTilaukselta**  
 - Painikkeen kautta voit ladata TaikaTilauksen toimittamia tiedostoja. 
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja11.png)
+![Ylläpito](/img/ohjeet/paakayttaja11.png)
 
 **Toimita tiedosto TaikaTilaukselle**  
 - Painikkeen kautta voit lähettää tiedostoja TaikaTilaukselle (esimerkiksi suuria muutoksia asiakasrekisterissä).  
 - Ilmoita tiedoston lähettämisestä osoitteeseen **tuki@taikatilaus.fi**.  
 
-![Pääkäyttäjä](/img/ohjeet/paakayttaja12.png)
+![Ylläpito](/img/ohjeet/paakayttaja12.png)
 

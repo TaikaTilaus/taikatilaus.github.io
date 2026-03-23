@@ -22,20 +22,46 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 
 ## Asetusten osa-alueet
 
-* [Tilaustuotteet](/docs/ohjeet/asetukset/tilaustuotteet)
-* [Tilauspaketit](/docs/ohjeet/asetukset/tilauspaketit)
-* [Erillistuotteet](/docs/ohjeet/asetukset/erillistuotteet)
-* [Tilit](/docs/ohjeet/asetukset/tilit)
-* [Laskutekstit](/docs/ohjeet/asetukset/laskutekstit)
-* [Viestipohjat](/docs/ohjeet/asetukset/viestipohjat)
-* [Kanavat](/docs/ohjeet/asetukset/kanavat)
-* [Myyntituotteet](/docs/ohjeet/asetukset/myyntituotteet)
-* [Paketit](/docs/ohjeet/asetukset/paketit)
-* [Julkaisut](/docs/ohjeet/asetukset/julkaisut)
-* [Irtonumerot](/docs/ohjeet/asetukset/irtonumerot)
-* [Muut asetukset](/docs/ohjeet/asetukset/muut_asetukset)
-* [Pääkäyttäjä](/docs/ohjeet/asetukset/paakayttaja)
-* [Käyttäjät](/docs/ohjeet/asetukset/kayttajat)
-* [OmaPalvelu](/docs/ohjeet/asetukset/omapalvelu)
-* [Tilauslomake](/docs/ohjeet/asetukset/tilauslomake)
-* [Varhaisjakelu](/docs/ohjeet/asetukset/varhaisjakelu)
+### Tuotteet & julkaisut
+
+* [Tilaustuotteet](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/tilaustuotteet)
+* [Erillistuotteet](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/erillistuotteet)
+* [Myyntituotteet](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/myyntituotteet)
+* [Julkaisut](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/julkaisut)
+* [Kanavat](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/kanavat)
+* [Tilauspaketit](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/tilauspaketit)
+* [Myyntipaketit](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/myyntipaketit)
+
+### Asiakastiedot
+
+* [Asiakastiedot](/docs/ohjeet/asetukset/asiakastiedot)
+
+### Laskut
+
+* [Tilit](/docs/ohjeet/asetukset/laskut/tilit)
+* [Laskutekstit](/docs/ohjeet/asetukset/laskut/laskutekstit)
+
+### Postitus
+
+* [Postitus](/docs/ohjeet/asetukset/postitus)
+* [Varhaisjakelu](/docs/ohjeet/asetukset/postitus/varhaisjakelu)
+* [Vakioniput](/docs/ohjeet/asetukset/postitus/vakioniput)
+* [Varhaisjakelun reitit](/docs/ohjeet/asetukset/postitus/varhaisjakelun-reitit)
+* [Peittojakelu](/docs/ohjeet/asetukset/postitus/peittojakelu)
+* [Lehdetön peittojakelu](/docs/ohjeet/asetukset/postitus/lehdeton-peittojakelu)
+* [Yhdistettävät niput](/docs/ohjeet/asetukset/postitus/yhdistettavat-niput)
+* [Irtonumerot](/docs/ohjeet/asetukset/postitus/irtonumerot)
+
+### Asiointikanavat
+
+* [Tilauslomake](/docs/ohjeet/asetukset/asiointikanavat/tilauslomake)
+* [OmaPalvelu](/docs/ohjeet/asetukset/asiointikanavat/omapalvelu)
+* [Viestipohjat](/docs/ohjeet/asetukset/asiointikanavat/viestipohjat)
+
+### Käyttäjätilit
+
+* [Käyttäjätilit](/docs/ohjeet/asetukset/kayttajatilit)
+
+### Ylläpito
+
+* [Ylläpito](/docs/ohjeet/asetukset/yllapito)

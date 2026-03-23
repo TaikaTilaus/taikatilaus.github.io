@@ -54,34 +54,15 @@ Raporttiohjeet on jaettu selkeisiin alakategorioihin. Aloita yleiskatsauksesta j
 - [Jaksotusraportit (syventävä ohje)](/docs/ohjeet/yleiset_ominaisuudet/jaksotusraportit)
 - [Ilmoitusmyynnin raportit](/docs/ohjeet/yleiset_ominaisuudet/raportit/ilmoitusmyynnin_raportit)
 - [Graafiset raportit](/docs/ohjeet/yleiset_ominaisuudet/raportit/graafiset_raportit)
-- [Raporttien näkyvyydet](/docs/ohjeet/yleiset_ominaisuudet/raportit/raporttien_nakyvyydet)
-
-## Yhteensopivuuslinkit
-
-Tälle sivulle on jätetty yleisimmät vanhat ankkurit, jotta vanhat sisäiset ja ulkoiset linkit toimivat edelleen.
-
-### Kirjanpitoyhteenveto
-
-Kirjanpitoyhteenvedon kuvaus on siirretty kirjanpidon raportteihin.
-
-[Siirry kirjanpidon raportteihin ja kohtaan Kirjanpitoyhteenveto](/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#kirjanpitoyhteenveto)
-
-### Laskupäiväkirja
-
-Laskupäiväkirjan kuvaus on siirretty kirjanpidon raportteihin.
-
-[Siirry kirjanpidon raportteihin ja kohtaan Laskupäiväkirja](/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#laskupäiväkirja)
-
-## Tarkastusraportit
-
-Tarkastusraporttien kuvaukset on siirretty omalle yleiskatsaussivulle.
-
-[Siirry tarkastusraporttien yleiskatsaukseen](/docs/ohjeet/yleiset_ominaisuudet/raportit/tarkastusraportit)
 
 ## Raporttien näkyvyyden muokkaus
 
-Raporttien näkyvyyksien hallinta on siirretty omaan osioonsa raporttien hallinnan alle.
+Jos olet pääkäyttäjä, voit muokata raporttien näkyvyyttä eri käyttäjille **Raportit**-välilehdellä painamalla **Raporttien näkyvyydet** -painiketta.
 
-[Siirry raporttien näkyvyyksiin](/docs/ohjeet/yleiset_ominaisuudet/raportit/raporttien_nakyvyydet)
+![Raportit](/img/ohjeet/raporttien-nakyvyys.png)
+
+Kun olet painanut painiketta, valitse haluamasi käyttäjä **Käyttäjätunnus**-valikosta. Säädä raporttien näkyvyyttä painamalla raporttia: vihreä painike tarkoittaa, että raportti näkyy valitulle käyttäjälle, ja punainen painike, että se ei näy.
+
+![Raportit](/img/ohjeet/raporttien-nakyvyys2.png)
 
 

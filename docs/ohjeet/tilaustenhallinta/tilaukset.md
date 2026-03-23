@@ -206,7 +206,7 @@ Laskutuspyynnön voi myös poistaa Poista-painiketta painamalla.
 
 ### Tilausvahvistus
 
-**Tilausvahvistus**-painikkeesta voi lähettää asiakkaalle tilausvahvistuksen kirjeellä tai sähköpostitse. Voit myös esikatsella tilausvahvistuksen. Tilausvahvistuksen teksti määritellään <a href="/docs/ohjeet/asetukset/viestipohjat">oletusasetuksien Viestipohjat-väilehdeltä</a>.
+**Tilausvahvistus**-painikkeesta voi lähettää asiakkaalle tilausvahvistuksen kirjeellä tai sähköpostitse. Voit myös esikatsella tilausvahvistuksen. Tilausvahvistuksen teksti määritellään <a href="/docs/ohjeet/asetukset/asiointikanavat/viestipohjat">oletusasetuksien Viestipohjat-välilehdeltä</a>.
 
 ![Tilausvahvistus](/img/ohjeet/tilausvahvistus.png)
 

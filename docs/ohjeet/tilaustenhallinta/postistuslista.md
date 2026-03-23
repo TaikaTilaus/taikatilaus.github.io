@@ -103,12 +103,12 @@ Ennen uuden postituslistan luontia varmista, että tilausten [Kestojatkoajo](/do
 
 1) Tee **[Kestojatko](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/kestojatko)**
 
-2) **Asetukset / Irtonumerot** –välilehdellä  
+2) **Asetukset / Postitus / Irtonumerot** –välilehdellä  
    - **Poista** ensin vanhat tiedot listaukselta ja sen jälkeen  
    - **Kopioi** yksittäisten irtonumeroiden osoitetiedot ja **tallenna**  
      (varmista, ettei alempana olevaan listaan tule virheilmoituksia)
 
-![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot-postituslista.png)
+![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot.png)
 
 Virhe voi johtua riviltä puuttuvasta **;** –merkistä, sillä tyhjäkin tieto (esimerkiksi yritysnimi tai rappu/huoneisto) vaatii sille varatun paikan rivillä.
 
@@ -123,7 +123,7 @@ Virhe voi johtua riviltä puuttuvasta **;** –merkistä, sillä tyhjäkin tieto
 
 ![Asetukset-välilehti - Irtonumerot](/img/ohjeet/irtonumerot3.png)
 
-4) **Asetukset / Varhaisjakelu** –välilehdellä lisätään tai muokataan postitukseen mukaan halutut **vakioniput** klikkaamalla **Vakioniput**–painiketta.  
+4) **Asetukset / Postitus** –välilehdellä lisätään tai muokataan postitukseen mukaan halutut **vakioniput** klikkaamalla **Vakioniput**–painiketta.  
    - **Poista** ensin mahdolliset turhat tiedot listaukselta  
    - **Päivitä / Kopioi** yksittäisten vakionippujen osoite- ja kappalemäärätiedot ja **tallenna**  
      (varmista, ettei kentän alla olevaan listaan tule virheilmoituksia)

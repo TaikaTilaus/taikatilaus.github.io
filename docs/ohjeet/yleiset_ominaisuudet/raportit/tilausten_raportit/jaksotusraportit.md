@@ -142,7 +142,7 @@ Siirtovelkaraportti näyttää aina sekä verollisen että verottoman tuloutetun
 
 ### Kirjanpitoyhteenveto
 
-<a href="/docs/ohjeet/yleiset_ominaisuudet/raportit#kirjanpitoyhteenveto">**Kirjanpitoyhteenveto**</a> ja jaksotusraportit mittaavat eri asioita:
+<a href="/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#kirjanpitoyhteenveto">**Kirjanpitoyhteenveto**</a> ja jaksotusraportit mittaavat eri asioita:
 
 | | Kirjanpitoyhteenveto | Jaksotusraportit |
 |---|---|---|
@@ -155,7 +155,7 @@ Kirjanpitoyhteenveto näyttää mitä on **kirjattu** aikavälillä. Jaksotusrap
 
 ### Laskupäiväkirja
 
-<a href="/docs/ohjeet/yleiset_ominaisuudet/raportit#laskupäiväkirja">**Laskupäiväkirja**</a> ja jaksotusraportit tarkastelevat laskuja eri tavoin:
+<a href="/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#laskupäiväkirja">**Laskupäiväkirja**</a> ja jaksotusraportit tarkastelevat laskuja eri tavoin:
 
 | | Laskupäiväkirja | Jaksotusraportit |
 |---|---|---|

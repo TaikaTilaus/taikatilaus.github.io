@@ -542,7 +542,7 @@ Näin alkuperäinen lasku jää voimaan, ja hyvityslasku poistuu listaukselta. T
 
 #### Muistutuslaskujen tekstitykset
 
-Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään **[Asetukset / Laskutekstit](/docs/ohjeet/asetukset/laskutekstit)** -näkymässä.
+Muistutuslaskujen lomakkeille lisättävät lehtikohtaiset tekstitykset lisätään **[Asetukset / Laskut / Laskutekstit](/docs/ohjeet/asetukset/laskut/laskutekstit)** -näkymässä.
 
 #### Ennen muistutuslaskujen luontia
 
@@ -550,7 +550,7 @@ Ennen muistutuslaskujen luontia tulee varmistaa, että mahdolliset **virhetilant
 Virheellisiä suorituksia löytyy:
 
 - **[Suoritukset](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)** -välilehdeltä
-- **[Tarkistusraporteilta Raportit -välilehdeltä](/docs/ohjeet/yleiset_ominaisuudet/raportit#tarkastusraportit)**  
+- **[Tarkistusraporteilta Raportit -välilehdeltä](/docs/ohjeet/yleiset_ominaisuudet/raportit/tarkastusraportit)**  
 
 #### Muistutuslaskujen haku
 

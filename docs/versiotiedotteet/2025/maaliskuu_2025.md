@@ -11,7 +11,6 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.3.-31.3.2025 välisenä aikana.
 
 ## Sisällysluettelo
 
-- [Maaliskuu 2025](#maaliskuu-2025)
   - [Sisällysluettelo](#sisällysluettelo)
   - [Suora kirjautuminen testisivustolle](#suora-kirjautuminen-testisivustolle)
     - [Mitä uutta?](#mitä-uutta)

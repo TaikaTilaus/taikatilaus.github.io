@@ -1,16 +1,11 @@
 ---
-sidebar_position: 7
 title: Raporttien näkyvyydet
-sidebar_label: Raporttien näkyvyydet
+unlisted: true
 ---
 
 # Raporttien näkyvyyden muokkaus
 
-Jos olet pääkäyttäjä, voit muokata raporttien näkyvyyttä eri käyttäjille **Raportit**–välilehdellä painamalla **Raporttien näkyvyydet** –painiketta.
+Tämän ohjeen sisältö on siirretty raporttien yleiskatsaukseen.
 
-![Raportit](/img/ohjeet/raporttien-nakyvyys.png)
-
-Kun olet painanut painiketta, valitse haluamasi käyttäjä **Käyttäjätunnus**–valikosta. Säädä raporttien näkyvyyttä painamalla raporttia: vihreä painike tarkoittaa, että raportti näkyy valitulle käyttäjälle, ja punainen painike, että se ei näy.
-
-![Raportit](/img/ohjeet/raporttien-nakyvyys2.png)
+[Siirry kohtaan Raporttien näkyvyyden muokkaus](/docs/ohjeet/yleiset_ominaisuudet/raportit#raporttien-n%C3%A4kyvyyden-muokkaus)
 

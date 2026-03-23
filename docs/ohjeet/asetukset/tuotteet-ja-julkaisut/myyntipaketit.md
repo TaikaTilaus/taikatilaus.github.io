@@ -1,10 +1,10 @@
 ﻿---
-sidebar_position: 10
+sidebar_position: 7
 ---
 
-# Paketit
+# Myyntipaketit
 
-**Paketit**-välilehdellä voit luoda yksittäisistä myyntituotteista **erillishinnoiteltuja tuotepaketteja** sekä tarkastella ja muokata jo olemassa olevia paketteja.  
+**Myyntipaketit**-välilehdellä voit luoda yksittäisistä myyntituotteista **erillishinnoiteltuja tuotepaketteja** sekä tarkastella ja muokata jo olemassa olevia paketteja.  
 
 **Lisää**-painiketta painamalla voit lisätä uuden paketin, ja olemassa olevan paketin **numeroa** klikkaamalla pääset muokkaamaan sitä.
 
