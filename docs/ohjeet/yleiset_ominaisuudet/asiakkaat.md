@@ -149,8 +149,6 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 ### OmaPalvelu
 
-![Asiakaskortti - OmaPalvelu](/img/ohjeet/omapalvelu-tunnukset.png)
-
 **Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalveluun.
 
 **Lisää tunnus** -painikkeesta voit lisätä käyttäjälle tunnuksen.
@@ -158,6 +156,8 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
     - **Käyttäjätunnus**–kenttään tallennetaan asiakkaan käyttäjännus, joka on aina asiakkaan **sähköposti**.
 
     - **Liitoksen tyyppi** -kenttään valitaan onko käyttäjätunnus pääkäyttäjän vai alikäyttäjän (esim. perhetunnus) tunnus. Alikäyttäjällä on rajoitetummat oikeudet muokata tietoja OmaPalvelussa.
+
+![Asiakaskortti - OmaPalvelu](/img/ohjeet/omapalvelu-tunnukset.png)
 
 ![Asiakaskortti - OmaPalvelu](/img/ohjeet/tunnuksen-luonti2.png)
 
