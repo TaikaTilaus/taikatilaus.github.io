@@ -149,7 +149,7 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 ### OmaPalvelu
 
-**Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalveluun.
+Asiakaskortin **Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalveluun.
 
 **Lisää tunnus** -painikkeesta voit lisätä käyttäjälle tunnuksen.
 
