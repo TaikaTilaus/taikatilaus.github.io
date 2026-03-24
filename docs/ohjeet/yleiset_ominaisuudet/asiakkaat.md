@@ -169,7 +169,7 @@ Saldon voi poistaa asiakkaalta klikkaamalla **SaldoID**:tä ja painamalla **Pois
 
 - **Lähetä kertakirjautumislinkki** -painikkeesta lähetetään asiakkaalle viesti, joka sisältää kertakirjautumislinkin, jolla asiakas voi kirjautua palveluun yhden kerran 24 tunnin aikana.
 
-- **Kirjaudu OmaPalveluun** -painikkeesta voidaan kirjautua suoraan OmaPalveluun kyseisellä tunnuksella.
+- **Kirjaudu OmaPalveluun** -painikkeesta järjestelmän hallinnoija voi kirjautua suoraan OmaPalveluun kyseiseen asiakkaan tilille.
 
 - **Poista käyttäjätunnus** -painikkeesta poistetaan kyseinen käyttäjätunnus.
 
