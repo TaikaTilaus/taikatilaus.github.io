@@ -56,6 +56,7 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 
 * [Tilauslomake](/docs/ohjeet/asetukset/asiointikanavat/tilauslomake)
 * [OmaPalvelu](/docs/ohjeet/asetukset/asiointikanavat/omapalvelu)
+* [OmaIlmoitus](/docs/ohjeet/asetukset/asiointikanavat/omailmoitus)
 * [Viestipohjat](/docs/ohjeet/asetukset/asiointikanavat/viestipohjat)
 
 ### Käyttäjätilit
