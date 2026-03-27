@@ -162,5 +162,31 @@ Asiakkaan tilaus on katkaistu, ja toimitetuista lehdistä on luotu loppulasku ta
 
 ![Raportit](/img/ohjeet/toimitetut.png)
 
-<!-- Jakelureklamaatiot -->
+### Jakelureklamaatiot
+
+**Jakelureklamaatiot** -raportti hakee asiakaskorteille syötetyt ja OmaPalvelusta tulleet jakelupalautteet raportille haetulta aikaväliltä.
+
+![Raportit](/img/ohjeet/jakelupalaute-raportti2.png)
+*Esimerkki raportista*
+
+![Raportit](/img/ohjeet/jakelupalaute-raportti.png)
+*Jakelupalaute löytyy yksittäisten asiakkaiden asiakaskortilta. Raportti hakee tässä kentässä olevat tiedot raportille*
+
+### Tilausten hyvityspidennykset
+
+**Tilausten hyvityspidennykset** -raportti hakee raportille tilaukset, joita on pidennetty hyvityksenä (esim. puuttuvan lehden takia) **[Hyvitä tilausjaksoa](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/tilaukset#hyvit%C3%A4-tilausjaksoa)** -toiminnon kautta.
+
+![Raportit](/img/ohjeet/hyvityspidennykset.png)
+
+### Tilauslahjat 
+
+**Tilauslahjat** -raportti hakee raportille tilaukset, joihin on tilauksen yhteydessä valittu tilauslahja. Tilauslahjat pitää tuotteisiin koodata erikseen. 
+
+### Uudet tilaukset 
+
+**Uudet tilaukset** -raportti kerää raportille uudet tilaukset, jättäen raportilta pois kestotilaukset, joita on jatkettu. Kestojatketut tilaukset saa myös mukaan raportille, aktivoimalla kentän hakuehdoissa. Voit hakea tilauksia niiden tilauspäivien tai tilausten alkamispäivien mukaan. 
+
+![Raportit](/img/ohjeet/uudet-tilaukset-raportti.png)
+
+![Raportit](/img/ohjeet/uudet-tilaukset-raportti2.png)
 
