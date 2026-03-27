@@ -385,6 +385,10 @@ Aineistotiedoissa voi:
 - lisätä käsittelijän sähköpostin
 - määrittää, että järjestelmä lähettää automaattisen viestin ilmoituksen käsittelijälle, kun aineisto on lisätty ilmoitukseen
 - määrittää, onko mainos poliittinen
+   - kun klikkaat **Poliittinen mainos** -kentän aktiiviseksi, ilmestyy lomakkeelle lisäkenttiä
+      - **Yksilöivä tunnus:** lain vaatima ilmoituksen yksilöivä tunnus
+      - **Kampanja liittyy:** mihin vaaliin tai lainsäädäntöön mainos liittyy
+      - **Avoimuusilmoitus URL:** lain vaatiman avoimuusilmoituksen URL
 
 Jos ilmoituksessa on **vain teksti**, aktivoi **Ilmoitukseen ei liity tiedostoja**.
 

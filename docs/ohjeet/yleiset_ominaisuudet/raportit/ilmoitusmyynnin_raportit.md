@@ -5,6 +5,12 @@ title: Ilmoitusmyynnin raportit
 
 # Ilmoitusmyynnin raportit
 
+### Ilmoitusmyynti vuosittain
+
+**Ilmoitusmyynti vuosittain** -raportti näyttää ilmoitusmyynnin yhteensä kuukausittain valitun vuoden ajalta. Raportilla näkyy verottomat ja verolliset yhteissummat.
+
+![Raportit](/img/ohjeet/ilmoitusmyynti-vuosittain.png)
+
 ### Laskutetut ilmoitusmyynnit
 
 **Laskutetut ilmoitusmyynnit** –raportille haetaan laskutetut ilmoitusmyynnit. Raportilla näytetään laskun tiedot, asiakkaan tiedot ja ilmoitusvarauksen tiedot.
@@ -35,11 +41,27 @@ title: Ilmoitusmyynnin raportit
 
 ![Raportit](/img/ohjeet/myynnit-yhteenveto.png)
 
+### Myynnit asiakkaittain, yhteenveto
+
+**Myynnit asiakkaittain, yhteenveto** -raportti kokoaa raportille asiakkaiden myynnit yhteensä (veroton hinta) annetulta aikaväliltä. Excel versiossa näytetään myynnit brutto- ja nettosummina. Bruttosumma on myyntien yhteissumma ennen asiakkaalle mahdollisia annettuja alennuksia. Nettosumma on myyntien oikea veroton yhteissumma. 
+
+![Raportit](/img/ohjeet/myynnit-asiakkaittain.png)
+
+### Myynnit asiakkaittain, tausta-ajo
+
+**Myynnit asiakkaittain, tausta-ajo** -raportti on sama kuin **Myynnit asiakkaittain, yhteenveto** -raportti, mutta raportin ajo suoritetaan tausta-ajona. Jos myyntidataa on paljon, tausta-ajo raportti toimii paremmin. 
+
 ### Laskutetut erillistuotteet
 
 **Laskutetut erillistuotteet** –raportille haetaan asetetulla aikavälillä laskutetut erillistuotteet (esimerkiksi kirjat).
 
 ![Raportit](/img/ohjeet/erillistuotteet-raportti.png)
+
+### Poliittiset mainokset
+
+**Poliittiset mainokset** -raportti hakee raportille **laskutetut** ilmoitusvaraukset ja niiden tiedot. Ilmoitusvaraus pitää olla [merkitty poliittiseksi mainokseksi](https://support.taikatilaus.fi/docs/ohjeet/ilmoitustenhallinta/ilmoitusasiakas#aineistotiedot), että sen tiedot näkyvät raportilla.
+
+![Raportit](/img/ohjeet/poliittiset-mainokset.png)
 
 ### Ilmoitusvarauksien raportit
 
