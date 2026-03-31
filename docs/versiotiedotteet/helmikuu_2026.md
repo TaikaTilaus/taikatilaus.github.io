@@ -54,19 +54,19 @@ Raporteihin on lisätty uusi jaksotusraportti, joka tuottaa kuukausittaisen tase
 
 ![Asiakaskortti](/img/versiotiedotteet/pmm-keskihinta.png)
 
-<!-- ## Laskujen dashboard
+<!-- ## Laskujen dashboard -->
 
 ## Lisätty virheilmoitus asiakaskortille
 
 Asiakaskortti näyttää nyt virheilmoituksen, jos jakelun keskeytyksen tai väliaikaisen osoitteen loppupäivä on ennen alkupäivää.
 
-![Asiakaskortti](/img/versiotiedotteet/virhe-asiakaskortti.png)
+![Asiakaskortti](/img/versiotiedotteet/virhe-asiakaskortti.png) 
 
-## Huomioihin lisätty epäonnistuneet kestojatkot
+<!--## Huomioihin lisätty epäonnistuneet kestojatkot
 
 Kestojatko ei jatka automaattisesti tilauksia, joilla on uudempi katkaistu tilaus. Joissain tapauksissa uudempi tilaus on kuitenkin ollut virheellinen ja siksi katkaistu. Tällöin vanhempi tilaus saattaisi edelleen vaatia jatkamista, mutta uudempi tilaus estää automaattisen kestojatkon. Jatkossa nämä epäonnistuneet kestojatkot näkyvät huomioissa, jolloin ne voidaan tarkistaa ja vanha tilaus tarvittaessa jatkaa manuaalisesti.
 
-![Huomiot](/img/versiotiedotteet/kestojatko-epaonnistunut.png) -->
+![Huomiot](/img/versiotiedotteet/kestojatko-epaonnistunut.png)  -->
 
 ## Stripe-hallinta välilehti
 
