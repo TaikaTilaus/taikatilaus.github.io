@@ -44,7 +44,7 @@ Raporteihin on lisätty uusi jaksotusraportti, joka tuottaa kuukausittaisen tase
 
 ### Ilmoitusmyynti vuosittain -raportti
 
-**Ilmoitusmyynti kuukausittain** -raportti näyttää ilmoitusmyynnin kuukausittain valitulta kohdevuodelta. Mukana ovat ilmoitusten määrä, palstamillimetrit sekä veroton ja verollinen yhteissumma.
+**Ilmoitusmyynti vuosittain** -raportti näyttää ilmoitusmyynnin kuukausittain valitulta kohdevuodelta. Mukana ovat ilmoitusten määrä, palstamillimetrit sekä veroton ja verollinen yhteissumma.
 
 ![Ilmoitusmyynti kuukausittain](/img/versiotiedotteet/ilmoitusmyynti-kuukausittain.png)
 
