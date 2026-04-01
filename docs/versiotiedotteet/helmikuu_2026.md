@@ -13,26 +13,39 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.2.-31.3.2026 välisenä aikana.
 
 ## Raportteja on ryhmitelty uudestaan
 
-Entisestä raporttinäkymästä oli hankala löytää haluamiaan raportteja. Raportit on nyt ryhmitelty uudestaan välilehtiin ja uusin alakategorioihin. 
+Entisestä raporttinäkymästä oli hankala löytää haluamiaan raportteja. Raportit on nyt ryhmitelty uudestaan välilehtiin ja uusin alakategorioihin. Raporttien etusivulla näet useiten käyttämäsi raportit.
 
 Uusi järjestely on:
+- Usein käytetyt raportit
+
+![Ilmoitusmyynti kuukausittain](/img/versiotiedotteet/raportit-uusi.png)
+
 - Kirjanpidon raportit
     - Yleiset kirjanpidon raportit
+    - Tilausten jaksotusraportit
     - Saldo ja maksun palautukset
     - Tarkistusraportit
     - Graafiset raportit
+
+![Ilmoitusmyynti kuukausittain](/img/versiotiedotteet/raportit-uusi2.png)
+
 - Tilausten raportit
     - Tilausten raportit
-    - Tilausten jaksotusraportit
     - Markkinointi ja soittolistat
     - Graafiset raportit
+
+![Ilmoitusmyynti kuukausittain](/img/versiotiedotteet/raportit-uusi3.png)
+
 - Ilmoitusten raportit
     - Yleiset ilmoitusraportit
     - Myynnit myyjittäin ja asiakkaittain
+
+![Ilmoitusmyynti kuukausittain](/img/versiotiedotteet/raportit-uusi4.png)
+
 - Muut raportit
     - Asiakasraportit
 
-![Ilmoitusmyynti kuukausittain](/img/versiotiedotteet/raportit-uusi.png)
+![Ilmoitusmyynti kuukausittain](/img/versiotiedotteet/raportit-uusi5.png)
 
 ## Uusia raportteja
 
