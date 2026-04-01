@@ -5,6 +5,8 @@ title: Ilmoitusmyynnin raportit
 
 # Ilmoitusmyynnin raportit
 
+## Yleiset ilmoitusraportit
+
 ### Ilmoitusmyynti vuosittain
 
 **Ilmoitusmyynti vuosittain** -raportti näyttää ilmoitusmyynnin yhteensä kuukausittain valitun vuoden ajalta. Raportilla näkyy verottomat ja verolliset yhteissummat.
@@ -22,6 +24,21 @@ title: Ilmoitusmyynnin raportit
 **Laskuttamattomat ilmoitusmyynnit** –raportille haetaan laskuttamattomat ilmoitusmyynnit. Raportilla näytetään laskutuspyynnön tiedot, asiakkaan tiedot ja ilmoitusvarauksen tiedot.
 
 ![Raportit](/img/ohjeet/laskuttamattomat-myynnit.png)
+
+### Laskutetut erillistuotteet
+
+**Laskutetut erillistuotteet** –raportille haetaan asetetulla aikavälillä laskutetut erillistuotteet (esimerkiksi kirjat).
+
+![Raportit](/img/ohjeet/erillistuotteet-raportti.png)
+
+### Poliittiset mainokset
+
+**Poliittiset mainokset** -raportti hakee raportille **laskutetut** ilmoitusvaraukset ja niiden tiedot. Ilmoitusvaraus pitää olla [merkitty poliittiseksi mainokseksi](https://support.taikatilaus.fi/docs/ohjeet/ilmoitustenhallinta/ilmoitusasiakas#aineistotiedot), että sen tiedot näkyvät raportilla.
+
+![Raportit](/img/ohjeet/poliittiset-mainokset.png)
+
+
+## Myynnit myyjittäin ja asiakkaittain
 
 ### Myynnit myyjittäin laskujen kautta
 
@@ -51,19 +68,7 @@ title: Ilmoitusmyynnin raportit
 
 **Myynnit asiakkaittain, tausta-ajo** -raportti on sama kuin **Myynnit asiakkaittain, yhteenveto** -raportti, mutta raportin ajo suoritetaan tausta-ajona. Jos myyntidataa on paljon, tausta-ajo raportti toimii paremmin. 
 
-### Laskutetut erillistuotteet
-
-**Laskutetut erillistuotteet** –raportille haetaan asetetulla aikavälillä laskutetut erillistuotteet (esimerkiksi kirjat).
-
-![Raportit](/img/ohjeet/erillistuotteet-raportti.png)
-
-### Poliittiset mainokset
-
-**Poliittiset mainokset** -raportti hakee raportille **laskutetut** ilmoitusvaraukset ja niiden tiedot. Ilmoitusvaraus pitää olla [merkitty poliittiseksi mainokseksi](https://support.taikatilaus.fi/docs/ohjeet/ilmoitustenhallinta/ilmoitusasiakas#aineistotiedot), että sen tiedot näkyvät raportilla.
-
-![Raportit](/img/ohjeet/poliittiset-mainokset.png)
-
-### Ilmoitusvarauksien raportit
+## Ilmoitusvarauksien raportit
 
 Saat lisää ilmoitusmyyntiin liittyviä raportteja [**Ilmoitusvaraukset**](/docs/ohjeet/ilmoitustenhallinta/ilmoistusvaraukset)-välilehdeltä.
 

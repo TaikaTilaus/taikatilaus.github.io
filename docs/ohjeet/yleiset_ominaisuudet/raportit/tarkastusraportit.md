@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
-title: Tarkastusraportit
+title: Tarkistusraportit
 ---
 
-# Tarkastusraportit
+# Tarkistusraportit
 
 ### Laskut joiden tiliöinneissä virheitä
 
