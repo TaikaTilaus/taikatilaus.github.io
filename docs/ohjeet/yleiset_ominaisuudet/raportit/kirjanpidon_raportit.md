@@ -5,6 +5,8 @@ title: Kirjanpidon raportit
 
 # Kirjanpidon raporttien kuvaukset
 
+## Yleiset kirjanpidon raportit
+
 ### Kirjanpitoyhteenveto
 
 **Kirjanpitoyhteenveto**-raportilla haetaan annetulla aikavälillä kirjatut tiliöintitapahtumat tileittäin, jaoteltuna tilin **debet**- ja **kredit**-puolille. Raportilla lasketaan näiden summat, ja jos kirjanpidossa ei ole virheitä, debet- ja kredit-puolien summien tulisi olla yhtä suuret.
@@ -84,9 +86,9 @@ Raportin lopussa näytetään **asiakkaat (asiakasnumero ja nimi)** sekä se, ku
 
 ![Raportit](/img/ohjeet/avoimet-laskut2.png)
 
-### Laskut joissa ylisuoritus
+### Laskut, joissa on ylisuoritus
 
-**Laskut, joissa ylisuoritus** -raportille haetaan annetulta aikaväliltä laskut, joiden **maksamatta oleva summa on alle 0 euroa** (ylisuoritus). Ylisuorituksella tarkoitetaan suoritusta, joka on **suurempi kuin laskun summa**.
+**Laskut, joissa on ylisuoritus** -raportille haetaan annetulta aikaväliltä laskut, joiden **maksamatta oleva summa on alle 0 euroa** (ylisuoritus). Ylisuorituksella tarkoitetaan suoritusta, joka on **suurempi kuin laskun summa**.
 
 ![Raportit](/img/ohjeet/ylisuoritus.png)
 
@@ -170,6 +172,16 @@ Raportin lopussa esitetään **yhteensä-rivi**, jossa näkyy kaikkien rivien su
 
 ![Raportit](/img/ohjeet/tilioinnit.png)
 
+### Tiliöintien lukitseminen
+
+Tiliöintitapahtumat voidaan lukita haluttuun historiapäivään saakka, esimerkiksi edellisen vuoden viimeiseen päivään. Lukituksen jälkeen kirjauksia ei voi tehdä valitulle päivälle tai sitä aikaisemmille päiville.
+
+![Tiliöintien lukitseminen](/img/ohjeet/lukittu.png)
+
+![Tiliöintien lukitseminen](/img/ohjeet/lukittu2.png)
+
+## Saldo ja maksun palautukset
+
 ### Ennakkomaksut-tili
 
 **Ennakkomaksut-tili** –raportille haetaan annetun aikavälin **Ennakkomaksutilin (saldotilin)** tapahtumat ja saldo kohdepäivänä. Raportilla näytetään kaikki tiliöinnit, jotka liittyvät asiakkaiden ennakkomaksuihin.
@@ -178,8 +190,10 @@ Raportilla näkyy:
 
 - saldotiliin liittyvät tiliöinnit (lisäys tilille on miinusmerkkinen –, saldon käyttö plussamerkkinen +)
 - kirjauspäivät  
+- tilin numerot
 - summat  
 - laskun numerot  
+- suoritusIDt
 - asiakasnumerot  
 - asiakkaan tiedot  
 - tiliöintien määrät ja summat yhteensä per asiakas  
@@ -187,6 +201,26 @@ Raportilla näkyy:
 Raportin lopussa esitetään **yhteenveto** tiliöintien kokonaismääristä ja summista.
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/ennakkomaksut3.png)
+
+### Maksun palautukset-tili
+
+**Maksun palautukset-tili** –raportille haetaan annetun aikavälin **Palautustilin** tapahtumat ja saldo kohdepäivänä. Raportilla näytetään kaikki tiliöinnit, jotka liittyvät asiakkaiden palautuksiin.
+
+Raportilla näkyy:
+
+- palautustiliin liittyvät tiliöinnit (lisäys tilille on miinusmerkkinen –, saldon käyttö plussamerkkinen +)
+- kirjauspäivät  
+- tilin numerot
+- summat  
+- laskun numerot  
+- suoritusIDt
+- asiakasnumerot  
+- asiakkaan tiedot  
+- tiliöintien määrät ja summat yhteensä per asiakas  
+
+Raportin lopussa esitetään **yhteenveto** tiliöintien kokonaismääristä ja summista.
+
+![Asiakaskortti - Laskutiedot](/img/ohjeet/maksunpalautus-tili.png)
 
 ### Maksun palautukset
 
@@ -230,12 +264,4 @@ Palautuksen tietoja voidaan myös muokata **kopioimalla TiliöintiID raportin al
 - Tilinumeroa (asiakkaan), jolle palautus tehdään  
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti4.png)
-
-### Tiliöintien lukitseminen
-
-Tiliöintitapahtumat voidaan lukita haluttuun historiapäivään saakka, esimerkiksi edellisen vuoden viimeiseen päivään. Lukituksen jälkeen kirjauksia ei voi tehdä valitulle päivälle tai sitä aikaisemmille päiville.
-
-![Tiliöintien lukitseminen](/img/ohjeet/lukittu.png)
-
-![Tiliöintien lukitseminen](/img/ohjeet/lukittu2.png)
 
