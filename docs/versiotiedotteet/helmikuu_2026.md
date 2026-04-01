@@ -13,7 +13,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.2.-31.3.2026 välisenä aikana.
 
 ## Raportteja on ryhmitelty uudestaan
 
-Entisestä raporttinäkymästä oli hankala löytää haluamiaan raportteja. Raportit on nyt ryhmitelty uudestaan välilehtiin ja uusin alakategorioihin. Raporttien etusivulla näet useiten käyttämäsi raportit.
+Entisestä raporttinäkymästä oli hankala löytää haluamiaan raportteja. Raportit on nyt ryhmitelty uudestaan välilehtiin ja uusin alakategorioihin. Raporttien etusivulla näet useiten käyttämäsi raportit. Usein käytettyjen raporttien vieressä lukee, milloin viimeksi avasit ne. 
 
 Uusi järjestely on:
 - Usein käytetyt raportit
