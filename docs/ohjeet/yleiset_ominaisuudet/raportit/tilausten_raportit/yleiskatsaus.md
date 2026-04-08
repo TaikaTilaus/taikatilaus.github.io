@@ -3,11 +3,6 @@ sidebar_position: 1
 title: Tilausten raportit
 ---
 
-## Milloin käyttää tätä sivua vs. Jaksotusraportit-sivua
-
-Käytä tätä sivua, kun haluat yleiskuvan kaikista **Tilausten raportit** -osion raporteista.
-Siirry [**Jaksotusraportit**-sivulle](/docs/ohjeet/yleiset_ominaisuudet/jaksotusraportit), kun tarvitset tarkemmat ohjeet jaksotuksen hakuehdoista, sarakkeista ja siirtovelkaraportista.
-
 ## Tilausten raportit
 
 ### Tilausmyynti vuosittain
@@ -111,56 +106,6 @@ Asiakkaan tilaus on katkaistu, ja toimitetuista lehdistä on luotu loppulasku ta
 
 ![Raportit](/img/ohjeet/uudet-tilaukset-raportti2.png)
 
-## Tilausten jaksotusraportit
-
-### Tilaustulojen jaksotus (laskuilla)
-
-**Tilaustulojen jaksotus (laskuilla)** –raportti perustuu laskutettuihin tilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten laskut ja niiden maksusuoritukset. Laskun summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan, kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
-
-![Raportit](/img/ohjeet/tilausten-jaksotus.png)
-
-### Tilaustulojen jaksotus (laskuilla), digi
-
-**Tilaustulojen jaksotus (laskuilla), digi** –raportti perustuu laskutettuihin digitilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten laskut ja niiden maksusuoritukset. Laskun summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan, kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
-
-### Tilaustulojen jaksotus yhteenveto 
-
-**Tilaustulojen jaksotus, yhteenveto** –raportilla esitetään yhteenveto tilaustulojen jaksotuksesta, jossa lasketaan kuinka paljon tilausmaksuista on jo suoritettu ja kuinka paljon suorittamatta annetulla ajanjaksolla.
-
-![Raportit](/img/ohjeet/tilausten-jaksotus3.png)
-
-### Tilaustulojen jaksotus (suorituksilla)
-
-**Tilaustulojen jaksotus (suorituksilla)** –raportti perustuu maksettuihin tilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten suoritukset ja niiden laskut. Suorituksen summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan, kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
-
-![Raportit](/img/ohjeet/tilausten-jaksotus4.png)
-
-### Tilaustulojen jaksotus (suorituksilla), digi
-
-**Tilaustulojen jaksotus (suorituksilla), digi** –raportti perustuu maksettuihin digitilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten suoritukset ja niiden laskut. Suorituksen summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan, kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
-
-### Tilausten jaksotus laskuilla kuukasittain
-
-**Tilausten jaksotus laskuilla kuukausittain** –raportti näyttää kuukausikohtaisesti laskutettujen tilausten jaksotustiedot.
-
-![Raportit](/img/ohjeet/tilausten-jaksotus6.png)
-
-<!--  ### Tilausten jaksotus II
-
-Raportti perustuu aikavälillä luotuihin tai laskutettuihin tilauksiin.-->
-
-### Tilausten jaksotus aikajanalla (tiliöintien kautta)
-
-**Tilausten jaksotus aikajanalla (tiliöintien kautta)** –raportti hakee annettuna aikavälinä ainakin osittain voimassa olevat tilaukset. Tilauksiin liittyvistä summista haetaan valinnan mukaan joko laskutetut tai maksetut summat. Annettu aikaväli jaetaan kuukausille, ja joka kuun vaihteessa haetaan kuitattu (suoritettu) ja maksettava rahamäärä (velka). Jaksotus tehdään valinnan mukaan joko lehden numeroiden ilmestymisten mukaan (kaikissa kuukausissa ei välttämättä ole jaksotusta, mikäli lehti ei ilmesty) tai tilausajan perusteella (joka kuukaudessa jaksotusta tilausajan puitteissa). Summien koostamisessa käytetään laskun tiliöintejä. Laskutetuilla tilauksilla summat ovat verottomia (luontivaiheen Myyntitili MY), mutta maksetuilla verollisia (maksuvaiheen kuittaus K).  
-
-> Koska tämä on iso raportti, se suoritetaan tausta-ajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä, kun se on valmis.
-
-### Tilausten jaksotus aikajanalla (tuoterivien kautta)
-
-**Tilausten jaksotus aikajanalla (tuoterivien kautta)** –raportti hakee annettuna aikavälinä ainakin osittain voimassa olevat tilaukset. Tilauksiin liittyvistä summista haetaan valinnan mukaan joko laskutetut tai maksetut summat. Annettu aikaväli jaetaan kuukausille, ja joka kuun vaihteessa haetaan kuitattu (suoritettu) ja maksettava rahamäärä (velka). Jaksotus tehdään valinnan mukaan joko lehden numeroiden ilmestymisten mukaan (kaikissa kuukausissa ei välttämättä ole jaksotusta, mikäli lehti ei ilmesty) tai tilausajan perusteella (joka kuukaudessa jaksotusta tilausajan puitteissa). Summien koostamisessa käytetään laskun tiliöintejä. Laskutetuilla tilauksilla summat ovat verottomia (luontivaiheen Myyntitili MY), mutta maksetuilla verollisia (maksuvaiheen kuittaus K).  
-
-> Koska tämä on iso raportti, se suoritetaan tausta-ajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä, kun se on valmis.
-
 ## Markkinointi ja soittolistat
 
 ### Päättyvät tilaukset, joita uudempi tilaus löytyy
@@ -200,3 +145,13 @@ Voit valita karsitaanko pois poistetut (sis. kuolleet), markkinointikieltoiset s
 > Koska tämä on iso raportti, se suoritetaan tausta-ajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä, kun se on valmis.
 
 ![Raportit](/img/ohjeet/kontaktit-ei-tilauksia.png)
+
+## Graafiset raportit
+
+### Tilaukset graafinen
+
+**Tilaukset graafinen** –raportilla näet tilausmäärien kehittymisen valitsemallasi aikavälillä. Voit valita tietyt tilaustuotteet tai kaikki tilaustuotteet lehtikohtaisesti ja verrata niiden tilausmäärien kehitystä keskenään.
+
+![Raportit](/img/ohjeet/tilaukset-graafinen.png)
+
+![Raportit](/img/ohjeet/tilaukset-graafinen2.png)

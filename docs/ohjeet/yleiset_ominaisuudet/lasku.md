@@ -552,7 +552,7 @@ Ennen muistutuslaskujen luontia tulee varmistaa, että mahdolliset **virhetilant
 Virheellisiä suorituksia löytyy:
 
 - **[Suoritukset](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)** -välilehdeltä
-- **[Tarkistusraporteilta Raportit -välilehdeltä](/docs/ohjeet/yleiset_ominaisuudet/raportit/tarkastusraportit)**  
+- **[Tarkistusraporteilta Raportit -välilehdeltä](/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#tarkistusraportit)**  
 
 #### Muistutuslaskujen haku
 

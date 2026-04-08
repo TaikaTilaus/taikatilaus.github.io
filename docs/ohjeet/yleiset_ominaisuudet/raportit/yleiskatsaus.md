@@ -20,6 +20,8 @@ Raportteja voidaan tuottaa esimerkiksi:
 - **Tilausmääriä** varten  
 - **Myyntimääriä** varten
 
+Välilehden etusivulla näkyy **käyttäjäkohtaisesti useimmiten käytetyt raportit**.
+
 ### Raportin hakukriteerien määrittely
 
 ![Raportit](/img/ohjeet/raportit2.png)
@@ -49,15 +51,14 @@ Näitä voivat olla esimerkiksi:
 Raporttiohjeet on jaettu selkeisiin alakategorioihin. Aloita yleiskatsauksesta ja siirry tarvittaessa tarkempiin raporttikohtaisiin ohjeisiin.
 
 - [Kirjanpidon raportit](/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit)
-- [Tarkastusraportit](/docs/ohjeet/yleiset_ominaisuudet/raportit/tarkastusraportit)
 - [Tilausten raportit](/docs/ohjeet/yleiset_ominaisuudet/raportit/tilausten_raportit/yleiskatsaus)
 - [Jaksotusraportit (syventävä ohje)](/docs/ohjeet/yleiset_ominaisuudet/jaksotusraportit)
 - [Ilmoitusmyynnin raportit](/docs/ohjeet/yleiset_ominaisuudet/raportit/ilmoitusmyynnin_raportit)
-- [Graafiset raportit](/docs/ohjeet/yleiset_ominaisuudet/raportit/graafiset_raportit)
+- [Muut raportit](/docs/ohjeet/yleiset_ominaisuudet/raportit/asiakasraportit)
 
 ## Raporttien näkyvyyden muokkaus
 
-Jos olet pääkäyttäjä, voit muokata raporttien näkyvyyttä eri käyttäjille **Raportit**-välilehdellä painamalla **Raporttien näkyvyydet** -painiketta.
+Jos olet pääkäyttäjä, voit muokata raporttien näkyvyyttä eri käyttäjille **Raportit**-välilehdellä painamalla **Raporttien näkyvyydet** -alavälilehteä.
 
 ![Raportit](/img/ohjeet/raporttien-nakyvyys.png)
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: /ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit
 title: Kirjanpidon raportit
 ---
 
@@ -180,6 +181,61 @@ Tiliöintitapahtumat voidaan lukita haluttuun historiapäivään saakka, esimerk
 
 ![Tiliöintien lukitseminen](/img/ohjeet/lukittu2.png)
 
+## Tilausten jaksotusraportit
+
+### Milloin käyttää tätä sivua vs. Jaksotusraportit-sivua
+
+Käytä tätä sivua, kun haluat yleiskuvan kaikista **Tilausten raportit** -osion raporteista.
+Siirry [**Jaksotusraportit**-sivulle](/docs/ohjeet/yleiset_ominaisuudet/jaksotusraportit), kun tarvitset tarkemmat ohjeet jaksotuksen hakuehdoista, sarakkeista ja siirtovelkaraportista.
+
+### Tilaustulojen jaksotus (laskuilla)
+
+**Tilaustulojen jaksotus (laskuilla)** –raportti perustuu laskutettuihin tilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten laskut ja niiden maksusuoritukset. Laskun summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan, kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
+
+![Raportit](/img/ohjeet/tilausten-jaksotus.png)
+
+### Tilaustulojen jaksotus (laskuilla), digi
+
+**Tilaustulojen jaksotus (laskuilla), digi** –raportti perustuu laskutettuihin digitilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten laskut ja niiden maksusuoritukset. Laskun summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan, kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
+
+### Tilaustulojen jaksotus yhteenveto 
+
+**Tilaustulojen jaksotus, yhteenveto** –raportilla esitetään yhteenveto tilaustulojen jaksotuksesta, jossa lasketaan kuinka paljon tilausmaksuista on jo suoritettu ja kuinka paljon suorittamatta annetulla ajanjaksolla.
+
+![Raportit](/img/ohjeet/tilausten-jaksotus3.png)
+
+### Tilaustulojen jaksotus (suorituksilla)
+
+**Tilaustulojen jaksotus (suorituksilla)** –raportti perustuu maksettuihin tilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten suoritukset ja niiden laskut. Suorituksen summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan, kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
+
+![Raportit](/img/ohjeet/tilausten-jaksotus4.png)
+
+### Tilaustulojen jaksotus (suorituksilla), digi
+
+**Tilaustulojen jaksotus (suorituksilla), digi** –raportti perustuu maksettuihin digitilauksiin. Haetaan kohdepäivänä voimassa olevat tilaukset (katkaistut tilaukset eivät mukana). Haetaan tilausten suoritukset ja niiden laskut. Suorituksen summa jaetaan tilausjaksolle. Kohdepäivänä lasketaan, kuinka paljon tilausjaksosta on jo suoritettu ja kuinka paljon suorittamatta.
+
+### Tilausten jaksotus laskuilla kuukasittain
+
+**Tilausten jaksotus laskuilla kuukausittain** –raportti näyttää kuukausikohtaisesti laskutettujen tilausten jaksotustiedot.
+
+![Raportit](/img/ohjeet/tilausten-jaksotus6.png)
+
+<!--  ### Tilausten jaksotus II
+
+Raportti perustuu aikavälillä luotuihin tai laskutettuihin tilauksiin.-->
+
+### Tilausten jaksotus aikajanalla (tiliöintien kautta)
+
+**Tilausten jaksotus aikajanalla (tiliöintien kautta)** –raportti hakee annettuna aikavälinä ainakin osittain voimassa olevat tilaukset. Tilauksiin liittyvistä summista haetaan valinnan mukaan joko laskutetut tai maksetut summat. Annettu aikaväli jaetaan kuukausille, ja joka kuun vaihteessa haetaan kuitattu (suoritettu) ja maksettava rahamäärä (velka). Jaksotus tehdään valinnan mukaan joko lehden numeroiden ilmestymisten mukaan (kaikissa kuukausissa ei välttämättä ole jaksotusta, mikäli lehti ei ilmesty) tai tilausajan perusteella (joka kuukaudessa jaksotusta tilausajan puitteissa). Summien koostamisessa käytetään laskun tiliöintejä. Laskutetuilla tilauksilla summat ovat verottomia (luontivaiheen Myyntitili MY), mutta maksetuilla verollisia (maksuvaiheen kuittaus K).  
+
+> Koska tämä on iso raportti, se suoritetaan tausta-ajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä, kun se on valmis.
+
+### Tilausten jaksotus aikajanalla (tuoterivien kautta)
+
+**Tilausten jaksotus aikajanalla (tuoterivien kautta)** –raportti hakee annettuna aikavälinä ainakin osittain voimassa olevat tilaukset. Tilauksiin liittyvistä summista haetaan valinnan mukaan joko laskutetut tai maksetut summat. Annettu aikaväli jaetaan kuukausille, ja joka kuun vaihteessa haetaan kuitattu (suoritettu) ja maksettava rahamäärä (velka). Jaksotus tehdään valinnan mukaan joko lehden numeroiden ilmestymisten mukaan (kaikissa kuukausissa ei välttämättä ole jaksotusta, mikäli lehti ei ilmesty) tai tilausajan perusteella (joka kuukaudessa jaksotusta tilausajan puitteissa). Summien koostamisessa käytetään laskun tiliöintejä. Laskutetuilla tilauksilla summat ovat verottomia (luontivaiheen Myyntitili MY), mutta maksetuilla verollisia (maksuvaiheen kuittaus K).  
+
+> Koska tämä on iso raportti, se suoritetaan tausta-ajona. Voit ladata raportin **Raportit/Tausta-ajot** -välilehdeltä, kun se on valmis.
+
 ## Saldo ja maksun palautukset
 
 ### Ennakkomaksut-tili
@@ -264,4 +320,50 @@ Palautuksen tietoja voidaan myös muokata **kopioimalla TiliöintiID raportin al
 - Tilinumeroa (asiakkaan), jolle palautus tehdään  
 
 ![Asiakaskortti - Laskutiedot](/img/ohjeet/pal-raportti4.png)
+
+## Tarkistusraportit
+
+### Laskut joiden tiliöinneissä virheitä
+
+**Laskut, joiden tiliöinneissä on virheitä** -raportti listaa laskut, joissa on virheellisiä tiliöintejä. Jos raportti löytää virheellisiä tiliöintejä, mene kyseiselle laskulle ja korjaa tiliöinnit siten, että tiliöintien summa on nolla. Näet esimerkkejä suoritusten korjaamisesta [täältä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)
+
+![Raportit](/img/ohjeet/raportit5.png)
+
+### Kirjanpitoyhteenvedon tiliöintien tarkastaminen
+
+**Kirjanpitoyhteenvedon tiliöintien tarkastaminen** -raportti hakee aikavälin laskuihin liitetyt tiliöinnit tiliöinnin kirjauspäivän perusteella. Kunkin laskun tiliöinnit summataan, ja jos summa poikkeaa nollasta, erotus näytetään punaisella. Tiliöintien summan **täytyy olla nolla**, muuten tiliöinti on **virheellinen**.  
+
+Hae raportti kuukausi kerrallaan, jolloin virheellisesti eri kuukausille kirjatut tiliöinnit selviävät. Jos raportti löytää virheellisiä tiliöintejä, mene kyseiselle laskulle ja korjaa tiliöinnit siten, että tiliöintien summa on nolla.
+
+![Raportit](/img/ohjeet/tarkistusraportti.png)
+
+### Suoritukset joiden tiliöinneissä virheitä
+
+**Suoritukset joiden tiliöinneissä virheitä** -raportti hakee saapuneista pankkisuorituksista ne, joiden tiliöinneissä on virheitä. Jos raportti löytää virheellisiä tiliöintejä, mene kyseiselle laskulle ja korjaa tiliöinnit siten, että tiliöintien summa on nolla. Näet esimerkkejä suoritusten korjaamisesta [täältä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)
+
+![Raportit](/img/ohjeet/suoritusten-tarkistus.png)
+
+### Laskut joiden summa ja suoritusten tai kuittausten summa eroaa
+
+**Laskut joiden summa ja suoritusten tai kuittausten summa eroaa** -raportti näyttää laskut, joiden laskun summan ja tiliöintien summan välillä on ero. Eroavuudet esitetään tilikohtaisesti, ja suoritusten erotus näytetään punaisella. Jos raportti löytää virheellisiä tiliöintejä, mene kyseiselle laskulle ja korjaa tiliöinnit siten, että tiliöintien summa on nolla.
+
+![Raportit](/img/ohjeet/poikkeavuudet.png)
+
+### Tilausten laskutuspyynnöt ja laskut joissa poikkeavuutta
+
+**Tilausten laskutuspyynnöt ja laskut, joissa poikkeavuutta** -raportilta voi tarkistaa, onko tilausten laskutuspyynnöissä tai laskuissa poikkeavuutta tilauksen hinnan kanssa.  Joissain tapauksissa poikkeavuudet voivat olla tarkoituksellisia — esimerkiksi jos asiakkaan kanssa on sovittu erikseen hinnasta.  
+
+Jos poikkeavuudet eivät ole tarkoituksellisia, tulee mennä kyseiselle tilaukselle ja ratkaista tilauksen hinnan ja laskutuspyyntöjen eroavuus, esimerkiksi muokkaamalla laskutuspyyntöjä.
+
+![Raportit](/img/ohjeet/lapy-poikkeavuus.png)
+
+## Graafiset raportit
+
+### Tiliöinnit graafinen
+
+**Tiliöinnit graafinen** –raportilla näet eri tilien debet- ja kredit-määrien kehittymisen valitsemallasi aikavälillä.
+
+![Raportit](/img/ohjeet/tilioinnit-graafinen.png)
+
+![Raportit](/img/ohjeet/tilioinnit-graafinen2.png)
 

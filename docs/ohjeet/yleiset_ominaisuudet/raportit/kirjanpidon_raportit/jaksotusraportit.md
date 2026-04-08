@@ -9,17 +9,17 @@ slug: /ohjeet/yleiset_ominaisuudet/jaksotusraportit
 
 Jaksotusraportit jakavat tilausmaksut kuukausille tilausjakson mukaisesti. Raporttien avulla nähdään, kuinka paljon tilausmaksuista on jo tuloutettu ja kuinka paljon on siirtovelkaa (ennakkoon saatua, vielä toimittamatonta tuloa).
 
-Jaksotusraportit löytyvät **Raportit**-välilehdeltä **Tilausten raportit** -osiosta. Raportit suoritetaan tausta-ajona ja ladataan **Raportit / Tausta-ajot** -välilehdeltä.
+ Jaksotusraportit löytyvät **Raportit**-välilehdeltä **Kirjanpidon raportit** -osiosta. Raportit suoritetaan tausta-ajona ja ladataan **Raportit / Tausta-ajot** -välilehdeltä.
 
 Tällä sivulla kuvataan kaksi keskeistä jaksotusraporttia:
 
 - **Tilausten jaksotus aikajanalla (tiliöintien kautta)** — tilauskohtainen kuukausittainen jaksotus
 - **Tilausten jaksotus siirtovelkaraportti** — kuukausittainen yhteenveto siirtovelasta ja tuloutetusta myynnistä
 
-## Milloin käytän tätä sivua vs. Tilausten raportit -yleiskatsausta
+## Milloin käytän tätä sivua vs. Kirjanpidon raportit -yleiskatsausta
 
 Käytä tätä sivua, kun tarvitset **tarkan jaksotuslogiikan** kuvauksen (hakuehdot, sarakkeet, verollisuus ja siirtovelkaraportti).
-Jos haluat ensin nähdä kaikki **Tilausten raportit** -osion raportit yhdellä sivulla, aloita [Tilausten raportit -yleiskatsauksesta](/docs/ohjeet/yleiset_ominaisuudet/raportit/tilausten_raportit/yleiskatsaus).
+Jos haluat ensin nähdä kaikki **Kirjanpidon raportit** -osion raportit yhdellä sivulla, aloita [Kirjanpidon raportit -yleiskatsauksesta](/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit).
 
 ## Hakuehdot
 Molemmilla raporteilla on samat perushakuehdot:
