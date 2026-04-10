@@ -16,5 +16,11 @@ Tiedoston rivillä lukee tiedoston nimi, selite ja tiedoston luontiaikaleima.
 
 ![Lataukset](/img/ohjeet/lataukset.png)
 
+## Tietosuojakuvaus
+
+Lataukset-kohdan tiedostot ovat vain käyttäjän saatavilla.
+
+Tieto latauksista tallennetaan järjestelmän käyttölokiin ja luovutuslokiin, jotta raporttien avaamiset ja tiedostojen vienti voidaan todentaa.
+
 
 
