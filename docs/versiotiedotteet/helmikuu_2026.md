@@ -47,6 +47,20 @@ Uusi järjestely on:
 
 ![Ilmoitusmyynti kuukausittain](/img/versiotiedotteet/raportit-uusi5.png)
 
+## Uusi lataukset toiminto
+
+Uusi **Lataukset**-toiminto kokoaa järjestelmässä muodostetut Excel- ja PDF-tiedostot yhteen paikkaan.
+
+Lataukset-ikoni löytyy ohjelman oikeasta yläkulmasta. Tiedostoja syntyy mm. laskujen tulostuksesta, raporteista ja hauista, ja ne säilyvät näkymässä 3 kuukauden ajan.
+
+Voit ladata tiedoston rivin alun ikonista ja poistaa sen rivin lopun ruksista. Rivillä näytetään tiedoston nimi, selite ja luontiaika.
+
+Lataukset-kohdan tiedostot ovat vain käyttäjän saatavilla.
+
+Tieto latauksista tallennetaan järjestelmän käyttölokiin ja luovutuslokiin, jotta raporttien avaamiset ja tiedostojen vienti voidaan todentaa.
+
+![Lataukset](/img/ohjeet/lataukset-etu.png)
+
 ## Uusia raportteja
 
 ### Tilausten jaksotus- ja siirtovelkaraportti
