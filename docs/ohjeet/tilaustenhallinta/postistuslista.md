@@ -267,11 +267,18 @@ Tämä kappale sisältää ohjeet postitusajon tekoon ja aineistojen siirtoon. *
 
 6. Siirry **Postitusten haku** -välilehdelle. Aineistot, jotka siirretään painolle/jakelijoille on **korostettu**. Klikkaa aineistopainikkeita yksi kerrallaan, ja paina **Siirrä FTP:llä** -painiketta. Kun siirto on valmis, tieto siitä tulee näkyviin.
 
+**Aineistopainikkeet:**
+- **Peruslataus**: Postille menevä tieto osoitteista, jotka ovat varhaisjakelussa, ja jotka **EIVÄT mene päiväjakeluun**
+- **Ferak**: Painoaineisto, sisältää varhaisjakelun tiedot
+- **Ulkomaalaisten kansilehdet**: Osoitetiedot ulkomaille meneviin postituksiin
+- **LAPA-yksikköaput**: Postin Lajittelupalvelun PDF-tulosteet 
+
+
 ![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko6.png)
 
 ![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko7.png)
 
-7. Kun olet siirtänyt kaikki aineistot onnistuneesti, tarkista lokilta, että muistit siirtää kaikki aineistot. Lokiin pääset **Postitusten tiedot** -välilehdeltä, painamalla **Lehti**-sarakkeesta suorittamaasi postitusta.
+1. Kun olet siirtänyt kaikki aineistot onnistuneesti, tarkista lokilta, että muistit siirtää kaikki aineistot. Lokiin pääset **Postitusten tiedot** -välilehdeltä, painamalla **Lehti**-sarakkeesta suorittamaasi postitusta.
 
 ![Postituslista - Postitusohjeet](/img/ohjeet/postitus-teko11.png)
 
