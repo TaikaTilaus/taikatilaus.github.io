@@ -52,12 +52,12 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 * [Yhdistettävät niput](/docs/ohjeet/asetukset/postitus/yhdistettavat-niput)
 * [Irtonumerot](/docs/ohjeet/asetukset/postitus/irtonumerot)
 
-### Asiointikanavat
+### Asiointipalvelut
 
-* [Tilauslomake](/docs/ohjeet/asetukset/asiointikanavat/tilauslomake)
-* [OmaPalvelu](/docs/ohjeet/asetukset/asiointikanavat/omapalvelu)
-* [OmaIlmoitus](/docs/ohjeet/asetukset/asiointikanavat/omailmoitus)
-* [Viestipohjat](/docs/ohjeet/asetukset/asiointikanavat/viestipohjat)
+* [Tilauslomake](/docs/ohjeet/asetukset/asiointipalvelut/tilauslomake)
+* [OmaPalvelu](/docs/ohjeet/asetukset/asiointipalvelut/omapalvelu)
+* [OmaIlmoitus](/docs/ohjeet/asetukset/asiointipalvelut/omailmoitus)
+* [Viestipohjat](/docs/ohjeet/asetukset/asiointipalvelut/viestipohjat)
 
 ### Käyttäjätilit
 
