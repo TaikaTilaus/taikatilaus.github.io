@@ -12,16 +12,21 @@ sidebar_position: 3
 - Painon varalehtien nipun koko
 - Muut vakioniput ja niiden sisältämät lehtimäärät
 
-Yksittäiset vakioniput **listataan** tekstikenttään:
+Uudet vakioniput **lisätään** painamalla **Lisää**-painiketta
 
-- Jokainen nippu omalle rivilleen, kentät puolipisteillä eroteltuina
-- Muodossa:
-  `Lehti;Reitti;Jättöpaikka1;Jättöpaikka2;Nippu;Kuljetuksenohjaus1;Kuljetuksenohjaus2;Vastaanottaja;Osoite;Postinumero+Postitoimipaikka;Jakelu(VARHAIS/PÄIVÄ);Kpl`
-- Sarakkeita on 12 kpl, ja niiden järjestys sekä maksimipituudet näkyvät ohjeen mallirivissä
-
-Muutokset (esim. lisälehtiä nippuun) päivitetään kyseisen vakionipun riville ja tallennetaan.
+Muutokset (esim. lisälehtiä nippuun) päivitetään kyseisen vakionipun riville painamalla Kynä-ikonista rivin edessä ja tallentamalla.
 
 - Mikäli muutos on **tilapäinen**, se tulee palauttaa päivittämällä muutostieto takaisin (normimäärään) poikkeavan postituksen jälkeen.
+
+## Yksittäisten nippujen muokkaus
+
+1. **Kynä**-ikonia painamalla voit muokata yksittäistä nippua
+2. **Valinta**-merkkiä painamalla voit tallentaa nippuun tekemäsi muutokset. **Ruksia** painamalla voit sulkea vakionipun rivin.
+3. Muokkaa nipun tietoja rivin **kenttiin** kirjoittamalla
+4. Kopioi rivi painamalla **Kopioi**-ikonia
+5. Poista rivi painamalla **Roskakori**-ikonia
+
+![Varhaisjakelu](/img/ohjeet/vakioniput-muokkaus.png)
 
 ## Nippujen päivitys
 
@@ -33,16 +38,18 @@ Muokkaa nippujen tietoja, poista tarpeettomia rivejä tai lisää uusia Exceliss
 
 ![Vakioniput](/img/ohjeet/vakionippu3.png)
 
+Valitse Excel-tiedosto **Choose File** -painikkeesta
+
+![Vakioniput](/img/ohjeet/vakionippu7.png)
+
 Tuo päivitetyt niput järjestelmään **Tuo Excelistä** -painikkeella.
 
 ![Vakioniput](/img/ohjeet/vakionippu4.png)
 
-Kopioi niput Excelistä ja liitä ne järjestelmässä olevaan kenttään.
+Näytölle ilmestyy pop-up ikkuna. Paina OK.
 
-Lopuksi klikkaa **Lue Excel sisään** -painiketta.
+![Vakioniput](/img/ohjeet/vakionippu8.png)
+
+Onnistuneesta päivityksestä tulee näytölle vihreä viesti.
 
 ![Vakioniput](/img/ohjeet/vakionippu5.png)
-
-Niput ovat tämän jälkeen päivittyneet.
-
-![Vakioniput](/img/ohjeet/vakionippu6.png)
