@@ -48,6 +48,8 @@ Jos haluat palauttaa takaisin maksettavan summan asiakkaalle, paina **Katkaise t
 
 ### 8. Saldo näkyy asiakkaan tiedoissa ja asiakaskortilla
 
+> HUOM! Jos siirsit loppusumman asiakkaan saldoksi, ohje päättyy tähän. Saldoa käytetään automaattisesti asiakkaan seuraavan laskun maksuun. 
+
 ![3. Tilauksen tiedot](/img/pikaohjeet/maksettu8.png)
 
 ![3. Tilauksen tiedot](/img/pikaohjeet/maksettu9.png)
