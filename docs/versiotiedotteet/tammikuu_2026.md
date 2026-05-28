@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.12.2025-31.1.2026 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, numerot, raportit, suoritukset, TTPA]
