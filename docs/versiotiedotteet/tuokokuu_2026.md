@@ -61,3 +61,9 @@ Raportin hakuehtoja ovat:
 
 ![Raportit](/img/versiotiedotteet/alvmyynnit.png)
 
+### Avoimet laskut -raporttia muokattu
+
+**Avoimet laskut** -raportin Excel-versioon saa nyt mukaan laskujen tuoterivit sekä laskun viitenumeron
+
+![Raportit](/img/versiotiedotteet/avoimet-laskut.png)
+
