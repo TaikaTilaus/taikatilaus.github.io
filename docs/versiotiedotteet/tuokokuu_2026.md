@@ -67,3 +67,9 @@ Raportin hakuehtoja ovat:
 
 ![Raportit](/img/versiotiedotteet/avoimet-laskut.png)
 
+### Laskupäiväkirja-raporttia muokattu
+
+- Raportista näkee nyt asiakkaan Y-tunnuksen, jos sellainen on asiakkaan tiedoissa
+<!-- - Raportin lopussa näkee yhteenlaskettuna kuukausisummat  -->
+
+![Raportit](/img/versiotiedotteet/laskupaivakirja.png)
