@@ -73,3 +73,4 @@ Raportin hakuehtoja ovat:
 <!-- - Raportin lopussa näkee yhteenlaskettuna kuukausisummat  -->
 
 ![Raportit](/img/versiotiedotteet/laskupaivakirja.png)
+*Kuva demo-järjestelmästä, keksittyä tietoa.*
