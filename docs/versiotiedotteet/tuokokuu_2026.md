@@ -5,7 +5,7 @@ image: /img/social.png
 keywords: [versiotiedote]
 ---
 
-# Huhti-Tuokokuu 2026
+# Huhti-Toukokuu 2026
 
 Uudistuksia TaikaTilaus-tuotteeseen 1.4.-31.5.2026 välisenä aikana.
 
@@ -16,8 +16,6 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.4.-31.5.2026 välisenä aikana.
 Vakionippujen muokkausta on muutettu helppokäyttöisemmäksi. Entinen versio aiheutti liikaa virheitä järjestelmässä. Löydät ohjeet uuden näkymän käyttöön [täältä](https://support.taikatilaus.fi/docs/ohjeet/asetukset/postitus/vakioniput).
 
 ![Varhaisjakelu](/img/ohjeet/vakioniput.png)
-
-<!-- ## Tietoturvaparannuksia integraatioihin -->
 
 ## Raportit
 
@@ -70,7 +68,8 @@ Raportin hakuehtoja ovat:
 ### Laskupäiväkirja-raporttia muokattu
 
 - Raportista näkee nyt asiakkaan Y-tunnuksen, jos sellainen on asiakkaan tiedoissa
-<!-- - Raportin lopussa näkee yhteenlaskettuna kuukausisummat  -->
+- Raportin lopussa näkee yhteenlaskettuna kuukausittaiset summat
 
 ![Raportit](/img/versiotiedotteet/laskupaivakirja.png)
 *Kuva demo-järjestelmästä, keksittyä tietoa.*
+
