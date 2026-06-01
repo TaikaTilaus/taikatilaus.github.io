@@ -2,7 +2,7 @@
 sidebar_position: 1
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.4.-31.5.2026 välisenä aikana
 image: /img/social.png
-keywords: [versiotiedote, vakioniput, raportit, tuottoerittely, ALV-myynnit, avoimet laskut, laskupäiväkirja]
+keywords: [versiotiedote, vakioniput, raportit, tuottoerittely, tilaus- ja laskutusennuste, ALV-myynnit, avoimet laskut, laskupäiväkirja]
 ---
 
 # Huhti-Toukokuu 2026
@@ -35,11 +35,11 @@ Aktivoimalla **Näytä rivierittely** -kentän, saat raportin loppuun tuottojen 
 
 ![Raportit](/img/versiotiedotteet/tuottoerittely.png)
 
-<!-- ### Tilaus ja laskutusennuste
+### Tilaus ja laskutusennuste
 
 Ohjelma jatkaa (ei oikeasti) valitun lehden tilauksia päivä kerrallaan kohdepäivään saakka. Jatkamisen yhteydessä luodaan laskut (ei oikeasti). Ohjelma näyttää jokaiselle päivälle erikseen kuinka monta tilausta on jatkettu ja millä summilla laskuja on tehty. Huomaa, että tyypillisesti lasku luodaan vasta tilauksen alkamispäivänä eli tilauksen jatkamisesta seuraavana päivänä.
 
-Raporttia voi käyttää tilaustulojen ennustamiseen.  -->
+Raporttia voi käyttää tilaustulojen ennustamiseen.
 
 ### ALV-myynnit maittain
 
