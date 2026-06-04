@@ -11,6 +11,28 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.4.-31.5.2026 välisenä aikana.
 
 > Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
+<!-- ## Laskujen lähetysyhteenveto
+
+**Laskut/Laskujen haku** -välilehdeltä löytyy uusi laskujen lähetysyhteenveto, joka näytää halutulta aikaväliltä lähetettyjen laskujen yhteenlasketut summat kanavittain (laskuja yhteensä, kirje, verkkolasku, sähköposti).
+
+> HUOM! Yhteenveto lasketaan lähetettyjen laskujen summien perusteella. Saman laskun summa voi näkyä yhteenvedossa useaan kertaan, jos laskusta on lähetetty maksumuistutuksia tai jos lasku on lähetetty uudelleen.
+
+Voit hakea laskuja hakuehdoilla:
+- Edellinen viikko
+- Kuluva kuukausi
+- Edellinen kuukausi
+- Kuluva vuosi
+- Edellinen vuosi
+- Tietty kuukausiväli 
+
+Voit viedä tiedot myös Exceliin painamalla **Vie tiedot Exceliin** -painiketta. 
+
+![Laskujen haku](/img/versiotiedotteet/lahetysyhteenveto1.png)
+*Löydät yhteenvedon Laskujen haku -välilehdeltä*
+
+![Lähetysyhteenveto](/img/versiotiedotteet/lahetysyhteenveto.png)
+*Voit valita haluamasi aikavälin, jolta tarkkailet lähetettyjen laskujen määrää.* -->
+
 ## Vakionippujen muokkausta on uudistettu
 
 Vakionippujen muokkausta on muutettu helppokäyttöisemmäksi. Entinen versio aiheutti liikaa virheitä järjestelmässä. Löydät ohjeet uuden näkymän käyttöön [täältä](https://support.taikatilaus.fi/docs/ohjeet/asetukset/postitus/vakioniput).
@@ -40,6 +62,16 @@ Aktivoimalla **Näytä rivierittely** -kentän, saat raportin loppuun tuottojen 
 Ohjelma jatkaa (ei oikeasti) valitun lehden tilauksia päivä kerrallaan kohdepäivään saakka. Jatkamisen yhteydessä luodaan laskut (ei oikeasti). Ohjelma näyttää jokaiselle päivälle erikseen kuinka monta tilausta on jatkettu ja millä summilla laskuja on tehty. Huomaa, että tyypillisesti lasku luodaan vasta tilauksen alkamispäivänä eli tilauksen jatkamisesta seuraavana päivänä.
 
 Raporttia voi käyttää tilaustulojen ennustamiseen.
+
+Raportin hakuehdoiksi voit valita haluamasi lehden ja kohdepäivän, johon saakka laskutusta ennustetaan. 
+
+Raportti ajetaan taustajona ja sen saa tulostettua vain Excel-muotoisena.
+
+![Raportit](/img/versiotiedotteet/laskutusennuste1.png)
+*Raportti löytyy tilausten raporteista.*
+
+![Raportit](/img/versiotiedotteet/laskutusennuste.png)
+*Raportin hakuehdot*
 
 ### ALV-myynnit maittain
 
@@ -71,5 +103,8 @@ Raportin hakuehtoja ovat:
 - Raportin lopussa näkee yhteenlaskettuna kuukausittaiset summat
 
 ![Raportit](/img/versiotiedotteet/laskupaivakirja.png)
+
+![Raportit](/img/versiotiedotteet/laskupaivakirja2.png)
+
 *Kuva demo-järjestelmästä, keksittyä tietoa.*
 
