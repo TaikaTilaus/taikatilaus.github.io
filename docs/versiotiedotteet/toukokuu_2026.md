@@ -13,7 +13,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.4.-31.5.2026 välisenä aikana.
 
 ## Laskujen lähetysyhteenveto
 
-**Laskut/Laskujen haku** -välilehdeltä löytyy uusi laskujen lähetysyhteenveto, joka näytää halutulta aikaväliltä lähetettyjen laskujen yhteenlasketut summat kanavittain (laskuja yhteensä, kirje, verkkolasku, sähköposti).
+**Laskut/Laskujen haku** -välilehdeltä löytyy uusi laskujen lähetysyhteenveto, joka näyttää halutulta aikaväliltä lähetettyjen laskujen yhteenlasketut summat kanavittain (laskuja yhteensä, kirje, verkkolasku, sähköposti).
 
 > HUOM! Yhteenveto lasketaan lähetettyjen laskujen summien perusteella. Saman laskun summa voi näkyä yhteenvedossa useaan kertaan, jos laskusta on lähetetty maksumuistutuksia tai jos lasku on lähetetty uudelleen.
 
@@ -49,7 +49,7 @@ Uusia hakuehtoja ovat:
 - **Stripen uusima tilaus:** hae Stripen kautta uusitut tilaukset
 - **Näytä jakelutapa:** hakutulos näyttää tilauksen jakelutavan (esim. PISA, Posti varhaisjakelu, Posti päiväjakelu)
     - jakelutapa haetaan tilaajan uusimman postituksen tiedoista. Jos postitus on yli 1kk vanha, jakelutapana näytetään "postitus yli 1kk vanha"
-- **Näytä käyttäjätunnukset:** Näyttää kontaktiin liitetyt tunnukset ja niiden tyypit (päätunnus, perhetunnus)
+- **Näytä käyttäjätunnukset:** näyttää kontaktiin liitetyt käyttäjätunnukset ja niiden tyypit (päätunnus, perhetunnus)
 
 Huomaa, että jakelutapa ja käyttäjätunnukset näkyvät vain lataamalla hakutuloksista Excelin. 
 
@@ -65,7 +65,7 @@ Kun valitset raportin Tulostusmuodoksi **Näytölle**, raportti tulostuu nyt rap
 
 ### Tuottoerittely printti/digi -raportti
 
-Raportti hakee laskujen kirjanpitotiliöinneistä myyntitiliöinnit kirjauspäivän mukaan. Tuottolaji päätellään laskun tyypistä: **TILAUS**, **ILMOITUS** tai **ERILLIST**. Tilaustuotot luokitellaan sähköiseksi, jos tuotteella on **Digituote**-asetus päällä. Ilmoitustuotot luokitellaan painetuksi, jos kanava on **LEHTI** tai **VAIHTOILMOITUS**. Muut ilmoitustuotot luokitellaan sähköiseksi. Jos tilaustuotolta puuttuu tuote tai ilmoitustuotolta kanava, rivi näkyy **Ei jaoteltu** -sarakkeessa.
+Raportti hakee laskujen kirjanpitotiliöinneistä myyntitiliöinnit kirjauspäivän perusteella. Tuottolaji päätellään laskun tyypistä: **TILAUS**, **ILMOITUS** tai **ERILLIST**. Tilaustuotot luokitellaan sähköiseksi, jos tuotteella on **Digituote**-asetus päällä. Ilmoitustuotot luokitellaan painetuksi, jos kanava on **LEHTI** tai **VAIHTOILMOITUS**. Muut ilmoitustuotot luokitellaan sähköiseksi. Jos tilaustuotolta puuttuu tuote tai ilmoitustuotolta kanava, rivi näkyy **Ei jaoteltu** -sarakkeessa.
 
 Voit jättää raportilta pois valitsemiasi myyntitilejä.
 
@@ -96,14 +96,14 @@ Tilauslaskujen ALV-raportti laskun tuoteriveiltä maittain. Raportista saa eritt
 Raportin hakuehtoja ovat:
 
 - Valitse tietty **tuoteryhmä/tuotteet** raportille tai kaikki tuotteet
-- Valise tilauksen **toimistusmaan maakoodi** tai kaikki
+- Valitse tilauksen **toimistusmaan maakoodi** tai kaikki
     - haetaan vain valittuihin maakoodeihin liittyvät tilaukset ja niiden laskut
 - **Hakuaikaväli**
 - **Asiakastyyppi:** Kaikki, Yritysasiakkaat (VAT- tai Y-tunnus löytyy), Henkilöasiakkaat (ei VAT- tai Y-tunnusta) 
     - haetaan vain valitun asiakastyyppiin liittyvät laskut
 - **Raportin tarkkuus:** Erittely tai Yhteenveto
     - **Erittely** näyttää kaikki laskut
-    - **Yhteenveto** näyttää laskujen yhteen lasketut summat maittain
+    - **Yhteenveto** näyttää laskujen yhteenlasketut summat maittain
 
 ![Raportit](/img/versiotiedotteet/alvmyynnit.png)
 
