@@ -51,7 +51,7 @@ Uusia hakuehtoja ovat:
     - jakelutapa haetaan tilaajan uusimman postituksen tiedoista. Jos postitus on yli 1kk vanha, jakelutapana näytetään "postitus yli 1kk vanha"
 - **Näytä käyttäjätunnukset:** näyttää kontaktiin liitetyt käyttäjätunnukset ja niiden tyypit (päätunnus, perhetunnus)
 
-Huomaa, että jakelutapa ja käyttäjätunnukset näkyvät vain lataamalla hakutuloksista Excelin. 
+Huomaa, että jakelutapa ja käyttäjätunnukset näkyvät vain lataamalla hakutuloksista Excelin. Jatkettujen tilausten sarakkeet näkyvät myös Excelissä. Kun käytät näitä hakuehtoja, ohjelma luo automaattisesti Excelin. 
 
 ![Haut](/img/versiotiedotteet/haut-jatketut.png)
 
