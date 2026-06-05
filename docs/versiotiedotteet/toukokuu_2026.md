@@ -11,7 +11,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.4.-31.5.2026 välisenä aikana.
 
 > Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
 
-<!-- ## Laskujen lähetysyhteenveto
+## Laskujen lähetysyhteenveto
 
 **Laskut/Laskujen haku** -välilehdeltä löytyy uusi laskujen lähetysyhteenveto, joka näytää halutulta aikaväliltä lähetettyjen laskujen yhteenlasketut summat kanavittain (laskuja yhteensä, kirje, verkkolasku, sähköposti).
 
@@ -31,13 +31,27 @@ Voit viedä tiedot myös Exceliin painamalla **Vie tiedot Exceliin** -painiketta
 *Löydät yhteenvedon Laskujen haku -välilehdeltä*
 
 ![Lähetysyhteenveto](/img/versiotiedotteet/lahetysyhteenveto.png)
-*Voit valita haluamasi aikavälin, jolta tarkkailet lähetettyjen laskujen määrää.* -->
+*Voit valita haluamasi aikavälin, jolta tarkkailet lähetettyjen laskujen määrää.*
 
 ## Vakionippujen muokkausta on uudistettu
 
 Vakionippujen muokkausta on muutettu helppokäyttöisemmäksi. Entinen versio aiheutti liikaa virheitä järjestelmässä. Löydät ohjeet uuden näkymän käyttöön [täältä](https://support.taikatilaus.fi/docs/ohjeet/asetukset/postitus/vakioniput).
 
 ![Varhaisjakelu](/img/ohjeet/vakioniput.png)
+
+## Hauissa on uusia hakuehtoja
+
+**Haut**-välilehdelle on lisätty uusia hakuehtoja. 
+
+Uusia hakuehtoja ovat:
+- **Jatkettu tilaus:** hae vain jatketut kestotilaukset
+- **Ei jatkettu tilaus:** hae kaikki tilaukset, paitsi jatketut kestotilaukset
+- **Stripen uusima tilaus:** hae Stripen kautta uusitut tilaukset
+- **Näytä jakelutapa:** hakutulos näyttää tilauksen jakelutavan (esim. PISA, Posti varhaisjakelu, Posti päiväjakelu)
+    - jakelutapa haetaan tilaajan uusimman postituksen tiedoista. Jos postitus on yli 1kk vanha, jakelutapana näytetään "postitus yli 1kk vanha"
+- **Näytä käyttäjätunnukset:** Näyttää kontaktiin liitetyt tunnukset ja niiden tyypit (päätunnus, perhetunnus)
+
+![Haut](/img/versiotiedotteet/haut-jatketut.png)
 
 ## Raportit
 
