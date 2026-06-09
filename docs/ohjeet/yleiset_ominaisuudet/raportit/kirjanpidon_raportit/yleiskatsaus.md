@@ -25,6 +25,8 @@ Raportilla näytetään myös tiliöintitapahtumaan liittyvä **lasku** ja **las
 
 **Laskupäiväkirja**-raportille haetaan annetulla aikavälillä päivätyt laskut, ja raportilla näytetään laskujen summat ja maksutiedot verrattuna kuluvaan päivään.
 
+Raportilta näkee asiakkaan **Y-tunnuksen**, jos sellainen on löytyy asiakkaan tiedoista. Raportin lopusta näytetään yhteenlaskettuna **kuukausittaiset summat**. 
+
 ![Raportit](/img/ohjeet/laskupaivakirja.png)
 
 <!--  ### Laskupäiväkirja Digi
@@ -82,6 +84,16 @@ Raportin lopussa esitetään:
 Tilinpäätöstä varten (esim. kalenterivuosi) kohdepäiväksi asetetaan **31.12.**, jolloin huomioidaan kaikki suoritukset, jotka ovat tulleet ennen klo **23:59**. 
 
 Raportin lopussa näytetään **asiakkaat (asiakasnumero ja nimi)** sekä se, kuinka paljon yksittäisillä asiakkailla on avoimia maksuja.
+
+Raportin hakuehdot ovat:
+- **Laskutyyppi:** KAIKKI, ILMOITUS, TILAUS, ERILLIST
+- **Ryhmittele maksajittain:** ryhmittele avoimet laskut maksajan perusteella
+- **Näytä maksumuistutuspäivät**: näytä maksumuistutuksien päivät ja eräpäivät
+- **Huomioi myöhemmin maksetut laskut**: raportti ei näytä kohdepäivän jälkeen maksettuja laskuja. Osittain maksetuista laskuista näytetään jäljellä oleva summa
+- **Näytä poistetut laskut**: raportti ei oletuksena näytä järjestelmästä poistettuja laskuja. Jos haluat nähdä poistetut laskut, aktivoi tämä kenttä.
+- **Näytä laskun tuoterivit (vain Excel)**: aktivoimalla kentän raporttiin tulee näkyviin laskun tuoterivit ja viitenumero. Tämä toiminto toimii vain raportin Excel-versiossa.
+
+**Kohdepäivä:** päivä, jolta avoimet laskut haetaan.
 
 ![Raportit](/img/ohjeet/avoimet-laskut.png)
 
@@ -150,6 +162,18 @@ Raportin määrityksistä voidaan valita:
 - **Tulostusmuoto** (Näytölle, Excel, PDF)
 
 Raportin lopussa esitetään **yhteensä-rivi**, jossa näkyy kaikkien rivien summat.
+
+![Raportit](/img/versiotiedotteet/alvmyynnit.png)
+
+### Tuottoerittely printti/digi -raportti
+
+Raportti hakee laskujen kirjanpitotiliöinneistä myyntitiliöinnit kirjauspäivän perusteella. Tuottolaji päätellään laskun tyypistä: **TILAUS**, **ILMOITUS** tai **ERILLIST**. Tilaustuotot luokitellaan sähköiseksi, jos tuotteella on **Digituote**-asetus päällä. Ilmoitustuotot luokitellaan painetuksi, jos kanava on **LEHTI** tai **VAIHTOILMOITUS**. Muut ilmoitustuotot luokitellaan sähköiseksi. Jos tilaustuotolta puuttuu tuote tai ilmoitustuotolta kanava, rivi näkyy **Ei jaoteltu** -sarakkeessa.
+
+Voit jättää raportilta pois valitsemiasi myyntitilejä.
+
+Aktivoimalla **Näytä rivierittely** -kentän, saat raportin loppuun tuottojen erittelyt rivi kerrallaan. 
+
+![Raportit](/img/versiotiedotteet/tuottoerittely.png)
 
 ### Luottotappiot
 

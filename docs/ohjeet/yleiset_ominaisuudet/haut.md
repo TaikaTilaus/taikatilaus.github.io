@@ -47,7 +47,7 @@ Tilauksia voi hakea seuraavilla hakuehdoilla:
 ### Haun lisäkriteerit
 
 Hakuihin voidaan aktivoida **lisäkriteerejä**, joiden avulla hakutulokset rajautuvat vain ne ehdot täyttäviin asiakkaisiin tai tilauksiin.  
-Lisäkriteerit soveltuvat erityisesti markkinointilistojen muodostamiseen.
+Lisäkriteerit soveltuvat erityisesti markkinointilistojen muodostamiseen. Kriteerin vieressä oleva vihreä **Excel**-ikoni tarkoittaa, että hausta muodostetaan automaattisesti Excel. 
 
 Voit aktivoida lisäkriteerejä, kuten:
 
@@ -60,13 +60,21 @@ Voit aktivoida lisäkriteerejä, kuten:
 - **Tuotteen hinta yli 0 euroa** – haetaan tilaukset, joissa tuotteen hinta on yli 0 €  
 - **Tuotteen hinta 0 euroa** – haetaan tilaukset, joissa tuotteen hinta on 0 € (esim. lehtien vapaakappaleet)  
 - **Ei katkaistuja** – jätetään pois tilaukset, jotka on katkaistu  
-- **Sähköpostiosoite** – haetaan asiakkaat, joilla on sähköpostiosoite  
+- **Sähköpostiosoite** – haetaan vain asiakkaat, joilla on sähköpostiosoite  
 - **Tuotetyyppi vaihtunut** – tilauksen tyyppi on muuttunut (esim. digilehti vaihtunut paperilehdeksi)  
 - **Edell. tilauksesta väh. 14 vrk** – saman lehden edellisen tilauksen päättymisestä on kulunut vähintään 14 päivää  
 - **Tilaus lehtikohtaisesti** – paperi- ja digitilaukset samasta lehdestä tulkitaan samaksi tuotteeksi  
 - **Karsi tuotetyyppiä vaihtaneet** – jätetään pois tilaukset, joiden tyyppi on vaihtunut edellisestä tilauksesta  
+- **Tilaaja on eri kuin maksaja** - haetaan vain tilaukset, jossa tilaaja on eri kuin maksaja (lahjatilaukset, lehtivälittäjän kautta tilatut)
+- **Jatkettu tilaus** - haetaan vain kestojatkon jatkamat kestotilaukset 
+- **Ei jatkettu tilaus** - haetaan kaikki tilaukset, paitsi kestojatkon jatkamat kestotilaukset (uudet tilaukset, määräaikaiset tilaukset)
+- **Stripen uusima tilaus** - haetaan vain Stripen uusimat kestotilaukset
+
+Seuraavien hakukriiterien tulokset näytetään vain Excelissä:
+
 - **Näytä luodut laskut sekä laskutuspyynnöt** – hakutuloksiin sisällytetään tilauksiin liittyvät laskut ja laskutuspyynnöt  
-- **Näytä haun muodostus (admin)** – näytetään, miten haku on muodostunut (hakuehdot ja niihin liittyvät lisäehdot)
+- **Näytä jakelutapa** - hakutuloksissa näytetään tilaajan tilauksen jakelutapa (esim. Posti päiväjakelu, varhaisjakelu, PISA, jne). Jos viimeisestä postituksesta on yli 1 kuukautta, näytetään jakelutavan sijaan tieto "postitus yli 1kk vanha". Huomioi, että lehti pitää olla valittuna, että haku toimii.
+- **Näytä käyttäjätunnukset** - hakutuloksissa näytetään tilaajan liitetyt käyttäjätunnukset (päätunnus, perhetunnukset) ja käyttäjän viimeisin kirjautuminen
 
 ![Haut-välilehti](/img/ohjeet/haut4.png)
 

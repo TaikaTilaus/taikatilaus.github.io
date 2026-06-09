@@ -106,6 +106,16 @@ Asiakkaan tilaus on katkaistu, ja toimitetuista lehdistä on luotu loppulasku ta
 
 ![Raportit](/img/ohjeet/uudet-tilaukset-raportti2.png)
 
+### Tilaus ja laskutusennuste
+
+**Tilaus ja laskutusennuste** -raportti voi käyttää tilaustulojen ennustamiseen. Ohjelma jatkaa (ei oikeasti) valitun lehden tilauksia päivä kerrallaan kohdepäivään saakka. Jatkamisen yhteydessä luodaan laskut (ei oikeasti). Ohjelma näyttää jokaiselle päivälle erikseen kuinka monta tilausta on jatkettu ja millä summilla laskuja on tehty. Huomaa, että tyypillisesti lasku luodaan vasta tilauksen alkamispäivänä eli tilauksen jatkamisesta seuraavana päivänä.
+
+Raportin hakuehdoiksi voit valita haluamasi **lehden** ja **kohdepäivän**, johon saakka laskutusta ennustetaan. 
+
+Raportti ajetaan **taustajona** ja sen saa tulostettua vain **Excel**-muotoisena.
+
+![Raportit](/img/versiotiedotteet/laskutusennuste.png)
+
 ## Markkinointi ja soittolistat
 
 ### Päättyvät tilaukset, joita uudempi tilaus löytyy

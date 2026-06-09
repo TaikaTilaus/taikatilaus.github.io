@@ -451,6 +451,29 @@ Listausnäkymässä voidaan valita laskuja yksitellen tai kaikki laskut kerralla
 
 ![Laskujen haku -välilehti](/img/ohjeet/laskut-vl3.png)
 
+### Laskujen lähetysyhteenveto
+
+Laskujen **lähetysyhteenveto** näyttää halutulta aikaväliltä lähetettyjen laskujen yhteenlasketut summat kanavittain (laskuja yhteensä, kirje, verkkolasku, sähköposti).
+
+![Laskujen haku](/img/versiotiedotteet/lahetysyhteenveto1.png)
+*Löydät yhteenvedon Laskujen haku -välilehdeltä*
+
+Voit hakea laskuja hakuehdoilla:
+
+- Edellinen viikko
+- Kuluva kuukausi
+- Edellinen kuukausi
+- Kuluva vuosi
+- Edellinen vuosi
+- Tietty kuukausiväli
+
+Voit viedä tiedot myös Exceliin painamalla **Vie tiedot Exceliin** -painiketta.
+
+> HUOM! Yhteenveto lasketaan lähetettyjen laskujen summien perusteella. Saman laskun summa voi näkyä yhteenvedossa useaan kertaan, jos laskusta on lähetetty maksumuistutuksia tai jos lasku on lähetetty uudelleen.
+
+![Lähetysyhteenveto](/img/versiotiedotteet/lahetysyhteenveto.png)
+*Voit valita haluamasi aikavälin, jolta tarkkailet lähetettyjen laskujen määrää.*
+
 ### Laskujen haku ja suodatus välilehdeltä
 
 ![Laskujen haku -välilehti](/img/ohjeet/laskut-vl5.png)
