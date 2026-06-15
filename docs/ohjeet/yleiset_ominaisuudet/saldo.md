@@ -29,16 +29,16 @@ Ennakkomaksujen tiliöintiä varten tarvitaan omat tilit:
 
 Suosittelemme keskustelemaan tileistä kirjanpitäjän kanssa.
 
-### Erillistuotteet
+### Erillistuote
 
-Ennakkomaksujen tuoterivejä ja niiden tiliöintejä varten tulee luoda omat erillistuotteet. Jos käytössä on useampi lehti, jokaiselle tulee luoda omat vastaavat erillistuotteet.
+Saldon käyttöä varten pitää luoda erillistuote, joka näkyy laskulla tuoterivinä, kun saldoa käytetään sen maksamiseen. 
 
-Erillistuotteelle asetetaan seuraavat tiedot (esimerkkinä rahan palautus):
+Erillistuotteelle asetetaan seuraavat tiedot:
 
 - **Tuotenumero** (oma valinnainen)
 - **Tuoteryhmä**, esim. *Ennakkomaksu*
-- **Tuotenimi**, esim. *Ennakkomaksun palautus [lehti]*
-- **Myyntitili** (tili, jonka kautta rahan palautus hoidetaan)
+- **Tuotenimi**, esim. *Ennakkomaksun käyttö [lehti]*
+- **Myyntitili** (tili, johon saldo tiliöidään)
 - **ALV-velkatili** (tilausten ALV-velkatili 10 %)
 - **Myyntisaamistili** (myyntisaamistili, jota käytetään kyseisen lehden myyntisaamisissa)
 
@@ -46,7 +46,7 @@ Erillistuotteelle asetetaan seuraavat tiedot (esimerkkinä rahan palautus):
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus2.png)
 
-### Pääkäyttäjäasetukset
+### Ylläpitoasetukset
 
 Näitä asetuksia tarvitaan saldo- ja rahanpalautus-toiminnon käyttöönottoon.
 
@@ -54,6 +54,9 @@ Näitä asetuksia tarvitaan saldo- ja rahanpalautus-toiminnon käyttöönottoon.
 - **Saldon käytön TuoteID:** sen erillistuotteen TuoteID, jota käytetään tuoterivin luomiseen laskulle, kun saldoa käytetään laskun maksamiseen.
 - **Maksun palautusten tili:** tili, jolle palautettavat rahat kirjataan odottamaan palautusta ja jolta palautukset kuitataan maksetuiksi.
 - **Maksetun laskun rahan palautus** -kentän aktivoimalla laskulle näkyy painike, jonka kautta lasku voidaan hyvittää ja sen maksettu summa siirtää asiakkaalle palautettavaksi.
+
+![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-pal7.png)
+*Löydät asetukset: Asetukset/Ylläpito-välilehdeltä.*
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
 
