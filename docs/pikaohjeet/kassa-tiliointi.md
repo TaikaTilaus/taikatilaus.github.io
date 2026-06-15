@@ -21,5 +21,5 @@ sidebar_position: 21
 
 ![4. Suorituksen lisääminen](/img/pikaohjeet/kassamaksu4.png)
 
-### 5. Suoritus näkyy nyt ja laskun tilata muuttuu maksetuksi
+### 5. Suoritus näkyy nyt ja laskun tila muuttuu maksetuksi
 ![5. Myynnit ja suoritukset-kenttä](/img/pikaohjeet/kassamaksu5.png)
