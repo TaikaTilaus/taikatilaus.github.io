@@ -87,7 +87,7 @@ Lomakkeelle lisätään tai muokataan **tuotteen perustietoja**, kuten:
 - **Hinta veroton**, **ALV-prosentti** ja **Hinta verollinen** –kentissä määritellään tuotteelle oletushintatiedot, joita voi tarvittaessa muuttaa tilauksen luomisen jälkeen.
 - **Hinta veroton** -tiedon on aina oltava viidellä (5) desimaalilla. Ohjelma pyöristää sen automaattisesti laskua luotaessa.
 - Verottomia ja verollisia hintoja voi laskea uudelleen syötettyjen tietojen perusteella **Laske veroton hinta verollisesta** / **Laske verollinen hinta uudelleen** -painikkeita painamalla.
-- **Erämaksut:** Jos lasku maksetaan erissä, ohjelma laskee erien hinnat yleensä automaattisesti, mutta ne voi myös määritellä erikseen tähän lomakkeeseen.
+- **Erämaksut:** Jos lasku maksetaan erissä, ohjelma laskee erien hinnat yleensä automaattisesti, mutta ne voi myös määritellä erikseen tähän lomakkeeseen, jos hinta on esimerkiksi 2-eräisellä tuotteella korkeampi kuin 1-erässä maksettavan tilauksen hinta. Erähinnat ovat tilauksen kokonaishintoja, joten laita kohtaan tuotteen varsinainen hinta, ei yhden erän hintaa. Esim. tuote olisi normaalisti 123 euroa, mutta 2-erässä maksettuna 130 euroa. 
 
 ![Tilaustuotteet - Tuotteen lisääminen](/img/ohjeet/tilaustuotteet-lisaaminen2.png)
 
