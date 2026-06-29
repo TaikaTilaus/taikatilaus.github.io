@@ -13,7 +13,7 @@ sidebar_position: 4
 
 Julkaisuja voi muuttaa tai poistaa klikkaamalla **Nimi**-sarakkeessa olevaa julkaisun nimeä.
 
-Voit viedä julkaisut Exceliin haluamastasi päivämäärästä lähtien antamalla päivämäärä **Vie Exceliin alkaen** -kenttään ja painamalla **Vie Exceliin** -painiketta. Excel-ilmestyy ohjelman yläpalkkiin ladattavaksi. 
+Voit viedä julkaisut Exceliin haluamastasi päivämäärästä lähtien antamalla päivämäärän **Vie Exceliin alkaen** -kenttään ja painamalla **Vie Exceliin** -painiketta. Jos jätät kentän tyhjäksi, tulee Exceliin kaikki julkaisut. Excel-ilmestyy ohjelman yläpalkkiin ladattavaksi. 
 
 ### Julkaisun lisääminen
 
