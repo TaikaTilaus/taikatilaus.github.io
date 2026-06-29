@@ -4,14 +4,16 @@ sidebar_position: 4
 
 # Julkaisut
 
+![Julkaisut](/img/ohjeet/julkaisut.png)
+*Julkaisut-välilehti*
+
 **Julkaisut**-välilehdellä voi muokata ja lisätä julkaisuja. **Julkaisu on tuote**, jossa mainos tai ilmoitus esitetään, kuten lehti, radiomainos, uutiskirje tai www-sivu.  
 
 **Lisää**-painikkeella voidaan lisätä yksittäisiä julkaisuja eri kanavia varten.  
 
 Julkaisuja voi muuttaa tai poistaa klikkaamalla **Nimi**-sarakkeessa olevaa julkaisun nimeä.
 
-![Julkaisut](/img/ohjeet/julkaisut.png)
-*Julkaisut-välilehti*
+Voit viedä julkaisut Exceliin haluamastasi päivämäärästä lähtien antamalla päivämäärä **Vie Exceliin alkaen** -kenttään ja painamalla **Vie Exceliin** -painiketta. Excel-ilmestyy ohjelman yläpalkkiin ladattavaksi. 
 
 ### Julkaisun lisääminen
 
