@@ -320,7 +320,7 @@ Tiliöintejä/suorituksia voi lisätä laskulle **Lisää tiliöinti laskulle** 
 ![Suoritukset](/img/ohjeet/suoritukset22.png)
 *Summa suorituksen kirjauksen jälkeen*
 
-### (kokonaan) Maksamatta jääneen laskun kirjaaminen:
+### Maksamatta jääneen laskun kirjaaminen:
 - Asiakkaan alkuperäinen Lasku oli 50 € kirjataan
 - Pankkitilille (S) +0,00 €
 - Myyntisaamisiin (K) -50,00 € (kuittaa laskun maksetuksi)
