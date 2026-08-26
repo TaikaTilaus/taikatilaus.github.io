@@ -62,3 +62,11 @@ Kyllä, Asiamiesnumeron saa lisättyä tilauslomakkeen "Viitteenne" -kenttään 
 Kyllä, Asetuksien kautta voi kaikkia tuotteiden tietoja muuttaa. Esim. hinnanmuutos astuu voimaan tallennushetkellä, mutta ei vaikuta jo luotuihin tilauksiin, joissa sitä on käytetty.
 
 <a href="../pikaohjeet/tuotteen-hinnanmuutos">Lue pikaohje</a>
+
+### Miten palautan rahat tilaukseen, joka on maksettu koontilaskulla?
+
+Rahat voi palauttaa [Maksetun tilauksen katkaisu](/docs/pikaohjeet/maksetun-tilauksen-katkaisu) -toiminnolla. Palautettavaa summaa on kuitenkin muokattava vastaamaan yksittäisen tilauksen hintaa ja kestoa, koska ohjelma laskee summan automaattisesti koko koontilaskun perusteella.
+
+Syötä katkaistavasta tilauksesta palautettava summa **Palautettava summa** -kenttään.
+
+![Tilausnäkymä](/img/fqa/takaisin-maksettava.png)
