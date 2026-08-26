@@ -52,3 +52,9 @@ Tiliöinti tehdään Lisää uusi suoritus –painikkeen kautta. Pankkitiliksi v
 Kyllä tulee, Suoritukset-välilehdellä voidaan suodattaa vain virheelliset listaukselle, josta ne on helpompi käsitellä manuaalisesti (esim. liittää oikealle laskulle).
 
 <a href="../pikaohjeet/suorituksen-tiliointi">Lue pikaohje</a>
+
+### Asiakas on tehnyt tilauksen/itsepalveluilmoituksen ja niistä muodostui vain nollalasku, miksei laskua tehty?
+
+Jos asiakkaalla näkyy nollalasku ja tilaus, jonka päivämäärät ovat pitkällä tulevaisuudessa (esim. vuosi on 2086), tilaus on luonnostilassa ja odottaa laskun maksamista. Tällaisia tilausluonnoksia syntyy, kun asiakas aloittaa tilauksen maksamisen maksupalvelussa, mutta jättää maksun kesken. Jos maksua ei koskaan suoriteta loppuun, automaattinen ajo poistaa tilausluonnokset ja niihin liittyvät nollalaskut järjestelmästä noin viiden päivän kuluessa.
+
+Samanlaisia nollalaskuja ja ilmoitusluonnoksia voi syntyä myös silloin, kun asiakas luo ilmoituksen OmaIlmoituksessa mutta jättää maksamisen kesken.
