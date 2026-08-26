@@ -4,6 +4,14 @@ sidebar_position: 2
 
 # Laskutus
 
+### Kestotilaus laskutetaan monessa erässä, miten se käytännössä toimii ja milloin erät lähtevät?
+
+Jos tilaustuotteen [asetuksissa](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/tilaustuotteet) on määritetty, että tilaus laskutetaan useassa erässä, ohjelma luo automaattisesti määritetyn määrän laskutuspyyntöjä ja jakaa hinnan tasan erien kesken.
+
+Erät laskutetaan säännöllisin väliajoin tilauksen aikana. Näet tilaukseen kuuluvista laskutuspyynnöistä, milloin kukin laskutuspyyntö lähtee ja mikä erän hinta on. Lähetysajankohta näkyy laskutuspyynnön **Saa luoda** -päivämäärästä.
+
+![Tilausnäkymä](/img/fqa/laskutuspyynnot.png)
+
 ### Voiko asiakkaalle laittaa e-laskun?
 
 Kyllä voi, asiakaskortille määritetään laskun toimitustavaksi verkkolasku ja täydennetään asiakkaan tilitiedot. Mikäli kyseessä on henkilöasiakas, tulee hänen tehdä omassa verkkopankissa eLaskuvaltuutus, joka päivittyy pankkien aineistosiirtojen yhteydessä asiakaskortille.
