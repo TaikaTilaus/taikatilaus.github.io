@@ -76,3 +76,7 @@ Syötä katkaistavasta tilauksesta palautettava summa **Palautettava summa** -ke
 Näköislehtitilaus luodaan [tilaustuotteena](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/tilaustuotteet). Jokaiselle tilaustuotteelle voi määrittää sekä keston että sen, onko kyseessä määräaikainen tilaus vai kestotilaus.
 
 Jos tuotekatalogistanne ei löydy esimerkiksi näköislehden kestotilausta, uuden tilaustuotteen voi lisätä asetuksissa.
+
+### Asiakkaalla on maksettu paperilehtitilaus ja hän haluaa vaihtaa digilehteen seuraavasta kaudesta. Miten teen sen niin, että lasku lähtee tavalliseen tapaan?
+
+Katkaise asiakkaan paperitilaus tilauksen loppupäivään ja luo asiakkaalle uusi tilaus, jonka alkupäivä on paperitilauksen loppupäivä.
