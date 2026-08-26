@@ -70,3 +70,9 @@ Rahat voi palauttaa [Maksetun tilauksen katkaisu](/docs/pikaohjeet/maksetun-tila
 Syötä katkaistavasta tilauksesta palautettava summa **Palautettava summa** -kenttään.
 
 ![Tilausnäkymä](/img/fqa/takaisin-maksettava.png)
+
+### Voiko näköislehtitilauksen tehdä sekä määräaikaisena että kestotilauksena?
+
+Näköislehtitilaus luodaan [tilaustuotteena](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/tilaustuotteet). Jokaiselle tilaustuotteelle voi määrittää sekä keston että sen, onko kyseessä määräaikainen tilaus vai kestotilaus.
+
+Jos tuotekatalogistanne ei löydy esimerkiksi näköislehden kestotilausta, uuden tilaustuotteen voi lisätä asetuksissa.
