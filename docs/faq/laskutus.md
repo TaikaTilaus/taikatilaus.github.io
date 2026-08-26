@@ -76,3 +76,9 @@ Jokainen maksumuistutus on liitetty tiettyyn laskuun. Jos laskut on lähetetty e
 Näet yhteenvedon Stripestä tulleista maksuista [**Kirjanpitoyhteenveto**](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#kirjanpitoyhteenveto) -raportilta sekä päiväkohtaiset tiliöinnit [**Kaikki tiliöinnit**](/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#kaikki-tili%C3%B6innit) -raportilta valitsemalla **Valitut tilit** -hakuehdossa Stripe-tilin.
 
 Jos etsit Stripestä yrityksesi pankkitilille siirrettyjä maksuja, löydät ne omalta Stripe-tililtäsi TaikaTilauksen sijaan.
+
+### Miten tehdään virheellisesti veloitettujen Stripe-maksujen palautus?
+
+Virheellisen Stripe-maksun voi palauttaa suoraan Stripestä. Asiakkaan Stripe-maksuista voidaan palauttaa tällä tavalla vain uusin.
+
+Jos kyseessä on vanhempi maksu, lasku voidaan [merkitä palautettavaksi](https://support.taikatilaus.fi/docs/pikaohjeet/maksetun-laskun-palautus), jos saldo-toiminto on käytössä. Varsinainen rahojen palautus tehdään taloushallinnon kautta.
