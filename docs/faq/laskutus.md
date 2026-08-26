@@ -66,3 +66,7 @@ Kyllä tulee, Suoritukset-välilehdellä voidaan suodattaa vain virheelliset lis
 Jos asiakkaalla näkyy nollalasku ja tilaus, jonka päivämäärät ovat pitkällä tulevaisuudessa (esim. vuosi on 2086), tilaus on luonnostilassa ja odottaa laskun maksamista. Tällaisia tilausluonnoksia syntyy, kun asiakas aloittaa tilauksen maksamisen maksupalvelussa, mutta jättää maksun kesken. Jos maksua ei koskaan suoriteta loppuun, automaattinen ajo poistaa tilausluonnokset ja niihin liittyvät nollalaskut järjestelmästä noin viiden päivän kuluessa.
 
 Samanlaisia nollalaskuja ja ilmoitusluonnoksia voi syntyä myös silloin, kun asiakas luo ilmoituksen OmaIlmoituksessa mutta jättää maksamisen kesken.
+
+### Kun lähetän maksumuistutuksia ja samalle asiakkaalle lähtee monta samana päivänä, tulevatko ne yhdessä kirjeessä?
+
+Jokainen maksumuistutus on liitetty tiettyyn laskuun. Jos laskut on lähetetty erikseen, myös maksumuistutukset lähtevät erikseen.
