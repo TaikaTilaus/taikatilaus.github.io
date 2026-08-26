@@ -177,10 +177,13 @@ Asiakaskortin **Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalv
 
 ### Muut tiedot
 
-**Muut tiedot** -osiossa voidaan asiakkaalle aktivoida mm.
+**Muut tiedot** -osiossa voidaan asiakkaalle kirjata mm.
 - **Y-tunnus** eli yritystunnus
-- **Estolista**, jolloin hänelle ei toimiteta lehtiä (esim. maksamattomien laskujen takia)
+- Asiakkaan **VAT numero**
+- Erillinen **ALV-prosentti**
+- Aktivoida **Estolista** -kenttä, jolloin hänelle ei toimiteta lehtiä (esim. maksamattomien laskujen takia)
 - **Sisäisiä lisätietoja**, mitkä kaikkien olisi hyvä tietää asiakkaasta
+- **Syntymävuosi**
 
 ![Asiakaskortti - Muut Tiedot](/img/ohjeet/muuttiedot.png)
 *Muihin tietoihin voidaan mm. lisätä asiakkaasta sisäisiä lisätietoja*
