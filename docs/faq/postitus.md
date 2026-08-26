@@ -22,3 +22,7 @@ Aiemmin luodut postituslistat löytyvät Postituslista / Postituslistan haku -v�
 </div>
 
 <a href="../pikaohjeet/asiakkaan-haku">Tai lue pikaohje</a>
+
+### Miten lisään varalehtinipun varhaisjakeluun tietystä päivästä alkaen?
+
+Varalehtinippu lisätään yleensä uutena [vakionippuna](/docs/ohjeet/asetukset/postitus/vakioniput). Se, kuuluuko nippu varhaisjakeluun, riippuu jakelijasta ja käytössä olevista varhaisjakelureiteistä. Reitit ja niihin tehtävät muutokset saadaan yleensä jakelijalta.
