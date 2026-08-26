@@ -194,7 +194,7 @@ Asiakaskortin **Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalv
 
 Jos OmaPalvelussa on käytössä **Jakelupalaute**-toiminto, asiakkaan lähettämät palautteet tulevat kenttään automaattisesti.
 
-Jos jakelupalaute lisätään järjestelmässä käsin, se kirjataan kenttään muodossa: lehden päivämäärä ja lisätiedot, esimerkiksi:
+Jos jakelupalaute lisätään järjestelmässä käsin, se kirjataan kenttään uudelle riville muodossa: lehden päivämäärä ja lisätiedot, esimerkiksi:
 
 `15.6.2026 Lehti ei tullut. Asiakas haluaa korvaavan lehden.`
 
