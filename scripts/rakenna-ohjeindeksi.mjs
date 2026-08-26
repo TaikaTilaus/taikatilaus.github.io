@@ -254,6 +254,18 @@ function pilkoPituuden(teksti) {
   return palat;
 }
 
+/**
+ * Chunkin tyyppi. Versiotiedotteet ovat julkaisumuistiinpanoja, eivat ohjeita:
+ * mittauksessa ne nousivat kohinana ohjekysymysten tuloksiin ja huononsivat
+ * recallia. Ne pidetaan indeksissa mutta merkitaan, jotta haku voi suodattaa
+ * ne pois - nain "mita uutta toukokuun versiossa" on yha vastattavissa.
+ */
+function tyyppiPolusta(suhteellinenPolku) {
+  const p = suhteellinenPolku.split(sep).join('/');
+  if (/^versiotiedotteet\//.test(p)) return 'versiotiedote';
+  return 'ohje';
+}
+
 function ominaisuusPolusta(suhteellinenPolku) {
   const p = suhteellinenPolku.split(sep).join('/');
   for (const [kuvio, lippu] of OMINAISUUSKARTTA) {
@@ -279,6 +291,7 @@ async function kasitteleSivu(tiedosto, kategoriat) {
   const url = sivunUrl(suhteellinen, fm);
   const murut = leivanmurut(suhteellinen, kategoriat);
   const ominaisuus = ominaisuusPolusta(suhteellinen);
+  const tyyppi = tyyppiPolusta(suhteellinen);
 
   const h1 = sisalto.match(/^#\s+(.+?)\s*$/m);
   const sivunOtsikko = fm.title || (h1 && h1[1].trim()) || siistiNimi(basename(suhteellinen, '.md'));
@@ -350,6 +363,7 @@ async function kasitteleSivu(tiedosto, kategoriat) {
         avainsanat,
         kuvat: i === 0 ? kuvat : [],
         ominaisuus,
+        tyyppi,
       });
     }
   }
@@ -373,6 +387,7 @@ async function kasitteleSivu(tiedosto, kategoriat) {
         avainsanat,
         kuvat: odottava.kuvat,
         ominaisuus,
+        tyyppi,
       });
     }
   }
@@ -417,6 +432,11 @@ async function main() {
   console.log(`Merkkejä         ${merkkeja.toLocaleString('fi-FI')} (~${Math.round(merkkeja / 3.2).toLocaleString('fi-FI')} tokenia)`);
   console.log(`Chunkin pituus   mediaani ${mediaani}, lyhin ${pituudet[0] ?? 0}, pisin ${pituudet[pituudet.length - 1] ?? 0}`);
   console.log(`Kuvia            ${chunkit.reduce((s, c) => s + c.kuvat.length, 0)}`);
+
+  const tyypeittain = {};
+  for (const c of chunkit) tyypeittain[c.tyyppi] = (tyypeittain[c.tyyppi] ?? 0) + 1;
+  console.log('\nTyypeittain');
+  for (const [k, v] of Object.entries(tyypeittain)) console.log(`  ${k.padEnd(28)} ${v}`);
 
   const ominaisuuksittain = {};
   for (const c of chunkit) {
