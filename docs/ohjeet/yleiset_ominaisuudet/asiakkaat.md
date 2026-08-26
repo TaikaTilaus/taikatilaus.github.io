@@ -192,13 +192,11 @@ Asiakaskortin **Oma palvelu** –osioon tallennetaan asiakkaan tunnukset OmaPalv
 
 **Jakelupalautteeseen** voidaan merkitä asiakkaan mahdollisesti kokemat **jakeluhäiriöt**, mitkä ohjelma automaattisesti ilmoittaa eteenpäin jakelupalvelulle, kuten Postille. 
 
-Lomakkeeseen kirjataan:
-- Palautteen syy (esim. ei ole saanut lehteä)
-- Mitä lehteä palaute koskee
-- Haluaako asiakas puutelehden 
-- Palautteen lisätietoja
+Jos OmaPalvelussa on käytössä **Jakelupalaute**-toiminto, asiakkaan lähettämät palautteet tulevat kenttään automaattisesti.
 
-**Jakelupalautteen historiatiedoista** näkee historiaa asiakkaan aikaisemmin kokemista jakeluhäiriöistä
+Jos jakelupalaute lisätään järjestelmässä käsin, se kirjataan kenttään muodossa: lehden päivämäärä ja lisätiedot, esimerkiksi:
+
+`15.6.2026 Lehti ei tullut. Asiakas haluaa korvaavan lehden.`
 
 ![Asiakaskortti - Jakelupalaute](/img/ohjeet/jakelupalaute.png)
 *Jakelupalautteeseen voidaan kirjata asiakkaan kokemat jakeluhäiriöt*
