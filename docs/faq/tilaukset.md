@@ -80,3 +80,7 @@ Jos tuotekatalogistanne ei löydy esimerkiksi näköislehden kestotilausta, uude
 ### Asiakkaalla on maksettu paperilehtitilaus ja hän haluaa vaihtaa digilehteen seuraavasta kaudesta. Miten teen sen niin, että lasku lähtee tavalliseen tapaan?
 
 Katkaise asiakkaan paperitilaus tilauksen loppupäivään ja luo asiakkaalle uusi tilaus, jonka alkupäivä on paperitilauksen loppupäivä.
+
+### Katkaisin tilauksen Stripessä, mutta katkaisu ei onnistu TaikaTilauksessa, vaan saan virheilmoituksen.
+
+Tilaus on jo peruttu Stripessä, minkä vuoksi perumista ei voida päivittää sinne uudelleen ja järjestelmä näyttää virheilmoituksen. Tilaus on kuitenkin peruttu TaikaTilauksessa, joten muita toimenpiteitä ei tarvita.
