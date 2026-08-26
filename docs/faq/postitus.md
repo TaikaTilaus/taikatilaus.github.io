@@ -26,3 +26,9 @@ Aiemmin luodut postituslistat löytyvät Postituslista / Postituslistan haku -v�
 ### Miten lisään varalehtinipun varhaisjakeluun tietystä päivästä alkaen?
 
 Varalehtinippu lisätään yleensä uutena [vakionippuna](/docs/ohjeet/asetukset/postitus/vakioniput). Se, kuuluuko nippu varhaisjakeluun, riippuu jakelijasta ja käytössä olevista varhaisjakelureiteistä. Reitit ja niihin tehtävät muutokset saadaan yleensä jakelijalta.
+
+### Jos julkaisutietoihin laitetaan sivumäärätieto, mistä saan vuoden yhteenlasketun sivumäärän?
+
+Vie valitun ajanjakson julkaisut Exceliin [Julkaisut](https://support.taikatilaus.fi/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/julkaisut)-näkymästä. Valitse alkamispäiväksi vuoden ensimmäinen päivä ja laske sen jälkeen sivumääräsarakkeen yhteissumma Excelin SUMMA-funktiolla.
+
+![Julkaisut-välilehti](/img/fqa/julkaisut.png)
