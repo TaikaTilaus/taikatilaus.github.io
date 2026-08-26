@@ -1,5 +1,7 @@
 ---
 sidebar_position: 9
+description: Maksetun tilauksen päättäminen kesken tilauskauden ja loppusumman palautus asiakkaalle saldona tai palautuslaskuna.
+keywords: [maksetun tilauksen katkaisu, katkaisu, katkaiseminen, paattaminen, päättäminen, tilauksen paattaminen, tilauksen päättäminen, lopettaminen, peruminen, peruutus, irtisanominen, kesken tilauskauden, lahjatilaus, lahjatilauksen paattaminen, palautus, rahanpalautus, tilausmaksun palautus, saldo, palautuslasku]
 ---
 
 # Maksetun tilauksen katkaisu
