@@ -70,3 +70,9 @@ Samanlaisia nollalaskuja ja ilmoitusluonnoksia voi syntyä myös silloin, kun as
 ### Kun lähetän maksumuistutuksia ja samalle asiakkaalle lähtee monta samana päivänä, tulevatko ne yhdessä kirjeessä?
 
 Jokainen maksumuistutus on liitetty tiettyyn laskuun. Jos laskut on lähetetty erikseen, myös maksumuistutukset lähtevät erikseen.
+
+### Missä raportissa on päiväkohtaiset Stripe-suoritukset?
+
+Näet yhteenvedon Stripestä tulleista maksuista [**Kirjanpitoyhteenveto**](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#kirjanpitoyhteenveto) -raportilta sekä päiväkohtaiset tiliöinnit [**Kaikki tiliöinnit**](/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#kaikki-tili%C3%B6innit) -raportilta valitsemalla **Valitut tilit** -hakuehdossa Stripe-tilin.
+
+Jos etsit Stripestä yrityksesi pankkitilille siirrettyjä maksuja, löydät ne omalta Stripe-tililtäsi TaikaTilauksen sijaan.
