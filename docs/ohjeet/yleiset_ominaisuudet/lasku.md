@@ -666,7 +666,7 @@ Katkaistujen tilausten loppulaskut löytyvät **Laskut**-listaukselta hakemalla 
 
 ### Manuaalinen laskupyynnön lisääminen
 
-Joissain tapauksissa voi olla tarve luoda ”ylimääräinen” lasku, esimerkiksi peruutuksen yhteydessä, jolloin lasku voi koskea jo ilmestynyttä, mutta maksamatonta lehteä (lähetetty asiakkaalle ennen peruutusta).
+Joissain tapauksissa voi olla tarve luoda ”ylimääräinen” lasku, esimerkiksi peruutuksen yhteydessä, jolloin lasku voi koskea jo ilmestynyttä, mutta maksamatonta lehteä (lähetetty asiakkaalle ennen peruutusta). Tätä ohjetta voi myös soveltaa tapaukseen, jossa tilaukseen halutaan lisätä uusi laskuerä.
 
 Manuaalinen laskupyynnön lisääminen asiakkaalle tehdään seuraavasti:
 
@@ -682,7 +682,7 @@ Manuaalinen laskupyynnön lisääminen asiakkaalle tehdään seuraavasti:
 
 ![Laskujen haku -välilehti](/img/ohjeet/esimerkit2-3.png)
 
-4. **Täydennä laskutuspyynnön tiedot** (esim. jo lähetetyn julkaisun yksikköhinta ja muut tarvittavat tiedot) ja **tallenna**.
+4. **Täydennä laskutuspyynnön tiedot** (esim. jo lähetetyn julkaisun yksikköhinta tai toisen erän hinta ja muut tarvittavat tiedot) ja **tallenna**. **Lisätiedot tuoteriville** -kohtaan voit kirjoittaa tietoa laskutuspyynnöstä, esim. *Laskutuserä 2/2 tilaukseen ajalta 1.4.2026-1.6.2026.*
 
 ![Laskujen haku -välilehti](/img/ohjeet/esimerkit2-4.png)
 
