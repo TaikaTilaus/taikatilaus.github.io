@@ -134,7 +134,7 @@ Seuraavilla toiminnoilla voit käsitellä ja hallita yksittäisiä laskuja:
 - **Luo laskusta kopio** – luo uuden laskun, joka sisältää kaikki alkuperäisen tiedot.
 - **Luo laskusta kopio ilman maksajan tietoja** – luo laskusta kopio, josta maksajan tiedot on poistettu.
 - **Tulosta lasku** – luo laskusta PDF-tiedosto, jonka voi tulostaa.
-- **Tulosta lasku LASKU-muodossa** – luo PDF-tiedoston, joka näyttää laskun sen alkuperäisessä muodossa, ennen maksumuistutuksia.
+- **Tulosta lasku LASKU-muodossa** – luo PDF-tiedoston, joka näyttää laskun sen alkuperäisessä muodossa, ennen maksumuistutuksia tai laskun maksua.
 - **Lähetä lasku sähköpostilla** – lähetä lasku asiakastiedoissa olevaan sähköpostiosoitteeseen.
 - **Siirrä lasku toiselle tilaukselle** – siirrä lasku toiseen tilaukseen antamalla sen tilausnumero.
 - **Suoramaksuilmoitus** – lähetä tai tulosta ilmoitus laskusta suoraveloitusasiakkaille.
