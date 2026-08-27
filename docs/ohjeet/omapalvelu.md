@@ -1,5 +1,7 @@
 ---
 sidebar_position: 6
+description: Asiakkaan kirjautuminen OmaPalveluun, salasanan vaihto, perhetunnusten eli alatunnusten liittäminen, osoitteenmuutokset ja jakelunkeskeytykset.
+keywords: [omapalvelu, perhetunnus, perhetunnukset, alatunnus, alatunnukset, alakäyttäjätunnus, alakayttajatunnus, lisätunnus, lisatunnus, käyttäjätunnus, kayttajatunnus, digilukuoikeus, digilukutunnus, salasanan vaihto, kirjautuminen]
 ---
 
 # OmaPalvelu

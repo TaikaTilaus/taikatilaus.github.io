@@ -2,9 +2,12 @@
 /**
  * Rakentaa hakuindeksin docs/-hakemiston markdownista.
  *
- * Tuottaa static/ohjeindeksi.json, jota käyttävät:
- *   - TaikaTilaus-sovelluksen tukichatbot (api/v1/Tukichat.ashx)
- *   - mahdollinen ohjesivuston oma chatbot
+ * Tuottaa static/ohjeindeksi.json, jonka TaikaTilaus-sovelluksen tukichatbot
+ * hakee ja pitaa muistissa (api/v1/Tukichat.ashx).
+ *
+ * Ohjesivusto itse ei kayta indeksia - sen oma haku on Algolia. Indeksi
+ * julkaistaan sivustolle vain siksi, etta sovellus saa sen ilman paasya
+ * docs-repoon.
  *
  * Ajo:  node scripts/rakenna-ohjeindeksi.mjs [--tarkista]
  *       --tarkista  ei kirjoita tiedostoa, tulostaa vain tilastot ja varoitukset

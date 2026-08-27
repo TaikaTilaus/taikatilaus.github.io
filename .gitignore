@@ -21,3 +21,7 @@ yarn-error.log*
 
 # Generoitu hakuindeksi (scripts/rakenna-ohjeindeksi.mjs)
 /static/ohjeindeksi.json
+/static/ohjeindeksi-vektorit.json
+
+# Mallivertailujen tulokset (sisältävät vastaustekstejä, eivät kuulu julkiseen repoon)
+/mallivertailu*.json
