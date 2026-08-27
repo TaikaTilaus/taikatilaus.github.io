@@ -10,3 +10,6 @@ Voit muokata raporttien hakutuloksia niissä käytettävissä olevilla hakuehdoi
 
 Kehitysehdotukset arvioidaan aina tapauskohtaisesti. Muutokset toteutetaan maksutta vain, jos ne ovat yleishyödyllisiä. Hyvin yrityskohtaiset muutokset voivat olla maksullisia. Työn hinta on 120 €/h, ja vähimmäisveloitus on 15 minuuttia. Työ veloitetaan toteutuneen työajan mukaan.
 
+### Voiko sama sähköpostiosoite olla useammalla asiakaskortilla, kun luodaan digilukutunnus?
+
+Sähköpostiosoite tulisi mielellään löytyä vain yhdeltä asiakaskortilta. Kun asiakas luo tunnuksen, se saattaa muutoin yhdistyä väärään asiakaskorttiin, jolla ei ole tilauksia. Tällöin asiakas ei pääse kirjautumaan digisisältöön.

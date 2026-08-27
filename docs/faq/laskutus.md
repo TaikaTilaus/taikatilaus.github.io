@@ -81,4 +81,26 @@ Jos etsit Stripestä yrityksesi pankkitilille siirrettyjä maksuja, löydät ne 
 
 Virheellisen Stripe-maksun voi palauttaa suoraan Stripestä. Asiakkaan Stripe-maksuista voidaan palauttaa tällä tavalla vain uusin.
 
-Jos kyseessä on vanhempi maksu, lasku voidaan [merkitä palautettavaksi](https://support.taikatilaus.fi/docs/pikaohjeet/maksetun-laskun-palautus), jos saldo-toiminto on käytössä. Varsinainen rahojen palautus tehdään taloushallinnon kautta.
+Jos kyseessä on vanhempi maksu, lasku voidaan [merkitä palautettavaksi](/docs/pikaohjeet/maksetun-laskun-palautus), jos saldo-toiminto on käytössä. Varsinainen rahojen palautus tehdään taloushallinnon kautta.
+
+### Saako muistutusmaksut lisättyä maksamattoman tilauksen katkaisulaskulle?
+
+Tilauksen katkaisukäsittelyssä loppulaskuun ei lisätä automaattisesti muistutusmaksuja. Jos muistutusmaksut halutaan lisätä, avaa luotu loppulasku ja lisää ne laskulle tuoteriveinä.
+
+Huomaa, että muistutusmaksut on lisättävä ennen laskun lähettämistä.
+
+![Loppulasku](/img/fqa/mamu.png)
+
+![Loppulasku](/img/fqa/mamu2.png)
+
+### Miten tiliöidään tilaus, jossa samalla laskulla on sekä tilaus- että mainostuotteita eri ALV-kannoilla?
+
+Jos asiakas maksaa laskun kokonaisuudessaan, maksu tiliöityy automaattisesti oikeille tileille.
+
+Jos maksu tehdään kassan kautta ja lisätään järjestelmään manuaalisesti, suoritus jaetaan sitä lisättäessä eri myyntisaamistileille. Painamalla **Näytä lisää tiliöintirivejä** -painiketta saat näkyviin toisen myyntitilin kuittauksen.
+
+Jos laskulla on enemmän kuin kaksi myyntisaamistiliä, joilta maksu pitää kuitata, voit lisätä tiliöintirivejä painamalla **Lisää tiliöinti suoritukselle** -painiketta.
+
+![Suorituksen lisääminen](/img/fqa/suoritus.png)
+
+![Suorituksen lisääminen](/img/fqa/suoritus2.png)
