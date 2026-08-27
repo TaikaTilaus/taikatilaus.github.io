@@ -18,7 +18,7 @@ import { readFile } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { lataaIndeksi, haeChunkit } from './haku.mjs';
-import { haeVektorit } from './rakenna-embeddingit.mjs';
+import { haeVektorit, pura } from './rakenna-embeddingit.mjs';
 
 const JUURI = join(dirname(fileURLToPath(import.meta.url)), '..');
 const INDEKSI = join(JUURI, 'static', 'ohjeindeksi.json');
@@ -71,11 +71,18 @@ async function main() {
   const key = (process.env.OPENROUTER_API_KEY || '').trim();
   if (!key) { console.error('Aseta OPENROUTER_API_KEY'); process.exit(1); }
 
+  const vektoriPolku =
+    process.argv.find((a) => a.startsWith('--vektorit='))?.split('=')[1] ?? VEKTORIT;
+
   const { chunkit, indeksi } = await lataaIndeksi(INDEKSI);
-  const vekt = JSON.parse(await readFile(VEKTORIT, 'utf8'));
+  const vekt = JSON.parse(await readFile(vektoriPolku, 'utf8'));
   const kartta = new Map(chunkit.map((c) => [c.id, c]));
 
-  const vIndeksi = vekt.idt.map((id, i) => ({ id, v: vekt.vektorit[i] }));
+  // Uusi muoto on int8+base64; vanhat tiedostot ovat pelkkia lukutaulukoita.
+  const vIndeksi = vekt.idt.map((id, i) => ({
+    id,
+    v: vekt.koodaus === 'int8-base64' ? pura(vekt.vektorit[i], vekt.skaalat[i]) : vekt.vektorit[i],
+  }));
 
   const kysymysData = JSON.parse((await readFile(kysymysPolku, 'utf8')).replace(/^﻿/, ''));
   const kysymykset = kysymysData.kysymykset.filter(
@@ -85,11 +92,15 @@ async function main() {
   console.log(`Hybridihaun mittaus`);
   console.log('===================');
   console.log(`Chunkkeja   ${chunkit.length}`);
-  console.log(`Vektoreita  ${vIndeksi.length} (${vekt.malli})`);
+  console.log(`Vektoreita  ${vIndeksi.length} (${vekt.malli}, ${vekt.ulottuvuuksia}d)`);
   console.log(`Kysymyksia  ${kysymykset.length}\n`);
 
   // Kysymysten vektorit yhdella kutsulla
-  const kysVektorit = await haeVektorit(kysymykset.map((k) => k.kysymys), key, vekt.malli);
+  // Kysymysvektorien on tultava samasta mallista JA samasta ulottuvuusmaarasta
+  // kuin chunkkien - muuten kosini ei ole maaritelty.
+  const kysVektorit = await haeVektorit(
+    kysymykset.map((k) => k.kysymys), key, vekt.malli, vekt.ulottuvuuksia
+  );
 
   const menetelmat = ['BM25', 'Semanttinen', 'Hybridi (RRF)'];
   const tulokset = {};

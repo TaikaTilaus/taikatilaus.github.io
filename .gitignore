@@ -19,9 +19,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Generoitu hakuindeksi (scripts/rakenna-ohjeindeksi.mjs)
+# Ohjeindeksi rakennetaan buildissa; vektorit generoidaan paikallisesti ja
+# commitoidaan, koska generointi vaatii API-avaimen jota ei viedä CI:hin.
+# Tuoreuden varmistaa scripts/tarkista-vektorit.mjs.
 /static/ohjeindeksi.json
-/static/ohjeindeksi-vektorit.json
 
 # Mallivertailujen tulokset (sisältävät vastaustekstejä, eivät kuulu julkiseen repoon)
 /mallivertailu*.json

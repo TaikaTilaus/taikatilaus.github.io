@@ -5,13 +5,15 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "node scripts/rakenna-ohjeindeksi.mjs && node scripts/tarkista-vektorit.mjs && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "ohjeindeksi": "node scripts/rakenna-ohjeindeksi.mjs",
+    "vektorit": "node scripts/rakenna-embeddingit.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.0",
