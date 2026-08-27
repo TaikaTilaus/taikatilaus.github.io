@@ -81,4 +81,14 @@ Jos etsit Stripestä yrityksesi pankkitilille siirrettyjä maksuja, löydät ne 
 
 Virheellisen Stripe-maksun voi palauttaa suoraan Stripestä. Asiakkaan Stripe-maksuista voidaan palauttaa tällä tavalla vain uusin.
 
-Jos kyseessä on vanhempi maksu, lasku voidaan [merkitä palautettavaksi](https://support.taikatilaus.fi/docs/pikaohjeet/maksetun-laskun-palautus), jos saldo-toiminto on käytössä. Varsinainen rahojen palautus tehdään taloushallinnon kautta.
+Jos kyseessä on vanhempi maksu, lasku voidaan [merkitä palautettavaksi](/docs/pikaohjeet/maksetun-laskun-palautus), jos saldo-toiminto on käytössä. Varsinainen rahojen palautus tehdään taloushallinnon kautta.
+
+### Saako muistutusmaksut lisättyä maksamattoman tilauksen katkaisulaskulle?
+
+Tilauksen katkaisukäsittelyssä loppulaskuun ei lisätä automaattisesti muistutusmaksuja. Jos muistutusmaksut halutaan lisätä, avaa luotu loppulasku ja lisää ne laskulle tuoteriveinä.
+
+Huomaa, että muistutusmaksut on lisättävä ennen laskun lähettämistä.
+
+![Loppulasku](/img/fqa/mamu.png)
+
+![Loppulasku](/img/fqa/mamu2.png)
