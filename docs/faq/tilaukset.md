@@ -84,3 +84,9 @@ Katkaise asiakkaan paperitilaus tilauksen loppupäivään ja luo asiakkaalle uus
 ### Katkaisin tilauksen Stripessä, mutta katkaisu ei onnistu TaikaTilauksessa, vaan saan virheilmoituksen.
 
 Tilaus on jo peruttu Stripessä, minkä vuoksi perumista ei voida päivittää sinne uudelleen ja järjestelmä näyttää virheilmoituksen. Tilaus on kuitenkin peruttu TaikaTilauksessa, joten muita toimenpiteitä ei tarvita.
+
+### Miten päätän maksetun tilauksen kesken tilauskauden ja siirrän tilausmaksun toiselle asiakkaalle?
+
+Maksettua tilausmaksua tai siitä muodostuvaa saldoa ei voi siirtää toiselle asiakkaalle TaikaTilauksessa. Jos saldo-toiminto on käytössä, **Maksetun tilauksen katkaisu** -toiminnolla muodostuva saldo voidaan siirtää vain alkuperäiselle maksajalle. Rahapalautus voidaan maksaa myös toiselle henkilölle, koska se tehdään taloushallinnossa. TaikaTilauksessa palautus merkitään kuitenkin aina alkuperäiselle maksajalle.
+
+Tilauksen tilaaja voidaan sen sijaan vaihtaa. Tällöin lehti toimitetaan uudelle tilaajalle, vaikka tilauksen maksaja ei muutu. Katso ohje: [Eri tilaaja](https://support.taikatilaus.fi/docs/pikaohjeet/eri-tilaaja).
