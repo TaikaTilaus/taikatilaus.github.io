@@ -19,6 +19,7 @@ import { readFile, writeFile, readdir, stat } from 'node:fs/promises';
 import { join, relative, dirname, basename, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import GithubSlugger from 'github-slugger';
+import { laskeTiiviste } from './rakenna-embeddingit.mjs';
 
 const JUURI = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = join(JUURI, 'docs');
@@ -469,11 +470,17 @@ async function main() {
     return;
   }
 
+  // Sama tiiviste kuin vektoritiedostossa. Kun se on molemmissa, lukija voi
+  // todeta tuoreuden vertaamalla kahta merkkijonoa - sen ei tarvitse toteuttaa
+  // chunkinTeksti-esitysta eika sha256:ta uudelleen omalla kielellaan.
+  const tiiviste = laskeTiiviste(chunkit.filter((c) => c.tyyppi !== 'versiotiedote'));
+
   const indeksi = {
     versio: 1,
     luotu: new Date().toISOString(),
     sivuja: tiedostot.length,
     chunkkeja: chunkit.length,
+    tiiviste,
     chunkit,
   };
 
