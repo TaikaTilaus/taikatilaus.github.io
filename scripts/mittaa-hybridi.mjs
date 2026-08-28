@@ -46,6 +46,29 @@ function rrf(listat) {
   return [...pisteet.entries()].sort((a, b) => b[1] - a[1]).map(([id]) => id);
 }
 
+/**
+ * Vuorottelu: otetaan sivutason listoista vuorotellen yksi kerrallaan.
+ *
+ * RRF vertaa chunkkeja keskenaan ja palkitsee yksimielisyytta: sivu, jonka
+ * vain toinen menetelma loytaa, jaa alle vaikka se olisi sen listan ykkonen.
+ * Juuri niin kay sanastoeroissa, eli siina tapauksessa jota varten semanttinen
+ * haku otettiin mukaan. Vuorottelu sailyttaa kummankin karjen: toisen ykkonen
+ * on kokonaislistassa korkeintaan sijalla 2.
+ */
+function vuorottele(a, b, maara) {
+  const nahty = new Set(), ulos = [];
+  for (let i = 0; i < Math.max(a.length, b.length) && ulos.length < maara; i++) {
+    for (const lista of [a, b]) {
+      const url = lista[i];
+      if (!url || nahty.has(url)) continue;
+      nahty.add(url);
+      ulos.push(url);
+      if (ulos.length >= maara) break;
+    }
+  }
+  return ulos;
+}
+
 function sivutasolle(idt, kartta, maara) {
   const nahty = new Set(), ulos = [];
   for (const id of idt) {
@@ -102,7 +125,7 @@ async function main() {
     kysymykset.map((k) => k.kysymys), key, vekt.malli, vekt.ulottuvuuksia
   );
 
-  const menetelmat = ['BM25', 'Semanttinen', 'Hybridi (RRF)'];
+  const menetelmat = ['BM25', 'Semanttinen', 'Hybridi (RRF)', 'Vuorottelu'];
   const tulokset = {};
   for (const m of menetelmat) tulokset[m] = { viritetyt: [], riippumattomat: [] };
 
@@ -117,10 +140,14 @@ async function main() {
     const hyb = rrf([bm, sem]);
 
     const ryhma = k.id <= 35 ? 'viritetyt' : 'riippumattomat';
+    // Vuorottelu tehdaan sivutasolla, joten kummastakin haetaan reilusti sivuja
+    const bmSivut = sivutasolle(bm, kartta, 20);
+    const semSivut = sivutasolle(sem, kartta, 20);
     const sijat = {
-      BM25: osui(sivutasolle(bm, kartta, 5), k.odotetut),
-      Semanttinen: osui(sivutasolle(sem, kartta, 5), k.odotetut),
+      BM25: osui(bmSivut.slice(0, 5), k.odotetut),
+      Semanttinen: osui(semSivut.slice(0, 5), k.odotetut),
       'Hybridi (RRF)': osui(sivutasolle(hyb, kartta, 5), k.odotetut),
+      Vuorottelu: osui(vuorottele(bmSivut, semSivut, 5), k.odotetut),
     };
     for (const m of menetelmat) tulokset[m][ryhma].push(sijat[m]);
     if (yksityiskohdat && ryhma === 'riippumattomat') {
@@ -137,17 +164,19 @@ async function main() {
       mrr: sijat.reduce((a, s) => a + (s ? 1 / s : 0), 0) / n,
     };
   };
-  const p = (x) => (x * 100).toFixed(0).padStart(4) + ' %';
+  const p = (x) => (Number.isFinite(x) ? (x * 100).toFixed(0) : '—').padStart(4) + ' %';
+  const m3 = (x) => (Number.isFinite(x) ? x.toFixed(3) : '—').padStart(7);
 
-  console.log('                     RIIPPUMATTOMAT (8)        VIRITETYT (27)');
+  const nR = tulokset['BM25'].riippumattomat.length, nV = tulokset['BM25'].viritetyt.length;
+  console.log(`                     RIIPPUMATTOMAT (${nR})${' '.repeat(Math.max(1, 8 - String(nR).length))}      VIRITETYT (${nV})`);
   console.log('menetelmä          rec@1  rec@5    MRR      rec@1  rec@5    MRR');
   console.log('-'.repeat(68));
   for (const m of menetelmat) {
     const r = kerro(tulokset[m].riippumattomat);
     const v = kerro(tulokset[m].viritetyt);
     console.log(
-      m.padEnd(18) + p(r.r1) + p(r.r5) + r.mrr.toFixed(3).padStart(7) + '   ' +
-      p(v.r1) + p(v.r5) + v.mrr.toFixed(3).padStart(7)
+      m.padEnd(20) + p(r.r1) + p(r.r5) + m3(r.mrr) + '   ' +
+      p(v.r1) + p(v.r5) + m3(v.mrr)
     );
   }
   console.log('-'.repeat(68));
@@ -156,10 +185,10 @@ async function main() {
   if (yksityiskohdat) {
     console.log('');
     console.log('Riippumattomat kysymykset, sijaluku top-5:ssa (0 = ei osunut)');
-    console.log('  id  BM25  Sem  Hybr  kysymys');
+    console.log('  id  BM25  Sem  Hybr  Vuor  kysymys');
     for (const r of rivit) {
       const s = (x) => String(x || '-').padStart(4);
-      console.log(`  ${String(r.id).padStart(2)} ${s(r.sijat.BM25)} ${s(r.sijat.Semanttinen)} ${s(r.sijat['Hybridi (RRF)'])}  ${r.kysymys.slice(0, 60)}`);
+      console.log(`  ${String(r.id).padStart(3)} ${s(r.sijat.BM25)} ${s(r.sijat.Semanttinen)} ${s(r.sijat['Hybridi (RRF)'])} ${s(r.sijat.Vuorottelu)}  ${r.kysymys.slice(0, 55)}`);
     }
     // Semanttisen haun top-10 niille, jotka eivat osuneet top-5:een
     for (const r of rivit) {
