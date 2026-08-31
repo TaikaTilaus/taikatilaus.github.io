@@ -104,3 +104,14 @@ Jos laskulla on enemmän kuin kaksi myyntisaamistiliä, joilta maksu pitää kui
 ![Suorituksen lisääminen](/img/fqa/suoritus.png)
 
 ![Suorituksen lisääminen](/img/fqa/suoritus2.png)
+
+### Miten luon alvittoman laskun?
+
+Helpoin tapa on luoda tuote (tilaus-, erillis- tai myyntituote), jonka asetuksissa ALV on 0 %. Tällöin laskulle tulee automaattisesti 0 %:n ALV, kun tilaus tai ilmoitusvaraus luodaan tai kun lisäät manuaalisesti erillislaskun.
+
+Jos tarvitset alvitonta laskua vain harvoin, voit joko:
+
+- Muuttaa laskutuspyynnön ALV:n 0 %:iin ennen laskun luomista.
+- Jos lasku on jo luotu, mutta sitä ei ole vielä lähetetty, avaa lasku ja sen tuoterivi. Muuta tuoterivin ALV 0 %:iin.
+- Jos luot laskun **Lisää lasku** -toiminnolla, valitse ensin tuote. Avaa sen jälkeen tuoterivi ja muuta ALV 0 %:iin.
+

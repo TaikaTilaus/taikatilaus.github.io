@@ -90,3 +90,17 @@ Tilaus on jo peruttu Stripessä, minkä vuoksi perumista ei voida päivittää s
 Maksettua tilausmaksua tai siitä muodostuvaa saldoa ei voi siirtää toiselle asiakkaalle TaikaTilauksessa. Jos saldo-toiminto on käytössä, **Maksetun tilauksen katkaisu** -toiminnolla muodostuva saldo voidaan siirtää vain alkuperäiselle maksajalle. Rahapalautus voidaan maksaa myös toiselle henkilölle, koska se tehdään taloushallinnossa. TaikaTilauksessa palautus merkitään kuitenkin aina alkuperäiselle maksajalle.
 
 Tilauksen tilaaja voidaan sen sijaan vaihtaa. Tällöin lehti toimitetaan uudelle tilaajalle, vaikka tilauksen maksaja ei muutu. Katso ohje: [Eri tilaaja](https://support.taikatilaus.fi/docs/pikaohjeet/eri-tilaaja).
+
+### Miten tilauksen peruutus tehdään, kun avoimella laskulla on osasuoritus?
+
+Tilanteessa sovelletaan omaa harkintaa. Yleensä tilaus katkaistaan tilauksen loppupäivään. Tällöin asiakkaalle kerrotaan loppupäivä ja häntä muistutetaan laskun maksamattomasta osasta.
+
+Jos tilaus kuitenkin päätetään katkaista kesken tilauskauden, toimi näin:
+
+Laske, mihin asti tilaus on maksettu, ja aseta tilauksen loppupäiväksi kyseinen päivä.
+
+Jos tilaus on jatkunut maksetun kauden jälkeen, luo tilaukselle uusi laskutuspyyntö, jolla laskutat maksetun kauden jälkeen toimitetut lehdet. Katkaise tilaus kuluvaan päivään.
+
+### Miten c/o-osoite näkyy lehden postituslistalla?
+
+c/o-tieto tulostetaan osoitekortille yleensä sukunimen jälkeen. Se, miten tieto esitetään postitusaineistossa, voidaan myös määritellä erikseen projektin toteutuksen aikana.
