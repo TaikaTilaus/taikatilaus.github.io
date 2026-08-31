@@ -67,7 +67,14 @@ Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 
 ![Ylläpito](/img/ohjeet/paakayttaja4.png)
 
-### Saldoasetukset
+- **Lehden numerot tilauksissa käytössä**: kentän ollessa aktivoituna, voit määrittää tilauksen pituudeksi esimerkiksi 2 lehteä, jolloin tilauksen alku- ja loppupäivä määräytyvät julkaisukalenterin mukaan. Jotta tilauksen pituus määriytyy oikein, on tärkeää, että julkaisukalenteri on ajan tasalla ja että julkaisuja on lisätty riittävän pitkälle tulevaisuuteen. 
+- **Kestojatkon alkupäivän raja menneisyyteen (kk)**: tämä asetus määrittää kuinka kaukana menneisyydessä kestojatkon alkupäivä voi olla. Oletuksena asetus on -1 kuukautta.
+- **Kestojatkon loppupäivän raja menneisyyteen (kk)**: tämä asetus määrittää kuinka kaukana menneisyydessä kestojatkon loppupäivä voi olla. Oletuksena asetus on -1 kuukautta.
+- **Kestojatkon loppupäivän raja tulevaisuuten (kk)**: tämä asetus määrittää kuinka kaukana tulevaisuudessa kestojatkon loppupäivä voi olla. Oletuksena arvona on 4 kuukautta. 
+
+![Ylläpito](/img/ohjeet/paakayttaja14.png)
+
+### Ennakkomaksu ja Maksun palautus
 
 Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo) -toiminnon käyttöönottoon.
 
