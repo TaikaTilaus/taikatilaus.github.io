@@ -12,6 +12,16 @@
  * Tama skripti tekee siita aanekkaan virheen hiljaisen sijaan. Ilman sita
  * haku osuisi sisaltoon, jota ei enaa ole - ja se nakyisi vasta kayttajalle
  * vaarina vastauksina.
+ *
+ * Kaadutaan kuitenkin vain siella missa asian voi korjata: paikallisessa
+ * buildissa. CI:ssa (CI-ymparistomuuttuja) vanhentuneet vektorit ovat
+ * varoitus, ei virhe - muuten yksikin ohjemuutos ilman embeddingien ajoa
+ * estaisi koko sivuston julkaisun, vaikka itse ohjeet olisivat kunnossa.
+ * Semanttinen haku jaa siksi hetkeksi jalkeen; sivusto ei jaa julkaisematta.
+ *
+ * Kaytoksen voi pakottaa ymparistomuuttujilla:
+ *   VEKTORIT_TARKISTUS=varoita  - ei koskaan kaadu
+ *   VEKTORIT_TARKISTUS=virhe    - kaatuu myos CI:ssa
  */
 
 import { readFile } from 'node:fs/promises';
@@ -30,9 +40,29 @@ const OHJE = `
   static/ohjeindeksi-vektorit.json samassa muutoksessa ohjemuutosten kanssa.
 `;
 
+const asetus = process.env.VEKTORIT_TARKISTUS;
+const kaadetaan =
+  asetus === 'virhe' ? true : asetus === 'varoita' ? false : !process.env.CI;
+
 function kaada(viesti) {
-  console.error(`\nVEKTORIT EIVAT VASTAA OHJEITA\n\n  ${viesti}\n${OHJE}`);
-  process.exit(1);
+  if (kaadetaan) {
+    console.error(`\nVEKTORIT EIVAT VASTAA OHJEITA\n\n  ${viesti}\n${OHJE}`);
+    process.exit(1);
+  }
+
+  console.warn(
+    `\nVAROITUS: VEKTORIT EIVAT VASTAA OHJEITA\n\n  ${viesti}\n${OHJE}` +
+      `  Build jatkuu, mutta semanttinen haku toimii vanhoilla vektoreilla\n` +
+      `  siihen asti kunnes embeddingit ajetaan ja commitoidaan.\n`
+  );
+  // Nakyy Actions-ajon yhteenvedossa, ettei varoitus huku lokiin.
+  if (process.env.GITHUB_ACTIONS) {
+    const rivi = viesti.replace(/\s+/g, ' ').trim();
+    console.log(
+      `::warning title=Vektorit vanhentuneet::${rivi} Aja node scripts/rakenna-embeddingit.mjs ja commitoi static/ohjeindeksi-vektorit.json.`
+    );
+  }
+  process.exit(0);
 }
 
 async function lue(polku, mika) {
