@@ -22,9 +22,9 @@ Raportteja voidaan tuottaa esimerkiksi:
 
 Välilehden etusivulla näkyy **käyttäjäkohtaisesti useimmiten käytetyt raportit**.
 
-### Raportin hakukriteerien määrittely
+**Näytä raportin kuvaus** -painikkeella saa näkyviin lisätietoja raportin luomiseen ja sisältöön liittyen.
 
-![Raportit](/img/ohjeet/raportit2.png)
+### Raportin hakukriteerien määrittely
 
 **Raporttipohjan valinnan** jälkeen määritellään tarkemmat hakukriteerit tietojen listausta varten.  
 
@@ -44,7 +44,13 @@ Näitä voivat olla esimerkiksi:
 
 ![Raportit](/img/ohjeet/raportit7.png)
 
-**Näytä raportin kuvaus** -painikkeella saa näkyviin lisätietoja raportin luomiseen ja sisältöön liittyen.
+Tiettyjen raporttien ajamiseen kestää enemmän aikaa, minkä vuoksi ne toimivat **tausta-ajona**. Näillä raporteilla voit määritellä haluatko:
+
+- Ajaa raportin **heti**
+- Ajastaa raportin ajon **myöhemmäksi ajankohdaksi**
+- Aktivoida **sähköposti-ilmoituksen**, joka lähetetään käyttäjätunnukseesi liitettyyn sähköpostiin raportin valmistuttua. 
+
+![Raportit](/img/ohjeet/raportit2.png)
 
 ## Raporttikategoriat
 
