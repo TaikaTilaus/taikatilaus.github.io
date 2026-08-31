@@ -115,7 +115,6 @@ Kesän aikana on lisätty ja kehitetty myös asiakaskohtaisia integraatioita:
 - uusi julkisten tilaustuotteiden hakurajapinta verkkosivustoja ja tilauslomakkeita varten
 - Kärkimedian display-mainosten adConnexion-aineiston muodostaminen
 - kirjautuminen ulkoisesta palvelusta JWT-tunnisteella
-- Paytrail-maksutavan käsittely suorituksissa
 - Mega-tuonnissa määrän, ALV:n ja laskutuspyyntöjen käsittely lisätty
 
 Näiden toimintojen saatavuus riippuu asiakkaalla käytössä olevista palveluista ja integraatioista.

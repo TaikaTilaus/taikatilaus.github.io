@@ -798,6 +798,17 @@ Vastaanottoilmoitusten suoramaksujen **tyypit** ovat:
 
 Painamalla **Käsittele vastaanottoilmoitukset** -painiketta vastaanotetut muutokset päivittyvät vertailulistaukselle manuaalisesti. Automaattisesti ne päivitetään 6 tunnin välein.
 
+### Vastaanottoilmoituksien haku
+
+Voit hakea vastaanottoilmoituksia erilaisilla hakuehdoilla. 
+
+- **Hakukenttä**: valitse kaikki kentät tai tietty kenttä, joista haet hakuehtoa vastaavia vastaanottoilmoituksia
+   - Esim. **Hakukenttä**: Koodi, **Hakuehto**: ADD, hakee kaikki vastaanottoilmoitukset, jotka koskevat verkkomaksuvaltuutuksen lisäystä 
+- **Kalenterikuukausi**: hae tietyn kalenterikuukauden vastaanottoilmoitukset
+- **Alku- ja loppupäivä**: hae tietyn aikavälin vastaanottoilmoitukset
+
+![Vastaanottoilmoitukset](/img/ohjeet/vastaanottoilmoitukset-haku.png)
+
 ### Manuaalinen käsittely virhetilanteessa
 
 Tarvittaessa **päivitetään asiakkaan** IBAN/BIC tiedot asiakaskortin **Laskutustietoihin** manuaalisesti virheen tapahtuessa. Näet, että vastaanottoilmoitus on jäänyt virheeseen, kun **Käsitelty info** -sarakkeessa lukee joitain muuta kuin Käsitelty OK.
