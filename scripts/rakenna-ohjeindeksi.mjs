@@ -264,6 +264,21 @@ function pilkoPituuden(teksti) {
  * recallia. Ne pidetaan indeksissa mutta merkitaan, jotta haku voi suodattaa
  * ne pois - nain "mita uutta toukokuun versiossa" on yha vastattavissa.
  */
+/**
+ * Kysymysotsikollinen osio on aina oma chunkkinsa, vaikka vastaus olisi lyhyt.
+ *
+ * CHUNK_MIN yhdistaa lyhyet osiot edelliseen, mikä on oikein juoksevassa
+ * ohjetekstissa: valiotsikko ja pari rivia eivat ole itsenainen ajatus.
+ * Kysymys-vastaus-sivuilla (docs/faq) se on vaarin. Siella jokainen osio on
+ * itsenainen: yhdistaminen niputtaa toisiinsa liittymattomat kysymykset
+ * samaan chunkkiin, laimentaa embeddingin ja - pahinta - antaa chunkille
+ * ankkurin, joka osoittaa eri kysymykseen kuin mista teksti alkaa. Silloin
+ * haku loytaa oikean sivun mutta lahdelinkki vie vaaraan kohtaan.
+ */
+function onKysymys(otsikko) {
+  return typeof otsikko === 'string' && /\?\s*$/.test(otsikko);
+}
+
 function tyyppiPolusta(suhteellinenPolku) {
   const p = suhteellinenPolku.split(sep).join('/');
   if (/^versiotiedotteet\//.test(p)) return 'versiotiedote';
@@ -341,7 +356,7 @@ async function kasitteleSivu(tiedosto, kategoriat) {
     if (!teksti) continue;
 
     // Lyhyt osio yhdistetään edelliseen chunkkiin, tai jää odottamaan seuraavaa
-    if (leipa.length < CHUNK_MIN) {
+    if (leipa.length < CHUNK_MIN && !onKysymys(osio.otsikko)) {
       if (chunkit.length > 0) {
         const edellinen = chunkit[chunkit.length - 1];
         edellinen.teksti = `${edellinen.teksti}\n\n${teksti}`.trim();
