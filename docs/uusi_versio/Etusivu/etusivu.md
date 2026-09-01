@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Etusivu
 ---
 
 # Etusivu
@@ -30,78 +31,14 @@ Päävalikon oikeassa reunassa ovat seuraavat pikatoiminnot:
 
 | Toiminto | Kuvaus |
 | --- | --- |
-| **Keräilylista** | Avaa keräilylistan. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän. |
-| **Historia** | Avaa järjestelmän historian. |
-| **Huomiot** | Avaa huomiot. Kuvakkeen yhteydessä näkyvä numero kertoo käsittelemättömien huomioiden määrän. |
-| **Omat tiedot / Kirjaudu ulos** | Avaa käyttäjävalikon, jossa voit tarkastella omia tietojasi tai kirjautua ulos järjestelmästä. |
+| [**Keräilylista**](/docs/uusi_versio/Etusivu/kerailylista) | Avaa keräilylistan. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän. |
+| [**Historia**](/docs/uusi_versio/Etusivu/historia) | Avaa järjestelmän historian. |
+| [**Huomiot**](/docs/uusi_versio/Etusivu/huomiot) | Avaa huomiot. Kuvakkeen yhteydessä näkyvä numero kertoo käsittelemättömien huomioiden määrän. |
+| **Omat tiedot** | Avaa käyttäjävalikon, jossa voit tarkastella omia tietojasi tai kirjautua ulos järjestelmästä. |
 
 Avaa toiminto napsauttamalla sitä vastaavaa kuvaketta. Käyttäjävalikko avautuu napsauttamalla oikeassa reunassa näkyvää käyttäjätunnusta.
 
 ![Etusivu](/img/versio2/paavalikko-icons.png)
-
-### Historia
-
-Avaa **Historia** napsauttamalla päävalikon oikeassa reunassa olevaa **kellokuvaketta**.
-
-**Viimeksi tehdyt** -luettelossa näet viimeksi käsittelemiäsi kohteita, kuten:
-
-- avatut asiakaskortit
-- tallennetut asiakastiedot
-- avatut tilaukset.
-
-Tapahtumat on ryhmitelty päivämäärän mukaan. Jokaisen tapahtuman oikeassa reunassa näkyy sen kellonaika.
-
-Voit avata asiakkaan tai tilauksen uudelleen napsauttamalla sitä luettelossa.
-
-**Tyhjennä** poistaa tapahtumat Viimeksi tehdyt -luettelosta. Toiminto ei poista asiakkaita, tilauksia tai muita järjestelmään tallennettuja tietoja.
-
-![Etusivu](/img/versio2/historia.png)
-
-### Huomiot
-
-Avaa **Huomiot** napsauttamalla päävalikon oikeassa reunassa olevaa **kellokuvaketta**. Kuvakkeen yhteydessä näkyvä numero kertoo käsittelemättömien huomioiden määrän.
-
-Huomiot-sivulla näytetään oletuksena käsittelemättömät huomiot. Sivun otsikossa ja luettelon yläreunassa näkyy niiden kokonaismäärä.
-
-| Sarake | Sisältö |
-| --- | --- |
-| **Numero** | Huomion numero ja linkki huomion tietoihin. |
-| **Aika** | Huomion muodostumisen päivämäärä ja kellonaika. |
-| **Otsikko** | Huomion aihe ja siihen liittyvät tiedot. |
-| **Käsittelijän kommentti** | Huomion käsittelyn yhteydessä lisätty kommentti. |
-| **Käsitelty** | Huomion käsittelytilanne. |
-
-Avaa huomion tiedot napsauttamalla sen **numeroa**.
-
-Valitse **Näytä kaikki**, jos haluat nähdä käsittelemättömien huomioiden lisäksi myös käsitellyt huomiot.
-
-![Etusivu](/img/versio2/huomiot3.png)
-
-#### Huomion käsitteleminen
-
-Avaa huomio napsauttamalla sen numeroa Huomiot-luettelossa.
-
-Huomion tiedoissa näet:
-
-- **HuomioID:n**
-- huomion **aikaleiman**
-- huomioon liittyvän **asiakkaan**
-- huomion **aiheen**
-- huomion tarkemman **sisällön**.
-
-Kirjoita tarvittaessa käsittelyä koskeva kommentti **Käsittelijän kommentti** -kenttään.
-
-Valitse sen jälkeen haluamasi toiminto:
-
-| Toiminto | Kuvaus |
-| --- | --- |
-| **Tallenna kuittaukseksi** | Tallentaa kommentin ja merkitsee huomion käsitellyksi. |
-| **Tallenna kuittaamattomana** | Tallentaa kommentin, mutta jättää huomion käsittelemättömäksi. |
-| **Palaa** | Palaa Huomiot-luetteloon tallentamatta muutoksia. |
-
-Kun huomio merkitään käsitellyksi, se poistuu käsittelemättömien huomioiden luettelosta. Saat sen tarvittaessa näkyviin valitsemalla Huomiot-sivulla **Näytä kaikki**.
-
-![Etusivu](/img/versio2/huomiot4.png)
 
 ### Omat tiedot ja kirjautuminen ulos
 
