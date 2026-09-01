@@ -69,6 +69,18 @@ Valitse yksittäinen asiakas napsauttamalla asiakasrivin vasemmassa reunassa ole
 
 ![Keräilylista](/img/versio2/kerailylista4.png)
 
+## Asiakkaan poistaminen listalta
+
+Poista yksittäinen asiakas keräilylistalta napsauttamalla asiakasrivin oikeassa reunassa olevaa punaista **X-painiketta**. 
+
+Poista monta asiakasta valitsemalla ne listalta ja painamalla sitten **Poista keräilylistalta** -painiketta. 
+
+Tyhjennä keräilylista kokonaan painamalla **Tyhjennä** -painiketta. 
+
+Asiakkaan poistaminen keräilylistalta tai keräilylistan tyhjentäminen ei poista asiakaskorttia tai asiakkaan muita tietoja järjestelmästä.
+
+![Keräilylista](/img/versio2/kerailylista6.png)
+
 ## Keräilylistan toiminnot
 
 | Toiminto | Kuvaus |
@@ -98,6 +110,32 @@ Valikossa näkyvä rivimäärä kertoo, kuinka monta suodatettua asiakasta käsi
 | **HTML** | Vie tiedot HTML-tiedostoon. |
 
 ![Keräilylista](/img/versio2/kerailylista7.png)
+
+## Asiakastietojen vieminen päivityspohjaan
+
+**Vie päivityspohjaan** -toiminnolla voit ladata keräilylistalta valittujen asiakkaiden tiedot Excel-tiedostoon. Voit muokata tietoja Excelissä ja tuoda päivitetyn tiedoston takaisin järjestelmään asiakastietojen päivittämistä varten.
+
+1. Valitse keräilylistalta asiakkaat, joiden tietoja haluat päivittää.
+2. Tarkista **Toiminnot**-kohdasta valittujen asiakkaiden määrä.
+3. Napsauta **Vie päivityspohjaan**.
+4. Tallenna muodostettu Excel-tiedosto tietokoneellesi.
+5. Avaa tiedosto Excelissä ja tee tarvittavat muutokset.
+6. Tallenna valmis tiedosto.
+7. Tuo muokattu tiedosto takaisin järjestelmään asiakastietojen päivitystoiminnolla.
+
+Päivityspohja sisältää esimerkiksi seuraavia tietoja:
+
+- asiakasnumero
+- etu- ja sukunimi
+- yritys ja osasto
+- osoitetiedot
+- maa
+- sähköpostiosoite
+- puhelinnumero.
+
+**Älä muuta tai poista Asiakasnumero-sarakkeen arvoja.** Järjestelmä tunnistaa päivitettävän asiakaskortin asiakasnumeron perusteella.
+
+Tarkista muutokset huolellisesti ennen tiedoston tuomista takaisin järjestelmään, sillä tuonnilla voidaan päivittää useiden asiakkaiden tietoja samalla kertaa.
 
 ### Asiakkaiden lisääminen ryhmään
 
@@ -155,7 +193,7 @@ Sulje Ryhmien muokkaus -ikkuna **Sulje**-painikkeella tai oikean yläkulman rast
 
 ![Keräilylista](/img/versio2/kerailylista10.png)
 
-## Sähköpostin lähettäminen keräilylistalta
+### Sähköpostin lähettäminen keräilylistalta
 
 Voit lähettää saman sähköpostiviestin keräilylistalta valituille asiakkaille.
 
@@ -174,15 +212,3 @@ Asiakkaat, joilla ei ole sähköpostiosoitetta, ohitetaan automaattisesti.
 Voit sulkea sähköpostitoiminnon lähettämättä viestiä napsauttamalla osion oikeassa yläkulmassa olevaa **X-painiketta**.
 
 ![Keräilylista](/img/versio2/kerailylista12.png)
-
-## Asiakkaan poistaminen listalta
-
-Poista yksittäinen asiakas keräilylistalta napsauttamalla asiakasrivin oikeassa reunassa olevaa punaista **X-painiketta**. 
-
-Poista monta asiakasta valitsemalla ne listalta ja painamalla sitten **Poista keräilylistalta** -painiketta. 
-
-Tyhjennä keräilylista kokonaan painamalla **Tyhjennä** -painiketta. 
-
-Asiakkaan poistaminen keräilylistalta tai keräilylistan tyhjentäminen ei poista asiakaskorttia tai asiakkaan muita tietoja järjestelmästä.
-
-![Keräilylista](/img/versio2/kerailylista6.png)
