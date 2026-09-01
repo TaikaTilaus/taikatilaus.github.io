@@ -51,13 +51,11 @@ Suosikkiraporttisi löytyvät myös omasta ryhmästä.
 
 ![Asiakkaat](/img/versio2/raportit6.png)
 
-## Raportin avaaminen
+## Raportin käyttäminen
 
 Avaa raportti tai tallennettu haku napsauttamalla sen rivillä olevaa **Avaa**-painiketta.
 
 ![Asiakkaat](/img/versio2/raportit4.png)
-
-## Raportin käyttäminen
 
 Kun avaat raportin, sivun yläosassa näkyvät raportin hakuehdot. Käytettävissä olevat hakuehdot vaihtelevat raportin mukaan.
 
@@ -73,7 +71,7 @@ Tästä on hyötyä esimerkiksi silloin, kun sama asiakas kuuluu useaan raportil
 
 ![Asiakkaat](/img/versio2/raportti-haku.png)
 
-## Kuvaaja
+### Kuvaaja
 
 Raportin tulokset voidaan esittää kuvaajana. Kuvaajan oikealla puolella olevilla asetuksilla voit muuttaa tietojen esitystapaa.
 
@@ -83,7 +81,7 @@ Lataa kuvaaja kuvatiedostona napsauttamalla **Lataa kuva**.
 
 ![Asiakkaat](/img/versio2/raportti-kuvaaja.png)
 
-## Data
+### Data
 
 **Data**-osiossa näet raportin tulokset taulukkomuodossa.
 
@@ -93,7 +91,7 @@ Taulukon sarakkeet vaihtelevat raportin mukaan. Asiakkaisiin liittyvissä raport
 
 ![Asiakkaat](/img/versio2/raportti-data.png)
 
-### Datan käsitteleminen ja vieminen
+#### Datan käsitteleminen ja vieminen
 
 Valitse ennen raportin tulostamista, lähettämistä tai viemistä, mitä raporttiin sisällytetään:
 
@@ -116,7 +114,7 @@ Voit valita joko molemmat tai vain toisen.
 
 Tarkista raportin hakuehdot ja rivimäärä ennen asiakkaiden lisäämistä keräilylistalle tai tietojen viemistä.
 
-### Raportin lähettäminen sähköpostilla
+#### Raportin lähettäminen sähköpostilla
 
 Voit lähettää raportin sähköpostin liitteenä yhdelle tai useammalle vastaanottajalle.
 
@@ -137,7 +135,7 @@ Sulje sähköpostitoiminto lähettämättä raporttia napsauttamalla **Peruuta**
 
 ![Asiakkaat](/img/versio2/raportti-sposti.png)
 
-## Hakuehtojen tallentaminen
+### Hakuehtojen tallentaminen
 
 Voit tallentaa usein käyttämäsi hakuehdot myöhempää käyttöä varten.
 
@@ -155,6 +153,6 @@ Voit sulkea tallennusikkunan tallentamatta napsauttamalla **Peruuta**.
 
 ![Asiakkaat](/img/versio2/raportit7.png)
 
-## Palaaminen raporttiluetteloon
+### Palaaminen raporttiluetteloon
 
 Palaa Raportit-sivulle napsauttamalla sivun oikeassa yläkulmassa **Palaa listaan**.
