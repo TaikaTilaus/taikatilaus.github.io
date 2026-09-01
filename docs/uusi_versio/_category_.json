@@ -2,6 +2,7 @@
   "label": "Uuden version ohjeet",
   "position": 9,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "uusi_versio/yleista"
   }
 }
