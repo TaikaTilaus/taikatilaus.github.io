@@ -141,7 +141,7 @@ Etusivun yläosan yhteenvetokorteissa näet seuraavat tiedot:
 | **Avoimet laskut** | Avoimien laskujen määrä. Erääntyneiden laskujen määrä näkyy erikseen punaisella. |
 | **Lähetetyt laskut (viim. 7 vrk)** | Viimeisten seitsemän vuorokauden aikana lähetettyjen laskujen määrä. |
 
-Kortteja klikkaamalla pääset tarkastelemaan asiakkaita, tilauksia tai laskuja. 
+<!-- Kortteja klikkaamalla pääset tarkastelemaan asiakkaita, tilauksia tai laskuja.  -->
 
 ![Etusivu](/img/versio2/kortit.png)
 
@@ -157,7 +157,7 @@ Korteissa näytetään myös edellisten 12 kuukauden kuukausikeskiarvo. Prosentt
 
 Nuoli ylöspäin ja vihreä merkintä tarkoittavat määrän kasvua. Nuoli alaspäin ja punainen merkintä tarkoittavat määrän vähenemistä. Väri kuvaa muutoksen suuntaa, ei sitä, onko muutos toiminnan kannalta myönteinen vai kielteinen.
 
-Kortteja klikkaamalla pääset listalle kyseisistä tilauksista. 
+<!-- Kortteja klikkaamalla pääset listalle kyseisistä tilauksista.  -->
 
 ![Etusivu](/img/versio2/kortit2.png)
 
