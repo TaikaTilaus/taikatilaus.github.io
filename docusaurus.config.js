@@ -44,6 +44,8 @@ const config = {
     'docusaurus-plugin-image-zoom', // can also just be 'image-zoom'
   ],
 
+  clientModules: ['./src/clientModules/gtag-varmistus.js'],
+
   scripts: [
     {
       src: 'https://cdn.amplitude.com/libs/analytics-browser-2.8.1-min.js.gz',
