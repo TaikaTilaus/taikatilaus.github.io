@@ -103,6 +103,33 @@ Kun huomio merkitään käsitellyksi, se poistuu käsittelemättömien huomioide
 
 ![Etusivu](/img/versio2/huomiot4.png)
 
+### Omat tiedot ja kirjautuminen ulos
+
+Avaa käyttäjävalikko napsauttamalla päävalikon oikeassa reunassa näkyvää käyttäjätunnustasi.
+
+Valikossa ovat seuraavat toiminnot:
+
+- **Tiedot:** avaa käyttäjän omat tiedot ja näkymäasetukset.
+- **Kirjaudu ulos:** kirjaa käyttäjän ulos järjestelmästä.
+
+#### Käyttäjän tiedot
+
+**Tiedot**-sivulla näet seuraavat käyttäjätiliä koskevat tiedot:
+
+| Kenttä | Sisältö |
+| --- | --- |
+| **Asiakas (tenant)** | Organisaatio tai ympäristö, johon käyttäjätunnus kuuluu. |
+| **Käyttäjätunnus** | Järjestelmään kirjautumisessa käytettävä tunnus. |
+| **Viimeisin kirjautuminen** | Edellisen kirjautumisen päivämäärä ja kellonaika. |
+| **Nimi** | Käyttäjän nimi. |
+| **Sähköposti** | Käyttäjän sähköpostiosoite. |
+| **Puhelin** | Käyttäjän puhelinnumero. |
+| **Ulkoasuteema** | Käyttöliittymässä käytettävä teema. |
+
+Tallenna muutokset napsauttamalla **Tallenna**.
+
+![Etusivu](/img/versio2/omat-tiedot.png)
+
 ## Tunnusluvut
 
 Etusivun yläosan yhteenvetokorteissa näet seuraavat tiedot:
