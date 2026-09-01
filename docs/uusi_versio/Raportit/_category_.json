@@ -1,0 +1,9 @@
+{
+  "label": "Raportit",
+  "position": 4,
+  "key": "uusi-raportit",
+  "link": {
+    "type": "generated-index",
+    "slug": "/uusi_versio/Raportit"
+  }
+}
