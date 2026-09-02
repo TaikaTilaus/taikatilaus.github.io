@@ -111,7 +111,7 @@ Hakukenttien alapuolella on kenttä **Hae vain käsittelyä vaativat**, jonka **
 
 Hakulistauksella **näytetään** (aktivoinnin ollessa päällä):
 
-- kaikki suoritukset, joissa **Info**-sarakkeessa ei lue *OK* (eli suoritus ei ole onnistunut)
+- kaikki suoritukset, joissa **Info**-sarakkeessa ei lue *OK* (eli suoritus ei ole onnistunut). Info-sarakkeessa kerrotaan, miksi suorituksen automaattinen liittäminen laskulle ei onnistunut.
 - suoritukset, joissa **Käsitelty info** -sarakkeessa **ei ole** mitään tietoa
 
 ![Suoritukset](/img/ohjeet/suoritukset2.png)
