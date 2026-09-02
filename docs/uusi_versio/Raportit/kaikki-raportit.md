@@ -153,6 +153,31 @@ Voit sulkea tallennusikkunan tallentamatta napsauttamalla **Peruuta**.
 
 ![Asiakkaat](/img/versio2/raportit7.png)
 
+### Raportin arkistoiminen
+
+Arkistoinnilla voit tallentaa muodostetun raportin myöhempää tarkastelua ja vientiä varten. Toiminnosta on hyötyä erityisesti silloin, kun haluat verrata saman raportin tuloksia eri ajankohtina. Voit esimerkiksi arkistoida raportin nyt, muodostaa sen myöhemmin uudelleen samoilla hakuehdoilla ja verrata tuloksia keskenään.
+
+1. Valitse raportille haluamasi hakuehdot.
+2. Napsauta **Hae**, jotta raportti muodostetaan valituilla ehdoilla.
+3. Tarkista raportin tulokset.
+4. Napsauta **Arkistoi raportti**.
+5. Valitse raportin **Näkyvyys**.
+6. Napsauta **Arkistoi**.
+
+Näkyvyys määrittää, ketkä voivat nähdä arkistoidun raportin. Esimerkiksi **Julkinen**-raportti on muidenkin käyttäjien käytettävissä.
+
+Arkistoitu raportti löytyy kohdasta [**Raportit → Arkisto**](/docs/uusi_versio/Raportit/arkisto), jossa sen voi avata ja viedä haluttuun tiedostomuotoon.
+
+Voit sulkea arkistointitoiminnon tallentamatta raporttia napsauttamalla **Peruuta**.
+
+:::tip Tallennetut hakuehdot vai arkistoitu raportti?
+
+**Tallenna hakuehdot** tallentaa raportissa käytetyt rajaukset myöhempää hakua varten. **Arkistoi raportti** tallentaa muodostetun raportin myöhempää tarkastelua varten.
+
+:::
+
+![Asiakkaat](/img/versio2/arkistoi.png)
+
 ### Palaaminen raporttiluetteloon
 
 Palaa Raportit-sivulle napsauttamalla sivun oikeassa yläkulmassa **Palaa listaan**.
