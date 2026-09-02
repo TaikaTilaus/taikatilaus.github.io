@@ -67,6 +67,28 @@ function arg(nimi, oletus = null) {
   return o ? o.slice(nimi.length + 3) : oletus;
 }
 
+/**
+ * Tyokalumaarittelyt mallikutsuun. Viedaan sovelluksesta JSONina
+ * (modTukichat.SuodataVainLukuTyokalut), jotta mittaus kayttaa samoja
+ * maarittelyja jotka bottikin saisi - ei kasin kirjoitettua kopiota.
+ *
+ * Mitattavana on Chatbot-kytkenta.md:n avoin kohta: kannattaako tyokalut antaa
+ * aina, vain datakysymyksissa vai rajattuna joukkona. Riski on mitattu aiemmin
+ * toisessa muodossa: kun konteksti kasvoi 10:sta 15 chunkkiin, kieltaytyminen
+ * putosi 100 %:sta 88 %:iin. Tyokalut ovat samanlaista lisakontekstia.
+ */
+async function lataaTyokalut(polku, rajaus) {
+  if (!polku) return null;
+
+  const kaikki = JSON.parse(await readFile(polku, 'utf8'));
+  const puhtaat = kaikki.map(({ type, function: fn }) => ({ type, function: fn }));
+
+  if (!rajaus) return puhtaat;
+
+  const sallitut = rajaus.split(',').map((s) => s.trim());
+  return puhtaat.filter((t) => sallitut.includes(t.function.name));
+}
+
 function avain() {
   const k = process.env.OPENROUTER_API_KEY;
   if (!k) {
@@ -116,7 +138,7 @@ function rakennaKonteksti(osumat) {
     .join('\n\n---\n\n');
 }
 
-async function kysyMallilta(malli, kysymys, konteksti, key) {
+async function kysyMallilta(malli, kysymys, konteksti, key, tyokalut) {
   const alku = Date.now();
   const vastaus = await fetch(`${API}/chat/completions`, {
     method: 'POST',
@@ -129,6 +151,9 @@ async function kysyMallilta(malli, kysymys, konteksti, key) {
       model: malli,
       temperature: 0,
       max_tokens: 600,
+      // Tyokalut mukaan vain jos niita pyydettiin: ilman tata rivia mittaus ei
+      // voi verrata "tyokalujen kanssa" ja "ilman" -tilanteita.
+      ...(tyokalut && tyokalut.length ? { tools: tyokalut } : {}),
       messages: [
         { role: 'system', content: JARJESTELMAKEHOTE },
         { role: 'user', content: `OHJEET:\n\n${konteksti}\n\n---\n\nKYSYMYS: ${kysymys}` },
@@ -148,6 +173,9 @@ async function kysyMallilta(malli, kysymys, konteksti, key) {
     teksti: data.choices?.[0]?.message?.content ?? '',
     tokenit: data.usage ?? {},
     ms: Date.now() - alku,
+    // Kutsuiko malli tyokalua vastaamisen sijaan. Datakysymyksissa se on
+    // haluttu, ohjekysymyksissa merkki siita etta tyokalut hairitsevat.
+    tyokalukutsut: (data.choices?.[0]?.message?.tool_calls ?? []).map((t) => t.function?.name),
   };
 }
 
@@ -260,8 +288,16 @@ async function main() {
 
   const key = avain();
   const kysymysPolku = arg('kysymykset',
-    'C:/inetpub/wwwroot/TaikaTilaus/artifacts/TaikaTilaus/testikysymykset.json');
+    'C:/inetpub/wwwroot/TaikaTilaus/tests/TaikaTilaus.Tests/Aineistot/testikysymykset.json');
   const rajaa = parseInt(arg('rajaa', '0'), 10);
+
+  // --tyokalut=<polku.json>          kaikki maarittelyt mukaan
+  // --tyokalut-rajaus=nimi1,nimi2    vain nama, rajatun joukon mittaamiseen
+  const tyokalut = await lataaTyokalut(arg('tyokalut'), arg('tyokalut-rajaus'));
+  if (tyokalut) {
+    const koko = JSON.stringify(tyokalut).length;
+    console.log(`Tyokaluja mukana: ${tyokalut.length} (${koko} merkkia, ~${Math.round(koko / 3.6)} tokenia)`);
+  }
   // Montako chunkkia mallille lahetetaan. Mittaus 26.8.2026: 5 chunkilla
   // oikea sivu loytyi aina, mutta valilla vaara katkelma silta sivulta.
   const chunkkeja = parseInt(arg('chunkkeja', '5'), 10);
@@ -293,7 +329,19 @@ async function main() {
   // Tulokset kirjoitetaan levylle jokaisen mallin jalkeen, ja jo ajetut mallit
   // ohitetaan. Nain keskeytys hukkaa korkeintaan yhden mallin tyon, ja ajon voi
   // jatkaa myohemmin samalla komennolla. --alusta pakottaa kaiken uusiksi.
-  const ulos = arg('ulos', join(JUURI, 'mallivertailu.json'));
+  /*
+   * Osajoukkoajo ei saa kirjoittaa taysajon tiedostoon.
+   *
+   * 2.9.2026: --rajaa=2 -koeajo ylikirjoitti mallivertailu.json:sta voittajamallin
+   * rivin, ja 35 kysymyksen raakavastaukset menetettiin. Tiedosto on gitignoressa,
+   * joten palautusta ei ollut. Osajoukko- ja tyokaluajot menevat nyt omiin
+   * tiedostoihinsa, ellei --ulos anna muuta.
+   */
+  const oletusUlos = (rajaa > 0 || tyokalut)
+    ? join(JUURI, `mallivertailu-osajoukko${tyokalut ? '-tyokalut' : ''}.json`)
+    : join(JUURI, 'mallivertailu.json');
+
+  const ulos = arg('ulos', oletusUlos);
   let kaikki = {};
   if (!process.argv.includes('--alusta')) {
     try {
@@ -320,7 +368,7 @@ async function main() {
       };
 
       try {
-        const v = await kysyMallilta(malli, k.kysymys, konteksti, key);
+        const v = await kysyMallilta(malli, k.kysymys, konteksti, key, tyokalut);
         Object.assign(rivi, v, tulkitse(v.teksti, k.odotetut || []));
       } catch (e) {
         rivi.virhe = String(e.message).slice(0, 160);
