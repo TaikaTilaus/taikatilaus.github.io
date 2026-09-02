@@ -31,7 +31,7 @@ Painamalla **Laskun muodostamistiedot** -kohdan vieressä olevaa **NÄYTÄ**-pai
 Välilehdeltä näet mm.:
 
 - minä päivinä laskuja muodostetaan automaattisesti  
-- minä päivinä luodut laskut lähetetään automaattisesti
+- minä päivinä luodut laskut lähetetään automaattisesti (laskut lähtevät matkaan noin klo 19 määrättynä päivänä/päivinä)
 - eri tuotteiden huomautusajan maksumuistutuksille  
 
 Laskun muodostamistietoja voidaan muokata **vain TaikaTilauksen puolelta**.  

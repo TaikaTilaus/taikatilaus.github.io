@@ -18,6 +18,12 @@ Voit tarkentaa hakua **Lisähakuehdot**-painikkeesta. **Tyhjennä**-painikkeella
 
 ![Asiakkaat](/img/versio2/tilaukset2.png)
 
+### Hakuhistoria
+
+Hakukentän vieressä olevasta **kellokuvakkeesta** voit avata aiemmin tekemäsi haut.
+
+Valitse hakuhistoriasta haluamasi hakusana. Hakukenttä täytetään valitulla hakusanalla ja haku suoritetaan automaattisesti.
+
 ### Lisähakuehdot
 
 Avaa tarkemmat hakuehdot napsauttamalla hakukentän vieressä olevaa **Lisähakuehdot**-painiketta.

@@ -91,7 +91,7 @@ Kun saldoa on lisätty, sen määrä näkyy asiakkaan koontisivulla.
 
 ![Asiakastiedot](/img/ohjeet/saldonmaar.png)
 
-Saldo käytetään **automaattisesti laskujen maksamiseen** laskutusajon yhteydessä. Saldon käytöstä tulee merkintä **laskun tuoteriville**.
+Saldo käytetään **automaattisesti laskujen maksamiseen** laskutusajon yhteydessä. Saldon käytöstä tulee merkintä **laskun tuoteriville**. Jos saldo kattaa koko laskun summan, lasku kuitataan maksetuksi ja laskua ei lähetetä asiakkaalle.
 
 ![Tilaustiedot - Laskutustiedot](/img/ohjeet/saldo-lis3.png)
 
