@@ -8,7 +8,7 @@ description: Laskujen haku — Laskujen hakeminen, Hakuhistoria, Laskujen rajaam
 
 **Laskujen haku**-sivulla voit hakea ja tarkastella laskuja, avata laskun muokattavaksi, tulostaa laskun sekä lisätä uusia laskuja. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut**.
 
-![Laskujen haku](/img/versio2/laskujen-haku.png)
+![Laskujen haku -sivun yleisnäkymä](/img/versio2/laskujen-haku.png)
 
 ## Laskujen hakeminen
 
@@ -18,7 +18,7 @@ description: Laskujen haku — Laskujen hakeminen, Hakuhistoria, Laskujen rajaam
 
 Tyhjennä hakukenttä ja hakutulokset napsauttamalla **Tyhjennä**.
 
-![Laskujen haku](/img/versio2/laskujen-haku2.png)
+![Laskujen hakukenttä ja hakutoiminnot](/img/versio2/laskujen-haku2.png)
 
 ### Hakuhistoria
 
@@ -26,7 +26,7 @@ Hakukentän vieressä olevasta **kellokuvakkeesta** voit avata aiemmin tekemäsi
 
 Valitse hakuhistoriasta haluamasi hakusana toistaaksesi haun. Hakukenttä täytetään valitulla hakusanalla ja haku suoritetaan automaattisesti.
 
-![Laskujen haku](/img/versio2/laskujen-haku4.png)
+![Laskujen hakuhistoria](/img/versio2/laskujen-haku4.png)
 
 ### Laskujen rajaaminen
 
@@ -58,7 +58,7 @@ Seuraavilla rajauksilla haetaan erääntyneet ilmoituslaskut, joiden toimitustap
 
 Poista kaikki rajaukset napsauttamalla **Tyhjennä lisäehdot**.
 
-![Laskujen haku](/img/versio2/laskujen-haku3.png)
+![Laskujen tila-, päivämäärä-, toimitustapa- ja tyyppirajaukset](/img/versio2/laskujen-haku3.png)
 
 ## Laskuluettelo
 
@@ -78,7 +78,7 @@ Laskuluettelossa näet laskujen perustiedot ja maksutilanteen.
 | **Toimitustapa** | Laskun toimitustapa, esimerkiksi kirje tai sähköposti. |
 | **Tyyppi** | Laskun tyyppi, tilaus-, erillis- tai ilmoituslasku. |
 
-![Laskujen haku](/img/versio2/laskujen-haku5.png)
+![Laskuluettelo ja laskujen perustiedot](/img/versio2/laskujen-haku5.png)
 
 ### Laskun avaaminen ja tulostaminen
 
@@ -91,7 +91,7 @@ Esikatselussa voit:
 - avata maksajan asiakaskortin uuteen välilehteen napsauttamalla maksajan vieressä olevaa **nuolella varustettua laatikkokuvaketta**.
 - lisätä laskulle uuden tuoterivin napsauttamalla **Tuoterivit**-osion **Lisää**-painiketta.
 
-![Laskujen haku](/img/versio2/laskujen-haku10.png)
+![Laskun esikatselu laskuluettelossa](/img/versio2/laskujen-haku10.png)
 
 Laskurivin vasemmassa reunassa ovat seuraavat toimintopainikkeet:
 
@@ -102,7 +102,7 @@ Voit avata laskun uuteen välilehteen myös napsauttamalla sinistä **laskunumer
 
 <!-- Avaa maksajan asiakaskortti napsauttamalla **Maksaja**-sarakkeessa näkyvää asiakasnumeroa. -->
 
-![Laskujen haku](/img/versio2/laskujen-haku9.png)
+![Laskuluettelon muokkaus- ja tulostustoiminnot](/img/versio2/laskujen-haku9.png)
 
 ### Luettelon selaaminen ja järjestäminen
 
@@ -112,7 +112,7 @@ Luettelon yläreunassa näet nykyisellä sivulla näytettävien laskujen määr�
 - Siirry edelliselle tai seuraavalle sivulle nuolipainikkeilla.
 - Järjestä luettelo napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
 
-![Laskujen haku](/img/versio2/laskujen-haku8.png)
+![Laskuluettelon sivutus ja järjestäminen](/img/versio2/laskujen-haku8.png)
 
 ### Näytettävien sarakkeiden valitseminen
 
@@ -140,7 +140,7 @@ Sarakkeen piilottaminen ei poista laskun tietoja, vaan muuttaa ainoastaan luette
 
 Palauta alkuperäiset sarakevalinnat napsauttamalla **Palauta oletukset**.
 
-![Laskujen haku](/img/versio2/laskujen-haku6.png)
+![Laskuluettelon sarakevalinnat](/img/versio2/laskujen-haku6.png)
 
 ## Tietojen vienti ja keräilylistalle lisääminen
 
@@ -159,7 +159,7 @@ Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä
 | **JSON** | Vie tiedot JSON-tiedostoon. |
 | **HTML** | Vie tiedot HTML-tiedostoon. |
 
-![Laskujen haku](/img/versio2/laskujen-haku7.png)
+![Laskuluettelon vienti- ja keräilylistavalikko](/img/versio2/laskujen-haku7.png)
 
 <!-- ## Uuden laskun lisääminen
 

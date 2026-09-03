@@ -8,7 +8,7 @@ description: Asiakkaat — Asiakkaiden hakeminen, Hakuhistoria, Lisähakuehdot.
 
 **Asiakkaat**-sivulla voit hakea ja tarkastella asiakkaita sekä lisätä uusia asiakkaita. Avaa sivu yläreunan päävalikon **Asiakkaat**-painikkeesta.
 
-![Asiakkaat](/img/versio2/asiakkaat.png)
+![Asiakkaat-sivun hakunäkymä](/img/versio2/asiakkaat.png)
 
 ## Asiakkaiden hakeminen
 
@@ -18,7 +18,7 @@ description: Asiakkaat — Asiakkaiden hakeminen, Hakuhistoria, Lisähakuehdot.
 
 Voit tarkentaa hakua **Lisähakuehdot**-painikkeesta. **Tyhjennä**-painikkeella voit tyhjentää haun.
 
-![Asiakkaat - Hakuehdot](/img/versio2/asiakas-hakuehdot.png)
+![Asiakkaiden hakukenttä ja hakutoiminnot](/img/versio2/asiakas-hakuehdot.png)
 
 ### Hakuhistoria
 
@@ -44,7 +44,7 @@ Esimerkiksi valinnoilla **Yritys — Ryhmä — AUTOLIIKKEET** haetaan asiakkaat
 
 Käytettävissä olevat asiakastyypit ja ryhmät määritetään järjestelmän asetuksissa.
 
-![Asiakkaat - Hakuehdot](/img/versio2/lisahaku.png)
+![Asiakkaiden rajaus asiakastyypin ja ryhmän mukaan](/img/versio2/lisahaku.png)
 
 #### Kenttäkohtaisten hakuehtojen lisääminen
 
@@ -70,7 +70,7 @@ Esimerkiksi ehto **Sukunimi — On (=) — Aalto** hakee asiakkaat, joiden sukun
 
 Voit poistaa yksittäisen ehdon napsauttamalla ehtorivin oikeassa reunassa olevaa punaista **X-painiketta**.
 
-![Asiakkaat - Hakuehdot](/img/versio2/lisahaku2.png)
+![Asiakkaiden kenttäkohtaiset lisähakuehdot](/img/versio2/lisahaku2.png)
 
 ### Tallennetut haut
 
@@ -95,7 +95,7 @@ Valitse haluamasi haku **Omat haut** -valikosta. Järjestelmä asettaa tallennet
 1. Valitse poistettava haku **Omat haut** -valikosta.
 2. Napsauta **Poista**.
 
-![Asiakkaat - Hakuehdot](/img/versio2/haut-tallennettu.png)
+![Asiakkaiden tallennetun haun valitseminen](/img/versio2/haut-tallennettu.png)
 
 ## Asiakasluettelo
 
@@ -115,7 +115,7 @@ Asiakasluettelossa näet asiakkaiden perustiedot ja tilauksiin liittyvät merkin
 
 Avaa asiakkaan tiedot uuteen välilehteen napsauttamalla **asiakasnumeroa**.
 
-![Asiakkaat - Hakuehdot](/img/versio2/asiakasluettelo2.png)
+![Asiakasluettelo ja asiakkaiden perustiedot](/img/versio2/asiakasluettelo2.png)
 
 ### Asiakkaan tietojen avaaminen
 
@@ -129,7 +129,7 @@ Esikatselussa voit:
 - luoda asiakkaalle uuden tilauksen napsauttamalla **Lisää tilaus**
 - luoda asiakkaalle uuden laskun napsauttamalla **Lisää lasku**.
 
-![Asiakkaat - Hakuehdot](/img/versio2/asiakkaat2.png)
+![Asiakkaan esikatselu asiakasluettelossa](/img/versio2/asiakkaat2.png)
 
 ### Asiakasluettelon kuvakkeet
 
@@ -144,7 +144,7 @@ Asiakkaan nimen edessä oleva kuvake kertoo asiakastyypin:
 - **Rakennuskuvake:** yritys.
 - **Ryhmäkuvake:** yhteisö.
 
-![Asiakkaat - Hakuehdot](/img/versio2/asiakasluettelo3.png)
+![Asiakasluettelon toiminto- ja asiakastyyppikuvakkeet](/img/versio2/asiakasluettelo3.png)
 
 ### Luettelon selaaminen ja järjestäminen
 
@@ -154,7 +154,7 @@ Luettelon yläreunassa näet näytettävien asiakkaiden määrän ja hakutuloste
 - Siirry edelliselle tai seuraavalle sivulle nuolipainikkeilla. Sivunumero kertoo nykyisen sivun ja sivujen kokonaismäärän.
 - Voit järjestää luettelon napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
 
-![Asiakkaat - Hakuehdot](/img/versio2/asiakasluettelo.png)
+![Asiakasluettelon sivutus ja järjestäminen](/img/versio2/asiakasluettelo.png)
 
 ### Näytettävien sarakkeiden valitseminen
 
@@ -176,7 +176,7 @@ Sarakkeen piilottaminen ei poista asiakkaan tietoja, vaan muuttaa ainoastaan lue
 
 Valikon alareunan **Lisäasetukset**-kohdasta pääset sarakkeiden tarkempiin asetuksiin. **Palauta oletukset** -toiminnolla voit palauttaa sarakeasetukset oletusarvoihin.
 
-![Asiakkaat - Hakuehdot](/img/versio2/sarakkeet.png)
+![Asiakasluettelon sarakevalinnat](/img/versio2/sarakkeet.png)
 
 #### Listan lisäasetukset
 
@@ -194,7 +194,7 @@ Valinta koskee vain omaa näkymääsi ja tallentuu heti. Erillistä tallennusta 
 
 Kaikkien käyttäjien yhteinen oletusasetus määritetään kohdassa **Asetukset → Listat**.
 
-![Asiakkaat - Hakuehdot](/img/versio2/sarakkeet2.png)
+![Asiakasluettelon lisätietosarakkeen asetukset](/img/versio2/sarakkeet2.png)
 
 ## Tietojen vienti ja keräilylistalle lisääminen
 
@@ -213,7 +213,7 @@ Valikossa näytetään vietävien rivien määrä, esimerkiksi **100 riviä**.
 | **JSON** | Vie tiedot JSON-tiedostoon. |
 | **HTML** | Vie tiedot HTML-tiedostoon. |
 
-![Asiakkaat - Hakuehdot](/img/versio2/tietojen-vienti.png)
+![Asiakasluettelon vientivalikko](/img/versio2/tietojen-vienti.png)
 
 ## Uuden asiakkaan lisääminen
 
@@ -222,4 +222,4 @@ Valikossa näytetään vietävien rivien määrä, esimerkiksi **100 riviä**.
 3. Täydennä tarvittaessa muiden välilehtien tiedot.
 4. Napsauta lomakkeen alareunassa **Tallenna**.
 
-![Asiakkaat - Hakuehdot](/img/versio2/lisaa-asiakas.png)
+![Uuden asiakkaan yhteystietolomake](/img/versio2/lisaa-asiakas.png)

@@ -7,7 +7,7 @@ description: Tilaukset — Tilausten hakeminen, Hakuhistoria, Lisähakuehdot.
 
 **Tilaukset**-sivulla voit hakea ja tarkastella tilauksia, avata tilauksen muokattavaksi sekä lisätä uusia tilauksia. Avaa sivu yläreunan päävalikon **Tilaukset**-painikkeesta.
 
-![Asiakkaat](/img/versio2/tilaukset.png)
+![Tilaukset-sivun hakunäkymä](/img/versio2/tilaukset.png)
 
 ## Tilausten hakeminen
 
@@ -17,7 +17,7 @@ description: Tilaukset — Tilausten hakeminen, Hakuhistoria, Lisähakuehdot.
 
 Voit tarkentaa hakua **Lisähakuehdot**-painikkeesta. **Tyhjennä**-painikkeella voit tyhjentää haun.
 
-![Asiakkaat](/img/versio2/tilaukset2.png)
+![Tilausten hakukenttä ja hakutoiminnot](/img/versio2/tilaukset2.png)
 
 ### Hakuhistoria
 
@@ -46,7 +46,7 @@ Poista kaikki rajaukset napsauttamalla **Tyhjennä**. Voit poistaa yksittäisen 
 
 Piilota lisähakuehdot napsauttamalla **Lisähakuehdot**-painiketta uudelleen.
 
-![Asiakkaat](/img/versio2/lisahaku-tilaukset.png)
+![Tilausten lisähakuehdot](/img/versio2/lisahaku-tilaukset.png)
 
 ### Rajaaminen tilauksen tilan mukaan
 
@@ -61,7 +61,7 @@ Hakukentän alapuolella olevilla tilapainikkeilla voit rajata luetteloa tilaukse
 - **Tilaaja poistunut**
 - **Ei tiedossa**
 
-![Asiakkaat](/img/versio2/tilaukset3.png)
+![Tilausluettelon tilarajaukset](/img/versio2/tilaukset3.png)
 
 ### Rajaaminen tuoteryhmän ja tuotteen mukaan
 
@@ -73,7 +73,7 @@ Voit rajata hakua myös tuoteryhmien ja tuotteiden perusteella.
 
 Voit valita useita tuoteryhmiä ja tuotteita. Valinnat näkyvät valikoiden alapuolella. Poista yksittäinen valinta napsauttamalla sen vieressä olevaa **rastia**.
 
-![Asiakkaat](/img/versio2/tilaukset4.png)
+![Tilausten rajaus tuoteryhmän ja tuotteen mukaan](/img/versio2/tilaukset4.png)
 
 ## Tilausluettelo
 
@@ -95,7 +95,7 @@ Tilausluettelossa näet oletuksena tilausten perustiedot sekä tilaajan ja maksa
 | **Katkaisupäivä** | Tilaukselle kirjattu katkaisupäivä. |
 | **Katkaisun syy** | Tilauksen katkaisulle kirjattu syy. |
 
-![Asiakkaat](/img/versio2/tilaukset5.png)
+![Tilausluettelo ja tilausten perustiedot](/img/versio2/tilaukset5.png)
 
 ### Tilauksen ja asiakaskortin avaaminen
 
@@ -107,14 +107,14 @@ Esikatselussa voit:
 - avata tilaajan, maksajan tai tilauksen tiedot uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
 - lisätä asiakkaan keräilylistalle napsauttamalla **henkilö- ja listakuvaketta**.
 
-![Asiakkaat](/img/versio2/tilaukset10.png)
+![Tilauksen esikatselu tilausluettelossa](/img/versio2/tilaukset10.png)
 
 Tilauslistan siniset linkit avaavat kyseisen tilauksen, tilaajan tai maksajan tiedot uuteen välilehteen.
 
 - Avaa tilauksen tiedot napsauttamalla **tilausnumeroa** tai rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
 - Avaa tilaajan tai maksajan asiakaskortti napsauttamalla kyseisen asiakkaan **asiakasnumeroa**.
 
-![Asiakkaat](/img/versio2/tilaukset6.png)
+![Tilauksen, tilaajan ja maksajan linkit tilausluettelossa](/img/versio2/tilaukset6.png)
 
 ### Luettelon selaaminen ja järjestäminen
 
@@ -124,7 +124,7 @@ Luettelon yläreunassa näet nykyisellä sivulla näytettävien tilausten määr
 - Siirry edelliselle tai seuraavalle sivulle nuolipainikkeilla.
 - Järjestä luettelo napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
 
-![Asiakkaat](/img/versio2/tilaukset7.png)
+![Tilausluettelon sivutus ja järjestäminen](/img/versio2/tilaukset7.png)
 
 ### Näytettävien sarakkeiden valitseminen
 
@@ -152,7 +152,7 @@ Sarakkeen piilottaminen ei poista tilauksen tietoja, vaan muuttaa ainoastaan lue
 
 Valikon alareunan **Lisäasetukset**-kohdasta pääset tilausluettelon tarkempiin asetuksiin.
 
-![Asiakkaat](/img/versio2/tilaukset8.png)
+![Tilausluettelon sarakevalinnat](/img/versio2/tilaukset8.png)
 
 #### Listan lisäasetukset
 
@@ -172,9 +172,9 @@ Kaikkien käyttäjien yhteinen oletusasetus määritetään kohdassa **Asetukset
 
 Sulje ikkuna **Sulje**-painikkeella tai oikean yläkulman rastista.
 
-![Asiakkaat](/img/versio2/sarakkeet3.png)
+![Tilausluettelon lisäasetukset](/img/versio2/sarakkeet3.png)
 
-![Asiakkaat](/img/versio2/sarakkeet4.png)
+![Tilausluettelon lisätietosarakkeiden näyttöasetus](/img/versio2/sarakkeet4.png)
 
 ## Tietojen vienti ja keräilylistalle lisääminen
 
@@ -195,13 +195,13 @@ Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä
 | **JSON** | Vie tiedot JSON-tiedostoon. |
 | **HTML** | Vie tiedot HTML-tiedostoon. |
 
-![Asiakkaat](/img/versio2/tilaukset9.png)
+![Tilausluettelon vienti- ja keräilylistavalikko](/img/versio2/tilaukset9.png)
 
 ## Uuden tilauksen lisääminen
 
 Aloita uuden tilauksen lisääminen napsauttamalla tilausluettelon yläreunassa **+ Lisää tilaus** -painiketta. **Uusi tilaus** -lomake avautuu uuteen välilehteen.
 
-![Asiakkaat](/img/versio2/uusi-tilaus.png)
+![Uuden tilauksen lomake](/img/versio2/uusi-tilaus.png)
 
 ### Tilaajan, maksajan ja lehden valitseminen
 
@@ -218,7 +218,7 @@ Kampanja-valinta rajaa **Tuote**-valikossa näytettäviä tuotteita. Käytettäv
 
 Kun tuote on valittu, lomakkeelle avautuvat tilauksen muut tiedot ja hinnoittelu.
 
-![Asiakkaat](/img/versio2/uusi-tilaus3.png)
+![Tilaajan, maksajan, lehden ja tuotteen valitseminen](/img/versio2/uusi-tilaus3.png)
 
 ### Tilauksen tietojen täyttäminen
 
@@ -228,7 +228,7 @@ Kun olet täyttänyt ja tarkistanut tilauksen tiedot, napsauta **Tallenna tilaus
 
 Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lomakkeen oikealla puolella olevassa **Laskutuspyynnöt**-osiossa.
 
-![Asiakkaat](/img/versio2/uusi-tilaus2.png)
+![Uuden tilauksen tiedot ja laskutuspyynnöt](/img/versio2/uusi-tilaus2.png)
 
 ### Tilaustiedot
 
@@ -245,7 +245,7 @@ Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lo
 | **Lisätiedot** | Tilaukseen liittyvät sisäiset lisätiedot. |
 | **Lisätiedot tilaajalle** | Tilaajalle näytettävät lisätiedot. Nämä näytetään erillään sisäisistä lisätiedoista. |
 
-![Asiakkaat](/img/versio2/uusi-tilaus4.png)
+![Uuden tilauksen tilaustiedot](/img/versio2/uusi-tilaus4.png)
 
 ### Hinnoittelu
 
@@ -272,7 +272,7 @@ Järjestelmä laskee annetun verollisen summan perusteella uuden verottoman yksi
 
 Voit perua summan muokkaamisen napsauttamalla **X-painiketta**.
 
-![Tilaus](/img/versio2/uusi-tilaus5.png)
+![Tilauksen hinnoittelu ja verollisen summan muuttaminen](/img/versio2/uusi-tilaus5.png)
 
 ## Tilauksen katkaisu
 
@@ -283,7 +283,7 @@ Voit perua summan muokkaamisen napsauttamalla **X-painiketta**.
 5. Valitse **Katkaisun syy**.
 6. Napsauta **Tallenna muutokset**.
 
-![Tilaus](/img/versio2/peruutus.png)
+![Tilauksen peruutuspäivä ja katkaisun syy](/img/versio2/peruutus.png)
 
 ### Maksetun tilauksen peruuttaminen
 
