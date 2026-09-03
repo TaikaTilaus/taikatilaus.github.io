@@ -8,7 +8,7 @@ description: Etusivu — Päävalikko, Oikean reunan ikonit, Omat tiedot ja kirj
 
 Etusivulle on koottu yhteenveto asiakkaista, tilauksista ja laskuista sekä julkaisukalenteri, postitusyhteenveto ja viimeisimmät muutokset. Etusivulla näkyviä kortteja voi hallita [asetuksista](/docs/uusi_versio/asetukset/etusivun-osiot). 
 
-![Etusivu](/img/versio2/etusivu.png)
+![TaikaTilaus 3.0:n etusivun yleisnäkymä](/img/versio2/etusivu.png)
 
 ## Päävalikko
 
@@ -24,7 +24,7 @@ Sivun yläreunan päävalikosta pääset järjestelmän eri osioihin:
 
 Valikon nimen vieressä oleva nuoli avaa alavalikon.
 
-![Etusivu](/img/versio2/paavalikko.png)
+![Etusivun päävalikko ja sen osiot](/img/versio2/paavalikko.png)
 
 ### Oikean reunan ikonit
 
@@ -39,7 +39,7 @@ Päävalikon oikeassa reunassa ovat seuraavat pikatoiminnot:
 
 Avaa toiminto napsauttamalla sitä vastaavaa kuvaketta. Käyttäjävalikko avautuu napsauttamalla oikeassa reunassa näkyvää käyttäjätunnusta.
 
-![Etusivu](/img/versio2/paavalikko-icons.png)
+![Päävalikon keräilylista-, historia-, huomio- ja käyttäjäkuvakkeet](/img/versio2/paavalikko-icons.png)
 
 ### Omat tiedot ja kirjautuminen ulos
 
@@ -66,7 +66,7 @@ Valikossa ovat seuraavat toiminnot:
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 
-![Etusivu](/img/versio2/omat-tiedot.png)
+![Käyttäjän omat tiedot ja ulkoasuteeman valinta](/img/versio2/omat-tiedot.png)
 
 ## Tunnusluvut
 
@@ -81,7 +81,7 @@ Etusivun yläosan yhteenvetokorteissa näet seuraavat tiedot:
 
 <!-- Kortteja klikkaamalla pääset tarkastelemaan asiakkaita, tilauksia tai laskuja.  -->
 
-![Etusivu](/img/versio2/kortit.png)
+![Etusivun asiakkaiden, tilausten ja laskujen tunnusluvut](/img/versio2/kortit.png)
 
 ## Tilausten kehitys
 
@@ -97,7 +97,7 @@ Nuoli ylöspäin ja vihreä merkintä tarkoittavat määrän kasvua. Nuoli alasp
 
 <!-- Kortteja klikkaamalla pääset listalle kyseisistä tilauksista.  -->
 
-![Etusivu](/img/versio2/kortit2.png)
+![Etusivun tilausten kehitystä kuvaavat yhteenvetokortit](/img/versio2/kortit2.png)
 
 ## Julkaisukalenteri
 
@@ -111,7 +111,7 @@ Voit siirtyä edelliseen tai seuraavaan kuukauteen kalenterin yläreunan nuolipa
 
 Aloita uuden kalenterimerkinnän lisääminen napsauttamalla **Lisää merkintä** -painiketta.
 
-![Etusivu](/img/versio2/kalenteri.png)
+![Julkaisukalenteri ilmestymis-, aineisto- ja pyhäpäivineen](/img/versio2/kalenteri.png)
 
 ### Merkinnän lisääminen julkaisukalenteriin
 
@@ -130,7 +130,7 @@ Voit perua lisäämisen tallentamatta napsauttamalla **Peruuta**.
 
 Jos **Lisää merkintä** -painike ei näy, avaa julkaisukalenterin asetukset rataskuvakkeesta ja valitse **Näytä merkinnän lisääminen**.
 
-![Etusivu](/img/versio2/kalenteri3.png)
+![Uuden merkinnän lisääminen julkaisukalenteriin](/img/versio2/kalenteri3.png)
 
 ### Julkaisukalenterin asetukset
 
@@ -142,13 +142,13 @@ Asetuksissa voit muokata seuraavia valintoja:
 - **Näytä merkinnän lisääminen:** näyttää kalenterin yläreunassa **Lisää merkintä** -painikkeen. Poista valinta, jos haluat piilottaa painikkeen.
 - **Näytettävät lehtien lyhenteet:** valitse, minkä lehtien tiedot näkyvät kalenterissa. Napsauta lehden lyhennettä näyttääksesi tai piilottaaksesi sen tiedot. Valittu lyhenne näkyy sinisellä pohjalla ja valintamerkillä. Kun kaikki lehdet on valittu, kaikkien lehtien tiedot näytetään.
 
-![Julkaisukalenteri](/img/versio2/kalenteri2.png)
+![Julkaisukalenterin aineistopäivä- ja lehtivalinnat](/img/versio2/kalenteri2.png)
 
 ## Postitusyhteenveto
 
 Postitusyhteenvedossa näet postitusmäärät ilmestymispäivittäin ja lehdittäin. Ilmestymispäivät näkyvät vasemmassa sarakkeessa ja määrät kunkin lehden omassa sarakkeessa. Lehtien määrät yhteensä näytetään viimeisessä sarakkeessa, kun lehtiä on monta.
 
-![Postitusyhteenveto](/img/versio2/postitusyhteenveto2.png)
+![Postitusmäärät ilmestymispäivittäin ja lehdittäin](/img/versio2/postitusyhteenveto2.png)
 
 ### Postitusyhteenvedon asetukset
 
@@ -158,7 +158,7 @@ Avaa asetukset napsauttamalla **Postitusyhteenveto**-osion oikeassa yläkulmassa
 
 Postitusmäärät näytetään taulukossa ilmestymispäivittäin ja lehdittäin.
 
-![Postitusyhteenveto](/img/versio2/postitusyhteenveto.png)
+![Postitusyhteenvedon historiapäivien asetus](/img/versio2/postitusyhteenveto.png)
 
 ## Uusimmat lokitiedot
 
@@ -171,7 +171,7 @@ Postitusmäärät näytetään taulukossa ilmestymispäivittäin ja lehdittäin.
 
 Vanha ja uusi arvo on erotettu nuolella: **vanha arvo → uusi arvo**.
 
-![Lokitiedot](/img/versio2/lokitiedot.png)
+![Etusivun uusimmat asiakastietojen muutokset](/img/versio2/lokitiedot.png)
 
 ### Uusimpien lokitietojen asetukset
 
@@ -179,7 +179,7 @@ Avaa asetukset napsauttamalla **Uusimmat lokitiedot** -osion oikeassa yläkulmas
 
 **Näytä enintään (lokitietoa)** -kentässä voit määrittää, kuinka monta lokitietoa etusivulla näytetään enintään. Esimerkiksi arvolla **10** näytetään enintään kymmenen viimeisintä lokitietoa.
 
-![Lokitiedot](/img/versio2/lokitiedot2.png)
+![Uusimpien lokitietojen enimmäismäärän asetus](/img/versio2/lokitiedot2.png)
 
 ## Uusimmat huomiot
 
@@ -187,7 +187,7 @@ Avaa asetukset napsauttamalla **Uusimmat lokitiedot** -osion oikeassa yläkulmas
 
 Jos käsittelemättömiä huomioita ei ole, osiossa näkyy teksti **Ei käsittelemättömiä huomioita.**
 
-![Huomiot](/img/versio2/huomiot2.png)
+![Etusivun käsittelemättömät huomiot](/img/versio2/huomiot2.png)
 
 ### Uusimpien huomioiden asetukset
 
@@ -195,4 +195,4 @@ Avaa asetukset napsauttamalla **Uusimmat huomiot** -osion oikeassa yläkulmassa 
 
 **Näytä enintään (käsittelemätöntä huomiota)** -kentässä voit määrittää, kuinka monta käsittelemätöntä huomiota etusivulla näytetään enintään. Esimerkiksi arvolla **5** näytetään enintään viisi huomiota.
 
-![Huomiot](/img/versio2/huomiot.png)
+![Etusivulla näytettävien huomioiden enimmäismäärän asetus](/img/versio2/huomiot.png)

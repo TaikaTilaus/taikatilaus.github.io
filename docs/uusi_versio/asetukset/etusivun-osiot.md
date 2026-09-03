@@ -11,7 +11,7 @@ Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Etusivun osiot**.
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 
-![Etusivun osiot](/img/versio2/etusivun-osiot.png)
+![Etusivun osiot -asetussivun yleisnäkymä](/img/versio2/etusivun-osiot.png)
 
 ## Tilausten yhteenvedot
 
@@ -28,7 +28,7 @@ Yhteenvetokorteissa kuluvan jakson määrää verrataan edellisten 12 kuukauden 
 
 Asetus koskee kaikkia kolmea yhteenvetokorttia.
 
-![Etusivun osiot](/img/versio2/etusivun-osiot2.png)
+![Etusivun tilausten yhteenvetokorttien asetukset](/img/versio2/etusivun-osiot2.png)
 
 ## Postitusyhteenveto
 
@@ -38,4 +38,4 @@ Asetus koskee kaikkia kolmea yhteenvetokorttia.
 - Määritä **Näytä enintään** -kenttään, kuinka monta riviä etusivulla voidaan näyttää.
 - Määritä **Haku historiasta** -kenttään, kuinka monen päivän ajalta tietoja haetaan taaksepäin.
 
-![Etusivun osiot](/img/versio2/etusivun-osiot3.png)
+![Etusivun postitusyhteenvedon asetukset](/img/versio2/etusivun-osiot3.png)

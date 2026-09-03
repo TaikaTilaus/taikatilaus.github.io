@@ -9,7 +9,7 @@ description: Yleisasetukset — Tilaustavat, Tilaustavan lisääminen, Tilaustav
 
 Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Yleisasetukset**.
 
-![Yleisasetukset](/img/versio2/yleisasetukset.png)
+![Yleisasetukset-sivun yleisnäkymä](/img/versio2/yleisasetukset.png)
 
 ## Tilaustavat
 
@@ -26,7 +26,7 @@ Poista tilaustapa napsauttamalla sen vieressä olevaa **x-kuvaketta**.
 
 Tilaustapojen lähtöarvot on kopioitu TaikaTilauksen asetuksista. Tällä sivulla tehdyt muutokset koskevat vain uutta sovellusta, eivätkä ne muuta alkuperäisen TaikaTilauksen asetuksia.
 
-![Yleisasetukset](/img/versio2/tilaustavat.png)
+![Tilaustapojen lisääminen ja poistaminen](/img/versio2/tilaustavat.png)
 
 ## Katkaisun syyt
 
@@ -49,5 +49,5 @@ Katkaisun syiden lähtöarvot on kopioitu TaikaTilauksen asetuksista. Tällä si
 
 Palaa asetusten etusivulle napsauttamalla **Palaa asetuksiin**.
 
-![Yleisasetukset](/img/versio2/katkaisun-syyt.png)
+![Tilauksen katkaisun syiden lisääminen ja poistaminen](/img/versio2/katkaisun-syyt.png)
 

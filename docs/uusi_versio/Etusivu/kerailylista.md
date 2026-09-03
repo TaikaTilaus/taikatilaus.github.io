@@ -10,7 +10,7 @@ Keräilylistalle voit koota asiakkaita eri puolilta järjestelmää jatkokäsitt
 
 Avaa keräilylista napsauttamalla päävalikon oikeassa reunassa olevaa **keräilylistakuvaketta**. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän.
 
-![Keräilylista](/img/versio2/kerailylista.png)
+![Keräilylistan yleisnäkymä ja asiakasluettelo](/img/versio2/kerailylista.png)
 
 ## Asiakkaiden tuominen asiakasnumeroilla
 
@@ -27,7 +27,7 @@ Järjestelmä vertaa annettuja asiakasnumeroita asiakasrekisteriin. Rekisterist�
 
 Tyhjennä syötetyt asiakasnumerot ja valittu tiedosto napsauttamalla **Tyhjennä**.
 
-![Keräilylista](/img/versio2/kerailylista2.png)
+![Asiakasnumeroiden syöttäminen tai tuominen tiedostosta](/img/versio2/kerailylista2.png)
 
 ## Keräilylistan tiedot
 
@@ -44,7 +44,7 @@ Tyhjennä syötetyt asiakasnumerot ja valittu tiedosto napsauttamalla **Tyhjenn�
 
 Avaa asiakkaan asiakaskortti napsauttamalla **asiakasnumeroa**.
 
-![Keräilylista](/img/versio2/kerailylista5.png)
+![Keräilylistan asiakkaiden tiedot](/img/versio2/kerailylista5.png)
 
 ## Keräilylistan hakeminen ja suodattaminen
 
@@ -60,7 +60,7 @@ Hakutulokset päivittyvät automaattisesti, kun kirjoitat hakukenttään tai muu
 
 Hakuehtojen oikealla puolella näkyvä luku, esimerkiksi **31 / 31 asiakasta**, kertoo näytettävien asiakkaiden määrän suhteessa keräilylistan asiakkaiden kokonaismäärään.
 
-![Keräilylista](/img/versio2/kerailylista3.png)
+![Keräilylistan haku- ja suodatusehdot](/img/versio2/kerailylista3.png)
 
 ## Asiakkaiden valitseminen
 
@@ -68,7 +68,7 @@ Valitse yksittäinen asiakas napsauttamalla asiakasrivin vasemmassa reunassa ole
 
 **Toiminnot**-kohdassa näkyy, kuinka moneen asiakkaaseen valittu toiminto kohdistuu.
 
-![Keräilylista](/img/versio2/kerailylista4.png)
+![Asiakkaiden valitseminen keräilylistalta](/img/versio2/kerailylista4.png)
 
 ## Asiakkaan poistaminen listalta
 
@@ -80,7 +80,7 @@ Tyhjennä keräilylista kokonaan painamalla **Tyhjennä** -painiketta.
 
 Asiakkaan poistaminen keräilylistalta tai keräilylistan tyhjentäminen ei poista asiakaskorttia tai asiakkaan muita tietoja järjestelmästä.
 
-![Keräilylista](/img/versio2/kerailylista6.png)
+![Asiakkaiden poistaminen keräilylistalta](/img/versio2/kerailylista6.png)
 
 ## Keräilylistan toiminnot
 
@@ -92,7 +92,7 @@ Asiakkaan poistaminen keräilylistalta tai keräilylistan tyhjentäminen ei pois
 | **Muokkaa ryhmiä** | Avaa järjestelmässä käytettävien ryhmätyyppien ja ryhmien hallinnan. |
 | **Lähetä sähköposti** | Avaa sähköpostin lähettämisen valituille asiakkaille. |
 
-![Keräilylista](/img/versio2/kerailylista9.png)
+![Keräilylistan asiakastoiminnot](/img/versio2/kerailylista9.png)
 
 ### Keräilylistan tulostaminen ja vieminen
 
@@ -110,7 +110,7 @@ Valikossa näkyvä rivimäärä kertoo, kuinka monta suodatettua asiakasta käsi
 | **JSON** | Vie tiedot JSON-tiedostoon. |
 | **HTML** | Vie tiedot HTML-tiedostoon. |
 
-![Keräilylista](/img/versio2/kerailylista7.png)
+![Keräilylistan tulostus- ja vientivalikko](/img/versio2/kerailylista7.png)
 
 ## Asiakastietojen vieminen päivityspohjaan
 
@@ -155,7 +155,7 @@ Käytettävissä olevat ryhmittelytyypit ja ryhmät määritetään järjestelm�
 
 Sulje toiminto tekemättä muutoksia napsauttamalla **Sulje**.
 
-![Keräilylista](/img/versio2/kerailylista8.png)
+![Keräilylistan asiakkaiden lisääminen ryhmään](/img/versio2/kerailylista8.png)
 
 ### Ryhmien muokkaaminen
 
@@ -163,7 +163,7 @@ Avaa ryhmien hallinta napsauttamalla keräilylistalla **Muokkaa ryhmiä**.
 
 Tässä toiminnossa hallitaan järjestelmässä käytettäviä ryhmätyyppejä ja ryhmiä. Toiminto ei lisää keräilylistan asiakkaita ryhmiin. Lisää asiakkaat olemassa olevaan ryhmään **Lisää ryhmään** -toiminnolla.
 
-![Keräilylista](/img/versio2/kerailylista11.png)
+![Ryhmien muokkaus keräilylistalta](/img/versio2/kerailylista11.png)
 
 #### Uuden ryhmän lisääminen
 
@@ -173,7 +173,7 @@ Tässä toiminnossa hallitaan järjestelmässä käytettäviä ryhmätyyppejä j
 
 Ryhmä luodaan aluksi ilman asiakkaita. Lisää asiakkaat ryhmään erikseen keräilylistan **Lisää ryhmään** -toiminnolla.
 
-![Keräilylista](/img/versio2/ryhma.png)
+![Uuden ryhmätyypin ja ryhmän lisääminen](/img/versio2/ryhma.png)
 
 #### Ryhmätyyppien ja ryhmien hallinta
 
@@ -192,7 +192,7 @@ Yksittäisen arvon rivillä olevilla painikkeilla voit:
 
 Sulje Ryhmien muokkaus -ikkuna **Sulje**-painikkeella tai oikean yläkulman rastista.
 
-![Keräilylista](/img/versio2/kerailylista10.png)
+![Ryhmätyyppien ja ryhmien hallintatoiminnot](/img/versio2/kerailylista10.png)
 
 ### Sähköpostin lähettäminen keräilylistalta
 
@@ -212,4 +212,4 @@ Asiakkaat, joilla ei ole sähköpostiosoitetta, ohitetaan automaattisesti.
 
 Voit sulkea sähköpostitoiminnon lähettämättä viestiä napsauttamalla osion oikeassa yläkulmassa olevaa **X-painiketta**.
 
-![Keräilylista](/img/versio2/kerailylista12.png)
+![Sähköpostin lähettäminen keräilylistan asiakkaille](/img/versio2/kerailylista12.png)

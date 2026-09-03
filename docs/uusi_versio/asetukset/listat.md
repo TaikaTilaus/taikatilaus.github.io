@@ -11,7 +11,7 @@ description: Listat — Asiakaslista, Tilauslista.
 
 Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Listat**. Tai suoraan **Asetukset → Listat**
 
-![Listat](/img/versio2/listat.png)
+![Asiakas- ja tilauslistojen lisätietojen näyttöasetukset](/img/versio2/listat.png)
 
 ## Asiakaslista
 

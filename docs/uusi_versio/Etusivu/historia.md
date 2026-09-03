@@ -20,4 +20,4 @@ Voit avata asiakkaan tai tilauksen uudelleen napsauttamalla sitä luettelossa.
 
 **Tyhjennä** poistaa tapahtumat Viimeksi tehdyt -luettelosta. Toiminto ei poista asiakkaita, tilauksia tai muita järjestelmään tallennettuja tietoja.
 
-![Etusivu](/img/versio2/historia.png)
+![Viimeksi käsitellyt asiakkaat ja tilaukset Historia-näkymässä](/img/versio2/historia.png)

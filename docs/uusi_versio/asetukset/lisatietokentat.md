@@ -11,7 +11,7 @@ Tällä sivulla tehdyt muutokset vaikuttavat asiakaskortin [**Lisäkentät**-vä
 
 Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Lisätietokentät**. Tai suoraan **Asetukset → Lisätietokentät**
 
-![Lisätietokentät](/img/versio2/lisatietokentat.png)
+![Lisätietokentät-sivun yleisnäkymä](/img/versio2/lisatietokentat.png)
 
 ## Uuden lisätietokentän lisääminen
 
@@ -23,7 +23,7 @@ Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Lisätietokentät**.
 
 Tekninen avain on kentän yksilöivä tunnus. Se muodostetaan automaattisesti kentän nimestä.
 
-![Lisätietokentät](/img/versio2/lisatietokentat2.png)
+![Uuden lisätietokentän nimi-, avain- ja tietotyyppivalinnat](/img/versio2/lisatietokentat2.png)
 
 ## Määritetyt kentät
 
@@ -38,5 +38,5 @@ Lisätty kenttä tulee näkyviin asiakaskortin **Lisäkentät**-välilehdelle.
 
 Voit poistaa kentän napsauttamalla sen rivillä olevaa **roskakorikuvaketta**.
 
-![Lisätietokentät](/img/versio2/lisatietokentat3.png)
+![Määritettyjen lisätietokenttien luettelo](/img/versio2/lisatietokentat3.png)
 

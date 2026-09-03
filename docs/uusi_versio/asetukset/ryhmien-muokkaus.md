@@ -9,7 +9,7 @@ description: Ryhmien muokkaus — Uuden ryhmän lisääminen, Ryhmätyyppien ja 
 
 Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Ryhmien muokkaus**. Tai suoraan **Asetukset → Ryhmien muokkaus**.
 
-![Ryhmien muokkaus](/img/versio2/ryhmat.png)
+![Ryhmien muokkaus -sivun yleisnäkymä](/img/versio2/ryhmat.png)
 
 ## Uuden ryhmän lisääminen
 
@@ -19,7 +19,7 @@ Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Ryhmien muokkaus**. 
 
 Ryhmä luodaan aluksi ilman asiakkaita. Lisää asiakkaat ryhmään erikseen [keräilylistan](/docs/uusi_versio/Etusivu/kerailylista#asiakkaiden-lisääminen-ryhmään) **Lisää ryhmään** -toiminnolla.
 
-![Ryhmien muokkaus](/img/versio2/ryhma.png)
+![Uuden ryhmätyypin ja ryhmän lisääminen](/img/versio2/ryhma.png)
 
 ## Ryhmätyyppien ja ryhmien hallinta
 
@@ -38,4 +38,4 @@ Yksittäisen arvon rivillä olevilla painikkeilla voit:
 
 Palaa asetusten etusivulle napsauttamalla **Palaa asetuksiin**.
 
-![Ryhmien muokkaus](/img/versio2/ryhmat2.png)
+![Ryhmätyyppien ja ryhmien muokkaus- ja poistotoiminnot](/img/versio2/ryhmat2.png)

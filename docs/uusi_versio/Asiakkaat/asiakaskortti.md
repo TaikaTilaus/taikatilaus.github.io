@@ -6,13 +6,13 @@ description: Asiakaskortti — Asiakkaan tiedot, Yhteystiedot, Laskutustiedot.
 
 # Asiakaskortti
 
-![Asiakkaat](/img/versio2/asiakaskortti2.png)
+![Asiakaskortin yleisnäkymä](/img/versio2/asiakaskortti2.png)
 
 Asiakaskortilla voit tarkastella ja muokata asiakkaan tietoja sekä siirtyä asiakkaan tilauksiin ja laskuihin.
 
 Avaa asiakaskortti napsauttamalla asiakasluettelossa asiakkaan **asiakasnumeroa** tai asiakasrivin **kynäkuvaketta**.
 
-![Asiakkaat](/img/versio2/asiakaskortti.png)
+![Asiakaskortin avaaminen asiakasluettelosta](/img/versio2/asiakaskortti.png)
 
 ## Asiakkaan tiedot
 
@@ -29,7 +29,7 @@ Asiakkaan tiedot on jaettu välilehdille:
 - **Lisäkentät**
 - **Muutosloki**
 
-![Asiakkaat](/img/versio2/asiakaskortti3.png)
+![Asiakaskortin tiedot ja välilehdet](/img/versio2/asiakaskortti3.png)
 
 ## Yhteystiedot
 
@@ -51,7 +51,7 @@ Asiakkaan tiedot on jaettu välilehdille:
 
 Muokkaa tarvittavia tietoja ja napsauta **Tallenna**.
 
-![Asiakkaat](/img/versio2/asiakaskortti3.png)
+![Asiakaskortin yhteystiedot](/img/versio2/asiakaskortti3.png)
 
 ## Laskutustiedot
 
@@ -86,7 +86,7 @@ Muokkaa tarvittavia tietoja ja napsauta **Tallenna**.
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 
-![Asiakkaat](/img/versio2/laskutustiedot.png)
+![Asiakaskortin pankki-, verkkolasku- ja laskutusasetukset](/img/versio2/laskutustiedot.png)
 
 ## Markkinointitiedot
 
@@ -120,7 +120,7 @@ Jokaiselle kanavalle on omat kenttänsä:
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 
-![Asiakkaat](/img/versio2/markkinointikiellot.png)
+![Asiakaskortin markkinointiluvat ja -kiellot](/img/versio2/markkinointikiellot.png)
 
 ## Ryhmittely
 
@@ -144,7 +144,7 @@ Napsauta poistettavan ryhmittelyn vieressä olevaa **rastia** ja tallenna muutok
 
 **Vapaa ryhmittely** -kenttään voit kirjoittaa vapaamuotoisen ryhmittelytiedon.
 
-![Asiakkaat](/img/versio2/ryhmittely.png)
+![Asiakkaan ryhmittelyjen lisääminen ja poistaminen](/img/versio2/ryhmittely.png)
 
 ## Muut tiedot
 
@@ -159,13 +159,13 @@ Napsauta poistettavan ryhmittelyn vieressä olevaa **rastia** ja tallenna muutok
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 
-![Asiakkaat](/img/versio2/muut-tiedot.png)
+![Asiakaskortin yritys- ja muut tiedot](/img/versio2/muut-tiedot.png)
 
 ## Jakelupoikkeukset
 
 **Jakelupoikkeukset**-välilehdellä hallitaan asiakkaan jakeluasetuksia, väliaikaista osoitetta, jakelun keskeytystä ja tulevaa osoitteenmuutosta.
 
-![Asiakkaat](/img/versio2/jakelupoikkeukset.png)
+![Asiakaskortin jakelupoikkeukset-välilehti](/img/versio2/jakelupoikkeukset.png)
 
 ### Jakeluasetukset
 
@@ -177,7 +177,7 @@ Tallenna muutokset napsauttamalla **Tallenna**.
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 
-![Asiakkaat](/img/versio2/jakelupoikkeukset2.png)
+![Asiakkaan varhaisjakelu-, estolista- ja nippuasetukset](/img/versio2/jakelupoikkeukset2.png)
 
 ### Väliaikainen osoite
 
@@ -190,7 +190,7 @@ Väliaikaista osoitetta voidaan käyttää esimerkiksi kesäosoitteena. Se ohitt
 
 Jätä voimassaolopäivämäärät tyhjiksi, jos väliaikaista osoitetta ei käytetä.
 
-![Asiakkaat](/img/versio2/jakelupoikkeukset3.png)
+![Asiakkaan väliaikaisen osoitteen tiedot](/img/versio2/jakelupoikkeukset3.png)
 
 ### Jakelun keskeytys
 
@@ -201,7 +201,7 @@ Jakelun keskeytyksen ajaksi tilaus nukutetaan.
 3. Kirjoita tarvittaessa **Keskeytysviesti seuraavalle laskulle**.
 4. Napsauta **Tallenna**.
 
-![Asiakkaat](/img/versio2/jakelupoikkeukset4.png)
+![Asiakkaan jakelun keskeytyksen tiedot](/img/versio2/jakelupoikkeukset4.png)
 
 ### Tuleva osoitteenmuutos
 
@@ -213,7 +213,7 @@ Voit kirjata osoitteenmuutoksen etukäteen. Uusi osoite tulee voimaan annettuna 
 
 Osiossa on myös **Osoitepäivitys tehty (info)** -kenttä osoitepäivityksen tietoa varten.
 
-![Asiakkaat](/img/versio2/jakelupoikkeukset5.png)
+![Asiakkaan tulevan osoitteenmuutoksen tiedot](/img/versio2/jakelupoikkeukset5.png)
 
 ## Lisäkentät
 
@@ -226,7 +226,7 @@ Tietojen lisääminen tai muuttaminen:
 3. Täytä tai valitse tarvittavat tiedot.
 4. Napsauta **Tallenna**.
 
-![Asiakaskortti - Lisäkentät](/img/versio2/lisakentat.png)
+![Asiakaskortin määritettävät lisätietokentät](/img/versio2/lisakentat.png)
 
 ## Muutosloki
 
@@ -241,7 +241,7 @@ Muutoslokissa näytetään:
 
 Välilehden vieressä oleva numero kertoo muutoslokissa olevien tapahtumien määrän. Uusimmat muutokset näytetään ylimpänä.
 
-![Muutosloki](/img/versio2/muutosloki.png)
+![Asiakastietojen muutokset muutoslokissa](/img/versio2/muutosloki.png)
 
 ## Tilaukset
 
@@ -263,7 +263,7 @@ Avaa tilauksen tiedot napsauttamalla **tilausnumeroa**.
 
 Aloita uuden tilauksen lisääminen asiakkaalle napsauttamalla **+ Lisää tilaus** -painiketta.
 
-![Asiakkaat](/img/versio2/asiakas-tilaukset.png)
+![Asiakkaan tilaukset asiakaskortilla](/img/versio2/asiakas-tilaukset.png)
 
 ## Laskut
 
@@ -281,13 +281,13 @@ Avaa laskun tiedot napsauttamalla **laskunumeroa**.
 
 Aloita uuden laskun lisääminen asiakkaalle napsauttamalla **+ Lisää lasku** -painiketta.
 
-![Asiakkaat](/img/versio2/asiakas-lasku.png)
+![Asiakkaan laskut asiakaskortilla](/img/versio2/asiakas-lasku.png)
 
 ## Asiakaskortin sulkeminen
 
 Tallenna mahdolliset muutokset ennen sulkemista. Sulje asiakaskortti napsauttamalla **Sulje välilehti** -painiketta.
 
-![Asiakkaat](/img/versio2/sulje-asiakas.png)
+![Asiakaskortin Sulje välilehti -painike](/img/versio2/sulje-asiakas.png)
 
 ### Tallentamattomat muutokset
 
@@ -296,5 +296,5 @@ Jos yrität sulkea asiakaskortin tallentamatta muutoksia, järjestelmä näyttä
 - **Peruuta:** peruu sulkemisen ja palauttaa sinut asiakaskortille. Voit jatkaa muokkaamista tai tallentaa muutokset **Tallenna**-painikkeella.
 - **Sulje tallentamatta:** sulkee välilehden ja hylkää tallentamattomat muutokset.
 
-![Asiakkaat](/img/versio2/sulje-asiakas2.png)
+![Varoitus asiakaskortin tallentamattomista muutoksista](/img/versio2/sulje-asiakas2.png)
 

@@ -5,7 +5,7 @@ description: Kaikki raportit — Raportin hakeminen, Raporttiluettelo, Raportin 
 
 # Kaikki raportit
 
-![Asiakkaat](/img/versio2/raportit.png)
+![Kaikki raportit -sivun yleisnäkymä](/img/versio2/raportit.png)
 
 **Kaikki raportit**-sivulla voit hakea, suodattaa ja avata järjestelmän raportteja sekä tallennettuja raporttihakuja. Avaa sivu yläreunan päävalikosta valitsemalla **Raportit** &rarr; **Kaikki raporit**.
 
@@ -22,7 +22,7 @@ Voit rajata luetteloa myös seuraavilla valinnoilla:
 
 Voit käyttää nimihakua ja valikoiden rajauksia samanaikaisesti.
 
-![Asiakkaat](/img/versio2/raportit2.png)
+![Raporttien nimi-, ryhmä- ja lisääjärajaukset](/img/versio2/raportit2.png)
 
 ## Raporttiluettelo
 
@@ -35,7 +35,7 @@ Voit käyttää nimihakua ja valikoiden rajauksia samanaikaisesti.
 
 Voit järjestää luetteloa napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
 
-![Asiakkaat](/img/versio2/raportit3.png)
+![Raporttiluettelo ja raporttien perustiedot](/img/versio2/raportit3.png)
 
 ## Raportin lisääminen suosikiksi
 
@@ -46,17 +46,17 @@ Raporttirivin vasemmassa reunassa olevalla **tähtikuvakkeella** voit merkitä u
 
 Suosikkiraportit nuosevat listalla ylimmäksi.
 
-![Asiakkaat](/img/versio2/raportit5.png)
+![Raportin merkitseminen suosikiksi tähtikuvakkeella](/img/versio2/raportit5.png)
 
 Suosikkiraporttisi löytyvät myös omasta ryhmästä. 
 
-![Asiakkaat](/img/versio2/raportit6.png)
+![Suosikkiraportit omana ryhmänään](/img/versio2/raportit6.png)
 
 ## Raportin käyttäminen
 
 Avaa raportti tai tallennettu haku napsauttamalla sen rivillä olevaa **Avaa**-painiketta.
 
-![Asiakkaat](/img/versio2/raportit4.png)
+![Raportin avaaminen raporttiluettelosta](/img/versio2/raportit4.png)
 
 Kun avaat raportin, sivun yläosassa näkyvät raportin hakuehdot. Käytettävissä olevat hakuehdot vaihtelevat raportin mukaan.
 
@@ -70,7 +70,7 @@ Ota **Sama asiakas vain kerran** käyttöön, jos haluat saman asiakkaan näkyv�
 
 Tästä on hyötyä esimerkiksi silloin, kun sama asiakas kuuluu useaan raportille valittuun ryhmään.
 
-![Asiakkaat](/img/versio2/raportti-haku.png)
+![Avatun raportin hakuehdot](/img/versio2/raportti-haku.png)
 
 ### Kuvaaja
 
@@ -80,7 +80,7 @@ Käytettävissä olevat vaihtoehdot vaihtelevat raportin mukaan. Kuvaaja päivit
 
 Lataa kuvaaja kuvatiedostona napsauttamalla **Lataa kuva**.
 
-![Asiakkaat](/img/versio2/raportti-kuvaaja.png)
+![Raportin kuvaaja ja esitystavan asetukset](/img/versio2/raportti-kuvaaja.png)
 
 ### Data
 
@@ -90,7 +90,7 @@ Taulukon yläpuolella oleva yhteenveto näyttää raportissa käytetyt hakuehdot
 
 Taulukon sarakkeet vaihtelevat raportin mukaan. Asiakkaisiin liittyvissä raporteissa voit avata asiakaskortin napsauttamalla **asiakasnumeroa**.
 
-![Asiakkaat](/img/versio2/raportti-data.png)
+![Raportin tulokset taulukkomuodossa](/img/versio2/raportti-data.png)
 
 #### Datan käsitteleminen ja vieminen
 
@@ -134,7 +134,7 @@ Voit lähettää raportin sähköpostin liitteenä yhdelle tai useammalle vastaa
 
 Sulje sähköpostitoiminto lähettämättä raporttia napsauttamalla **Peruuta**.
 
-![Asiakkaat](/img/versio2/raportti-sposti.png)
+![Raportin lähettäminen sähköpostin liitteenä](/img/versio2/raportti-sposti.png)
 
 ### Hakuehtojen tallentaminen
 
@@ -152,7 +152,7 @@ Tallennettu haku lisätään Raportit-sivun luetteloon. Kun avaat tallennetun ha
 
 Voit sulkea tallennusikkunan tallentamatta napsauttamalla **Peruuta**.
 
-![Asiakkaat](/img/versio2/raportit7.png)
+![Raportin hakuehtojen tallentaminen](/img/versio2/raportit7.png)
 
 ### Raportin arkistoiminen
 
@@ -177,7 +177,7 @@ Voit sulkea arkistointitoiminnon tallentamatta raporttia napsauttamalla **Peruut
 
 :::
 
-![Asiakkaat](/img/versio2/arkistoi.png)
+![Muodostetun raportin arkistoiminen](/img/versio2/arkistoi.png)
 
 ### Palaaminen raporttiluetteloon
 

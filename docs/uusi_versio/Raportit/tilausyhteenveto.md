@@ -9,7 +9,7 @@ description: Tilausyhteenveto — Voimassa olevat tilaukset tuotteittain, Tilaus
 
 Avaa sivu päävalikosta valitsemalla **Raportit → Tilausyhteenveto**.
 
-![Tilausyhteenveto](/img/versio2/tilausyhteenveto.png)
+![Tilausyhteenveto-sivun yleisnäkymä](/img/versio2/tilausyhteenveto.png)
 
 ## Voimassa olevat tilaukset tuotteittain
 
@@ -21,7 +21,7 @@ Lehden nimen vieressä näkyy sen voimassa olevien tilausten kokonaismäärä. J
 - tilausmäärää havainnollistava palkki
 - tuotteen voimassa olevien tilausten lukumäärä.
 
-![Tilausyhteenveto](/img/versio2/tilausyhteenveto2.png)
+![Voimassa olevien tilausten määrät tuotteittain](/img/versio2/tilausyhteenveto2.png)
 
 ## Tilausluettelot
 
@@ -49,7 +49,7 @@ Voit määrittää:
 - **Alkupäiviä:** näyttää tilaukset, joiden alkupäivästä on kulunut enintään annettu määrä vuorokausia. Esimerkiksi **14** näyttää viimeisten 14 vuorokauden aikana alkaneet tilaukset.
 - **Enint.:** määrittää, kuinka monta tilausta luettelossa näytetään enintään.
 
-![Tilausyhteenveto](/img/versio2/uusimmat-tilaukset.png)
+![Uusimpien tilausten luettelo ja aikarajaus](/img/versio2/uusimmat-tilaukset.png)
 
 ### Päättyneet määräaikaiset
 
@@ -62,7 +62,7 @@ Voit määrittää:
 
 Osion yläpuolella kerrotaan ehtoja vastaavien tilausten kokonaismäärä ja kuinka monta uusinta tilausta luettelossa näytetään.
 
-![Tilausyhteenveto](/img/versio2/paattyneet-maara.png)
+![Päättyneiden määräaikaisten tilausten luettelo](/img/versio2/paattyneet-maara.png)
 
 ### Päättyneet kestotilaukset
 
@@ -73,7 +73,7 @@ Voit määrittää:
 - **Peruutuspäiviä:** näyttää kestotilaukset, joiden peruutuspäivästä on kulunut enintään annettu määrä vuorokausia. Esimerkiksi **14** näyttää viimeisten 14 vuorokauden aikana peruutetut kestotilaukset.
 - **Enint.:** määrittää, kuinka monta tilausta luettelossa näytetään enintään.
 
-![Tilausyhteenveto](/img/versio2/paattyneet-kesto.png)
+![Päättyneiden kestotilausten luettelo](/img/versio2/paattyneet-kesto.png)
 
 ### Asiakkaiden vieminen keräilylistalle
 

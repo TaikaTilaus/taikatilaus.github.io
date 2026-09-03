@@ -17,7 +17,7 @@ Yhteenvedon luvut eivät siten välttämättä vastaa yksilöllisten laskujen m�
 
 :::
 
-![Laskuyhteenvedot](/img/versio2/laskutusyhteenvedot.png)
+![Laskuyhteenvedot-sivun yleisnäkymä](/img/versio2/laskutusyhteenvedot.png)
 
 ## Yhteenvedon haku
 
@@ -47,7 +47,7 @@ Valitut alku- ja loppukuukaudet sisältyvät tarkastelujaksoon.
 
 Lataa valitun ajanjakson tiedot Excel-tiedostoon napsauttamalla **Vie tiedot Exceliin**.
 
-![Laskuyhteenvedot](/img/versio2/lasku-haku.png)
+![Laskuyhteenvedon tarkastelujakson valinta ja Excel-vienti](/img/versio2/lasku-haku.png)
 
 ## Lähetettyjen laskujen määrä
 
@@ -62,7 +62,7 @@ Kuvaajassa näkyvät:
 
 Kuvaajan otsikossa näkyy valittu kuukausiväli ja laskujen kokonaismäärä kappaleina.
 
-![Laskuyhteenvedot](/img/versio2/lasku-kpl.png)
+![Lähetettyjen laskujen lukumäärät toimitustavoittain](/img/versio2/lasku-kpl.png)
 
 ## Lähetettyjen laskujen euromäärä
 
@@ -77,4 +77,4 @@ Kuvaajassa näkyvät:
 
 Kuvaajan otsikossa näkyy valittu kuukausiväli ja laskujen yhteissumma euroina.
 
-![Laskuyhteenvedot](/img/versio2/lasku-euro.png)
+![Lähetettyjen laskujen euromäärät toimitustavoittain](/img/versio2/lasku-euro.png)

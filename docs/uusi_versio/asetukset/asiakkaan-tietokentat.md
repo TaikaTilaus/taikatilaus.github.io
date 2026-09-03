@@ -22,4 +22,4 @@ Pois käytöstä poistettua kenttää ei näytetä asiakaskortin **Yhteystiedot*
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 
-![Ryhmien muokkaus](/img/versio2/tietokentat.png)
+![Asiakaskortin puhelinkenttien käyttövalinnat](/img/versio2/tietokentat.png)

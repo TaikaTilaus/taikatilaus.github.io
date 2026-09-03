@@ -23,7 +23,7 @@ TaikaTilaus 3.0 ei ole vielä valmis. Huomioithan, että:
 
 :::
 
-![Etusivu](/img/versio2/etusivu.png)
+![TaikaTilaus 3.0:n etusivun yleisnäkymä](/img/versio2/etusivu.png)
 
 ## Ohjeiden sisältö
 

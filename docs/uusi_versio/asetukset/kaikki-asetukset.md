@@ -13,7 +13,7 @@ Avaa sivu valitsemalla ylävalikosta **Asetukset → Kaikki asetukset**.
 
 Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
 
-![Asetukset](/img/versio2/asetukset.png)
+![Kaikki asetukset -sivun asetuskortit](/img/versio2/asetukset.png)
 
 ## Järjestelmän ja käyttäjän asetukset
 

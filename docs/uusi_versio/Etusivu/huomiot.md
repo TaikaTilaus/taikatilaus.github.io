@@ -22,7 +22,7 @@ Avaa huomion tiedot napsauttamalla sen **numeroa**.
 
 Valitse **Näytä kaikki**, jos haluat nähdä käsittelemättömien huomioiden lisäksi myös käsitellyt huomiot.
 
-![Etusivu](/img/versio2/huomiot3.png)
+![Käsittelemättömien huomioiden luettelo](/img/versio2/huomiot3.png)
 
 ## Huomion käsitteleminen
 
@@ -48,4 +48,4 @@ Valitse sen jälkeen haluamasi toiminto:
 
 Kun huomio merkitään käsitellyksi, se poistuu käsittelemättömien huomioiden luettelosta. Saat sen tarvittaessa näkyviin valitsemalla Huomiot-sivulla **Näytä kaikki**.
 
-![Etusivu](/img/versio2/huomiot4.png)
+![Huomion tiedot ja käsittelijän kommentti](/img/versio2/huomiot4.png)
