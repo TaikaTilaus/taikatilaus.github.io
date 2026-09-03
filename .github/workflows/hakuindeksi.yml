@@ -1,0 +1,49 @@
+# Hakuindeksin kunto.
+#
+# Eri työnkulku kuin deploy.yml tarkoituksella. Julkaisu ei saa jäädä kiinni
+# vanhentuneista vektoreista - ohjeteksti on silloinkin kunnossa ja sivusto
+# kuuluu julkaista. Mutta vanhentuneet vektorit eivät myöskään saa jäädä
+# huomaamatta, ja tarkista-vektorit.mjs:n CI-varoitus vihreässä ajossa on
+# käytännössä näkymätön: 3.9.2026 kaksi ohjemuutosta meni läpi vanhentuneilla
+# vektoreilla, ja se huomattiin vasta sattumalta.
+#
+# Tämä ajo kaatuu punaiseksi samasta tilanteesta. Sivusto julkaistaan silti,
+# koska deploy.yml on erillinen - mutta commitin vieressä näkyy rasti.
+#
+# Korjaus: node scripts/rakenna-embeddingit.mjs ja commitoi
+# static/ohjeindeksi-vektorit.json.
+
+name: Hakuindeksi
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  vektorit:
+    name: Vektorit vastaavat ohjeita
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: yarn
+
+      - name: Asenna riippuvuudet
+        run: yarn install --frozen-lockfile
+
+      - name: Rakenna ohjeindeksi
+        run: node scripts/rakenna-ohjeindeksi.mjs
+
+      # VEKTORIT_TARKISTUS=virhe ohittaa CI-varoituskäytöksen. Vain tässä
+      # työnkulussa - deploy.yml saa edelleen julkaista varoituksen kanssa.
+      - name: Tarkista vektorit
+        env:
+          VEKTORIT_TARKISTUS: virhe
+        run: node scripts/tarkista-vektorit.mjs
