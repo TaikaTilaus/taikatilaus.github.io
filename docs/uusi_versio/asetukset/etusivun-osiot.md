@@ -8,6 +8,8 @@ sidebar_position: 7
 
 Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Etusivun osiot**.
 
+Tallenna muutokset napsauttamalla **Tallenna**.
+
 ![Etusivun osiot](/img/versio2/etusivun-osiot.png)
 
 ## Tilausten yhteenvedot
@@ -34,7 +36,5 @@ Asetus koskee kaikkia kolmea yhteenvetokorttia.
 - Ota osio käyttöön tai poista se käytöstä valinnalla **Näytä ”Postitusyhteenveto”-osio etusivulla**.
 - Määritä **Näytä enintään** -kenttään, kuinka monta riviä etusivulla voidaan näyttää.
 - Määritä **Haku historiasta** -kenttään, kuinka monen päivän ajalta tietoja haetaan taaksepäin.
-
-Tallenna muutokset napsauttamalla **Tallenna**.
 
 ![Etusivun osiot](/img/versio2/etusivun-osiot3.png)

@@ -214,6 +214,19 @@ Osiossa on myös **Osoitepäivitys tehty (info)** -kenttä osoitepäivityksen ti
 
 ![Asiakkaat](/img/versio2/jakelupoikkeukset5.png)
 
+## Lisäkentät
+
+[Asetuksissa määritetyt lisätietokentät](/docs/uusi_versio/asetukset/lisatietokentat) näkyvät asiakaskortin **Lisäkentät**-välilehdellä. Välilehden vieressä oleva numero kertoo käytössä olevien lisätietokenttien määrän.
+
+Tietojen lisääminen tai muuttaminen:
+
+1. Avaa asiakkaan asiakaskortti.
+2. Siirry **Lisäkentät**-välilehdelle.
+3. Täytä tai valitse tarvittavat tiedot.
+4. Napsauta **Tallenna**.
+
+![Asiakaskortti - Lisäkentät](/img/versio2/lisakentat.png)
+
 ## Tilaukset
 
 Asiakaskortin oikealla puolella olevassa **Tilaukset**-osiossa näet asiakkaan tilaukset. Otsikon vieressä oleva numero kertoo tilausten määrän.
