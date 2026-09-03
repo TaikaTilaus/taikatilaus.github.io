@@ -272,7 +272,36 @@ Järjestelmä laskee annetun verollisen summan perusteella uuden verottoman yksi
 
 Voit perua summan muokkaamisen napsauttamalla **X-painiketta**.
 
-![Asiakkaat](/img/versio2/uusi-tilaus5.png)
+![Tilaus](/img/versio2/uusi-tilaus5.png)
+
+## Tilauksen katkaisu
+
+1. Etsi tilaus joko asiakkaan tai tilauksen tiedoilla.
+2. Avaa katkaistava tilaus muokattavaksi napsauttamalla **kynäkuvaketta**.
+3. Tarkista tilauksen **Päättyy**-päivä ja maksutiedot.
+4. Lisää **Peruutuspäivä**.
+5. Valitse **Katkaisun syy**.
+6. Napsauta **Tallenna muutokset**.
+
+![Tilaus](/img/versio2/peruutus.png)
+
+### Maksetun tilauksen peruuttaminen
+
+Maksettu tilaus perutaan yleensä tilauskauden loppuun. Merkitse tällöin **Peruutuspäivä**-kenttään sama päivämäärä kuin **Päättyy**-kentässä. Näin tilaus jatkuu maksetun kauden loppuun asti.
+
+:::warning Huomio
+
+TaikaTilaus 3.0:ssa ei vielä ole **Saldo**- tai **Maksun palautus** -toimintoja.
+
+Siirry vanhaan TaikaTilaus-versioon, jos:
+
+- tilaus perutaan ennen maksetun kauden päättymistä ja asiakkaalle täytyy palauttaa maksua
+- maksua täytyy siirtää saldoon
+- asiakkaalta täytyy laskuttaa jo toimitetut lehdet loppulaskulla.
+
+Tee näissä tilanteissa tilauksen katkaisu ja siihen liittyvät laskutus- tai palautustoimenpiteet vanhassa TaikaTilaus-versiossa.
+:::
+
 
 
 
