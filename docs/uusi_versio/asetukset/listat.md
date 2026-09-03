@@ -8,7 +8,7 @@ sidebar_position: 5
 
 **Listat**-sivulla voit määrittää, näytetäänkö lisätietokenttien sisältö kokonaisuudessaan asiakas- ja tilauslistalla.
 
-Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Listat**.
+Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Listat**. Tai suoraan **Asetukset → Listat**
 
 ![Listat](/img/versio2/listat.png)
 

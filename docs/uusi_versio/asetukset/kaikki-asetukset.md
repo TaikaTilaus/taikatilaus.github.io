@@ -10,46 +10,36 @@ slug: /uusi_versio/asetukset
 
 Avaa sivu valitsemalla ylävalikosta **Asetukset → Kaikki asetukset**.
 
+Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
+
 ![Asetukset](/img/versio2/asetukset.png)
 
 ## Järjestelmän ja käyttäjän asetukset
 
 ### Lisätietokentät
 
-[**Lisätietokentät**](/docs/uusi_versio/asetukset/lisatietokentat)-sivulla voit luoda ja hallita järjestelmässä käytettäviä dynaamisia kenttiä.
+[**Lisätietokentät**](/docs/uusi_versio/asetukset/lisatietokentat)-sivulla voit luoda ja hallita asiakaskortilla käytettäviä lisätietokenttiä.
 
 ### Ryhmien muokkaus
 
-**Ryhmien muokkaus** -sivulla voit hallita asiakkaiden ryhmittelyssä käytettäviä ryhmätyyppejä ja niiden arvoja.
-
-- [Ryhmien muokkaus](/docs/uusi_versio/asetukset/ryhmien-muokkaus)
+[**Ryhmien muokkaus**](/docs/uusi_versio/asetukset/ryhmien-muokkaus) -sivulla voit hallita asiakkaiden ryhmittelyssä käytettäviä ryhmätyyppejä ja niiden arvoja.
 
 ### Asiakkaan tietokentät
 
-**Asiakkaan tietokentät** -sivulla voit määrittää, mitkä kentät ovat käytössä asiakaskortilla.
-
-- [Asiakkaan tietokentät](/docs/uusi_versio/asetukset/asiakkaan-tietokentat)
+[**Asiakkaan tietokentät**](/docs/uusi_versio/asetukset/asiakkaan-tietokentat) -sivulla voit määrittää, mitkä kentät ovat käytössä asiakaskortilla.
 
 ### Listat
 
-**Listat**-sivulla voit hallita asiakas- ja tilauslistojen asetuksia.
-
-- [Listat](/docs/uusi_versio/asetukset/listat)
+[**Listat**](/docs/uusi_versio/asetukset/listat)-sivulla voit hallita asiakas- ja tilauslistojen asetuksia.
 
 ## Yleisasetukset
 
 ### Yleisasetukset
 
-**Yleisasetukset**-sivulla voit hallita tilaustapoja ja muita järjestelmän yleisiä asetuksia.
-
-- [Yleisasetukset](/docs/uusi_versio/asetukset/yleisasetukset)
+[**Yleisasetukset**](/docs/uusi_versio/asetukset/yleisasetukset)-sivulla voit hallita tilaustapoja ja muita järjestelmän yleisiä asetuksia.
 
 ## Etusivun osiot
 
 ### Etusivun osiot
 
-**Etusivun osiot** -sivulla voit määrittää etusivulla näkyviä tietoja, kuten kuluvan päivän tiedot, yhteenvedot ja postitusyhteenvedon.
-
-Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
-
-- [Etusivun osiot](/docs/uusi_versio/asetukset/etusivun-osiot)
+[**Etusivun osiot**](/docs/uusi_versio/asetukset/etusivun-osiot) -sivulla voit määrittää etusivulla näkyviä tietoja, kuten kuluvan päivän tiedot, yhteenvedot ja postitusyhteenvedon.
