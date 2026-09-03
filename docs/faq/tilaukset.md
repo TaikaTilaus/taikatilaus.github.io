@@ -28,6 +28,20 @@ Jakelu menee automaattisesti tallennetun vakio-osoitteen mukaisesti. Jos se löy
 
 <a href="../pikaohjeet/varhaisjakelun-esto">Lue pikaohje.</a>
 
+## Miten pakotan tilauksen varhaisjakeluun?
+
+Avaa tilauksen tilaajan asiakaskortti ja siirry **Yhteystiedot**-osioon.
+
+1. Kirjoita **Pakotettu nippunro** -kenttään sen varhaisjakelunipun numero, johon tilaus halutaan lisätä.
+2. Varmista, ettei **Varhaisjakelu estetty** -valinta ole käytössä.
+3. Tallenna asiakaskortti.
+
+Kun **Pakotettu nippunro** on määritetty, asiakkaan tilaus lisätään kyseiseen varhaisjakelunippuun osoitteesta riippumatta.
+
+Käytä kentässä vain olemassa olevaa ja käytössä olevaa varhaisjakelunipun numeroa.
+
+![Asiakastiedot](/img/fqa/pakotettu.png)
+
 ### Pysyvätkö jakelun kohdistustiedot asiakaskohtaisesti, kun varhaisjakelualueella oleva tilaus on haluttu päiväpostin kantoon?
 
 Kyllä, meillä on niin sanottu Pakotettu nippu-kenttä, jolla asiakaskohtaisesti voidaan ohittaa normirekisterit ja pakottaa lehti haluttuun/tiettyyn nippuun, vaikka osoite kuuluisi rekisterin mukaan muualle.
