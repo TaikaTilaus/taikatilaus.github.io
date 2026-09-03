@@ -1,10 +1,16 @@
 ---
 sidebar_position: 3
+description: Mitä tehdä kun verkkolaskun lähetys epäonnistuu ja lasku jää Maventaan virheeseen.
+keywords: [maventa, verkkolasku, verkkolaskun lahetys, verkkolaskun lähetys, epaonnistunut lasku, epäonnistunut lasku, epaonnistunut lahetys, epäonnistunut lähetys, laskun lahetys epaonnistui, laskun lähetys epäonnistui, lasku ei lahtenyt, lasku ei lähtenyt, lasku jai virheeseen, lasku jäi virheeseen, virheeseen jäänyt lasku, elasku, e-lasku, elaskuvaltuutus, uudelleenlahetys, uudelleenlähetys, toimitustapa]
 ---
 
 # Maventa
 
 ## Ohjeet Maventa-virheen käsittelyyn
+
+Kun verkkolaskun lähetys epäonnistuu, lasku jää Maventaan virheeseen eikä se
+mene asiakkaalle perille. Tällä sivulla käydään läpi, miten virheeseen jäänyt
+lasku selvitetään, korjataan ja lähetetään uudelleen.
 
 ### Maksaja ei ota vastaan e-laskuja
 
