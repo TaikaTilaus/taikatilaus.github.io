@@ -5,7 +5,7 @@ title: Etusivu
 
 # Etusivu
 
-Etusivulle on koottu yhteenveto asiakkaista, tilauksista ja laskuista sekä julkaisukalenteri, postitusyhteenveto ja viimeisimmät muutokset. Etusivulla näkyviä kortteja voi hallita asetuksista. 
+Etusivulle on koottu yhteenveto asiakkaista, tilauksista ja laskuista sekä julkaisukalenteri, postitusyhteenveto ja viimeisimmät muutokset. Etusivulla näkyviä kortteja voi hallita [asetuksista](/docs/uusi_versio/asetukset/etusivun-osiot). 
 
 ![Etusivu](/img/versio2/etusivu.png)
 
