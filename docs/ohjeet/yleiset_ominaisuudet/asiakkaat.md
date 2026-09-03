@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: Asiakaskortin tiedot: yhteystiedot, laskutustiedot ja toimitustapa, koontilasku, perintäkielto, alennukset ja muutosloki.
+keywords: [asiakas, asiakaskortti, asiakastiedot, laskutustiedot, laskutusosoite, laskun toimitustapa, toimitustapa, maksumuistutus, karhulasku, koontilasku, perintakielto, perintäkielto, suoramaksu, laskutuslisa, laskutuslisä, muutosloki]
 ---
 
 # Asiakkaat
@@ -63,6 +65,7 @@ Asiakkaan **Yhteystiedot** -osiossa lisätään asiakkaalle perustietoja, kuten:
 Laskutustiedoissa voidaan lisätä asiakkaalle laskutustietojen lisäksi muita tietoja, kuten:
 - **Toinen maksaja**: Laskutusosoitteeksi voidaan **liittää eri maksaja** maksutietoineen (nimi-/osoite-/verkkolaskutiedot ja toimitustapa), jos asiakkaan laskut maksaa joku toinen henkilö. Tämä tehdään liittämällä maksaja **Laskutusosoite asiakkaasta** -kenttään, painamalla **Liitä maksaja** -painiketta.
 - **Laskun toimitustapa** -valikosta määritellään oletustapa, jolla laskut välitetään asiakkaalle (muutettavissa esim. laskukohtaisesti).
+    - Valinta koskee **laskuja**. **Maksumuistutukset eli karhulaskut toimitetaan oletuksena kirjeitse laskutusosoitteeseen**, vaikka asiakkaan laskun toimitustapa olisi sähköposti tai verkkolasku. Jos asiakas ei ole maksanut, sähköpostin tai verkkolaskun toimitusvirhe ei siis selitä sitä, miksi maksumuistutus ei ole mennyt perille.
 - **Suoramaksu**: Suoramaksu on maksutapa asiakkaille, jotka eivät voi käyttää verkkopankkia, mutta haluavat maksaa laskun suoraan pankin kautta.
 - **Koontilasku**: Koontilaskun aktivointi tarkoittaa sitä, että tilausten ja/tai ilmoitusten laskut yhdistetään yhdeksi kokoomalaskuksi yksittäisten laskujen sijaan.
 - **Laskutuslisä**: Ei laskutuslisää -aktivointi on asiakkaille, joilta ei haluta periä laskutuslisää paperilaskujen lähettämisestä (esim. 5 €). Laskutuslisän summa ja siihen mahdollisesti liittyvät rajoitukset (esim. peritään vain yli 50,00 € suuruisista laskuista tai pelkästään ilmoituslaskuista) sovitaan käyttöönoton yhteydessä.

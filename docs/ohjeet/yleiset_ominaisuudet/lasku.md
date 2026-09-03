@@ -577,6 +577,19 @@ Virheellisiä suorituksia löytyy:
 - **[Suoritukset](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)** -välilehdeltä
 - **[Tarkistusraporteilta Raportit -välilehdeltä](/docs/ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit#tarkistusraportit)**  
 
+#### Muistutuslaskujen toimitustapa
+
+**Maksumuistutukset eli karhulaskut toimitetaan oletuksena kirjeitse
+laskutusosoitteeseen**, vaikka asiakkaan
+[laskun toimitustapa](/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#laskutustiedot)
+olisi sähköposti tai verkkolasku.
+
+Tämä kannattaa muistaa maksuhäiriöitä selvitettäessä: kun asiakas ei ole
+maksanut, sähköpostin tai verkkolaskun toimitusvirhe ei selitä sitä, miksi
+maksumuistutus ei ole mennyt perille. Tarkista sen sijaan, että asiakkaalla on
+ajantasainen **laskutusosoite**. Jos asiakaskortilla on pelkkä laskutusosoite
+ilman postiosoitetta, muistutus lähtee silti laskutusosoitteeseen.
+
 #### Muistutuslaskujen haku
 
 Valitsemalla esimerkiksi **Laskun tila** -valikosta hakukriteeriksi **Erääntynyt** ja klikkaamalla **Hae** -painiketta listataan kaikki laskut, joita ei ole laskun eräpäivään mennessä maksettu.
