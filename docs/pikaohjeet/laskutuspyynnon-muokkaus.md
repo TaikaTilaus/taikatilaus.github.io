@@ -1,5 +1,6 @@
 ---
 sidebar_position: 12
+description: Laskutuspyynnön muokkaus — 1. Etusivunäkymästä haetaan asiakas, 2. Asiakastiedoissa klikataan haluttu tilaus auki, 3. Tilaustietojen vieressä ovat lasku...
 ---
 
 # Laskutuspyynnön muokkaus

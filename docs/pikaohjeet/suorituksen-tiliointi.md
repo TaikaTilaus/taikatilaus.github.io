@@ -1,5 +1,6 @@
 ---
 sidebar_position: 21
+description: Virheellisen suorituksen tiliöinti — 1. Avaa Laskut/Suoritukset-välilehti ja aktivoi Hae vain käsittelyä vaativat -kenttä. Paina Hae, 2. Alle tulee list...
 ---
 
 # Virheellisen suorituksen tiliöinti

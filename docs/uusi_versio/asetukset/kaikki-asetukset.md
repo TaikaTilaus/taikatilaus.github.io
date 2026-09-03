@@ -2,6 +2,7 @@
 sidebar_position: 1
 sidebar_label: Kaikki asetukset
 slug: /uusi_versio/asetukset
+description: Kaikki asetukset — Järjestelmän ja käyttäjän asetukset, Lisätietokentät, Ryhmien muokkaus.
 ---
 
 # Kaikki asetukset

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Ohjevideot
+description: Ohjevideot — Tilauksen katkaisu, Puuttellinen tieto suorituksilla, Laskun kopionti.
 ---
 ### Tilauksen katkaisu
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: Tilauksella on eri maksaja — 1. Hae etusivunäkymältä asiakas, 2. Asiakastiedoista klikkaa auki hakemasi tilaus, 3. Tilauksen tiedoissa on lopussa Hae ma...
 ---
 
 # Tilauksella on eri maksaja

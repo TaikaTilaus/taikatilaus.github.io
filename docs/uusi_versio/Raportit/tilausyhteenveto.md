@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: Tilausyhteenveto — Voimassa olevat tilaukset tuotteittain, Tilausluettelot, Tilausluetteloiden tiedot.
 ---
 
 # Tilausyhteenveto

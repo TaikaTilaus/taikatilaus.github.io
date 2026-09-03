@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+description: Maksetun laskun summan palautus — 1. Etusivunäkymä, 2. Etusivunäkymän hausta haetaan lasku valitulla hakusanalla, TAI 2. Laskut -valikosta Laskujen haku...
 ---
 
 # Maksetun laskun summan palautus

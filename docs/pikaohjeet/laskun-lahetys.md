@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Laskutuspyyntöjen muodostaminen laskuiksi ja laskujen lähetys manuaalisesti — 1. Aloitetaan luomalla laskutuspyynnöistä laskut. Mennään Laskut-valikolle...
 ---
 
 # Laskutuspyyntöjen muodostaminen laskuiksi ja laskujen lähetys manuaalisesti

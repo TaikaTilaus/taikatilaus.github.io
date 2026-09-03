@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+description: Yleisasetukset — Tilaustavat, Tilaustavan lisääminen, Tilaustavan poistaminen.
 ---
 
 # Yleisasetukset

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+description: Stripe — Tilin luominen, Yrityksen vahvistaminen, Hinta.
 ---
 
 # Stripe

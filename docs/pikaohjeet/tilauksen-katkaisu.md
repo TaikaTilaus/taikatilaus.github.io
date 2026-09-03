@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+description: Tilauksen katkaisu — 1. Etusivunäkymästä haetaan asiakas, 2. Asiakastiedoista klikataan haluttu tilaus auki, 3. Syötä tilaustietoihin katkaisupäivä ja k...
 ---
 
 # Tilauksen katkaisu

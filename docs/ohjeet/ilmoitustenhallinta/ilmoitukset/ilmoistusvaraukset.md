@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /ohjeet/ilmoitustenhallinta/ilmoistusvaraukset
+description: Ilmoitusvaraukset — Ilmoitusvaraukset, Ilmoitusvarauksien hakeminen, Hakulistauksen asetukset.
 ---
 
 # Ilmoitusvaraukset

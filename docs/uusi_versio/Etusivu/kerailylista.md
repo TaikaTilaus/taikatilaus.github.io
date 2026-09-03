@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Keräilylista
+description: Keräilylista — Asiakkaiden tuominen asiakasnumeroilla, Keräilylistan tiedot, Keräilylistan hakeminen ja suodattaminen.
 ---
 
 # Keräilylista

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 slug: /ohjeet/yleiset_ominaisuudet/jaksotusraportit
+description: Jaksotusraportit — Yleistä jaksotusraporteista, Milloin käytän tätä sivua vs. Kirjanpidon raportit -yleiskatsausta, Hakuehdot.
 ---
 
 # Jaksotusraportit

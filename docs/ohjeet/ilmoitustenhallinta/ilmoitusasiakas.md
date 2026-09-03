@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Ilmoitusasiakas ja -myynti — Ilmoitusasiakas, Ilmoitusasiakkaan koontisivu ja välilehdet, Asiakastiedot.
 ---
 
 # Ilmoitusasiakas ja -myynti

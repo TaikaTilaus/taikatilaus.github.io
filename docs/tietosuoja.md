@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+description: Tietosuojaseloste — Tilausten ja ilmoitusten hallintajärjestelmä, Keskeiset tiedot, Käsittelemämme henkilötiedot.
 ---
 
 # Tietosuojaseloste

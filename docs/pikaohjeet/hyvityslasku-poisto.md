@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+description: Hyvityslaskuliitoksen poisto — 1. Etusivun/Laskujen haku-välilehden kautta haetaan alkuperäinen lasku, jolle hyvitys on tehty, 2. Alkuperäisen laskun al...
 ---
 
 # Hyvityslaskuliitoksen poisto

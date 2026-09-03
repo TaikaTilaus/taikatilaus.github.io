@@ -1,5 +1,6 @@
 ---
 sidebar_position: 11
+description: Laskun uudelleenlähetys — 1. Laskut -välilehdestä haetaan lasku laskunumerolla, 2. Valitse haluamasi lasku ja paina Uudelleenlähetä -painiketta, 3. Lähe...
 ---
 
 # Laskun uudelleenlähetys

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+description: Hallinta — Viestit, Tunnukset, Tapahtumaloki.
 ---
 
 # Hallinta

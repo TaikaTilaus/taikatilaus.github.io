@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Postitus — Mistä saan postituslistan?, Kuinka selvitän, onko asiakkaan osoite postituslistalla?, Miten lisään varalehtinipun varhaisjakeluun tietystä pä...
 ---
 
 # Postitus

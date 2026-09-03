@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Etusivu — Etusivun hakuehdot, Tilausmyyntiä koskevat tiedot, Ilmoitusmyyntiä koskevat tiedot.
 ---
 
 # Etusivu

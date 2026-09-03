@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar_position: 5
+description: Kanavat — LEHTI-tyyppisen kanavan ilmoitusosastot.
 ---
 
 # Kanavat

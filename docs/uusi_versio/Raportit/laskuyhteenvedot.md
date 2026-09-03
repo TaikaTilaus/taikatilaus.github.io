@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: Laskuyhteenvedot — Yhteenvedon haku, Tarkastelujakson valitseminen, Kuukausivälin valitseminen.
 ---
 
 # Laskuyhteenvedot

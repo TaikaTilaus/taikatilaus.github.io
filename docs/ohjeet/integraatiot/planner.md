@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+description: Anygraaf Planner — Käyttötarkoitus, Siirrettävät tiedot, Toimintaperiaate.
 ---
 
 # Anygraaf Planner

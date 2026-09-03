@@ -1,5 +1,6 @@
 ---
 sidebar_position: 24
+description: Asiamieskoodin merkitseminen — 1. Hae asiakas etusivunäkymältä, 2. Asiakastiedoista klikkaa auki hakemasi tilaus, 3. Lisää Asiamiesnumero Viitteenne-ken...
 ---
 
 # Asiamieskoodin merkitseminen

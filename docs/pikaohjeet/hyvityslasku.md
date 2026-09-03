@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: Hyvityslasku asiakkaalle — 1. Etusivunäkymä, 2. Etusivunäkymän hausta haetaan lasku valitulla hakusanalla, TAI 2. Laskut -valikosta Laskujen haku -välil...
 ---
 
 # Hyvityslasku asiakkaalle

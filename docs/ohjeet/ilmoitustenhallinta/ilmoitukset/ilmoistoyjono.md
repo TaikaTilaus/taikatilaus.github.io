@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 slug: /ohjeet/ilmoitustenhallinta/ilmoistoyjono
+description: Ilmoitustyöjono — Yleistä ilmoitustyöjonosta, Ilmoitustyöjono ja aineistot, Aineiston lisääminen.
 ---
 
 # Ilmoitustyöjono

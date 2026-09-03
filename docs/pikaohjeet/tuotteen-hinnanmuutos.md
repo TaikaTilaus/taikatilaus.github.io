@@ -1,5 +1,6 @@
 ---
 sidebar_position: 20
+description: Tuotteen hinnanmuutos — 1. Siirry Asetukset-valikkoon, 2. Tilaustuotteet-välilehden pitäisi avautua automaattisesti. Jos ei, siirry sinne. Haetaan halut...
 ---
 
 # Tuotteen hinnanmuutos

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: Asiakkaan tietokentät — Puhelinkenttien määrittäminen.
 ---
 
 # Asiakkaan tietokentät

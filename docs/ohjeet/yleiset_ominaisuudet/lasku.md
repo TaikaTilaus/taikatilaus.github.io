@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Laskut ja laskutus — Yleistä laskuista, Yksittäisen asiakkaan laskujen käsittely, Avoimen laskun palauttaminen laskutuspyynnöksi.
 ---
 
 # Laskut ja laskutus

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 15
+description: Postitus — 1. Irtonumeroiden hakeminen ja lisääminen tapahtuu Asetukset-valikosta Irtonumerot-välilehdestä, 2. Painettuasi Tallenna, voi tulla esiin vir...
 ---
 
 # Postitus

@@ -1,7 +1,8 @@
-﻿---
+---
 sidebar_position: 1
 slug: /ohjeet/asetukset
 title: Asetukset
+description: Asetukset — Asetuksien hallinnointi, Asetusten osa-alueet, Tuotteet & julkaisut.
 ---
 
 # Asetukset

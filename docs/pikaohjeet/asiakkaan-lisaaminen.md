@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Asiakkaan lisääminen — 1. Etusivunäkymältä painetaan LISÄÄ ASIAKAS -painiketta, 2. Esiin tulevaan näkymään täytetään asiakkaan yhteystiedot, 3. Tarvitta...
 ---
 
 # Asiakkaan lisääminen

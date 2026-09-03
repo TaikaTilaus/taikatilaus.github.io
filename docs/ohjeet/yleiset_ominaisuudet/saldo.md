@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: Saldo ja rahan palautus — Toiminnot ennen käyttöönottoa, Tilit, Erillistuote.
 ---
 
 # Saldo ja rahan palautus

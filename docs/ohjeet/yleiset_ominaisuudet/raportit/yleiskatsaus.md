@@ -2,6 +2,7 @@
 sidebar_position: 1
 slug: /ohjeet/yleiset_ominaisuudet/raportit
 title: Raportit
+description: Raportit — Yleistä raporteista, Raportin hakukriteerien määrittely, Raporttikategoriat.
 ---
 
 ## Yleistä raporteista

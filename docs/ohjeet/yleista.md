@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Yleistä tietoa palvelusta — Palvelun sisältö, Käyttäjätunnukset ja kirjautuminen, Ohjeet ja ilmoitukset.
 ---
 
 # Yleistä tietoa palvelusta

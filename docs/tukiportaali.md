@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+description: Ohjeet tukiportaalin käyttöön — Käyttäjätunnuksen aktivointi, Kirjautuminen tukiportaalin, Tukipyynnön lähettäminen.
 ---
 
 # Ohjeet tukiportaalin käyttöön

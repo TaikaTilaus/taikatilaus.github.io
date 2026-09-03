@@ -1,5 +1,6 @@
 ---
 sidebar_position: 18
+description: Tilausjakson hyvitys — 1. Hae asiakas etusivunäkymältä, 2. Asiakastiedoista klikataan haluttu tilaus auki, 3. Paina tilauksella Hyvitä tilausjaksoa -pai...
 ---
 
 # Tilausjakson hyvitys

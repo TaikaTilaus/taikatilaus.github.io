@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Lehtiluukku — Käyttötarkoitus, Toimintaperiaate, Käyttö postituslistan kautta.
 ---
 
 # Lehtiluukku

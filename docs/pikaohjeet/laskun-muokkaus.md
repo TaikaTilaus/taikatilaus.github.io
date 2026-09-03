@@ -1,5 +1,6 @@
 ---
 sidebar_position: 11
+description: Laskun muokkaus lähetyksen jälkeen — 1. Haetaan asiakas tai lasku, 4. Siirrytään laskulle, 5. Luodaan laskusta kopio.
 ---
 
 # Laskun muokkaus lähetyksen jälkeen

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Tervetuloa — Yleistä tietoa ohjeista, Testaa uusia toimintoja demojärjestelmässä.
 ---
 
 # Tervetuloa

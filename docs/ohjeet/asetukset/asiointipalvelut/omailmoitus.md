@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar_position: 3
+description: OmaIlmoitus — Yleiset asetukset, Käytössä olevat ilmoitustyypit, Myyntituotteet ilmoitustyypeittäin.
 ---
 
 # OmaIlmoitus

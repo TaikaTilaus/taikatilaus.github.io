@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Asiakkaan haku postituslistalta — 1. Siirrytään Postitus -valikkoon ja avataan Postitusten haku -välilehti, 2. Postitusten haku -välilehdelle syötetään...
 ---
 
 # Asiakkaan haku postituslistalta

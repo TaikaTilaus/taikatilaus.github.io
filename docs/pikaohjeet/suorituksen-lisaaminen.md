@@ -1,5 +1,6 @@
 ---
 sidebar_position: 16
+description: Suorituksen lisääminen manuaalisesti — 1. Miksi suoritus lisätään manuaalisesti?, 2. Hae lasku joko etusivunäkymästä tai Laskut-välilehdeltä, 3. Kun ole...
 ---
 
 # Suorituksen lisääminen manuaalisesti

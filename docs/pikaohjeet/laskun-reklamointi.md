@@ -1,5 +1,6 @@
 ---
 sidebar_position: 23
+description: Laskun reklamointi — 1. Hae asiakas etusivunäkymältä, 2. Mene kyseessä olevalle laskulle, 3. Nähdään, että lasku on maksamaton tilassa.
 ---
 
 # Laskun reklamointi

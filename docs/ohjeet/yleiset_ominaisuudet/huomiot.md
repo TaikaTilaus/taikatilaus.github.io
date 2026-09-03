@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+description: Huomiot — Huomiot yleisesti, Yksittäisen huomion käsittely, Huomiot OmaPalvelua käytettäessä.
 ---
 
 # Huomiot

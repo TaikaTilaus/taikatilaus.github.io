@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+description: Yhdistettävät niput.
 ---
 
 # Yhdistettävät niput

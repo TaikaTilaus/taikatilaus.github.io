@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Alennuksen lisääminen asiakkaalle — 1. Haetaan etusivunäkymältä asiakas, 2. Paina Asiakastiedot-kentässä olevaa kynäikonia, 3. Asiakaskortin laskutustie...
 ---
 
 # Alennuksen lisääminen asiakkaalle

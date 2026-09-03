@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Kaikki raportit — Raportin hakeminen, Raporttiluettelo, Raportin lisääminen suosikiksi.
 ---
 
 # Kaikki raportit

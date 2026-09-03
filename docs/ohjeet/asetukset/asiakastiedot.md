@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar_position: 3
+description: Asiakastiedot — Asiakasryhmät ja roolit, Tilauksien katkaisujen syiden luettelu.
 ---
 
 # Asiakastiedot

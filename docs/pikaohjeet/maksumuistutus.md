@@ -1,5 +1,6 @@
 ---
 sidebar_position: 13
+description: Maksumuistutuksen luominen — 1. Klikkaa Laskujen haku -välilehdeltä Hae maksumuistutettavat #1 -painiketta, kun haet laskuja, joiden eräpäivästä on kulu...
 ---
 
 # Maksumuistutuksen luominen

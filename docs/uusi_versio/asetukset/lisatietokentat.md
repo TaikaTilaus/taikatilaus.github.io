@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Lisätietokentät — Uuden lisätietokentän lisääminen, Määritetyt kentät.
 ---
 
 # Lisätietokentät

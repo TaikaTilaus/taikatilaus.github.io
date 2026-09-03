@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Perintä — Prosessin vaiheet ja ohjeet, Vaihe 1 — Perinnän aloitus ja yleistä, Vaihe 2 — Perintäaineistojen koonti.
 ---
 
 # Perintä

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: Eräpäivän siirto — 1. Etusivunäkymä, 2. Etusivunäkymän hausta haetaan lasku valitulla hakusanalla, TAI 2. Laskut -valikosta Laskujen haku -välilehdestä...
 ---
 
 # Eräpäivän siirto

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: Yleisiä kysymyksiä — Jos haluan lisätä raporttiin uuden sarakkeen, voinko tehdä sen itse?, Voiko sama sähköpostiosoite olla useammalla asiakaskortilla...
 ---
 
 # Yleisiä kysymyksiä

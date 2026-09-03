@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Muut raportit
+description: Muut raportit — Asiakasraportit, Alennusprosentit, Maksutavat.
 ---
 
 # Muut raportit

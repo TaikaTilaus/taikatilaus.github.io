@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+description: Laskun toimitustapa — 1. Etusivunäkymästä haetaan asiakas, 2. Paina Asiakastiedot-kentässä olevaa kynäikonia, 3. Asiakaskortissa avataan LASKUTUSTIEDOT-...
 ---
 
 # Laskun toimitustapa

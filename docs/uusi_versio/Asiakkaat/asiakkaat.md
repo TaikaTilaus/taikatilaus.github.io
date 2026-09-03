@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Asiakkaat
+description: Asiakkaat — Asiakkaiden hakeminen, Hakuhistoria, Lisähakuehdot.
 ---
 
 # Asiakkaat

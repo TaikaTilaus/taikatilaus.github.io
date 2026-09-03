@@ -1,5 +1,6 @@
 ---
 sidebar_position: 23
+description: Palautuksen merkitseminen asiakkaalle liikasuorituksesta — 1. Hae suoritus Suoritukset-välilehdeltä. Voit käyttää hakuun esim. laskun viitenumeroa tai m...
 ---
 
 # Palautuksen merkitseminen asiakkaalle liikasuorituksesta

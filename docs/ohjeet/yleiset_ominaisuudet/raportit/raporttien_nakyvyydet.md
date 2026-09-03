@@ -1,6 +1,7 @@
 ---
 title: Raporttien näkyvyydet
 unlisted: true
+description: Raporttien näkyvyydet.
 ---
 
 # Raporttien näkyvyyden muokkaus

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Tilausten raportit
+description: Tilausten raportit — Tilausten raportit, Tilausmyynti vuosittain, Maksamattomat tilaukset.
 ---
 
 ## Tilausten raportit

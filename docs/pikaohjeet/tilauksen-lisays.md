@@ -1,5 +1,6 @@
 ---
 sidebar_position: 17
+description: Tilauksen lisääminen — 1. Hae asiakas etusivunäkymältä, 2. Asiakastiedoista paina LISÄÄ TILAUS-painiketta, 3. Valitse oikea lehti ja tuote. Voit tarvitt...
 ---
 
 # Tilauksen lisääminen

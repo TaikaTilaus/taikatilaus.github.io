@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Postitus — Postitusten haku, Esimerkkihaku, Osoitteistojen tiedostopainikkeet.
 ---
 
 # Postitus

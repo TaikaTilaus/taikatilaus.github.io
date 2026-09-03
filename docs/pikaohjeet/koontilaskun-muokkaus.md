@@ -1,5 +1,6 @@
 ---
 sidebar_position: 11
+description: Koontilaskun muokkaus lähetyksen jälkeen — 1. Haetaan asiakas tai tilaus, 2. Valitse peruutettu tilaus, 3. Katkaise tilaus.
 ---
 
 # Koontilaskun muokkaus lähetyksen jälkeen

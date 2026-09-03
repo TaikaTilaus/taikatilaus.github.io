@@ -1,5 +1,6 @@
 ---
 sidebar_position: 23
+description: Kaksivaiheinen tunnistautuminen — 1. Paina kohdasta "Käyttäjän tiedot", 2. Lataa Google tai Microsoft Authenticator sovellus puhelimeesi, 3. Lue QR-kood...
 ---
 
 # Kaksivaiheinen tunnistautuminen

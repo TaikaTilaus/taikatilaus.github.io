@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Laskujen haku
+description: Laskujen haku — Laskujen hakeminen, Hakuhistoria, Laskujen rajaaminen.
 ---
 
 # Laskujen haku

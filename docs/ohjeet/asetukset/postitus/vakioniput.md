@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Vakioniput — Yksittäisten nippujen muokkaus, Nippujen päivitys.
 ---
 
 # Vakioniput

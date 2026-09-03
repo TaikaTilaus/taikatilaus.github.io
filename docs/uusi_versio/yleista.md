@@ -2,6 +2,7 @@
 sidebar_position: 1
 sidebar_label: Yleistä
 title: Tervetuloa TaikaTilaus 3.0 -ohjeisiin
+description: Tervetuloa TaikaTilaus 3.0 -ohjeisiin — Ohjeiden sisältö.
 ---
 
 # Tervetuloa TaikaTilaus 3.0 -ohjeisiin

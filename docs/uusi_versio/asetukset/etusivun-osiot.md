@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+description: Etusivun osiot — Tilausten yhteenvedot, Postitusyhteenveto.
 ---
 
 # Etusivun osiot

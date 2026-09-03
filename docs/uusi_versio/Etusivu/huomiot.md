@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Huomiot
+description: Huomiot — Huomion käsitteleminen.
 ---
 
 # Huomiot

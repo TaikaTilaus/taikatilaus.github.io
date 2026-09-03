@@ -1,5 +1,6 @@
 ---
 sidebar_position: 22
+description: Väliaikainen osoitteenmuutos — 1. Hae asiakas etusivunäkymältä, 2. Paina Asiakastiedot-kentässä olevaa kynäikonia, 3. Avaa Väliaikainen osoite valikko j...
 ---
 
 # Väliaikainen osoitteenmuutos

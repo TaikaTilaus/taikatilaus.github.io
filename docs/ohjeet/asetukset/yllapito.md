@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar_position: 8
+description: Ylläpito — Laskun muodostamistiedot, Välilehden alkupään toiminnot, Ennakkomaksu ja Maksun palautus.
 ---
 
 # Ylläpito

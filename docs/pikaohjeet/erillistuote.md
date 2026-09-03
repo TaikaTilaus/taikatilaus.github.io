@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Erillistuotteen laskutus — 1. Erillistuotteet ovat tuotteita, jotka eivät kuulu ilmoitus- tai tilausmyynti tuotteisiin (esim. oheistuottet kuten lippala...
 ---
 
 # Erillistuotteen laskutus

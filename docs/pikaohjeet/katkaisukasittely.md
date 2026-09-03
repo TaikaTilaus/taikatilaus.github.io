@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+description: Maksamattoman tilauksen katkaisu — 1. Etusivunäkymästä haetaan asiakas, 2. Asiakastiedoista klikataan haluttu tilaus auki, 3. Tilauksen tiedoista painet...
 ---
 
 # Maksamattoman tilauksen katkaisu

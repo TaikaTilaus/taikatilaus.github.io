@@ -1,5 +1,6 @@
 ---
 sidebar_position: 21
+description: Kassaan maksetun suorituksen tiliöinti — 1. Etusivunäkymästä haetaan asiakas, 2. Klikataan laskua, jota ollaan tiliöimässä, 3. Klikkaa Lisää uusi suorit...
 ---
 
 # Kassaan maksetun suorituksen tiliöinti

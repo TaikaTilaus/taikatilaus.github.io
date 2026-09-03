@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: Prenly — Käyttötarkoitus, Taustaa, Liittymän toimintaperiaate.
 ---
 
 # Prenly

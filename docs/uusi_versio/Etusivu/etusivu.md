@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Etusivu
+description: Etusivu — Päävalikko, Oikean reunan ikonit, Omat tiedot ja kirjautuminen ulos.
 ---
 
 # Etusivu

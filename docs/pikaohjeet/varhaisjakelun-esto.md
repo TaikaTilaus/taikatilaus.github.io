@@ -1,5 +1,6 @@
 ---
 sidebar_position: 23
+description: Varhaisjakelun estäminen — 1. Hae asiakas etusivunäkymältä, 2. Paina Asiakastiedot-kentässä olevaa kynäikonia, 3. Klikkaa Varhaisjakelu estetty-kenttä a...
 ---
 
 # Varhaisjakelun estäminen

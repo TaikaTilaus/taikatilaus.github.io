@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Pakotettujen nippujen korjaaminen reittimuutoksen jälkeen — 1. Tehdään postitusajo [ohjeiden mukaan](https —//support.taikatilaus.fi/docs/ohjeet/tilaust...
 ---
 
 # Pakotettujen nippujen korjaaminen reittimuutoksen jälkeen

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: Ryhmien muokkaus — Uuden ryhmän lisääminen, Ryhmätyyppien ja ryhmien hallinta.
 ---
 
 # Ryhmien muokkaus

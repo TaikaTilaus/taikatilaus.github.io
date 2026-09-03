@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar_position: 7
+description: Myyntipaketit — Paketin lisääminen.
 ---
 
 # Myyntipaketit

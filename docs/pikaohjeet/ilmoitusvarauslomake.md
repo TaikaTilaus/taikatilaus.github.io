@@ -1,5 +1,6 @@
 ---
 sidebar_position: 14
+description: Ilmoitusvarauslomakkeen pelkistäminen — 1. Ohjelman oikessa ylänurkassa on Omat Tiedot. Avaa Käyttäjän tiedot, 2. Paina Pelkistetty Ilmoitusvarauslomake...
 ---
 
 # Ilmoitusvarauslomakkeen pelkistäminen

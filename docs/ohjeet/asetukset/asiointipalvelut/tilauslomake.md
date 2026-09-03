@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar_position: 1
+description: Tilauslomake — Yleiset asetukset, Tilaustuotteen valinta, Yhteystiedot.
 ---
 
 # Tilauslomake

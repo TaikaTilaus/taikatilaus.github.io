@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+description: Laskutusprosessi — 1. Aloitetaan laskutusprosessi Laskut-valikosta, Laskujen haku-välilehdeltä., 2. Hae maksumuistutettavat painamalla Hae Maksumuistute...
 ---
 
 # Laskutusprosessi

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+description: Jakelun kesketys — 1. Etusivunäkymästä haetaan asiakas, 2. Paina Asiakastiedot-kentässä olevaa kynäikonia, 3. Avataan JAKELUN KESKEYTYS -valikko ja aset...
 ---
 
 # Jakelun kesketys

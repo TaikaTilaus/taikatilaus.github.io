@@ -1,5 +1,6 @@
 ---
 sidebar_position: 16
+description: Suorituksen liittäminen laskuun — 1. Miksi suoritus liitetään manuaalisesti?, 2. Suoritukset-välilehdeltä näet viallisia suorituksia. Otetaan esimerkkin...
 ---
 
 # Suorituksen liittäminen laskuun

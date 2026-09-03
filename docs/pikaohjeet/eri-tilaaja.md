@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: Tilauksen tilaajan vaihtaminen — 1. Hae etusivunäkymältä asiakas, 2. Asiakastiedoista klikkaa auki hakemasi tilaus, 3. Klikkaa Poista tilauksesta tilaaj...
 ---
 
 # Tilauksen tilaajan vaihtaminen

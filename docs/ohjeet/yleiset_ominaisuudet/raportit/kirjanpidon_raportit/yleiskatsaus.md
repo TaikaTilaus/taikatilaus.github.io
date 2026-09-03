@@ -2,6 +2,7 @@
 sidebar_position: 2
 slug: /ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit
 title: Kirjanpidon raportit
+description: Kirjanpidon raportit — Yleiset kirjanpidon raportit, Kirjanpitoyhteenveto, Vientiluettelo.
 ---
 
 # Kirjanpidon raporttien kuvaukset

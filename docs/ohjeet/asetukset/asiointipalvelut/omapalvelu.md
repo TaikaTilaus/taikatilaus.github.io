@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar_position: 2
+description: OmaPalvelu — Toiminnot, Korttien tekstit, Kirjautumisnäkymien otsikot ja palvelun osoitteet.
 ---
 
 # OmaPalvelu

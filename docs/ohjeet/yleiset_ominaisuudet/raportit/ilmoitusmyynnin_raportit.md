@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Ilmoitusmyynnin raportit
+description: Ilmoitusmyynnin raportit — Yleiset ilmoitusraportit, Ilmoitusmyynti vuosittain, Laskutetut ilmoitusmyynnit.
 ---
 
 # Ilmoitusmyynnin raportit

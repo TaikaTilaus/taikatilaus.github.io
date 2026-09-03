@@ -1,5 +1,6 @@
 ---
 sidebar_position: 25
+description: Digitilausten päivitys lehtiluukkuun — 1. Siirry Postitus -valikkoon Postitusten haku -välilehdelle, 2. Klikkaa Lehtiluukkuun päivitettävät -painiketta....
 ---
 
 # Digitilausten päivitys lehtiluukkuun 

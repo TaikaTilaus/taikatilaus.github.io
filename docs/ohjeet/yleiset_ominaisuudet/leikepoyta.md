@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: Leikepöytä — Vienti leikepöydälle, Näytettävät kentät, Tietojen käsittely.
 ---
 
 # Leikepöytä

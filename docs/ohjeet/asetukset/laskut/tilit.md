@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar_position: 2
+description: Tilit — Tilien lisääminen ja muokkaaminen.
 ---
 
 # Tilit

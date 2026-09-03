@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Asiakaskortti
+description: Asiakaskortti — Asiakkaan tiedot, Yhteystiedot, Laskutustiedot.
 ---
 
 # Asiakaskortti
