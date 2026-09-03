@@ -98,6 +98,18 @@ Tilausluettelossa näet oletuksena tilausten perustiedot sekä tilaajan ja maksa
 
 ### Tilauksen ja asiakaskortin avaaminen
 
+Avaa tilauksen esikatselu napsauttamalla tilauksen riviä. Esikatselu avautuu tilauslistan oikealle puolelle. Siinä näkyvät tilaajan, maksajan ja tilauksen tiedot sekä tilaukseen liittyvät laskut ja laskutuspyynnöt.
+
+Esikatselussa voit:
+
+- muokata tilaajan, maksajan tai tilauksen tietoja samassa välilehdessä napsauttamalla kyseisen osion **kynäkuvaketta**
+- avata tilaajan, maksajan tai tilauksen tiedot uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
+- lisätä asiakkaan keräilylistalle napsauttamalla **henkilö- ja listakuvaketta**.
+
+![Asiakkaat](/img/versio2/tilaukset10.png)
+
+Tilauslistan siniset linkit avaavat kyseisen tilauksen, tilaajan tai maksajan tiedot uuteen välilehteen.
+
 - Avaa tilauksen tiedot napsauttamalla **tilausnumeroa** tai rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
 - Avaa tilaajan tai maksajan asiakaskortti napsauttamalla kyseisen asiakkaan **asiakasnumeroa**.
 
@@ -113,7 +125,7 @@ Luettelon yläreunassa näet nykyisellä sivulla näytettävien tilausten määr
 
 ![Asiakkaat](/img/versio2/tilaukset7.png)
 
-### Näytettävät sarakkeet
+### Näytettävien sarakkeiden valitseminen
 
 Voit valita, mitkä tiedot tilausluettelossa näytetään.
 
@@ -167,22 +179,13 @@ Sulje ikkuna **Sulje**-painikkeella tai oikean yläkulman rastista.
 
 Avaa vientivalikko napsauttamalla tilausluettelon oikeassa yläkulmassa olevaa **Export**-painiketta.
 
-![Asiakkaat](/img/versio2/tilaukset9.png)
-
-### Keräilylistalle lisääminen
+Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä**. 
 
 | Toiminto | Kuvaus |
 | --- | --- |
 | **Lisää tilaajat** | Lisää luettelossa näkyvien tilausten tilaajat keräilylistalle. |
 | **Lisää maksajat** | Lisää luettelossa näkyvien tilausten maksajat keräilylistalle. |
 | **Lisää kaikki** | Lisää sekä tilaajat että maksajat keräilylistalle. |
-
-Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä**. 
-
-### Tietojen tulostaminen ja vieminen
-
-| Toiminto | Kuvaus |
-| --- | --- |
 | **Tulosta** | Avaa tilausluettelon tulostettavaksi. |
 | **Kopioi** | Kopioi luettelon tiedot tietokoneen leikepöydälle. |
 | **PDF** | Vie tiedot PDF-tiedostoon. |
@@ -190,6 +193,8 @@ Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä
 | **CSV** | Vie tiedot CSV-tiedostoon. |
 | **JSON** | Vie tiedot JSON-tiedostoon. |
 | **HTML** | Vie tiedot HTML-tiedostoon. |
+
+![Asiakkaat](/img/versio2/tilaukset9.png)
 
 ## Uuden tilauksen lisääminen
 

@@ -15,9 +15,15 @@ title: Asiakkaat
 2. Napsauta **Hae**.
 3. Hakutulokset näytetään alla olevassa asiakasluettelossa.
 
-Voit tarkentaa hakua **Lisähakuehdot**-painikkeesta. **Tyhjennä**-painikkeella voit tyhjentää haun. **Kello**-ikonista painamalla saat näkyviin hakuhistorian. Klikkaamalla hakuhistoriassa olevaa hakua, voit suorittaa haun uudestaan.
+Voit tarkentaa hakua **Lisähakuehdot**-painikkeesta. **Tyhjennä**-painikkeella voit tyhjentää haun.
 
 ![Asiakkaat - Hakuehdot](/img/versio2/asiakas-hakuehdot.png)
+
+### Hakuhistoria
+
+Hakukentän vieressä olevasta **kellokuvakkeesta** voit avata aiemmin tekemäsi haut.
+
+Valitse hakuhistoriasta haluamasi hakusana. Hakukenttä täytetään valitulla hakusanalla ja haku suoritetaan automaattisesti.
 
 ### Lisähakuehdot
 
@@ -110,6 +116,20 @@ Avaa asiakkaan tiedot uuteen välilehteen napsauttamalla **asiakasnumeroa**.
 
 ![Asiakkaat - Hakuehdot](/img/versio2/asiakasluettelo2.png)
 
+### Asiakkaan tietojen avaaminen
+
+Avaa asiakkaan esikatselu napsauttamalla asiakkaan riviä. Esikatselu avautuu asiakasluettelon oikealle puolelle. Siinä näkyvät asiakkaan perustiedot ja laskutustiedot sekä asiakkaaseen liittyvät tilaukset ja laskut.
+
+Esikatselussa voit:
+
+- muokata asiakkaan tietoja samassa välilehdessä napsauttamalla **kynäkuvaketta**
+- avata asiakkaan tiedot uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
+- lisätä asiakkaan keräilylistalle napsauttamalla **henkilö- ja listakuvaketta**.
+- luoda asiakkaalle uuden tilauksen napsauttamalla **Lisää tilaus**
+- luoda asiakkaalle uuden laskun napsauttamalla **Lisää lasku**.
+
+![Asiakkaat - Hakuehdot](/img/versio2/asiakkaat2.png)
+
 ### Asiakasluettelon kuvakkeet
 
 Asiakasrivin vasemmassa reunassa on kaksi toimintopainiketta:
@@ -125,7 +145,7 @@ Asiakkaan nimen edessä oleva kuvake kertoo asiakastyypin:
 
 ![Asiakkaat - Hakuehdot](/img/versio2/asiakasluettelo3.png)
 
-### Luettelon selaaminen
+### Luettelon selaaminen ja järjestäminen
 
 Luettelon yläreunassa näet näytettävien asiakkaiden määrän ja hakutulosten kokonaismäärän. Esimerkiksi **100 / 1011** tarkoittaa, että nykyisellä sivulla näytetään 100 asiakasta yhteensä 1 011 hakutuloksesta.
 
@@ -175,16 +195,7 @@ Kaikkien käyttäjien yhteinen oletusasetus määritetään kohdassa **Asetukset
 
 ![Asiakkaat - Hakuehdot](/img/versio2/sarakkeet2.png)
 
-## Uuden asiakkaan lisääminen
-
-1. Napsauta asiakasluettelon yläreunassa **+ Lisää asiakas** -painiketta. **Uusi kontakti** -lomake avautuu uuteen välilehteen.
-2. Täytä asiakkaan tiedot **Yhteystiedot**-välilehdellä.
-3. Täydennä tarvittaessa muiden välilehtien tiedot.
-4. Napsauta lomakkeen alareunassa **Tallenna**.
-
-![Asiakkaat - Hakuehdot](/img/versio2/lisaa-asiakas.png)
-
-## Tietojen vienti
+## Tietojen vienti ja keräilylistalle lisääminen
 
 Avaa vientivalikko napsauttamalla asiakasluettelon oikeassa yläkulmassa olevaa **Export**-painiketta.
 
@@ -202,3 +213,12 @@ Valikossa näytetään vietävien rivien määrä, esimerkiksi **100 riviä**.
 | **HTML** | Vie tiedot HTML-tiedostoon. |
 
 ![Asiakkaat - Hakuehdot](/img/versio2/tietojen-vienti.png)
+
+## Uuden asiakkaan lisääminen
+
+1. Napsauta asiakasluettelon yläreunassa **+ Lisää asiakas** -painiketta. **Uusi kontakti** -lomake avautuu uuteen välilehteen.
+2. Täytä asiakkaan tiedot **Yhteystiedot**-välilehdellä.
+3. Täydennä tarvittaessa muiden välilehtien tiedot.
+4. Napsauta lomakkeen alareunassa **Tallenna**.
+
+![Asiakkaat - Hakuehdot](/img/versio2/lisaa-asiakas.png)

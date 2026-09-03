@@ -1,0 +1,9 @@
+{
+  "label": "Asetukset",
+  "position": 5,
+  "key": "uusi-asetukset",
+  "link": {
+    "type": "doc",
+    "id": "uusi_versio/asetukset/kaikki-asetukset"
+  }
+}

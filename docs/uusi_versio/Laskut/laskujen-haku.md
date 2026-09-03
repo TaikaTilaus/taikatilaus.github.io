@@ -5,9 +5,9 @@ title: Laskujen haku
 
 # Laskujen haku
 
-![Laskujen haku](/img/versio2/laskujen-haku.png)
-
 **Laskujen haku**-sivulla voit hakea ja tarkastella laskuja, avata laskun muokattavaksi, tulostaa laskun sekä lisätä uusia laskuja. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut**.
+
+![Laskujen haku](/img/versio2/laskujen-haku.png)
 
 ## Laskujen hakeminen
 
@@ -79,6 +79,40 @@ Laskuluettelossa näet laskujen perustiedot ja maksutilanteen.
 
 ![Laskujen haku](/img/versio2/laskujen-haku5.png)
 
+### Laskun avaaminen ja tulostaminen
+
+Avaa laskun esikatselu napsauttamalla laskuriviä. Esikatselu avautuu laskuluettelon oikealle puolelle. Siinä näkyvät laskun perustiedot, maksajan tiedot ja laskun tuoterivit.
+
+Esikatselussa voit:
+
+- muokata laskun tietoja samassa välilehdessä napsauttamalla **kynäkuvaketta**
+- avata laskun uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
+- avata maksajan asiakaskortin uuteen välilehteen napsauttamalla maksajan vieressä olevaa **nuolella varustettua laatikkokuvaketta**.
+- lisätä laskulle uuden tuoterivin napsauttamalla **Tuoterivit**-osion **Lisää**-painiketta.
+
+![Laskujen haku](/img/versio2/laskujen-haku10.png)
+
+Laskurivin vasemmassa reunassa ovat seuraavat toimintopainikkeet:
+
+- **Kynäkuvake:** avaa laskun tiedot muokattavaksi.
+- **Tulostinkuvake:** tulostaa laskun PDF-muodossa.
+
+Voit avata laskun uuteen välilehteen myös napsauttamalla sinistä **laskunumeroa**.
+
+<!-- Avaa maksajan asiakaskortti napsauttamalla **Maksaja**-sarakkeessa näkyvää asiakasnumeroa. -->
+
+![Laskujen haku](/img/versio2/laskujen-haku9.png)
+
+### Luettelon selaaminen ja järjestäminen
+
+Luettelon yläreunassa näet nykyisellä sivulla näytettävien laskujen määrän ja hakutulosten kokonaismäärän. Esimerkiksi **100 / 1860** tarkoittaa, että sivulla näytetään 100 laskua yhteensä 1 860 hakutuloksesta.
+
+- Valitse **Näytä kerrallaan** -valikosta, kuinka monta laskua yhdellä sivulla näytetään.
+- Siirry edelliselle tai seuraavalle sivulle nuolipainikkeilla.
+- Järjestä luettelo napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
+
+![Laskujen haku](/img/versio2/laskujen-haku8.png)
+
 ### Näytettävien sarakkeiden valitseminen
 
 Voit valita, mitkä sarakkeet laskuluettelossa näytetään.
@@ -107,18 +141,15 @@ Palauta alkuperäiset sarakevalinnat napsauttamalla **Palauta oletukset**.
 
 ![Laskujen haku](/img/versio2/laskujen-haku6.png)
 
-### Tietojen vienti
+## Tietojen vienti ja keräilylistalle lisääminen
 
 Avaa vientivalikko napsauttamalla laskuluettelon oikeassa yläkulmassa olevaa **Export**-painiketta.
 
-#### Maksajien lisääminen keräilylistalle
-
-Napsauta **Lisää maksajat**, kun haluat lisätä luettelossa näkyvien laskujen maksajat keräilylistalle.
-
-#### Tietojen tulostaminen ja vieminen
+Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä**. 
 
 | Toiminto | Kuvaus |
 | --- | --- |
+| **Lisää maksajat**| Lisää luettelossa näkyvien laskujen maksajat keräilylistalle. |
 | **Tulosta** | Avaa laskuluettelon tulostettavaksi. |
 | **Kopioi** | Kopioi luettelon tiedot leikepöydälle. |
 | **PDF** | Vie tiedot PDF-tiedostoon. |
@@ -127,32 +158,7 @@ Napsauta **Lisää maksajat**, kun haluat lisätä luettelossa näkyvien laskuje
 | **JSON** | Vie tiedot JSON-tiedostoon. |
 | **HTML** | Vie tiedot HTML-tiedostoon. |
 
-Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä**. 
-
 ![Laskujen haku](/img/versio2/laskujen-haku7.png)
-
-### Luettelon selaaminen ja järjestäminen
-
-Luettelon yläreunassa näet nykyisellä sivulla näytettävien laskujen määrän ja hakutulosten kokonaismäärän. Esimerkiksi **100 / 1860** tarkoittaa, että sivulla näytetään 100 laskua yhteensä 1 860 hakutuloksesta.
-
-- Valitse **Näytä kerrallaan** -valikosta, kuinka monta laskua yhdellä sivulla näytetään.
-- Siirry edelliselle tai seuraavalle sivulle nuolipainikkeilla.
-- Järjestä luettelo napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
-
-![Laskujen haku](/img/versio2/laskujen-haku8.png)
-
-### Laskun avaaminen ja tulostaminen
-
-Laskurivin vasemmassa reunassa ovat seuraavat toimintopainikkeet:
-
-- **Kynäkuvake:** avaa laskun tiedot muokattavaksi.
-- **Tulostinkuvake:** tulostaa laskun PDF-muodossa.
-
-Voit avata laskun tiedot myös napsauttamalla **laskunumeroa**.
-
-<!-- Avaa maksajan asiakaskortti napsauttamalla **Maksaja**-sarakkeessa näkyvää asiakasnumeroa. -->
-
-![Laskujen haku](/img/versio2/laskujen-haku9.png)
 
 <!-- ## Uuden laskun lisääminen
 
