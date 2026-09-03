@@ -227,6 +227,21 @@ Tietojen lisääminen tai muuttaminen:
 
 ![Asiakaskortti - Lisäkentät](/img/versio2/lisakentat.png)
 
+## Muutosloki
+
+Asiakaskortin **Muutosloki**-välilehdellä voit tarkastella asiakkaan tietoihin tehtyjä muutoksia.
+
+Muutoslokissa näytetään:
+
+- muutoksen ajankohta
+- muutettu kenttä
+- kentän vanha arvo
+- kentän uusi arvo.
+
+Välilehden vieressä oleva numero kertoo muutoslokissa olevien tapahtumien määrän. Uusimmat muutokset näytetään ylimpänä.
+
+![Muutosloki](/img/versio2/muutosloki.png)
+
 ## Tilaukset
 
 Asiakaskortin oikealla puolella olevassa **Tilaukset**-osiossa näet asiakkaan tilaukset. Otsikon vieressä oleva numero kertoo tilausten määrän.
