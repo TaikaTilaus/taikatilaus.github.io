@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: Usein kysyttyä laskutuksesta: laskuerät, maksumuistutukset ja niiden toimitustapa, nollalaskut, Stripe-suoritukset ja hyvitykset.
+description: "Usein kysyttyä laskutuksesta: laskuerät, maksumuistutukset ja niiden toimitustapa, nollalaskut, Stripe-suoritukset ja hyvitykset."
 keywords: [laskutus, lasku, maksumuistutus, karhulasku, laskutusosoite, toimitustapa, perintakielto, perintäkielto, nollalasku, laskuera, laskuerä, hyvityslasku, stripe]
 ---
 
