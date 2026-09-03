@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+description: Usein kysyttyä laskutuksesta: laskuerät, maksumuistutukset ja niiden toimitustapa, nollalaskut, Stripe-suoritukset ja hyvitykset.
+keywords: [laskutus, lasku, maksumuistutus, karhulasku, laskutusosoite, toimitustapa, perintakielto, perintäkielto, nollalasku, laskuera, laskuerä, hyvityslasku, stripe]
 ---
 
 # Laskutus
@@ -70,6 +72,14 @@ Samanlaisia nollalaskuja ja ilmoitusluonnoksia voi syntyä myös silloin, kun as
 ### Kun lähetän maksumuistutuksia ja samalle asiakkaalle lähtee monta samana päivänä, tulevatko ne yhdessä kirjeessä?
 
 Jokainen maksumuistutus on liitetty tiettyyn laskuun. Jos laskut on lähetetty erikseen, myös maksumuistutukset lähtevät erikseen.
+
+### Meneekö laskutusosoitteisiin maksumuistutukset?
+
+Kyllä. **Maksumuistutukset eli karhulaskut toimitetaan oletuksena kirjeitse laskutusosoitteeseen**, vaikka asiakkaan [laskun toimitustapa](/docs/ohjeet/yleiset_ominaisuudet/asiakkaat#laskutustiedot) olisi sähköposti tai verkkolasku. Tämä koskee myös asiakasta, jonka asiakaskortilla on pelkkä laskutusosoite eikä lainkaan postiosoitetta.
+
+Kun selvität, miksi asiakas ei ole maksanut, sähköpostin tai verkkolaskun toimitusvirhe ei siis selitä perille menemätöntä maksumuistutusta. Tarkista sen sijaan, että **laskutusosoite on ajan tasalla**.
+
+Jos asiakkaalle ei pidä lähettää maksumuistutuksia lainkaan, aktivoi asiakaskortin **Perintäkielto**-kenttä.
 
 ### Missä raportissa on päiväkohtaiset Stripe-suoritukset?
 
