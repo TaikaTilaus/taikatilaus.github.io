@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: Tilauksen tietojen katselu ja muokkaus: tilaustiedot, varhaisjakelun nippu, tilaaja ja maksaja, laskutuspyynnöt, katkaisu ja hyvitys.
+description: "Tilauksen tietojen katselu ja muokkaus: tilaustiedot, varhaisjakelun nippu, tilaaja ja maksaja, laskutuspyynnöt, katkaisu ja hyvitys."
 keywords: [tilaus, tilaustiedot, tilauksen muokkaus, varhaisjakelun nippu, nippu, nippukoodi, jakelureitti, paivajakelu, päiväjakelu, jakelutapa, alennus, alennusprosentti, aleprosentti, tilaaja, maksaja, lahjatilaus]
 ---
 
