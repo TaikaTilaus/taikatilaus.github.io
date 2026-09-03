@@ -31,6 +31,5 @@ TaikaTilaus 3.0 ei ole vielä valmis. Huomioithan, että:
 - [Tilaukset](/docs/uusi_versio/tilaukset) – tilausten haku, tarkastelu ja lisääminen
 - [Laskut](/docs/uusi_versio/Laskut/laskujen-haku) – laskujen hakeminen 
 - [Raportit](/docs/uusi_versio/Raportit) – raportit, arkisto ja yhteenvedot
-- [Asetukset](/docs/uusi_versio/asetukset) – lisätietokentät, ryhmät, listat ja yleiset asetukset
 
 Jos huomaat järjestelmässä virheen tai ohjeissa puutteita, ilmoitathan niistä TaikaTilaus-tukeen. Saatu palaute auttaa meitä kehittämään sekä järjestelmää että ohjeita.

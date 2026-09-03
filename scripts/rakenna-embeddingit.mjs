@@ -5,7 +5,10 @@
  *   $env:OPENROUTER_API_KEY = "..."
  *   node scripts/rakenna-embeddingit.mjs
  *
- * Tuottaa static/ohjeindeksi-vektorit.json (gitignore).
+ * Tuottaa static/ohjeindeksi-vektorit.json, joka commitoidaan: buildilla
+ * ei ole API-avainta, joten se ei voi laskea vektoreita itse. Syotteena
+ * oleva static/ohjeindeksi.json sen sijaan on gitignoressa ja rakennetaan
+ * buildissa - aja scripts/rakenna-ohjeindeksi.mjs ensin.
  *
  * Miksi: BM25 yksin loysi oikean sivun vain 38 %:ssa riippumattomista
  * testikysymyksista (mittaus 27.8.2026). Oikea sivu on indeksissa mutta

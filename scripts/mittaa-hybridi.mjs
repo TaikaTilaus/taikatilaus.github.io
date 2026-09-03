@@ -84,7 +84,10 @@ function sivutasolle(idt, kartta, maara) {
 }
 
 function osui(sivut, odotetut) {
-  for (let i = 0; i < sivut.length; i++) if (odotetut.includes(sivut[i])) return i + 1;
+  // Odotetut on usein kirjoitettu ankkurin kanssa, sivut ovat aina sivutasolla.
+  // Ilman normalisointia ankkurillinen odotus ei osu koskaan.
+  const odotetutSivut = new Set(odotetut.map((o) => o.split('#')[0].replace(/\/$/, '')));
+  for (let i = 0; i < sivut.length; i++) if (odotetutSivut.has(sivut[i])) return i + 1;
   return 0;
 }
 
@@ -111,6 +114,11 @@ async function main() {
   const kysymykset = kysymysData.kysymykset.filter(
     (k) => k.luokka === 'ohjekysymys' && (k.odotetut ?? []).length > 0
   );
+
+  // Kumpaan ryhmaan kysymys kuuluu, riippuu tiedostosta eika id:sta: alkuperainen
+  // setti viritettiin id:hin 1-35, pidatetyssa setissa yksikaan ei ole viritetty.
+  // Ilman tata pidatetyn setin tulokset raportoitaisiin "viritettyina".
+  const viritettyIdRaja = kysymysData.viritettyIdRaja ?? 35;
 
   console.log(`Hybridihaun mittaus`);
   console.log('===================');
@@ -139,7 +147,7 @@ async function main() {
       .map((x) => x.id);
     const hyb = rrf([bm, sem]);
 
-    const ryhma = k.id <= 35 ? 'viritetyt' : 'riippumattomat';
+    const ryhma = k.id <= viritettyIdRaja ? 'viritetyt' : 'riippumattomat';
     // Vuorottelu tehdaan sivutasolla, joten kummastakin haetaan reilusti sivuja
     const bmSivut = sivutasolle(bm, kartta, 20);
     const semSivut = sivutasolle(sem, kartta, 20);

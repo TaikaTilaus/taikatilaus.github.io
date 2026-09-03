@@ -65,10 +65,22 @@ async function haeAlgolia(kysely, maara = 5) {
   return sivut;
 }
 
+/**
+ * Sivupolku ilman ankkuria ja loppukauttaviivaa. Molemmat puolet normalisoidaan
+ * samalla funktiolla: haeSivut palauttaa sivutason polkuja, mutta odotetut on
+ * usein kirjoitettu ankkurin kanssa (#saldon-kaytto). Ilman normalisointia
+ * ankkurillinen odotus ei osu koskaan, ja recall nayttaa nollaa vaikka haku
+ * loytaisi oikean sivun ensimmaisena.
+ */
+function sivupolku(url) {
+  return url.split('#')[0].replace(/\/$/, '');
+}
+
 /** Palauttaa oikean osuman sijaluvun (1-alkuinen), 0 jos ei osumaa. */
 function arvioi(osumat, odotetut) {
+  const odotetutSivut = new Set(odotetut.map(sivupolku));
   for (let i = 0; i < osumat.length; i++) {
-    if (odotetut.includes(osumat[i].url)) return i + 1;
+    if (odotetutSivut.has(sivupolku(osumat[i].url))) return i + 1;
   }
   return 0;
 }
