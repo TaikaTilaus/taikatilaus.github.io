@@ -16,7 +16,7 @@ Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Ryhmien muokkaus**. 
 2. Kirjoita **Arvo**-kenttään uuden ryhmän nimi, esimerkiksi **TEOLLISUUS**.
 3. Napsauta **+ Lisää**.
 
-Ryhmä luodaan aluksi ilman asiakkaita. Lisää asiakkaat ryhmään erikseen keräilylistan **Lisää ryhmään** -toiminnolla.
+Ryhmä luodaan aluksi ilman asiakkaita. Lisää asiakkaat ryhmään erikseen [keräilylistan](/docs/uusi_versio/Etusivu/kerailylista#asiakkaiden-lisääminen-ryhmään) **Lisää ryhmään** -toiminnolla.
 
 ![Ryhmien muokkaus](/img/versio2/ryhma.png)
 
@@ -35,6 +35,6 @@ Yksittäisen arvon rivillä olevilla painikkeilla voit:
 - muokata arvoa **kynäkuvakkeella**
 - poistaa arvoa **roskakorikuvakkeella**.
 
-Sulje Ryhmien muokkaus -ikkuna **Sulje**-painikkeella tai oikean yläkulman rastista.
+Palaa asetusten etusivulle napsauttamalla **Palaa asetuksiin**.
 
 ![Ryhmien muokkaus](/img/versio2/ryhmat2.png)
