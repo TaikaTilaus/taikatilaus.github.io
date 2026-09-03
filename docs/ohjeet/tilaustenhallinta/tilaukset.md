@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: Tilauksen tietojen katselu ja muokkaus: tilaustiedot, varhaisjakelun nippu, tilaaja ja maksaja, laskutuspyynnöt, katkaisu ja hyvitys.
+keywords: [tilaus, tilaustiedot, tilauksen muokkaus, varhaisjakelun nippu, nippu, nippukoodi, jakelureitti, paivajakelu, päiväjakelu, jakelutapa, alennus, alennusprosentti, aleprosentti, tilaaja, maksaja, lahjatilaus]
 ---
 
 # Tilaus
@@ -18,6 +20,25 @@ Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näk
 - Laskutuspyyntöjä, joiden kautta tilaus laskutetaan
 
 ![Tilauksen muokkaus](/img/ohjeet/tilaukset2.png)
+
+### Varhaisjakelun nippu
+
+**Tilaustiedot**-osion **Varhaisjakelun nippu** -kenttä kertoo, mihin
+varhaisjakelun nippuun eli jakelureittiin tilauksen osoite kuuluu. Kenttä on
+vain luettava: arvo määräytyy tilaajan osoitteen perusteella, eikä sitä muuteta
+tilaukselta.
+
+- Jos osoite löytyy **varhaisjakelun rekisteristä**, kentässä näkyy nipun tieto
+  ja lehti jaetaan varhaisjakeluna.
+- Jos osoitetta ei löydy rekisteristä, kentässä lukee **PÄIVÄJAKELU** ja lehti
+  menee päiväjakeluun.
+
+Jos nippu tai jakelutapa näyttää väärältä, tarkista ensin tilaajan osoite —
+jakelu määräytyy tallennetun vakio-osoitteen mukaan. Reitit ja niput
+ylläpidetään [Varhaisjakelun reitit](/docs/ohjeet/asetukset/postitus/varhaisjakelun-reitit)
+-välilehdellä. Yksittäiseltä asiakkaalta varhaisjakelu voidaan estää kokonaan,
+jolloin tilaus siirtyy päiväjakeluun — katso
+[Varhaisjakelun estäminen](/docs/pikaohjeet/varhaisjakelun-esto).
 
 ### Tilaajan tietojen muuttaminen
 
