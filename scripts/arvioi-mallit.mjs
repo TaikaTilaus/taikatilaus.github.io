@@ -27,7 +27,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { lataaIndeksi, haeChunkit } from './haku.mjs';
+import { lataaIndeksi, haeChunkit, laajennaSivulla } from './haku.mjs';
 
 const JUURI = join(dirname(fileURLToPath(import.meta.url)), '..');
 const INDEKSI = join(JUURI, 'static', 'ohjeindeksi.json');
@@ -302,6 +302,12 @@ async function main() {
   // oikea sivu loytyi aina, mutta valilla vaara katkelma silta sivulta.
   const chunkkeja = parseInt(arg('chunkkeja', '5'), 10);
 
+  // Sivulaajennus: kolmen ylimman osuman naapurichunkit mukaan. Tuotannon
+  // VB-toteutuksessa tama on paalla (SivulaajennusYlimmalle = 3), mutta sita ei
+  // ollut koskaan mitattu - clsOhjeindeksi.vb sanoo sen itse. Oletus 0, jotta
+  // aiemmat ajot pysyvat vertailukelpoisina; --sivulaajennus=3 vastaa tuotantoa.
+  const sivulaajennus = parseInt(arg('sivulaajennus', '0'), 10);
+
   const { chunkit, indeksi } = await lataaIndeksi(INDEKSI);
   const kysymysData = JSON.parse((await readFile(kysymysPolku, 'utf8')).replace(/^\uFEFF/, ''));
 
@@ -319,7 +325,8 @@ async function main() {
 
   console.log(`Mallien arviointi`);
   console.log(`=================`);
-  console.log(`Chunkkeja    ${chunkit.length} (mallille lahetetaan ${chunkkeja})`);
+  console.log(`Chunkkeja    ${chunkit.length} (mallille lahetetaan ${chunkkeja}` +
+    `${sivulaajennus > 0 ? `, sivulaajennus ${sivulaajennus}` : ''})`);
   console.log(`Kysymyksiä   ${kysymykset.length} ` +
     `(${kysymykset.filter((k) => k.luokka === 'ohjekysymys').length} ohje, ` +
     `${kysymykset.filter((k) => k.luokka === 'ei_ohjetta').length} kieltäytymistesti)`);
@@ -358,7 +365,10 @@ async function main() {
     const tulokset = [];
 
     for (const [i, k] of kysymykset.entries()) {
-      const osumat = haeChunkit(indeksi, k.kysymys, chunkkeja);
+      let osumat = haeChunkit(indeksi, k.kysymys, chunkkeja);
+      if (sivulaajennus > 0) {
+        osumat = laajennaSivulla(chunkit, osumat, { maara: chunkkeja, ylimmalle: sivulaajennus });
+      }
       const konteksti = rakennaKonteksti(osumat);
 
       let rivi = {

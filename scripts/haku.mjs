@@ -125,3 +125,69 @@ export async function lataaIndeksi(polku, { kaikkiTyypit = false } = {}) {
     : data.chunkit.filter((c) => c.tyyppi !== 'versiotiedote');
   return { data, chunkit, indeksi: rakennaIndeksi(chunkit) };
 }
+
+/**
+ * Sivulaajennus: kun chunk sijoittuu korkealle, otetaan mukaan saman sivun
+ * naapurichunkit.
+ *
+ * Portti VB-toteutuksesta (Tukichat/clsOhjeindeksi.vb, Laajenna). Ominaisuus
+ * on ollut tuotannossa mittaamattomana - VB:n oma kommentti sanoo sen suoraan.
+ * Mittaus 3.9.2026 osoitti miksi se on tarpeen: kolmessa tapauksessa oikea sivu
+ * oli kontekstissa mutta vastaava katkelma ei, koska se sijoittui 11:ksi tai
+ * 22:ksi kun mallille lahetetaan 10.
+ *
+ * Semantiikka on VB:n kanssa sama, myos yksityiskohdissa:
+ *   - laajennettuja kasvaa jokaisesta kasitellysta osumasta, myos silloin kun
+ *     naapureita ei lisatty. Kolme ylinta saa yrittaa, ei kolme onnistunutta.
+ *   - naapurit lisataan heti oman chunkkinsa jalkeen, ei listan hantaan.
+ *   - laajennus mahtuu maara-kattoon, eli se syrjayttaa heikoimmat hannasta.
+ */
+export function laajennaSivulla(chunkit, osumat, {
+  maara = 10,
+  ylimmalle = 3,
+  naapureita = 1,
+  enintaan = 2,
+} = {}) {
+  if (ylimmalle <= 0 || naapureita <= 0 || enintaan <= 0) return osumat.slice(0, maara);
+
+  const sivukartta = new Map();
+  for (const c of chunkit) {
+    const sivu = c.url.split('#')[0];
+    if (!sivukartta.has(sivu)) sivukartta.set(sivu, []);
+    sivukartta.get(sivu).push(c);
+  }
+
+  const naapurit = (chunk) => {
+    const sivu = sivukartta.get(chunk.url.split('#')[0]);
+    if (!sivu) return [];
+    const i = sivu.indexOf(chunk);
+    if (i < 0) return [];
+    const ulos = [];
+    for (let d = 1; d <= naapureita; d++) {
+      if (i - d >= 0) ulos.push(sivu[i - d]);
+      if (i + d < sivu.length) ulos.push(sivu[i + d]);
+    }
+    return ulos;
+  };
+
+  const nahty = new Set(osumat.map((o) => o.chunk.id));
+  const tulos = [];
+  let laajennettuja = 0;
+  let lisattyja = 0;
+
+  for (const o of osumat) {
+    tulos.push(o);
+    if (laajennettuja >= ylimmalle) continue;
+    laajennettuja++;
+
+    for (const n of naapurit(o.chunk)) {
+      if (lisattyja >= enintaan) break;
+      if (nahty.has(n.id)) continue;
+      nahty.add(n.id);
+      tulos.push({ chunk: n, p: o.p, lahde: 'sivulaajennus' });
+      lisattyja++;
+    }
+  }
+
+  return tulos.slice(0, maara);
+}
