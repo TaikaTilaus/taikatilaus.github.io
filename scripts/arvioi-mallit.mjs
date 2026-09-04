@@ -140,7 +140,7 @@ function rakennaKonteksti(osumat) {
     .join('\n\n---\n\n');
 }
 
-async function kysyMallilta(malli, kysymys, konteksti, key, tyokalut) {
+async function kysyMallilta(malli, kysymys, konteksti, key, tyokalut, kehote) {
   const alku = Date.now();
   const vastaus = await fetch(`${API}/chat/completions`, {
     method: 'POST',
@@ -157,7 +157,7 @@ async function kysyMallilta(malli, kysymys, konteksti, key, tyokalut) {
       // voi verrata "tyokalujen kanssa" ja "ilman" -tilanteita.
       ...(tyokalut && tyokalut.length ? { tools: tyokalut } : {}),
       messages: [
-        { role: 'system', content: JARJESTELMAKEHOTE },
+        { role: 'system', content: kehote },
         { role: 'user', content: `OHJEET:\n\n${konteksti}\n\n---\n\nKYSYMYS: ${kysymys}` },
       ],
     }),
@@ -310,6 +310,27 @@ async function main() {
   // aiemmat ajot pysyvat vertailukelpoisina; --sivulaajennus=3 vastaa tuotantoa.
   const sivulaajennus = parseInt(arg('sivulaajennus', '0'), 10);
 
+  /*
+   * Jarjestelmakehote tuotannosta, ei kopiona.
+   *
+   * Talla skriptilla oli oma kovakoodattu kehotteensa, joka oli ehtinyt
+   * erkaantua tuotannon kehotteesta (clsTukichatKehote.vb) - saanto 8 puuttui
+   * kokonaan. Jokainen mittaus mittasi siis eri tekstia kuin mita kayttaja saa,
+   * eika siita huomauttanut mikaan.
+   *
+   * Kehote viedaan VB-testista tiedostoon (Aineistot/kehote-tuotanto.txt), ja
+   * KehoteVientiTestit pitaa viennin ajan tasalla. --kehote osoittaa siihen.
+   * Ilman valitsinta kaytetaan alla olevaa vanhaa kehotetta, jotta aiemmat
+   * ajot pysyvat toistettavina.
+   */
+  const kehotePolku = arg('kehote', null);
+  const kehote = kehotePolku
+    ? (await readFile(kehotePolku, 'utf8')).replace(/^﻿/, '')
+    : JARJESTELMAKEHOTE;
+
+  console.log(`Kehote       ${kehotePolku ? kehotePolku : 'skriptin oma (vanha)'}` +
+    ` (${kehote.length} merkkia)`);
+
   const { chunkit, indeksi } = await lataaIndeksi(INDEKSI);
   const kysymysData = JSON.parse((await readFile(kysymysPolku, 'utf8')).replace(/^\uFEFF/, ''));
 
@@ -380,7 +401,7 @@ async function main() {
       };
 
       try {
-        const v = await kysyMallilta(malli, k.kysymys, konteksti, key, tyokalut);
+        const v = await kysyMallilta(malli, k.kysymys, konteksti, key, tyokalut, kehote);
         Object.assign(rivi, v, tulkitse(v.teksti, k.odotetut || []));
       } catch (e) {
         rivi.virhe = String(e.message).slice(0, 160);
