@@ -16,7 +16,7 @@ Laskujen luominen ja hyvittäminen eivät ole vielä käytettävissä uudessa ve
 
 :::
 
-![Laskun yleisnäkymä](/img/versio2/lasku.png)
+![Laskun perustiedot, tuoterivit ja tiliöinnit](/img/versio2/lasku.png)
 
 ## Laskun perustiedot
 
@@ -39,7 +39,7 @@ Laskun perustiedoissa näkyvät:
 
 Tallenna perustietoihin tekemäsi muutokset napsauttamalla **Tallenna**. Voit sulkea laskunäkymän napsauttamalla **Sulje välilehti**.
 
-![Laskun perustiedot](/img/versio2/lasku2.png)
+![Laskun maksaja-, päivä-, summa- ja toimitustiedot](/img/versio2/lasku2.png)
 
 ## Tuoterivit
 
@@ -49,7 +49,7 @@ Avaa tuoterivi muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **k
 
 Voit lisätä laskulle uuden tuoterivin napsauttamalla **Lisää**. Poista tuoterivi napsauttamalla rivin oikeassa reunassa olevaa **roskakorikuvaketta**.
 
-![Laskun perustiedot](/img/versio2/lasku3.png)
+![Laskun tuoterivit ja niiden muokkaustoiminnot](/img/versio2/lasku3.png)
 
 ### Tuoterivin muokkaaminen
 
@@ -71,7 +71,7 @@ Valitsemalla **Seliterivi (pelkkä tekstirivi)** voit määrittää tuoterivin p
 
 Tallenna muutokset napsauttamalla **Tallenna**. Voit poistua muokkausnäkymästä tallentamatta muutoksia napsauttamalla **Peruuta**.
 
-![Laskun perustiedot](/img/versio2/lasku5.png)
+![Tuoterivin määrä-, hinta-, vero- ja lisätietojen muokkaaminen](/img/versio2/lasku5.png)
 
 ## Tiliöinnit
 
@@ -84,7 +84,7 @@ Tarvittaessa voit lisätä uusia tiliöintejä seuraavilla painikkeilla:
 - **Lisää tiliöinti laskulle**: lisää uusi luontivaiheen tiliöinti (L)
 - **Lisää tiliöinti suoritukselle**: lisää laskulle liittyvälle suoritukselle uusi tiliöinti (Suoritus/Kuittaus/Kulu)
 
-![Laskun perustiedot](/img/versio2/lasku4.png)
+![Laskun myyntiin ja suorituksiin liittyvät tiliöinnit](/img/versio2/lasku4.png)
 
 ### Tiliöinnin lisääminen laskulle
 
@@ -97,7 +97,7 @@ Lisää laskulle uusi luontivaiheen tiliöinti (L) napsauttamalla **Lisää tili
 
 Tallenna tiliöinti napsauttamalla **Tallenna**. Voit sulkea näkymän lisäämättä tiliöintiä napsauttamalla **Peruuta**.
 
-![Laskun perustiedot](/img/versio2/lasku6.png)
+![Uuden laskun tiliöinnin tiedot](/img/versio2/lasku6.png)
 
 ### Tiliöinnin lisääminen laskuun liitetylle suoritukselle
 
@@ -115,4 +115,4 @@ Lisää tiliöinti laskuun liitetylle suoritukselle napsauttamalla **Lisää til
 
 Tallenna tiliöinti napsauttamalla **Tallenna**. Voit sulkea näkymän lisäämättä tiliöintiä napsauttamalla **Peruuta**.
 
-![Laskun perustiedot](/img/versio2/lasku7.png)
+![Laskuun liitetyn suorituksen uuden tiliöinnin tiedot](/img/versio2/lasku7.png)

@@ -320,7 +320,7 @@ Punainen **erotus**-merkintä kertoo, kuinka paljon laskutuspyyntöjen yhteissum
 
 Avaa laskutuspyyntö muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**. Lisää uusi laskutuspyyntö napsauttamalla **Lisää**. Odottavan laskutuspyynnön voi poistaa napsauttamalla rivin oikeassa reunassa olevaa **roskakorikuvaketta**.
 
-![Laskutuspyyntö](/img/versio2/laskutuspyynto.png)
+![Tilauksen laskutuspyynnöt ja niiden tilat](/img/versio2/laskutuspyynto.png)
 
 ### Laskutuspyynnön tarkasteleminen ja muokkaaminen
 
@@ -340,7 +340,7 @@ Odottavaa laskutuspyyntöä voi muokata. Laskutuspyynnöllä näkyvät seuraavat
 
 Tee laskutuspyynnöstä heti lasku painamalla **Tee lasku** -painiketta. 
 
-![Laskutuspyyntö](/img/versio2/laskutuspyynto2.png)
+![Laskutuspyynnön tiedot ja Tee lasku -toiminto](/img/versio2/laskutuspyynto2.png)
 
 ### Uuden laskutuspyynnön lisääminen
 
@@ -356,7 +356,7 @@ Lisää tilaukselle uusi laskutuspyyntö napsauttamalla **Lisää**. Täytä las
 
 Voit sulkea näkymän tallentamatta laskutuspyyntöä napsauttamalla **Peruuta**.
 
-![Laskutuspyyntö](/img/versio2/laskutuspyynto3.png)
+![Uuden laskutuspyynnön tiedot](/img/versio2/laskutuspyynto3.png)
 
 
 

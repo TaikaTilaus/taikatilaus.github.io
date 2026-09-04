@@ -43,4 +43,4 @@ Avaa kaikki tiedotteet napsauttamalla oikeassa yläkulmassa olevaa käyttäjäva
 
 ![Tiedote etusivulla](/img/versio2/tiedotteet2.png)
 
-![Tiedotteet](/img/versio2/tiedotteet.png)
+![Luettujen ja lukemattomien tiedotteiden luettelo](/img/versio2/tiedotteet.png)
