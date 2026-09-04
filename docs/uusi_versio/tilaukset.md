@@ -303,6 +303,62 @@ Tee näissä tilanteissa tilauksen katkaisu ja siihen liittyvät laskutus- tai p
 :::
 
 
+## Tilauksen laskutuspyynnöt
+
+**Laskutuspyynnöt**-osiossa näkyvät kaikki tilaukseen liittyvät laskutuspyynnöt ja niiden yhteissumma.
+
+Laskutuspyynnöstä näet seuraavat tiedot:
+
+- **Saa luoda:** päivä, josta alkaen lasku voidaan luoda.
+- **Tuoteryhmä:** laskutettavan tuotteen tuoteryhmä.
+- **Tuote:** laskutettava tuote.
+- **Summa:** laskutuspyynnön summa.
+- **Laskunro:** luodun laskun numero. Avaa lasku napsauttamalla numeroa.
+- **Tila:** kertoo, odottaako laskutuspyyntö laskun luomista vai onko lasku jo luotu.
+
+Punainen **erotus**-merkintä kertoo, kuinka paljon laskutuspyyntöjen yhteissumma poikkeaa tilauksen hinnasta.
+
+Avaa laskutuspyyntö muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**. Lisää uusi laskutuspyyntö napsauttamalla **Lisää**. Odottavan laskutuspyynnön voi poistaa napsauttamalla rivin oikeassa reunassa olevaa **roskakorikuvaketta**.
+
+![Laskutuspyyntö](/img/versio2/laskutuspyynto.png)
+
+### Laskutuspyynnön tarkasteleminen ja muokkaaminen
+
+Avaa laskutuspyyntö napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
+
+Jos laskutuspyynnöstä on jo luotu lasku, pyyntöä ei voi enää muokata. Ilmoituksessa näkyvää laskunumeroa napsauttamalla voit avata muodostuneen laskun.
+
+Odottavaa laskutuspyyntöä voi muokata. Laskutuspyynnöllä näkyvät seuraavat tiedot:
+
+- **Saa luoda:** päivä, josta alkaen lasku voidaan luoda.
+- **Määrä:** laskutettava lehtien määrä (sama kuin tilauksessa).
+- **Yksikköhinta (veroton):** yhden yksikön hinta ilman arvonlisäveroa.
+- **Alennus %:** laskutuspyynnölle annettava alennus.
+- **ALV %:** laskutuksessa käytettävä arvonlisäveroprosentti.
+- **Lisätieto:** lisätieto, joka lisätään laskun tuoteriville.
+- **Verollinen summa:** laskutuspyynnön lopullinen summa arvonlisäveroineen.
+
+Tee laskutuspyynnöstä heti lasku painamalla **Tee lasku** -painiketta. 
+
+![Laskutuspyyntö](/img/versio2/laskutuspyynto2.png)
+
+### Uuden laskutuspyynnön lisääminen
+
+Lisää tilaukselle uusi laskutuspyyntö napsauttamalla **Lisää**. Täytä laskutuspyynnön tiedot ja napsauta **Tallenna**.
+
+- **Saa luoda:** päivä, josta alkaen lasku voidaan luoda.
+- **Määrä:** laskutettava lehtien määrä (sama kuin tilauksessa).
+- **Yksikköhinta (veroton):** yhden yksikön hinta ilman arvonlisäveroa.
+- **Alennus %:** laskutuspyynnölle annettava alennus.
+- **ALV %:** laskutuksessa käytettävä arvonlisäveroprosentti.
+- **Lisätieto:** lisätieto, joka lisätään laskun tuoteriville.
+- **Verollinen summa:** laskutuspyynnön lopullinen summa arvonlisäveroineen.
+
+Voit sulkea näkymän tallentamatta laskutuspyyntöä napsauttamalla **Peruuta**.
+
+![Laskutuspyyntö](/img/versio2/laskutuspyynto3.png)
+
+
 
 
 
