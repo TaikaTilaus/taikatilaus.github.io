@@ -64,6 +64,12 @@ Tallenna muutokset napsauttamalla **Tallenna**. Voit poistua tallentamatta muuto
 
 Poista käyttäjätunnus napsauttamalla **Poista**.
 
+:::warning Huomaa
+
+Käyttäjätunnusta ei kannata poistaa, ellet halua menettää käyttäjään liittyviä historiatietoja lokeista. Poistamisen sijaan määritä **Tunnus voimassa asti** -kenttään päivä, jolloin käyttäjän kirjautuminen halutaan estää.
+
+:::
+
 ![Käyttäjät yleisnäkymä](/img/versio2/kayttajat4.png)
 
 #### Salasanan vaihtaminen
