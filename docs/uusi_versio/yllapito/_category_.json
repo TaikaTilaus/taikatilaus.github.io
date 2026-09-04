@@ -1,0 +1,9 @@
+{
+  "label": "Ylläpito",
+  "position": 6,
+  "key": "uusi-yllapito",
+  "link": {
+    "type": "generated-index",
+    "slug": "/uusi_versio/yllapito"
+  }
+}
