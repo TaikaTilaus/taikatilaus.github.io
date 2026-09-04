@@ -58,6 +58,8 @@ Määritä käyttäjän TaikaTilaus-valikko-oikeudet tallentamisen jälkeen vanh
 
 Avaa käyttäjän tiedot napsauttamalla käyttäjäluettelossa rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
 
+![Käyttäjät yleisnäkymä](/img/versio2/kayttajat4.png)
+
 Voit muokata käyttäjän muita tietoja, paitsi käyttäjätunnusta. 
 
 Tallenna muutokset napsauttamalla **Tallenna**. Voit poistua tallentamatta muutoksia napsauttamalla **Peruuta**.
@@ -69,8 +71,6 @@ Poista käyttäjätunnus napsauttamalla **Poista**.
 Käyttäjätunnusta ei kannata poistaa, ellet halua menettää käyttäjään liittyviä historiatietoja lokeista. Poistamisen sijaan määritä **Tunnus voimassa asti** -kenttään päivä, jolloin käyttäjän kirjautuminen halutaan estää.
 
 :::
-
-![Käyttäjät yleisnäkymä](/img/versio2/kayttajat4.png)
 
 #### Salasanan vaihtaminen
 
