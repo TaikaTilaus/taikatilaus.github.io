@@ -90,6 +90,8 @@ Esikatselussa voit:
 - avata laskun uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
 - avata maksajan asiakaskortin uuteen välilehteen napsauttamalla maksajan vieressä olevaa **nuolella varustettua laatikkokuvaketta**.
 - lisätä laskulle uuden tuoterivin napsauttamalla **Tuoterivit**-osion **Lisää**-painiketta.
+- lisätä laskulle uuden luontivaiheen tiliöinnin napsauttamalla **Tiliöinnit**-osion **Lisää tiliöinti laskulle** -painiketta. 
+- lisätä laskuun liittyvälle suoritukselle uuden tiliöinnin napsauttamalla **Tiliöinnit**-osion **Lisää tiliöinti suoritukselle** -painiketta. 
 
 ![Laskun esikatselu laskuluettelossa](/img/versio2/laskujen-haku10.png)
 
