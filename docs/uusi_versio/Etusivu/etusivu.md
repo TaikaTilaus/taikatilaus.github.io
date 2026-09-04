@@ -6,7 +6,7 @@ description: Etusivu — Päävalikko, Oikean reunan ikonit, Omat tiedot ja kirj
 
 # Etusivu
 
-Etusivulle on koottu yhteenveto asiakkaista, tilauksista ja laskuista sekä julkaisukalenteri, postitusyhteenveto ja viimeisimmät muutokset. Etusivulla näkyviä kortteja voi hallita [asetuksista](/docs/uusi_versio/asetukset/etusivun-osiot). 
+Etusivulle on koottu yhteenveto asiakkaista, tilauksista ja laskuista sekä tiedoiteet, julkaisukalenteri, postitusyhteenveto ja viimeisimmät muutokset. Etusivulla näkyviä kortteja voi hallita [asetuksista](/docs/uusi_versio/asetukset/etusivun-osiot). 
 
 ![TaikaTilaus 3.0:n etusivun yleisnäkymä](/img/versio2/etusivu.png)
 
@@ -35,38 +35,19 @@ Päävalikon oikeassa reunassa ovat seuraavat pikatoiminnot:
 | [**Keräilylista**](/docs/uusi_versio/Etusivu/kerailylista) | Avaa keräilylistan. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän. |
 | [**Historia**](/docs/uusi_versio/Etusivu/historia) | Avaa järjestelmän historian. |
 | [**Huomiot**](/docs/uusi_versio/Etusivu/huomiot) | Avaa huomiot. Kuvakkeen yhteydessä näkyvä numero kertoo käsittelemättömien huomioiden määrän. |
-| **Omat tiedot** | Avaa käyttäjävalikon, jossa voit tarkastella omia tietojasi tai kirjautua ulos järjestelmästä. |
+| [**Omat tiedot**](/docs/uusi_versio/Etusivu/omat-tiedot) | Avaa käyttäjävalikon, jossa voit tarkastella omia tietojasi tai kirjautua ulos järjestelmästä. |
 
 Avaa toiminto napsauttamalla sitä vastaavaa kuvaketta. Käyttäjävalikko avautuu napsauttamalla oikeassa reunassa näkyvää käyttäjätunnusta.
 
 ![Päävalikon keräilylista-, historia-, huomio- ja käyttäjäkuvakkeet](/img/versio2/paavalikko-icons.png)
 
-### Omat tiedot ja kirjautuminen ulos
+## Tiedotteet
 
-Avaa käyttäjävalikko napsauttamalla päävalikon oikeassa reunassa näkyvää käyttäjätunnustasi.
+Uusi tiedote näkyy etusivun yläosassa. Kun olet lukenut tiedotteen, napsauta **Kuittaa luetuksi**.
 
-Valikossa ovat seuraavat toiminnot:
+Avaa kaikki tiedotteet napsauttamalla oikeassa yläkulmassa olevaa käyttäjävalikkoa ja valitsemalla **Tiedotteet**. Luetuksi kuitatun tiedotteen voi palauttaa lukemattomaksi napsauttamalla **Palauta lukemattomaksi**.
 
-- **Tiedot:** avaa käyttäjän omat tiedot ja näkymäasetukset.
-- **Kirjaudu ulos:** kirjaa käyttäjän ulos järjestelmästä.
-
-#### Käyttäjän tiedot
-
-**Tiedot**-sivulla näet seuraavat käyttäjätiliä koskevat tiedot:
-
-| Kenttä | Sisältö |
-| --- | --- |
-| **Asiakas (tenant)** | Organisaatio tai ympäristö, johon käyttäjätunnus kuuluu. |
-| **Käyttäjätunnus** | Järjestelmään kirjautumisessa käytettävä tunnus. |
-| **Viimeisin kirjautuminen** | Edellisen kirjautumisen päivämäärä ja kellonaika. |
-| **Nimi** | Käyttäjän nimi. |
-| **Sähköposti** | Käyttäjän sähköpostiosoite. |
-| **Puhelin** | Käyttäjän puhelinnumero. |
-| **Ulkoasuteema** | Käyttöliittymässä käytettävä teema. |
-
-Tallenna muutokset napsauttamalla **Tallenna**.
-
-![Käyttäjän omat tiedot ja ulkoasuteeman valinta](/img/versio2/omat-tiedot.png)
+![Tiedote etusivulla](/img/versio2/tiedotteet2.png)
 
 ## Tunnusluvut
 
