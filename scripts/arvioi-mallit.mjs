@@ -80,7 +80,9 @@ function arg(nimi, oletus = null) {
 async function lataaTyokalut(polku, rajaus) {
   if (!polku) return null;
 
-  const kaikki = JSON.parse(await readFile(polku, 'utf8'));
+  // BOM pois: maarittelyt viedaan VB:n File.WriteAllText(..., Encoding.UTF8):lla,
+  // joka kirjoittaa BOM:in. Kysymystiedostolla tama tehtiin jo, tyokaluilla ei.
+  const kaikki = JSON.parse((await readFile(polku, 'utf8')).replace(/^﻿/, ''));
   const puhtaat = kaikki.map(({ type, function: fn }) => ({ type, function: fn }));
 
   if (!rajaus) return puhtaat;
