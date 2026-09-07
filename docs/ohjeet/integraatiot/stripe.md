@@ -13,7 +13,7 @@ Tämä ohje kuvaa, kuinka luot Stripe-tilin ja miten luot siellä tuotteita.
 
 Stripe-tilin luominen on ilmaista ja helppoa.
 
-1. Mene osoitteeseen [stripe.com](https://www.stripe.com/). Anna yrityksesi sähköposti kenttään ja paina **Start now**.
+1. Mene osoitteeseen [stripe.com](https://www.stripe.com/). Anna yrityksesi sähköposti kenttään ja paina **Get started**.
 
 ![Stripe](/img/ohjeet/stripe.png)
 
