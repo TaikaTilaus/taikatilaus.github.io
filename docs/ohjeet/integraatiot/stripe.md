@@ -25,7 +25,7 @@ Stripe-tilin luominen on ilmaista ja helppoa.
 
 ![Stripe](/img/ohjeet/stripe3.png)
 
-4. Kuvaile yrityksesi toiminta ja anna yrityksesi nettisivun URL. Stripe ehdottaa sen avulla yrityksellesi sopivia ominaisuuksia. 
+4. Kuvaile yrityksesi toimintaa ja anna yrityksesi nettisivun URL. Stripe ehdottaa sen avulla yrityksellesi sopivia ominaisuuksia. 
 
 ![Stripe](/img/ohjeet/stripe4.png)
 
