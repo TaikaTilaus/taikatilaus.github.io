@@ -17,7 +17,7 @@ Stripe-tilin luominen on ilmaista ja helppoa.
 
 ![Stripe](/img/ohjeet/stripe.png)
 
-2. Syötä avautuvaan lomakkeeseen nimesi/yrityksesi nimi ja salasana. Paina **Create account**.
+2. Syötä avautuvaan lomakkeeseen sähköposti, koko nimesi ja salasana. Paina **Create account**.
 
 ![Stripe](/img/ohjeet/stripe2.png)
 
