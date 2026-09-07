@@ -7,7 +7,7 @@ description: Stripe — Tilin luominen, Yrityksen vahvistaminen, Hinta.
 
 [Stripe](https://www.stripe.com/)-maksutavan integraatio. 
 
-Tämä ohje kuvaa, kuinka luot Stripe-tilin ja miten luot siellä tuotteita.
+Tämä ohje kuvaa, kuinka luot Stripe-tilin ja kutsut TaikaTilauksen tilisi hallinoijaksi.
 
 ## Tilin luominen
 
