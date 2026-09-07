@@ -17,27 +17,27 @@ Stripe-tilin luominen on ilmaista ja helppoa.
 
 ![Stripe](/img/ohjeet/stripe.png)
 
-2. Syötä avautuvaan lomakkeeseen nimesei/yrityksesi nimi ja salasana. Paina **Create account**.
+2. Syötä avautuvaan lomakkeeseen nimesi/yrityksesi nimi ja salasana. Paina **Create account**.
 
 ![Stripe](/img/ohjeet/stripe2.png)
 
-3. Anna yrityksesi nimi avautuvaan lomakkeeseen. Voit antaa myös yrityksesi verkkosivun URL:in, jolloin Stripe ehdottaa sopiva ominaisuuksia yrityksellesi.
+3. Anna yrityksesi nimi ja toimimaa avautuvaan lomakkeeseen.
 
 ![Stripe](/img/ohjeet/stripe3.png)
 
-4. Stripe ehdottaa yrityksellesi sopivia ominaisuuksia. Voit hyväksyä ne klikkaamalla kentän aktiiviseksi ja painamalla **Continue**.
+4. Kuvaile yrityksesi toiminta ja anna yrityksesi nettisivun URL. Stripe ehdottaa sen avulla yrityksellesi sopivia ominaisuuksia. 
 
 ![Stripe](/img/ohjeet/stripe4.png)
 
-5. Valitse ominaisuuksien listasta **Recurring payments** ja paina **Continue**.
+5. Valitse ominaisuuksien listasta ainakin **Accept online payments** ja **Create subscriptions** ja paina **Continue**.
 
 ![Stripe](/img/ohjeet/stripe5.png)
 
-6. Paina **Continue to sandbox**.
+6. Paina **Go to sandbox**.
 
 ![Stripe](/img/ohjeet/stripe6.png)
 
-7. Olet nyt Stripe-tilisi etusivulla.
+7. Olet nyt Stripe-tilisi sandboxin etusivulla.
 
 ![Stripe](/img/ohjeet/stripe7.png)
 
@@ -45,12 +45,33 @@ Stripe-tilin luominen on ilmaista ja helppoa.
 
 ![Stripe](/img/ohjeet/stripe8.png)
 
-Tilisi on nyt luotu, ja voit alkaa lisäämään tuotteita.
+## TaikaTilauksen kutsuminen Stripe-hallinnoijaksi
+
+1. Sähköpostin vahvistamisen jälkeen, Stripe-tilillä paina **Asetukset**-ikonia.
+
+![Stripe](/img/ohjeet/stripe10.png)
+
+2. Asetuksissa paina **Team and security**.
+
+![Stripe](/img/ohjeet/stripe11.png)
+
+3. Paina **Add member**
+
+![Stripe](/img/ohjeet/stripe12.png)
+
+4. Kirjoita lisättävän henkilön sähköposti kenttään, valitse admin rooliksi **Administrator** ja paina Send **invite**.
+
+![Stripe](/img/ohjeet/stripe13.png)
+
+5. Saat sähköpostiisi koodin, jolla vahvistat jäsenen lisäyksen. Kopioi se ja anna se aukeavaan kenttään. 
+
+6. TaikaTilauksen tiimin edustaja on nyt kutsuttu.
 
 <!-- ## Tuotteiden lisääminen
 
 ## Yrityksen vahvistaminen
  -->
+
 ## Hinta
 
 TaikaTilauksen osalta Liittymästä veloitetaan käyttöönottomaksu sekä [hinnaston](https://www.taikatilaus.fi/hinnasto) mukainen kiinteä kuukausimaksu. 
