@@ -17,6 +17,10 @@ Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
 
 ## Järjestelmän ja käyttäjän asetukset
 
+### Tuotteet
+
+[**Tuotteet**](/docs/uusi_versio/asetukset/tuotteet)-sivulla voit käsitellä tilaus-, erillis- ja myyntituotteita.
+
 ### Lisätietokentät
 
 [**Lisätietokentät**](/docs/uusi_versio/asetukset/lisatietokentat)-sivulla voit luoda ja hallita asiakaskortilla käytettäviä lisätietokenttiä.
@@ -32,6 +36,10 @@ Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
 ### Listat
 
 [**Listat**](/docs/uusi_versio/asetukset/listat)-sivulla voit hallita asiakas- ja tilauslistojen asetuksia.
+
+### Jakelualueet
+
+[**Jakelualueet**](/docs/uusi_versio/asetukset/jakelualueet)-sivulla voit hallita postinumeroalueita ja tuotteiden aluehintoja.
 
 ## Yleisasetukset
 
