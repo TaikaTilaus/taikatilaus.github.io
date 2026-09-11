@@ -21,6 +21,10 @@ Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
 
 [**Tuotteet**](/docs/uusi_versio/asetukset/tuotteet)-sivulla voit käsitellä tilaus-, erillis- ja myyntituotteita.
 
+### Julkaisut
+
+[**Julkaisut**](/docs/uusi_versio/asetukset/julkaisut)-sivu voit muokata ja lisätä lehtien julkaisuja.
+
 ### Lisätietokentät
 
 [**Lisätietokentät**](/docs/uusi_versio/asetukset/lisatietokentat)-sivulla voit luoda ja hallita asiakaskortilla käytettäviä lisätietokenttiä.
