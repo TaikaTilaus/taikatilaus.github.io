@@ -26,7 +26,7 @@ Valitse sivun yläreunasta tarkasteltava tuotetyyppi:
 
 Avaa tuotteen tiedot muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tuotteet4.png)
+![Tuotteen avaaminen muokattavaksi kynäkuvakkeella](/img/versio2/tuotteet4.png)
 
 ## Tuotteiden vieminen
 
@@ -38,7 +38,7 @@ Voit:
 - kopioida tuoteluettelon leikepöydälle
 - viedä tuoteluettelon PDF-, Excel-, CSV-, JSON- tai HTML-muodossa.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tuotteet3.png)
+![Tuoteluettelon tulostus- ja vientivalikko](/img/versio2/tuotteet3.png)
 
 ## Tilaustuotteet
 
@@ -59,7 +59,7 @@ Hakutuloksia voi rajata myös seuraavilla valinnoilla:
 
 Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tuotteet2.png)
+![Tilaustuotteiden hakukenttä ja suodatusvalinnat](/img/versio2/tuotteet2.png)
 
 ### Uuden tilaustuotteen lisääminen
 
@@ -72,7 +72,7 @@ Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
 Voit poistua tallentamatta napsauttamalla **Peruuta**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tuotteet5.png)
+![Uuden tilaustuotteen lomake](/img/versio2/tuotteet5.png)
 
 ### Perustiedot
 
@@ -90,7 +90,7 @@ Määritä tuotteelle tarvittavat perustiedot:
 
 Valitse **Tuote on piilotettu**, jos tuotetta ei haluta näyttää tuotteiden valintalistoilla.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tilaustuote.png)
+![Tilaustuotteen perustiedot ja piilotusvalinta](/img/versio2/tilaustuote.png)
 
 ### Hinnat
 
@@ -114,7 +114,7 @@ Jos tilauksen kokonaishinta kahdessa erässä on 110 euroa, merkitään **Hinta 
 
 Järjestelmä näyttää hinnan myös verollisena. Voit tarvittaessa laskea verottoman hinnan verollisesta hinnasta kirjoittamalla verollisen hinnan kenttään ja napsauttamalla sen vieressä olevaa **nuolipainiketta**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tilaustuote2.png)
+![Tilaustuotteen ALV-prosentti ja hinnat eri laskuerämäärille](/img/versio2/tilaustuote2.png)
 
 ### Uusi hinta
 
@@ -132,7 +132,7 @@ Järjestelmä näyttää hinnan myös verollisena. Voit tarvittaessa laskea vero
 
 Uusi hinta otetaan käyttöön määritettynä aktivoitumispäivänä.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tilaustuote3.png)
+![Tilaustuotteen uusi hinta ja hinnaston aktivoitumispäivä](/img/versio2/tilaustuote3.png)
 
 ### Kirjanpidon tilit
 
@@ -142,7 +142,7 @@ Valitse tuotteelle:
 - ALV-velkatili
 - myyntisaamisten tili.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tilaustuote4.png)
+![Tilaustuotteen kirjanpidon tilivalinnat](/img/versio2/tilaustuote4.png)
 
 ### Tilauksen asetukset
 
@@ -170,7 +170,7 @@ Valitse **Tilauksen päättymisaika tuotteen kestosta**, jos loppupäivän halut
 
 **Karenssi** määrittää, kuinka pian sama asiakas voi ostaa tuotteen uudelleen tilauslomakkeella. Arvo `0` tarkoittaa, ettei karenssia ole.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tilaustuote5.png)
+![Tilaustuotteen tilaustyyppi, kesto ja voimassaoloasetukset](/img/versio2/tilaustuote5.png)
 
 ### Digituotteen asetukset
 
@@ -183,13 +183,13 @@ Digituotteet eivät nouse postituslistalle.
 
 **Digipalvelu**-kentässä voidaan määrittää palvelun tunniste. Saman digipalvelun tuotteet voidaan ryhmitellä yhteisen tunnisteen alle.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/tilaustuote6.png)
+![Tilaustuotteen digipalvelun ja käyttöoikeuden asetukset](/img/versio2/tilaustuote6.png)
 
 ## Erillistuotteet
 
 **Erillistuotteet**-välilehdellä voit tarkastella ja hallita laskuille lisättäviä erillistuotteita, kuten laskutuslisiä ja oheistuotteita.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/erillistuote.png)
+![Erillistuotteiden luettelo](/img/versio2/erillistuote.png)
 
 ### Erillistuotteiden hakeminen
 
@@ -205,7 +205,7 @@ Voit rajata hakutuloksia **Tuoteryhmät**-valinnalla. Ota **Näytä piilotetut**
 
 Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/erillistuote2.png)
+![Erillistuotteiden hakukenttä ja tuoteryhmärajaus](/img/versio2/erillistuote2.png)
 
 ### Uuden erillistuotteen lisääminen
 
@@ -217,7 +217,7 @@ Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
 Voit poistua tallentamatta napsauttamalla **Peruuta**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/erillistuote3.png)
+![Uuden erillistuotteen lomake](/img/versio2/erillistuote3.png)
 
 ### Perustiedot
 
@@ -236,7 +236,7 @@ PortalID on yrityksen, esimerkiksi lehden, tunniste silloin, kun samassa TaikaTi
 
 Valitse **Tuote on piilotettu**, jos tuotetta ei haluta näyttää tuotteiden valintalistoilla.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/erillistuote4.png)
+![Erillistuotteen perustiedot ja piilotusvalinta](/img/versio2/erillistuote4.png)
 
 ### Hinta
 
@@ -250,7 +250,7 @@ Voit laskea verottoman hinnan verollisesta hinnasta:
 1. Kirjoita hinta **Laske veroton verollisesta** -kenttään.
 2. Napsauta kentän vieressä olevaa **nuolipainiketta**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/erillistuote5.png)
+![Erillistuotteen ALV-prosentti ja verottoman hinnan laskenta](/img/versio2/erillistuote5.png)
 
 #### Kirjanpidon tilit
 
@@ -260,13 +260,13 @@ Kirjanpidon tilit ovat pakollisia. Valitse tuotteelle:
 - **ALV-velkatili, ALV x % tili**
 - **Myyntisaamiset tili**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/erillistuote6.png)
+![Erillistuotteen kirjanpidon tilivalinnat](/img/versio2/erillistuote6.png)
 
 ## Myyntituotteet
 
 **Myyntituotteet**-välilehdellä voit tarkastella ja hallita ilmoitusmyynnissä käytettäviä tuotteita.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/myyntituotteet.png)
+![Ilmoitusmyynnin myyntituotteiden luettelo](/img/versio2/myyntituotteet.png)
 
 ### Myyntituotteiden hakeminen
 
@@ -284,7 +284,7 @@ Voit rajata hakutuloksia **Kanava**- ja **Ryhmät**-valinnoilla. Ota **Näytä p
 
 Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/myyntituotteet2.png)
+![Myyntituotteiden hakukenttä sekä kanava- ja ryhmärajaukset](/img/versio2/myyntituotteet2.png)
 
 ### Uuden myyntituotteen lisääminen
 
@@ -297,7 +297,7 @@ Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
 Voit poistua tallentamatta napsauttamalla **Peruuta**.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/myyntituotteet3.png)
+![Uuden myyntituotteen lomake](/img/versio2/myyntituotteet3.png)
 
 ### Perustiedot
 
@@ -318,7 +318,7 @@ Valitse tarvittaessa:
 - **Piilotettu**, jos tuotetta ei haluta näyttää tuotteiden valintalistoilla
 - **Itsepalvelutuote**, jos tuote on käytettävissä itsepalvelussa.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/myyntituotteet4.png)
+![Myyntituotteen perustiedot sekä piilotus- ja itsepalveluvalinnat](/img/versio2/myyntituotteet4.png)
 
 ### Saatavuus
 
@@ -328,7 +328,7 @@ Saatavuutta voidaan rajoittaa esimerkiksi silloin, kun julkaisussa on myynnissä
 
 Arvo `0` tarkoittaa, ettei saatavuutta ole rajoitettu.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/myyntituotteet5.png)
+![Myyntituotteen julkaisukohtaisen saatavuuden asetus](/img/versio2/myyntituotteet5.png)
 
 ### Hinta
 
@@ -339,7 +339,7 @@ Järjestelmä laskee ja näyttää verollisen hinnan automaattisesti.
 
 Valitse tarvittaessa **Sopimus-/moduulihinta**. Tällöin hinta koskee koko ilmoitusta eikä perustu esimerkiksi palstamillimetreihin, näyttömääriin tai kestoon.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/myyntituotteet6.png)
+![Myyntituotteen hinta, ALV-prosentti ja sopimus- tai moduulihinnan valinta](/img/versio2/myyntituotteet6.png)
 
 ### Kirjanpito
 
@@ -351,7 +351,7 @@ Kirjanpidon tilit ovat pakollisia. Valitse tuotteelle:
 
 Voit lisäksi määrittää **Kululajin** kirjanpitoa ja kustannuslaskentaa varten.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/myyntituotteet8.png)
+![Myyntituotteen kirjanpidon tilit ja kululaji](/img/versio2/myyntituotteet8.png)
 
 ### Käsittely ja aineisto
 
@@ -359,4 +359,4 @@ Voit lisäksi määrittää **Kululajin** kirjanpitoa ja kustannuslaskentaa vart
 
 Valitse **Lähetä aineistolinkki**, jos ilmoitusvarauksesta halutaan lähettää aineiston toimituslinkki.
 
-![Tuotteet-sivun yleisnäkymä](/img/versio2/myyntituotteet7.png)
+![Myyntituotteen käsittelijän sähköposti ja aineistolinkin lähetysvalinta](/img/versio2/myyntituotteet7.png)

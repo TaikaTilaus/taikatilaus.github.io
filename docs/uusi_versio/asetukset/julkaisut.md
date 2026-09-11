@@ -17,7 +17,7 @@ Sivulla on kaksi välilehteä:
 - **Julkaisut**
 - **Lyhenteet ja asetukset**.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut.png)
+![Julkaisut-sivun Julkaisut- ja Lyhenteet ja asetukset -välilehdet](/img/versio2/julkaisut.png)
 
 ## Julkaisut
 
@@ -36,7 +36,7 @@ Voit rajata hakutuloksia valitsemalla **Kanavan** tai määrittämällä **Alkae
 
 Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut2.png)
+![Julkaisujen hakukenttä sekä kanava- ja päivämäärärajaukset](/img/versio2/julkaisut2.png)
 
 ### Julkaisuluettelo
 
@@ -55,13 +55,13 @@ Julkaisuluettelossa näytetään esimerkiksi:
 
 Avaa julkaisun tiedot muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut3.png)
+![Julkaisuluettelo ja julkaisun muokkauskuvake](/img/versio2/julkaisut3.png)
 
 ### Julkaisujen vieminen
 
 Napsauta **Export** avataksesi vientivalikon. Voit tulostaa tai kopioida julkaisuluettelon sekä viedä sen PDF-, Excel-, CSV-, JSON- tai HTML-muodossa.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut4.png)
+![Julkaisuluettelon tulostus- ja vientivalikko](/img/versio2/julkaisut4.png)
 
 ### Puutteelliset määritykset
 
@@ -69,7 +69,7 @@ Sivun yläreunassa näytetään varoitus, jos jollekin kanavalle ei ole määrit
 
 **LEHTI**-kanavaan täytyy liittää vähintään yksi julkaisu. Kanavan ilmoitusvaraus liitetään aina julkaisuun, ja aineistot tallennetaan palvelimelle julkaisun lyhenteen mukaiseen hakemistoon.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut5.png)
+![Varoitus kanavasta, jolle ei ole määritetty julkaisuja](/img/versio2/julkaisut5.png)
 
 ### Uuden julkaisun lisääminen
 
@@ -83,7 +83,7 @@ Sivun yläreunassa näytetään varoitus, jos jollekin kanavalle ei ole määrit
 
 Voit poistua tallentamatta napsauttamalla **Peruuta**.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut6.png)
+![Uuden julkaisun lomake](/img/versio2/julkaisut6.png)
 
 ### Perustiedot
 
@@ -100,7 +100,7 @@ Julkaisulle voidaan määrittää:
 
 Ulkoinen ID on toisessa järjestelmässä julkaisulle käytettävä tunniste. Kenttä on valinnainen.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut7.png)
+![Julkaisun kanava, numero, nimi ja muut perustiedot](/img/versio2/julkaisut7.png)
 
 ### Ajankohdat
 
@@ -108,7 +108,7 @@ Ulkoinen ID on toisessa järjestelmässä julkaisulle käytettävä tunniste. Ke
 
 **Aineistopäivä ja aika** kertoo ajankohdan, johon mennessä julkaisuun liittyvä postitus- tai ilmoitusaineisto tulee toimittaa.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut8.png)
+![Julkaisun ilmestymispäivä sekä aineistopäivä ja -aika](/img/versio2/julkaisut8.png)
 
 ### Julkaisun lisääminen tiedostona
 
@@ -118,13 +118,13 @@ Julkaisun tiedoston voi lisätä vasta sen jälkeen, kun julkaisu on tallennettu
 2. Avaa julkaisu uudelleen muokattavaksi.
 3. Lisää tiedosto **Julkaisu tiedostona** -osiossa.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/julkaisut9.png)
+![Julkaisun tiedoston lisääminen](/img/versio2/julkaisut9.png)
 
 ## Lyhenteet ja asetukset
 
 **Lyhenteet ja asetukset** -välilehdellä voit hallita julkaisujen lyhenteitä, uuden tilauksen lehtivalintoja ja julkaisujen ilmestymispäiviä.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/lyhenteet.png)
+![Julkaisujen Lyhenteet ja asetukset -välilehti](/img/versio2/lyhenteet.png)
 
 ### Julkaisujen lyhenteet
 
@@ -144,7 +144,7 @@ Radio Nostalgia:RAD
 
 Tallenna muutokset napsauttamalla **Tallenna lyhenteet**.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/lyhenteet2.png)
+![Julkaisujen lyhenteiden määrittäminen ja tallentaminen](/img/versio2/lyhenteet2.png)
 
 ### Tilattavat lehdet
 
@@ -161,7 +161,7 @@ Jos yhtään tuoteryhmää ei ole valittu, kaikki tuoteryhmät ovat valittavissa
 
 Tilaustuotteiden lähtöarvot on kopioitu vanhan TaikaTilauksen asetuksista. Tällä sivulla tehdyt muutokset koskevat vain uutta sovellusta eivätkä muuta vanhan TaikaTilauksen asetuksia.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/lyhenteet3.png)
+![Uuden tilauksen lehtivalinnoissa näytettävät tuoteryhmät](/img/versio2/lyhenteet3.png)
 
 ## Julkaisujen ilmestymisviikonpäivät
 
@@ -191,13 +191,13 @@ Valitse tämän jälkeen **Lisää julkaisukalenteriin**, jotta määritetyt ilm
 
 Voit määrittää **Alku- ja loppupäivän**, jonka sisälle valitun lehden julkaisut lisätään.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/lyhenteet5.png)
+![Julkaisujen ilmestymisviikonpäivät ja julkaisukalenteriin lisäämisen aikaväli](/img/versio2/lyhenteet5.png)
 
 ### Julkaisujen päivitys
 
 Valitse **Julkaisujen päivitys**, kun haluat päivittää julkaisukalenterissa olevien julkaisujen ilmestymis- ja aineistopäivät.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/lyhenteet4.png)
+![Julkaisukalenterin ilmestymis- ja aineistopäivien päivitys](/img/versio2/lyhenteet4.png)
 
 
 
