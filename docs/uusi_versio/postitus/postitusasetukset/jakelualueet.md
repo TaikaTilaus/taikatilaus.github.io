@@ -1,5 +1,6 @@
 ---
-sidebar_position: 7
+sidebar_position: 1
+slug: /uusi_versio/asetukset/jakelualueet
 description: Jakelualueet — Postinumeroalueet ja tuotteiden aluehinnat.
 ---
 
@@ -7,9 +8,11 @@ description: Jakelualueet — Postinumeroalueet ja tuotteiden aluehinnat.
 
 **Jakelualueet**-sivulla voit hallita postinumeroalueita ja tuotteiden aluehintoja.
 
-Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Jakelualueet**.
+Avaa välilehti valitsemalla **Postitus → Postitusasetukset → Jakelualueet**.
 
-![Jakelualueiden ja tuotteiden aluehintojen hallinta](/img/versio2/jakelualueet.png)
+**Jakelualueet-välilehti näkyy vain, kun aluehinnoittelu on käytössä.**
+
+![Valikkopolku: Postitus → Postitusasetukset → Jakelualueet. Välilehti näkyy vain aluehinnoittelun ollessa käytössä.](/img/versio2/jakelualueet.png)
 
 Jakelualueiden avulla tuotteelle voidaan määrittää tilaajan postinumeroon perustuva hinta. Jos tilaajan postinumero ei kuulu erikseen hinnoiteltuun jakelualueeseen, käytetään tuotteen perushintaa.
 
@@ -17,7 +20,7 @@ Jakelualueiden avulla tuotteelle voidaan määrittää tilaajan postinumeroon pe
 
 ## Jakelualueen lisääminen
 
-1. Siirry kohtaan **Asetukset → Jakelualueet**.
+1. Siirry kohtaan **Postitus → Postitusasetukset → Jakelualueet**.
 2. Anna jakelualueelle **nimi**, esimerkiksi *Etäalue*.
 3. Valitse, mitä lehteä alue koskee:
    - **Yleinen (kaikki lehdet)** koskee kaikkia lehtiä.

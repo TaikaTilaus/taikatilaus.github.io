@@ -41,10 +41,6 @@ Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
 
 [**Listat**](/docs/uusi_versio/asetukset/listat)-sivulla voit hallita asiakas- ja tilauslistojen asetuksia.
 
-### Jakelualueet
-
-[**Jakelualueet**](/docs/uusi_versio/asetukset/jakelualueet)-sivulla voit hallita postinumeroalueita ja tuotteiden aluehintoja.
-
 ## Yleisasetukset
 
 ### Yleisasetukset
@@ -56,3 +52,7 @@ Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
 ### Etusivun osiot
 
 [**Etusivun osiot**](/docs/uusi_versio/asetukset/etusivun-osiot) -sivulla voit määrittää etusivulla näkyviä tietoja, kuten kuluvan päivän tiedot, yhteenvedot ja postitusyhteenvedon.
+
+## Postitusasetuksista löytyvät jakelualueet
+
+[**Jakelualueet**](/docs/uusi_versio/asetukset/jakelualueet) löytyy polusta **Postitus → Postitusasetukset → Jakelualueet**. Se ei kuulu Kaikki asetukset -sivun asetuskortteihin. Välilehdellä voit hallita postinumeroalueita ja tuotteiden aluehintoja. **Välilehti näkyy vain, kun aluehinnoittelu on käytössä.**
