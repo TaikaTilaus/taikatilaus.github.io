@@ -11,7 +11,7 @@ Avaa toiminto valitsemalla **Postitus → Kestojatko**.
 
 Sivun oikeassa yläreunassa olevasta **Ohje kestotilausten jatkamiseen** -linkistä voit avata jatkamisen lisäohjeen.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko.png)
+![Kestojatkon hakunäkymä ja aikaisemmat jatkamiset](/img/versio2/kestojatko.png)
 
 ## Kestojatkon teko
 
@@ -42,7 +42,7 @@ Hakuehdot ovat oletuksena samat kuin edellisellä ajokerralla. Tarkista lehti ja
 - Loppupäivän tulee olla vähintään nyt postitettavan lehden ilmestymispäivä.
 :::
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko10.png)
+![Jatkettavien kestotilausten hakuehdot ja päivämäärärajaus](/img/versio2/kestojatko10.png)
 
 ### Hakutulosten tarkistaminen
 
@@ -50,7 +50,7 @@ Kun napsautat **Hae jatkettavat kestotilaukset**, sivulla näytetään jatkettav
 
 Haku ei vielä jatka tilauksia uudelle tilausjaksolle.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko3.png)
+![Kestotilausten haun tulokset](/img/versio2/kestojatko3.png)
 
 ### Jatkettavat kestotilaukset
 
@@ -67,7 +67,7 @@ Valitse jatkettavat tilaukset rivien valintaruuduista. Voit valita kaikki tilauk
 
 Luettelon alareunassa näytetään valittujen tilausten laskutettava yhteissumma.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko4.png)
+![Jatkettavien tilausten valinta ja laskutettava yhteissumma](/img/versio2/kestojatko4.png)
 
 ### Ei jatkettavat kestotilaukset
 
@@ -80,7 +80,7 @@ Jos jatkamisen estää uudempi tilaus, sen tiedot näytetään alkuperäisen til
 Jos sivulla näytetään punainen huomautus uudemmista katkaistuista tilauksista, tarkista kyseiset tilaukset ennen jatkamiseen siirtymistä.
 :::
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko5.png)
+![Jatkamatta jäävät tilaukset ja jatkamattomuuden syyt](/img/versio2/kestojatko5.png)
 
 ### Siirtyminen jatkamiseen
 
@@ -90,7 +90,7 @@ Painikkeessa näkyy valittujen tilausten määrä.
 
 Jos haluat muuttaa hakuehtoja, napsauta **Aloita alusta**.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko6.png)
+![Valittujen kestotilausten jatkamiseen siirtyminen](/img/versio2/kestojatko6.png)
 
 ### Teksti laskulle
 
@@ -109,14 +109,14 @@ Voit palata tilausten valintaan napsauttamalla **Palaa esikatseluun** tai hakueh
 **Jatka kestotilaukset** suorittaa jatkamisajon. Varmista ennen painikkeen napsauttamista, että valitut tilaukset ja laskulle tuleva teksti ovat oikein.
 :::
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko7.png)
+![Kestojatkon vahvistusnäkymä ja laskulle tuleva teksti](/img/versio2/kestojatko7.png)
 
 Kun napsautat **Jatka kestotilaukset**, ohjelma pyytää vielä vahvistuksen.
 
 - Napsauta **OK**, jos haluat suorittaa jatkamisen. Valituille tilauksille luodaan uudet tilausjaksot ja laskutuspyynnöt.
 - Napsauta **Cancel tai Peruuta**, jos haluat palata takaisin suorittamatta jatkamista.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko8.png)
+![Kestotilausten jatkamisen vahvistusikkuna](/img/versio2/kestojatko8.png)
 
 ### Jatkamisen valmistuminen
 
@@ -128,7 +128,7 @@ Ajo lisätään myös **Aikaisemmat jatkamiset** -luetteloon, josta voit avata r
 
 Voit aloittaa uuden jatkamisajon napsauttamalla **Aloita alusta**.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko9.png)
+![Valmiin kestojatkoajon tulos ja ajoraportin avaaminen](/img/versio2/kestojatko9.png)
 
 ## Aikaisemmat jatkamiset
 
@@ -144,7 +144,7 @@ Luettelosta näet:
 
 Avaa ajon tarkemmat tiedot napsauttamalla kyseisen rivin **Avaa ajoraportti** -linkkiä.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/kestojatko2.png)
+![Aikaisempien jatkamisajojen luettelo](/img/versio2/kestojatko2.png)
 
 ### Ajoraportti
 
@@ -162,5 +162,4 @@ Tarkista erityisesti **Ei jatkettavat kestotilaukset ja jatkamattomuuden syy** -
 
 Sulje raportti napsauttamalla sen oikeassa yläreunassa olevaa **Sulje**-painiketta.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/ajoraportti.png)
-
+![Kestojatkon ajoraportti ja jatkamatta jääneiden tilausten syyt](/img/versio2/ajoraportti.png)

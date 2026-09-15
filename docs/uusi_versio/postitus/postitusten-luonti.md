@@ -17,7 +17,7 @@ Valitse ensin lehti ja päivä, jolloin tilausten tulee olla voimassa. Päiväm�
 
 :::
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusten-luonti.png)
+![Postitusten luonti -sivun yleisnäkymä](/img/versio2/postitusten-luonti.png)
 
 ## Tilausten hakeminen
 
@@ -35,7 +35,7 @@ Kun painat **Näytä tilaukset**, sivun alaosaan avautuu **Voimassa olevat tilau
 
 :::
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusten-luonti2.png)
+![Postitusajon hakuehdot ja kestotilausten jatkon tarkistus](/img/versio2/postitusten-luonti2.png)
 
 ## Voimassa olevat tilaukset
 
@@ -61,7 +61,7 @@ Yhteenvedossa näkyy lisäksi:
 - **Estolistalla (ei mukana)** – tilaukset, joidan tilaajat ovat estolistalla, jolloin tilaajalle ei toimiteta lehtiä
 - **Poistettuja (ei mukana)** – postituksesta pois jäävät poistetut tilaukset
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusten-luonti3.png)
+![Postitukseen sisältyvien ja siitä pois jäävien tilausten määrät](/img/versio2/postitusten-luonti3.png)
 
 ## Poikkeusten tarkastelu
 
@@ -82,13 +82,13 @@ Poikkeuslista kannattaa tarkistaa ennen postitusajon tekemistä, jotta mahdollis
 
 Kun poikkeuslista on avattu, painike muuttuu muotoon **Piilota poikkeukset**. Painamalla sitä saat listan pois näkyvistä.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusten-luonti4.png)
+![Postituksen poikkeuslista: väliaikaiset osoitteet ja jakelukeskeytykset](/img/versio2/postitusten-luonti4.png)
 
 ## Tilausten vienti Exceliin
 
 Paina **Näytä voimassa olevat tilaukset kaikilla tiedoilla (Excel)**, kun haluat ladata haussa löytyneet voimassa olevat tilaukset Excel-tiedostoon.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusten-luonti5.png)
+![Voimassa olevien tilausten vienti Exceliin](/img/versio2/postitusten-luonti5.png)
 
 ## Postitusajon tekeminen
 

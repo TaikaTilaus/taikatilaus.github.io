@@ -11,7 +11,7 @@ Hakuehtojen alapuolella näkyy, milloin valitulle lehdelle on viimeksi tehty [**
 
 Tarkista ennen postituksen käsittelyä, että kestotilausten jatko on tehty. Näin postitukseen tulevat mukaan myös kestotilaukset, joiden alkupäivä on esim. lehden ilmestymispäivä.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusten-haku.png)
+![Postitusten hakunäkymä ja viimeisimmän kestojatkon ajankohta](/img/versio2/postitusten-haku.png)
 
 ## Postituksen hakeminen
 
@@ -22,7 +22,7 @@ Tarkista ennen postituksen käsittelyä, että kestotilausten jatko on tehty. N�
 
 Postituksen **LähetysID** on sama koko postituksella.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusten-haku2.png)
+![Postituksen lehden ja ilmestymispäivän valinta](/img/versio2/postitusten-haku2.png)
 
 ### Hakuehdot
 
@@ -46,7 +46,7 @@ Postituksia voi rajata seuraavilla tiedoilla:
 
 Kaikkia hakuehtoja ei tarvitse täyttää. Tavallisesti tietyn postituksen tarkasteluun riittää lehden ja ilmestymispäivän valitseminen.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusten-haku3.png)
+![Postitusten lisähakuehdot](/img/versio2/postitusten-haku3.png)
 
 ## Postitusyhteenveto
 
@@ -54,7 +54,7 @@ Valitse **Lehti** ja **Ilmestymispäivä** ja paina **Näytä postitusyhteenveto
 
 Postitusyhteenveto näyttää valitun postituksen muodostumisen sekä siihen kuuluvien lehtien ja nippujen määrät.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusyhteenveto3.png)
+![Valitun postituksen postitusyhteenveto](/img/versio2/postitusyhteenveto3.png)
 
 ### Postituksen perustiedot
 
@@ -64,7 +64,7 @@ Yhteenvedossa näkyvät:
 - **Lehti** – postitukseen kuuluva lehti.
 - **Ilmestymispäivä** – lehden ilmestymispäivä.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusyhteenveto4.png)
+![Postituksen luontipäiväys, lehti ja ilmestymispäivä](/img/versio2/postitusyhteenveto4.png)
 
 ### Lehtien määrät
 
@@ -79,7 +79,7 @@ Postitusyhteenvedosta näet, mistä postituksen kokonaismäärä muodostuu:
 - **Nippuihin lisättyjä peittojakelun lehtiä** – peittojakelua varten lisättyjen lehtien määrä.
 - **Lehtiä yhteensä** – postitukseen kuuluvien lehtien kokonaismäärä. Määrään sisältyvät päivä- ja varhaisjakelu, vakioniput, varalehdet ja peittojakelu.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusyhteenveto5.png)
+![Postituksen lehtimäärät ja lehtien kokonaismäärä](/img/versio2/postitusyhteenveto5.png)
 
 ### Nippujen määrät
 
@@ -94,7 +94,7 @@ Lisäksi näet varhaisjakelun lehtimäärät jakelutavoittain:
 - **Lehtiä Postin varhaisjakelussa**
 - **Lehtiä varhaisjakeluun pakotettuina** – varhaisjakeluun erikseen pakotettujen lehtien määrä. 
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusyhteenveto6.png)
+![Varhaisjakelun lehtimäärät jakelutavoittain](/img/versio2/postitusyhteenveto6.png)
 
 ### Nippukoot
 
@@ -110,7 +110,7 @@ Nippukoon yhteydessä voidaan näyttää lisäksi:
 
 Varhaisjakelun nipuilla voidaan lisäksi näyttää reitin tai jakelualueen nimi.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusyhteenveto7.png)
+![Postituksen nippujen määrät ja reittitiedot](/img/versio2/postitusyhteenveto7.png)
 
 ## Muutokset edellisestä postituksesta
 
@@ -125,7 +125,7 @@ Molemmista postituksista näytetään postitusyhteenveto, josta voit verrata esi
 
 Postitusten yläosassa näkyvät myös niiden **LähetysID:t**.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusyhteenveto8.png)
+![Kahden postituksen yhteenvetojen vertailu](/img/versio2/postitusyhteenveto8.png)
 
 ### Postitusten väliset muutokset
 
@@ -141,7 +141,7 @@ Vertailu tehdään **asiakasnumeron perusteella löytyvien tilaajatietojen väli
 
 > Tilausnumero voi vaihtua uuden tilausjakson alkaessa, mutta tilaustunnus pyritään säilyttämään samana.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postitusyhteenveto9.png)
+![Postitusten tilaajatietojen vertailu asiakasnumeroilla](/img/versio2/postitusyhteenveto9.png)
 
 #### Muutosten näyttäminen
 
@@ -162,7 +162,7 @@ Jos asiakkaalla on uusi tilaus, mutta sama asiakasnumero löytyy myös edellises
 Tämän avulla voidaan erottaa kokonaan uusi asiakas tilanteesta, jossa olemassa olevalle asiakkaalle on muodostunut uusi tilausjakso.
 
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/muutokset2.png)
+![Postitukseen lisätyt tilaukset ja saman asiakasnumeron aiemmat tilaukset](/img/versio2/muutokset2.png)
 
 :::info Huom!
 
@@ -171,7 +171,7 @@ Huomautus näytetään, jos postituksesta poistunut tilaus on kestotilaus eikä 
 
 :::
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/muutokset4.png)
+![Postituksesta poistuneet tilaukset ja katkaisemattoman kestotilauksen huomautus](/img/versio2/muutokset4.png)
 
 ## Lehden postituspäivät
 
@@ -184,4 +184,4 @@ Näkymässä näytetään:
 
 Jokaisella muodostetulla postituksella on oma **LähetysID**. Sama LähetysID kuuluu koko kyseisen ilmestymispäivän postitukselle.
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/postituspaivat.png)
+![Postitusten ilmestymispäivät ja LähetysID-tunnisteet](/img/versio2/postituspaivat.png)
