@@ -76,6 +76,15 @@ Julkaisu täyttää varauksen **Avoimuusilmoitus URL** -kentän eikä sitä sen 
 
 Mainostajan **aineistosivulla** näytetään poliittiselle mainokselle banneri: täyttölinkki, kun ilmoitusta ei ole vahvistettu, ja julkisen ilmoituksen linkki sekä QR-koodi, kun se on julkaistu.
 
+### Poliittisten mainosten hakeminen
+
+Poliittisiksi merkityt varaukset löytää hakuehdolla, joka rajaa tulokset **Poliittinen mainos** -valinnalla merkittyihin varauksiin:
+
+- **Ilmoitukset**-haussa valinta **Vain poliittiset ilmoitukset** (ks. [Ilmoitusvaraukset](/docs/ohjeet/ilmoitustenhallinta/ilmoistusvaraukset#hakulistauksen-asetukset)).
+- **IlmoitusStudiossa** valinta **Vain poliittiset** (ks. [IlmoitusStudio](ilmoitusstudio#hakuehdot)).
+
+Hakuehto tallentuu muiden hakuehtojen tapaan käyttäjäkohtaisesti. Sillä on kätevä käydä ennen lehden painoon lähettämistä läpi, että jokaisella poliittisella mainoksella on julkaistu avoimuusilmoitus – tila näkyy varauksen Avoimuusilmoitus-alueella. Laskutetut poliittiset mainokset saa myös [raportilta](#poliittiset-mainokset--raportti).
+
 ## Julkinen sivu ja säilytys
 
 - `Avoimuusilmoitus.aspx?g=…` näyttää ilmoituksen täytäntöönpanoasetuksen liitteen II kohdan 3 mukaisessa järjestyksessä (kohdat 1–13; kohdentamista koskevat kohdat 14–16 eivät koske painettua mediaa). Lisäämällä `&muoto=json` saa saman sisällön koneellisesti luettavana.

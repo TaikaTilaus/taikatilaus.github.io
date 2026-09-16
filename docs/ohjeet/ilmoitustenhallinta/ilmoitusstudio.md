@@ -18,6 +18,7 @@ Voit hakea IlmoitusStudiosta järjestelmässä olevia ilmoitusvarauksia. Asettam
 - **Aikaväli alkaa**- ja **Aikaväli loppuu** -kentillä voit asettaa, miltä aikajaksolta haet ilmoitusvarauksia.
 - **Ilman aikaa** -kentän aktivoimalla voit hakea ilmoitusvarauksia, joita ei ole sidottu mihinkään tiettyyn julkaisuun tai aikaan.
 - **Vain myydyt** -kentän aktivoimalla haet vain ne ilmoitusvaraukset, joihin on kiinnitetty maksaja.
+- **Vain poliittiset** -kentän aktivoimalla haet vain **Poliittinen mainos** -valinnalla merkityt ilmoitusvaraukset (ks. [avoimuusilmoitus](avoimuusilmoitus)).
 - **IlmoitusvarausID**: voit hakea tiettyä ilmoitusvarausta syöttämällä sen IlmoitusvarausID:n. Tämä hakuehto ohittaa muut hakuehdot.
 - **MyyntiID**: voit hakea ilmoitusvaraukset, jotka liittyvät tiettyyn myyntiin. Myynti voi koostua yhdestä tai useammasta ilmoitusvarauksesta. Tämä hakuehto ohittaa muut hakuehdot.
 - **Vapaa haku**: voit hakea asiakkaan **asiakasnumerolla tai nimellä**.

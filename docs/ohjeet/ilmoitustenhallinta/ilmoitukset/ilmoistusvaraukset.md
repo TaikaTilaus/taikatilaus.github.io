@@ -47,6 +47,8 @@ Voit säätää listauksessa näkyviä sarakkeita:
 
 - **Käsittelijä-sarake** – tuo näkyviin käsittelijän nimen **Myyjä-sarakkeen** viereen  
 - **Näytä vain paketit** – suodattaa näkyviin vain pakettina myydyt ilmoitusvaraukset ja näyttää niihin liittyvän **Paketin summa** -sarakkeen  
+- **Vain itsepalveluilmoitukset** – näyttää vain OmaIlmoitus-itsepalvelun kautta tehdyt ilmoitusvaraukset  
+- **Vain poliittiset ilmoitukset** – näyttää vain **Poliittinen mainos** -valinnalla merkityt ilmoitusvaraukset, esimerkiksi [avoimuusilmoitusten](/docs/ohjeet/ilmoitustenhallinta/avoimuusilmoitus) tilan tarkistamista varten  
 
 ![Ilmoitusvaraukset](/img/ohjeet/ilmoitusvaraukset4.png)
 
