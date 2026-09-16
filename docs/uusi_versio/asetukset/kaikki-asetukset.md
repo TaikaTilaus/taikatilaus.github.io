@@ -17,6 +17,14 @@ Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
 
 ## Järjestelmän ja käyttäjän asetukset
 
+### Tuotteet
+
+[**Tuotteet**](/docs/uusi_versio/asetukset/tuotteet)-sivulla voit käsitellä tilaus-, erillis- ja myyntituotteita.
+
+### Julkaisut
+
+[**Julkaisut**](/docs/uusi_versio/asetukset/julkaisut)-sivu voit muokata ja lisätä lehtien julkaisuja.
+
 ### Lisätietokentät
 
 [**Lisätietokentät**](/docs/uusi_versio/asetukset/lisatietokentat)-sivulla voit luoda ja hallita asiakaskortilla käytettäviä lisätietokenttiä.
@@ -44,3 +52,7 @@ Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
 ### Etusivun osiot
 
 [**Etusivun osiot**](/docs/uusi_versio/asetukset/etusivun-osiot) -sivulla voit määrittää etusivulla näkyviä tietoja, kuten kuluvan päivän tiedot, yhteenvedot ja postitusyhteenvedon.
+
+## Postitusasetuksista löytyvät jakelualueet
+
+[**Jakelualueet**](/docs/uusi_versio/asetukset/jakelualueet) löytyy polusta **Postitus → Postitusasetukset → Jakelualueet**. Se ei kuulu Kaikki asetukset -sivun asetuskortteihin. Välilehdellä voit hallita postinumeroalueita ja tuotteiden aluehintoja. **Välilehti näkyy vain, kun aluehinnoittelu on käytössä.**

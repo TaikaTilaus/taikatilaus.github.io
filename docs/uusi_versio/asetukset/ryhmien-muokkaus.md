@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 description: Ryhmien muokkaus — Uuden ryhmän lisääminen, Ryhmätyyppien ja ryhmien hallinta.
 ---
 

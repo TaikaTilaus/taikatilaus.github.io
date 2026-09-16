@@ -338,9 +338,13 @@ Odottavaa laskutuspyyntöä voi muokata. Laskutuspyynnöllä näkyvät seuraavat
 - **Lisätieto:** lisätieto, joka lisätään laskun tuoteriville.
 - **Verollinen summa:** laskutuspyynnön lopullinen summa arvonlisäveroineen.
 
-Tee laskutuspyynnöstä heti lasku painamalla **Tee lasku** -painiketta. 
+:::info Ei vielä käytettävissä
 
-![Laskutuspyynnön tiedot ja Tee lasku -toiminto](/img/versio2/laskutuspyynto2.png)
+**Tee lasku** -toimintoa ei ole vielä toteutettu TaikaTilaus 3.0:ssa. Näkymässä näkyvällä painikkeella ei voi luoda laskua laskutuspyynnöstä.
+
+:::
+
+![Laskutuspyynnön tiedot ja Tee lasku -painike, joka ei ole vielä käytettävissä](/img/versio2/laskutuspyynto2.png)
 
 ### Uuden laskutuspyynnön lisääminen
 

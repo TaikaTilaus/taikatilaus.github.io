@@ -28,7 +28,7 @@ Hae käyttäjää kirjoittamalla hakusana **Käyttäjätunnukset**-kenttään. J
 
 Avaa käyttäjätunnus muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**. Lisää uusi käyttäjätunnus napsauttamalla **Uusi käyttäjä**.
 
-![Käyttäjät yleisnäkymä](/img/versio2/kayttajat.png)
+![Käyttäjäluettelo, käyttäjähaku ja käyttäjätunnusten hallintatoiminnot](/img/versio2/kayttajat.png)
 
 ### Uuden käyttäjän lisääminen
 
@@ -52,11 +52,13 @@ Tallenna käyttäjä napsauttamalla **Tallenna**. Voit poistua lisäämättä k�
 
 Määritä käyttäjän TaikaTilaus-valikko-oikeudet tallentamisen jälkeen vanhassa versiossa valitsemalla **Asetukset > Käyttäjät**.
 
-![Käyttäjät yleisnäkymä](/img/versio2/kayttajat3.png)
+![Uuden käyttäjän tunnus- ja yhteystiedot sekä salasana](/img/versio2/kayttajat3.png)
 
 ### Käyttäjän tietojen muokkaaminen
 
 Avaa käyttäjän tiedot napsauttamalla käyttäjäluettelossa rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
+
+![Käyttäjän tietojen avaaminen muokattavaksi kynäkuvakkeella](/img/versio2/kayttajat4.png)
 
 Voit muokata käyttäjän muita tietoja, paitsi käyttäjätunnusta. 
 
@@ -64,7 +66,11 @@ Tallenna muutokset napsauttamalla **Tallenna**. Voit poistua tallentamatta muuto
 
 Poista käyttäjätunnus napsauttamalla **Poista**.
 
-![Käyttäjät yleisnäkymä](/img/versio2/kayttajat4.png)
+:::warning Huomaa
+
+Käyttäjätunnusta ei kannata poistaa, ellet halua menettää käyttäjään liittyviä historiatietoja lokeista. Poistamisen sijaan määritä **Tunnus voimassa asti** -kenttään päivä, jolloin käyttäjän kirjautuminen halutaan estää.
+
+:::
 
 #### Salasanan vaihtaminen
 
@@ -72,4 +78,4 @@ Kirjoita uusi salasana **Uusi salasana** -kenttään tai luo salasana napsauttam
 
 Tallenna muutokset napsauttamalla **Tallenna**. Voit poistua tallentamatta muutoksia napsauttamalla **Peruuta**.
 
-![Käyttäjät yleisnäkymä](/img/versio2/kayttajat2.png)
+![Käyttäjän tietojen muokkaus ja uuden salasanan määrittäminen](/img/versio2/kayttajat2.png)

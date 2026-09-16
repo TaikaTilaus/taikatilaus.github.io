@@ -24,6 +24,12 @@ Sivun yläreunan päävalikosta pääset järjestelmän eri osioihin:
 
 Valikon nimen vieressä oleva nuoli avaa alavalikon.
 
+:::info Huomio
+
+Osa valikoissa näkyvistä toiminnoista on vielä keskeneräisiä.
+
+:::
+
 ![Etusivun päävalikko ja sen osiot](/img/versio2/paavalikko.png)
 
 ### Oikean reunan ikonit
