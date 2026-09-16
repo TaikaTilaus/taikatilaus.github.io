@@ -118,14 +118,26 @@ Mitä tahansa muutoksia teetkin, **muista tallentaa lopuksi!**
 
 Omista tiedoista pääset myös laittamaan kaksivaiheisen tunnistautumisen päälle. 
 
-**Kaksivaiheinen tunnistautuminen** on turvallisempi tapa kirjautua sisään sovelluksiin. Kun se on otettu käyttöön, kirjautumiseen lisätään ylimääräinen vaihe, jossa sovellus pyytää koodia, joka löytyy joko ulkopuolisesta sovelluksesta tai on lähetetty sähköpostiin tai puhelinnumeroon. Kaksivaiheinen tunnistautuminen **suojaa identiteettivarkauksilta ja muilta väärinkäytöksiltä.**
+**Kaksivaiheinen tunnistautuminen** on turvallisempi tapa kirjautua sisään sovelluksiin. Kun se on otettu käyttöön, kirjautumiseen lisätään ylimääräinen vaihe, jossa sovellus pyytää koodia, joka löytyy joko puhelimen **Authenticator-sovelluksesta** tai on lähetetty **sähköpostiisi**. Kaksivaiheinen tunnistautuminen **suojaa identiteettivarkauksilta ja muilta väärinkäytöksiltä.**
+
+Vaihtoehdot ovat toisensa poissulkevia: käytössä on kerrallaan joko Authenticator tai sähköposti. Pääkäyttäjä voi myös valita käyttäjän tunnistautumistavan **Asetukset → Käyttäjätilit** -näkymästä.
 
 #### <a href="/docs/pikaohjeet/kaksivaiheinen-tunnistautuminen">Kaksivaiheisen tunnistautumisen käyttöönotto TaikaTilaus-sovelluksessa</a>
 
-1. Kaksivaiheisen tunnistautumisen voi ottaa käyttöön lataamalla **Authenticator-sovelluksen** puhelimeen (esim. *Google Authenticator* tai *Microsoft Authenticator*). 
+**Authenticator-sovellus**
+
+1. Lataa **Authenticator-sovellus** puhelimeen (esim. *Google Authenticator* tai *Microsoft Authenticator*). 
 2. Paina sitten **Luo uusi QR-koodi** -painiketta ja **skannaa** TaikaTilauksen luoma QR-koodi puhelimellasi. 
 3. Puhelimessa oleva Authenticator-sovellus antaa sinulle **koodin**, jonka syötät TaikaTilaus-sovellukseen. 
 4. Koodin syötettyäsi paina **Vahvista**. Kaksivaiheisen tunnistautumisen voi tämän jälkeen asettaa **päälle tai pois** tarpeen mukaan.
+
+**Sähköposti**
+
+1. Valitse **Sähköposti**-välilehti ja varmista, että käyttäjätunnukseesi liitetty sähköpostiosoite on oikea.
+2. Paina **Lähetä koodi** ja syötä sähköpostiin tullut kuusinumeroinen koodi. Koodi on voimassa 10 minuuttia.
+3. Paina **Vahvista**, laita sähköpostivarmennus **päälle** kytkimestä ja **tallenna**.
+
+Kirjautuessa koodia kysytään salasanan jälkeen. Valinnalla **Muista minut 30 päivää** koodia ei kysytä samassa selaimessa uudelleen 30 päivään.
 
 ![Kaksivaiheinen tunnistautuminen](/img/ohjeet/MFA.png)
 *Kaksivaiheisen tunnistautumisen käyttöönotto*
