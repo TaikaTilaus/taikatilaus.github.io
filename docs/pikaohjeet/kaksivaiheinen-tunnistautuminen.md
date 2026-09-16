@@ -1,9 +1,13 @@
 ---
 sidebar_position: 23
-description: Kaksivaiheinen tunnistautuminen — 1. Paina kohdasta "Käyttäjän tiedot", 2. Lataa Google tai Microsoft Authenticator sovellus puhelimeesi, 3. Lue QR-kood...
+description: Kaksivaiheinen tunnistautuminen — Authenticator-sovellus (QR-koodi) tai sähköpostiin lähetettävä kertakäyttöinen koodi. Otetaan käyttöön kohdasta "Käyttäjän tiedot".
 ---
 
 # Kaksivaiheinen tunnistautuminen
+
+Kaksivaiheisen tunnistautumisen koodin voi saada joko **Authenticator-sovelluksesta** tai **sähköpostiin**. Vaihtoehdot ovat toisensa poissulkevia: kun toinen kytketään päälle, toinen menee pois päältä. Pääkäyttäjä voi myös valita käyttäjän MFA-tavan Asetukset → Käyttäjätilit -näkymästä.
+
+## Authenticator-sovellus
 
 ### 1. Paina kohdasta "Käyttäjän tiedot"
 
@@ -21,3 +25,16 @@ description: Kaksivaiheinen tunnistautuminen — 1. Paina kohdasta "Käyttäjän
 
 ![4. Käyttäjän tiedot - Kaksivaiheinen tunnistautuminen](/img/pikaohjeet/authenticator4.png)
 
+## Sähköposti
+
+### 1. Paina kohdasta "Käyttäjän tiedot" ja valitse välilehti **Sähköposti**
+
+Varmista, että käyttäjätunnukseesi on liitetty se sähköpostiosoite, johon haluat koodit.
+
+### 2. Paina **Lähetä koodi** ja syötä sähköpostiin tullut kuusinumeroinen koodi kohtaan **Vahvista**
+
+Koodi on voimassa 10 minuuttia. Tarvittaessa paina **Lähetä koodi uudelleen**.
+
+### 3. Laita sähköpostivarmennus päälle kytkimestä ja tallenna
+
+Tämän jälkeen kirjautuessa salasanan jälkeen kysytään sähköpostiin lähetettyä koodia. Valinnalla **Muista minut 30 päivää** koodia ei kysytä samassa selaimessa uudelleen 30 päivään.

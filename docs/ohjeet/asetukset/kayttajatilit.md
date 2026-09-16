@@ -34,7 +34,7 @@ Käyttäjillä on palvelussa erilaisia **rooleja** (esim. Myyjä, Käsittelijä)
 
 Käyttäjälle voidaan antaa **tietty salasana** tai luoda **satunnainen salasana**, jonka hän voi myöhemmin vaihtaa. Käyttäjälle voidaan myös määrittää **voimassaoloaika** (esim. kesäapulaisia varten).
 
-Jos käyttäjällä on otettu käyttöön **kaksivaiheinen tunnistautuminen (MFA)**, sen voi kytkeä päälle tai pois käyttäjän tiedoista.
+**MFA**-valinnalla pääkäyttäjä määrittää käyttäjän kaksivaiheisen tunnistautumisen: **Ei käytössä**, **Authenticator** tai **Sähköposti**. Authenticator voidaan valita vasta, kun käyttäjä on itse lukenut QR-koodin omista tiedoistaan (Käyttäjän tiedot). Sähköposti-vaihtoehdossa kirjautumisen yhteydessä käyttäjän sähköpostiosoitteeseen lähetetään kertakäyttöinen koodi, joka on voimassa 10 minuuttia; käyttäjällä on oltava sähköpostiosoite.
 
 **Sallitut sähköpostiosoitteet** –kenttään voi määritellä osoitteet, joihin kyseisellä käyttäjätunnuksella saa lähettää sähköposteja. Jos rajoituksia ei ole, kenttä jätetään tyhjäksi.
 
