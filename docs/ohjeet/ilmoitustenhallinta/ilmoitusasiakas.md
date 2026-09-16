@@ -389,7 +389,8 @@ Aineistotiedoissa voi:
    - kun klikkaat **Poliittinen mainos** -kentän aktiiviseksi, ilmestyy lomakkeelle lisäkenttiä
       - **Yksilöivä tunnus:** lain vaatima ilmoituksen yksilöivä tunnus
       - **Kampanja liittyy:** mihin vaaliin tai lainsäädäntöön mainos liittyy
-      - **Avoimuusilmoitus URL:** lain vaatiman avoimuusilmoituksen URL
+      - **Avoimuusilmoitus URL:** lain vaatiman avoimuusilmoituksen URL. TaikaTilaus täyttää kentän itse, kun avoimuusilmoitus julkaistaan – katso [Poliittinen mainos ja avoimuusilmoitus](./avoimuusilmoitus).
+   - tallennuksen jälkeen lomakkeelle ilmestyy **Avoimuusilmoitus**-alue, josta pyyntö lähetetään mainostajalle
 
 Jos ilmoituksessa on **vain teksti**, aktivoi **Ilmoitukseen ei liity tiedostoja**.
 
