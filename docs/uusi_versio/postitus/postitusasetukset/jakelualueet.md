@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 slug: /uusi_versio/asetukset/jakelualueet
 description: Jakelualueet — Postinumeroalueet ja tuotteiden aluehinnat.
 ---
