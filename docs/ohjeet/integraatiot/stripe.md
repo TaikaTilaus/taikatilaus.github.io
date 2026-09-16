@@ -29,7 +29,7 @@ Stripe-tilin luominen on ilmaista ja helppoa.
 
 ![Stripe](/img/ohjeet/stripe4.png)
 
-5. Valitse ominaisuuksien listasta ainakin **Accept online payments** ja **Create subscriptions** ja paina **Continue**.
+5. Valitse ominaisuuksien listasta ainakin **Create subscriptions** ja paina **Continue**.
 
 ![Stripe](/img/ohjeet/stripe5.png)
 
