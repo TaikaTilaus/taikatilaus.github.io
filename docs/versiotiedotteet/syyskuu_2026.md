@@ -23,6 +23,8 @@ Tekstiviestivaihtoehto on poistettu, koska sitä ei ole tuettu.
 
 Katso [pikaohje](/docs/pikaohjeet/kaksivaiheinen-tunnistautuminen) ja [Käyttäjätilit-ohje](/docs/ohjeet/asetukset/kayttajatilit).
 
+![Käyttäjän tiedot - Kaksivaiheinen tunnistautuminen - Sähköposti](/img/pikaohjeet/sahkoposti.png)
+
 ## Poliittisen mainoksen avoimuusilmoitus
 
 EU:n poliittisen mainonnan asetus (TTPA, (EU) 2024/900) edellyttää, että jokaisen poliittisen mainoksen yhteydessä julkaistaan **avoimuusilmoitus**, joka on yleisön nähtävillä seitsemän vuotta. TaikaTilaus tuottaa ilmoituksen nyt suoraan ilmoitusvarauksesta.
@@ -35,3 +37,8 @@ EU:n poliittisen mainonnan asetus (TTPA, (EU) 2024/900) edellyttää, että joka
 - Uusi hakuehto **Vain poliittiset ilmoitukset** Ilmoitukset-haussa ja **Vain poliittiset** IlmoitusStudiossa rajaa haun poliittisiin mainoksiin.
 
 Käyttöönotto: **Asetukset → Ylläpito → Poliittinen mainonta (TTPA)** – anna ilmoitusmekanismin sähköposti ja tulevien vaalien lista. Katso [Poliittinen mainos ja avoimuusilmoitus -ohje](/docs/ohjeet/ilmoitustenhallinta/avoimuusilmoitus).
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta2.png)
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta.png)
+*TTPA-asetukset Asetukset/Ylläpito-välilehdellä*

@@ -31,10 +31,18 @@ Kaksivaiheisen tunnistautumisen koodin voi saada joko **Authenticator-sovellukse
 
 Varmista, että käyttäjätunnukseesi on liitetty se sähköpostiosoite, johon haluat koodit.
 
+![5. Käyttäjän tiedot - Kaksivaiheinen tunnistautuminen - Sähköposti](/img/pikaohjeet/sahkoposti.png)
+
 ### 2. Paina **Lähetä koodi** ja syötä sähköpostiin tullut kuusinumeroinen koodi kohtaan **Vahvista**
 
 Koodi on voimassa 10 minuuttia. Tarvittaessa paina **Lähetä koodi uudelleen**.
 
+![6. Käyttäjän tiedot - Kaksivaiheinen tunnistautuminen - Sähköposti](/img/pikaohjeet/sahkoposti2.png)
+
+![7. Käyttäjän tiedot - Kaksivaiheinen tunnistautuminen - Sähköposti](/img/pikaohjeet/sahkoposti3.png)
+
 ### 3. Laita sähköpostivarmennus päälle kytkimestä ja tallenna
 
 Tämän jälkeen kirjautuessa salasanan jälkeen kysytään sähköpostiin lähetettyä koodia. Valinnalla **Muista minut 30 päivää** koodia ei kysytä samassa selaimessa uudelleen 30 päivään.
+
+![8. Käyttäjän tiedot - Kaksivaiheinen tunnistautuminen - Sähköposti](/img/pikaohjeet/sahkoposti4.png)

@@ -29,26 +29,41 @@ Asetukset tehdään **Asetukset → Ylläpito → Poliittinen mainonta (TTPA)**.
 | Vaalilista | Rivi per vaali muodossa `avain\|nimi\|taso\|pvm`, esim. `EDUSKUNTA2027\|Eduskuntavaalit\|kansallinen\|2027-04-18`. Mainostaja valitsee näistä lomakkeella; lisäksi hän voi kirjoittaa muun vaalin tai lainsäädäntöprosessin. |
 | Virallisten vaalitietojen osoite | Linkki virallisiin tietoihin vaaleihin osallistumisesta. Tyhjä: https://vaalit.fi |
 | Avoimuusilmoitusten osoitteen juuri | Julkinen osoite, jonka alle ilmoitussivut muodostuvat (esim. `https://lehti.fi`). Tyhjä: OmaPalvelun domain. **Tarkista tämä ennen ensimmäistä julkaisua** – QR-koodi painetaan lehteen. |
-| Muistutus | Päiviä ennen ilmestymistä, jolloin vahvistamattomasta ilmoituksesta muistutetaan. |
-| Vaatii hallinnan hyväksynnän | Oletuksena mainostajan vahvistama ilmoitus julkaistaan heti. Valittuna hallinta tarkistaa ja julkaisee (**Hyväksy ja julkaise**). |
-| Julkinen luettelo | Sivu `Avoimuusilmoitukset.aspx` listaa kaikki julkaistut ilmoitukset. Linkitä se lehden verkkosivuilta. |
 | Brändiväri | `#rrggbb`. Käytetään ylätunnisteen taustana, painikkeissa, korostusreunoissa ja sähköposteissa. Painikkeen tekstiväri valitaan automaattisesti kontrastin mukaan. Tyhjä: tumma harmaa. |
 | Logo | Tiedostonimi `/AsiakasData/[GUID]/Pohjat/`-kansiosta, sivuston polku tai https-osoite. Tyhjä: yleinen *Asiakasyrityksen logo* -asetus (sama kuin hallinnan yläpalkissa; valkoinen logo näkyy brändivärin päällä). |
 | Lisä-CSS | Vapaa CSS avoimuusilmoitussivuille, esim. `.ai-brand{background:#fff}` jos logo on tumma. Luokat `.ai-brand`, `.ai-otsake`, `.ai-kohta`, `.ai-lomake`, `.ai-julkaisija`, `.ai-merkintalaatikko`; muuttujat `--ai-vari`, `--ai-vari-teksti`, `--ai-linkki`. |
+| Muistutus | Päiviä ennen ilmestymistä, jolloin vahvistamattomasta ilmoituksesta muistutetaan. |
+| Vaatii hallinnan hyväksynnän | Oletuksena mainostajan vahvistama ilmoitus julkaistaan heti. Valittuna hallinta tarkistaa ja julkaisee (**Hyväksy ja julkaise**). |
+| Julkinen luettelo | Sivu `Avoimuusilmoitukset.aspx` listaa kaikki julkaistut ilmoitukset. Linkitä se lehden verkkosivuilta. |
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta.png)
 
 ## Kulku
 
 1. **Myyjä merkitsee varauksen poliittiseksi.** Ilmoitusvarauksen [aineistotiedoissa](./ilmoitusasiakas#aineistotiedot) valitaan **Poliittinen mainos** ja tallennetaan. Paneeliin ilmestyy **Avoimuusilmoitus**-alue. Alue on samanlainen kaikissa varausnäkymissä (Myynnit, pelkistetty varauslomake ja IlmoitusStudio).
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta2.png)
+
 2. **Pyyntö mainostajalle.** Kirjoita vastaanottajan sähköposti (esitäytetty aineiston toimittajasta tai yhteyshenkilöstä) ja klikkaa **Lähetä avoimuusilmoituspyyntö asiakkaalle**. Mainostaja saa sähköpostin, jossa on henkilökohtainen täyttölinkki. Vaihtoehtoisesti **Täytä itse**, jos tiedot on saatu esimerkiksi puhelimessa – silloin vahvistajaksi kirjataan käyttäjä ja "asiakkaan puolesta".
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta7.png)
+
 3. **Mainostaja täydentää ja vahvistaa.** Lomake on esitäytetty varauksen tiedoilla. Julkaisijan vastuulla olevat tiedot (julkaisu, ilmestymispäivä, hinta veroton ja verollinen, laskentamenetelmä) ovat vain luettavissa. Mainostaja täydentää:
    - rahoittajan tyypin (puolue, ehdokas, tukiyhdistys, muu poliittinen toimija, yritys, muu) ja sen, onko rahoittaja oikeushenkilö vai luonnollinen henkilö;
    - mahdollisen tahon, jonka määräysvallassa rahoittaja viime kädessä on;
    - **maksajat**, jos mainoksen maksaa muu kuin rahoittaja tai maksajia on useita (esim. ehdokas, tukiyhdistys ja puolue yhdessä). Jokainen lisätään omalle rivilleen **+ Lisää maksaja** -painikkeella samoilla tiedoilla kuin rahoittaja; valinnainen **Osuus (€)** kertoo, miten maksu jakautuu. Osuuksien summa ei saa ylittää mainoksen verollista hintaa;
    - vaalit tai lainsäädäntöprosessin, rahoituksen tyypin (julkinen/yksityinen) ja lähteen (EU / EU:n ulkopuolelta);
    - omat yhteystietonsa (ei julkaista) ja vakuutuksen, että tiedot ovat oikein.
+   
 
    Lomakkeen voi tallentaa keskeneräisenä ja palata siihen samasta linkistä. **Vahvistuksen jälkeen mainostaja ei voi enää muokata tietoja.**
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta6.png)
+
 4. **Julkaisu.** Ilmoitus julkaistaan heti vahvistuksesta (tai hallinnan hyväksynnän jälkeen). Mainostaja ja ilmoitusmekanismin osoite saavat sähköpostin, jossa on julkinen linkki, QR-koodi ja mainokseen painettava merkintä. Sama tieto näkyy mainostajalle heti vahvistussivulla.
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta8.png)
+
 5. **Merkintä mainokseen.** Taittoon lisätään selvästi taustasta erottuva laatikko:
 
 ```
@@ -60,19 +75,28 @@ Avoimuusilmoitus: https://lehti.fi/Avoimuusilmoitus.aspx?g=…   [QR-koodi]
 
 QR-koodin saa painokelpoisena PNG-tiedostona sekä mainostajan vahvistussivulta että hallinnasta (**QR-koodi (PNG)**). QR-koodi johtaa suoraan kyseiseen avoimuusilmoitukseen, kuten täytäntöönpanoasetus edellyttää – yleinen luettelosivun osoite ei riitä merkinnäksi.
 
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta9.png)
+
 ## Hallinnan toiminnot
 
 Avoimuusilmoitus-alue varauksella näyttää tilan ja toiminnot:
 
 - **Lähetä muistutus** – pyyntö lähetetty, mutta mainostaja ei ole vahvistanut.
 - **Täytä itse / katso** – avaa lomakkeen hallintanäkymässä.
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta3.png)
+
 - **Hyväksy ja julkaise** – kun hyväksyntä on asetuksella vaadittu ja mainostaja on vahvistanut.
 - **Avaa julkinen sivu**, **QR-koodi (PNG)** – julkaistu ilmoitus.
 - **Korjaa (uusi versio)** – hallinta korjaa lukittua ilmoitusta. Korjaus julkaistaan aina uutena versiona ja syy kirjataan; aiemmat versiot jäävät nähtäville julkiselle sivulle.
 - **Pyydä uusi vahvistus** – avaa ilmoituksen uudelleen mainostajan täydennettäväksi ja lähettää uuden täyttölinkin; vanha linkki lakkaa toimimasta. Julkaistu versio pysyy näkyvissä, kunnes uusi versio julkaistaan.
 - **Merkitse mainos perutuksi** – ilmoitus jää nähtäville merkinnällä "Mainoksen julkaisu on peruttu".
 
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta10.png)
+
 Julkaisu täyttää varauksen **Avoimuusilmoitus URL** -kentän eikä sitä sen jälkeen muokata käsin. Pyynnöt, vahvistukset ja julkaisut kirjataan varauksen tilamuutoslokiin.
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta11.png)
 
 Mainostajan **aineistosivulla** näytetään poliittiselle mainokselle banneri: täyttölinkki, kun ilmoitusta ei ole vahvistettu, ja julkisen ilmoituksen linkki sekä QR-koodi, kun se on julkaistu.
 
@@ -81,7 +105,12 @@ Mainostajan **aineistosivulla** näytetään poliittiselle mainokselle banneri: 
 Poliittisiksi merkityt varaukset löytää hakuehdolla, joka rajaa tulokset **Poliittinen mainos** -valinnalla merkittyihin varauksiin:
 
 - **Ilmoitukset**-haussa valinta **Vain poliittiset ilmoitukset** (ks. [Ilmoitusvaraukset](/docs/ohjeet/ilmoitustenhallinta/ilmoistusvaraukset#hakulistauksen-asetukset)).
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta14.png)
+
 - **IlmoitusStudiossa** valinta **Vain poliittiset** (ks. [IlmoitusStudio](ilmoitusstudio#hakuehdot)).
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta15.png)
 
 Hakuehto tallentuu muiden hakuehtojen tapaan käyttäjäkohtaisesti. Sillä on kätevä käydä ennen lehden painoon lähettämistä läpi, että jokaisella poliittisella mainoksella on julkaistu avoimuusilmoitus – tila näkyy varauksen Avoimuusilmoitus-alueella. Laskutetut poliittiset mainokset saa myös [raportilta](#poliittiset-mainokset--raportti).
 
@@ -94,18 +123,38 @@ Hakuehto tallentuu muiden hakuehtojen tapaan käyttäjäkohtaisesti. Sillä on k
 - Ilmoitukset versioineen ovat yleisön nähtävillä ja säilytetään **seitsemän vuotta** viimeisestä julkaisusta (12 artiklan 4 kohta). Niitä ei voi poistaa sovelluksesta.
 - `Avoimuusilmoitukset.aspx` on julkinen luettelo, josta ilmoitukset löytyvät rahoittajan tai mainoksen nimellä. Luettelon osoite kannattaa linkittää lehden verkkosivuille poliittisen mainonnan ohjeiden yhteyteen.
 
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta16.png)
+
 ## Poliittiset mainokset -raportti
 
 **Raportit → Ilmoitusmyynnin raportit → Poliittiset mainokset** listaa aikavälillä **laskutetut** poliittisiksi merkityt ilmoitusvaraukset tietoineen: yksilöivä tunnus, kampanja ja avoimuusilmoituksen URL. Julkaisu täyttää URL-sarakkeen automaattisesti, joten raportilta näkee suoraan, mille laskutetuille mainoksille ilmoitus on olemassa. Raportti sopii esimerkiksi viranomaisen tietopyyntöön tai vaalien jälkeiseen tarkistukseen. Huomaa, että raportilla ei näy varauksia ennen laskutusta – avoimuusilmoituksen tila ennen julkaisua tarkistetaan varaukselta. Katso [Ilmoitusmyynnin raportit](../yleiset_ominaisuudet/raportit/ilmoitusmyynnin_raportit#poliittiset-mainokset).
 
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta13.png)
+
 ## Usein kysyttyä
 
-**Mainostaja ei vastaa pyyntöön.** Lähetä muistutus varaukselta tai täytä ilmoitus itse mainostajan antamien tietojen perusteella (**Täytä itse**). Asetuksen mukaan mainosta ei saa julkaista ennen kuin avoimuusilmoitus on saatavilla.
+### Mainostaja ei vastaa pyyntöön.
 
-**Mainostajalla on jo oma avoimuusilmoitus muualla (esim. puolueen sivuilla).** Kirjoita sen osoite varauksen **Avoimuusilmoitus URL** -kenttään ennen kuin luot TaikaTilauksen ilmoituksen. Jos TaikaTilauksen ilmoitus julkaistaan, se korvaa kentän arvon.
+Lähetä muistutus varaukselta tai täytä ilmoitus itse mainostajan antamien tietojen perusteella (**Täytä itse**). Asetuksen mukaan mainosta ei saa julkaista ennen kuin avoimuusilmoitus on saatavilla.
 
-**Koskeeko EU:n eurooppalainen rekisteri meitä?** Eurooppalainen rekisteri koskee vain verkkomainontaa, eikä se ole vielä käytössä. Painetun lehden ilmoituksiin sitä ei tarvita; TaikaTilaus tukee rekisteriä, kun se avataan.
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta3.png)
 
-**Voiko saman kampanjan useita ilmoituksia niputtaa?** Jokainen ilmoitusvaraus saa oman avoimuusilmoituksen ja QR-koodin. Ilmoituksella näytetään kuitenkin myös saman myynnin poliittisten varausten yhteissumma (kohta 6), ja mainostaja voi antaa koko kampanjan summan muiden medioiden osalta.
+### Mainostajalla on jo oma avoimuusilmoitus muualla (esim. puolueen sivuilla).
 
-**Mitä tapahtuu, jos hintaa muutetaan julkaisun jälkeen?** Julkaistu ilmoitus ei muutu itsestään. Avaa varaukselta **Korjaa (uusi versio)**, tarkista tiedot ja julkaise uusi versio syyn kanssa.
+Kirjoita sen osoite varauksen **Avoimuusilmoitus URL** -kenttään ennen kuin luot TaikaTilauksen ilmoituksen. Jos TaikaTilauksen ilmoitus julkaistaan, se korvaa kentän arvon.
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta4.png)
+
+### Koskeeko EU:n eurooppalainen rekisteri meitä? 
+
+Eurooppalainen rekisteri koskee vain verkkomainontaa, eikä se ole vielä käytössä. Painetun lehden ilmoituksiin sitä ei tarvita; TaikaTilaus tukee rekisteriä, kun se avataan.
+
+### Voiko saman kampanjan useita ilmoituksia niputtaa? 
+
+Jokainen ilmoitusvaraus saa oman avoimuusilmoituksen ja QR-koodin. Ilmoituksella näytetään kuitenkin myös saman myynnin poliittisten varausten yhteissumma (kohta 6), ja mainostaja voi antaa koko kampanjan summan muiden medioiden osalta.
+
+### Mitä tapahtuu, jos hintaa muutetaan julkaisun jälkeen?
+
+Julkaistu ilmoitus ei muutu itsestään. Avaa varaukselta **Korjaa (uusi versio)**, tarkista tiedot ja julkaise uusi versio syyn kanssa.
+
+![Ylläpito - Poliittinen mainontan (TTPA)](/img/ohjeet/poliittinen-mainonta12.png)
