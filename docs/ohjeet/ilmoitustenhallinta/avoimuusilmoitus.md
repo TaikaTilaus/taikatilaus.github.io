@@ -53,6 +53,7 @@ Asetukset tehdään **Asetukset → Ylläpito → Poliittinen mainonta (TTPA)**.
    - mahdollisen tahon, jonka määräysvallassa rahoittaja viime kädessä on;
    - **maksajat**, jos mainoksen maksaa muu kuin rahoittaja tai maksajia on useita (esim. ehdokas, tukiyhdistys ja puolue yhdessä). Jokainen lisätään omalle rivilleen **+ Lisää maksaja** -painikkeella samoilla tiedoilla kuin rahoittaja; valinnainen **Osuus (€)** kertoo, miten maksu jakautuu. Osuuksien summa ei saa ylittää mainoksen verollista hintaa;
    - vaalit tai lainsäädäntöprosessin, rahoituksen tyypin (julkinen/yksityinen) ja lähteen (EU / EU:n ulkopuolelta);
+   - **vain jos mainos on osa laajempaa kampanjaa**, johon kuuluu myös muualla julkaistua mainontaa: valintaruutu avaa kentät koko kampanjan kokonaissummalle, ajanjaksolle ja laskentaperusteelle (asetuksen 12 art. 1 d edellyttää kampanjasumman "tapauksen mukaan"). Lehden omien varausten summa samasta kampanjasta lasketaan automaattisesti;
    - omat yhteystietonsa (ei julkaista) ja vakuutuksen, että tiedot ovat oikein.
    
 
