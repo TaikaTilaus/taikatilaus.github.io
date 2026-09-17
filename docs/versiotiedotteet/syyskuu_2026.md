@@ -19,8 +19,6 @@ Kaksivaiheisen tunnistautumisen (MFA) koodin voi nyt saada Authenticator-sovellu
 - Pääkäyttäjä voi valita käyttäjän tunnistautumistavan **Asetukset → Käyttäjätilit** -näkymästä: *Ei käytössä*, *Authenticator* tai *Sähköposti*.
 - Valinnalla **Muista minut 30 päivää** koodia ei kysytä samassa selaimessa uudelleen 30 päivään.
 
-Tekstiviestivaihtoehto on poistettu, koska sitä ei ole tuettu.
-
 Katso [pikaohje](/docs/pikaohjeet/kaksivaiheinen-tunnistautuminen) ja [Käyttäjätilit-ohje](/docs/ohjeet/asetukset/kayttajatilit).
 
 ![Käyttäjän tiedot - Kaksivaiheinen tunnistautuminen - Sähköposti](/img/pikaohjeet/sahkoposti.png)

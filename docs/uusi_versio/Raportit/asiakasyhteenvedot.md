@@ -7,6 +7,6 @@ description: Asiakasyhteenvedot — Ei vielä käytettävissä.
 
 :::info Ei vielä käytettävissä
 
-Asiakasyhteenvedot ei ole vielä käytettävissä TaikaTilaus 3.0:ssa. Sovelluksen näkymä on toistaiseksi paikkamerkki.
+Asiakasyhteenvedot ei ole vielä käytettävissä. Sovelluksen näkymä on toistaiseksi paikkamerkki.
 
 :::
