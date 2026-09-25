@@ -60,6 +60,10 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 * [OmaIlmoitus](/docs/ohjeet/asetukset/asiointipalvelut/omailmoitus)
 * [Viestipohjat](/docs/ohjeet/asetukset/asiointipalvelut/viestipohjat)
 
+### Ilmoitusten hallinta
+
+* [Ilmoitusten hallinta](/docs/ohjeet/asetukset/ilmoitusten-hallinta)
+
 ### Käyttäjätilit
 
 * [Käyttäjätilit](/docs/ohjeet/asetukset/kayttajatilit)

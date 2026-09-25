@@ -11,14 +11,14 @@ EU:n asetus **(EU) 2024/900** (poliittisen mainonnan avoimuus ja kohdentaminen, 
 TaikaTilaus tuottaa avoimuusilmoituksen ilmoitusvarauksen tiedoista, pyytää mainostajaa täydentämään ja vahvistamaan tiedot, julkaisee ilmoituksen omassa julkisessa osoitteessaan ja muodostaa mainokseen painettavan **QR-koodin**. Ilmoituksia ei voi poistaa, joten säilytysvelvoite täyttyy automaattisesti.
 
 :::tip Käyttöönotto kolmessa vaiheessa
-1. **Asetukset → Ylläpito → Poliittinen mainonta (TTPA)**: anna ilmoitusmekanismin sähköposti (pakollinen) ja tulevien vaalien lista. Halutessasi lehden väri ja logo.
+1. **Asetukset → Ilmoitusten hallinta → Poliittinen mainonta (TTPA)**: anna ilmoitusmekanismin sähköposti (pakollinen) ja tulevien vaalien lista. Halutessasi lehden väri ja logo.
 2. Merkitse ilmoitusvaraus **Poliittinen mainos** -valinnalla ja lähetä mainostajalle pyyntö.
 3. Kun mainostaja on vahvistanut, lisää taittoon ilmoituksen mukana tuleva merkintä ja QR-koodi.
 :::
 
 ## Asetukset
 
-Asetukset tehdään **Asetukset → Ylläpito → Poliittinen mainonta (TTPA)**.
+Asetukset tehdään **Asetukset → Ilmoitusten hallinta → Poliittinen mainonta (TTPA)**.
 
 | Asetus | Merkitys |
 |---|---|

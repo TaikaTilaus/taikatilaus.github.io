@@ -17,7 +17,6 @@ Välilehdeltä voi muokata mm.:
 - kampanjatuotteiden käytön aktivointia  
 - rajoituksia tekstiviestien määrälle per päivä  
 - jakelunippujen minimikokoa  
-- **Ilmoitusmyynti**-toimintojen ja niihin liittyvien kenttien aktivointia  
 - **OmaPalvelu**-toimintojen aktivointia  
 - **Paperilaskutuslisän** käyttöönottoa  
 
@@ -88,39 +87,12 @@ Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilau
 
 ### Ilmoitusmyynti
 
-- **Vapauta ilmoitusvaraus laskutukseen** – kenttään annetaan ilmoitusvarauksen varausnumero ja painetaan *Vapauta ilmoitusvaraus laskutukseen* -painiketta. Toimintoa käytetään esimerkiksi silloin, kun lasku on lähtenyt väärälle henkilölle ja ilmoitusvaraus täytyy vapauttaa uudelleen laskutettavaksi.  
-- **OmaIlmo-sovelluksen nimi** – kenttään annetaan OmaIlmoitus-sovelluksen nimi.  
-- **Myyntituotteen lisääminen laskulla** – kentän aktivoidessa laskun tuoteriviksi voi lisätä myyntituotteen.  
-- **Julkiset lisätiedot käytössä** – kentän aktivoidessa ilmoitusvarauksen lisätiedot ovat julkisia ja siten asiakkaalle näkyvissä.  
-- **Laskutuspäivä käytössä** – kentän aktivoidessa ilmoitusvaraukseen voidaan lisätä laskutuspäivä, jolloin lasku lähetetään asiakkaalle.  
-- **Värillisyys käytössä** – kentän aktivoidessa ilmoitusvarauslomakkeella voidaan valita ilmoituksen väriksi mustavalkoinen tai värillinen.  
-- **Piilota Palstoja, Korkeus ja Ilmoitusosasto** – kentän aktivoidessa ilmoitusvarauslomakkeelta piilotetaan *Palstoja*, *Korkeus* ja *Ilmoitusosasto* -kentät.
+Ilmoitusmyynnin asetukset, kuten ilmoitusvarauslomakkeen kentät, *Vapauta ilmoitusvaraus laskutukseen* -toiminto ja poliittisen mainonnan (TTPA) tiedot, ovat omalla [Ilmoitusten hallinta](/docs/ohjeet/asetukset/ilmoitusten-hallinta) -välilehdellään.
 
-![Ylläpito](/img/ohjeet/ilmoitusvaraus-paakayttaja.png)
-*Pääkäyttäjä voi muokata ilmoitusvarauslomakkeen kenttien näkyvyyttä Ylläpito-välilehdeltä.*
-
-- **Aineisto on valmis ilmoitukseksi -valinta oletuksena päällä** – kentän aktivoidessa ilmoitusvaraukseen aineistoa lisättäessä *Aineisto on valmis ilmoitukseksi* -kenttä on oletuksena päällä.  
-- **Näytä myyjään liitetty laskutustieto** – näyttää, millä tiedoilla ilmoitusvarauksen lasku luodaan.  
-- **Laskutetaan omanaan -ruksi** – kentän aktivoidessa pelkistetylle ilmoitusvarauslomakkeelle tulee näkyviin *Laskutetaan omanaan* -valinta.  
-- **Ilmoitus on valmis -ruksi** – kentän aktivoidessa pelkistetylle ilmoitusvarauslomakkeelle tulee näkyviin *Ilmoitus on valmis* -valinta.  
-
-![Ylläpito](/img/ohjeet/ilmoitusvaraus-paakayttaja2.png)
-
-- **YT-hinta käytössä** – kentän aktivoidessa voidaan tuotteelle määritellä yhteistyöhinta, jota käytetään sisäisessä laskutuksessa.  
-
-![Ylläpito](/img/ohjeet/paakayttaja5.png)
-
-- **AdWizard käytössä** – kenttä aktivoidaan, jos ilmoitusvarauksia käsitellään Mediaboxin InDesign Scoop -lisäosalla.  
-- **Laskutus kuun viim. kalenteripäivänä -valinta** – kentän aktivoidessa ilmoitusvarauslomakkeelle tulee kyseinen valinta laskutustavaksi.  
-
-![Ylläpito](/img/ohjeet/ilmoitusvaraus-paakayttaja3.png)
+### Muut asetukset
 
 - **Raportoinnissa Reskontraluettelo 2 käytössä** – <!-- ??? -->  
 - **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** – <!-- ??? -->  
-- **Valmistuslisän TuoteID** – kenttään syötetään ilmoitusvarauksen valmistuslisän tuotenumero.  
-- **Käyttäjätunnukset, joilla oikeus myyntikiellon käsittelyyn** – kenttään syötetään niiden käyttäjien tunnukset, joilla on oikeus ilmoitusasiakkaan myyntikiellon käsittelyyn.  
-
-![Ylläpito](/img/ohjeet/paakayttaja6.png)
 
 ### Osoitekentät
 
