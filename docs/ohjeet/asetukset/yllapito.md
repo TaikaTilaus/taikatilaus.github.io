@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-description: Ylläpito — Laskun muodostamistiedot, Välilehden alkupään toiminnot, Ennakkomaksu ja Maksun palautus.
+description: Ylläpito — Laskun muodostamistiedot, yleiset asetukset, laskutus, Ennakkomaksu ja Maksun palautus.
 ---
 
 # Ylläpito
@@ -12,13 +12,13 @@ description: Ylläpito — Laskun muodostamistiedot, Välilehden alkupään toim
 Välilehdeltä voi muokata mm.:
 
 - yrityksen ja sen tuotteiden perustietoja  
-- uusia lehtien tilaustapoja  
 - laskunumerosarjan alku- ja loppunumerointeja  
-- kampanjatuotteiden käytön aktivointia  
 - rajoituksia tekstiviestien määrälle per päivä  
 - jakelunippujen minimikokoa  
 - **OmaPalvelu**-toimintojen aktivointia  
 - **Paperilaskutuslisän** käyttöönottoa  
+
+Tilauksiin liittyvät asetukset ovat [Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta) -välilehdellä ja ilmoitusmyynnin asetukset [Ilmoitusten hallinta](/docs/ohjeet/asetukset/ilmoitusten-hallinta) -välilehdellä.
 
 Voit myös lähettää tiedostoja ylläpitäjälle, esimerkiksi asiakastietojen massapäivitystä varten, tai **noutaa tiedostoja ylläpitäjältä** tarkastamista varten.
 
@@ -40,39 +40,29 @@ Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 ![Ylläpito](/img/ohjeet/paakayttaja3.png)
 *Laskujen muodostamistiedot -näkymä.*
 
-### Välilehden alkupään toiminnot
+### Yleiset asetukset
 
 - **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä.  
-- **Lehtien tuoteryhmät** -kenttään syötetään tuoteryhmät, joiden alta lehtituotteet löytyvät.
 - **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen.
-- **Lehtien tilaustavat** -kenttään kirjataan, miltä kanavilta lehtiä voi tilata.
 - **Etusivun asiakkaiden max. näyttömäärä** -kenttään kirjataan, kuinka monta asiakasta näytetään enintään etusivun hakulistassa.  
-- **Kontaktin perintäkielto -kenttä käytössä** -kentän aktivoimalla asiakaskortin *Laskutustiedot*-osioon tulee näkyviin *Perintäkielto*-kenttä, jonka aktivoimalla kyseisen asiakkaan laskuista ei lähetetä maksumuistutuksia eikä niitä peritä.  
-- **Laske laskun summat 5:llä desimaalilla** -kentän aktivoidessa laskujen summat lasketaan viiden desimaalin tarkkuudella yksikköhinnasta.  
 - **OmaPalvelu-osio näkyvissä kontaktikortilla** -kentän aktivoidessa *OmaPalvelu*-alivalikko näytetään asiakaskortilla.  
+- **Tekstiviestien max. lähetysmäärä päivässä** -kenttään syötetään luku (0–10 000), joka kertoo, kuinka monta tekstiviestiä voi lähettää päivittäin ohjelman avulla.
+- **Lehtien painoaineistossa minimi nippukoko** -kenttään annetaan lehtien nippujen minimikoko.
+- **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** – <!-- ??? -->  
 
 ![Ylläpito](/img/ohjeet/paakayttaja2.png)
 
+### Laskutus
+
+- **Kontaktin perintäkielto -kenttä käytössä** -kentän aktivoimalla asiakaskortin *Laskutustiedot*-osioon tulee näkyviin *Perintäkielto*-kenttä, jonka aktivoimalla kyseisen asiakkaan laskuista ei lähetetä maksumuistutuksia eikä niitä peritä.  
+- **Laske laskun summat 5:llä desimaalilla** -kentän aktivoidessa laskujen summat lasketaan viiden desimaalin tarkkuudella yksikköhinnasta.  
 - **Ei laskutuslisää -kenttä käytössä** -kentän aktivoidessa asiakaskortille tulee näkyviin *Ei laskutuslisää* -kenttä.
-- **Uusi tilaus -kenttä käytössä** -kentän aktivoidessa *Tilaus*-näytölle ilmestyy *Uusi tilaus* -kenttä.
-- **Kampanja käytössä** -kentän aktivoidessa tuotteita voidaan ryhmitellä erilaisiin kampanjoihin.
-- **Tekstiviestien max. lähetysmäärä päivässä** -kenttään syötetään luku (0–10 000), joka kertoo, kuinka monta tekstiviestiä voi lähettää päivittäin ohjelman avulla.
-- **Lehtien painoaineistossa minimi nippukoko** -kenttään annetaan lehtien nippujen minimikoko.
-- **Lehtien tilausmyyjät** -kenttään annetaan lista lehtimyyjistä, joita voi tämän jälkeen valita valikosta tilauksia tehtäessä.
 - **Myyjätieto laskulle** -kentän aktivoidessa *Lasku*-näkymään ilmestyy *Myyjä*-valintalista.
-- **Kirjautumistunniste käytössä** -kentän aktivoidessa käytetään ePaper-kirjautumispinnassa vaihtuvaa käyttäjäkohtaista kirjautumistunnistetta.
-- **Paketti käytössä** -kentän aktivoidessa tilaustuotteista voi muodostaa paketteja, ja asetuksiin tulee näkyviin *Tilauspaketit*-välilehti.
-- **Osissa maksettaviin tilauksiin jaksotieto päivinä** -kentän aktivoidessa osissa maksettavien tilausten laskuille lisätään laskutusjakso päivinä, esim. 1.1.2025–31.1.2025.
-- **Tilausjakson hyvitysviesti käytössä** – kentän aktivoidessa tilaukselle tulee näkyviin *Hyvitä tilausjaksoa* -painike, jonka avulla voi siirtää tilauksen loppupäivää ja lisätä seuraavalle laskulle tekstin, jossa kerrotaan hyvityksestä.
+- **Raportoinnissa Reskontraluettelo 2 käytössä** – <!-- ??? -->  
 
-![Ylläpito](/img/ohjeet/paakayttaja4.png)
+### Tilausasetukset
 
-- **Lehden numerot tilauksissa käytössä**: kentän ollessa aktivoituna, voit määrittää tilauksen pituudeksi esimerkiksi 2 lehteä, jolloin tilauksen alku- ja loppupäivä määräytyvät julkaisukalenterin mukaan. Jotta tilauksen pituus määriytyy oikein, on tärkeää, että julkaisukalenteri on ajan tasalla ja että julkaisuja on lisätty riittävän pitkälle tulevaisuuteen. 
-- **Kestojatkon alkupäivän raja menneisyyteen (kk)**: tämä asetus määrittää kuinka kaukana menneisyydessä kestojatkon alkupäivä voi olla. Oletuksena asetus on -1 kuukautta.
-- **Kestojatkon loppupäivän raja menneisyyteen (kk)**: tämä asetus määrittää kuinka kaukana menneisyydessä kestojatkon loppupäivä voi olla. Oletuksena asetus on -1 kuukautta.
-- **Kestojatkon loppupäivän raja tulevaisuuten (kk)**: tämä asetus määrittää kuinka kaukana tulevaisuudessa kestojatkon loppupäivä voi olla. Oletuksena arvona on 4 kuukautta. 
-
-![Ylläpito](/img/ohjeet/paakayttaja14.png)
+Tilauksiin liittyvät asetukset, kuten *Uusi tilaus* -kenttä, kampanjat, paketit, lehtien tilaustavat ja tilausmyyjät, jaksotiedot sekä kestojatkon rajat, ovat omalla [Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta) -välilehdellään.
 
 ### Ennakkomaksu ja Maksun palautus
 
@@ -88,11 +78,6 @@ Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilau
 ### Ilmoitusmyynti
 
 Ilmoitusmyynnin asetukset, kuten ilmoitusvarauslomakkeen kentät, *Vapauta ilmoitusvaraus laskutukseen* -toiminto ja poliittisen mainonnan (TTPA) tiedot, ovat omalla [Ilmoitusten hallinta](/docs/ohjeet/asetukset/ilmoitusten-hallinta) -välilehdellään.
-
-### Muut asetukset
-
-- **Raportoinnissa Reskontraluettelo 2 käytössä** – <!-- ??? -->  
-- **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** – <!-- ??? -->  
 
 ### Osoitekentät
 
