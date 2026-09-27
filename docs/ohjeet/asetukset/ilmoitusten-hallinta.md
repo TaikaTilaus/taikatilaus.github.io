@@ -39,10 +39,6 @@ Asiakkaan itse jättämien ilmoitusten asetukset ovat edelleen **Asiointipalvelu
 - **Myyntituotteen lisääminen laskulla** – kentän aktivoidessa laskun tuoteriviksi voi lisätä myyntituotteen.
 - **Vapauta ilmoitusvaraus laskutukseen** – kenttään annetaan ilmoitusvarauksen varausnumero ja painetaan *Vapauta ilmoitusvaraus laskutukseen* -painiketta. Toimintoa käytetään esimerkiksi silloin, kun lasku on lähtenyt väärälle henkilölle ja ilmoitusvaraus täytyy vapauttaa uudelleen laskutettavaksi. Tallenna tämän jälkeen ilmoitusvaraus, jolloin laskutuspyyntö luodaan uudelleen.
 
-## Muut
-
-- **OmaIlmo-sovelluksen nimi** – otsikko, joka näytetään ilmoitusasiakkaan etusivulla, kun myyjään liitetty ilmoitusasiakas kirjautuu asiakasportaaliin. Asetus ei liity OmaIlmoitukseen.
-
 ## Poliittinen mainonta (TTPA)
 
 Asetuksen (EU) 2024/900 mukaisen avoimuusilmoituksen julkaisijakohtaiset tiedot, kuten ilmoitusmekanismin sähköposti ja tulevien vaalien lista. Katso [Poliittinen mainos ja avoimuusilmoitus](/docs/ohjeet/ilmoitustenhallinta/avoimuusilmoitus).
