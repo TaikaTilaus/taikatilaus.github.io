@@ -45,10 +45,9 @@ Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 - **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä.  
 - **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen.
 - **Etusivun asiakkaiden max. näyttömäärä** -kenttään kirjataan, kuinka monta asiakasta näytetään enintään etusivun hakulistassa.  
-- **OmaPalvelu-osio näkyvissä kontaktikortilla** -kentän aktivoidessa *OmaPalvelu*-alivalikko näytetään asiakaskortilla.  
+- **Käyttäjätunnukset-osio näkyvissä kontaktikortilla** – kentän aktivoidessa kontaktikortilla näytetään *Käyttäjätunnukset*-osio, jossa hallinnoidaan asiakkaan käyttäjätunnuksia ja kirjautumisia (esim. digilehti ja asiakasportaali).  
 - **Tekstiviestien max. lähetysmäärä päivässä** -kenttään syötetään luku (0–10 000), joka kertoo, kuinka monta tekstiviestiä voi lähettää päivittäin ohjelman avulla.
 - **Lehtien painoaineistossa minimi nippukoko** -kenttään annetaan lehtien nippujen minimikoko.
-- **Käyttäjätunnukset (OmaPalvelu2-näyttö näkyvissä)** – <!-- ??? -->  
 
 ![Ylläpito](/img/ohjeet/paakayttaja2.png)
 
