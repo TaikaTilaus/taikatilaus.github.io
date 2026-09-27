@@ -41,6 +41,7 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 
 * [Tilit](/docs/ohjeet/asetukset/laskut/tilit)
 * [Laskutekstit](/docs/ohjeet/asetukset/laskut/laskutekstit)
+* [Laskutussäännöt](/docs/ohjeet/asetukset/laskut/laskutussaannot)
 
 ### Postitus
 

@@ -47,3 +47,13 @@ Jos halutaan rajata pois katkaisut, jotka johtuvat tilaajan kuolemasta, määrit
 
 ![Muut asetukset](/img/ohjeet/muut-asetukset4.png)
 
+### Kontaktikortti ja asiakashaku
+
+Osio näkyy ja on muutettavissa vain **pääkäyttäjille**.
+
+- **Etusivun asiakkaiden max. näyttömäärä** – kuinka monta asiakasta näytetään enintään etusivun hakulistassa.
+- **Etusivulla Passiivien yliviivaus käytössä** – PASSIIVINEN-asiakasryhmään kuuluvat yliviivataan etusivun haussa.
+- **Etusivulla Asiakasroolien näyttäminen käytössä** – etusivun haussa näytetään kontaktin asiakasroolit.
+- **Käyttäjätunnukset-osio näkyvissä kontaktikortilla** – kontaktikortilla näytetään *Käyttäjätunnukset*-osio, jossa hallinnoidaan asiakkaan käyttäjätunnuksia ja kirjautumisia (esim. digilehti ja asiakasportaali).
+- **Kontaktin maksumuistutuskielto -kenttä käytössä** – kontaktikortille tulee *Maksumuistutuskielto*-kenttä, jonka aktivoimalla asiakkaan laskuista ei lähetetä maksumuistutuksia.
+- **Ei laskutuslisää -kenttä käytössä** – kontaktikortille tulee *Ei laskutuslisää* -kenttä.

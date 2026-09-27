@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-description: Ylläpito — Laskun muodostamistiedot, yleiset asetukset, laskutus, Ennakkomaksu ja Maksun palautus.
+description: Ylläpito — yleiset asetukset, laskutus, Ennakkomaksu ja Maksun palautus.
 ---
 
 # Ylläpito
@@ -22,42 +22,23 @@ Tilauksiin liittyvät asetukset ovat [Tilausten hallinta](/docs/ohjeet/asetukset
 
 Voit myös lähettää tiedostoja ylläpitäjälle, esimerkiksi asiakastietojen massapäivitystä varten, tai **noutaa tiedostoja ylläpitäjältä** tarkastamista varten.
 
-### Laskun muodostamistiedot
-
-![Ylläpito](/img/ohjeet/paakayttaja13.png)
-
-Painamalla **Laskun muodostamistiedot** -kohdan vieressä olevaa **NÄYTÄ**-painiketta avautuu uusi välilehti, jossa näet laskutustiedot eri tuotteille.  
-
-Välilehdeltä näet mm.:
-
-- minä päivinä laskuja muodostetaan automaattisesti  
-- minä päivinä luodut laskut lähetetään automaattisesti (laskut lähtevät matkaan noin klo 19 määrättynä päivänä/päivinä)
-- eri tuotteiden huomautusajan maksumuistutuksille  
-
-Laskun muodostamistietoja voidaan muokata **vain TaikaTilauksen puolelta**.  
-Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
-
-![Ylläpito](/img/ohjeet/paakayttaja3.png)
-*Laskujen muodostamistiedot -näkymä.*
-
 ### Yleiset asetukset
 
 - **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä.  
 - **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen.
-- **Etusivun asiakkaiden max. näyttömäärä** -kenttään kirjataan, kuinka monta asiakasta näytetään enintään etusivun hakulistassa.  
-- **Käyttäjätunnukset-osio näkyvissä kontaktikortilla** – kentän aktivoidessa kontaktikortilla näytetään *Käyttäjätunnukset*-osio, jossa hallinnoidaan asiakkaan käyttäjätunnuksia ja kirjautumisia (esim. digilehti ja asiakasportaali).  
-- **Tekstiviestien max. lähetysmäärä päivässä** -kenttään syötetään luku (0–10 000), joka kertoo, kuinka monta tekstiviestiä voi lähettää päivittäin ohjelman avulla.
 - **Lehtien painoaineistossa minimi nippukoko** -kenttään annetaan lehtien nippujen minimikoko.
 
 ![Ylläpito](/img/ohjeet/paakayttaja2.png)
 
 ### Laskutus
 
-- **Kontaktin perintäkielto -kenttä käytössä** -kentän aktivoimalla asiakaskortin *Laskutustiedot*-osioon tulee näkyviin *Perintäkielto*-kenttä, jonka aktivoimalla kyseisen asiakkaan laskuista ei lähetetä maksumuistutuksia eikä niitä peritä.  
 - **Laske laskun summat 5:llä desimaalilla** -kentän aktivoidessa laskujen summat lasketaan viiden desimaalin tarkkuudella yksikköhinnasta.  
-- **Ei laskutuslisää -kenttä käytössä** -kentän aktivoidessa asiakaskortille tulee näkyviin *Ei laskutuslisää* -kenttä.
 - **Myyjätieto laskulle** -kentän aktivoidessa *Lasku*-näkymään ilmestyy *Myyjä*-valintalista.
 - **Raportoinnissa Reskontraluettelo 2 käytössä** – <!-- ??? -->  
+
+### Kontaktikortti ja asiakashaku
+
+Kontaktikortin kenttien näkyvyys (Käyttäjätunnukset-osio, maksumuistutuskielto ja Ei laskutuslisää) sekä etusivun asiakashaun asetukset ovat [Asiakastiedot](/docs/ohjeet/asetukset/asiakastiedot#kontaktikortti-ja-asiakashaku) -välilehdellä. Entinen *Laskun muodostamistiedot* on nyt Laskut-välilehden [Laskutussäännöt](/docs/ohjeet/asetukset/laskut/laskutussaannot).
 
 ### Tilausasetukset
 
