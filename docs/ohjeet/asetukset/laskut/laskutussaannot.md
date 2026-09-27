@@ -21,7 +21,7 @@ Laskutussääntöjä voidaan muokata **vain TaikaTilauksen puolelta**.
 
 ## Laskennan asetukset
 
-Sivun alaosassa on laskennan asetus, jonka voi tallentaa sivulta. Osio näkyy ja on muutettavissa vain **pääkäyttäjille**.
+Sivun alaosassa on laskennan asetus, jonka voi tallentaa sivulta. Osio näkyy ja on muutettavissa vain **TaikaTilaukselle**. Jos haluat muuttaa asetusta, ota yhteyttä: **tuki@taikatilaus.fi**
 
 - **Laske laskun summat 5:llä desimaalilla** – laskujen summat lasketaan viiden desimaalin tarkkuudella tuoterivien yksikköhinnasta alkaen. Tällöin asiakkaan laskulla näkyvien tuoterivien summa voi poiketa senttien verran laskun loppusummasta, joten käytä asetusta vain erityistapauksissa.
 Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**

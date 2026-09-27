@@ -73,7 +73,7 @@ Näitä asetuksia tarvitaan, kun *Saldo käytössä* tai *Maksun palautus käyt�
 ## Digilehti
 
 - **Kirjautumistunniste käytössä** – kentän aktivoidessa ePaper-kirjautumisrajapinnassa käytetään vaihtuvaa käyttäjäkohtaista kirjautumistunnistetta.
-- **Testaa Wordpress-salasanan tarkistamista** – WordPress-migraatioissa käytettävä apuväline: anna WordPressin salasana ja sen salattu vastine, niin TaikaTilaus kertoo, täsmäävätkö ne.
+- **Testaa Wordpress-salasanan tarkistamista** (vain TaikaTilaus) – WordPress-migraatioissa käytettävä apuväline: anna WordPressin salasana ja sen salattu vastine, niin TaikaTilaus kertoo, täsmäävätkö ne.
 
 ## Liittyvät asetukset muilla välilehdillä
 
