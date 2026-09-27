@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6.5
-description: Ilmoitusten hallinta — ilmoitusvarauslomakkeen, myyjien, laskutuksen, aineistosivun ja poliittisen mainonnan (TTPA) asetukset.
+description: Ilmoitusten hallinta — integraatiot (Anygraaf Planner, Google Ad Manager), ilmoitusvarauslomakkeen, myyjien, laskutuksen, aineistosivun ja poliittisen mainonnan (TTPA) asetukset.
 ---
 
 # Ilmoitusten hallinta
@@ -12,6 +12,13 @@ Osa asetuksista on **TaikaTilauksen** hallinnoimia (esim. ilmoitusmyynnin käytt
 Asiakkaan itse jättämien ilmoitusten asetukset ovat edelleen **Asiointipalvelut → [OmaIlmoitus](/docs/ohjeet/asetukset/asiointipalvelut/omailmoitus)** -välilehdellä.
 
 <!-- Kuvakaappaukset otetaan uudesta näkymästä. -->
+
+## Integraatiot (TaikaTilaus)
+
+Integraatio-osio näkyy vain TaikaTilauksen käyttäjille, ja se on heti *Käyttöönotto*-osion jälkeen.
+
+- **Anygraaf Planner -integraatio käytössä** – ilmoitusvarauksilla vaaditaan pakollisina Plannerin edellyttämät kentät: ilmoitusosasto, palstoja ja korkeus. Katso [Anygraaf Planner](/docs/ohjeet/integraatiot/planner).
+- **Google Ad Manager käytössä** ja **OAuth2 Secrets JSON polku** – Google Ad Manager -liittymä digimainonnalle. Liittymä edellyttää Ad Managerista saatua OAuth2 secrets JSON -tiedostoa, jonka polku annetaan asetuksessa.
 
 ## Ilmoitusvarauslomake
 
@@ -29,6 +36,7 @@ Asiakkaan itse jättämien ilmoitusten asetukset ovat edelleen **Asiointipalvelu
 
 ## Myyjät
 
+- **Myyjätieto laskulle** – kentän aktivoidessa *Lasku*-näkymään ilmestyy *Myyjä*-valintalista. Myyjät haetaan käyttäjistä, joilla on Myyjä-rooli.
 - **Näytä myyjään liitetty laskutustieto** – näyttää, millä tiedoilla ilmoitusvarauksen lasku luodaan.
 - **Käyttäjätunnukset, joilla oikeus myyntikiellon käsittelyyn** – kenttään syötetään niiden käyttäjien ID:t puolipisteillä eroteltuina, joilla on oikeus käsitellä ilmoitusasiakkaan myyntikieltoa. Teksti **KAIKKI** antaa oikeuden kaikille käyttäjille.
 

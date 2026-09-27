@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-description: Hallinta — Viestit, Tunnukset, Tapahtumaloki.
+description: Hallinta — Viestit, Tunnukset, Tapahtumaloki, Tiedostojen siirto.
 ---
 
 # Hallinta
@@ -333,3 +333,10 @@ Voit siirtyä edelliseen tai seuraavaan asiakkaaseen **Edellinen** / **Seuraava*
 
 7. Käsittele tiedot Excelissä haluamallasi tavalla ja **sovi TaikaTilauksen kanssa** tietojen tuomisesta takaisin järjestelmään.  
    Ole tarkkana, että **rivien KontaktiID-arvot pysyvät oikeilla riveillä.**
+
+## Tiedostojen siirto
+
+**Tiedostojen siirto** -välilehti näkyy yrityksen **pääkäyttäjille**. Sen kautta tiedostoja siirretään turvallisesti TaikaTilauksen ja asiakkaan välillä.
+
+- **Toimita tiedosto TaikaTilaukselle** – valitse tiedosto ja klikkaa *Toimita tiedosto*. Käytä esimerkiksi asiakastietojen massapäivityksiin. Ilmoita toimituksesta osoitteeseen **tuki@taikatilaus.fi**.
+- **TaikaTilauksen toimittamat tiedostot** – lista tiedostoista, jotka TaikaTilaus on toimittanut sinulle. Lataa tiedosto klikkaamalla sen nimeä.

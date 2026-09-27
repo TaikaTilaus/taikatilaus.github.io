@@ -47,7 +47,7 @@ Erillistuotteelle asetetaan seuraavat tiedot:
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus2.png)
 
-### Ylläpitoasetukset
+### Asetukset
 
 Näitä asetuksia tarvitaan saldo- ja rahanpalautus-toiminnon käyttöönottoon.
 
@@ -57,7 +57,7 @@ Näitä asetuksia tarvitaan saldo- ja rahanpalautus-toiminnon käyttöönottoon.
 - **Maksetun laskun rahan palautus** -kentän aktivoimalla laskulle näkyy painike, jonka kautta lasku voidaan hyvittää ja sen maksettu summa siirtää asiakkaalle palautettavaksi.
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-pal7.png)
-*Löydät asetukset: Asetukset/Ylläpito-välilehdeltä.*
+*Löydät asetukset: Asetukset → [Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta#ennakkomaksu-ja-maksun-palautus) -välilehdeltä.*
 
 ![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
 

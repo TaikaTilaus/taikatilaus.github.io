@@ -70,7 +70,7 @@ Kun yhdenkin ilmoitusvarauksen aineisto muuttuu, kaikki saman julkaisunumeron ti
 
 ### Julkaisujen lyhenteet
 
-Jokaiselle lehtinimikkeelle tulee määrittää lyhenne asetuksissa (JULKAISUJEN_LYHENTEET). Lyhennettä käytetään CSV-tiedoston nimessä ja aineistopolun muodostamisessa. Esimerkiksi:
+Jokaiselle lehtinimikkeelle tulee määrittää lyhenne asetuksissa (JULKAISUJEN_LYHENTEET, Asetukset → Tuotteet & Julkaisut → Kanavat).Lyhennettä käytetään CSV-tiedoston nimessä ja aineistopolun muodostamisessa. Esimerkiksi:
 
 ```
 Moottoriurheilu: MU
@@ -85,7 +85,7 @@ Sallitut ilmoitusosastot on määritetty lehtikohtaisesti. Jos ilmoitusvarauksen
 
 ## Käyttöönotto
 
-1. **Aktivoi integraatio** — Asetukset-sivulla valitse "Anygraaf Planner -integraatio käytössä".
+1. **Aktivoi integraatio** — TaikaTilaus valitsee Asetukset → Ilmoitusten hallinta → Integraatiot -osiosta "Anygraaf Planner -integraatio käytössä".
 2. **Määritä julkaisujen lyhenteet** — lisää asetuksiin jokaisen lehden lyhenne.
 3. **Sovi FTP-yhteys** — TaikaTilaus konfiguroi FTP-siirron tausta-ajoon.
 4. **Tarkista ilmoitusosastot** — varmista, että käytettävät ilmoitusosastot vastaavat Plannerin osastoja.

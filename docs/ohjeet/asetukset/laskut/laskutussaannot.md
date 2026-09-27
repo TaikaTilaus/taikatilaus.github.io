@@ -18,6 +18,12 @@ Taulukosta näet mm.:
 - eri tuotteiden huomautusajan maksumuistutuksille  
 
 Laskutussääntöjä voidaan muokata **vain TaikaTilauksen puolelta**.  
+
+## Laskennan asetukset
+
+Sivun alaosassa on laskennan asetus, jonka voi tallentaa sivulta. Osio näkyy ja on muutettavissa vain **pääkäyttäjille**.
+
+- **Laske laskun summat 5:llä desimaalilla** – laskujen summat lasketaan viiden desimaalin tarkkuudella tuoterivien yksikköhinnasta alkaen. Tällöin asiakkaan laskulla näkyvien tuoterivien summa voi poiketa senttien verran laskun loppusummasta, joten käytä asetusta vain erityistapauksissa.
 Jos haluat muuttaa näitä asetuksia, ota yhteyttä: **tuki@taikatilaus.fi**
 
 ![Laskutussäännöt](/img/ohjeet/paakayttaja3.png)

@@ -1,14 +1,34 @@
 ---
 sidebar_position: 3
-description: Asiakastiedot — Asiakasryhmät ja roolit, Tilauksien katkaisujen syiden luettelu.
+description: Asiakastiedot — etusivun asiakashaku, kontaktikortin kentät, asiakasryhmät ja -roolit sekä koko asiakasrekisteri Exceliin.
 ---
 
 # Asiakastiedot
 
-**Asiakastiedot**-välilehdellä voi lisätä **asiakasryhmiä** ja **-rooleja**, sekä määrittää **tilausten katkaisujen syitä**.
+**Asiakastiedot**-välilehdellä määritetään **etusivun asiakashaku** ja **kontaktikortin** kentät, kuten **asiakasryhmät** ja **-roolit**. Asetukset ovat samassa järjestyksessä kuin kentät kontaktikortilla.
+
+Tilausten **katkaisun syyt** määritetään [Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta#katkaisut) -välilehdellä.
 
 ![Asiakastiedot](/img/ohjeet/muut-asetukset.png)
 *Asiakastiedot-välilehti*
+
+## Etusivun asiakashaku
+
+Osio näkyy ja on muutettavissa vain **pääkäyttäjille**.
+
+- **Etusivun asiakkaiden max. näyttömäärä** – kuinka monta asiakasta näytetään enintään etusivun hakulistassa.
+- **Etusivulla Passiivien yliviivaus käytössä** – PASSIIVINEN-asiakasryhmään kuuluvat yliviivataan etusivun haussa.
+- **Etusivulla Asiakasroolien näyttäminen käytössä** – etusivun haussa näytetään kontaktin asiakasroolit.
+
+## Kontaktikortti
+
+Laskutustiedon kentät ja Käyttäjätunnukset-osio näkyvät ja ovat muutettavissa vain **pääkäyttäjille**. Asiakasryhmiä ja -rooleja voivat muokata kaikki asetusten käyttäjät.
+
+- **Ei laskutuslisää -kenttä käytössä** – kontaktikortille tulee *Ei laskutuslisää* -kenttä.
+- **Kontaktin maksumuistutuskielto -kenttä käytössä** – kontaktikortille tulee *Maksumuistutuskielto*-kenttä, jonka aktivoimalla asiakkaan laskuista ei lähetetä maksumuistutuksia.
+- **Asiakasryhmät** ja **Asiakasroolit** – ks. alla.
+- **Käyttäjätunnukset-osio näkyvissä kontaktikortilla** – kontaktikortilla näytetään *Käyttäjätunnukset*-osio, jossa hallinnoidaan asiakkaan käyttäjätunnuksia ja kirjautumisia (esim. digilehti ja asiakasportaali).
+- **Jakelupalaute käytössä** – kontaktikortille tulee *Jakelupalaute*-osio, johon OmaPalvelussa annetut jakelupalautteet kirjautuvat. Asetus näkyy ja on muutettavissa vain TaikaTilaukselle.
 
 ### Asiakasryhmät ja roolit
 
@@ -24,36 +44,14 @@ Tämä on hyödyllistä esimerkiksi **kohdennetun markkinoinnin** kannalta.
 ![Ryhmittely](/img/ohjeet/ryhmittely.png)
 *Asiakasryhmän ja -roolin voi asettaa asiakkaalle asiakaskortin Ryhmittely-alavalikossa.*
 
-### Tilauksien katkaisujen syiden luettelu
+## Asiakasrekisteri
 
-**Katkaisun syyt** -valikkoon kirjataan mahdolliset tilauksen katkaisusyyt, jotka voidaan valita tilauksen katkaisun yhteydessä (esim. *"Lehti on liian kallis"*).
+Osio näkyy vain **pääkäyttäjille**.
 
-![Katkaisun syyt](/img/ohjeet/katkaisun-syyt.png)
-*Voit asettaa katkaisujen syyt ja karsintaperusteet Muut asetukset -välilehdeltä*
+**Koko asiakasrekisteri Exceliin**
 
-![Katkaisun syyt](/img/ohjeet/katkaisun-syyt2.png)
-*Voit valita tällä välilehdellä asettamasi syyt tilauksen katkaisun yhteydessä.*
+- Koostaa raportin koko asiakasrekisteristä Exceliin, sekä tilaus-, lasku- ja myyntitiedot sisältävään taulukkoon.  
+- Raportin luominen suuresta asiakasrekisteristä voi kestää jonkin aikaa — haku kestää noin 1000 kontaktia / 1 minuutti.  
+- Kun raportti on luotu, ilmestyy linkki, josta sen voi ladata.  
 
-**Asiakastiedot-välilehdellä** voidaan määritellä, mitkä katkaisun syyt **sisältyvät Haut-välilehden ehtoon:** 
-`[KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT]`.  
-
-Tähän asetetaan ne katkaisun syyt, jotka halutaan **karsia hausta tai raporteilta.**
-
-Esimerkiksi **[Haut](/docs/ohjeet/yleiset_ominaisuudet/haut)**-välilehdellä voidaan hakea katkaistujen tilausten asiakkaita soittolistaan.  
-
-Jos halutaan rajata pois katkaisut, jotka johtuvat tilaajan kuolemasta, määritellään **Asetukset → Asiakastiedot** -välilehdeltä, että katkaisusyy **“ESTE: Kuollut”** karsitaan hausta, kun hakuehtona on **KAIKKI, PAITSI ASETUKSISSA MÄÄRITELLYT.**
-
-![Muut asetukset](/img/ohjeet/muut-asetukset3.png)
-
-![Muut asetukset](/img/ohjeet/muut-asetukset4.png)
-
-### Kontaktikortti ja asiakashaku
-
-Osio näkyy ja on muutettavissa vain **pääkäyttäjille**.
-
-- **Etusivun asiakkaiden max. näyttömäärä** – kuinka monta asiakasta näytetään enintään etusivun hakulistassa.
-- **Etusivulla Passiivien yliviivaus käytössä** – PASSIIVINEN-asiakasryhmään kuuluvat yliviivataan etusivun haussa.
-- **Etusivulla Asiakasroolien näyttäminen käytössä** – etusivun haussa näytetään kontaktin asiakasroolit.
-- **Käyttäjätunnukset-osio näkyvissä kontaktikortilla** – kontaktikortilla näytetään *Käyttäjätunnukset*-osio, jossa hallinnoidaan asiakkaan käyttäjätunnuksia ja kirjautumisia (esim. digilehti ja asiakasportaali).
-- **Kontaktin maksumuistutuskielto -kenttä käytössä** – kontaktikortille tulee *Maksumuistutuskielto*-kenttä, jonka aktivoimalla asiakkaan laskuista ei lähetetä maksumuistutuksia.
-- **Ei laskutuslisää -kenttä käytössä** – kontaktikortille tulee *Ei laskutuslisää* -kenttä.
+![Koko asiakasrekisteri Exceliin](/img/ohjeet/paakayttaja9.png)

@@ -1,102 +1,27 @@
 ---
 sidebar_position: 8
-description: Ylläpito — yleiset asetukset, laskutus, Ennakkomaksu ja Maksun palautus.
+description: Ylläpito — välilehti on poistettu (syyskuu 2026). Tällä sivulla kerrotaan, minne sen asetukset ja toiminnot siirtyivät.
 ---
 
-# Ylläpito
+# Ylläpito (poistunut)
 
-![Ylläpito](/img/ohjeet/paakayttaja.png)
+**Ylläpito**-välilehti on poistettu Asetuksista syyskuussa 2026. Sen asetukset ja toiminnot on siirretty aihepiirinsä välilehdille:
 
-**Ylläpito**-välilehden tietoja voivat muokata vain palvelun **pääkäyttäjiksi nimetyt käyttäjät**. 
+| Asetus tai toiminto | Uusi paikka |
+|---|---|
+| Yrityksen nimi | TaikaTilauksen hallinnoima asiakkaan perustieto. Jos haluat muuttaa sitä, ota yhteyttä: **tuki@taikatilaus.fi** |
+| Julkaisujen lyhenteet | [Tuotteet & Julkaisut → Kanavat](/docs/ohjeet/asetukset/tuotteet-ja-julkaisut/kanavat) |
+| Lehtien painoaineistossa minimi nippukoko | [Postitus → Postitus- ja painoaineisto](/docs/ohjeet/asetukset/postitus/painoaineisto) |
+| Laske laskun summat 5:llä desimaalilla | [Laskut → Laskutussäännöt](/docs/ohjeet/asetukset/laskut/laskutussaannot) |
+| Laskun muodostamistiedot | [Laskut → Laskutussäännöt](/docs/ohjeet/asetukset/laskut/laskutussaannot) |
+| Myyjätieto laskulle | [Ilmoitusten hallinta → Myyjät](/docs/ohjeet/asetukset/ilmoitusten-hallinta) |
+| Kontaktikortin kentät ja etusivun asiakashaku | [Asiakastiedot](/docs/ohjeet/asetukset/asiakastiedot) |
+| Koko asiakasrekisteri Exceliin | [Asiakastiedot → Asiakasrekisteri](/docs/ohjeet/asetukset/asiakastiedot#asiakasrekisteri) |
+| Tilausasetukset | [Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta) |
+| Ennakkomaksu (saldo) ja maksun palautus | [Tilausten hallinta → Ennakkomaksu ja Maksun palautus](/docs/ohjeet/asetukset/tilausten-hallinta#ennakkomaksu-ja-maksun-palautus) |
+| Ilmoitusmyynnin asetukset | [Ilmoitusten hallinta](/docs/ohjeet/asetukset/ilmoitusten-hallinta) |
+| Lataa tiedosto TaikaTilaukselta, Toimita tiedosto TaikaTilaukselle | [Hallinta → Tiedostojen siirto](/docs/ohjeet/yleiset_ominaisuudet/hallinta#tiedostojen-siirto) |
+| Muuta tiliöinnin tiliä | TaikaTilauksen ylläpitotoiminto. Jos tiliöinnin tiliä pitää muuttaa, ota yhteyttä: **tuki@taikatilaus.fi** |
+| Asiakkaan oman www-sivuston osoitteet | TaikaTilauksen hallinnoimia asetuksia; ota tarvittaessa yhteyttä: **tuki@taikatilaus.fi** |
 
-Välilehdeltä voi muokata mm.:
-
-- yrityksen ja sen tuotteiden perustietoja  
-- laskunumerosarjan alku- ja loppunumerointeja  
-- rajoituksia tekstiviestien määrälle per päivä  
-- jakelunippujen minimikokoa  
-- **OmaPalvelu**-toimintojen aktivointia  
-- **Paperilaskutuslisän** käyttöönottoa  
-
-Tilauksiin liittyvät asetukset ovat [Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta) -välilehdellä ja ilmoitusmyynnin asetukset [Ilmoitusten hallinta](/docs/ohjeet/asetukset/ilmoitusten-hallinta) -välilehdellä.
-
-Voit myös lähettää tiedostoja ylläpitäjälle, esimerkiksi asiakastietojen massapäivitystä varten, tai **noutaa tiedostoja ylläpitäjältä** tarkastamista varten.
-
-### Yleiset asetukset
-
-- **Yrityksen nimi** -kentästä voit muokata yrityksen nimeä.  
-- **Julkaisujen lyhenteet** -kenttään kirjataan eri lehtijulkaisujen nimien lyhenteet omille riveilleen.
-- **Lehtien painoaineistossa minimi nippukoko** -kenttään annetaan lehtien nippujen minimikoko.
-
-![Ylläpito](/img/ohjeet/paakayttaja2.png)
-
-### Laskutus
-
-- **Laske laskun summat 5:llä desimaalilla** -kentän aktivoidessa laskujen summat lasketaan viiden desimaalin tarkkuudella yksikköhinnasta.  
-- **Myyjätieto laskulle** -kentän aktivoidessa *Lasku*-näkymään ilmestyy *Myyjä*-valintalista.
-- **Raportoinnissa Reskontraluettelo 2 käytössä** – <!-- ??? -->  
-
-### Kontaktikortti ja asiakashaku
-
-Kontaktikortin kenttien näkyvyys (Käyttäjätunnukset-osio, maksumuistutuskielto ja Ei laskutuslisää) sekä etusivun asiakashaun asetukset ovat [Asiakastiedot](/docs/ohjeet/asetukset/asiakastiedot#kontaktikortti-ja-asiakashaku) -välilehdellä. Entinen *Laskun muodostamistiedot* on nyt Laskut-välilehden [Laskutussäännöt](/docs/ohjeet/asetukset/laskut/laskutussaannot).
-
-### Tilausasetukset
-
-Tilauksiin liittyvät asetukset, kuten *Uusi tilaus* -kenttä, kampanjat, paketit, lehtien tilaustavat ja tilausmyyjät, jaksotiedot sekä kestojatkon rajat, ovat omalla [Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta) -välilehdellään.
-
-### Ennakkomaksu ja Maksun palautus
-
-Näitä asetuksia tarvitaan [saldo ja rahan palautus](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/saldo) -toiminnon käyttöönottoon.
-
-- **Ennakkomaksujen (saldo) tili:** mille tilille saldoa lisätään ja käytetään
-- **Saldon käytön TuoteID**: sen erillistuotteen TuoteID, jota käytetään tuoterivin luomiseen laskulle, kun saldoa käytetään laskun maksamiseen.
-- **Maksun palautusten tili**: mille tilille palautettavat rahat merkitään odottamaan palautusta ja miltä palautukset kuitataan maksetuiksi
-- **Maksetun laskun rahan palautus** -kentän aktivoidessa laskulle tulee painike, jota painamalla voi hyvittää kyseisen laskun ja laskun maksetun summan voi siirtää asiakkaalle palautettavaksi
-
-![Tilaustiedot - Maksetun tilauksen katkaisu](/img/ohjeet/saldo-palautus3.png)
-
-### Ilmoitusmyynti
-
-Ilmoitusmyynnin asetukset, kuten ilmoitusvarauslomakkeen kentät, *Vapauta ilmoitusvaraus laskutukseen* -toiminto ja poliittisen mainonnan (TTPA) tiedot, ovat omalla [Ilmoitusten hallinta](/docs/ohjeet/asetukset/ilmoitusten-hallinta) -välilehdellään.
-
-### Osoitekentät
-
-Osoitekenttiin voidaan syöttää:
-
-- **Asiakkaan oman www-sivuston osoite** – URL-osoite, johon käyttäjä ohjataan esimerkiksi epäonnistuneen sisäänkirjautumisen jälkeen.  
-- **Asiakkaan oman www-sivuston TaikaTilaus-sisäänkirjauksen vastaanotto** – URL-osoite, jonne voidaan lähettää TaikaTilaus-ohjelman sisäänkirjautumistiedot.  
-- **Asiakkaan oman www-sivuston Palvelut-lomakkeen paluun vastaanotto** – URL-osoite, jonne käyttäjä ohjataan Palvelut-lomakkeelta esimerkiksi tilaamisen jälkeen.  
-
-![Ylläpito](/img/ohjeet/paakayttaja7.png)
-
-### Välilehden loppupään toiminnot
-
-![Ylläpito](/img/ohjeet/paakayttaja8.png)
-
-**Ylläpidon raportit**
-
-- Koostaa raportin koko asiakasrekisteristä Exceliin, sekä tilaus-, lasku- ja myyntitiedot sisältävään taulukkoon.  
-- Raportin luominen suuresta asiakasrekisteristä voi kestää jonkin aikaa — haku kestää noin 1000 kontaktia / 1 minuutti.  
-- Kun raportti on luotu, ilmestyy linkki, josta sen voi ladata.  
-
-![Ylläpito](/img/ohjeet/paakayttaja9.png)
-
-**Pääkäyttäjätoiminnot**  
-- Testaa WordPress-salasanan tarkistamista <!-- Tarkennus tarvitaan: mitä toiminto tekee käytännössä. -->
-
-**Muuta tiliöinnin tiliä**  
-- Painikkeesta painamalla avautuvat alla olevan kuvan mukaiset kentät, joista voi muuttaa yksittäisten tiliöintien tiliä.  
-
-![Ylläpito](/img/ohjeet/paakayttaja10.png)
-
-**Lataa tiedosto TaikaTilaukselta**  
-- Painikkeen kautta voit ladata TaikaTilauksen toimittamia tiedostoja. 
-
-![Ylläpito](/img/ohjeet/paakayttaja11.png)
-
-**Toimita tiedosto TaikaTilaukselle**  
-- Painikkeen kautta voit lähettää tiedostoja TaikaTilaukselle (esimerkiksi suuria muutoksia asiakasrekisterissä).  
-- Ilmoita tiedoston lähettämisestä osoitteeseen **tuki@taikatilaus.fi**.  
-
-![Ylläpito](/img/ohjeet/paakayttaja12.png)
-
+Poistetut asetukset (ei enää käytössä): *Tekstiviestien max. lähetysmäärä päivässä* ja *Raportoinnissa Reskontraluettelo 2 käytössä*.

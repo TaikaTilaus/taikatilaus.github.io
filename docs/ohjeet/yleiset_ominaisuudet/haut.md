@@ -99,7 +99,7 @@ Valmiita hakulistauksia voidaan käyttää esimerkiksi **markkinoinnissa** eri k
 Yläosan hakukriteereitä muuttamalla voidaan vaikuttaa myös **valmiiden hakujen tuloksiin** valittujen ehtojen mukaisesti.
 
 - Esimerkiksi **Katkaisun syy** -valikosta voi valita yhden tai useamman ehdon (käyttämällä *Ctrl*-painiketta valintojen yhteydessä), jolloin valitut ehdot **poissuljetaan** hakutuloslistaukselta.  
-- Kyseisen valikon vaihtoehdot määritellään **[Asetukset / Asiakastiedot](/docs/ohjeet/asetukset/asiakastiedot)** -näkymässä.
+- Kyseisen valikon vaihtoehdot määritellään **[Asetukset / Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta#katkaisut)** -näkymässä.
 
 ![Haut-välilehti](/img/ohjeet/estot.png)
 
