@@ -159,9 +159,7 @@ Jos **Verkkomaksu** on valittuna, mutta se on käytössä vain kertamaksuna, voi
 
 Valitse käytettävä verkkomaksupalvelu, johon tilaajat ohjataan maksamaan:
 - Ei käytössä  
-- **Paytrail**  
-- **Visma Pay**  
-- **Stripe**
+- **Paytrail**
 
 Valinnan jälkeen täydennä palvelukohtaiset tiedot:
 
@@ -172,11 +170,6 @@ Valinnan jälkeen täydennä palvelukohtaiset tiedot:
 - **Paytrail kauppiasvarmenne** – palveluntarjoajan myöntämä varmennesarja.  
   Huom: käytä vain 2023 jälkeen myönnettyjä varmennesarjoja.  
   Esimerkki testivarmenne: `SAIPPUAKAUPPIAS`
-
-**Visma Pay**
-- **Merchant ID**  
-- **Private Key**  
-- **API Key**
 
 ![Tilauslomake](/img/ohjeet/tilauslomake6.png)
 
@@ -194,7 +187,7 @@ Valinnan jälkeen täydennä palvelukohtaiset tiedot:
 
 Voit lisäksi määrittää markkinointilupakentille omat otsikot.  
 
-**Tietosuojaselosteen otsikko** ja **Tietosuojaselosteen osoite** määritetään osion viimeisissä kentissä.
+**Tietosuojalinkin teksti** määrittää tilauslomakkeen tietosuojaselostelinkin tekstin, esim. *Lue tietosuojaseloste*. Tyhjänä linkissä lukee *Lue tietosuojalauseke*, ja englannin- ja ruotsinkielisellä lomakkeella käytetään aina käännöstä. Linkki näkyy, kun tietosuojaselosteen osoite on annettu.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake7.png)
 
