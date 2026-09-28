@@ -17,6 +17,7 @@ description: Tilausten hallinta — tilausnäytön kentät, jaksot ja kestojatko
 - **Maksetun tilauksen katkaisu käytössä** – tilauslomakkeelle tulee *Maksetun tilauksen katkaisu* -painike. Sen avulla tilauksen voi katkaista ja jo maksetun rahan siirtää asiakkaan saldoksi tai palautettavaksi. Tilit ja tuote määritetään alla [Ennakkomaksu ja Maksun palautus](#ennakkomaksu-ja-maksun-palautus) -osiossa.
 - **Saldo käytössä** – asiakkaalle tulee käyttöön *Saldo*-toiminto, jonne voidaan siirtää rahaa esim. tilauksen tuotteen vaihdosta tai suorituksen liikamaksusta. Saldo huomioidaan uutta laskua tehtäessä.
 - **Maksun palautus käytössä** – asiakkaalle tulee käyttöön *Maksun palautus* -toiminto, jolla asiakkaalle palautettava summa kirjataan odottamaan palautusta.
+- **Lehti on maksuton (piilota maksullisuus)** – valitaan, kun lehti on tilaajille maksuton eikä tilauksista laskuteta. Ohjelmasta piilotetaan maksamiseen liittyvät kohdat: Laskut-valikko, tilausten hinnat, kontaktikortin laskutustiedot, asiakasportaalin laskut sekä laskutuksen käyttöoikeudet.
 
 ## Tilausnäyttö
 
