@@ -71,7 +71,7 @@ Voit rajata hakua myös tuoteryhmien ja tuotteiden perusteella.
 2. Valitse tarvittaessa tuote **Lisää tuote…** -valikosta.
 3. Napsauta **Hae**.
 
-Voit valita useita tuoteryhmiä ja tuotteita. Valinnat näkyvät valikoiden alapuolella. Poista yksittäinen valinta napsauttamalla sen vieressä olevaa **rastia**.
+Voit valita useita tuoteryhmiä ja tuotteita. Valinnat näkyvät valikoiden alapuolella. Poista yksittäinen valinta napsauttamalla sen vieressä olevaa **rastia**. Tuotesuodatus toimii tuotteen tunnisteen (**TuoteID**) mukaan.
 
 ![Tilausten rajaus tuoteryhmän ja tuotteen mukaan](/img/versio2/tilaukset4.png)
 
@@ -109,10 +109,11 @@ Esikatselussa voit:
 
 ![Tilauksen esikatselu tilausluettelossa](/img/versio2/tilaukset10.png)
 
-Tilauslistan siniset linkit avaavat kyseisen tilauksen, tilaajan tai maksajan tiedot uuteen välilehteen.
+Tilausluettelon siniset asiakasnumerot (**Tilaaja**- ja **Maksaja**-sarakkeet) avaavat kyseisen asiakkaan tiedot uuteen välilehteen. Tilauksen voit avata uuteen välilehteen rivin nuolella varustetulla laatikkokuvakkeella.
 
-- Avaa tilauksen tiedot napsauttamalla **tilausnumeroa** tai rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
+- Avaa tilauksen esikatselu napsauttamalla riviä tai muokkaa tilausta rivin vasemmassa reunassa olevalla **kynäkuvakkeella**.
 - Avaa tilaajan tai maksajan asiakaskortti napsauttamalla kyseisen asiakkaan **asiakasnumeroa**.
+- Rivin alussa oleva **Avaa uuteen välilehteen** -painike avaa tilauksen omalle välilehdelleen.
 
 ![Tilauksen, tilaajan ja maksajan linkit tilausluettelossa](/img/versio2/tilaukset6.png)
 
@@ -145,7 +146,7 @@ Tilausten perustietojen lisäksi voit näyttää esimerkiksi seuraavat sarakkeet
 | **Kestojatkon luoma** | Onko tilaus kestotilaus, jota on jatkettu |
 | **Stripen luoma** | Onko tilaus kestotilaus, joka maksetaan Stripen kautta. |
 | **Tilauslahja** | Kuuluuko tilaukseen tilauslahja. |
-| **Lisätiedot** | Tilauksen sisäiset lisätiedot. |
+| **Sisäiset lisätiedot** | Tilauksen sisäiset lisätiedot. |
 | **Lisätiedot tilaajalle** | Tilauksen asiakkaalle näkyvät lisätiedot. |
 
 Sarakkeen piilottaminen ei poista tilauksen tietoja, vaan muuttaa ainoastaan luettelon näkymää.
@@ -158,7 +159,7 @@ Valikon alareunan **Lisäasetukset**-kohdasta pääset tilausluettelon tarkempii
 
 Avaa tilausluettelon lisäasetukset valitsemalla **Sarakkeet → Lisäasetukset**.
 
-**Lisätiedot-sarakkeet**-valikossa voit määrittää, miten **Lisätiedot**- ja **Lisätiedot tilaajalle** -sarakkeiden tekstit näytetään tilausluettelossa:
+**Lisätiedot-sarakkeet**-valikossa voit määrittää, miten **Sisäiset lisätiedot**- ja **Lisätiedot tilaajalle** -sarakkeiden tekstit näytetään tilausluettelossa:
 
 | Valinta | Merkitys |
 | --- | --- |
@@ -238,14 +239,21 @@ Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lo
 | **Päättyy** | Tilauksen päättymispäivä. |
 | **Tilauspäivä** | Päivä, jolloin tilaus on tehty. |
 | **Määrä** | Tilattava määrä. |
-| **Tilaustapa** | Valitse, mitä kautta tilaus on saatu. |
+| **Tilaustapa** | Valitse, mitä kautta tilaus on saatu, esim. puhelin, sähköposti. |
 | **Viitteenne** | Tilaajan tai maksajan ilmoittama viite. |
 | **Kampanjatunniste** | Tilaukseen liittyvä kampanjatunniste. |
-| **Uuden tilaajan tilaus** | Valitse, jos kyseessä on uuden tilaajan tilaus. |
-| **Lisätiedot** | Tilaukseen liittyvät sisäiset lisätiedot. |
+| **Sisäiset lisätiedot** | Teksti näkyy vain järjestelmän hallitsijalle, ei asiakkaalle.|
 | **Lisätiedot tilaajalle** | Tilaajalle näytettävät lisätiedot. Nämä näytetään erillään sisäisistä lisätiedoista. |
 
-![Uuden tilauksen tilaustiedot](/img/versio2/uusi-tilaus4.png)
+![Uuden tilauksen tilaustiedot](/img/versio2/uusi-tilaus6.png)
+
+#### Huomiot ja virheilmoitukset
+
+- Jos asiakas on estolistalla, lomake näyttää varoituksen tilausta luotaessa.
+- Tilauksen päättymispäivä ei voi olla virheellinen (esimerkiksi ennen alkupäivää). Tallennus estetään ja näytetään virheilmoitus.
+- Tietoja on muutettu -huomio näkyy, kun lomakkeen tietoja on muutettu ja tiedot tulee tallentaa.
+
+![Tilauksen huomiot](/img/versio2/uusi-tilaus4.png)
 
 ### Hinnoittelu
 
