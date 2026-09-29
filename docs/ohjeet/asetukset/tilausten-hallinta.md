@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6.4
-description: Tilausten hallinta — tilausnäytön kentät, jaksot ja kestojatko, katkaisun syyt, ennakkomaksu ja maksun palautus, digilehden kirjautumistunniste sekä TaikaTilauksen hallinnoimat tilausominaisuudet.
+description: Tilausten hallinta — tilausnäytön kentät, jaksot ja kestojatko, katkaisun syyt, ennakkomaksu ja maksun palautus, digilehden kirjautumistunniste ja maksumuurin paluuosoitteet sekä TaikaTilauksen hallinnoimat tilausominaisuudet.
 ---
 
 # Tilausten hallinta
@@ -74,7 +74,15 @@ Näitä asetuksia tarvitaan, kun *Saldo käytössä* tai *Maksun palautus käyt�
 ## Digilehti
 
 - **Kirjautumistunniste käytössä** – kentän aktivoidessa ePaper-kirjautumisrajapinnassa käytetään vaihtuvaa käyttäjäkohtaista kirjautumistunnistetta.
-- **Testaa Wordpress-salasanan tarkistamista** (vain TaikaTilaus) – WordPress-migraatioissa käytettävä apuväline: anna WordPressin salasana ja sen salattu vastine, niin TaikaTilaus kertoo, täsmäävätkö ne.
+
+### Maksumuuri (TaikaTilaus)
+
+Maksumuurin asetukset näkyvät ja ovat muutettavissa vain TaikaTilaukselle. Jos haluat muuttaa niitä, ota yhteyttä: **tuki@taikatilaus.fi**
+
+- **Maksumuurin kirjautumissivu** – linkki TaikaTilauksen kirjautumissivulle (`/oprp/k.aspx`), jolle lehden verkkosivuilta ohjataan kirjautumaan.
+- **Paluuosoitteet** – osoitteet, joihin käyttäjä ohjataan onnistuneen kirjautumisen jälkeen. Kirjautumisen tiedot lisätään osoitteen perään. Jos julkaisijalla on useampi lehti, jokaisella lehdellä voi olla oma paluuosoitteensa. Lehti valitaan kirjautumissivun `l`-parametrilla.
+
+Kirjautumisen paluutiedon voi testata [Hallinta → Tunnukset](/docs/ohjeet/yleiset_ominaisuudet/hallinta#kirjautumisen-testaus-taikatilaus) -välilehdellä.
 
 ## Liittyvät asetukset muilla välilehdillä
 
