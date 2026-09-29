@@ -100,7 +100,9 @@ Laskurivin vasemmassa reunassa ovat seuraavat toimintopainikkeet:
 - **Kynäkuvake:** avaa laskun tiedot muokattavaksi.
 - **Tulostinkuvake:** tulostaa laskun PDF-muodossa.
 
-Voit avata laskun uuteen välilehteen myös napsauttamalla sinistä **laskunumeroa**.
+Rivin alussa oleva **Avaa uuteen välilehteen** -painike avaa laskun omalle välilehdelleen.
+
+Tilausten **Maksettu**-päivä päivittyy heti, kun laskun maksu kuitataan.
 
 <!-- Avaa maksajan asiakaskortti napsauttamalla **Maksaja**-sarakkeessa näkyvää asiakasnumeroa. -->
 

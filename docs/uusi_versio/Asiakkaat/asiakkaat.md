@@ -44,6 +44,8 @@ Esimerkiksi valinnoilla **Yritys — Ryhmä — AUTOLIIKKEET** haetaan asiakkaat
 
 Käytettävissä olevat asiakastyypit ja ryhmät määritetään järjestelmän asetuksissa.
 
+Osoite-ehdot (katuosoite, postinumero, postitoimipaikka jne.) hakevat myös väliaikaisesta osoitteesta.
+
 ![Asiakkaiden rajaus asiakastyypin ja ryhmän mukaan](/img/versio2/lisahaku.png)
 
 #### Kenttäkohtaisten hakuehtojen lisääminen
@@ -104,7 +106,7 @@ Asiakasluettelossa näet asiakkaiden perustiedot ja tilauksiin liittyvät merkin
 | Sarake | Sisältö |
 | --- | --- |
 | **Asiakasnro** | Asiakkaan yksilöllinen asiakasnumero. |
-| **Nimi** | Asiakkaan nimi. |
+| **Nimi** | Asiakkaan nimi. Kuolleeksi merkityllä asiakkaalla on luettelossa **Kuollut**-merkki nimen perässä.|
 | **Tilaukset** | Asiakkaan tilauksiin liittyvät lehtien tai kanavien lyhenteet. |
 | **Yritys** | Asiakkaan yrityksen nimi. |
 | **Katuosoite** | Asiakkaan katuosoite. |
@@ -112,8 +114,6 @@ Asiakasluettelossa näet asiakkaiden perustiedot ja tilauksiin liittyvät merkin
 | **Sähköposti** | Asiakkaan sähköpostiosoite. |
 | **Puhelin** | Asiakkaan puhelinnumero. |
 | **Maa** | Asiakkaan maatunnus. |
-
-Avaa asiakkaan tiedot uuteen välilehteen napsauttamalla **asiakasnumeroa**.
 
 ![Asiakasluettelo ja asiakkaiden perustiedot](/img/versio2/asiakasluettelo2.png)
 
@@ -133,9 +133,10 @@ Esikatselussa voit:
 
 ### Asiakasluettelon kuvakkeet
 
-Asiakasrivin vasemmassa reunassa on kaksi toimintopainiketta:
+Asiakasrivin vasemmassa reunassa on kolme toimintopainiketta:
 
 - **Kynäkuvake:** avaa asiakkaan tiedot muokattavaksi.
+- **Avaa uuteen välilehteen**: avaa asiakkaan omalle välilehdelleen.
 - **Keräilylistakuvake:** lisää asiakkaan keräilylistalle.
 
 Asiakkaan nimen edessä oleva kuvake kertoo asiakastyypin:

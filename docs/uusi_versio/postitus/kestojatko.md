@@ -17,10 +17,14 @@ Sivun oikeassa yläreunassa olevasta **Ohje kestotilausten jatkamiseen** -linkis
 
 Kestojatko tehdään yleensä ennen osoiteaineiston lähettämistä painoon.
 
-1. Valitse **Lehti**.
+1. Valitse **Lehdet**.
 2. Merkitse **Kestotilausten päättymisen alkupäivä** -kenttään sama päivämäärä kuin edellisen jatkamisajon hakuvälin loppupäivä.
 3. Määritä **Kestotilausten päättymisen loppupäivä** alla olevan ohjeen mukaisesti.
 4. Napsauta **Hae jatkettavat kestotilaukset**.
+
+**Lehdet.** Voit valita usean lehden kerralla ruksaamalla ne listasta. Painikkeella **valitse kaikki / poista valinnat** valitset tai tyhjennät kaikki lehdet. Jos vain yksi lehti on käytössä, se valitaan automaattisesti. Aiemmin käytetty lehtivalinta muistetaan seuraavalle kerralle. Lehdet, joita ei enää ole, jätetään pois.
+
+Kukin valittu lehti haetaan ja jatketaan omana ajonaan, samoin kuin yöajossa: jokaisella lehdellä on oma loki ja oma raportti. Vahvistusikkuna kertoo, montako kestotilausta jatketaan "lehdille" (useita) tai "lehdelle" (yksi). Esikatselun rivit näytetään yhdessä listassa lehtien valintajärjestyksessä.
 
 Päivämäärillä rajataan haku tilauksiin, joiden päättymispäivä osuu valitulle aikavälille. Edellisen ajon hakuvälin voit tarkistaa **Aikaisemmat jatkamiset** -luettelosta.
 
