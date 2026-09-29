@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: Tilauslomake — Yleiset asetukset, Tilaustuotteen valinta, Yhteystiedot.
+description: Tilauslomake — Yleiset asetukset, Tilaustuotteen valinta, Yhteystiedot, alennuskoodi.
 ---
 
 # Tilauslomake
@@ -100,12 +100,41 @@ Mahdollisia yhteystietokenttiä ovat mm.:
 - Maa  
 - Puhelin  
 - Asiakasroolit - asiakasryhmä
-- Kampanjatunniste - tunniste, jolla tilaus ryhmitellään tiettyyn kampanjaan kuuluvaksi
+- Kampanjatunniste - tunniste, jolla tilaus ryhmitellään tiettyyn kampanjaan kuuluvaksi. Voidaan käyttää myös alennuskoodina, katso [Alennuskoodi tilauslomakkeella](#alennuskoodi-tilauslomakkeella).
 
 ![Tilauslomake](/img/ohjeet/tilauslomake-yhteystiedot.png)
 
 ![Tilauslomake](/img/ohjeet/tilauslomake13.png)
 *Aktivoitavat yhteystiedot näkyvät ympäröidyissä kohdissa.*
+
+#### Alennuskoodi tilauslomakkeella
+
+Kampanjatunniste-kenttää voi käyttää alennuskoodina. Kun asiakas syöttää kenttään voimassa olevan koodin, tilauksen hinnasta vähennetään alennussäännön mukainen prosenttialennus.
+
+Käyttöönotto:
+
+1. Luo alennussääntö kohdassa **Asetukset → Tuotteet & Julkaisut → Alennukset**:
+   - **Käyttökohde** Tilaus, **Tyyppi** Kampanja ja **Hinnoittelutapa** Prosentti
+   - **Alennuskoodi**, jonka asiakas syöttää lomakkeelle
+   - **Alennusprosentti** ja tarvittaessa voimassaoloaika
+   - **Tilaustuotteet**, joihin koodi kelpaa
+2. Ota käyttöön **Yhteystiedot**-osiossa sekä **Kampanjatunniste** että **Kampanjatunniste tarkistetaan alennussäännöistä**. Kampanjatunnisteen otsikoksi kannattaa vaihtaa esimerkiksi *Alennuskoodi*.
+3. Tallenna asetukset ja testaa koodi esikatselulla.
+
+> **Huom:** Alennussäännön tarkistus toimii vain, kun myös Kampanjatunniste-kenttä on käytössä. Jos kenttä ei ole näkyvillä, asetuksissa näytetään varoitus *Alennuskoodi ei ole käytössä*.
+
+> **Huom:** Jos Alennukset-osiota ei näy Tuotteet & Julkaisut -asetuksissa, alennukset on otettava käyttöön asetuksista (**Alennukset**-valinta). Ota tarvittaessa yhteyttä TaikaTilauksen tukeen.
+
+Näin koodi toimii tilauslomakkeella:
+
+- Koodi tarkistetaan, kun asiakas siirtyy yhteystiedoista maksutavan valintaan. Kirjainkoolla ja ylimääräisillä välilyönneillä ei ole merkitystä.
+- Jos koodi ei ole voimassa tai ei koske valittua tuotetta, asiakas saa ilmoituksen eikä lomake etene ennen kuin koodi korjataan tai poistetaan. Tyhjä kenttä hyväksytään aina.
+- Yhteenvedossa ja tilauksen hyväksymisessä näytetään alennettu hinta ja rivi *Alennuskoodi KOODI: -20 %*.
+- Tilaukselle tallentuu alennusprosentti, alennettu hinta, käytetty koodi ja alennussääntö. Ensimmäinen lasku ja verkkomaksu tehdään alennetulla hinnalla, ja myös useassa erässä laskutettavan tilauksen myöhemmät laskuerät saavat saman alennuksen.
+- Alennus koskee vain tilattua jaksoa. Kestotilauksen jatkojaksot laskutetaan normaalihinnalla, ellei tilauksella ole jatkuvaa alennusprosenttia.
+- Koodia ei voi käyttää Stripe-tuotteen korttimaksussa, koska Stripe veloittaa tuotteelle määritetyn Stripe-hinnan. Tällöin asiakasta pyydetään valitsemaan toinen maksutapa tai poistamaan koodi.
+
+Jos **Kampanjatunniste tarkistetaan alennussäännöistä** ei ole käytössä, kampanjatunniste on vapaa tekstikenttä: se tallentuu tilaukselle sellaisenaan eikä vaikuta hintaan.
 
 ### Maksutapa 
 
@@ -130,9 +159,7 @@ Jos **Verkkomaksu** on valittuna, mutta se on käytössä vain kertamaksuna, voi
 
 Valitse käytettävä verkkomaksupalvelu, johon tilaajat ohjataan maksamaan:
 - Ei käytössä  
-- **Paytrail**  
-- **Visma Pay**  
-- **Stripe**
+- **Paytrail**
 
 Valinnan jälkeen täydennä palvelukohtaiset tiedot:
 
@@ -143,11 +170,6 @@ Valinnan jälkeen täydennä palvelukohtaiset tiedot:
 - **Paytrail kauppiasvarmenne** – palveluntarjoajan myöntämä varmennesarja.  
   Huom: käytä vain 2023 jälkeen myönnettyjä varmennesarjoja.  
   Esimerkki testivarmenne: `SAIPPUAKAUPPIAS`
-
-**Visma Pay**
-- **Merchant ID**  
-- **Private Key**  
-- **API Key**
 
 ![Tilauslomake](/img/ohjeet/tilauslomake6.png)
 
@@ -165,7 +187,7 @@ Valinnan jälkeen täydennä palvelukohtaiset tiedot:
 
 Voit lisäksi määrittää markkinointilupakentille omat otsikot.  
 
-**Tietosuojaselosteen otsikko** ja **Tietosuojaselosteen osoite** määritetään osion viimeisissä kentissä.
+**Tietosuojalinkin teksti** määrittää tilauslomakkeen tietosuojaselostelinkin tekstin, esim. *Lue tietosuojaseloste*. Tyhjänä linkissä lukee *Lue tietosuojalauseke*, ja englannin- ja ruotsinkielisellä lomakkeella käytetään aina käännöstä. Linkki näkyy, kun tietosuojaselosteen osoite on annettu.
 
 ![Tilauslomake](/img/ohjeet/tilauslomake7.png)
 

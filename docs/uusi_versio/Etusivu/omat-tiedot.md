@@ -12,7 +12,7 @@ Valikossa ovat seuraavat toiminnot:
 
 - **Tiedot:** avaa käyttäjän omat tiedot ja näkymäasetukset.
 - **Tiedotteet:** tarkastele järjestelmän tiedoitteita. 
-- **TaikaTilaus (vanha)**: avaa TaikaTilauksen vanhan 2.0 versio uudessa välilehdessä.
+- **TaikaTilaus (vanha)**: avaa TaikaTilauksen vanha versio uudessa välilehdessä.
 - **Kirjaudu ulos:** kirjaa käyttäjän ulos järjestelmästä.
 
 ![Omat tiedot -valikko järjestelmän päävalikossa](/img/versio2/paavalikko-icons.png)

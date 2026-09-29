@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-description: Hallinta — Viestit, Tunnukset, Tapahtumaloki.
+description: Hallinta — Viestit, Tunnukset ja maksumuurin kirjautumisen testaus, Tapahtumaloki, Tiedostojen siirto.
 ---
 
 # Hallinta
@@ -40,6 +40,20 @@ Hakutuloksissa näytetään, milloin tunnusta on viimeksi käytetty eri palvelui
 Voit hakea tunnusta syöttämällä asiakkaan käyttäjätunnukseen liitetyn sähköpostiosoitteen **Käyttäjätunnus**-kenttään.
 
 ![Viestit](/img/ohjeet/tunnukset.png)
+
+### Kirjautumisen testaus (TaikaTilaus)
+
+TaikaTilauksen käyttäjille hakutuloksen riveillä näkyy **Testaa kirjautuminen** -painike. Se näyttää, mitä maksumuurin kirjautuminen palauttaisi lehden verkkosivuille tällä tunnuksella:
+
+- onnistuisiko kirjautuminen ja onko tunnuksella digioikeus
+- mihin paluuosoitteeseen käyttäjä ohjattaisiin ja missä muodossa tiedot välitetään
+- mitkä kontakti- ja tilaustiedot paluutiedossa välitetään.
+
+Salasanaa ei tarkisteta, joten tunnuksen ongelmia voi selvittää tietämättä asiakkaan salasanaa. Testi ei muodosta kirjautumiseen kelpaavaa linkkiä. Se päivittää tunnuksen viimeisimmän kirjautumisajan samoin kuin oikea kirjautuminen.
+
+Jos julkaisijalla on useampi lehti, joilla on omat paluuosoitteet, anna lehti **Lehti testattaessa (l)** -kenttään ennen testausta.
+
+Maksumuurin paluuosoitteet asetetaan [Asetukset → Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta#maksumuuri-taikatilaus) -välilehden Digilehti-osiossa.
 
 ## Tapahtumaloki
 
@@ -333,3 +347,10 @@ Voit siirtyä edelliseen tai seuraavaan asiakkaaseen **Edellinen** / **Seuraava*
 
 7. Käsittele tiedot Excelissä haluamallasi tavalla ja **sovi TaikaTilauksen kanssa** tietojen tuomisesta takaisin järjestelmään.  
    Ole tarkkana, että **rivien KontaktiID-arvot pysyvät oikeilla riveillä.**
+
+## Tiedostojen siirto
+
+**Tiedostojen siirto** -välilehti näkyy yrityksen **pääkäyttäjille**. Sen kautta tiedostoja siirretään turvallisesti TaikaTilauksen ja asiakkaan välillä.
+
+- **Toimita tiedosto TaikaTilaukselle** – valitse tiedosto ja klikkaa *Toimita tiedosto*. Käytä esimerkiksi asiakastietojen massapäivityksiin. Ilmoita toimituksesta osoitteeseen **tuki@taikatilaus.fi**.
+- **TaikaTilauksen toimittamat tiedostot** – lista tiedostoista, jotka TaikaTilaus on toimittanut sinulle. Lataa tiedosto klikkaamalla sen nimeä.

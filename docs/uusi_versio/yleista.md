@@ -1,19 +1,19 @@
 ---
 sidebar_position: 1
 sidebar_label: Yleistä
-title: Tervetuloa TaikaTilaus 3.0 -ohjeisiin
-description: Tervetuloa TaikaTilaus 3.0 -ohjeisiin — Ohjeiden sisältö.
+title: Tervetuloa TaikaTilaus ohjeisiin
+description: Tervetuloa TaikaTilaus ohjeisiin — Ohjeiden sisältö.
 ---
 
-# Tervetuloa TaikaTilaus 3.0 -ohjeisiin
+# Uuden version ohjeet
 
-TaikaTilaus 3.0 on TaikaTilauksen uusi versio, jonka kehitys on vielä käynnissä. Versioon lisätään jatkuvasti uusia ominaisuuksia, ja olemassa olevia toimintoja sekä käyttöliittymää kehitetään saadun palautteen perusteella.
+TaikaTilauksesta julkaistaan uusi, modernisoitu käyttöliittymä, jonka kehitys on vielä käynnissä. Versioon lisätään jatkuvasti uusia ominaisuuksia, ja olemassa olevia toimintoja sekä käyttöliittymää kehitetään saadun palautteen perusteella.
 
-Näille sivuille kootaan TaikaTilaus 3.0:n käyttöohjeita. Ohjeita täydennetään ja päivitetään kehitystyön edetessä.
+Näille sivuille kootaan TaikaTilauksen uuden käyttöliittymän käyttöohjeita. Ohjeita täydennetään ja päivitetään kehitystyön edetessä.
 
 :::warning Kehitysversio
 
-TaikaTilaus 3.0 ei ole vielä valmis. Huomioithan, että:
+Uusittu TaikaTilaus ei ole vielä valmis. Huomioithan, että:
 
 - osa ominaisuuksista ei ole vielä käytettävissä
 - jotkin toiminnot voivat toimia vain osittain tai eivät lainkaan
@@ -23,7 +23,7 @@ TaikaTilaus 3.0 ei ole vielä valmis. Huomioithan, että:
 
 :::
 
-![TaikaTilaus 3.0:n etusivun yleisnäkymä](/img/versio2/etusivu.png)
+![TaikaTilaus etusivun yleisnäkymä](/img/versio2/etusivu.png)
 
 ## Ohjeiden sisältö
 

@@ -192,7 +192,6 @@ Voit asettaa OmaPalvelun eri toiminnoille otsikon ja infotekstin. Esimerkiksi **
 ![OmaPalvelu](/img/ohjeet/omapalvelu9.png)
 
 - **Tietosuojasivun osoite** – kenttään määritetään osoite, josta löytyy sovelluksen tietosuojaseloste.  
-- **REST-API URL** <!-- Tarkennus tarvitaan: mitä varten osoite määritetään. -->  
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu10.png)
 
@@ -204,7 +203,7 @@ Voit asettaa OmaPalvelun eri toiminnoille otsikon ja infotekstin. Esimerkiksi **
 ![OmaPalvelu](/img/ohjeet/omapalvelu3.png)
 
 - **Perhekutsu** – kentistä voit asettaa otsikon ja tekstin viestille, joka lähetetään, kun OmaPalvelun käyttäjä on lisännyt tililleen perhetunnuksia.  
-- **Salasanan resetöintisähköposti** – kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetetään, kun asiakas on pyytänyt salasanan resetointia.  
+- **Salasanan resetöintisähköposti** – kentistä voit asettaa otsikon ja tekstin automaattiviestille, joka lähetetään, kun asiakas on pyytänyt salasanan resetointia. EN-kenttien teksti lähetetään englanninkielistä OmaPalvelua käyttävälle asiakkaalle; jos EN-kenttä on tyhjä, lähetetään suomenkielinen teksti.  
 
 - **Siirry kirjautumiseen -linkki ohjaa ulos** – valintaruutu, jonka aktivoimalla linkki ohjaa käyttäjän ulos palvelusta salasanan uusimisen jälkeen.  
     - Tämä mahdollistaa sen, että käyttäjä voidaan ohjata esimerkiksi maksumuuriin, verkkosivuille tai näköislehteen.  

@@ -41,6 +41,7 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 
 * [Tilit](/docs/ohjeet/asetukset/laskut/tilit)
 * [Laskutekstit](/docs/ohjeet/asetukset/laskut/laskutekstit)
+* [Laskutussäännöt](/docs/ohjeet/asetukset/laskut/laskutussaannot)
 
 ### Postitus
 
@@ -59,6 +60,14 @@ Uuden näkymän yläreunassa on **valikko**, josta perustietoja päivitetään o
 * [OmaPalvelu](/docs/ohjeet/asetukset/asiointipalvelut/omapalvelu)
 * [OmaIlmoitus](/docs/ohjeet/asetukset/asiointipalvelut/omailmoitus)
 * [Viestipohjat](/docs/ohjeet/asetukset/asiointipalvelut/viestipohjat)
+
+### Tilausten hallinta
+
+* [Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta)
+
+### Ilmoitusten hallinta
+
+* [Ilmoitusten hallinta](/docs/ohjeet/asetukset/ilmoitusten-hallinta)
 
 ### Käyttäjätilit
 

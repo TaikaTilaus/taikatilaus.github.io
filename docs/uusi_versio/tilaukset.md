@@ -299,7 +299,7 @@ Maksettu tilaus perutaan yleensä tilauskauden loppuun. Merkitse tällöin **Per
 
 :::warning Huomio
 
-TaikaTilaus 3.0:ssa ei vielä ole **Saldo**- tai **Maksun palautus** -toimintoja.
+Uudessa TaikaTilauksessa ei vielä ole **Saldo**- tai **Maksun palautus** -toimintoja.
 
 Siirry vanhaan TaikaTilaus-versioon, jos:
 
@@ -348,7 +348,7 @@ Odottavaa laskutuspyyntöä voi muokata. Laskutuspyynnöllä näkyvät seuraavat
 
 :::info Ei vielä käytettävissä
 
-**Tee lasku** -toimintoa ei ole vielä toteutettu TaikaTilaus 3.0:ssa. Näkymässä näkyvällä painikkeella ei voi luoda laskua laskutuspyynnöstä.
+**Tee lasku** -toimintoa ei ole vielä toteutettu. Näkymässä näkyvällä painikkeella ei voi luoda laskua laskutuspyynnöstä.
 
 :::
 

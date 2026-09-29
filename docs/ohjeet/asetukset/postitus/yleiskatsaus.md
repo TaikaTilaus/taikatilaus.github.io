@@ -22,3 +22,4 @@ Postituksen alta löytyvät seuraavat toiminnot:
 - [Lehdetön peittojakelu](/docs/ohjeet/asetukset/postitus/lehdeton-peittojakelu)
 - [Yhdistettävät niput](/docs/ohjeet/asetukset/postitus/yhdistettavat-niput)
 - [Irtonumerot](/docs/ohjeet/asetukset/postitus/irtonumerot)
+- [Postitus- ja painoaineisto](/docs/ohjeet/asetukset/postitus/painoaineisto)

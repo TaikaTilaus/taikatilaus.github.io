@@ -27,4 +27,3 @@ Kun tiliä lisätään tai muokataan, tarvitaan seuraavat tiedot:
 ![Tilit-välilehti - Tilien lisääminen](/img/ohjeet/tilin-lisaaminen.png)
 
 **Tilin käsittely** -lomake on muuten samanlainen, mutta siinä on myös vaihtoehto tilin poistamiseen.
-

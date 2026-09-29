@@ -1,9 +1,19 @@
 ---
 sidebar_position: 5
-description: Kanavat — LEHTI-tyyppisen kanavan ilmoitusosastot.
+description: Kanavat — julkaisujen lyhenteet, kanavat ja LEHTI-tyyppisen kanavan ilmoitusosastot.
 ---
 
 # Kanavat
+
+## Julkaisujen lyhenteet
+
+Sivun ensimmäisenä kohtana ovat **julkaisujen lyhenteet**. Kohta näkyy ja on muutettavissa vain **pääkäyttäjille**.
+
+- Anna jokainen julkaisu omalle rivilleen muodossa `Julkaisun nimi:Lyhenne`, esimerkiksi `TaikaNakka:TAN`.
+- Jos julkaisulle ei ole annettu lyhennettä, lyhenteenä käytetään julkaisun nimeä. Lyhenne kannattaa antaa, jos nimi on yli 5 merkkiä.
+- Lyhenteillä nimetään mm. palvelimen aineistokansiot ja Planner-siirtotiedostot, joten **älä muuta olemassa olevaa lyhennettä**: vanhat aineistopolut katkeaisivat.
+
+## Kanavat ja kanavatyypit
 
 **Kanavat**-välilehdellä määritellään kanavat, joiden alle myyntituotteet ryhmitellään. Kanavia voivat olla esimerkiksi **LEHTI**, **NETTI**, **UUTISKIRJE**, **ILMOITUSTAULU**, **RADIO** ja **VAIHTOILMOITUS**-kanavat.
 
