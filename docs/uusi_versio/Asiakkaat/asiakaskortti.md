@@ -47,10 +47,16 @@ Asiakkaan tiedot on jaettu välilehdille:
 | **Puhelin, Puhelin 2 ja Puhelin 3** | Asiakkaan puhelinnumerot. |
 | **C/O-osoite** | Osoitetta täydentävä c/o-tieto. |
 | **Asiakastyyppi** | Asiakkaan tyyppi, esimerkiksi henkilö, yritys tai yhteisö. Käytettävissä olevat asiakastyypit määritetään järjestelmän asetuksissa. |
-| **Kuollut** | Aktivoimalla kentän, asiakas merkitään kuolleeksi. |
+| **Kuollut** | Aktivoimalla kentän, asiakas merkitään kuolleeksi. Katso [Kuollut ja markkinointikiellot](#kuollut-ja-markkinointikiellot). |
 | **Lisätiedot** | Vapaamuotoiset lisätiedot asiakkaasta. |
 
 Muokkaa tarvittavia tietoja ja napsauta **Tallenna**.
+
+### Kuollut-valinta
+
+- **Kuollut**-valinnan päälle laittaminen asettaa samalla kaikki markkinointikiellot (**Markkinointitiedot**-välilehti). Valinnan poistaminen ei poista kieltoja.
+- **Kuollut**-merkintä ei vaikuta postitukseen eikä tilauksen tilaan. Kuolleen tilaajan voimassa olevat tilaukset katkaistaan erikseen tilaukselta antamalla peruutuspäivä ja katkaisun syyksi **SAIRAUS_VANHUUS_KUOLEMA**.
+- Kuolleeksi merkityllä asiakkaalla on asiakasluettelossa ja asiakaskortin otsikossa **Kuollut**-merkki.
 
 ![Asiakaskortin yhteystiedot](/img/versio2/asiakaskortti3.png)
 
@@ -100,6 +106,8 @@ Jos asiakas on kieltänyt kaiken markkinoinnin:
 1. Valitse **Kaikki markkinointi kielletty**.
 2. Täytä halutessasi **Kiellon päiväys**, **Kiellon lähde** ja **Kiellon lisätiedot**. Nämä kentät ovat vapaaehtoisia.
 3. Napsauta **Tallenna**.
+
+**Kaikki markkinointi kielletty** -valinnan päälle laittaminen asettaa kaikkien kanavien (sähköposti, kirje, puhelin, tekstiviesti) tilaksi **Kielletty**.
 
 ### Markkinointikanavien tiedot
 
@@ -246,7 +254,7 @@ Välilehden vieressä oleva numero kertoo muutoslokissa olevien tapahtumien mä�
 
 ## Tilaukset
 
-Asiakaskortin oikealla puolella olevassa **Tilaukset**-osiossa näet asiakkaan tilaukset. Otsikon vieressä oleva numero kertoo tilausten määrän.
+Asiakaskortin oikealla puolella olevassa **Tilaukset**-osiossa näet asiakkaan tilaukset. Otsikon vieressä oleva numero kertoo tilausten määrän. Tilaukset on järjestetty aikajärjestykseen, uusin ylimpänä.
 
 | Sarake | Sisältö |
 | --- | --- |
