@@ -77,10 +77,18 @@ Tilausten kehitystä seurataan kolmessa kortissa:
 - **Uudet tilaukset:** viimeisten 30 päivän aikana tulleet uudet tilaukset.
 - **Päättyneet määräaikaiset:** viimeisten 30 päivän aikana päättyneet määräaikaiset tilaukset.
 - **Päättyneet kestotilaukset:** viimeisten 30 päivän aikana päättyneet kestotilaukset.
+- **Maksamatta katkaistut**: montako tilausta on katkaistu maksamattomuuden vuoksi edellisellä viikolla (maanantaista sunnuntaihin). Kun napsautat korttia, **Tilaukset**-sivu avautuu valmiiksi suodatettuna tilaan **Maksamatta päättynyt** ja samalle aikavälille.
 
 Korteissa näytetään myös edellisten 12 kuukauden kuukausikeskiarvo. Prosenttiluku kertoo, kuinka paljon viimeisten 30 päivän määrä poikkeaa tästä keskiarvosta.
 
-Nuoli ylöspäin ja vihreä merkintä tarkoittavat määrän kasvua. Nuoli alaspäin ja punainen merkintä tarkoittavat määrän vähenemistä. Väri kuvaa muutoksen suuntaa, ei sitä, onko muutos toiminnan kannalta myönteinen vai kielteinen.
+### Muutosmerkintä
+
+Kunkin kortin vieressä oleva merkintä (esim. ↑ +12 % vs. normaali) vertaa kuluvan jakson määrää edellisten 12 kuukauden normaalitasoon samanmittaisena jaksona.
+
+Nuoli kertoo muutoksen suunnan: nuoli ylöspäin tarkoittaa määrän kasvua ja nuoli alaspäin määrän vähenemistä.
+Väri kertoo, onko muutos toiminnan kannalta myönteinen vai kielteinen: vihreä on myönteinen ja punainen kielteinen.
+
+Väri riippuu kortista. Uudet tilaukset -kortissa kasvu on myönteistä (vihreä nuoli ylös) ja väheneminen kielteistä (punainen nuoli alas). Päättyneet määräaikaiset-, Päättyneet kestotilaukset- ja Maksamatta katkaistut -korteissa kasvu on kielteistä (punainen nuoli ylös) ja väheneminen myönteistä (vihreä nuoli alas). Jos vertailutietoa ei ole, merkintänä on harmaa "ei vertailutietoa".
 
 <!-- Kortteja klikkaamalla pääset listalle kyseisistä tilauksista.  -->
 
@@ -133,7 +141,13 @@ Asetuksissa voit muokata seuraavia valintoja:
 
 ## Postitusyhteenveto
 
-Postitusyhteenvedossa näet postitusmäärät ilmestymispäivittäin ja lehdittäin. Ilmestymispäivät näkyvät vasemmassa sarakkeessa ja määrät kunkin lehden omassa sarakkeessa. Lehtien määrät yhteensä näytetään viimeisessä sarakkeessa, kun lehtiä on monta.
+Taulukko näyttää tehdyt postitukset ilmestymispäivän ja lehden mukaan. Ilmestymispäivät näkyvät vasemmassa sarakkeessa. Jokaiselta lehdeltä näkyy erikseen tilausten määrä ja lehtien määrä. Lehtien määrät yhteensä näytetään viimeisessä sarakkeessa, kun lehtiä on monta.
+
+- **Tilauksia** on tilauksiin kuuluvien lehtien määrä.
+- **Lehtiä** on tilauksiin kuuluvat lehdet sekä vakioniput, irtonumerot, varalehdet ja peittojakelun lehdet.
+- Jos samalle ilmestymispäivälle on tehty postitus uudelleen muutosten vuoksi näytetään vain viimeisin postitus.
+
+Kortin otsikon **kysymysmerkkikuvake** näyttää tämän selitteen.
 
 ![Postitusmäärät ilmestymispäivittäin ja lehdittäin](/img/versio2/postitusyhteenveto2.png)
 
@@ -141,9 +155,7 @@ Postitusyhteenvedossa näet postitusmäärät ilmestymispäivittäin ja lehditt�
 
 Avaa asetukset napsauttamalla **Postitusyhteenveto**-osion oikeassa yläkulmassa olevaa **rataskuvaketta**.
 
-**Haku historiasta (päivää taaksepäin)** -kentässä voit määrittää, kuinka monen päivän ajalta postitustiedot näytetään. Esimerkiksi arvo **70** näyttää tiedot viimeisten 70 vuorokauden ajalta.
-
-Postitusmäärät näytetään taulukossa ilmestymispäivittäin ja lehdittäin.
+**Haku historiasta (päivää taaksepäin)** -kentässä voit valita, montako päivää taaksepäin postituksia haetaan. Esimerkiksi arvo **70** näyttää tiedot viimeisten 70 vuorokauden ajalta. Oletusarvo asetetaan kohdassa **Asetukset → Etusivu**.
 
 ![Postitusyhteenvedon historiapäivien asetus](/img/versio2/postitusyhteenveto.png)
 
