@@ -2,7 +2,7 @@
 sidebar_position: 1
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.9.2026 alkaen
 image: /img/social.png
-keywords: [versiotiedote, kaksivaiheinen tunnistautuminen, MFA, sähköposti, Authenticator, käyttäjätilit, avoimuusilmoitus, poliittinen mainos, TTPA, QR-koodi]
+keywords: [versiotiedote, kaksivaiheinen tunnistautuminen, MFA, sähköposti, Authenticator, käyttäjätilit, avoimuusilmoitus, poliittinen mainos, TTPA, QR-koodi, Parquet, tietovienti, data-alusta]
 ---
 
 # Syyskuu 2026
@@ -10,6 +10,22 @@ keywords: [versiotiedote, kaksivaiheinen tunnistautuminen, MFA, sähköposti, Au
 Uudistuksia TaikaTilaus-tuotteeseen 1.9.2026 alkaen.
 
 > Kysy tarkemmin yksittäisten toiminnallisuuksien käyttöönotosta [tuestamme](https://taikatilaus.freshdesk.com/).
+
+## Parquet-tietovienti data-alustalle
+
+Uusi **Parquet-tietovienti** siirtää tilaus- ja asiakastiedot automaattisesti julkaisijan omalle data-alustalle analytiikkaa, markkinointia ja raportointia varten. Vienti ajetaan tyypillisesti kerran vuorokaudessa yöaikaan, tiedot siirtyvät salattuina, ja salasanat sekä poistetut tiedot rajataan pois. Ominaisuus on kaikkien asiakkaiden käyttöönotettavissa. Parquet-tietoviennin toteutuksesta veloitetaan avaus- ja kuukausimaksu. 
+
+Katso [Parquet-tietovienti-kuvaus](/docs/ohjeet/integraatiot/parquet-tietovienti).
+
+![Parquet-tietovienti - Tietovirta](/img/integraatiot/parquet-tietovirta.png)
+
+## StripeGateway Stripe-tietojen seurantaan
+
+Uusi **StripeGateway** näyttää Stripen korttimaksut ja digitilaukset yhdestä paikasta suoraan Stripestä, joten tiedot ovat aina ajan tasalla. Etusivulla näkyvät aktiiviset tilaukset, uudet tilaajat, veloitukset ja epäonnistuneet maksut, ja erillisillä sivuilla tilaajat, tuotteet, kupongit, erääntyneet laskut ja vanhenevat kortit. **Täsmäytys** vertaa Stripen tilauksia TaikaTilaukseen neljän tunnin välein ja löytää tilaukset, jotka on maksettu mutta jääneet puuttumaan TaikaTilauksesta. StripeGatewayyn pääsee TaikaTilauksen valikon Stripe-linkistä ilman erillistä salasanaa.
+
+Katso [Stripe-ohje](/docs/ohjeet/integraatiot/stripe#stripegateway).
+
+![Stripe](/img/integraatiot/stripe-1.png)
 
 ## Kaksivaiheinen tunnistautuminen myös sähköpostilla
 
