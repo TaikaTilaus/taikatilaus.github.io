@@ -52,7 +52,7 @@ Virhetilat näkyvät punaisella:
 | Tila | Merkitys |
 |---|---|
 | **Toimitus epäonnistui** | Asiakirja ei mennyt perille tällä kanavalla, esimerkiksi verkkolaskuosoitetta ei löydy, sähköpostiosoite ei ole olemassa tai postilaatikko on täynnä. Syy näkyy lisätiedossa. |
-| **Pysäytetty Orbytissä** | Orbyt pysäytti asiakirjan (*Document stop*), eikä se edennyt mihinkään toimituskanavaan. Syynä on puuttuva toimitusreitti tai virheellinen osoite, esimerkiksi yrityksen nimi puuttuu tai postinumero on väärän muotoinen. Kukaan ei saa asiakirjaa. |
+| **Pysäytetty Orbytissä** | Orbyt pysäytti asiakirjan (*Document stop*), eikä se edennyt mihinkään toimituskanavaan. Syynä on puuttuva toimitusreitti tai virheellinen osoite, esimerkiksi vastaanottajan nimi puuttuu tai postinumero on väärän muotoinen. Kukaan ei saa asiakirjaa. |
 | **Hylätty kaksoiskappaleena** | Operaattori ei välittänyt laskua, koska sama laskunumero on jo aiemmin välitetty. |
 
 Kun lasku on virhetilassa, korjaa vastaanottajan tiedot tai toimitustapa ja lähetä asiakirja uudelleen.

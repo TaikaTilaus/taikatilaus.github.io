@@ -337,6 +337,9 @@ Hakutulosten yläpuolella näkyy yhteenvetotiedot löytyneistä ja mahdollisista
 Esimerkiksi:
 - puuttuvat **KIRJE** / katuosoitteet  
 - puuttuvat **SÄHKÖPOSTI** / sähköpostiosoitteet  
+- puuttuva **maksajan nimi**: laskulla pitää olla etunimi, sukunimi tai yritys (osasto ei yksin riitä). Nimi vaaditaan kaikilla toimitustavoilla tulostusta lukuun ottamatta, koska arvonlisäverolaki edellyttää ostajan nimeä laskulla ja esimerkiksi Orbyt pysäyttää nimettömän laskun.
+
+Virheellisistä laskutuspyynnöistä ei muodosteta laskuja, eikä virheellisiä laskuja lähetetä ennen kuin tiedot on korjattu. Tämä koskee myös automaattista laskutusajoa ja lähetystä.
 
 Virheitä voi hakea listauksesta painamalla **Ctrl + F** ja kirjoittamalla hakukenttään sanan *virhe*.
 
