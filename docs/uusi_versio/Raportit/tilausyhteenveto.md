@@ -17,9 +17,17 @@ Avaa sivu päävalikosta valitsemalla **Raportit → Tilausyhteenveto**.
 
 Lehden nimen vieressä näkyy sen voimassa olevien tilausten kokonaismäärä. Jokaisella tuoterivillä näkyvät:
 
-- tuotteen nimi (tuotteen nimen edessä on kampanjan nimi, jos sellainen on) sekä TuoteID
+- tuotteen **nimi** (tuotteen nimen edessä on **kampanjan nimi**, jos sellainen on) sekä **TuoteID**
 - tilausmäärää havainnollistava palkki
-- tuotteen voimassa olevien tilausten lukumäärä.
+- tuotteen voimassa olevien **tilausten lukumäärä.**
+
+Tilaukset on lajiteltu:
+
+- **Maksullisiin tuotteisiin**, jotka on lajiteltu:
+    - **Jatkuviin kestotilauksiin**
+    - **Määräaikaisiin tilauksiin**
+    - **Stripe-tilauksiin** (jos Stripe on käytössä)
+- **Vapaakappaleisiin**, eli tuotteisiin, joiden hinta on 0 euroa
 
 ![Voimassa olevien tilausten määrät tuotteittain](/img/versio2/tilausyhteenveto2.png)
 
