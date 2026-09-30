@@ -94,6 +94,10 @@ Paina **Näytä voimassa olevat tilaukset kaikilla tiedoilla (Excel)**, kun halu
 
 Kun olet tarkistanut yhteenvedon ja mahdolliset poikkeukset, paina:
 
-**Tee postitusajo lehden toimittamista varten**
+**Luo postitusajo lehden toimitusta varten**
+
+Ohjelma kysyy vahvistuksen: **Tehdäänkö postitusajo?** (Postitus kirjoitetaan lehden toimittamista varten.) Ikkunassa näkyy yhteenveto luotavasta postituksesta. Jos samalle päivälle on jo aiempi postitus, ikkunassa varoitetaan: "Saman päivän aiempi postitus (N osoiteriviä) poistetaan ja korvataan uudella." Vahvista painamalla **Tee postitusajo**.
+
+Sama vahvistus kysytään myös painon tiedostojen FTP-siirroissa.
 
 Postitusajo muodostaa valitun lehden postituksen valitulle päivälle.

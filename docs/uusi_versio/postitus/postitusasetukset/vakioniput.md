@@ -6,7 +6,15 @@ description: Vakioniput - postitusainestoon tulevat vakioniput
 
 # Vakioniput
 
+Avaa sivu valitsemalla **Postitus → Postitusasetukset**. Sivulla on seuraavat välilehdet:
+
+- **Vakioniput** (aina)
+- [**Jakelualueet**](/docs/uusi_versio/asetukset/jakelualueet) (vain kun aluehinnoittelu on käytössä)
+- [**Varhaisjakelu**](/docs/uusi_versio/asetukset/varhaisjakelu)
+
 Vakionipuilla voidaan määrittää postitukseen vakiona mukaan tulevia nippuja esimerkiksi painolle, jakeluun, toimistolle tai muuhun erilliseen toimituspaikkaan.
+
+Lehtiperheen vakioniput on otettu käyttöön kaikille lehdille (aiemmin vain osalle).
 
 Nippu lisätään postitukseen, kun:
 
