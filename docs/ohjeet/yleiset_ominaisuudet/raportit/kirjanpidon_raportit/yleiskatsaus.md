@@ -352,6 +352,8 @@ Palautuksen tietoja voidaan myös muokata **kopioimalla TiliöintiID raportin al
 
 **Laskut, joiden tiliöinneissä on virheitä** -raportti listaa laskut, joissa on virheellisiä tiliöintejä. Jos raportti löytää virheellisiä tiliöintejä, mene kyseiselle laskulle ja korjaa tiliöinnit siten, että tiliöintien summa on nolla. Näet esimerkkejä suoritusten korjaamisesta [täältä](https://support.taikatilaus.fi/docs/ohjeet/yleiset_ominaisuudet/suoritukset)
 
+Hyvityslasku kääntää alkuperäisen laskun tiliöinnit. Jos alkuperäinen lasku on tuotu vanhasta järjestelmästä ilman tiliöintejä, myöskään sen hyvityslaskulle ei synny tiliöintejä. Tällaiset hyvitykset (esimerkiksi vanhojen myyntisaamisten alaskirjaukset) voidaan rajata pois raportilta: TaikaTilaus asettaa pyynnöstä päivän, jota ennen päivätyt tiliöinnittömät laskut katsotaan vanhasta järjestelmästä tuoduiksi. Raportin alaosassa kerrotaan, montako hyvityslaskua on ohitettu. Muut laskut, joilta tiliöinnit puuttuvat, näkyvät raportilla edelleen virheinä. Rajatut alaskirjaukset eivät näy TaikaTilauksen kirjanpitoraporteilla, joten ne kirjataan kirjanpitoon erikseen.
+
 ![Raportit](/img/ohjeet/raportit5.png)
 
 ### Kirjanpitoyhteenvedon tiliöintien tarkastaminen
