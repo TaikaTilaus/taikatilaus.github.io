@@ -18,4 +18,4 @@ Jos varhaisjakelu on käytössä koko asiakkaalle (asetus **AAMUJAKELU_KAYTOSSA*
 
 **Katurekisteri**-osio kertoo, mistä varhaisjakelun katuosoitteet luetaan (Postin katurekisteri).
 
-Varhaisjakelun piirit (esim. Kyrönmaan Laihia, jonka PPP jakaa) kirjoitetaan painon CSV-nipputiedostoon omana nippunaan.
+Varhaisjakelun piirit kirjoitetaan painon CSV-nipputiedostoon omana nippunaan.
