@@ -41,9 +41,9 @@ Tilat on lueteltu lähetyksen etenemisen järjestyksessä.
 |---|---|---|
 | **Odottaa käsittelyä** | Orbyt | Orbyt on kuitannut TaikaTilauksesta lähetetyn Finvoicen, mutta ei ole vielä käsitellyt sitä. Vastaanottaja ei ole vielä saanut asiakirjaa. |
 | **Käsitelty** | Edita | Edita on tarkistanut ja hyväksynyt aineiston tulostettavaksi. |
-| **Operaattori vastaanottanut** | OpusCapita | Verkkolaskuoperaattori on vastaanottanut yrityksen verkkolaskun. Yrityksen verkkolaskusta ei tule erillistä toimituskuittausta, joten tämä on verkkolaskun onnistunut lopputila. |
-| **Luovutettu jakeluun** | Posti, JYS | Edita on luovuttanut kirjeen jakeluyhtiölle. |
 | **Lähetetty** | Orbyt, Kivra | Sähköposti tai Kivra-viesti on lähetetty. |
+| **Välitetty operaattorille** | OpusCapita | Verkkolaskuoperaattori on vastaanottanut yrityksen verkkolaskun. Yrityksen verkkolaskusta ei tule erillistä toimituskuittausta, joten tämä on verkkolaskun onnistunut lopputila. |
+| **Luovutettu jakeluun** | Posti, JYS | Edita on luovuttanut kirjeen jakeluyhtiölle. |
 | **Toimitettu vastaanottajalle** | JYS, OmaPosti | Jakeluyhtiö on jakanut kirjeen vastaanottajan postilaatikkoon tai asiakirja on toimitettu OmaPostiin. |
 | **Avattu** | Orbyt | Vastaanottaja on avannut sähköpostissa olevan laskun PDF-linkin (lisätieto *PDF avattu*). |
 
@@ -53,7 +53,7 @@ Virhetilat näkyvät punaisella:
 |---|---|
 | **Toimitus epäonnistui** | Asiakirja ei mennyt perille tällä kanavalla, esimerkiksi verkkolaskuosoitetta ei löydy, sähköpostiosoite ei ole olemassa tai postilaatikko on täynnä. Syy näkyy lisätiedossa. |
 | **Pysäytetty Orbytissä** | Orbyt pysäytti asiakirjan (*Document stop*), eikä se edennyt mihinkään toimituskanavaan. Syynä on puuttuva toimitusreitti tai virheellinen osoite, esimerkiksi yrityksen nimi puuttuu tai postinumero on väärän muotoinen. Kukaan ei saa asiakirjaa. |
-| **Kaksoiskappale** | Operaattori ei välittänyt laskua, koska sama laskunumero on jo aiemmin välitetty. |
+| **Hylätty kaksoiskappaleena** | Operaattori ei välittänyt laskua, koska sama laskunumero on jo aiemmin välitetty. |
 
 Kun lasku on virhetilassa, korjaa vastaanottajan tiedot tai toimitustapa ja lähetä asiakirja uudelleen.
 
@@ -110,16 +110,14 @@ Sarakkeista näkee esimerkiksi, että sähköpostilaskun maksumuistutus on läht
 
 **Lähetyksen tila** -hakuehdolla voit hakea ja suodattaa laskuja tuoreimman lähetystilan mukaan:
 
-- **Toimenpiteitä vaativat virheet** – laskut, joiden tuorein tila on virhe (toimitus epäonnistui, pysäytetty Orbytissä tai kaksoiskappale). Näille laskuille pitää tehdä jotain, jotta asiakirja menee perille.
+- **Toimenpiteitä vaativat virheet** – laskut, joiden tuorein tila on virhe (toimitus epäonnistui, pysäytetty Orbytissä tai hylätty kaksoiskappaleena). Näille laskuille pitää tehdä jotain, jotta asiakirja menee perille.
 - **Virheet**
     - **Kaikki virheet** – myös laskut, joiden aiempi lähetys epäonnistui mutta myöhempi onnistui
-    - **Pysäytetty Orbytissä**, **Toimitus epäonnistui**, **Kaksoiskappale**
-- **Muut tilat** – Odottaa käsittelyä, Käsitelty, Operaattori vastaanottanut, Luovutettu jakeluun, Lähetetty, Toimitettu vastaanottajalle, Avattu sekä **Ei lähetystilaa** (laskut, joista Orbytiltä ei ole tullut tilatietoa)
+    - **Pysäytetty Orbytissä**, **Toimitus epäonnistui**, **Hylätty kaksoiskappaleena**
+- **Muut tilat** – Odottaa käsittelyä, Käsitelty, Lähetetty, Välitetty operaattorille, Luovutettu jakeluun, Toimitettu vastaanottajalle, Avattu sekä **Ei lähetystietoa** (laskut, joista Orbytiltä ei ole tullut tilatietoa)
 
 Hakuehtoa voi yhdistää muihin hakuehtoihin. Yhteenvedon määrät ja summat lasketaan hakuehdon mukaan suodatetuista laskuista.
 
 ## Huomioitavaa
 
 - Tilatiedot tulevat Orbytilta viiveellä. Juuri lähetetyn laskun tila voi olla vielä *Odottaa käsittelyä* tai tieto voi puuttua kokonaan.
-- Kaikista Orbytin pysäytyksistä ei välttämättä tule tilatietoa TaikaTilaukseen. Orbyt raportoi pysäytetyt asiakirjat myös kuukausiraportillaan (*Digital Stop Document*).
-- Jos Orbyt ei ilmoita pysäytyksen aikaa, ajaksi näytetään TaikaTilauksen lähetyshetki. Tämä kerrotaan ajan vihjeessä.

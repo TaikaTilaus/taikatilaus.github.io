@@ -16,7 +16,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.9.2026 alkaen.
 Orbytin kautta välitettyjen laskujen lähetystieto on uudistettu. Laskun **Lähetys**-kohdassa näkyy nyt laskun tuorein lähetystila selkokielellä: mikä asiakirja lähetettiin (lasku, maksumuistutus, suoraveloitusilmoitus), millä kanavalla, mitä sille tapahtui ja missä palvelussa, esimerkiksi *Maksumuistutus 1 · Kirje · Luovutettu jakeluun · Posti · Hintavyöhyke D*.
 
 - **Lähetyshistoria**-painikkeesta näet laskun ja sen maksumuistutusten kaikki lähetykset. Näin näkyy esimerkiksi, että epäonnistuneen verkkolaskun jälkeen maksumuistutus on toimitettu kirjeenä.
-- Virheet näkyvät punaisella: **Toimitus epäonnistui**, **Pysäytetty Orbytissä** ja **Kaksoiskappale**. Aiemmat, jo korjaantuneet virheet mainitaan erikseen.
+- Virheet näkyvät punaisella: **Toimitus epäonnistui**, **Pysäytetty Orbytissä** ja **Hylätty kaksoiskappaleena**. Aiemmat, jo korjaantuneet virheet mainitaan erikseen.
 - Kirjeiden lisätietona näkyy Postin **hintavyöhyke** tai JYS:n **jakelualue** ja toimituspäivä, sähköposteille palautuksen syy selkokielellä.
 - **Laskujen haku** -välilehdellä on uusi **Lähetyksen tila** -sarake ja -hakuehto. Hakuehdolla **Toimenpiteitä vaativat virheet** löydät laskut, jotka eivät ole menneet perille ja joille pitää tehdä jotain.
 
