@@ -51,7 +51,9 @@ TaikaTilauksen käyttäjille hakutuloksen riveillä näkyy **Testaa kirjautumine
 
 Salasanaa ei tarkisteta, joten tunnuksen ongelmia voi selvittää tietämättä asiakkaan salasanaa. Testi ei muodosta kirjautumiseen kelpaavaa linkkiä. Se päivittää tunnuksen viimeisimmän kirjautumisajan samoin kuin oikea kirjautuminen.
 
-Jos julkaisijalla on useampi lehti, joilla on omat paluuosoitteet, anna lehti **Lehti testattaessa (l)** -kenttään ennen testausta.
+Jos julkaisijalla on maksumuurissa useampi lehti, joilla on omat paluuosoitteet, välilehdellä näkyy **Lehti testattaessa (l)** -pudotusvalikko. Valitse siitä lehti ennen testausta. Yhden lehden julkaisijalla valikkoa ei näytetä.
+
+Lyhyt ohje löytyy myös välilehdeltä: vie hiiri valikon tai **Maksumuuri**-sarakkeen otsikon vieressä olevan ohjeikonin päälle.
 
 Maksumuurin paluuosoitteet asetetaan [Asetukset → Tilausten hallinta](/docs/ohjeet/asetukset/tilausten-hallinta#maksumuuri-taikatilaus) -välilehden Digilehti-osiossa.
 

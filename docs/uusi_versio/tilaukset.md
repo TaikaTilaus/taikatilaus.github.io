@@ -245,8 +245,6 @@ Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lo
 | **Sisäiset lisätiedot** | Teksti näkyy vain järjestelmän hallitsijalle, ei asiakkaalle.|
 | **Lisätiedot tilaajalle** | Tilaajalle näytettävät lisätiedot. Nämä näytetään erillään sisäisistä lisätiedoista. |
 
-![Uuden tilauksen tilaustiedot](/img/versio2/uusi-tilaus6.png)
-
 #### Huomiot ja virheilmoitukset
 
 - Jos asiakas on estolistalla, lomake näyttää varoituksen tilausta luotaessa.
