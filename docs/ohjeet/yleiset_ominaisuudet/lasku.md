@@ -337,7 +337,7 @@ Hakutulosten yläpuolella näkyy yhteenvetotiedot löytyneistä ja mahdollisista
 Esimerkiksi:
 - puuttuvat **KIRJE** / katuosoitteet  
 - puuttuvat **SÄHKÖPOSTI** / sähköpostiosoitteet  
-- puuttuva **maksajan nimi**: laskulla pitää olla etunimi, sukunimi tai yritys (osasto ei yksin riitä). Nimi vaaditaan kaikilla toimitustavoilla tulostusta lukuun ottamatta, koska arvonlisäverolaki edellyttää ostajan nimeä laskulla ja esimerkiksi Orbyt pysäyttää nimettömän laskun.
+- puuttuva **maksajan nimi**: laskulla pitää olla etunimi, sukunimi tai yritys (osasto ei yksin riitä). Nimi vaaditaan kaikilla toimitustavoilla tulostusta lukuun ottamatta, koska verkkolasku, kirje ja perintä edellyttävät vastaanottajan nimeä ja esimerkiksi Orbyt pysäyttää nimettömän laskun. Arvonlisäverotuksessa ostajan nimi on pakollinen täysimääräisellä laskulla, jota edellytetään esimerkiksi yli 400 euron laskuilta yrityksille ja muille oikeushenkilöille.
 
 Virheellisistä laskutuspyynnöistä ei muodosteta laskuja, eikä virheellisiä laskuja lähetetä ennen kuin tiedot on korjattu. Tämä koskee myös automaattista laskutusajoa ja lähetystä.
 
