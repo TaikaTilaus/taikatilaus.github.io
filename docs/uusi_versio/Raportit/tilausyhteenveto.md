@@ -13,11 +13,11 @@ Avaa sivu päävalikosta valitsemalla **Raportit → Tilausyhteenveto**.
 
 ## Voimassa olevat tilaukset tuotteittain
 
-**Voimassa olevat tilaukset tuotteittain** -osiossa tilaukset on ryhmitelty lehdittäin ja tuotteittain. Raportissa on kohdepäivä: voimassa olevat tilaukset lasketaan valitulle päivälle.
+**Voimassa olevat tilaukset tuotteittain** -osiossa tilaukset on ryhmitelty lehdittäin ja tuotteittain. Raportissa on kohdepäivä: voimassa olevat tilaukset lasketaan valitulle päivälle. Kohdepäivää voi muuttaa, jos haluaa tarkastella tilauksia tietyltä päivältä.
 
 Lehden nimen vieressä näkyy sen voimassa olevien tilausten kokonaismäärä. Jokaisella tuoterivillä näkyvät:
 
-- tuotteen nimi
+- tuotteen nimi (tuotteen nimen edessä on kampanjan nimi, jos sellainen on) sekä TuoteID
 - tilausmäärää havainnollistava palkki
 - tuotteen voimassa olevien tilausten lukumäärä.
 
