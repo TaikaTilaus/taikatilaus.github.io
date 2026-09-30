@@ -9,21 +9,11 @@ description: Laskuyhteenvedot — Yhteenvedon haku, Tarkastelujakson valitsemine
 
 Avaa sivu päävalikosta valitsemalla **Raportit → Laskuyhteenvedot**.
 
-:::info Huomioitavaa
-
-Yhteenveto lasketaan lähetettyjen laskujen summien perusteella. Sama lasku voi näkyä yhteenvedossa useita kertoja, jos se on lähetetty maksumuistutuksena tai lähetetty myöhemmin uudelleen.
-
-Yhteenvedon luvut eivät siten välttämättä vastaa yksilöllisten laskujen määrää tai yhteissummaa.
-
-:::
-
 ![Laskuyhteenvedot-sivun yleisnäkymä](/img/versio2/laskutusyhteenvedot.png)
 
-## Yhteenvedon haku
+## Aikaväli
 
-### Tarkastelujakson valitseminen
-
-Voit valita valmiin tarkastelujakson seuraavilla painikkeilla:
+Voit valita varmiin tarkastelujakson seuraavilla painikkeilla:
 
 - **Edellinen viikko**
 - **Kuluva kuukausi**
@@ -43,38 +33,27 @@ Voit määrittää myös oman kuukausivälin:
 
 Valitut alku- ja loppukuukaudet sisältyvät tarkastelujaksoon.
 
+
+## Näytä jokainen lasku vain kerran
+
+- **Pois päältä (oletus):** jokainen lähetys lasketaan erikseen, eli lasku ja sen maksumuistutukset 1 ja 2. Sama lasku voi siis näkyä useammin. **Yhteensä** = laskut + maksumuistutukset.
+- **Päällä:** maksumuistutukset jätetään pois ja lasku lasketaan kerran (ensimmäisen lähetyksen mukaan). Yhteissarakkeen nimi on tällöin **Laskuja yht.** Uudelleenlähetyksiä ei tallenneta erikseen, joten ne eivät kasvata määrää.
+
+## Kaavion näkymä
+
+Valitse painikkeilla, mitä kaavio näyttää:
+
+- **Yhteensä, laskut ja maksumuistutukset**
+- **Yhteensä ja lähetystavat** (lähetystavat kattavat sekä laskut että muistutukset)
+
+![Lähetettyjen laskujen lukumäärät toimitustavoittain](/img/versio2/lasku-kpl.png)
+
+Valitse yksiköksi **Kpl**, **Euroa** tai **Molemmat** (kaksi kaaviota).
+
+![Lähetettyjen laskujen euromäärät toimitustavoittain](/img/versio2/lasku-euro.png)
+
 ## Tietojen vieminen Exceliin
 
 Lataa valitun ajanjakson tiedot Excel-tiedostoon napsauttamalla **Vie tiedot Exceliin**.
 
 ![Laskuyhteenvedon tarkastelujakson valinta ja Excel-vienti](/img/versio2/lasku-haku.png)
-
-## Lähetettyjen laskujen määrä
-
-Ensimmäinen kuvaaja näyttää tarkastelujaksolla lähetettyjen laskujen lukumäärän toimitustavoittain.
-
-Kuvaajassa näkyvät:
-
-- laskujen kokonaismäärä
-- kirjeenä lähetettyjen laskujen määrä
-- sähköpostilla lähetettyjen laskujen määrä
-- verkkolaskuna lähetettyjen laskujen määrä.
-
-Kuvaajan otsikossa näkyy valittu kuukausiväli ja laskujen kokonaismäärä kappaleina.
-
-![Lähetettyjen laskujen lukumäärät toimitustavoittain](/img/versio2/lasku-kpl.png)
-
-## Lähetettyjen laskujen euromäärä
-
-Toinen kuvaaja näyttää lähetettyjen laskujen euromäärän toimitustavoittain.
-
-Kuvaajassa näkyvät:
-
-- laskujen yhteenlaskettu euromäärä
-- kirjeenä lähetettyjen laskujen euromäärä
-- sähköpostilla lähetettyjen laskujen euromäärä
-- verkkolaskuna lähetettyjen laskujen euromäärä.
-
-Kuvaajan otsikossa näkyy valittu kuukausiväli ja laskujen yhteissumma euroina.
-
-![Lähetettyjen laskujen euromäärät toimitustavoittain](/img/versio2/lasku-euro.png)
