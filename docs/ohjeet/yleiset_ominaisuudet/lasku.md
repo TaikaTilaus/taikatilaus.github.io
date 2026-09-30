@@ -22,6 +22,8 @@ Näet laskun muodon (lasku/hyvityslasku) ja tilan (avoin, erääntynyt, hyvitett
 
 ![Asiakaskortti](/img/ohjeet/lasku-muodot.png)
 
+Kun laskut välitetään Orbytin kautta, laskun tiedoissa näkyy **Lähetys**-kohdassa laskun tuorein lähetystila, esimerkiksi *Maksumuistutus 1 · Kirje · Luovutettu jakeluun · Posti*. **Lähetyshistoria**-painikkeesta näet kaikki laskun ja sen maksumuistutusten lähetykset. Virheet näkyvät punaisella. Katso tilojen merkitykset [Orbyt-ohjeesta](/docs/ohjeet/integraatiot/orbyt).
+
 Laskun tietoja voi muokata **Kynä**-painikkeesta.
 
 1. **Laskun tietoja**
@@ -432,6 +434,8 @@ Laskurivin **Tulostin**-kuvakkeesta voidaan tulostaa yksittäinen lasku.
 
 Mikäli laskulla on **virheitä**, ne näytetään listauksella **punaisella värillä**. Esimerkiksi, jos laskun eräpäivä on pienempi kuin laskun päivä, eräpäivä näkyy punaisella.
 
+Kun Orbyt on käytössä, listauksessa on **Lähetystapa ja -päivä** -sarakkeen lisäksi **Lähetyksen tila** -sarake. Se kertoo, mitä lähetykselle on tapahtunut TaikaTilauksen lähetyksen jälkeen, esimerkiksi että maksumuistutus on luovutettu Postin jakeluun kirjeenä tai että toimitus epäonnistui. Katso [Orbyt-ohje](/docs/ohjeet/integraatiot/orbyt#laskujen-haku-lähetyksen-tila).
+
 ![Laskujen haku -välilehti](/img/ohjeet/laskut-vl2.png)
 
 Palvelussa voidaan luoda laskuja myös **luonnoksina** (nollalaskuja), jotka saa omalle listaukselle **Nollalaskuja nn kpl** -painikkeella.
@@ -495,6 +499,7 @@ Muita hakuehtoja voi käyttää yksittäin tai yhdistelmänä, ja niiden **näky
 - **Aikaväli**, jolta laskuja haetaan  
 - **Laskun tila** – esim. avoin, lähetetty, erääntynyt, maksettu  
 - **Toimitustapa** – esim. kirje, verkkolasku  
+- **Lähetyksen tila** – Orbyt-laskujen tuorein lähetystila, esim. *Toimenpiteitä vaativat virheet*, *Luovutettu jakeluun*, *Toimitettu vastaanottajalle* (näkyy, kun Orbyt on käytössä, katso [Orbyt-ohje](/docs/ohjeet/integraatiot/orbyt#laskujen-haku-lähetyksen-tila))  
 - **Laskun muoto** – esim. kaikki, hyvityslasku, maksumuistutus, luonnos, loppulasku  
 - **Laskun tyyppi** – esim. ilmoitus, tilaus  
 - **Laskun tarkenne** – mahdollistaa tarkentavien lisätietojen vapaan tekstisyötön (esim. toimitettu tuote, verkkokauppa)  
