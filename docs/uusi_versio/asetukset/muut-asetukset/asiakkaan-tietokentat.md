@@ -1,5 +1,6 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
+slug: /uusi_versio/asetukset/asiakkaan-tietokentat
 description: Asiakkaan tietokentät — Puhelinkenttien määrittäminen.
 ---
 
@@ -7,7 +8,7 @@ description: Asiakkaan tietokentät — Puhelinkenttien määrittäminen.
 
 **Asiakkaan tietokentät** -sivulla voit määrittää, mitkä kentät ovat käytössä asiakaskortilla.
 
-Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Asiakkaan tietokentät**. 
+Avaa sivu valitsemalla **Asetukset → Muut asetukset → Asiakkaan tietokentät**.
 
 ## Puhelinkenttien määrittäminen
 

@@ -1,58 +1,30 @@
 ---
 sidebar_position: 1
-sidebar_label: Kaikki asetukset
+sidebar_label: Asetukset
 slug: /uusi_versio/asetukset
-description: Kaikki asetukset — Järjestelmän ja käyttäjän asetukset, Lisätietokentät, Ryhmien muokkaus.
+description: Asetusten valikkopolut ja Muut asetukset -sivun sisältö.
 ---
 
-# Kaikki asetukset
+# Asetukset
 
-**Kaikki asetukset** -sivulla hallitaan järjestelmän ja käyttäjän asetuksia.
+Avaa haluamasi asetussivu suoraan ylävalikon **Asetukset**-valikosta:
 
-Avaa sivu valitsemalla ylävalikosta **Asetukset → Kaikki asetukset**.
+- [**Tuotteet**](./tuotteet.md) – tilaus-, erillis- ja myyntituotteet.
+- [**Julkaisut**](./julkaisut.md) – julkaisut ja niiden ilmestymispäivät.
+- **Tilit**.
+- [**Lisätietokentät**](./lisatietokentat.md) – asiakaskortilla käytettävät lisätietokentät.
+- [**Asiakasryhmät**](./ryhmien-muokkaus.md) – ryhmätyyppien ja ryhmien muokkaus.
+- [**Listat**](./listat.md) – asiakas- ja tilauslistojen asetukset.
+- [**Ilmoitukset**](./ilmoitukset.md).
 
-Avaa haluamasi asetussivu klikkaamalla sen nimeä tai korttia.
+## Muut asetukset
 
-![Kaikki asetukset -sivun asetuskortit](/img/versio2/asetukset.png)
+Valitse **Asetukset → Muut asetukset** ja avaa haluamasi sivu napsauttamalla sen korttia:
 
-## Järjestelmän ja käyttäjän asetukset
-
-### Tuotteet
-
-[**Tuotteet**](/docs/uusi_versio/asetukset/tuotteet)-sivulla voit käsitellä tilaus-, erillis- ja myyntituotteita.
-
-### Julkaisut
-
-[**Julkaisut**](/docs/uusi_versio/asetukset/julkaisut)-sivu voit muokata ja lisätä lehtien julkaisuja.
-
-### Lisätietokentät
-
-[**Lisätietokentät**](/docs/uusi_versio/asetukset/lisatietokentat)-sivulla voit luoda ja hallita asiakaskortilla käytettäviä lisätietokenttiä.
-
-### Ryhmien muokkaus
-
-[**Ryhmien muokkaus**](/docs/uusi_versio/asetukset/ryhmien-muokkaus) -sivulla voit hallita asiakkaiden ryhmittelyssä käytettäviä ryhmätyyppejä ja niiden arvoja.
-
-### Asiakkaan tietokentät
-
-[**Asiakkaan tietokentät**](/docs/uusi_versio/asetukset/asiakkaan-tietokentat) -sivulla voit määrittää, mitkä kentät ovat käytössä asiakaskortilla.
-
-### Listat
-
-[**Listat**](/docs/uusi_versio/asetukset/listat)-sivulla voit hallita asiakas- ja tilauslistojen asetuksia.
-
-## Yleisasetukset
-
-### Yleisasetukset
-
-[**Yleisasetukset**](/docs/uusi_versio/asetukset/yleisasetukset)-sivulla voit hallita tilaustapoja ja muita järjestelmän yleisiä asetuksia.
-
-## Etusivun osiot
-
-### Etusivun osiot
-
-[**Etusivun osiot**](/docs/uusi_versio/asetukset/etusivun-osiot) -sivulla voit määrittää etusivulla näkyviä tietoja, kuten kuluvan päivän tiedot, yhteenvedot ja postitusyhteenvedon.
+- [**Yleisasetukset**](./muut-asetukset/yleisasetukset.md) – tilaustavat ja muut yleiset asetukset.
+- [**Etusivun osiot**](./muut-asetukset/etusivun-osiot.md) – etusivulla näkyvät tiedot ja yhteenvedot.
+- [**Asiakkaan tietokentät**](./muut-asetukset/asiakkaan-tietokentat.md) – asiakaskortilla käytössä olevat kentät.
 
 ## Postitusasetuksista löytyvät jakelualueet
 
-[**Jakelualueet**](/docs/uusi_versio/asetukset/jakelualueet) löytyy polusta **Postitus → Postitusasetukset → Jakelualueet**. Se ei kuulu Kaikki asetukset -sivun asetuskortteihin. Välilehdellä voit hallita postinumeroalueita ja tuotteiden aluehintoja. **Välilehti näkyy vain, kun aluehinnoittelu on käytössä.**
+[**Jakelualueet**](../postitus/postitusasetukset/jakelualueet.md) löytyy polusta **Postitus → Postitusasetukset → Jakelualueet**. Välilehdellä voit hallita postinumeroalueita ja tuotteiden aluehintoja. **Välilehti näkyy vain, kun aluehinnoittelu on käytössä.**

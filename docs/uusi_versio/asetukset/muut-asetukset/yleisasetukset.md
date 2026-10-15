@@ -1,5 +1,6 @@
 ---
-sidebar_position: 8
+sidebar_position: 1
+slug: /uusi_versio/asetukset/yleisasetukset
 description: Yleisasetukset — Tilaustavat, Tilaustavan lisääminen, Tilaustavan poistaminen.
 ---
 
@@ -7,7 +8,7 @@ description: Yleisasetukset — Tilaustavat, Tilaustavan lisääminen, Tilaustav
 
 **Yleisasetukset**-sivulla voit hallita tilauslomakkeella käytettäviä tilaustapoja ja tilauksen katkaisun syitä.
 
-Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Yleisasetukset**.
+Avaa sivu valitsemalla **Asetukset → Muut asetukset → Yleisasetukset**.
 
 ![Yleisasetukset-sivun yleisnäkymä](/img/versio2/yleisasetukset.png)
 

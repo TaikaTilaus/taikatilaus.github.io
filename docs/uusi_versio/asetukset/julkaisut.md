@@ -7,10 +7,7 @@ description: Julkaisut
 
 **Julkaisut**-sivulla ylläpidetään julkaisukanavia, julkaisuja ja niiden ilmestymispäiviä.
 
-Voit avata sivun kahdella tavalla:
-
-- valitse ylävalikosta **Asetukset → Julkaisut**
-- valitse **Asetukset → Kaikki asetukset** ja napsauta **Julkaisut**-korttia.
+Avaa sivu valitsemalla ylävalikosta **Asetukset → Julkaisut**.
 
 Sivulla on kaksi välilehteä:
 

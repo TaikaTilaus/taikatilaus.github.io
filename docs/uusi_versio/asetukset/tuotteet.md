@@ -7,10 +7,7 @@ description: Tuotteet — Tilaus-, erillis- ja myyntituotteet.
 
 **Tuotteet**-sivulla voit tarkastella ja hallita tilaus-, erillis- ja myyntituotteita.
 
-Voit avata sivun kahdella tavalla:
-
-- valitse ylävalikosta **Asetukset → Tuotteet**
-- valitse **Asetukset → Kaikki asetukset** ja napsauta **Tuotteet**-korttia.
+Avaa sivu valitsemalla ylävalikosta **Asetukset → Tuotteet**.
 
 ![Tuotteet-sivun yleisnäkymä](/img/versio2/tuotteet.png)
 

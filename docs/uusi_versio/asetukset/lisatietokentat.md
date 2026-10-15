@@ -9,7 +9,7 @@ description: Lisätietokentät — Uuden lisätietokentän lisääminen, Määri
 
 Tällä sivulla tehdyt muutokset vaikuttavat asiakaskortin [**Lisäkentät**-välilehteen](/docs/uusi_versio/Asiakkaat/asiakaskortti#lisäkentät).
 
-Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Lisätietokentät**. Tai suoraan **Asetukset → Lisätietokentät**
+Avaa sivu valitsemalla **Asetukset → Lisätietokentät**.
 
 ![Lisätietokentät-sivun yleisnäkymä](/img/versio2/lisatietokentat.png)
 

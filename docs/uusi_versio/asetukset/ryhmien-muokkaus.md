@@ -7,7 +7,7 @@ description: Ryhmien muokkaus — Uuden ryhmän lisääminen, Ryhmätyyppien ja 
 
 **Ryhmien muokkaus** -sivulla voit luoda ja hallita asiakkaiden ryhmittelyssä käytettäviä ryhmätyyppejä ja niiden arvoja.
 
-Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Ryhmien muokkaus**. Tai suoraan **Asetukset → Ryhmien muokkaus**.
+Avaa sivu valitsemalla **Asetukset → Asiakasryhmät**.
 
 ![Ryhmien muokkaus -sivun yleisnäkymä](/img/versio2/ryhmat.png)
 

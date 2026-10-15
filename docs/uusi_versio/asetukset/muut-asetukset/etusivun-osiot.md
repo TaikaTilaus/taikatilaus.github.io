@@ -1,5 +1,6 @@
 ---
-sidebar_position: 9
+sidebar_position: 2
+slug: /uusi_versio/asetukset/etusivun-osiot
 description: Etusivun osiot — Tilausten yhteenvedot, Postitusyhteenveto.
 ---
 
@@ -7,7 +8,7 @@ description: Etusivun osiot — Tilausten yhteenvedot, Postitusyhteenveto.
 
 **Etusivun osiot** -sivulla voit määrittää etusivulla näytettävien yhteenvetojen asetukset.
 
-Avaa sivu valitsemalla **Asetukset → Kaikki asetukset → Etusivun osiot**.
+Avaa sivu valitsemalla **Asetukset → Muut asetukset → Etusivun osiot**.
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 

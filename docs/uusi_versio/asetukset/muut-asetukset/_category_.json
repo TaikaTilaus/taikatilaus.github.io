@@ -1,0 +1,9 @@
+{
+  "label": "Muut asetukset",
+  "position": 8,
+  "key": "uusi-muut-asetukset",
+  "link": {
+    "type": "generated-index",
+    "description": "Valitse Asetukset → Muut asetukset ja avaa haluamasi sivu napsauttamalla sen korttia."
+  }
+}
