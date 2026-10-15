@@ -57,7 +57,7 @@ Avaa toiminto napsauttamalla sitä vastaavaa kuvaketta. Käyttäjävalikko avaut
 
 Uusi tiedote näkyy etusivun yläosassa. Tiedotteen väri ja kuvake kertovat sen tyypin. Kun olet lukenut tiedotteen, napsauta **Kuittaa luetuksi**. Kuitattu tiedote ei enää näy etusivulla.
 
-Avaa kaikki tiedotteet napsauttamalla oikeassa yläkulmassa olevaa käyttäjävalikkoa ja valitsemalla **Tiedotteet**. Kuitatun tiedotteen vieressä näkyy teksti **Kuitattu pp.kk.vvvv**. Tiedote on luettavissa siellä niin kauan kuin sen näyttöaika on voimassa. Luetuksi kuitatun tiedotteen voi palauttaa lukemattomaksi napsauttamalla **Palauta lukemattomaksi**.
+Avaa kaikki tiedotteet napsauttamalla oikeassa yläkulmassa olevaa käyttäjävalikkoa ja valitsemalla [**Tiedotteet**](/docs/uusi_versio/Etusivu/omat-tiedot#tiedotteet). Kuitatun tiedotteen vieressä näkyy teksti **Kuitattu pp.kk.vvvv**. Tiedote on luettavissa siellä niin kauan kuin sen näyttöaika on voimassa. Luetuksi kuitatun tiedotteen voi palauttaa lukemattomaksi napsauttamalla **Palauta lukemattomaksi**.
 
 ![Tiedote etusivulla](/img/versio2/tiedotteet2.png)
 
