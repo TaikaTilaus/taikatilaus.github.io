@@ -47,7 +47,7 @@ Asiakkaan tiedot on jaettu välilehdille:
 | **Puhelin, Puhelin 2 ja Puhelin 3** | Asiakkaan puhelinnumerot. |
 | **C/O-osoite** | Osoitetta täydentävä c/o-tieto. |
 | **Asiakastyyppi** | Asiakkaan tyyppi, esimerkiksi henkilö, yritys tai yhteisö. Käytettävissä olevat asiakastyypit määritetään järjestelmän asetuksissa. |
-| **Kuollut** | Aktivoimalla kentän, asiakas merkitään kuolleeksi. Katso [Kuollut ja markkinointikiellot](#kuollut-ja-markkinointikiellot). |
+| **Kuollut** | Aktivoimalla kentän, asiakas merkitään kuolleeksi. Katso [Kuollut-valinta](#kuollut-valinta). |
 | **Lisätiedot** | Vapaamuotoiset lisätiedot asiakkaasta. |
 
 Muokkaa tarvittavia tietoja ja napsauta **Tallenna**.
