@@ -127,13 +127,112 @@ Koko asiakaskunnan lista voi ensimmäisellä avauksella kestää noin puoli minu
 
 Tuotteet ovat Stripessä myytävät lehtituotteet hintoineen aakkosjärjestyksessä. Suodattimilla voit rajata nimen alun, tyypin (tilaus tai kertamaksu) ja tilan (aktiiviset, arkistoidut, kaikki) mukaan. Valintaruuduilla saat näkyviin, montako aktiivista kuukausitilausta ja kertaostoa kullakin tuotteella on. Tuotteen nimeä klikkaamalla näet tuotteen tiedot ja sen tilaajat.
 
+Sarake **TaikaTilaus** näyttää, mihin TaikaTilauksen tuotteisiin kukin hinta on kytketty. Painike **TaikaTilaus-kytkennät** avaa kaikkien kytkentöjen listan. Kytkennät on kuvattu kohdassa [TaikaTilaus-kytkennät](#taikatilaus-kytkennät).
+
 ![StripeGateway - Tuotteet](/img/integraatiot/stripe-tuotteet.png)
 
 ### Kupongit
 
-Kupongit ovat Stripen alennuskoodit. Listassa näkyvät kupongin nimi, kampanjakoodit (koodi, jonka asiakas syöttää tilatessaan), alennus prosentteina tai euroina, kesto, käyttökerrat ja voimassaoloaika. Oletuksena näytetään voimassa olevat kupongit. Tila-hakuehdolla saa myös vanhentuneet näkyviin. Haku etsii nimen tai koodin alulla.
+Kupongit ovat Stripen alennuskoodit. Listassa näkyvät kupongin nimi, kampanjakoodit (koodi, jonka asiakas syöttää tilatessaan), alennus prosentteina tai euroina, kesto, käyttökerrat ja voimassaoloaika. Oletuksena näytetään voimassa olevat kupongit. Tila-hakuehdolla saa myös vanhentuneet näkyviin. Haku etsii nimen tai koodin alulla. Sarake **TaikaTilaus** näyttää, mihin TaikaTilauksen tuotteisiin kuponki on kytketty.
+
+Uusi kuponki luodaan painikkeella **Uusi kuponki…**. Anna kupongille nimi (näkyy asiakkaalle), alennus prosentteina tai euroina ja kesto:
+
+- **Kerran:** alennus koskee vain ensimmäistä maksua.
+- **Pysyvä:** alennus koskee tilauksen kaikkia maksuja.
+- **Kuukausia:** alennus koskee annettua määrää kuukausia.
+
+Kampanjakoodi, käyttökertojen enimmäismäärä ja viimeinen lunastuspäivä ovat valinnaisia. Ilman kampanjakoodia kuponkia voi käyttää vain kytkemällä sen TaikaTilauksen tuotteeseen. **Luo kuponki** tallentaa kupongin heti Stripeen. Alennusta ja kestoa ei voi muuttaa jälkikäteen, joten väärän kupongin tilalle tehdään uusi.
+
+Käyttämättömän kupongin voi poistaa rivin painikkeella **Poista…**. Kytketyn kupongin kytkennät pitää poistaa ensin. Käytettyä kuponkia ei voi poistaa, jotta sen historia säilyy Stripessä.
 
 ![StripeGateway - Kupongit](/img/integraatiot/stripe-kupongit.png)
+
+### TaikaTilaus-kytkennät
+
+Jotta TaikaTilauksen tilauslomake voi myydä tuotetta Stripellä, TaikaTilauksen tuote kytketään Stripen hintaan. Kytkennät tehdään StripeGatewayssa: valitset tuotteen ja hinnan listasta, ja StripeGateway tallentaa tiedon TaikaTilaukseen.
+
+Kytkentätoiminnot näkyvät, kun StripeGateway on yhdistetty lehtitalosi TaikaTilaukseen. Yhteyden avaa TaikaTilaus-tuki. Muutokset tallentuvat TaikaTilaukseen heti, ja tilauslomake käyttää niitä seuraavasta tilauksesta alkaen.
+
+TaikaTilauksen Asetuksissa tuotteen kentät **Stripe tuotetyyppi ja hinta** ja **Stripe kuponki ja hinta** ovat vain luettavia, koska ne asetetaan StripeGatewayssa.
+
+#### Peruskäsitteet
+
+- **Stripen hinta:** Stripessä tuotteella voi olla useita hintoja, esimerkiksi kuukausihinta ja vuosihinta. Kytkentä tehdään aina hintaan, ei tuotteeseen.
+- **Lookup key:** hinnan pysyvä nimi muodossa `tuote_<TuoteID>`. Esimerkiksi TaikaTilauksen tuotteen 2568 hinnan lookup key on `tuote_2568`. Kun lehden hinta nousee ja Stripeen tehdään uusi hinta, lookup key siirretään Stripessä uudelle hinnalle, eikä TaikaTilaukseen tarvitse koskea. Kytkentä vaatii, että hinnalla on lookup key. Sama lookup key voi olla vain yhdellä hinnalla kerrallaan.
+- **Tuoteavain:** TaikaTilauksen tuotteen kenttä, joka kertoo tilauslomakkeelle, millä Stripen hinnalla tuote myydään, esimerkiksi `TOI;tuote_2568`. `TOI` tarkoittaa jatkuvaa tilausta ja `KER` kertamaksua. StripeGateway kirjoittaa tuoteavaimen puolestasi.
+
+#### Mitkä tuotteet voi kytkeä
+
+Kytkentäikkunoiden tuotelistassa näkyvät TaikaTilauksen tuotteet, jotka täyttävät kaikki ehdot:
+
+- tilaustyyppi on ulkoinen kesto (Stripe)
+- tuotetta ei ole piilotettu
+- tuote ei ole erillistuote
+- tuotteella on sekä **Valittavissa alkaen**- että **Valittavissa päättyen** -päivä
+- tänään on tuotteen valittavuusvälillä.
+
+Jos tuote puuttuu listasta, tarkista sen asetukset TaikaTilauksessa kohdassa Asetukset → Tilaustuotteet.
+
+#### Hinnan kytkeminen
+
+Avaa tuotteen sivu (Tuotteet → tuotteen nimi). Hintataulukon sarakkeessa **TaikaTilaus** näkyy jokaisen hinnan kohdalla joko vihreä **kytketty** ja kytketty TaikaTilauksen tuote tai harmaa **ei kytketty**.
+
+Jos hinnalla ei vielä ole lookup keytä:
+
+1. Paina hinnan rivillä **Luo lookup key…**.
+2. Valitse TaikaTilauksen tuote. Ikkuna näyttää luotavan avaimen, esimerkiksi `tuote_2568`.
+3. Pidä valinta **Kytke tuote samalla tähän hintaan** päällä.
+4. Paina **Luo lookup key**.
+
+Jos hinnalla on jo lookup key:
+
+1. Paina hinnan rivillä **Kytke TaikaTilaukseen…** (tai **Kytke toinen tuote…**).
+2. Valitse TaikaTilauksen tuote. Lookup keytä vastaava tuote on valittuna valmiiksi.
+3. Paina **Kytke**.
+
+Tuotteen aiempi tuoteavain korvautuu uudella. Samaan hintaan voi kytkeä useita TaikaTilauksen tuotteita. Arkistoituja hintoja ei voi kytkeä.
+
+#### Kupongin kytkeminen
+
+Kun kuponki kytketään TaikaTilauksen tuotteeseen, tilauslomake näyttää tuotteen alennetulla hinnalla ja antaa kupongin Stripelle tilauksen yhteydessä. Asiakkaan ei tarvitse syöttää kampanjakoodia.
+
+1. Paina Kupongit-sivulla kupongin rivillä **Kytke TaikaTilaukseen…** (tai **Kytke toinen tuote…**). Painike näkyy vain voimassa olevilla kupongeilla.
+2. Valitse TaikaTilauksen tuote.
+3. Tarkista kenttä **Hinta kupongilla tilauslomakkeella (EUR)**. StripeGateway ehdottaa hintaa, josta kupongin alennus on vähennetty. Hinta näytetään asiakkaalle tilauslomakkeella, joten sen pitää vastata sitä, mitä Stripe veloittaa.
+4. Paina **Kytke**.
+
+Tuotteen aiempi kuponki korvautuu.
+
+#### TaikaTilaus-kytkennät-sivu
+
+Tuotteet-sivun painike **TaikaTilaus-kytkennät** avaa listan TaikaTilauksen tuotteista, joilla on Stripe-tuoteavain. Valinnalla **Näytä kaikki TaikaTilauksen tuotteet** listaan tulevat myös kytkemättömät tuotteet.
+
+Sarake **Tila** kertoo, onko kytkentä kunnossa. **OK** tarkoittaa, että hinta löytyy Stripestä ja sen laji täsmää: jatkuva tilaus on kytketty toistuvaan hintaan ja kertamaksu kertahintaan. Punainen **virhe** kertoo syyn. Virheellistä tuotetta ei voi ostaa tilauslomakkeella, joten korjaa se kytkemällä tuote oikeaan hintaan.
+
+Sivulla voi tarkistaa kaikki kytkennät kerralla, esimerkiksi hinnanmuutoksen jälkeen.
+
+#### Kytkennän poistaminen
+
+Tuotteen sivulla ja Kupongit-sivulla jokaisen kytkennän kohdalla on painike **Poista kytkentä**.
+
+- Hinnan kytkennän poisto tyhjentää tuotteen tuoteavaimen. Tuotetta ei voi myydä Stripellä ennen kuin se kytketään uudelleen.
+- Kupongin kytkennän poisto tyhjentää tuotteen kuponkikentän. Tilauslomake ei enää käytä kuponkia tällä tuotteella.
+
+Poisto ei muuta mitään Stripessä: hinta, lookup key ja kuponki säilyvät ennallaan.
+
+#### Esimerkki: kampanjatuote, ensimmäinen kuukausi 0 €
+
+Esimerkissä nykyisen kuukausitilauksen (7,50 €/kk) rinnalle tehdään määräaikainen kampanja, jossa ensimmäinen kuukausi on maksuton. Nykyinen tuote ja sen linkit jäävät ennalleen.
+
+1. **Kopioi tuote TaikaTilauksessa.** Avaa Asetukset → Tilaustuotteet, avaa nykyinen tuote ja paina **Kopioi tuote**. Kopioon ei tule Stripe-kytkentää eikä kuponkia. Muuta kopion tuotenumero ja nimi. Pidä hinta normaalina (7,50 €), koska se näytetään tilauslomakkeella seuraavien jaksojen hintana.
+2. **Aseta valittavuus.** Aseta kohtaan **Valittavissa aikavälillä** kampanjan päättymispäivä. Kampanja sulkeutuu päättymispäivän jälkeen itsestään. Tuote näkyy kytkentälistassa vain, kun se on valittavissa tänään, joten alkupäivän on oltava viimeistään kytkentäpäivä.
+3. **Luo Stripeen uusi hinta.** Lisää Stripessä tuotteelle uusi toistuva hinta 7,50 €/kk. Kampanjatuote tarvitsee oman hinnan, vaikka summa on sama kuin nykyisellä tuotteella, koska lookup key voi olla vain yhdellä hinnalla.
+4. **Kytke hinta.** Avaa StripeGatewayssa tuotteen sivu ja paina uuden hinnan rivillä **Luo lookup key…**. Valitse kampanjatuote ja pidä **Kytke tuote samalla tähän hintaan** päällä.
+5. **Luo ja kytke kuponki.** Paina Kupongit-sivulla **Uusi kuponki…**: alennus 100 %, kesto **Kerran**. Paina sitten kupongin rivillä **Kytke TaikaTilaukseen…**, valitse kampanjatuote ja tarkista, että hinta kupongilla on 0,00.
+6. **Ota tuote käyttöön tilauslomakkeella.** Lisää kampanjatuote TaikaTilauksen Asetuksissa kohtaan **Tilauslomakkeen piilotetut tuotteet (linkkitarjoukset)**, jolloin tuote näkyy vain kampanjalinkin kautta. Lisää tuote vasta, kun kampanja alkaa.
+7. **Testaa linkki.** Kampanjasivun linkki on muotoa `https://<lehtitalosi TaikaTilaus-osoite>/palvelut.aspx?p=til&p2=<TuoteID>`. Tilauslomakkeella pitäisi lukea "Ensimmäinen jakso 0,00 €, seuraavat jaksot 7,50 €".
+
+Kampanjan aikana tehdyt tilaukset jatkuvat ensimmäisen kuukauden jälkeen hintaan 7,50 €/kk.
 
 ### Erääntyneet
 
