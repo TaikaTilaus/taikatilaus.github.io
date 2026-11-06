@@ -6,7 +6,7 @@ description: Keräilylista — Asiakkaiden tuominen asiakasnumeroilla, Keräilyl
 
 # Keräilylista
 
-Keräilylistalle voit koota asiakkaita eri puolilta järjestelmää jatkokäsittelyä varten. Asiakkaita voidaan lisätä keräilylistalle esimerkiksi asiakas-, tilaus- ja laskuluetteloista.
+Keräilylistalle voit koota asiakkaita eri puolilta järjestelmää jatkokäsittelyä varten. Asiakkaita lisätään listalle muilta sivuilta rivin keräilylistakuvakkeella tai valikosta (esimerkiksi Asiakkaat-, Tilaukset- ja Laskujen haku -sivuilta) tai tuomalla asiakasnumeroita tältä sivulta. Jos lista on tyhjä, sivulla lukee "Keräilylista on tyhjä."
 
 Avaa keräilylista napsauttamalla päävalikon oikeassa reunassa olevaa **keräilylistakuvaketta**. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän.
 
@@ -23,7 +23,11 @@ Voit lisätä asiakkaita keräilylistalle syöttämällä asiakasnumerot käsin 
 3. Napsauta **Esikatsele**.
 4. Tuo asiakkaat keräilylistaan painamalla **Lisää X asiakasta keräilylistaan**
 
+Numerot voi erottaa riviväleillä, pilkuilla, puolipisteillä, tabulaattorilla tai välilyönneillä. Tuotavan tiedoston enimmäiskoko on 10 Mt.
+
 Järjestelmä vertaa annettuja asiakasnumeroita asiakasrekisteriin. Rekisteristä löytyneet asiakkaat voidaan lisätä keräilylistalle.
+
+Esikatselu kertoo, montako numeroa annettiin, montako asiakasta tunnistettiin (joista kuinka moni on jo listalla ja kuinka monta lisätään) ja mitä numeroita ei löytynyt. Taulukossa asiakkaan tilana on joko **jo listalla** tai **lisätään**. Kun lisäys on tehty, sivulla lukee "N asiakasta lisätty keräilylistaan."
 
 Tyhjennä syötetyt asiakasnumerot ja valittu tiedosto napsauttamalla **Tyhjennä**.
 
@@ -41,10 +45,15 @@ Tyhjennä syötetyt asiakasnumerot ja valittu tiedosto napsauttamalla **Tyhjenn�
 | **Sähköposti** | Asiakkaan sähköpostiosoite. |
 | **Puhelin** | Asiakkaan puhelinnumero. |
 | **Lisätty** | Päivämäärä ja kellonaika, jolloin asiakas lisättiin keräilylistalle. |
+| **Markkinointikiellot** | Asiakkaan voimassa olevat markkinointikiellot. |
 
-Avaa asiakkaan asiakaskortti napsauttamalla **asiakasnumeroa**.
+Rivin alussa on Muokkaa-painike (kynä) ja Avaa uuteen välilehteen -painike. Avaa asiakkaan asiakaskortti napsauttamalla **asiakasnumeroa**. Lajittele lista napsauttamalla sarakkeen otsikkoa; oletuksena uusimmat lisäykset ovat ylimpänä. Listan yläosan sivutuksella valitaan rivien määrä per sivu (oletus 100).
 
 ![Keräilylistan asiakkaiden tiedot](/img/versio2/kerailylista5.png)
+
+Sarakkeet-painikkeella (listan oikeassa yläkulmassa Exportin vieressä) voit valita näytettävät sarakkeet. Oletuksena piilossa ovat Sukunimi, Etunimi, Postinumero, Postitoimipaikka (pelkkä) ja Maa. 
+
+![Keräilylistan asiakkaiden tiedot](/img/versio2/kerailylista-sarakkeet.png)
 
 ## Keräilylistan hakeminen ja suodattaminen
 
@@ -55,6 +64,8 @@ Voit rajata keräilylistan sisältöä seuraavilla hakuehdoilla:
 | **Haku keräilylistan sisällöstä** | Hae asiakkaita esimerkiksi nimellä, asiakasnumerolla, yrityksen nimellä tai sähköpostiosoitteella. |
 | **Postitoimipaikka** | Rajaa asiakkaat postitoimipaikan perusteella. |
 | **Sähköposti** | Rajaa asiakkaita sähköpostiosoitteen perusteella. |
+| **Kaikki markkinointi kielletty** | Rajaa asiakkaat sen mukaan, onko heillä yleinen markkinointikielto (Kaikki / Kyllä / Ei). |
+| **Markkinointikanavat** | Jokaiselle kanavalle (sähköposti, kirje, puhelin, tekstiviesti) on oma suodatin: Kaikki, Ei kielletty, Sallittu, Kielletty, Ei tiedossa tai Tila puuttuu.|
 
 Hakutulokset päivittyvät automaattisesti, kun kirjoitat hakukenttään tai muutat suodatusta.
 
@@ -64,9 +75,15 @@ Hakuehtojen oikealla puolella näkyvä luku, esimerkiksi **31 / 31 asiakasta**, 
 
 ## Asiakkaiden valitseminen
 
-Valitse yksittäinen asiakas napsauttamalla asiakasrivin vasemmassa reunassa olevaa valintaruutua. Voit valita kaikki näkyvät asiakkaat taulukon otsikkorivin valintaruudusta.
+## Asiakkaiden valitseminen
 
-**Toiminnot**-kohdassa näkyy, kuinka moneen asiakkaaseen valittu toiminto kohdistuu.
+Valitse yksittäinen asiakas napsauttamalla rivin vasemmassa reunassa olevaa valintaruutua. Otsikkorivin valintaruutu valitsee kaikki hakutuloksen asiakkaat, myös muilla sivuilla olevat. Valittujen määrä näkyy listan yläpuolella (Valittu N).
+
+Toiminnot-kohdassa näkyy, montaako asiakasta toiminto koskee, ja teksti **valitut** tai **suodatetut**.
+
+:::note
+**Huomio:** Jos et ole valinnut yhtään asiakasta, toiminnot (Vie päivityspohjaan, Lisää ryhmään, Lähetä sähköposti, Poista keräilylistalta ja Export) koskevat kaikkia nykyisillä hakuehdoilla näkyviä asiakkaita. Tarkista aina Toiminnot-kohdan asiakasmäärä ennen toiminnon suorittamista.
+:::
 
 ![Asiakkaiden valitseminen keräilylistalta](/img/versio2/kerailylista4.png)
 
@@ -74,7 +91,7 @@ Valitse yksittäinen asiakas napsauttamalla asiakasrivin vasemmassa reunassa ole
 
 Poista yksittäinen asiakas keräilylistalta napsauttamalla asiakasrivin oikeassa reunassa olevaa punaista **X-painiketta**. 
 
-Poista monta asiakasta valitsemalla ne listalta ja painamalla sitten **Poista keräilylistalta** -painiketta. 
+Poista monta asiakasta valitsemalla ne listalta ja painamalla sitten **Poista keräilylistalta** -painiketta. Jos yhtään asiakasta ei ole valittuna, poistetaan kaikki keräilylistalla olevat. 
 
 Tyhjennä keräilylista kokonaan painamalla **Tyhjennä** -painiketta. 
 
@@ -98,7 +115,7 @@ Asiakkaan poistaminen keräilylistalta tai keräilylistan tyhjentäminen ei pois
 
 Avaa vientivalikko napsauttamalla **Export**-painiketta.
 
-Valikossa näkyvä rivimäärä kertoo, kuinka monta suodatettua asiakasta käsitellään. Esimerkiksi **129 riviä** tarkoittaa, että vientiin sisältyy 129 asiakasta. Tarkista määrä ennen toiminnon suorittamista.
+Valikossa näkyvä rivimäärä kertoo, kuinka monta valittua tai suodatettua asiakasta käsitellään. Esimerkiksi **129 riviä** tarkoittaa, että vientiin sisältyy 129 asiakasta. Tarkista määrä ennen toiminnon suorittamista. Vienti sisältää ne sarakkeet, jotka ovat näkyvissä (Sarakkeet-valinta).
 
 | Toiminto | Kuvaus |
 | --- | --- |
@@ -208,7 +225,7 @@ Voit lähettää saman sähköpostiviestin keräilylistalta valituille asiakkail
 
 Viesti lähetetään jokaiselle vastaanottajalle erikseen. Vastaanottajat eivät näe muiden asiakkaiden sähköpostiosoitteita.
 
-Asiakkaat, joilla ei ole sähköpostiosoitetta, ohitetaan automaattisesti.
+Asiakkaat, joilla ei ole sähköpostiosoitetta, ohitetaan automaattisesti. Onnistumisen jälkeen sivulla lukee "Lähetetty N viestiä." ja mahdolliset epäonnistuneet kerrotaan erikseen.
 
 Voit sulkea sähköpostitoiminnon lähettämättä viestiä napsauttamalla osion oikeassa yläkulmassa olevaa **X-painiketta**.
 

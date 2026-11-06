@@ -27,7 +27,7 @@ description: Perintä — Prosessin vaiheet ja ohjeet, Vaihe 1 — Perinnän alo
 
 #### 1. tapa
 
-Jos asiakkaalla **ei ole käytössä** [Katkaisukäsittely](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/tilaukset#tilauksen-katkaisu-maksamattomana) -toimintoja
+Jos asiakkaalla **ei ole käytössä** [Katkaisukäsittely](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/tilaukset#maksamattoman-tilauksen-katkaisu) -toimintoja
     
 1. Valitse laskutyyppi asiakkaan käytön mukaisesti:
     - Jos käytössä on vain **Maksumuistutuslasku #1:**
@@ -46,7 +46,7 @@ Jos asiakkaalla **ei ole käytössä** [Katkaisukäsittely](https://support.taik
     
 #### 2. tapa
 
-Jos asiakkaalla **on käytössä** [Katkaisukäsittely](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/tilaukset#tilauksen-katkaisu-maksamattomana) -toiminnot.
+Jos asiakkaalla **on käytössä** [Katkaisukäsittely](https://support.taikatilaus.fi/docs/ohjeet/tilaustenhallinta/tilaukset#maksamattoman-tilauksen-katkaisu) -toiminnot.
 
 1. Suodata laskut:
     - Laskun tila: **Erääntynyt**

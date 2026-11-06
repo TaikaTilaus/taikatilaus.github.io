@@ -96,7 +96,7 @@ Kun olet tarkistanut yhteenvedon ja mahdolliset poikkeukset, paina:
 
 **Luo postitusajo lehden toimitusta varten**
 
-Ohjelma kysyy vahvistuksen: **Tehdäänkö postitusajo?** (Postitus kirjoitetaan lehden toimittamista varten.) Ikkunassa näkyy yhteenveto luotavasta postituksesta. Jos samalle päivälle on jo aiempi postitus, ikkunassa varoitetaan: "Saman päivän aiempi postitus (N osoiteriviä) poistetaan ja korvataan uudella." Vahvista painamalla **Tee postitusajo**.
+Ohjelma kysyy vahvistuksen: **Tehdäänkö postitusajo?** Ikkunassa näkyy yhteenveto luotavasta postituksesta. Jos samalle päivälle on jo aiempi postitus, ikkunassa varoitetaan: "Saman päivän aiempi postitus (N osoiteriviä) poistetaan ja korvataan uudella." Vahvista painamalla **Tee postitusajo**.
 
 Sama vahvistus kysytään myös painon tiedostojen FTP-siirroissa.
 

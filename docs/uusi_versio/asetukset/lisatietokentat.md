@@ -13,7 +13,7 @@ Avaa sivu valitsemalla **Asetukset → Lisätietokentät**.
 
 ![Lisätietokentät-sivun yleisnäkymä](/img/versio2/lisatietokentat.png)
 
-## Uuden lisätietokentän lisääminen
+## Uuden lisätietokentän lisääminen {#uuden-lisatietokentan-lisaaminen}
 
 1. Kirjoita kentän nimi **Nimi**-kenttään.
 2. Tarkista automaattisesti muodostuva **Tekninen avain**.

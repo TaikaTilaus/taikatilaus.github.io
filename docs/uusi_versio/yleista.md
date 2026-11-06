@@ -27,13 +27,18 @@ Uusittu TaikaTilaus ei ole vielä valmis. Huomioithan, että:
 
 ## Ohjeiden sisältö
 
-- [Etusivu](/docs/uusi_versio/Etusivu) – päävalikko, tiedotteet, tunnusluvut, julkaisukalenteri ja etusivun yhteenvedot
-- [Asiakkaat](/docs/uusi_versio/Asiakkaat) – asiakkaiden haku ja asiakaskortin käyttö
-- [Tilaukset](/docs/uusi_versio/tilaukset) – tilausten haku, tarkastelu ja lisääminen
-- [Laskut](/docs/uusi_versio/Laskut/laskujen-haku) – laskujen haku ja laskun tietojen tarkastelu
-- **Postitus** – [postitusten luonti](/docs/uusi_versio/postitus/postitusten-luonti), [postitusten haku](/docs/uusi_versio/postitus/postitusten-haku), [kestojatko](/docs/uusi_versio/postitus/kestojatko) ja postitusasetukset: [vakioniput](/docs/uusi_versio/asetukset/vakioniput) ja [jakelualueet](/docs/uusi_versio/asetukset/jakelualueet) ja varhaisjakelu. [Postitusten tiedot](/docs/uusi_versio/postitus/postitusten-tiedot) ja [Jakelu](/docs/uusi_versio/postitus/jakelu) eivät ole vielä käytössä.
-- [Raportit](/docs/uusi_versio/Raportit) – raportit, arkisto ja yhteenvedot
-- [Asetukset](/docs/uusi_versio/asetukset) – tuotteet, julkaisut, asiakastietojen asetukset, yleisasetukset ja etusivun osiot
-- [Ylläpito](/docs/uusi_versio/yllapito) – käyttäjien hallinta
+- [**Etusivu**](/docs/uusi_versio/Etusivu): päävalikko, tiedotteet, tunnusluvut, julkaisukalenteri ja etusivun yhteenvedot
+- [**Asiakkaat**](/docs/uusi_versio/Asiakkaat): asiakkaiden haku ja asiakaskortin käyttö
+- [**Tilaukset**](/docs/uusi_versio/tilaukset): tilausten haku, tarkastelu ja lisääminen
+- **Ilmoitukset**: ilmoitusvarausten haku, varaaminen ja käsittely *(vain jos käytössänne on ilmoitusmyynti)*
+- [**Laskut**](/docs/uusi_versio/Laskut/laskujen-haku): laskujen haku ja tietojen tarkastelu, laskujen luonti ja lähetys, suoritukset, pankkiaineistot ja vastaanottoilmoitukset
+- **Postitus**: [postitusten luonti](/docs/uusi_versio/postitus/postitusten-luonti), [postitusten haku](/docs/uusi_versio/postitus/postitusten-haku), [postitusten tiedot](/docs/uusi_versio/postitus/postitusten-tiedot), [kestojatko](/docs/uusi_versio/postitus/kestojatko) ja postitusasetukset: [vakioniput](/docs/uusi_versio/asetukset/vakioniput) ja [jakelualueet](/docs/uusi_versio/asetukset/jakelualueet) ja varhaisjakelu. 
+- [**Raportit**](/docs/uusi_versio/Raportit): kaikki raportit, arkisto sekä tilaus-, ilmoitusmyynti-, asiakas- ja laskuyhteenvedot
+- [**Asetukset**](/docs/uusi_versio/asetukset): tuotteet, julkaisut, tilit, lisätietokentät, asiakasryhmät, listat, ilmoitusasetukset, tilauslomake ja muut asetukset
+- [**Ylläpito**](/docs/uusi_versio/yllapito): käyttäjien hallinta sekä tapahtumaloki
+
+:::info Huom!
+Valikossa näkyvät kohdat riippuvat käyttöoikeuksista ja siitä, mitä toimintoja organisaatiollenne on otettu käyttöön. Ilmoitukset-valikko näkyy vain ilmoitusmyyntiä käyttäville ja Ylläpito vain pääkäyttäjille.
+:::
 
 Jos huomaat järjestelmässä virheen tai ohjeissa puutteita, ilmoitathan niistä TaikaTilaus-tukeen. Saatu palaute auttaa meitä kehittämään sekä järjestelmää että ohjeita.

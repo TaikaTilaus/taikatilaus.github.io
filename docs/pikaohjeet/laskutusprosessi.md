@@ -75,7 +75,7 @@ description: Laskutusprosessi — 1. Aloitetaan laskutusprosessi Laskut-valikost
 
 ![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi17.png)
 
-### 19. Laskut lähetetään kanava kerrallaan. Valitse ensimmäinen kanava esim. SÄHKÖPOSTI
+### 19. Laskut lähetetään kanava kerrallaan. Valitse ensimmäinen kanava esim. SÄHKÖPOSTI {#laskutuskanavan-valinta}
 
 ![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi18.png)
 

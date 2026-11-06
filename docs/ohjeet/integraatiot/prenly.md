@@ -25,7 +25,7 @@ Reaaliaikainen lukuoikeuden tarkistus mahdollistaa, että lukuoikeuden saa heti 
 
 ## Liittymän toimintaperiaate
 
-Liittymä perustuu [Prenly Remote API](https://support.prenly.com/p/sign-in-subscriptions/remote-api/a/prenly-remote-authority-api/5567/1013545/40483451) -määrittelyyn.
+Liittymä perustuu [Prenly Remote API](https://apidoc.prenly.com/remote-api/) -määrittelyyn.
 
 Liittymässä hyödynnetään [Prenly Remote authority API](https://apidoc.prenly.com/remote-api/) -rajapinnan varianttia 2:
 * Prenly built-in login form - login credentials are validated by your system
@@ -43,7 +43,7 @@ Käyttäjän tiedot kertovat mihin tuotteisiin on käyttäjällä on lukuoikeus 
 1. Yhteydenotto: Ota yhteys Prenlyn tukeen ja sovi käyttöönotosta TaikaTilauksen kanssa.
 
 2. Prenlyn konfigurointi
-   - TaikaTilaus toimittaa tarvittavat tiedot Prenlyyn [liittymäkuvauksen](https://support.prenly.com/p/sign-in-subscriptions/remote-api/a/prenly-remote-authority-api/5567/1013545/40483451) mukaisesti.
+   - TaikaTilaus toimittaa tarvittavat tiedot Prenlyyn [liittymäkuvauksen](https://apidoc.prenly.com/remote-api/) mukaisesti.
   
 3. Testaus testiympäristössä. 
    - TaikaTilaus testaa käyttäen Prenlyn [testisovellusta](https://remoteapi.prenly.com/). 

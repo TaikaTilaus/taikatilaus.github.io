@@ -23,7 +23,7 @@ Asiakaskortille määritellään uusi osoite ja siirtopäivä, jolloin lehti hal
 
 <a href="../pikaohjeet/osoitteenmuutos">Lue pikaohje</a>
 
-### Kun tilaus syötetään, tuleeko automaattitarjontana varhaisjakelu?
+### Kun tilaus syötetään, tuleeko automaattitarjontana varhaisjakelu? {#tilauksen-oletusjakelu}
 
 Jakelu menee automaattisesti tallennetun vakio-osoitteen mukaisesti. Jos se löytyy Varhaisjakelun rekisteristä, niin jaetaan silloin, mutta voidaan myös tarvittaessa pakottaa Päiväjakeluun.
 

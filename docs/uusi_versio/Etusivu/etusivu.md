@@ -22,19 +22,14 @@ Sivun yläreunan päävalikosta pääset järjestelmän eri osioihin:
 
 - **Asiakkaat**
 - **Tilaukset**
+- **Ilmoitukset** (vain jos käytössänne on ilmoitusmyynti)
 - **Laskut**
 - **Postitus**
 - **Raportit**
 - **Asetukset**
-- **Ylläpito**
+- **Ylläpito (vain pääkäyttäjille)**
 
-Valikon nimen vieressä oleva nuoli avaa alavalikon.
-
-:::info Huomio
-
-Osa valikoissa näkyvistä toiminnoista on vielä keskeneräisiä.
-
-:::
+Valikon nimen vieressä oleva nuoli avaa alavalikon. Valikossa näkyvät kohdat riippuvat käyttöoikeuksistasi ja organisaatiollenne käyttöön otetuista toiminnoista.
 
 ![Etusivun päävalikko ja sen osiot](/img/versio2/paavalikko.png)
 
@@ -47,7 +42,7 @@ Päävalikon oikeassa reunassa ovat seuraavat pikatoiminnot:
 | [**Keräilylista**](/docs/uusi_versio/Etusivu/kerailylista) | Avaa keräilylistan. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän. |
 | [**Historia**](/docs/uusi_versio/Etusivu/historia) | Avaa järjestelmän historian. |
 | [**Huomiot**](/docs/uusi_versio/Etusivu/huomiot) | Avaa huomiot. Kuvakkeen yhteydessä näkyvä numero kertoo käsittelemättömien huomioiden määrän. |
-| [**Omat tiedot**](/docs/uusi_versio/Etusivu/omat-tiedot) | Avaa käyttäjävalikon, jossa voit tarkastella omia tietojasi tai kirjautua ulos järjestelmästä. |
+| [**Käyttäjävalikko**](/docs/uusi_versio/Etusivu/omat-tiedot) | Napsauta käyttäjätunnustasi oikeassa reunassa. Valikosta pääset kohtiin **Tiedot** (omat tietosi), **Tiedotteet** (kuitatut tiedotteet), **TaikaTilaus (vanha)** (avaa vanhan version uuteen välilehteen samoilla tunnuksilla) ja **Kirjaudu ulos**. Jos organisaatiollenne on otettu käyttöön Stripe, valikossa on myös **Stripe**.  |
 
 Avaa toiminto napsauttamalla sitä vastaavaa kuvaketta. Käyttäjävalikko avautuu napsauttamalla oikeassa reunassa näkyvää käyttäjätunnusta.
 
@@ -83,7 +78,7 @@ Tilausten kehitystä seurataan neljässä kortissa:
 - **Uudet tilaukset:** jakson aikana tulleet uudet tilaukset.
 - **Päättyneet määräaikaiset:** jakson aikana päättyneet määräaikaiset tilaukset.
 - **Katkaistut kestotilaukset:** kesto- ja Stripe-tilaukset, joille on annettu katkaisupäivä jaksolla. Mukana ovat myös maksamatta katkaistut tilaukset. Tilaukset, joilla ei ole katkaisupäivää (esimerkiksi normaalisti päättyneet määräaikaiset tilaukset tai kestotilauksen tilausjaksot), eivät ole mukana.
-- **Maksamatta katkaistut**: edellisellä viikolla (maanantaista sunnuntaihin) maksamattomuuden vuoksi katkaistut tilaukset. Päivänä käytetään katkaisupäivää.
+- **Maksamatta päättyneet**: edellisellä viikolla (maanantaista sunnuntaihin) maksamattomuuden vuoksi päättyneet tilaukset. Päivänä käytetään katkaisupäivää.
 
 Kolmen ensimmäisen kortin jakso on oletuksena viimeiset 30 vuorokautta. Jakson pituuden voi muuttaa **Asetuksissa** kohdassa [**Etusivun osiot**](/docs/uusi_versio/asetukset/etusivun-osiot). Jakso näkyy kortin otsikossa, esimerkiksi **Uudet tilaukset · 30 vrk**.
 
@@ -94,6 +89,7 @@ Napsauta korttia ja paina Näytä tilaukset: Tilaukset-sivu avautuu valmiiksi sa
 Kortin alareunassa näkyy edellisten 12 kuukauden kuukausikeskiarvo ("**Edellisen 12 kk:n keskiarvo: X / kk**"). Keskiarvo skaalataan samanmittaiseen jaksoon kuin kortin jakso. 
 
 - Nuoli kertoo muutoksen suunnan: **nuoli ylöspäin tarkoittaa määrän kasvua ja nuoli alaspäin määrän vähenemistä**.
+- Kortin luvun vieressä näkyy muutosmerkintä, esim. **↑ +12 % vs. normaali**. Prosentti kertoo, kuinka paljon kuluvan jakson määrä poikkeaa edellisen 12 kuukauden normaalitasosta, kun se on skaalattu samanmittaiseen jaksoon. Alareunassa näkyy edellisen 12 kk:n kuukausikeskiarvo ("Edellisen 12 kk:n keskiarvo: X / kk").
 - Väri kertoo, onko muutos toiminnan kannalta myönteinen vai kielteinen: **vihreä on myönteinen ja punainen kielteinen**.
 
 Väri riippuu kortista. Uudet tilaukset -kortissa kasvu on myönteistä (vihreä nuoli ylös) ja väheneminen kielteistä (punainen nuoli alas). Päättyneet määräaikaiset-, Päättyneet kestotilaukset- ja Maksamatta katkaistut -korteissa kasvu on kielteistä (punainen nuoli ylös) ja väheneminen myönteistä (vihreä nuoli alas). Jos vertailutietoa ei ole, merkintänä on harmaa *"ei vertailutietoa"*.
@@ -133,6 +129,12 @@ Jos **Lisää merkintä** -painike ei näy, avaa julkaisukalenterin asetukset ra
 
 ![Uuden merkinnän lisääminen julkaisukalenteriin](/img/versio2/kalenteri3.png)
 
+### Merkinnän muokkaaminen ja poistaminen
+
+Napsauta kalenterissa olevaa merkintää (merkitty nastakuvakkeella). Lomake avautuu muokattavaksi. Muuta tiedot ja napsauta **Tallenna**, tai poista merkintä napsauttamalla **Poista**. Lomakkeessa näkyy tieto, kuka merkinnän on tehnyt.
+
+![Julkaisukalenteri ilmestymis-, aineisto- ja pyhäpäivineen](/img/versio2/julkaisukalenteri-muokkaus.png)
+
 ### Julkaisukalenterin asetukset
 
 Avaa kalenterin asetukset napsauttamalla julkaisukalenterin oikeassa yläkulmassa olevaa **rataskuvaketta**.
@@ -160,13 +162,15 @@ Kun lehtiä on monta, viimeisessä sarakkeessa näkyvät lehtien yhteismäärät
 
 Avaa asetukset napsauttamalla **Postitusyhteenveto**-osion oikeassa yläkulmassa olevaa **rataskuvaketta**.
 
-**Haku historiasta (päivää taaksepäin)** -kentässä voit valita, montako päivää taaksepäin postituksia haetaan. Esimerkiksi arvo **70** näyttää tiedot viimeisten 70 vuorokauden ajalta. Oletusarvo asetetaan kohdassa [**Asetukset → Etusivun osiot**](/docs/uusi_versio/asetukset/etusivun-osiot).
+**Haku historiasta (päivää taaksepäin)** -kentässä voit valita, montako päivää taaksepäin postituksia haetaan. Esimerkiksi arvo **70** näyttää tiedot viimeisten 70 vuorokauden ajalta. 
+
+Koko osion voi piilottaa ja näytettävien rivien enimmäismäärää (1–500) voi muuttaa kohdassa [**Asetukset → Muut asetukset → Etusivun osiot.**](/docs/uusi_versio/asetukset/etusivun-osiot).
 
 ![Postitusyhteenvedon historiapäivien asetus](/img/versio2/postitusyhteenveto.png)
 
 ## Uusimmat lokitiedot
 
-Osiossa näet viimeisimpiä asiakastietoihin tehtyjä muutoksia. Jokaisella rivillä näkyvät:
+Osiossa näet viimeisimpiä asiakastietoihin ja tilauksiin tehtyjä muutoksia.. Jokaisella rivillä näkyvät:
 
 - muutoksen ajankohta (pp.kk tt:mm)
 - asiakas
