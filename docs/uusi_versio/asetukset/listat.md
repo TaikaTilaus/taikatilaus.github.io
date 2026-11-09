@@ -19,7 +19,7 @@ Avaa sivu valitsemalla **Asetukset → Listat**.
 
 Ota **Näytä Lisätiedot kokonaisuudessaan listassa** käyttöön, jos haluat näyttää kentän koko sisällön suoraan asiakaslistalla.
 
-Asetus koskee kaikkia käyttäjiä, jotka eivät ole tehneet omaa valintaa. Käyttäjä voi poiketa oletusasetuksesta Asiakkaat-näkymässä valitsemalla **Sarakkeet → Lisäasetukset**.
+Asetus koskee kaikkia käyttäjiä, jotka eivät ole tehneet omaa valintaa. Käyttäjä voi poiketa oletusasetuksesta [Asiakkaat](/docs/uusi_versio/Asiakkaat)-näkymässä valitsemalla **Sarakkeet → Lisäasetukset**.
 
 ## Tilauslista
 
@@ -27,7 +27,7 @@ Tilauslistan asetus koskee sekä **Lisätiedot**- että **Lisätiedot tilaajalle
 
 Ota **Näytä Lisätiedot kokonaisuudessaan listassa** käyttöön, jos haluat näyttää kenttien koko sisällön suoraan tilauslistalla.
 
-Asetus koskee kaikkia käyttäjiä, jotka eivät ole tehneet omaa valintaa. Käyttäjä voi poiketa oletusasetuksesta Tilaukset-näkymässä valitsemalla **Sarakkeet → Lisäasetukset**.
+Asetus koskee kaikkia käyttäjiä, jotka eivät ole tehneet omaa valintaa. Käyttäjä voi poiketa oletusasetuksesta [Tilaukset](/docs/uusi_versio/tilaukset)-näkymässä valitsemalla **Sarakkeet → Lisäasetukset**.
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 

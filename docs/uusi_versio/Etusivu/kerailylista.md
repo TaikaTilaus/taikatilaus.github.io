@@ -37,7 +37,7 @@ Tyhjennä syötetyt asiakasnumerot ja valittu tiedosto napsauttamalla **Tyhjenn�
 
 | Sarake | Sisältö |
 | --- | --- |
-| **Asiakasnro** | Asiakkaan numero ja linkki asiakaskortille. |
+| **Asiakasnro** | Asiakkaan numero ja linkki [asiakaskortille](/docs/uusi_versio/Asiakkaat/asiakaskortti). |
 | **Nimi** | Asiakkaan nimi. |
 | **Yritys** | Asiakkaan yrityksen nimi. |
 | **Katuosoite** | Asiakkaan katuosoite. |
@@ -47,7 +47,7 @@ Tyhjennä syötetyt asiakasnumerot ja valittu tiedosto napsauttamalla **Tyhjenn�
 | **Lisätty** | Päivämäärä ja kellonaika, jolloin asiakas lisättiin keräilylistalle. |
 | **Markkinointikiellot** | Asiakkaan voimassa olevat markkinointikiellot. |
 
-Rivin alussa on Muokkaa-painike (kynä) ja Avaa uuteen välilehteen -painike. Avaa asiakkaan asiakaskortti napsauttamalla **asiakasnumeroa**. Lajittele lista napsauttamalla sarakkeen otsikkoa; oletuksena uusimmat lisäykset ovat ylimpänä. Listan yläosan sivutuksella valitaan rivien määrä per sivu (oletus 100).
+Rivin alussa on Muokkaa-painike (kynä) ja Avaa uuteen välilehteen -painike. Avaa asiakkaan [asiakaskortti](/docs/uusi_versio/Asiakkaat/asiakaskortti) napsauttamalla **asiakasnumeroa**. Lajittele lista napsauttamalla sarakkeen otsikkoa; oletuksena uusimmat lisäykset ovat ylimpänä. Listan yläosan sivutuksella valitaan rivien määrä per sivu (oletus 100).
 
 ![Keräilylistan asiakkaiden tiedot](/img/versio2/kerailylista5.png)
 
@@ -151,7 +151,7 @@ Päivityspohja sisältää esimerkiksi seuraavia tietoja:
 - sähköpostiosoite
 - puhelinnumero.
 
-**Älä muuta tai poista Asiakasnumero-sarakkeen arvoja.** Järjestelmä tunnistaa päivitettävän asiakaskortin asiakasnumeron perusteella.
+**Älä muuta tai poista Asiakasnumero-sarakkeen arvoja.** Järjestelmä tunnistaa päivitettävän [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) asiakasnumeron perusteella.
 
 Tarkista muutokset huolellisesti ennen tiedoston tuomista takaisin järjestelmään, sillä tuonnilla voidaan päivittää useiden asiakkaiden tietoja samalla kertaa.
 

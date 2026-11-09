@@ -12,7 +12,7 @@ Avaa haluamasi asetussivu suoraan ylävalikon **Asetukset**-valikosta:
 - [**Tuotteet**](./tuotteet.md) – tilaus-, erillis- ja myyntituotteet.
 - [**Julkaisut**](./julkaisut.md) – julkaisut ja niiden ilmestymispäivät.
 - **Tilit**.
-- [**Lisätietokentät**](./lisatietokentat.md) – asiakaskortilla käytettävät lisätietokentät.
+- [**Lisätietokentät**](./lisatietokentat.md) – [asiakaskortilla](/docs/uusi_versio/Asiakkaat/asiakaskortti) käytettävät lisätietokentät.
 - [**Asiakasryhmät**](./ryhmien-muokkaus.md) – ryhmätyyppien ja ryhmien muokkaus.
 - [**Listat**](./listat.md) – asiakas- ja tilauslistojen asetukset.
 - [**Ilmoitukset**](./ilmoitukset.md).
@@ -23,8 +23,8 @@ Valitse **Asetukset → Muut asetukset** ja avaa haluamasi sivu napsauttamalla s
 
 - [**Yleisasetukset**](./muut-asetukset/yleisasetukset.md) – tilaustavat ja muut yleiset asetukset.
 - [**Etusivun osiot**](./muut-asetukset/etusivun-osiot.md) – etusivulla näkyvät tiedot ja yhteenvedot.
-- [**Asiakkaan tietokentät**](./muut-asetukset/asiakkaan-tietokentat.md) – asiakaskortilla käytössä olevat kentät.
+- [**Asiakkaan tietokentät**](./muut-asetukset/asiakkaan-tietokentat.md) – [asiakaskortilla](/docs/uusi_versio/Asiakkaat/asiakaskortti) käytössä olevat kentät.
 
 ## Postitusasetuksista löytyvät jakelualueet
 
-[**Jakelualueet**](../postitus/postitusasetukset/jakelualueet.md) löytyy polusta **Postitus → Postitusasetukset → Jakelualueet**. Välilehdellä voit hallita postinumeroalueita ja tuotteiden aluehintoja. **Välilehti näkyy vain, kun aluehinnoittelu on käytössä.**
+[**Jakelualueet**](../postitus/postitusasetukset/jakelualueet.md) löytyy polusta [**Postitus → Postitusasetukset → Jakelualueet**](/docs/uusi_versio/asetukset/jakelualueet). Välilehdellä voit hallita postinumeroalueita ja tuotteiden aluehintoja. **Välilehti näkyy vain, kun aluehinnoittelu on käytössä.**

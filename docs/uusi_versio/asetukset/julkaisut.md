@@ -162,7 +162,7 @@ Tilaustuotteiden lähtöarvot on kopioitu vanhan TaikaTilauksen asetuksista. Tä
 
 ## Julkaisujen ilmestymisviikonpäivät
 
-Tässä kohdassa määritetään julkaisujen tavalliset ilmestymisviikonpäivät julkaisukalenteria varten.
+Tässä kohdassa määritetään julkaisujen tavalliset ilmestymisviikonpäivät [julkaisukalenteria](/docs/uusi_versio/Etusivu#julkaisukalenteri) varten.
 
 Asetuksissa määritellyt julkaisut ja niiden lyhenteet näkyvät kentän yläpuolella.
 

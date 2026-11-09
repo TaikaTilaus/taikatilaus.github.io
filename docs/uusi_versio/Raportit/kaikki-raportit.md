@@ -88,7 +88,7 @@ Lataa kuvaaja kuvatiedostona napsauttamalla **Lataa kuva**.
 
 Taulukon yläpuolella oleva yhteenveto näyttää raportissa käytetyt hakuehdot ja tulosten rivimäärän. Yhteenvedossa näkyy myös, jos **Sama asiakas vain kerran** on käytössä.
 
-Taulukon sarakkeet vaihtelevat raportin mukaan. Asiakkaisiin liittyvissä raporteissa voit avata asiakaskortin napsauttamalla **asiakasnumeroa**.
+Taulukon sarakkeet vaihtelevat raportin mukaan. Asiakkaisiin liittyvissä raporteissa voit avata [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) napsauttamalla **asiakasnumeroa**.
 
 ![Raportin tulokset taulukkomuodossa](/img/versio2/raportti-data.png)
 
@@ -148,7 +148,7 @@ Voit tallentaa usein käyttämäsi hakuehdot myöhempää käyttöä varten.
 
 Näkyvyys määrittää, ketkä voivat nähdä tallennetun haun. Esimerkiksi **Julkinen**-haku on muidenkin käyttäjien käytettävissä.
 
-Tallennettu haku lisätään Raportit-sivun luetteloon. Kun avaat tallennetun haun, raportille asetetaan siihen tallennetut hakuehdot.
+Tallennettu haku lisätään [Raportit](/docs/uusi_versio/Raportit)-sivun luetteloon. Kun avaat tallennetun haun, raportille asetetaan siihen tallennetut hakuehdot.
 
 Voit sulkea tallennusikkunan tallentamatta napsauttamalla **Peruuta**.
 
@@ -181,4 +181,4 @@ Voit sulkea arkistointitoiminnon tallentamatta raporttia napsauttamalla **Peruut
 
 ### Palaaminen raporttiluetteloon
 
-Palaa Raportit-sivulle napsauttamalla sivun oikeassa yläkulmassa **Palaa listaan**.
+Palaa [Raportit](/docs/uusi_versio/Raportit)-sivulle napsauttamalla sivun oikeassa yläkulmassa **Palaa listaan**.

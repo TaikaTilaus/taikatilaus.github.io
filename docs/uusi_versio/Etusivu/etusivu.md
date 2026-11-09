@@ -20,14 +20,14 @@ Mediasivusto: Jos käytössäsi on pelkästään ilmoitusten myynti, etusivuna o
 
 Sivun yläreunan päävalikosta pääset järjestelmän eri osioihin:
 
-- **Asiakkaat**
-- **Tilaukset**
+- [**Asiakkaat**](/docs/uusi_versio/Asiakkaat)
+- [**Tilaukset**](/docs/uusi_versio/tilaukset)
 - **Ilmoitukset** (vain jos käytössänne on ilmoitusmyynti)
-- **Laskut**
-- **Postitus**
-- **Raportit**
-- **Asetukset**
-- **Ylläpito (vain pääkäyttäjille)**
+- [**Laskut**](/docs/uusi_versio/Laskut/laskujen-haku)
+- [**Postitus**](/docs/uusi_versio/postitus/postitusten-haku)
+- [**Raportit**](/docs/uusi_versio/Raportit)
+- [**Asetukset**](/docs/uusi_versio/asetukset)
+- [**Ylläpito (vain pääkäyttäjille)**](/docs/uusi_versio/yllapito/kayttajat)
 
 Valikon nimen vieressä oleva nuoli avaa alavalikon. Valikossa näkyvät kohdat riippuvat käyttöoikeuksistasi ja organisaatiollenne käyttöön otetuista toiminnoista.
 
@@ -82,7 +82,7 @@ Tilausten kehitystä seurataan neljässä kortissa:
 
 Kolmen ensimmäisen kortin jakso on oletuksena viimeiset 30 vuorokautta. Jakson pituuden voi muuttaa **Asetuksissa** kohdassa [**Etusivun osiot**](/docs/uusi_versio/asetukset/etusivun-osiot). Jakso näkyy kortin otsikossa, esimerkiksi **Uudet tilaukset · 30 vrk**.
 
-Napsauta korttia ja paina Näytä tilaukset: Tilaukset-sivu avautuu valmiiksi samalla tavalla rajattuna kuin kortin luku.
+Napsauta korttia ja paina Näytä tilaukset: [Tilaukset](/docs/uusi_versio/tilaukset)-sivu avautuu valmiiksi samalla tavalla rajattuna kuin kortin luku.
 
 ### Muutosmerkintä
 

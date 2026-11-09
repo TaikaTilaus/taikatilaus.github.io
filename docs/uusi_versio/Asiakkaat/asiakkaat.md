@@ -12,23 +12,44 @@ description: Asiakkaat — Asiakkaiden hakeminen, Hakuhistoria, Lisähakuehdot.
 
 ## Asiakkaiden hakeminen
 
-1. Kirjoita sivun yläreunan hakukenttään esimerkiksi asiakasnumero, nimi, yritys, sähköpostiosoite, puhelinnumero tai lisätieto.
-2. Napsauta **Hae**.
-3. Hakutulokset näytetään alla olevassa asiakasluettelossa.
+Kirjoita sivun yläreunan hakukenttään esimerkiksi asiakasnumero, nimi, yritys, osoite, sähköpostiosoite, puhelinnumero tai lisätieto. Osoitehaku hakee myös väliaikaisesta osoitteesta.
 
-Voit tarkentaa hakua **Lisähakuehdot**-painikkeesta. **Tyhjennä**-painikkeella voit tyhjentää haun.
+Asiakasluettelo päivittyy jo kirjoittaessasi, joten Hae-painiketta ei tarvitse napsauttaa. Hae-painike ja Enter-näppäin tallentavat hakusanan lisäksi hakuhistoriaan.
+
+Hakutulokset näytetään alla olevassa asiakasluettelossa.
+
+Hakukentän vieressä ovat painikkeet:
+
+| Painike | Toiminto |
+|---|---|
+| **Kellokuvake** | Avaa hakuhistorian. |
+| **Hae** | Suorittaa haun ja tallentaa hakusanan hakuhistoriaan. |
+| **Tyhjennä** | Tyhjentää hakukentän ja päivittää luettelon. Painike ei tyhjennä lisähakuehtoja. |
+| **Lisähakuehdot** | Avaa tarkemmat hakuehdot. Painike on tummempi, kun jokin lisähakuehto on käytössä. |
+
+Sovellus muistaa hakusanasi, luettelon lajittelun ja näytettävät sarakkeet, joten ne ovat ennallaan, kun palaat sivulle.
 
 ![Asiakkaiden hakukenttä ja hakutoiminnot](/img/versio2/asiakas-hakuehdot.png)
 
 ### Hakuhistoria
 
-Hakukentän vieressä olevasta **kellokuvakkeesta** voit avata aiemmin tekemäsi haut.
+Hakukentän vieressä olevasta kellokuvakkeesta voit avata aiemmin tekemäsi haut. Valikon otsikko on **Aiemmat haut**. Historiassa on enintään 15 uusinta hakua, uusin ylimpänä. Jos historia on tyhjä, valikossa lukee *Ei aiempia hakuja.*
 
-Valitse hakuhistoriasta haluamasi hakusana. Hakukenttä täytetään valitulla hakusanalla ja haku suoritetaan automaattisesti.
+- Valitse hakusana. Hakukenttä täytetään valitulla hakusanalla ja haku suoritetaan automaattisesti.
+- Poista yksittäinen hakusana historiasta napsauttamalla sen oikealla puolella olevaa rastia.
+- Tyhjennä koko historia valitsemalla valikon alareunasta Tyhjennä historia.
+
+Hakuhistoria on henkilökohtainen, eivätkä muut käyttäjät näe sitä.
 
 ### Lisähakuehdot
 
-Avaa tarkemmat hakuehdot napsauttamalla hakukentän vieressä olevaa **Lisähakuehdot**-painiketta. Voit rajata asiakkaita asiakastyypin, asiakasryhmän ja yksittäisten tietokenttien perusteella sekä tallentaa usein käyttämäsi hakuehdot.
+Avaa tarkemmat hakuehdot napsauttamalla hakukentän vieressä olevaa Lisähakuehdot-painiketta. Painike on tummempi, kun jokin lisähakuehto on käytössä. Voit rajata asiakkaita asiakastyypin, asiakasryhmän, tilausten, markkinointitietojen ja yksittäisten tietokenttien perusteella sekä tallentaa usein käyttämäsi hakuehdot.
+
+Paneelin oikeassa yläkulmassa on Asetukset-kuvake. Sillä voit valita, mitkä lisähakuehdot näkyvät sinulle. Kaikkien käyttäjien yhteinen oletus määritetään kohdassa **Asetukset → Listat**. Osa ehdoista näkyy vain tietyssä sovelluksen tilassa:
+
+- Tilaukset-osion ehdot eivät näy, kun vain ilmoitusten hallinta on käytössä.
+- Ilmoitusasiakas näkyy vain, kun käytössä on sekä tilaukset että ilmoitusten hallinta.
+- Kuolinpesä-asiakastyyppi ja Myyjä-hakukenttä näkyvät vain ilmoitusten hallintaa käyttävillä.
 
 #### Rajaaminen asiakastyypin ja ryhmän mukaan
 
@@ -131,6 +152,10 @@ Esikatselussa voit:
 
 ![Asiakkaan esikatselu asiakasluettelossa](/img/versio2/asiakkaat2.png)
 
+### Yhteenveto kortin esikatselussa
+
+Kun avaat asiakkaan asiakasluettelossa esikatseluun, kortin ylimpänä on harmaa Yhteenveto-palkki. Palkki on oletuksena suljettu. Napsauta palkkia tai Näytä-painiketta, niin luvut aukeavat. Esikatselussa näkyvät vain luvut, ei kaavioita eikä Maksuongelmat-osiota.
+
 ### Asiakasluettelon kuvakkeet
 
 Asiakasrivin vasemmassa reunassa on kolme toimintopainiketta:
@@ -166,7 +191,7 @@ Voit valita, mitkä sarakkeet asiakasluettelossa näytetään.
 
 Perustietojen lisäksi voit näyttää esimerkiksi seuraavat tiedot:
 
-- **Lisätiedot**: asiakaskortilla olevat asiakkaan lisätiedot
+- **Lisätiedot**: [asiakaskortilla](/docs/uusi_versio/Asiakkaat/asiakaskortti) olevat asiakkaan lisätiedot
 - **Viim. kirjautum. Digi**: viimeinen kirjautuminen näköislehteen
 - **Viim. kirjautum. OP**: viimeinen kirjautuminen OmaPalveluun
 - **Viim. kirjautum. WWW**: viimeinen kirjautuminen nettisivuille
@@ -193,7 +218,7 @@ Avaa lisäasetukset valitsemalla **Sarakkeet → Lisäasetukset**.
 
 Valinta koskee vain omaa näkymääsi ja tallentuu heti. Erillistä tallennusta ei tarvita. Sulje ikkuna **Sulje**-painikkeella tai oikean yläkulman rastista.
 
-Kaikkien käyttäjien yhteinen oletusasetus määritetään kohdassa **Asetukset → Listat**.
+Kaikkien käyttäjien yhteinen oletusasetus määritetään kohdassa [**Asetukset → Listat**](/docs/uusi_versio/asetukset/listat).
 
 ![Asiakasluettelon lisätietosarakkeen asetukset](/img/versio2/sarakkeet2.png)
 
@@ -219,7 +244,7 @@ Valikossa näytetään vietävien rivien määrä, esimerkiksi **100 riviä**.
 ## Uuden asiakkaan lisääminen
 
 1. Napsauta asiakasluettelon yläreunassa **+ Lisää asiakas** -painiketta. **Uusi kontakti** -lomake avautuu uuteen välilehteen.
-2. Täytä asiakkaan tiedot **Yhteystiedot**-välilehdellä.
+2. Täytä asiakkaan tiedot [**Yhteystiedot**](/docs/uusi_versio/Asiakkaat/asiakaskortti/yhteystiedot)-välilehdellä.
 3. Täydennä tarvittaessa muiden välilehtien tiedot.
 4. Napsauta lomakkeen alareunassa **Tallenna**.
 

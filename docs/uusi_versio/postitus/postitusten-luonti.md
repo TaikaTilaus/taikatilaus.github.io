@@ -13,7 +13,7 @@ Valitse ensin lehti ja päivä, jolloin tilausten tulee olla voimassa. Päiväm�
 
 :::warning Huom!
  
- Tätä menetelmää käytetään postitukseen vain, kun Postin LaPa-ajo ei ole käytössä. Jos LaPa-ajo on käytössä, postitusaineisto tehdään **Postitusten tiedot** -sivulla.
+ Tätä menetelmää käytetään postitukseen vain, kun Postin LaPa-ajo ei ole käytössä. Jos LaPa-ajo on käytössä, postitusaineisto tehdään [**Postitusten tiedot**](/docs/uusi_versio/postitus/postitusten-tiedot) -sivulla.
 
 :::
 

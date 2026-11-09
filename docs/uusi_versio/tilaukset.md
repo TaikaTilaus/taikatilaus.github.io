@@ -112,7 +112,7 @@ Esikatselussa voit:
 Tilausluettelon siniset asiakasnumerot (**Tilaaja**- ja **Maksaja**-sarakkeet) avaavat kyseisen asiakkaan tiedot uuteen välilehteen. Tilauksen voit avata uuteen välilehteen rivin nuolella varustetulla laatikkokuvakkeella.
 
 - Avaa tilauksen esikatselu napsauttamalla riviä tai muokkaa tilausta rivin vasemmassa reunassa olevalla **kynäkuvakkeella**.
-- Avaa tilaajan tai maksajan asiakaskortti napsauttamalla kyseisen asiakkaan **asiakasnumeroa**.
+- Avaa tilaajan tai maksajan [asiakaskortti](/docs/uusi_versio/Asiakkaat/asiakaskortti) napsauttamalla kyseisen asiakkaan **asiakasnumeroa**.
 - Rivin alussa oleva **Avaa uuteen välilehteen** -painike avaa tilauksen omalle välilehdelleen.
 
 ![Tilauksen, tilaajan ja maksajan linkit tilausluettelossa](/img/versio2/tilaukset6.png)
@@ -169,7 +169,7 @@ Avaa tilausluettelon lisäasetukset valitsemalla **Sarakkeet → Lisäasetukset*
 
 Valinta koskee vain omaa näkymääsi ja tallentuu heti. Erillistä tallennusta ei tarvita.
 
-Kaikkien käyttäjien yhteinen oletusasetus määritetään kohdassa **Asetukset → Listat**.
+Kaikkien käyttäjien yhteinen oletusasetus määritetään kohdassa [**Asetukset → Listat**](/docs/uusi_versio/asetukset/listat).
 
 Sulje ikkuna **Sulje**-painikkeella tai oikean yläkulman rastista.
 

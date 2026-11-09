@@ -6,7 +6,7 @@ description: Asiakkaan tietokentät — Puhelinkenttien määrittäminen.
 
 # Asiakkaan tietokentät
 
-**Asiakkaan tietokentät** -sivulla voit määrittää, mitkä kentät ovat käytössä asiakaskortilla.
+**Asiakkaan tietokentät** -sivulla voit määrittää, mitkä kentät ovat käytössä [asiakaskortilla](/docs/uusi_versio/Asiakkaat/asiakaskortti).
 
 Avaa sivu valitsemalla **Asetukset → Muut asetukset → Asiakkaan tietokentät**.
 
@@ -19,7 +19,7 @@ Voit ottaa seuraavat kentät käyttöön tai poistaa ne käytöstä:
 
 Ota kenttä käyttöön tai poista se käytöstä napsauttamalla kentän vieressä olevaa valitsinta.
 
-Pois käytöstä poistettua kenttää ei näytetä asiakaskortin **Yhteystiedot**-osiossa.
+Pois käytöstä poistettua kenttää ei näytetä [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) [**Yhteystiedot**](/docs/uusi_versio/Asiakkaat/asiakaskortti/yhteystiedot)-osiossa.
 
 Tallenna muutokset napsauttamalla **Tallenna**.
 
