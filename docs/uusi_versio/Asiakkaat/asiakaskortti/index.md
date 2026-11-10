@@ -19,7 +19,7 @@ Avaa asiakaskortti napsauttamalla asiakasrivin **kynäkuvaketta** tai **uusi vä
 
 Asiakaskortin yläreunassa näkyvät asiakastyypin kuvake, asiakasnumero, asiakkaan nimi ja mahdollinen yritys sekä osasto. Jos asiakas on merkitty kuolleeksi, nimen vieressä näkyy Kuollut-merkki. Oikeassa reunassa näkyy asiakkaan KontaktiID.
 
-Nimen vieressä olevasta **keräilylistakuvakkeesta** voit lisätä asiakkaan keräilylistalle.
+Nimen vieressä olevasta **keräilylistakuvakkeesta** voit lisätä asiakkaan [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista).
 
 Asiakkaan tiedot on jaettu välilehdille:
 

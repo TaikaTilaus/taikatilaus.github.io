@@ -6,7 +6,7 @@ description: Keräilylista — Asiakkaiden tuominen asiakasnumeroilla, Keräilyl
 
 # Keräilylista
 
-Keräilylistalle voit koota asiakkaita eri puolilta järjestelmää jatkokäsittelyä varten. Asiakkaita lisätään listalle muilta sivuilta rivin keräilylistakuvakkeella tai valikosta (esimerkiksi Asiakkaat-, Tilaukset- ja Laskujen haku -sivuilta) tai tuomalla asiakasnumeroita tältä sivulta. Jos lista on tyhjä, sivulla lukee "Keräilylista on tyhjä."
+Keräilylistalle voit koota asiakkaita eri puolilta järjestelmää jatkokäsittelyä varten. Asiakkaita lisätään listalle muilta sivuilta rivin keräilylistakuvakkeella tai valikosta (esimerkiksi [Asiakkaat](/docs/uusi_versio/Asiakkaat)-, [Tilaukset](/docs/uusi_versio/tilaukset)- ja [Laskujen haku](/docs/uusi_versio/Laskut/laskujen-haku) -sivuilta) tai tuomalla asiakasnumeroita tältä sivulta. Jos lista on tyhjä, sivulla lukee "Keräilylista on tyhjä."
 
 Avaa keräilylista napsauttamalla päävalikon oikeassa reunassa olevaa **keräilylistakuvaketta**. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän.
 

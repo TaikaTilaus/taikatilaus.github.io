@@ -65,7 +65,7 @@ Napsauta Vaihda, niin valikko avautuu ja voit valita toisen välittäjän. Vanha
 | **BIC** | Pankin BIC-tunnus. Kun IBAN on annettu, kentän alla näkyy pankin BIC-ehdotus. Napsauta *Käytä ehdotusta*, jos haluat ottaa sen käyttöön. Jos nykyinen BIC poikkeaa ehdotuksesta, siitä näytetään huomautus. |
 | **Suoramaksu** | Suoramaksu on laskun maksutapa, jossa pankki veloittaa laskun summan asiakkaan tililtä automaattisesti eräpäivänä ilman verkkopankin käyttöä. Suoramaksun käyttöä varten asiakkaan verkkolaskutustiedot (IBAN ja BIC) pitää olla täytettynä.|
 
-Kuluttajan IBAN, BIC ja suoramaksu luetaan automaattisesti pankin e-laskun vastaanottoilmoituksista (Laskut → Vastaanottoilmotukset). Jos vastaanottoilmoitus on virheellinen (esim. väärä asiakasnumero) pitää tiedot täytttää [asiakaskortille](/docs/uusi_versio/Asiakkaat/asiakaskortti) manuaalisesti.
+Kuluttajan IBAN, BIC ja suoramaksu luetaan automaattisesti pankin e-laskun vastaanottoilmoituksista ([Laskut → Vastaanottoilmoitukset](/docs/uusi_versio/Laskut/vastaanottoilmoitukset)). Jos vastaanottoilmoitus on virheellinen (esim. väärä asiakasnumero) pitää tiedot täytttää [asiakaskortille](/docs/uusi_versio/Asiakkaat/asiakaskortti) manuaalisesti.
 
 ## Laskun ehdot
 

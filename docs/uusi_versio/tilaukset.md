@@ -105,7 +105,7 @@ Esikatselussa voit:
 
 - muokata tilaajan, maksajan tai tilauksen tietoja samassa välilehdessä napsauttamalla kyseisen osion **kynäkuvaketta**
 - avata tilaajan, maksajan tai tilauksen tiedot uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
-- lisätä asiakkaan keräilylistalle napsauttamalla **henkilö- ja listakuvaketta**.
+- lisätä asiakkaan [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista) napsauttamalla **henkilö- ja listakuvaketta**.
 
 ![Tilauksen esikatselu tilausluettelossa](/img/versio2/tilaukset10.png)
 
@@ -185,9 +185,9 @@ Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä
 
 | Toiminto | Kuvaus |
 | --- | --- |
-| **Lisää tilaajat** | Lisää luettelossa näkyvien tilausten tilaajat keräilylistalle. |
-| **Lisää maksajat** | Lisää luettelossa näkyvien tilausten maksajat keräilylistalle. |
-| **Lisää kaikki** | Lisää sekä tilaajat että maksajat keräilylistalle. |
+| **Lisää tilaajat** | Lisää luettelossa näkyvien tilausten tilaajat [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista). |
+| **Lisää maksajat** | Lisää luettelossa näkyvien tilausten maksajat [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista). |
+| **Lisää kaikki** | Lisää sekä tilaajat että maksajat [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista). |
 | **Tulosta** | Avaa tilausluettelon tulostettavaksi. |
 | **Kopioi** | Kopioi luettelon tiedot tietokoneen leikepöydälle. |
 | **PDF** | Vie tiedot PDF-tiedostoon. |

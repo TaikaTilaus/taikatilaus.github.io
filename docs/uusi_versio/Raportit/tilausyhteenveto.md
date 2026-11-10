@@ -85,10 +85,10 @@ Voit määrittää:
 
 ### Asiakkaiden vieminen keräilylistalle
 
-Jokaisen tilausluettelon asiakkaat voidaan lisätä keräilylistalle.
+Jokaisen tilausluettelon asiakkaat voidaan lisätä [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista).
 
 1. Määritä osiossa käytettävä päivien määrä ja näytettävien tilausten enimmäismäärä.
 2. Tarkista luettelossa näkyvät tilaukset.
-3. Napsauta kyseisen osion **Vie keräilylistaan** -painiketta.
+3. Napsauta kyseisen osion [**Vie keräilylistaan**](/docs/uusi_versio/Etusivu/kerailylista) -painiketta.
 
-Toiminto lisää kyseisessä luettelossa olevat asiakkaat keräilylistalle.
+Toiminto lisää kyseisessä luettelossa olevat asiakkaat [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista).

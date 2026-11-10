@@ -6,17 +6,17 @@ description: Laskujen haku — Laskujen hakeminen, Hakuhistoria, Laskujen rajaam
 
 # Laskujen haku
 
-**Laskujen haku**-sivulla voit hakea ja tarkastella laskuja, avata laskun muokattavaksi, tulostaa laskun sekä lisätä uusia laskuja. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut**.
+**Laskujen haku** -sivulla voit hakea ja tarkastella laskuja, avata laskun muokattavaksi, tulostaa laskun sekä hakea maksumuistutettavia laskuja ja luoda maksumuistutuksia. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut**.
 
 ![Laskujen haku -sivun yleisnäkymä](/img/versio2/laskujen-haku.png)
 
 ## Laskujen hakeminen
 
-1. Kirjoita sivun yläreunan hakukenttään laskunumero, viitenumero, asiakasnumero tai maksajan nimi.
-2. Napsauta **Hae**.
-3. Hakutulokset näytetään laskuluettelossa.
+Hakukenttä hakee laskunumerolla, viitenumerolla, asiakasnumerolla ja maksajan nimellä.
 
-Tyhjennä hakukenttä ja hakutulokset napsauttamalla **Tyhjennä**.
+Luettelo päivittyy jo kirjoittaessasi, joten **Hae**-painiketta ei tarvitse napsauttaa. **Hae**-painike ja **Enter** tallentavat hakusanan lisäksi hakuhistoriaan. 
+
+**Tyhjennä**-painike tyhjentää hakukentän ja päivittää luettelon. Se ei tyhjennä lisäehtoja.
 
 ![Laskujen hakukenttä ja hakutoiminnot](/img/versio2/laskujen-haku2.png)
 
@@ -26,6 +26,8 @@ Hakukentän vieressä olevasta **kellokuvakkeesta** voit avata aiemmin tekemäsi
 
 Valitse hakuhistoriasta haluamasi hakusana toistaaksesi haun. Hakukenttä täytetään valitulla hakusanalla ja haku suoritetaan automaattisesti.
 
+Historiassa on enintään 15 uusinta hakua. Poista yksittäinen hakusana napsauttamalla sen oikealla puolella olevaa rastia. Tyhjennä koko historia valitsemalla valikon alareunasta **Tyhjennä historia.**
+
 ![Laskujen hakuhistoria](/img/versio2/laskujen-haku4.png)
 
 ### Laskujen rajaaminen
@@ -33,15 +35,17 @@ Valitse hakuhistoriasta haluamasi hakusana toistaaksesi haun. Hakukenttä täyte
 Voit rajata laskuluetteloa laskun tilan, päivämäärän, toimitustavan ja tyypin perusteella.
 
 | Rajaus | Kuvaus |
-| --- | --- |
-| **Tila** | Valitse näytettävien laskujen tila, esimerkiksi **Erääntynyt**. |
-| **Päiväkenttä** | Valitse, mitä päivämäärää aikavälirajaus koskee, esimerkiksi **Eräpäivää**. |
+|---|---|
+| **Tila** | Valitse yksi tai useampi tila: Avoin, Lähetetty, Erääntynyt, Maksettu, Hyvitys tai Luonnos. |
+| **Päiväkenttä** | Valitse, mitä päivämäärää aikavälirajaus koskee: Laskun päivä, Eräpäivä, Maksettu päivä tai Lähetetty päivä. |
 | **Alkaen** | Anna aikavälin alkupäivä. |
 | **Päättyen** | Anna aikavälin päättymispäivä. |
-| **Toimitustapa** | Valitse laskun toimitustapa, esimerkiksi **Kirje**. |
-| **Tyyppi** | Valitse laskun tyyppi, esimerkiksi **Ilmoitus**. |
+| **Toimitustapa** | Valitse yksi tai useampi laskun toimitustapa, esimerkiksi Kirje. |
+| **Tyyppi** | Valitse yksi tai useampi laskun tyyppi, esimerkiksi Ilmoitus. |
+| **Laskun muoto** | Valitse yksi tai useampi muoto: Lasku, Hyvityslasku, Maksumuistutus 1, Maksumuistutus 2, Loppulasku tai Luonnos. |
+| **Asiakas (maksaja)** | Napsauta Valitse asiakas ja valitse asiakas. Luettelossa näkyvät vain kyseisen maksajan laskut. Poista rajaus napsauttamalla Poista valinta. |
 
-Hakutulokset päivittyvät automaattisesti aina, kun valitset tai muutat rajausta. **Hae**-painiketta ei tarvitse napsauttaa.
+Hakutulokset päivittyvät automaattisesti aina, kun valitset tai muutat rajausta. Hae-painiketta ei tarvitse napsauttaa.
 
 Voit käyttää useita rajauksia samanaikaisesti. Tällöin hakutuloksiin tulevat laskut, jotka täyttävät kaikki valitut ehdot.
 
@@ -60,6 +64,30 @@ Poista kaikki rajaukset napsauttamalla **Tyhjennä lisäehdot**.
 
 ![Laskujen tila-, päivämäärä-, toimitustapa- ja tyyppirajaukset](/img/versio2/laskujen-haku3.png)
 
+### Tallennetut haut
+
+Voit tallentaa usein käyttämäsi rajaukset. Tallennetut haut ovat henkilökohtaisia, eivätkä muut käyttäjät näe niitä. 
+
+1. Määritä haluamasi rajaukset.
+2. Kirjoita haulle nimi **Tallenna nykyiset ehdot nimellä** -kenttään.
+3. Valitse halutessasi **Sarakkeet mukaan**, jos haluat tallentaa myös valitut sarakkeet.
+4. Napsauta **Tallenna**.
+
+Tallennukseen sisältyvät tila, päiväkenttä ja päivämäärärajat, toimitustapa, tyyppi, laskun muoto ja valittu maksaja. Samalla nimellä tallentaminen korvaa aiemman haun.
+
+Valitse haku **Omat haut** -valikosta, niin ehdot asetetaan ja haku suoritetaan heti. Poista haku valitsemalla se valikosta ja napsauttamalla **Poista haku**. Poisto kysyy vahvistuksen.
+
+### Maksumuistutettavat laskut
+
+Luettelon yläpuolella olevalla rivillä voit hakea laskuja, jotka on tarkoitus muistuttaa, ja käsitellä niitä.
+
+- **Hae maksumuistutettavat #1** ja **Hae maksumuistutettavat #2:** hakevat maksumuistutettavat laskut. Vie hiiri painikkeen päälle, niin näet haun säännöt. Haun tulos näkyy merkkinä luettelon yläpuolella. Palaa tavalliseen hakuun napsauttamalla merkin rastia.
+- **Valittu N:** luettelossa on jokaisen rivin alussa valintaruutu, ja otsikkorivin ruutu valitsee kaikki näkyvät laskut. Tyhjennä valinta poistaa valinnat.
+- **Luo maksumuistutus #1** ja **Luo maksumuistutus #2:** luovat valituille laskuille maksumuistutuksen.
+- **Siirrä perintään:** siirtää valitut laskut perintään.
+
+Luonti- ja perintätoiminnot eivät ole käytössä kaikilla asiakkailla.
+
 ## Laskuluettelo
 
 Laskuluettelossa näet laskujen perustiedot ja maksutilanteen.
@@ -67,6 +95,7 @@ Laskuluettelossa näet laskujen perustiedot ja maksutilanteen.
 | Sarake | Sisältö |
 | --- | --- |
 | **Laskunro** | Laskun numero ja linkki laskun tietoihin. |
+| **Muoto** | Laskun muoto: Lasku, Hyvityslasku, Maksumuistutus 1, Maksumuistutus 2, Loppulasku tai Luonnos. |
 | **Tila** | Laskun tämänhetkinen tila, esimerkiksi **Lähetetty**, **Maksettu** tai **Erääntynyt**. |
 | **Päivä** | Laskun päivämäärä. |
 | **Eräpäivä** | Laskun eräpäivä. |
@@ -82,16 +111,16 @@ Laskuluettelossa näet laskujen perustiedot ja maksutilanteen.
 
 ### Laskun avaaminen ja tulostaminen
 
-Avaa laskun esikatselu napsauttamalla laskuriviä. Esikatselu avautuu laskuluettelon oikealle puolelle. Siinä näkyvät laskun perustiedot, maksajan tiedot ja laskun tuoterivit.
+Avaa [laskun esikatselu](/docs/uusi_versio/Laskut/lasku) napsauttamalla laskuriviä. Esikatselu avautuu laskuluettelon oikealle puolelle. Siinä näkyvät laskun perustiedot, maksajan tiedot ja laskun tuoterivit.
 
 Esikatselussa voit:
 
 - muokata laskun tietoja samassa välilehdessä napsauttamalla **kynäkuvaketta**
 - avata laskun uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
 - avata maksajan [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) uuteen välilehteen napsauttamalla maksajan vieressä olevaa **nuolella varustettua laatikkokuvaketta**.
-- lisätä laskulle uuden tuoterivin napsauttamalla **Tuoterivit**-osion **Lisää**-painiketta.
-- lisätä laskulle uuden luontivaiheen tiliöinnin napsauttamalla **Tiliöinnit**-osion **Lisää tiliöinti laskulle** -painiketta. 
-- lisätä laskuun liittyvälle suoritukselle uuden tiliöinnin napsauttamalla **Tiliöinnit**-osion **Lisää tiliöinti suoritukselle** -painiketta. 
+- lisätä laskulle uuden tuoterivin napsauttamalla [**Tuoterivit**](/docs/uusi_versio/Laskut/lasku#tuoterivit)-osion **Lisää**-painiketta.
+- lisätä laskulle uuden luontivaiheen tiliöinnin napsauttamalla [**Tiliöinnit**](/docs/uusi_versio/Laskut/lasku#tiliöinnit)-osion **Lisää tiliöinti laskulle** -painiketta. 
+- lisätä laskuun liittyvälle suoritukselle uuden tiliöinnin napsauttamalla [**Tiliöinnit**](/docs/uusi_versio/Laskut/lasku#tiliöinnit)-osion **Lisää tiliöinti suoritukselle** -painiketta. 
 
 ![Laskun esikatselu laskuluettelossa](/img/versio2/laskujen-haku10.png)
 
@@ -128,17 +157,10 @@ Voit valita, mitkä sarakkeet laskuluettelossa näytetään.
 
 Valittavissa ovat seuraavat sarakkeet:
 
-- **Laskunro**
-- **Tila**
-- **Päivä**
-- **Eräpäivä**
-- **Viitenumero**
-- **Summa**
-- **Maksamatta**
-- **Maksettu**
-- **Maksaja**
-- **Toimitustapa**
-- **Tyyppi**
+- **Laskunro, Muoto, Tila, Päivä, Eräpäivä, Viitenumero, Summa, Maksamatta, Maksettu, Maksaja, Toimitustapa ja Tyyppi.** Nämä näkyvät oletuksena.
+- **Lähetetty** ja **Lähetysinfo**
+- **Muistutus 1: päivä, eräpäivä, lähetetty ja toimitustapa**
+- **Muistutus 2: päivä, eräpäivä, lähetetty ja toimitustapa**
 
 Sarakkeen piilottaminen ei poista laskun tietoja, vaan muuttaa ainoastaan luettelon näkymää.
 
@@ -154,7 +176,7 @@ Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä
 
 | Toiminto | Kuvaus |
 | --- | --- |
-| **Lisää maksajat**| Lisää luettelossa näkyvien laskujen maksajat keräilylistalle. |
+| **Lisää maksajat** | Lisää kaikkien hakuehtoihin osuvien laskujen maksajat [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista). Valikko ilmoittaa, montako maksajaa lisättiin ja montako oli jo listalla. |
 | **Tulosta** | Avaa laskuluettelon tulostettavaksi. |
 | **Kopioi** | Kopioi luettelon tiedot leikepöydälle. |
 | **PDF** | Vie tiedot PDF-tiedostoon. |
@@ -162,6 +184,7 @@ Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä
 | **CSV** | Vie tiedot CSV-tiedostoon. |
 | **JSON** | Vie tiedot JSON-tiedostoon. |
 | **HTML** | Vie tiedot HTML-tiedostoon. |
+| **Parquet** | Vie tiedot Parquet-tiedostoon, joka on tyypitetty sarakemuoto analytiikkaan, esimerkiksi Power BI:hin tai Pythoniin. |
 
 ![Laskuluettelon vienti- ja keräilylistavalikko](/img/versio2/laskujen-haku7.png)
 

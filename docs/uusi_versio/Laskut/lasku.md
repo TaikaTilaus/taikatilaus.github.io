@@ -1,18 +1,18 @@
 ---
-sidebar_position: 2
-title: Laskut
+sidebar_position: 7
+title: Lasku
 description: Laskujen haku — Lasku, laskun tiedot, laskun muokkaaminen.
 ---
 
 ## Lasku
 
-Lasku avautuu omalle välilehdelleen. Sivulla näkyvät laskun perustiedot, tuoterivit ja tiliöinnit.
+Laskun voi avata kahdella tavalla. Kun napsautat laskuriviä [**Laskujen haku**](/docs/uusi_versio/Laskut/laskujen-haku) -sivulla, lasku avautuu esikatseluna luettelon oikealle puolelle. Kun napsautat rivin tai esikatselun **Avaa uuteen välilehteen** -painiketta, lasku avautuu omalle välilehdelleen. Sivulla näkyvät laskun perustiedot, tuoterivit, tiliöinnit ja muutosloki.
 
 :::warning Huomio
 
 Älä muokkaa lähetettyjä tai maksettuja laskuja. Jos lähetettyä laskua täytyy muuttaa, hyvitä alkuperäinen lasku ja luo uusi lasku.
 
-Laskujen luominen ja hyvittäminen eivät ole vielä käytettävissä uudessa versiossa, joten tee ne vanhassa versiossa.
+Järjestelmä estää tuoterivien ja luontivaiheen tiliöintien (L) poistamisen lähetetyltä, erääntyneeltä, maksetulta ja hyvitetyltä laskulta. Poistopainike on silloin harmaa, ja vihje kertoo syyn.
 
 :::
 
@@ -37,13 +37,15 @@ Laskun perustiedoissa näkyvät:
 - tarkenne
 - laskun tila tekstinä
 
-Tallenna perustietoihin tekemäsi muutokset napsauttamalla **Tallenna**. Voit sulkea laskunäkymän napsauttamalla **Sulje välilehti**.
+Sivun yläosassa näkyvät laskun numero ja tila värillisenä merkkinä. Maksajan nimen vieressä on maksajan asiakasnumero ja laatikkokuvake, josta maksajan [asiakaskortti](/docs/uusi_versio/Asiakkaat/asiakaskortti) avautuu uuteen välilehteen. Jos lasku on tehty tilauksesta, maksajan alla näkyy tilauksen numero linkkinä (Tilaus tai Tilaukset).
 
 ![Laskun maksaja-, päivä-, summa- ja toimitustiedot](/img/versio2/lasku2.png)
 
 ## Tuoterivit
 
-**Tuoterivit**-osiossa näkyvät laskulle lisätyt tuotteet sekä niiden määrä-, hinta- ja verotiedot. Tilaustuotteen yhteydessä näkyvät myös tilausnumero, tilausjakso, lehden saaja ja toimitusosoite.
+**Tuoterivit**-osion otsikon vieressä näkyvät rivien määrä ja yhteissumma muodossa veroton + alv = verollinen. Taulukossa on sarakkeet Tuoteryhmä, Tuotenro, Tuotenimi, Määrä, Yks.hinta, Ale %, ALV %, Veroton, ALV ja Summa. Tilaus-sarakkeessa näkyy tilauksen numero linkkinä, joka avaa tilauksen uuteen välilehteen. Seliterivin kohdalla näkyy Selite-merkki.
+
+Taulukon alla näkyy ALV-erittely verokannoittain ja rivi Yhteensä.
 
 Avaa tuoterivi muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
 
@@ -64,25 +66,34 @@ Tuoterivillä voit muokata seuraavia tietoja:
 - **Ale %**
 - **ALV %**
 - **Lisätiedot**
+- **Seliterivi** (pelkkä tekstirivi)
 
 Tuoterivin yhteenvedossa näkyvät veroton hinta, arvonlisäveron määrä ja verollinen loppusumma.
+
+Muokkausnäkymän otsikko on Tuoterivin lisääminen tai Tuoterivin käsittely, TuoteriviID. Veroton hinta, arvonlisäveron määrä ja verollinen summa päivittyvät kenttien muuttuessa.
+
+Verollisen summan vieressä on kynäkuvake. Sillä voit syöttää verollisen summan, jolloin järjestelmä laskee yksikköhinnan (veroton) uudelleen annetusta summasta ALV ja alennus huomioiden. Hyväksy summa vihreällä ruksilla.
 
 Valitsemalla **Seliterivi (pelkkä tekstirivi)** voit määrittää tuoterivin pelkäksi tekstiriviksi.
 
 Tallenna muutokset napsauttamalla **Tallenna**. Voit poistua muokkausnäkymästä tallentamatta muutoksia napsauttamalla **Peruuta**.
 
+Poistopainike on harmaa, kun rivejä ei voi poistaa. Vie hiiri painikkeen päälle, niin näet syyn.
+
 ![Tuoterivin määrä-, hinta-, vero- ja lisätietojen muokkaaminen](/img/versio2/lasku5.png)
 
 ## Tiliöinnit
 
-**Tiliöinnit**-osiossa näkyvät laskun myyntiin ja suorituksiin liittyvät tiliöinnit. **Täsmää**-merkintä kertoo, että tiliöinnit täsmäävät.
+**Tiliöinnit**-osiossa näkyvät laskun myyntiin ja suorituksiin liittyvät tiliöinnit. Otsikon vieressä oleva numero kertoo tiliöintien määrän.
 
-Voit avata tiliöinnin muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
+Taulukossa on sarakkeet TiliointiID, Tuoterivi, Kirjauspvä, Tili, Summa, Tapa (L, S, K tai T), Suoritus ja Selite. Tapa-sarakkeen merkit tarkoittavat: L = laskun luontivaiheessa tehty tiliöinti, S = suoritus, K = kuittaus ja T = kulu. Vie hiiri merkin päälle, niin näet selitteen.
 
-Tarvittaessa voit lisätä uusia tiliöintejä seuraavilla painikkeilla:
+Otsikon vieressä oleva merkintä kertoo, täsmäävätkö tiliöinnit:
 
-- **Lisää tiliöinti laskulle**: lisää uusi luontivaiheen tiliöinti (L)
-- **Lisää tiliöinti suoritukselle**: lisää laskulle liittyvälle suoritukselle uusi tiliöinti (Suoritus/Kuittaus/Kulu)
+- **Täsmää:** myyntien ja suoritusten tiliöinnit täsmäävät.
+- **Myyntien erotus** ja **Suoritusten erotus:** luontivaiheen (L) tai maksuvaiheen (S, K ja T) tiliöintien summan pitäisi olla 0 €. Punainen merkintä näyttää erotuksen.
+
+Tiliöinnin voi poistaa rivin lopussa olevalla roskakorilla. Lähetetyn, maksetun tai hyvitetyn laskun luontivaiheen (L) tiliöintiä ei voi poistaa. Poistopainike on silloin harmaa, ja vihje kertoo syyn.
 
 ![Laskun myyntiin ja suorituksiin liittyvät tiliöinnit](/img/versio2/lasku4.png)
 
@@ -116,3 +127,7 @@ Lisää tiliöinti laskuun liitetylle suoritukselle napsauttamalla **Lisää til
 Tallenna tiliöinti napsauttamalla **Tallenna**. Voit sulkea näkymän lisäämättä tiliöintiä napsauttamalla **Peruuta**.
 
 ![Laskuun liitetyn suorituksen uuden tiliöinnin tiedot](/img/versio2/lasku7.png)
+
+### Muutosloki
+
+Sivun alareunassa oleva Muutosloki-osio näyttää laskuun tehdyt muutokset: ajankohdan, muutetun kentän, vanhan ja uuden arvon, käyttäjän ja sen, mistä muutos tehtiin. Uusin muutos on ylimpänä. Otsikon vieressä oleva numero kertoo rivien määrän. Muutoslokiin kirjautuvat muun muassa laskun luonti, lähetys, kohdistus ja käsin tehdyt muutokset, tuoterivien lisäys, muutos ja poisto sekä maksumuistutukset ja perintä.

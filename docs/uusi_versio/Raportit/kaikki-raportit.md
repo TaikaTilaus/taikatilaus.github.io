@@ -103,7 +103,7 @@ Voit valita joko molemmat tai vain toisen.
 
 | Toiminto | Kuvaus |
 | --- | --- |
-| **Keräilylistaan** | Lisää raportin tuloksissa olevat asiakkaat keräilylistalle. |
+| **Keräilylistaan** | Lisää raportin tuloksissa olevat asiakkaat [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista). |
 | **Tulosta** | Avaa raportin tulostettavaksi. |
 | **Kopioi** | Kopioi raportin tiedot leikepöydälle. |
 | **Sähköposti** | Avaa raportin lähettämisen sähköpostitse. |
@@ -113,7 +113,7 @@ Voit valita joko molemmat tai vain toisen.
 | **JSON** | Vie raportin tiedot JSON-tiedostoon. |
 | **HTML** | Vie raportin tiedot HTML-tiedostoon. |
 
-Tarkista raportin hakuehdot ja rivimäärä ennen asiakkaiden lisäämistä keräilylistalle tai tietojen viemistä.
+Tarkista raportin hakuehdot ja rivimäärä ennen asiakkaiden lisäämistä [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista) tai tietojen viemistä.
 
 #### Raportin lähettäminen sähköpostilla
 

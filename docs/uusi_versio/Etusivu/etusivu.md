@@ -42,7 +42,7 @@ Päävalikon oikeassa reunassa ovat seuraavat pikatoiminnot:
 | [**Keräilylista**](/docs/uusi_versio/Etusivu/kerailylista) | Avaa keräilylistan. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän. |
 | [**Historia**](/docs/uusi_versio/Etusivu/historia) | Avaa järjestelmän historian. |
 | [**Huomiot**](/docs/uusi_versio/Etusivu/huomiot) | Avaa huomiot. Kuvakkeen yhteydessä näkyvä numero kertoo käsittelemättömien huomioiden määrän. |
-| [**Käyttäjävalikko**](/docs/uusi_versio/Etusivu/omat-tiedot) | Napsauta käyttäjätunnustasi oikeassa reunassa. Valikosta pääset kohtiin **Tiedot** (omat tietosi), **Tiedotteet** (kuitatut tiedotteet), **TaikaTilaus (vanha)** (avaa vanhan version uuteen välilehteen samoilla tunnuksilla) ja **Kirjaudu ulos**. Jos organisaatiollenne on otettu käyttöön Stripe, valikossa on myös **Stripe**.  |
+| [**Käyttäjävalikko**](/docs/uusi_versio/Etusivu/omat-tiedot) | Napsauta käyttäjätunnustasi oikeassa reunassa. Valikosta pääset kohtiin [**Tiedot**](/docs/uusi_versio/Etusivu/omat-tiedot#käyttäjän-tiedot) (omat tietosi), [**Tiedotteet**](/docs/uusi_versio/Etusivu/omat-tiedot#tiedotteet) (kuitatut tiedotteet), **TaikaTilaus (vanha)** (avaa vanhan version uuteen välilehteen samoilla tunnuksilla) ja **Kirjaudu ulos**. Jos organisaatiollenne on otettu käyttöön Stripe, valikossa on myös **Stripe**.  |
 
 Avaa toiminto napsauttamalla sitä vastaavaa kuvaketta. Käyttäjävalikko avautuu napsauttamalla oikeassa reunassa näkyvää käyttäjätunnusta.
 
