@@ -12,10 +12,12 @@ description: Tilaukset — Tilausten hakeminen, Hakuhistoria, Lisähakuehdot.
 ## Tilausten hakeminen
 
 1. Kirjoita sivun yläreunan hakukenttään tilausnumero, asiakasnumero tai asiakkaan nimi.
-2. Napsauta **Hae**.
+2. Haku päivittyy automaattisesti hetken kirjoittamisen jälkeen. Voit myös napsauttaa **Hae** tai painaa **Enter**.
 3. Hakutulokset näytetään alla olevassa tilausluettelossa.
 
-Voit tarkentaa hakua **Lisähakuehdot**-painikkeesta. **Tyhjennä**-painikkeella voit tyhjentää haun.
+Voit tarkentaa hakua **Lisähakuehdot**-painikkeesta.
+
+**Tyhjennä**-painike tyhjentää tekstihaun sekä tila-, tuoteryhmä-, tuote- ja lisähakuehtovalinnat.
 
 ![Tilausten hakukenttä ja hakutoiminnot](/img/versio2/tilaukset2.png)
 
@@ -25,6 +27,8 @@ Hakukentän vieressä olevasta **kellokuvakkeesta** voit avata aiemmin tekemäsi
 
 Valitse hakuhistoriasta haluamasi hakusana. Hakukenttä täytetään valitulla hakusanalla ja haku suoritetaan automaattisesti.
 
+Hakuhistoriaan tallentuvat vain tarkoituksella tehdyt haut (Enter, Hae-painike ja valinnat). Kirjoittaessa tehdyt välihaut eivät tallennu. Voit poistaa yksittäisen haun historiasta rastilla tai tyhjentää koko historian valitsemalla **Tyhjennä historia.**
+
 ### Lisähakuehdot
 
 Avaa tarkemmat hakuehdot napsauttamalla hakukentän vieressä olevaa **Lisähakuehdot**-painiketta.
@@ -32,21 +36,38 @@ Avaa tarkemmat hakuehdot napsauttamalla hakukentän vieressä olevaa **Lisähaku
 Voit rajata tilauksia seuraavilla lisähakuehdoilla:
 
 | Hakuehto | Kuvaus |
-| --- | --- |
-| **Tyyppi** | Rajaa haun tilauksen tyypin mukaan. Vaihtoehdot ovat **Kaikki**, **Kesto**, **Määräaikainen** ja **Stripe**. |
-| **Maksettu-tila** | Rajaa tilaukset niiden maksutilanteen perusteella. Vaihtoehdot ovat **Maksettu** tai **Avoin**. |
-| **Katkaistu** | Rajaa hakua sen perusteella, onko tilaus katkaistu. |
-| **Katkaisun syy** | Rajaa katkaistut tilaukset niille kirjatun katkaisun syyn perusteella. |
+|---|---|
+| **Valitse asiakas** | Rajaa luettelon yhden asiakkaan tilauksiin, joissa asiakas on tilaajana tai maksajana. Valitun asiakkaan nimi näkyy painikkeen vieressä, ja rajauksen voi poistaa napsauttamalla Poista valinta. |
+| **Alkupäivä / Loppupäivä** | Rajaa tilaukset aikavälille. |
+| **Aikavälin peruste** | Määrää, minkä päivän mukaan aikaväli tulkitaan: Tilan päivä (automaattinen), Alkupäivä, Päättymispäivä, Katkaisupäivä tai Tilauspäivä. |
+| **Tyyppi** | Kesto, Määräaikainen tai Stripe. Voit valita useita. |
+| **Uudet tilaukset ja jatkot** | Uusi tilaus (ei jatkettu), Jatkettu kestotilaus tai Jatkettu Stripe-tilaus. Voit valita useita. |
+| **Maksettu-tila** | Maksettu tai Avoin. |
+| **Katkaistu** | Katkaistu (katkaisupäivä annettu) tai Ei katkaistu. |
+| **Katkaisun syy** | Rajaa katkaistut tilaukset katkaisun syyn mukaan. Voit valita useita. |
+| **Maa** | Rajaa tilaajan osoitteen maan mukaan: Suomi, Ulkomaat (muu kuin Suomi) tai yksittäinen maa. |
+| **Tilaaja ja maksaja** | Sama tilaaja ja maksaja tai Eri tilaaja ja maksaja. |
+| **Piilota poistetut tilaukset** | Poistetut tilaukset näytetään oletuksena himmennettyinä. Valinta piilottaa ne. |
 
-Valitse haluamasi lisähakuehdot. Hakutulokset päivittyvät automaattisesti jokaisen valinnan jälkeen, joten **Hae**-painiketta ei tarvitse napsauttaa.
+Valitse haluamasi lisähakuehdot. Hakutulokset päivittyvät automaattisesti jokaisen valinnan jälkeen, joten **Hae**-painiketta ei tarvitse napsauttaa. 
 
 Voit yhdistää lisähakuehtoihin tilauksen tilaa, tuoteryhmää ja tuotetta koskevia rajauksia.
+
+Monivalinnoissa (Tyyppi, Uudet tilaukset ja jatkot, Maksettu-tila, Katkaistu ja Katkaisun syy) voit valita useita vaihtoehtoja, jolloin tilaus tulee hakutuloksiin, jos se täyttää jonkin valituista. 
 
 Poista kaikki rajaukset napsauttamalla **Tyhjennä**. Voit poistaa yksittäisen valitun lisähakuehdon napsauttamalla sen vieressä olevaa **X-painiketta**. Hakutulokset päivittyvät automaattisesti. 
 
 Piilota lisähakuehdot napsauttamalla **Lisähakuehdot**-painiketta uudelleen.
 
 ![Tilausten lisähakuehdot](/img/versio2/lisahaku-tilaukset.png)
+
+#### Näytettävien lisähakuehtojen valitseminen
+
+Voit valita, mitkä lisähakuehdot Tilaukset-sivulla näytetään. 
+
+1. Napsauta lisähakuehtojen otsikkorivillä olevaa asetukset-kuvaketta
+2. Avautuvasta **Listan lisäasetukset** -ikkunassa voit valita, mitkä lisähakuehdot ovat käytössä. 
+3. Valinta koskee vain sinun näkymääsi ja tallentuu heti.
 
 ### Rajaaminen tilauksen tilan mukaan
 
@@ -56,7 +77,7 @@ Hakukentän alapuolella olevilla tilapainikkeilla voit rajata luetteloa tilaukse
 - **Voimassa**
 - **Nukutettu**
 - **Päättynyt**
-- **Peruutettu**
+- **Katkaistu**
 - **Maksamatta päättynyt**
 - **Tilaaja poistunut**
 - **Ei tiedossa**
@@ -74,6 +95,22 @@ Voit rajata hakua myös tuoteryhmien ja tuotteiden perusteella.
 Voit valita useita tuoteryhmiä ja tuotteita. Valinnat näkyvät valikoiden alapuolella. Poista yksittäinen valinta napsauttamalla sen vieressä olevaa **rastia**. Tuotesuodatus toimii tuotteen tunnisteen (**TuoteID**) mukaan.
 
 ![Tilausten rajaus tuoteryhmän ja tuotteen mukaan](/img/versio2/tilaukset4.png)
+
+### Tallennetut haut
+
+Lisähakuehtojen alaosassa voit tallentaa nykyiset hakuehdot omaksi hauksi.
+
+1. Kirjoita haulle nimi kenttään **Haun nimi.**
+2. Valitse tarvittaessa **Sarakkeet mukaan**, jos haluat tallentaa myös tällä hetkellä näytettävät sarakkeet.
+3. Napsauta **Tallenna**. Samalla nimellä tallentaminen korvaa aiemman haun.
+
+Haku tallentaa tilat, tuoteryhmät ja tuotteet, valitun asiakkaan ja kaikki lisähakuehdot. 
+
+Valitse tallennettu haku **Omat haut** -valikosta, niin ehdot palautuvat ja haku tehdään. 
+
+Poista haku valitsemalla se ja napsauttamalla **Poista haku**, ja vahvista poisto. 
+
+Tallennetut haut ovat henkilökohtaisia, eivätkä muut käyttäjät näe niitä.
 
 ## Tilausluettelo
 
@@ -97,36 +134,6 @@ Tilausluettelossa näet oletuksena tilausten perustiedot sekä tilaajan ja maksa
 
 ![Tilausluettelo ja tilausten perustiedot](/img/versio2/tilaukset5.png)
 
-### Tilauksen ja asiakaskortin avaaminen
-
-Avaa tilauksen esikatselu napsauttamalla tilauksen riviä. Esikatselu avautuu tilauslistan oikealle puolelle. Siinä näkyvät tilaajan, maksajan ja tilauksen tiedot sekä tilaukseen liittyvät laskut ja laskutuspyynnöt.
-
-Esikatselussa voit:
-
-- muokata tilaajan, maksajan tai tilauksen tietoja samassa välilehdessä napsauttamalla kyseisen osion **kynäkuvaketta**
-- avata tilaajan, maksajan tai tilauksen tiedot uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
-- lisätä asiakkaan [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista) napsauttamalla **henkilö- ja listakuvaketta**.
-
-![Tilauksen esikatselu tilausluettelossa](/img/versio2/tilaukset10.png)
-
-Tilausluettelon siniset asiakasnumerot (**Tilaaja**- ja **Maksaja**-sarakkeet) avaavat kyseisen asiakkaan tiedot uuteen välilehteen. Tilauksen voit avata uuteen välilehteen rivin nuolella varustetulla laatikkokuvakkeella.
-
-- Avaa tilauksen esikatselu napsauttamalla riviä tai muokkaa tilausta rivin vasemmassa reunassa olevalla **kynäkuvakkeella**.
-- Avaa tilaajan tai maksajan [asiakaskortti](/docs/uusi_versio/Asiakkaat/asiakaskortti) napsauttamalla kyseisen asiakkaan **asiakasnumeroa**.
-- Rivin alussa oleva **Avaa uuteen välilehteen** -painike avaa tilauksen omalle välilehdelleen.
-
-![Tilauksen, tilaajan ja maksajan linkit tilausluettelossa](/img/versio2/tilaukset6.png)
-
-### Luettelon selaaminen ja järjestäminen
-
-Luettelon yläreunassa näet nykyisellä sivulla näytettävien tilausten määrän ja hakutulosten kokonaismäärän. Esimerkiksi **100 / 190** tarkoittaa, että sivulla näytetään 100 tilausta yhteensä 190 hakutuloksesta.
-
-- Valitse **Näytä kerrallaan** -valikosta, kuinka monta tilausta yhdellä sivulla näytetään.
-- Siirry edelliselle tai seuraavalle sivulle nuolipainikkeilla.
-- Järjestä luettelo napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
-
-![Tilausluettelon sivutus ja järjestäminen](/img/versio2/tilaukset7.png)
-
 ### Näytettävien sarakkeiden valitseminen
 
 Voit valita, mitkä tiedot tilausluettelossa näytetään.
@@ -139,6 +146,8 @@ Tilausten perustietojen lisäksi voit näyttää esimerkiksi seuraavat sarakkeet
 
 | Sarake | Sisältö |
 | --- | --- |
+| **Tilaajan osoite** | Tilaajan vakituinen osoite: lähiosoite, postinumero ja postitoimipaikka sekä maa. |
+| **Maksajan osoite** | Maksajan osoite. Jos maksaja on sama kuin tilaaja, sarakkeessa on viiva. |
 | **Viitteenne** | Esim. lehtivälittäjän viite. |
 | **Määrä** | Lehtien määrä tilauksessa. |
 | **Tilaustapa** | Minkä kanavan kautta tilaus on tehty (esim. www, sähköposti, puhelin). |
@@ -150,6 +159,8 @@ Tilausten perustietojen lisäksi voit näyttää esimerkiksi seuraavat sarakkeet
 | **Lisätiedot tilaajalle** | Tilauksen asiakkaalle näkyvät lisätiedot. |
 
 Sarakkeen piilottaminen ei poista tilauksen tietoja, vaan muuttaa ainoastaan luettelon näkymää.
+
+**Sarakkeet**-valikon **Palauta oletukset** -valinta palauttaa oletussarakkeet.
 
 Valikon alareunan **Lisäasetukset**-kohdasta pääset tilausluettelon tarkempiin asetuksiin.
 
@@ -177,7 +188,17 @@ Sulje ikkuna **Sulje**-painikkeella tai oikean yläkulman rastista.
 
 ![Tilausluettelon lisätietosarakkeiden näyttöasetus](/img/versio2/sarakkeet4.png)
 
-## Tietojen vienti ja keräilylistalle lisääminen
+### Luettelon selaaminen ja järjestäminen
+
+Luettelon yläreunassa näet nykyisellä sivulla näytettävien tilausten määrän ja hakutulosten kokonaismäärän. Esimerkiksi **100 / 190** tarkoittaa, että sivulla näytetään 100 tilausta yhteensä 190 hakutuloksesta.
+
+- Valitse **Näytä kerrallaan** -valikosta, kuinka monta tilausta yhdellä sivulla näytetään.
+- Siirry edelliselle tai seuraavalle sivulle nuolipainikkeilla.
+- Järjestä luettelo napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
+
+![Tilausluettelon sivutus ja järjestäminen](/img/versio2/tilaukset7.png)
+
+### Tietojen vienti ja keräilylistalle lisääminen
 
 Avaa vientivalikko napsauttamalla tilausluettelon oikeassa yläkulmassa olevaa **Export**-painiketta.
 
@@ -197,6 +218,26 @@ Valikossa näytetään käsiteltävien rivien määrä, esimerkiksi **100 riviä
 | **HTML** | Vie tiedot HTML-tiedostoon. |
 
 ![Tilausluettelon vienti- ja keräilylistavalikko](/img/versio2/tilaukset9.png)
+
+### Tilauksen ja asiakaskortin avaaminen
+
+Avaa tilauksen esikatselu napsauttamalla tilauksen riviä. Esikatselu avautuu tilauslistan oikealle puolelle. Siinä näkyvät tilaajan, maksajan ja tilauksen tiedot sekä tilaukseen liittyvät laskut ja laskutuspyynnöt.
+
+Esikatselussa voit:
+
+- muokata tilaajan, maksajan tai tilauksen tietoja samassa välilehdessä napsauttamalla kyseisen osion **kynäkuvaketta**
+- avata tilaajan, maksajan tai tilauksen tiedot uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
+- lisätä asiakkaan [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista) napsauttamalla **henkilö- ja listakuvaketta**.
+
+![Tilauksen esikatselu tilausluettelossa](/img/versio2/tilaukset10.png)
+
+Tilausluettelon siniset asiakasnumerot (**Tilaaja**- ja **Maksaja**-sarakkeet) avaavat kyseisen asiakkaan tiedot uuteen välilehteen. Tilauksen voit avata uuteen välilehteen rivin nuolella varustetulla laatikkokuvakkeella.
+
+- Avaa tilauksen esikatselu napsauttamalla riviä tai muokkaa tilausta rivin vasemmassa reunassa olevalla **kynäkuvakkeella**.
+- Avaa tilaajan tai maksajan [asiakaskortti](/docs/uusi_versio/Asiakkaat/asiakaskortti) napsauttamalla kyseisen asiakkaan **asiakasnumeroa**.
+- Rivin alussa oleva **Avaa uuteen välilehteen** -painike avaa tilauksen omalle välilehdelleen.
+
+![Tilauksen, tilaajan ja maksajan linkit tilausluettelossa](/img/versio2/tilaukset6.png)
 
 ## Uuden tilauksen lisääminen
 
@@ -280,20 +321,24 @@ Voit perua summan muokkaamisen napsauttamalla **X-painiketta**.
 
 ![Tilauksen hinnoittelu ja verollisen summan muuttaminen](/img/versio2/uusi-tilaus5.png)
 
-## Tilauksen katkaisu
+## Yksittäisen tilauksen käsittely
+
+### Tilauksen katkaisu
 
 1. Etsi tilaus joko asiakkaan tai tilauksen tiedoilla.
 2. Avaa katkaistava tilaus muokattavaksi napsauttamalla **kynäkuvaketta**.
-3. Tarkista tilauksen **Päättyy**-päivä ja maksutiedot.
-4. Lisää **Peruutuspäivä**.
+3. Tarkista tilauksen **Loppupäivä** ja maksutiedot. 
+4. Jos tilaus on uusi, laitetaan katkaisupäivä yleensä heti. Jos tilaus on jo ollut voimassa jonkun aikaa ja se on maksettu, laitetaan katkaisupäivä yleensä tilauksen loppuun. Lisää **Katkaisupäivä**.
 5. Valitse **Katkaisun syy**.
 6. Napsauta **Tallenna muutokset**.
 
+Tilaus on voimassa vielä katkaisupäivän ajan. Sen jälkeen tilauksen tilaksi päivittyy KATKAISTU, eikä tilaajalle enää toimiteta lehtiä / tilaaja ei enää pääse kirjautumaan digisisältöön. Kestotilauksista ei enää synny uusia tilausjaksoja.
+
 ![Tilauksen peruutuspäivä ja katkaisun syy](/img/versio2/peruutus.png)
 
-### Maksetun tilauksen peruuttaminen
+### Maksetun tilauksen katkaisu
 
-Maksettu tilaus perutaan yleensä tilauskauden loppuun. Merkitse tällöin **Peruutuspäivä**-kenttään sama päivämäärä kuin **Päättyy**-kentässä. Näin tilaus jatkuu maksetun kauden loppuun asti.
+Maksettu tilaus perutaan yleensä tilauskauden loppuun. Merkitse tällöin **Katkaisupäivä**-kenttään sama päivämäärä kuin **Loppupäivä**-kentässä. Näin tilaus jatkuu maksetun kauden loppuun asti.
 
 :::warning Huomio
 
@@ -308,6 +353,24 @@ Siirry vanhaan TaikaTilaus-versioon, jos:
 Tee näissä tilanteissa tilauksen katkaisu ja siihen liittyvät laskutus- tai palautustoimenpiteet vanhassa TaikaTilaus-versiossa.
 :::
 
+### Tilauksen poistaminen
+
+Virheellisesti tehdyn tilauksen voit poistaa tilauksen muokkaussivulla. Poisto piilottaa tilauksen ja poistaa sen laskutuspyynnöt.
+
+1. Avaa tilaus muokattavaksi.
+2. Napsauta **Poista tilaus** (painike on lomakkeen alaosan oikeassa reunassa).
+3. Valitse **Ymmärrän että tilauksen poistoa ei voi peruuttaa** ja napsauta **Poista tilaus**.
+
+Poiston jälkeen järjestelmä avaa tilaajan asiakaskortin ja näyttää vahvistusviestin. Poistosta tulee rivi asiakkaan muutoslokiin.
+
+Poisto ei ole mahdollinen, jos
+
+- tilaukselle on luotu lasku. Katkaise silloin tilaus ja hyvitä lasku.
+- tilausjakso on jo kokonaan mennyt, eli tilauksen loppupäivä tai aiempi katkaisupäivä on ennen tätä päivää.
+
+Silloin **Poista tilaus** -painike on harmaana, ja syy näkyy, kun viet hiiren painikkeen päälle.
+
+Jos tarkoituksenasi on katkaista tilaus, koska asiakas on peruuttanut sen, katkaise se asettamalla katkaisupäivä. Älä poista sitä.
 
 ## Tilauksen laskutuspyynnöt
 
