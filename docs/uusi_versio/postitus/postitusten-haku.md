@@ -171,7 +171,6 @@ Jos asiakkaalla on uusi tilaus, mutta sama asiakasnumero löytyy myös edellises
 
 Tämän avulla voidaan erottaa kokonaan uusi asiakas tilanteesta, jossa olemassa olevalle asiakkaalle on muodostunut uusi tilausjakso.
 
-
 ![Postitukseen lisätyt tilaukset ja saman asiakasnumeron aiemmat tilaukset](/img/versio2/muutokset2.png)
 
 :::info Huom!
