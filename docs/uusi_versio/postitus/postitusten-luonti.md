@@ -138,12 +138,15 @@ Export-valikosta voit viedä listan esimerkiksi Exceliin. Export noudattaa Eritt
 
 ## Postitusajon tekeminen
 
-Kun olet tarkistanut yhteenvedon ja mahdolliset poikkeukset, paina:
+Kun olet tarkistanut yhteenvedon, Erittelyn ja mahdolliset poikkeukset, voit tehdä postitusajon, joka luo aineston, joka toimitetaan painoon.
 
-**Luo postitusajo lehden toimitusta varten**
+1. Napsauta **Tee postitusajo**. Jos olet valinnut useita lehtiä, käytä painiketta **Tee postitusajo kaikille valituille lehdille**.
+2. Ohjelma kysyy vahvistuksen: **Tehdäänkö postitusajo?**
+    - Ikkunassa näkyvät voimassaolopäivä, lehti (tai lehdet) sekä tilausten ja lehtien määrät. Jos samalle päivälle on jo aiempi postitus, ikkunassa varoitetaan: *"Saman päivän aiempi postitus poistetaan ja korvataan uudella"* ja lehden nimi sekä korvattavien osoiterivien määrä. 
+3. Vahvista painamalla **Tee postitusajo.**
+4. Ajon ajaksi sivu näyttää odotusilmoituksen. **Älä sulje sivua ajon aikana.**
+5. Onnistuneen ajon jälkeen sivu näyttää lehdelle vihreän ilmoituksen **"postitusaineisto luotu onnistuneesti",** mahdolliset huomautukset sekä Postitusyhteenveto-kortin.
 
-Ohjelma kysyy vahvistuksen: **Tehdäänkö postitusajo?** Ikkunassa näkyy yhteenveto luotavasta postituksesta. Jos samalle päivälle on jo aiempi postitus, ikkunassa varoitetaan: "Saman päivän aiempi postitus (N osoiteriviä) poistetaan ja korvataan uudella." Vahvista painamalla **Tee postitusajo**.
+Lisäksi näkyy kortti **Postituksen tiedot ajohetkellä**. Siinä ovat ajohetken tilausten ja lehtien määrät, lisätiedot ja erittely tuotteittain ja maittain. Tiedot on tallennettu postituksen mukana, joten ne eivät muutu, vaikka tilaukset muuttuisivat myöhemmin. Voit verrata niiden avulla peräkkäisiä postituksia.
 
-Sama vahvistus kysytään myös painon tiedostojen FTP-siirroissa.
-
-Postitusajo muodostaa valitun lehden postituksen valitulle päivälle.
+Jokainen lehti ajetaan omana postituksenaan. Jos jonkin lehden ajo epäonnistuu, sen aiempi postitus säilyy ja virhe näkyy lehden kortilla. Muiden lehtien onnistuneet ajot säilyvät.

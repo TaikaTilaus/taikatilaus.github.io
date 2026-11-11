@@ -5,20 +5,26 @@ description: Postitusten haku uuden version Postitus-valikossa.
 
 # Postitusten haku
 
-**Postitusten haku** -näkymässä voit hakea ja tarkastella lehden postituksia sekä ladata ja edelleenlähettää postituksen postitusainestoja. Voit rajata hakua esimerkiksi ilmestymispäivän, jakelutavan, reitin tai yksittäisen tilauksen perusteella.
+Postitusten haku -näkymässä voit hakea ja tarkastella lehden postituksia, verrata postitusta edelliseen sekä siirtää postituksen painoaineistot. Voit rajata hakua esimerkiksi ilmestymispäivän, jakelutavan, reitin tai yksittäisen tilauksen perusteella.
 
 Hakuehtojen alapuolella näkyy, milloin valitulle lehdelle on viimeksi tehty [**kestojatko**](/docs/uusi_versio/postitus/kestojatko).
 
 Tarkista ennen postituksen käsittelyä, että kestotilausten jatko on tehty. Näin postitukseen tulevat mukaan myös kestotilaukset, joiden alkupäivä on esim. lehden ilmestymispäivä.
 
+Teksti on muotoa *"Lehden Esimerkkilehti viimeisin kestojatko on tehty 10.11.2026 08:15:02"*. Jos kestojatkoa ei löydy lokista, tilalla lukee *"kestojatkoa ei löydy lokista"*. Tee silloin kestojatko **Kestojatko**-sivulta.
+
 ![Postitusten hakunäkymä ja viimeisimmän kestojatkon ajankohta](/img/versio2/postitusten-haku.png)
 
 ## Postituksen hakeminen
 
-1. Valitse **Lehti**.
+## Postituksen hakeminen
+
+1. Valitse **Lehti**. Listassa ovat vain lehdet, joista postituksia on tehty. Sivu valitsee oletuksena ensimmäisen lehden ja sen tuoreimman postituksen.
 2. Valitse **Ilmestymispäivä**, jonka postitusta haluat tarkastella.
 3. Tarvittaessa rajaa hakua muilla hakuehdoilla.
 4. Paina **Hae**.
+
+Jos annetuilla ehdoilla ei löydy postitusta, sivu ilmoittaa *"Tietoja ei löytynyt"*. Jos yhteenveto, muutokset tai painoaineisto yritetään hakea ilman lehteä ja ilmestymispäivää, sivu pyytää valitsemaan ne.
 
 Postituksen **LähetysID** on sama koko postituksella.
 
@@ -28,23 +34,27 @@ Postituksen **LähetysID** on sama koko postituksella.
 
 Postituksia voi rajata seuraavilla tiedoilla:
 
-- **Lehti**
-- **Ilmestymispäivä**
-- **Jakelutapa**: esim. Postin päiväjakelu, Postin varhaisjakelu, PISA
-- **Niputustapa**: 00-99, Lajittelukeskus, Postinumeroalue, Ulkomaat, Vakionippu, Varhaisjakelu
-- **Reitti**
-- **Nippu**
-- **Jakelija**: esim. Posti, Vakionippu, PISA
-- **Tilausnumero**
-- **Tilaustunnus**
-- **Asiakasnumero**
-- **Osoiterivit**
-- **Postinumero**
-- **Postitoimipaikka**
-- **Maa**
-- **Varhaisjakelun esto**: Kyllä, Ei
+- Lehti
+- Ilmestymispäivä
+- Jakelutapa: esim. Postin päiväjakelu, Postin varhaisjakelu, PISA
+- Niputustapa: 00-99, Lajittelukeskus, Postinumeroalue, Ulkomaat, Vakionippu, Varhaisjakelu
+- Reitti
+- Nippu
+- Jakelija: esim. Posti, Vakionippu, PISA
+- Tilausnumero
+- Tilaustunnus
+- Asiakasnumero
+- Osoiterivit: haku kohdistuu osoiteriveihin 1–3
+- Postinumero
+- Postitoimipaikka
+- Maa
+- Varhaisjakelun esto: Kyllä, Ei
+
+Jakelutapa-, Niputustapa-, Reitti-, Nippu-, Jakelija- ja Varhaisjakelun esto -ehdot näkyvät vain asiakkailla, joilla postitukset niputetaan.
 
 Kaikkia hakuehtoja ei tarvitse täyttää. Tavallisesti tietyn postituksen tarkasteluun riittää lehden ja ilmestymispäivän valitseminen.
+
+Jos postituksen niputuksessa on virheitä, haun jälkeen listan yläpuolella näkyy punainen **Niputusvirhe-ilmoitus**. Tarkista tilanne ennen aineiston lähettämistä.
 
 ![Postitusten lisähakuehdot](/img/versio2/postitusten-haku3.png)
 
@@ -73,11 +83,11 @@ Postitusyhteenvedosta näet, mistä postituksen kokonaismäärä muodostuu:
 - **Osoiterekisteristä lehtiä (päivä- ja varhaisjakelu)** – osoiterekisteristä postitukseen tulleiden lehtien kokonaismäärä.
 - **Lehtiä osoiterekisteristä päiväjakelussa** – päiväjakeluun kuuluvien lehtien määrä.
 - **Lehtiä osoiterekisteristä varhaisjakelussa** – varhaisjakeluun kuuluvien lehtien määrä.
-- **Lehtiä irtonumeroina** – postitukseen sisältyvien irtonumeroiden määrä. Irtonumerot sisältyvät päivä- ja varhaisjakelun määriin.
+- **Lehtiä irtonumeroina (sisältyy päivä- ja varhaisjakeluun)** – postitukseen sisältyvien irtonumeroiden määrä.
 - **Lehtiä lisätyissä vakionipuissa** – vakionippuihin lisättyjen lehtien määrä.
 - **Nippuihin lisättyjä varalehtiä** – nippuihin lisättyjen ylimääräisten varalehtien määrä.
 - **Nippuihin lisättyjä peittojakelun lehtiä** – peittojakelua varten lisättyjen lehtien määrä.
-- **Lehtiä yhteensä** – postitukseen kuuluvien lehtien kokonaismäärä. Määrään sisältyvät päivä- ja varhaisjakelu, vakioniput, varalehdet ja peittojakelu.
+- **Lehtiä yhteensä (päivä- ja varhaisjakelu, vakioniput, varalehdet, peittojakelu)** – postitukseen kuuluvien lehtien kokonaismäärä.
 
 ![Postituksen lehtimäärät ja lehtien kokonaismäärä](/img/versio2/postitusyhteenveto5.png)
 
@@ -185,3 +195,12 @@ Näkymässä näytetään:
 Jokaisella muodostetulla postituksella on oma **LähetysID**. Sama LähetysID kuuluu koko kyseisen ilmestymispäivän postitukselle.
 
 ![Postitusten ilmestymispäivät ja LähetysID-tunnisteet](/img/versio2/postituspaivat.png)
+
+## Painoaineiston siirto painoon ja jakeluun
+
+1. Valitse ensin Lehti ja Ilmestymispäivä.
+2. Paina **Postituslista**. Sivu muodostaa painotalolle tarvittavat tiedostot.
+    - Muodostuksen jälkeen jokaiselle tiedostolle ilmestyy oma **Lataa**-painike, jolla tallennat tiedoston omalle koneelle. Tiedostoja ei ladata automaattisesti.
+3. Paina **Siirrä FTP:llä** (perässä painotalon nimi ja tiedostojen nimet), kun haluat lähettää tiedostot suoraan painotalon SFTP-palvelimelle. 
+4. Ohjelma kysyy vahvistuksen ja kertoo, että samannimiset vanhat tiedostot korvataan. 
+5. Siirron jälkeen sivulla näkyy siirtoloki ja tulos: **FTP-siirto onnistui tai epäonnistui.**
