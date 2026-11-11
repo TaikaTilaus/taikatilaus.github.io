@@ -21,29 +21,29 @@ Valitse ensin lehti ja päivä, jolloin tilausten tulee olla voimassa. Päiväm�
 
 ## Tilausten hakeminen
 
-1. Valitse **Lehti**.
-2. Valitse **Tilausten voimassaolopäivä**.
-3. Paina **Näytä tilaukset**.
+1. Valitse **Lehti**. Voit valita useita lehtiä: jokaiselle valitulle lehdelle tehdään oma postitus samalle päivälle. Kun lehtiä on useita, **Valitse kaikki** -painike valitsee ne kaikki ja **Poista valinnat** tyhjentää valinnan.
+2. Valitse **Tilausten voimassaolopäivä**. Valikossa ovat lehtien ilmestymispäivät viikonpäivineen. Oletuksena on seuraava ilmestymispäivä, jonka perässä lukee (seuraava). Jokaisen päivän perässä näkyy lisäksi aineistopäivä ja kellonaika, eli milloin postituslista pitää tehdä. Kun valitset useita lehtiä, aineistopäivä on aikaisin niistä. Jos valitset käsin jonkin toisen päivän, sivu ei vaihda sitä enää itse.
+3. Napsauta **Näytä tilaukset**.
 
-Valitun lehden viimeisimmän [**kestojatkon**](/docs/uusi_versio/postitus/kestojatko) ajankohta näkyy hakuehtojen alapuolella.
+Valikon lopussa on valinta **Muu päivä…**, jolla saat vapaan päivämääräkentän. Käytä sitä, jos haluat tehdä postituksen päivälle, joka ei ole ilmestymispäivä.
 
-Kun painat **Näytä tilaukset**, sivun alaosaan avautuu **Voimassa olevat tilaukset** -yhteenveto.
+Jos lehdille ei löydy yhtään julkaisupäivää, kentän paikalla on ilmoitus **Valituille lehdille ei löytynyt julkaisupäiviä**, eikä **Näytä tilaukset** -painike ole käytössä. Lisää silloin julkaisut **Julkaisut**-sivulla.
 
-:::warning Huom!
+Hakuehtojen alapuolella näkyy valittujen lehtien viimeisimmän kestojatkon ajankohta. Jos valittu päivä ei ole lehden seuraava ilmestymispäivä, sivu huomauttaa siitä. Jos lehdelle on jo postitus samalle päivälle, sivu kertoo, kuinka monta osoiteriviä uusi postitusajo korvaa.
 
-**Tarkista ennen postitusajoa**, että kestotilausten jatko on tehty!
+Kun painat **Näytä tilaukset**, sivun alaosaan avautuvat **Voimassa olevat tilaukset** -yhteenveto, Erittely ja tilauslista.
 
+:::warning HUOM!
+Tarkista ennen postitusajoa, että kestotilausten jatko on tehty!
 :::
-
-![Postitusajon hakuehdot ja kestotilausten jatkon tarkistus](/img/versio2/postitusten-luonti2.png)
 
 ## Voimassa olevat tilaukset
 
 Kun painat **Näytä tilaukset**, sivun alaosaan avautuu **Voimassa olevat tilaukset** -yhteenveto.
 
-Yhteenveto näyttää valittuna päivänä voimassa olevien tilausten määrät.
+Yhteenvedon yläreunassa on korostettuna **Tilauksia yhteensä** ja **Lehtiä yhteensä**. Tilausten ja lehtien määrä voi olla eri, jos yhdellä tilauksella toimitetaan useampi kuin yksi lehti. Tilaukset eritellään tarkemmin **Erittely**-kortissa (katso alla).
 
-Tilaukset eritellään esimerkiksi:
+Yhteenvedossa näkyy lisäksi:
 
 - kotimaisiin ja ulkomaisiin kestotilauksiin
 - kotimaisiin ja ulkomaisiin määräaikaisiin tilauksiin
@@ -63,18 +63,19 @@ Yhteenvedossa näkyy lisäksi:
 
 ![Postitukseen sisältyvien ja siitä pois jäävien tilausten määrät](/img/versio2/postitusten-luonti3.png)
 
-## Poikkeusten tarkastelu
+### Poikkeusten tarkastelu
 
 Kun olet painanut **Näytä tilaukset**, yhteenvedon alareunassa näkyy **Näytä poikkeukset** -painike, jos haussa on postituslistassa huomioitavia asioita.
 
 Painikkeessa näkyvä numero kertoo löydettyjen poikkeusten määrän.
 
-Paina **Näytä poikkeukset**, jolloin sivun oikealle puolelle avautuu **Postituslistassa huomioitavat asiat** -lista.
+Paina **Näytä poikkeukset**, jolloin yhteenvedon alle avautuu **Postituslistassa huomioitavat asiat** -kortti.
 
 Listalla voidaan näyttää esimerkiksi:
 
-- **Väliaikainen osoite** – asiakkaalla on valittuna ajankohtana voimassa oleva väliaikainen osoite.
-- **Jakelukeskeytys** – asiakkaan tilauksella on jakelukeskeytys, jonka vuoksi tilausta ei oteta mukaan postitukseen.
+- **Väliaikainen osoite**: asiakkaalla on valittuna ajankohtana voimassa oleva väliaikainen osoite. Rivillä näkyy väliaikaisen osoitteen voimassaoloaika sekä asiakkaan numero ja nimi.
+- **Jakelukeskeytys**: asiakkaan tilauksella on jakelukeskeytys, jonka vuoksi tilausta ei oteta mukaan postitukseen.
+- **Estolistalla**: tilaaja on estolistalla, joten tilausta ei oteta mukaan postitukseen.
 
 Rivillä näkyy poikkeuksen tyyppi, sen voimassaoloaika sekä asiakkaan numero ja nimi.
 
@@ -84,11 +85,56 @@ Kun poikkeuslista on avattu, painike muuttuu muotoon **Piilota poikkeukset**. Pa
 
 ![Postituksen poikkeuslista: väliaikaiset osoitteet ja jakelukeskeytykset](/img/versio2/postitusten-luonti4.png)
 
-## Tilausten vienti Exceliin
+## Erittely
 
-Paina **Näytä voimassa olevat tilaukset kaikilla tiedoilla (Excel)**, kun haluat ladata haussa löytyneet voimassa olevat tilaukset Excel-tiedostoon.
+**Erittely**-kortti jakaa valitun lehden tilaukset tuotteittain ja maittain. Kummassakin taulukossa on erikseen Kesto, Määräaikaiset ja Yhteensä, ja jokaisesta tilauksien ja lehtien määrä.
 
-![Voimassa olevien tilausten vienti Exceliin](/img/versio2/postitusten-luonti5.png)
+Taulukon luvut ovat linkkejä. Kun napsautat lukua, alla oleva tilauslista näyttää vain ne tilaukset, joista luku koostuu. Tilauksia- ja lehtiä-luku näyttävät samat tilaukset, ja Määrä-sarake kertoo, montako lehteä kustakin tilauksesta lähtee.
+
+Linkin luoma suodatus näkyy tilauslistan otsikossa. Poista suodatus painamalla ruksia. Uusi haku poistaa suodatuksen.
+
+## Tilauslista ja vienti
+
+Näytä tilaukset -haun jälkeen jokaiselle lehdelle avautuu Tilaukset-lista, jossa ovat kaikki postitukseen tulevat tilaukset. Lista näyttää hakutuloksen. Postitusajo ei muutu sen mukaan.
+
+Listassa on oletuksena seuraavat sarakkeet: 
+- Tilausnro, 
+- Tyyppi (Kesto tai Määräaikainen), 
+- Tuote,
+- Alkaa,
+- Päättyy,
+- Määrä,
+- Asiakasnro,
+- Saaja,
+- Katuosoite,
+- Postinumero,
+- Postitoimipaikka, 
+- Maa
+- Väliaikainen osoite. 
+
+Sarakkeet-painikkeella voit lisäksi näyttää esimerkiksi:
+- Tilaustunnuksen,
+- TuoteID:n,
+- Tuoteryhmän,
+- Peruutuspäivän,
+- Yrityksen,
+- Osaston,
+- c/o:n,
+- Koti/ulko,
+- Irtonumeron,
+- Sähköpostin,
+- Puhelimen,
+- Nipun,
+- Jakelijan,
+- Painopaikan,
+- Hinnan 
+- Varhaisjakelukiellon.
+
+Voit lajitella listan napsauttamalla yksittäistä sarakeotsikkoa ja selata sivuja listan yläreunasta. 
+
+Rivin alussa oleva nuolikuvake avaa tilauksen uuteen välilehteen ja henkilökuvake saajan asiakaskortin uuteen välilehteen.
+
+Export-valikosta voit viedä listan esimerkiksi Exceliin. Export noudattaa Erittelyn luvusta tehtyä suodatusta. Valikon Postituslista-osiossa on lisäksi **Kaikki tiedot, rivi per lehti (Excel)**. Se lataa kaikki voimassa olevat tilaukset kaikilla tiedoilla, yksi rivi jokaista lehteä kohden, ja se vie aina kaikki tilaukset suodatuksesta riippumatta.
 
 ## Postitusajon tekeminen
 
