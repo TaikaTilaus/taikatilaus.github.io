@@ -21,9 +21,37 @@ Valitse sivun yläreunasta tarkasteltava tuotetyyppi:
 
 ## Tuotteen muokkaaminen
 
-Avaa tuotteen tiedot muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
+Avaa tuotteen tiedot napsauttamalla riviä tai rivin vasemmassa reunassa olevaa kynäkuvaketta (Muokkaa lomakkeella). Lomake avautuu listan tilalle. 
+
+Tallenna muutokset napsauttamalla **Tallenna** tai poistu tallentamatta napsauttamalla **Peruuta**. Lomakkeen alareunassa näkyy, milloin ja kuka tuotteen on lisännyt ja muuttanut.
 
 ![Tuotteen avaaminen muokattavaksi kynäkuvakkeella](/img/versio2/tuotteet4.png)
+
+### Muokkaa listassa
+
+Valitse listan yläreunasta **Muokkaa listassa**, niin voit muokata useita tuotteita suoraan listassa. Listassa voi muokata seuraavia tietoja: tuotenimi, ulkoinen tuotenimi, kampanja, lisätiedot, hinnat (myös erähinnat), uuden hinnan aktivoitumispäivä, ALV-%, kirjanpidon tilit ja piilotettu. 
+
+Muuttuneet rivit merkitään, ja yläreunan **Tallenna muutokset (n)** -painike tallentaa ne kaikki kerralla. Rivin oman **Tallenna**-painikkeen avulla voit tallentaa yhden rivin.
+
+### Tuotteen kopioiminen
+
+Napsauta rivin **kopiokuvaketta** (Kopioi uudeksi tuotteeksi), tai tuotteen lomakkeella **Kopioi tuote**. 
+
+Kopio avautuu lomakkeelle, mutta se tallentuu vasta, kun napsautat **Tallenna**. 
+
+Kopio ei sisällä **Stripe-kytkentää** (tuotetyyppi ja hinta, kuponki), vaan ne täytyy kytkeä uudelle tuotteelle erikseen.
+
+### Tuotteen poistaminen
+
+Napsauta tuotteen lomakkeella **Poista** ja vahvista. Tuotetta ei poisteta kokonaan, vaan se merkitään piilotetuksi, koska tilaukset ja laskut viittaavat siihen edelleen. Piilotetun tuotteen näet listassa valinnalla **Näytä piilotetut**.
+
+## Sarakkeet
+
+**Sarakkeet**-painikkeesta valitset, mitkä sarakkeet listassa näytetään, ja **Palauta oletukset** palauttaa oletusvalinnat. 
+
+Valinta tallentuu käyttäjäkohtaisesti. 
+
+Listassa on sarakkeita esimerkiksi tuotteen tiedoista, hinnoista (veroton ja verollinen), uudesta hinnasta (aktivoitumispäivä, veroton ja verollinen), kirjanpidon tileistä, tilaustyypistä ja Stripe-kytkennästä (Stripe tuotetyyppi ja hinta, Stripe kuponki ja hinta). Voit lajitella listan napsauttamalla yksittäistä sarakeotsikkoa.
 
 ## Tuotteiden vieminen
 
@@ -41,20 +69,19 @@ Voit:
 
 ### Tilaustuotteiden hakeminen ja suodattaminen
 
-Voit hakea tilaustuotteita esimerkiksi tuotenumerolla, tuoteryhmällä, kampanjalla tai tuotenimellä.
+Hakukenttä hakee sitä mukaa, kun kirjoitat. Kentän ohjeteksti kertoo, mistä tiedoista haetaan (esimerkiksi tuoteryhmä, kampanja, tuotenimi, lisätiedot, tilauslaji, SKU tai TuoteID, ja Tuotenumero silloin, kun se on käytössä). Hakusanan täytyy löytyä jostakin kentästä. Osumat korostetaan listassa.
 
 Hakutuloksia voi rajata myös seuraavilla valinnoilla:
 
-- **Tuoteryhmät**
-- **Kampanja**: hae kaikki tiettyyn kampaanjaan liittyvät tuotteet.
-- **Tilaustyyppi**: kesto, määräaikainen, ulkoinen kesto (Stripe).
-- **Näytä piilotetut**: tuo luetteloon myös piilotetut tuotteet.
-- **Näytä osamaksuhinnat**: näyttää tuotteiden osamaksuhinnat luettelossa. 
-- **Laske voimassa olevat tilaukset**: laskee tuotteisiin liittyvien voimassa olevien tilausten määrät.
+- **Tuoteryhmät:** voit valita useita ryhmiä kerralla.
+- **Kampanja:** hae kaikki tiettyyn kampanjaan liittyvät tuotteet.
+- **Tilaustyyppi:** Ei määritelty, Kesto, Määräaikainen tai Ulkoinen kesto.
+- **Voimassa (vuosi):** näyttää tuotteet, jotka ovat valittavissa valittuna vuonna (Valittavissa aikavälillä -jakso osuu vuoteen). Piilotetut tuotteet näytetään vain, kun Näytä piilotetut on päällä.
+- **Näytä piilotetut:** tuo luetteloon myös piilotetut tuotteet.
+- **Näytä osamaksuhinnat:** näyttää listassa myös osissa maksettavat tuotehinnat (2, 3 ja 4 erää, veroton ja verollinen).
+- **Laske voimassa olevat tilaukset:** lisää listaan sarakkeen Voimassa olevia tilauksia ja näyttää niiden yhteismäärän. Laskenta hidastaa hakua.
 
-**Näytä piilotetut** tuo luetteloon myös piilotetut tuotteet. **Laske voimassa olevat tilaukset** laskee tuotteisiin liittyvien voimassa olevien tilausten määrät.
-
-Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
+Listassa näytetään enintään 500 tuotetta. Jos tuotteita on enemmän, tarkenna hakua. Vienti sisältää aina kaikki suodatetut tuotteet.
 
 ![Tilaustuotteiden hakukenttä ja suodatusvalinnat](/img/versio2/tuotteet2.png)
 
@@ -87,6 +114,11 @@ Määritä tuotteelle tarvittavat perustiedot:
 
 Valitse **Tuote on piilotettu**, jos tuotetta ei haluta näyttää tuotteiden valintalistoilla.
 
+:::info HUOM!
+
+Osa kentistä voidaan piilottaa **Asetukset → Muut asetukset → Yleisasetukset** -sivulla (Tuotteet-sivun kentät): Tuotenumero, Tilauslaji, SKU-koodi, PortalID, Jatkotuote, Karenssi päivää, Digituote, Oikeuttaa digipalveluun ja Digipalvelu-kenttä. Jos et näe jotakin tässä ohjeessa mainittua kenttää, se on piilotettu.
+:::
+
 ![Tilaustuotteen perustiedot ja piilotusvalinta](/img/versio2/tilaustuote.png)
 
 ### Hinnat
@@ -115,19 +147,19 @@ Järjestelmä näyttää hinnan myös verollisena. Voit tarvittaessa laskea vero
 
 ### Uusi hinta
 
-**Uusi hinta** -osiossa voit määrittää tuotteelle myöhemmin voimaan tulevan hinnan.
+**Uusi hinta** -osiossa määrität tuotteelle myöhemmin voimaan tulevan hinnan.
 
 1. Valitse **Hinnaston aktivoitumispäivä**.
-2. Lisää uusi veroton hinta.
-3. Lisää tarvittaessa uudet hinnat kahdelle, kolmelle tai neljälle laskuerälle.
+2. Lisää uusi veroton hinta. Voit antaa myös verollisen hinnan, jolloin veroton lasketaan siitä.
+3. Lisää tarvittaessa uudet hinnat kahdelle, kolmelle tai neljälle laskuerälle (koko tilauksen hinta).
+
+Automaattinen yöajo ottaa uudet hinnat käyttöön aktivoitumispäivänä. Päivityksen jälkeen aktivoitumispäivää kasvatetaan sadalla vuodella (esimerkiksi 8.10.2025 → 8.10.2125), jotta hinnat eivät vaihdu uudelleen.
 
 :::warning Huomio
 
 **Hinta veroton 2 erässä**, **Hinta veroton 3 erässä** ja **Hinta veroton 4 erässä** -kenttiin merkitään koko tilauksen hinta, ei yksittäisen laskuerän hintaa.
 
 :::
-
-Uusi hinta otetaan käyttöön määritettynä aktivoitumispäivänä.
 
 ![Tilaustuotteen uusi hinta ja hinnaston aktivoitumispäivä](/img/versio2/tilaustuote3.png)
 
@@ -143,11 +175,14 @@ Valitse tuotteelle:
 
 ### Tilauksen asetukset
 
-Valitse tuotteen **Tilaustyyppi**:
+Valitse tuotteen Tilaustyyppi:
 
 - **Ei määritelty**
 - **Kesto**
-- **Määräaikainen**.
+- **Määräaikainen**
+- **Ulkoinen kesto** (näkyy vain, kun ulkoinen kesto on otettu käyttöön TaikaTilauksessa)
+
+Ulkoinen kesto on kestotilaus, jonka jatkosta tulee pyyntö ulkoisesta korttimaksupalvelusta (esimerkiksi Stripe).
 
 Postituslistalle kerätään vain kesto- ja määräaikaiset tilaukset. Valitse **Ei määritelty**, jos tuotteen ei pidä nousta postituslistalle. Jos tuote on digitilaus, valitse kesto tai määräaikainen.
 
@@ -181,6 +216,16 @@ Digituotteet eivät nouse postituslistalle.
 **Digipalvelu**-kentässä voidaan määrittää palvelun tunniste. Saman digipalvelun tuotteet voidaan ryhmitellä yhteisen tunnisteen alle.
 
 ![Tilaustuotteen digipalvelun ja käyttöoikeuden asetukset](/img/versio2/tilaustuote6.png)
+
+### Ulkoinen maksupalvelu (Stripe)
+
+Osio näkyy tuotteen lomakkeella, kun ulkoinen kesto on käytössä tai tuotteella on jo kytkentä ulkoiseen palveluun.
+
+- **Stripe tuotetyyppi ja hinta:** tuotteen kytkentä Stripen hintaan. Arvo on tyyppi (TOI = toistuva tilaus, KER = kertamaksu) ja Stripen hinnan lookup-avain tai hinnan tunniste.
+- **Stripe kuponki ja hinta:** kupongin tunniste ja hinta kupongilla tilauslomakkeella.
+- **Webshop Campaign Code:** AccessType-verkkokaupan kampanjakoodi (vain sitä käyttävillä asiakkailla).
+
+Stripe-kentät ovat tällä sivulla vain luettavia. Ne asetetaan StripeGatewayssa (Tuotteet → tuote → Kytke TaikaTilaukseen, kupongit kohdasta Kupongit → Kytke TaikaTilaukseen), ja arvo säilyy tuotetta tallennettaessa. AccessType-asiakkailla kentän nimi on AccessType Subscription plan ID, ja sen voi syöttää tällä sivulla.
 
 ## Erillistuotteet
 
@@ -281,6 +326,8 @@ Voit rajata hakutuloksia **Kanava**- ja **Ryhmät**-valinnoilla. Ota **Näytä p
 
 Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
+Listassa näytetään enintään 500 tuotetta. Jos tuotteita on enemmän, tarkenna hakua. Vienti sisältää aina kaikki suodatetut tuotteet. Napsauta rivin otsikkoa, kun haluat lajitella listan sen mukaan.
+
 ![Myyntituotteiden hakukenttä sekä kanava- ja ryhmärajaukset](/img/versio2/myyntituotteet2.png)
 
 ### Uuden myyntituotteen lisääminen
@@ -317,6 +364,28 @@ Valitse tarvittaessa:
 
 ![Myyntituotteen perustiedot sekä piilotus- ja itsepalveluvalinnat](/img/versio2/myyntituotteet4.png)
 
+### Kanavatyypin mukaiset kentät
+
+Kun olet valinnut Kanavan, lomakkeella näkyy kanavan tyyppi (esimerkiksi LEHTI, NETTI tai RADIO) ja sen mukaiset lisäkentät. Kanavatyypit määritetään kanavien asetuksissa.
+
+#### Lehti-ilmoitus
+
+- **Vakiokoko palstoja** ja **Vakiokoko korkeus mm:** tuotteen vakiokoko.
+- **Poikkeava leveys:** jos annettu, leveys poikkeaa vakiopalstoista. Adwizard-tiedostoon kirjataan tämä.
+- **Rivi-ilmoitus:** jos valitaan, näkyviin tulevat kentät **Rivi-ilm. min. rivimäärä** ja **Min. rivimäärän hinta**. Minimirivimäärän hinta on pienimmän rivimäärän hinta, ja seuraavat rivit maksavat Hinta-kentän mukaan.
+
+#### Netti-ilmoitus
+
+- **Näyttömäärä**
+- **Aineistopäivä (julkaisusta -N pv):** aineisto toimitetaan N päivää ennen julkaisupäivää.
+- **Aikaväli pakollinen:** varaukselle täytyy antaa aikaväli.
+- **Google Ad Manager Ad Units:** inventory targeting -mainospaikkojen tunnisteet pilkuilla eroteltuina. Kenttä näkyy vain, kun Google Ad Manager on käytössä.
+
+#### Radiomainos
+
+- **Spotin kesto sekuntia**
+- **Toistojen määrä**
+
 ### Saatavuus
 
 Määritä **Saatavuus / julkaisu** -kenttään, kuinka monta kertaa tuote voidaan varata samaan julkaisuun.
@@ -324,6 +393,8 @@ Määritä **Saatavuus / julkaisu** -kenttään, kuinka monta kertaa tuote voida
 Saatavuutta voidaan rajoittaa esimerkiksi silloin, kun julkaisussa on myynnissä vain yksi kansipaikka.
 
 Arvo `0` tarkoittaa, ettei saatavuutta ole rajoitettu.
+
+**Muut myyntituotteet, joilla jaettu saatavuus:** valitse tästä useampi saman kanavan tuote, jotka jakavat saman paikan julkaisussa (esimerkiksi avausaukeama ja 2. kansi). Jaettu saatavuus tallentuu kaikille ryhmän tuotteille.
 
 ![Myyntituotteen julkaisukohtaisen saatavuuden asetus](/img/versio2/myyntituotteet5.png)
 
@@ -335,6 +406,8 @@ Arvo `0` tarkoittaa, ettei saatavuutta ole rajoitettu.
 Järjestelmä laskee ja näyttää verollisen hinnan automaattisesti.
 
 Valitse tarvittaessa **Sopimus-/moduulihinta**. Tällöin hinta koskee koko ilmoitusta eikä perustu esimerkiksi palstamillimetreihin, näyttömääriin tai kestoon.
+
+Jos yhteistyöhinta on käytössä, lomakkeella on lisäksi **Yhteistyöhinta**: ulkopuolisen aineistovalmistajan kanssa sovittu hinta ilman ALV:ia.
 
 ![Myyntituotteen hinta, ALV-prosentti ja sopimus- tai moduulihinnan valinta](/img/versio2/myyntituotteet6.png)
 
@@ -357,3 +430,7 @@ Voit lisäksi määrittää **Kululajin** kirjanpitoa ja kustannuslaskentaa vart
 Valitse **Lähetä aineistolinkki**, jos ilmoitusvarauksesta halutaan lähettää aineiston toimituslinkki.
 
 ![Myyntituotteen käsittelijän sähköposti ja aineistolinkin lähetysvalinta](/img/versio2/myyntituotteet7.png)
+
+### Myyntituotteen poistaminen
+
+Napsauta tuotteen lomakkeella **Poista** ja vahvista. Tuote merkitään piilotetuksi, joten se ei poistu kokonaan. Piilotetun tuotteen näet listassa valinnalla Näytä piilotetut. Lomakkeen alareunassa näkyy, milloin ja kuka tuotteen on lisännyt ja muuttanut.
