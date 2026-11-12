@@ -16,24 +16,43 @@ Kirjoita raportin nimi tai osa siitä **Hae raportin nimellä** -kenttään. Rap
 Voit rajata luetteloa myös seuraavilla valinnoilla:
 
 | Rajaus | Kuvaus |
-| --- | --- |
-| **Kaikki ryhmät** | Rajaa raportit niiden ryhmän perusteella, esimerkiksi asiakkaisiin, ilmoituksiin tai kirjanpitoon liittyviin raportteihin. |
+|---|---|
 | **Kaikki lisääjät** | Rajaa raportit tai tallennetut haut niiden lisääjän perusteella. |
+| **Ryhmäpainikkeet** | Rajaa raportit ryhmän mukaan. Katso alla. |
 
-Voit käyttää nimihakua ja valikoiden rajauksia samanaikaisesti.
+Voit käyttää nimihakua, lisääjää ja ryhmäpainikkeita samanaikaisesti.
+
+### Ryhmäpainikkeet
+
+Hakukenttien alla on pyöreät ryhmäpainikkeet. Jokaisessa painikkeessa näkyy ryhmän raporttien määrä. Valittu painike on sininen.
+
+- **Kaikki:** kaikki raportit ja tallennetut haut.
+- **Minun top 10:** kymmenen eniten ajamaasi raporttia. Lista on käyttömäärän mukaisessa järjestyksessä, eikä sarakelajittelu vaikuta siihen. Tallennetut haut lasketaan oman raporttinsa käyttöön.
+- **Minun raportit:** tallentamasi haut ja itse lisäämäsi raportit.
+- **Suosikit:** tähdellä merkityt raportit ja haut.
+- **Raporttiryhmät:** esimerkiksi Asiakkaat, Ilmoitukset, Kirjanpito, Laskut, Postitus ja Muut. Ryhmät ovat aakkosjärjestyksessä.
 
 ![Raporttien nimi-, ryhmä- ja lisääjärajaukset](/img/versio2/raportit2.png)
 
 ## Raporttiluettelo
 
 | Sarake | Sisältö |
-| --- | --- |
-| **Nimi** | Raportin tai tallennetun haun nimi. |
-| **Ryhmä** | Ryhmä, johon raportti kuuluu, esimerkiksi **Asiakkaat**, **Ilmoitukset** tai **Kirjanpito**. |
-| **Viimeksi käytetty** | Ajankohta, jolloin raporttia on käytetty viimeksi. |
+|---|---|
+| **Tähti** | Suosikkimerkintä. |
+| **Avaa** | Painike, joka avaa raportin tai tallennetun haun. |
+| **Nimi** | Raportin tai tallennetun haun nimi. Tallennetun haun perässä on merkintä **Tallennettu haku**. Jos haku on yksityinen, merkintänä on **Yksityinen** (näkyy vain sinulle). |
+| **Ryhmä** | Ryhmä, johon raportti kuuluu, esimerkiksi Asiakkaat, Ilmoitukset tai Kirjanpito. |
+| **Viimeksi käytetty** | Ajankohta, jolloin raporttia on käytetty viimeksi. Perässä näkyy, montako kertaa raportti on ajettu (esimerkiksi · 12×). |
 | **Lisääjä** | Raportin tai tallennetun haun lisääjä. |
+| **Poista** | Näkyy vain, jos saat poistaa rivin. Katso alla. |
 
-Voit järjestää luetteloa napsauttamalla sarakeotsikkoa. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan.
+Voit järjestää luetteloa napsauttamalla sarakeotsikkoa Nimi, Ryhmä, Viimeksi käytetty tai Lisääjä. Otsikon vieressä oleva nuoli näyttää lajittelusuunnan. Ilman valintaa luettelo on ryhmän ja nimen mukaan.
+
+Napsauta riviä missä tahansa kohdassa, kun haluat avata raportin.
+
+### Tallennetun haun poistaminen
+
+**Poista**-painike näkyy tallennetulla haulla, jonka olet itse lisännyt. Tallennetun haun voi poistaa, ja ohjelma kysyy ensin: *"Poistetaanko tallennettu haku …?"* Raportin poistaminen poistaa määrityksen ja käyttöoikeudet pysyvästi. Sovelluksen omia raportteja ei voi poistaa.
 
 ![Raporttiluettelo ja raporttien perustiedot](/img/versio2/raportit3.png)
 
@@ -44,11 +63,11 @@ Raporttirivin vasemmassa reunassa olevalla **tähtikuvakkeella** voit merkitä u
 - Lisää raportti suosikkeihin napsauttamalla tyhjää tähteä.
 - Poista raportti suosikeista napsauttamalla tähteä uudelleen.
 
-Suosikkiraportit nuosevat listalla ylimmäksi.
+Suosikkiraportit nousevat listalla ylimmäksi. 
 
 ![Raportin merkitseminen suosikiksi tähtikuvakkeella](/img/versio2/raportit5.png)
 
-Suosikkiraporttisi löytyvät myös omasta ryhmästä. 
+Suosikkisi löytyvät myös **Suosikit**-ryhmästä. Tähti toimii myös tallennetuille hauille. Voit merkitä suosikiksi raportin tai yksittäisen haun.
 
 ![Suosikkiraportit omana ryhmänään](/img/versio2/raportit6.png)
 
@@ -66,15 +85,39 @@ Valitse haluamasi arvot hakuehtojen valikoista. Valitut arvot näkyvät valikoid
 - Poista yksittäinen valinta napsauttamalla sen vieressä olevaa **X-painiketta**.
 - Raportin tulokset ja kuvaaja päivittyvät valintojen perusteella.
 
+Hakuehtoja on usean tyyppisiä:
+
+- päivämääräkenttä
+- valikko (valinta *Kaikki, jos rajausta ei haluta*)
+- monivalinta, jossa tyhjä valinta tarkoittaa kaikkia. 
+- kaksi toisiinsa liittyvää valikkoa: alavalikko aktivoituu, kun olet ensin lisännyt arvon ylävalikkoon. Alavalikossa lukee "Valitse ensin …". Valitut arvot näkyvät valikon alla sinisinä tunnisteina, ja ne poistetaan X-painikkeella.
+- kytkin (esimerkiksi *Sama asiakas vain kerran*)
+- tekstikenttä
+
+Jos otsikon perässä on kysymysmerkkikuvake, viemällä hiiren sen päälle näet ohjeen hakuehdosta.
+
 Ota **Sama asiakas vain kerran** käyttöön, jos haluat saman asiakkaan näkyvän raportin tuloksissa vain kerran.
 
 Tästä on hyötyä esimerkiksi silloin, kun sama asiakas kuuluu useaan raportille valittuun ryhmään.
+
+Napsauta **Hae**, kun olet valinnut ehdot.
 
 ![Avatun raportin hakuehdot](/img/versio2/raportti-haku.png)
 
 ### Kuvaaja
 
-Raportin tulokset voidaan esittää kuvaajana. Kuvaajan oikealla puolella olevilla asetuksilla voit muuttaa tietojen esitystapaa.
+Raportin tulokset voidaan esittää kuvaajana.
+
+Kuvaajan oikealla puolella ovat valinnat:
+- Mittari (Lukumäärä tai summa),
+- Aika-akseli 
+- Jaksotus (Päivittäin, Viikoittain, Kuukausittain, Vuosittain),
+- Ryhmittely
+- Visualisointi (Pylväs, Vaakapylväs, Viiva). 
+
+Aika-akseli ja Jaksotus näkyvät vain raporteissa, joissa on päivämääräsarake.
+
+Jos ryhmittelyssä on paljon arvoja, kuvaajassa näytetään vain suurimmat. Kuvaajan yläpuolella oleva teksti kertoo asiasta ("Kuvaajassa vain 10 suurinta … kaikki ovat taulukossa"). Napsauta **(näytä kaikki)**, kun haluat nähdä kaikki ryhmät, ja **(näytä vain suurimmat)**, kun haluat palata. Joissakin raporteissa raja on kiinteä, jolloin linkkiä ei ole. Taulukossa ovat aina kaikki rivit.
 
 Käytettävissä olevat vaihtoehdot vaihtelevat raportin mukaan. Kuvaaja päivittyy automaattisesti, kun muutat asetuksia.
 
@@ -87,6 +130,8 @@ Lataa kuvaaja kuvatiedostona napsauttamalla **Lataa kuva**.
 **Data**-osiossa näet raportin tulokset taulukkomuodossa.
 
 Taulukon yläpuolella oleva yhteenveto näyttää raportissa käytetyt hakuehdot ja tulosten rivimäärän. Yhteenvedossa näkyy myös, jos **Sama asiakas vain kerran** on käytössä.
+
+Taulukon yläpuolella oleva yhteenveto näyttää hakuehdot.
 
 Taulukon sarakkeet vaihtelevat raportin mukaan. Asiakkaisiin liittyvissä raporteissa voit avata [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) napsauttamalla **asiakasnumeroa**.
 
@@ -112,6 +157,7 @@ Voit valita joko molemmat tai vain toisen.
 | **CSV** | Vie raportin tiedot CSV-tiedostoon. |
 | **JSON** | Vie raportin tiedot JSON-tiedostoon. |
 | **HTML** | Vie raportin tiedot HTML-tiedostoon. |
+| **Parquet** | Vie raportin tiedot tyypitettynä sarakemuotona analytiikkaan (esimerkiksi Power BI, Python ja DuckDB). |
 
 Tarkista raportin hakuehdot ja rivimäärä ennen asiakkaiden lisäämistä [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista) tai tietojen viemistä.
 
@@ -138,7 +184,7 @@ Sulje sähköpostitoiminto lähettämättä raporttia napsauttamalla **Peruuta**
 
 ### Hakuehtojen tallentaminen
 
-Voit tallentaa usein käyttämäsi hakuehdot myöhempää käyttöä varten.
+Voit tallentaa usein käyttämäsi hakuehdot ja kuvaajan asetukset myöhempää käyttöä varten.
 
 1. Valitse raportille haluamasi hakuehdot.
 2. Napsauta **Tallenna hakuehdot**.
@@ -182,3 +228,7 @@ Voit sulkea arkistointitoiminnon tallentamatta raporttia napsauttamalla **Peruut
 ### Palaaminen raporttiluetteloon
 
 Palaa [Raportit](/docs/uusi_versio/Raportit)-sivulle napsauttamalla sivun oikeassa yläkulmassa **Palaa listaan**.
+
+## Jos raporttia ei voi avata
+
+Jos raportti ei aukea, sivulla lukee "Sinulla ei ole oikeutta tähän raporttiin, sitä ei löydy tai se ei ole käytössä." Syynä voi olla, ettei sinulla ole käyttöoikeutta raporttiin tai että raportti on otettu pois käytöstä yritykseltäsi. Pyydä tarvittaessa oikeus yrityksesi pääkäyttäjältä.
