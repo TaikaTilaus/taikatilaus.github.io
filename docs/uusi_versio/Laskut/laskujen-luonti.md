@@ -48,7 +48,7 @@ Voit käyttää useita rajauksia samanaikaisesti. Silloin tuloksissa ovat pyynn�
 
 Luettelon yläreunassa näkyy yhteenveto: laskutuspyyntöjen määrä, laskutettavien ja virheellisten määrä, summa ilman arvonlisäveroa ja verollinen summa sekä arvio muodostuvien laskujen määrästä. Koontilaskut lasketaan maksajittain.
 
-Jos haussa on huomioita, esimerkiksi peruutetuista tilauksista tai aluehinnasta, ne näkyvät keltaisessa **Huomiot**-ruudussa luettelon yläpuolella.
+Jos haussa on huomioita, esimerkiksi katkaistuista tilauksista tai aluehinnasta, ne näkyvät keltaisessa **Huomiot**-ruudussa luettelon yläpuolella.
 
 | Sarake | Sisältö |
 |---|---|

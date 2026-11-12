@@ -51,7 +51,7 @@ Jos suomalaisella asiakkaalla on VAT-numero-kentässä FI-alkuinen numero mutta 
 Kuollut-valinta näkyy vain henkilöasiakkaalla.
 
 - **Kuollut**-valinnan päälle laittaminen asettaa samalla kaikki markkinointikiellot ([**Markkinointitiedot**](/docs/uusi_versio/Asiakkaat/asiakaskortti/markkinointitiedot)-välilehti). Valinnan poistaminen ei poista kieltoja.
-- **Kuollut**-merkintä ei vaikuta postitukseen eikä tilauksen tilaan. Kuolleen tilaajan voimassa olevat tilaukset katkaistaan erikseen tilaukselta antamalla peruutuspäivä ja katkaisun syyksi **SAIRAUS_VANHUUS_KUOLEMA**.
+- **Kuollut**-merkintä ei vaikuta postitukseen eikä tilauksen tilaan. Kuolleen tilaajan voimassa olevat tilaukset katkaistaan erikseen tilaukselta antamalla katkaisupäivä ja katkaisun syyksi **SAIRAUS_VANHUUS_KUOLEMA**.
 - Kuolleeksi merkityllä asiakkaalla on asiakasluettelossa ja [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) otsikossa **Kuollut**-merkki.
 
 ![Asiakaskortin yhteystiedot](/img/versio2/asiakaskortti3.png)

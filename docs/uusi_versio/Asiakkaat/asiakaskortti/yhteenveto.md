@@ -28,7 +28,7 @@ Osio huomioi tilaukset, joissa asiakas on tilaajana tai maksajana.
 | **Tilaaja alkaen** | Vanhimman sellaisen tilauksen alkupäivä, jossa asiakas on tilaajana, sekä tilaajuuden kesto. Jos tilaajuudessa on ollut taukoja, näkyvät taukojen määrä ja yhteenlaskettu kesto punaisella. |
 | **Tila nyt** | Asiakkaan tilaajuuden tila tänään (ks. alla). Alla näkyy voimassa olevien tilausjaksojen määrä niistä jaksoista, joissa asiakas on tilaajana. |
 | **Eri tuotteita** | Asiakkaan tilaamien eri tuotteiden määrä. |
-| **Katkaisu** | Viimeisimmän katkaisun peruutuspäivä, katkaistujen jaksojen määrä ja viimeisimmän katkaisun syy. Jos tilauksia ei ole katkaistu, näkyy Ei katkaistuja tilauksia. Normaalisti päättyneet tilaukset (määräaikaiset) ei lasketa katkaistuiksi. |
+| **Katkaisu** | Viimeisimmän katkaisun katkaisupäivä, katkaistujen jaksojen määrä ja viimeisimmän katkaisun syy. Jos tilauksia ei ole katkaistu, näkyy Ei katkaistuja tilauksia. Normaalisti päättyneet tilaukset (määräaikaiset) ei lasketa katkaistuiksi. |
 
 **Tila nyt.** Tila määräytyy niistä tilauksista, joissa asiakas on tilaajana. Jos tilauksia on useassa tilassa, näytetään vahvin tila ensin:
 

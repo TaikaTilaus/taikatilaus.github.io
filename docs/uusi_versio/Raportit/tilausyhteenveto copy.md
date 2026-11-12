@@ -86,7 +86,7 @@ Voit määrittää:
 
 Osion yläpuolella kerrotaan ehtoja vastaavien tilausten kokonaismäärä ja kuinka monta uusinta tilausta luettelossa näytetään.
 
-Luettelossa ovat määräaikaiset tilaukset, joiden loppupäivä osuu valitulle jaksolle. Mukana ovat kaikki tilat, myös katkaistut, mutta ei poistetut. Viimeksi päättynyt tilaus on ylimpänä.
+Luettelossa ovat määräaikaiset tilaukset, joiden loppupäivä osuu valitulle jaksolle. Mukana ovat kaikki tilat, myös katkaistut ja maksamatta päättyneet, mutta ei poistetut. Viimeksi päättynyt tilaus on ylimpänä.
 
 ![Päättyneiden määräaikaisten tilausten luettelo](/img/versio2/paattyneet-maara.png)
 
@@ -99,7 +99,7 @@ Voit määrittää:
 - **Katkaisupäivä … vrk:** näyttää tilaukset, joiden katkaisupäivästä on kulunut enintään annettu määrä vuorokausia. Esimerkiksi 14 näyttää viimeisten 14 vuorokauden aikana katkaistut tilaukset. Tulevat katkaisupäivät eivät ole mukana.
 - **Enint.:** määrittää, kuinka monta tilausta luettelossa näytetään enintään.
 
-Luettelossa ovat kaikki tilat, myös maksamatta katkaistut, mutta ei poistetut. Katkaisun syy näkyy omassa sarakkeessaan.
+Luettelossa ovat kaikki tilat, myös maksamatta päättyneet, mutta ei poistetut. Katkaisun syy näkyy omassa sarakkeessaan.
 
 ![Päättyneiden kestotilausten luettelo](/img/versio2/paattyneet-kesto.png)
 

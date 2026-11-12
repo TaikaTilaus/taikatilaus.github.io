@@ -18,7 +18,7 @@ Asiakaskortin oikealla puolella olevassa **Tilaukset**-osiossa näet asiakkaan t
 | **Tila** | Tilauksen tila: esimerkiksi Voimassa, Tulossa voimaan, Nukutettu, Päättynyt tai Katkaistu. Tila näkyy värillisenä merkkinä. |
 | **Alkaa** | Tilauksen alkupäivä. |
 | **Päättyy** | Tilauksen päättymispäivä. |
-| **Katkaisupäivä** | Tilauksen katkaisu- eli peruutuspäivä. Sarake näkyy vain, jos jollain tilauksella on katkaisupäivä. |
+| **Katkaisupäivä** | Tilauksen katkaisupäivä. Sarake näkyy vain, jos jollain tilauksella on katkaisupäivä. |
 | **Hinta** | Tilauksen hinta. |
 | **Maksettu** | Vihreä ruksi tarkoittaa, että tilaus on maksettu. Vie hiiri ruksin päälle, niin näet maksupäivän. Kellokuvake tarkoittaa, että tilauksen lasku on avoin. |
 

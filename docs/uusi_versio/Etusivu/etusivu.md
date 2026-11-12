@@ -77,7 +77,7 @@ Tilausten kehitystä seurataan neljässä kortissa:
 
 - **Uudet tilaukset:** jakson aikana tulleet uudet tilaukset.
 - **Päättyneet määräaikaiset:** jakson aikana päättyneet määräaikaiset tilaukset.
-- **Katkaistut kestotilaukset:** kesto- ja Stripe-tilaukset, joille on annettu katkaisupäivä jaksolla. Mukana ovat myös maksamatta katkaistut tilaukset. Tilaukset, joilla ei ole katkaisupäivää (esimerkiksi normaalisti päättyneet määräaikaiset tilaukset tai kestotilauksen tilausjaksot), eivät ole mukana.
+- **Katkaistut kestotilaukset:** kesto- ja Stripe-tilaukset, joille on annettu katkaisupäivä jaksolla. Mukana ovat myös maksamatta päättyneet tilaukset (tila MAKSAMATTA PÄÄTTYNYT). Tilaukset, joilla ei ole katkaisupäivää (esimerkiksi normaalisti päättyneet määräaikaiset tilaukset tai kestotilauksen tilausjaksot), eivät ole mukana.
 - **Maksamatta päättyneet**: edellisellä viikolla (maanantaista sunnuntaihin) maksamattomuuden vuoksi päättyneet tilaukset. Päivänä käytetään katkaisupäivää.
 
 Kolmen ensimmäisen kortin jakso on oletuksena viimeiset 30 vuorokautta. Jakson pituuden voi muuttaa **Asetuksissa** kohdassa [**Etusivun osiot**](/docs/uusi_versio/asetukset/etusivun-osiot). Jakso näkyy kortin otsikossa, esimerkiksi **Uudet tilaukset · 30 vrk**.
@@ -92,7 +92,7 @@ Kortin alareunassa näkyy edellisten 12 kuukauden kuukausikeskiarvo ("**Edellise
 - Kortin luvun vieressä näkyy muutosmerkintä, esim. **↑ +12 % vs. normaali**. Prosentti kertoo, kuinka paljon kuluvan jakson määrä poikkeaa edellisen 12 kuukauden normaalitasosta, kun se on skaalattu samanmittaiseen jaksoon. Alareunassa näkyy edellisen 12 kk:n kuukausikeskiarvo ("Edellisen 12 kk:n keskiarvo: X / kk").
 - Väri kertoo, onko muutos toiminnan kannalta myönteinen vai kielteinen: **vihreä on myönteinen ja punainen kielteinen**.
 
-Väri riippuu kortista. Uudet tilaukset -kortissa kasvu on myönteistä (vihreä nuoli ylös) ja väheneminen kielteistä (punainen nuoli alas). Päättyneet määräaikaiset-, Päättyneet kestotilaukset- ja Maksamatta katkaistut -korteissa kasvu on kielteistä (punainen nuoli ylös) ja väheneminen myönteistä (vihreä nuoli alas). Jos vertailutietoa ei ole, merkintänä on harmaa *"ei vertailutietoa"*.
+Väri riippuu kortista. Uudet tilaukset -kortissa kasvu on myönteistä (vihreä nuoli ylös) ja väheneminen kielteistä (punainen nuoli alas). Päättyneet määräaikaiset-, Katkaistut kestotilaukset- ja Maksamatta päättyneet -korteissa kasvu on kielteistä (punainen nuoli ylös) ja väheneminen myönteistä (vihreä nuoli alas). Jos vertailutietoa ei ole, merkintänä on harmaa *"ei vertailutietoa"*.
 
 ![Etusivun tilausten kehitystä kuvaavat yhteenvetokortit](/img/versio2/kortit2.png)
 
