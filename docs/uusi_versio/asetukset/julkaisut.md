@@ -33,24 +33,42 @@ Voit rajata hakutuloksia valitsemalla **Kanavan** tai määrittämällä **Alkae
 
 Tyhjennä hakukenttä ja valitut rajaukset napsauttamalla **Tyhjennä**.
 
+Hakukenttä hakee sitä mukaa, kun kirjoitat: nimestä, lyhenteestä, numerosta, teemasta, kanavasta, tiedoston nimestä ja ulkoisesta ID:stä. Hakusanan täytyy löytyä jostakin kentästä. Osumat korostetaan listassa.
+
+**Alkaen**-päivämäärä rajaa sekä listan että viennin julkaisuihin, joiden ilmestymispäivä on valittu päivä tai sen jälkeen. Tyhjä **Alkaen**-kenttä tarkoittaa kaikkia julkaisuja.
+
 ![Julkaisujen hakukenttä sekä kanava- ja päivämäärärajaukset](/img/versio2/julkaisut2.png)
 
 ### Julkaisuluettelo
 
-Julkaisuluettelossa näytetään esimerkiksi:
+Luettelossa näytetään sarakkeet:
+- Kanava,
+-Nimi,
+- Lyhenne, 
+- Numero, 
+- Teema, 
+- Sivumäärä, 
+- Ilmestymispäivä, 
+- Aineistopäivä ja kello, 
+- Julkaisu tiedostona, 
+- Ulkoinen ID ja
+- JulkaisuID. 
 
-- kanava
-- julkaisun nimi ja lyhenne
-- julkaisun numero
-- teema
-- sivumäärä
-- ilmestymispäivä
-- aineistopäivä ja -aika
-- julkaisuun liitetty tiedosto
-- ulkoinen ID
-- JulkaisuID.
+Lista on oletuksena järjestetty ilmestymispäivän mukaan uusin ensin. Voit lajitella listan napsauttamalla yksittäistä sarakeotsikkoa. Listassa näytetään enintään 500 julkaisua. Tarkenna hakua, jos tuloksia on enemmän. Vienti sisältää aina kaikki suodatetut julkaisut.
 
-Avaa julkaisun tiedot muokattavaksi napsauttamalla rivin vasemmassa reunassa olevaa **kynäkuvaketta**.
+Avaa julkaisun tiedot napsauttamalla riviä tai rivin vasemmassa reunassa olevaa kynäkuvaketta.
+
+#### Muokkaa listassa
+
+Valitse **Muokkaa listassa**, niin voit muokata useita julkaisuja suoraan listassa. 
+
+Listassa voi muokata seuraavia tietoja: Numero, Teema, Sivumäärä, Ilmestymispäivä sekä Aineistopäivä ja kello. 
+
+Muuttuneet rivit merkitään, ja yläreunan **Tallenna muutokset (n)** -painike tallentaa ne kaikki kerralla. Rivin oma vihreä merkki tallentaa yhden rivin. Jos rivillä on virhe, sen alla näkyy virheteksti.
+
+#### Julkaisun kopioiminen
+
+Napsauta rivin kopiokuvaketta (Kopioi uudeksi julkaisuksi). Kopio avautuu lomakkeelle, mutta se tallentuu vasta, kun napsautat **Tallenna**. Muuta kopioon tarvittaessa numero ja päivät. Kopioon ei tule Ulkoista ID:tä eikä yhteislehti-valintoja.
 
 ![Julkaisuluettelo ja julkaisun muokkauskuvake](/img/versio2/julkaisut3.png)
 
@@ -80,6 +98,8 @@ Sivun yläreunassa näytetään varoitus, jos jollekin kanavalle ei ole määrit
 
 Voit poistua tallentamatta napsauttamalla **Peruuta**.
 
+Kun uusi julkaisu on tallennettu, lomake jää auki, jotta voit lisätä julkaisun tiedoston heti. Lomakkeen alareunan **Peruuta**-painike vaihtuu silloin **Sulje**-painikkeeksi.
+
 ![Uuden julkaisun lomake](/img/versio2/julkaisut6.png)
 
 ### Perustiedot
@@ -91,6 +111,7 @@ Julkaisulle voidaan määrittää:
 - **Nimi**
 - **Sivumäärä**
 - **Teema**
+- **Yhteislehti**
 - **Ulkoinen ID**.
 
 **JulkaisuID** muodostuu automaattisesti, kun julkaisu tallennetaan.
@@ -98,6 +119,15 @@ Julkaisulle voidaan määrittää:
 Ulkoinen ID on toisessa järjestelmässä julkaisulle käytettävä tunniste. Kenttä on valinnainen.
 
 ![Julkaisun kanava, numero, nimi ja muut perustiedot](/img/versio2/julkaisut7.png)
+
+#### Yhteislehti
+
+Jos yhteislehdet on määritelty **Lyhenteet ja asetukset** -sivulla, julkaisun lomakkeella näkyy Yhteislehti-kohta. Se kertoo, mitkä saman päivän numerot ovat julkaisun pareja.
+
+- **Aina myös:** saman päivän numerot, jotka ovat julkaisun vakiopareja.
+- **Lisälehdet tähän numeroon:** valitse ruksilla, mitkä lisäkanavien saman päivän numerot ovat julkaisun lisälehtiä (esimerkiksi teemanumerot). Joillakin yhteislehdillä on enimmäismäärä lisälehdille.
+
+Kohta vaatii ilmestymispäivän, koska yhteislehdet ovat saman päivän numeroita. Ilmoitusvaraukseen voi valita julkaisun yhteislehdet, ja ilmoitus julkaistaan myös niissä. Lisälehti on yksisuuntainen: jos myös toisen lehden varaukset voi tuplata tähän lehteen, merkitse toisen lehden numeroon tämä lehti.
 
 ### Ajankohdat
 
@@ -116,6 +146,10 @@ Julkaisun tiedoston voi lisätä vasta sen jälkeen, kun julkaisu on tallennettu
 3. Lisää tiedosto **Julkaisu tiedostona** -osiossa.
 
 ![Julkaisun tiedoston lisääminen](/img/versio2/julkaisut9.png)
+
+### Julkaisun poistaminen
+
+Napsauta julkaisun lomakkeella **Poista** ja vahvista. Julkaisu poistetaan pysyvästi, ja sitä ei voi palauttaa.
 
 ## Lyhenteet ja asetukset
 
@@ -141,11 +175,43 @@ Radio Nostalgia:RAD
 
 Tallenna muutokset napsauttamalla **Tallenna lyhenteet**.
 
+Lyhenteet ovat yhteiset vanhan TaikaTilauksen kanssa: muutokset näkyvät molemmissa.
+
 ![Julkaisujen lyhenteiden määrittäminen ja tallentaminen](/img/versio2/lyhenteet2.png)
+
+### Yhteislehdet
+
+:::info HUOM!
+Yhteislehdet näkyvät ja muokattavissa vain pääkäyttäjälle, koska määritys vaikuttaa integraatioihin.
+:::
+
+Yhteislehdessä yksi ilmoitusvaraus julkaistaan useassa saman päivän lehdessä, ja se laskutetaan kerran. Varaukselle valitaan, missä julkaisun yhteislehdissä ilmoitus julkaistaan myös. Oletuksena ei missään.
+
+Kirjoita jokainen rivi muodossa:
+
+`Tunniste;Nimi;Kanavat;Lisäkanavat;Lisälehtiä enintään`
+
+Kaksi viimeistä ovat valinnaisia.
+
+- **Kanavat** ovat aina toistensa pareja: saman päivän numerot ovat valittavissa ilman merkintää.
+- **Lisäkanavien** saman päivän numeroita voi merkitä julkaisun lomakkeella lisälehdiksi, esimerkiksi teemanumerot.
+- **Lisälehtiä enintään** rajaa, montako lisälehteä yhdelle varaukselle voi valita.
+- Kanava voi olla vain yhden rivin kanavissa.
+- Kirjoita kanavat täsmälleen samoin kuin TaikaTilauksen Kanavat-asetuksessa.
+
+Esimerkki:
+
+`NV;Nakka-Vakka;TaikaNakka,TaikaVakka`
+
+`DIGI;Digi-yhteislehti;TaikaNakka Digi;TaikaNakka,TaikaVakka;1`
+
+Ensimmäisellä rivillä TaikaNakka ja TaikaVakka ovat toistensa pareja: saman päivän numerot ovat valittavissa yhteislehdiksi ilman erillistä merkintää. Toisella rivillä TaikaNakka Digin saman päivän numeroon voi merkitä lisälehdiksi TaikaNakan tai TaikaVakan numeron, ja enintään yhden.
+
+Tyhjä asetus tarkoittaa, ettei toiminto ole käytössä. Napsauta **Tallenna yhteislehdet**. Jos määrityksessä on virhe, asetusta ei tallenneta ja virheet luetellaan.
 
 ### Tilattavat lehdet
 
-**Tilattavat lehdet** -osiossa määritetään, mitkä tuoteryhmät näytetään lehtivalintoina uutta tilausta luotaessa.
+**Tilattavat lehdet** -osiossa määritetään, mitkä tuoteryhmät näytetään lehtivalintoina uutta tilausta luotaessa. Lista on sovelluksen lehtilista: sitä käyttävät myös Kestojatko, Postitusten luonti ja Postitusasetukset.
 
 Tuoteryhmän lisääminen:
 
@@ -156,45 +222,48 @@ Poista tuoteryhmä valinnasta napsauttamalla sen vieressä olevaa **x-kuvaketta*
 
 Jos yhtään tuoteryhmää ei ole valittu, kaikki tuoteryhmät ovat valittavissa uutta tilausta luotaessa.
 
+Jos valitulla tuoteryhmällä ei ole yhtään tuotetta, ryhmän perässä lukee (ei tuotteita).
+
 Tilaustuotteiden lähtöarvot on kopioitu vanhan TaikaTilauksen asetuksista. Tällä sivulla tehdyt muutokset koskevat vain uutta sovellusta eivätkä muuta vanhan TaikaTilauksen asetuksia.
 
 ![Uuden tilauksen lehtivalinnoissa näytettävät tuoteryhmät](/img/versio2/lyhenteet3.png)
 
 ## Julkaisujen ilmestymisviikonpäivät
 
-Tässä kohdassa määritetään julkaisujen tavalliset ilmestymisviikonpäivät [julkaisukalenteria](/docs/uusi_versio/Etusivu#julkaisukalenteri) varten.
+Tässä kohdassa määritetään julkaisujen tavalliset ilmestymisviikonpäivät ja aineistopäivät, joiden mukaan julkaisut lisätään julkaisukalenteriin.
 
-Asetuksissa määritellyt julkaisut ja niiden lyhenteet näkyvät kentän yläpuolella.
+Asetuksissa määritellyt julkaisujen lyhenteet näkyvät kentän yläpuolella.
 
-Kirjoita jokainen julkaisu omalle rivilleen seuraavassa muodossa:
+Kirjoita jokainen julkaisu omalle rivilleen muodossa:
 
-```text
-LYHENNE:VIIKONPÄIVÄ
-```
+`LYHENNE:ILMESTYMISPÄIVÄ:AINEISTOPÄIVÄ:KELLO`
 
 Esimerkiksi:
 
-```text
-MAI:KESKIVIIKKO
-NET:PERJANTAI
-RAD:MAANANTAI
-```
+`TAN:KESKIVIIKKO:MAANANTAI:12.00`
 
-Julkaisun lyhenteen tulee vastata asetuksissa määriteltyä lyhennettä.
+Esimerkin lehti ilmestyy keskiviikkona, ja aineisto täytyy toimittaa edeltävänä maanantaina kello 12.00. Aineistopäivä ja kello ovat valinnaisia: ilman niitä aineistopäivä on ilmestymispäivä.
 
-Kun olet määrittänyt ilmestymisviikonpäivät, valitse **Tallenna viikonpäivät**.
+Julkaisun lyhenteen tulee vastata asetuksissa määriteltyä lyhennettä. Tiedot tallennetaan valitsemalla **Tallenna viikonpäivät**.
 
-Valitse tämän jälkeen **Lisää julkaisukalenteriin**, jotta määritetyt ilmestymispäivät lisätään julkaisukalenteriin.
+### Julkaisujen lisääminen julkaisukalenteriin
 
-Voit määrittää **Alku- ja loppupäivän**, jonka sisälle valitun lehden julkaisut lisätään.
+1. Valitse **Lisää julkaisukalenteriin**. Näkyviin tulee lomake.
+2. Valitse **Alkupäivä** ja **Loppupäivä**.
+3. Valitse **Lehden lyhenne** tai **Kaikki**.
+4. Napsauta **Lisää**.
+
+Sovellus lisää valitulle ajanjaksolle jokaiselle lehden ilmestymisviikonpäivälle julkaisun. Kanavaksi tulee lyhenne ja numeroksi vuosi ja viikon numero (esimerkiksi 202605). Aineistopäivä ja kello tulevat rivin mukaan, ja ilman niitä aineistopäivä on sama kuin ilmestymispäivä. 
+
+Jos julkaisu on jo kalenterissa, sovellus ei lisää sitä uudelleen. Se päivittää olemassa olevan julkaisun aineistopäivän, jos aineistopäivä on vielä oletusarvo. Käsin muutettua aineistopäivää ei päivitetä. Tulosviestissä kerrotaan, montako julkaisua lisättiin, päivitettiin ja ohitettiin.
+
+### Julkaisujen poistaminen aikaväliltä
+
+Valitse Lehden lyhenne (tai Kaikki), Alkupäivä ja Loppupäivä ja napsauta **Poista julkaisut annetulta aikaväliltä**. Sovellus kysyy ensin vahvistuksen ja kertoo, montako julkaisua poistetaan. Napsauta **Kyllä, poista**, kun haluat jatkaa, tai **Peruuta**.
+
+Julkaisuja, joihin on ilmoitusvarauksia, alennussääntöjä tai tehty postitus, ei poisteta. Ne luetellaan kohdassa **Ei poisteta**, ja syy näkyy rivillä.
 
 ![Julkaisujen ilmestymisviikonpäivät ja julkaisukalenteriin lisäämisen aikaväli](/img/versio2/lyhenteet5.png)
-
-### Julkaisujen päivitys
-
-Valitse **Julkaisujen päivitys**, kun haluat päivittää julkaisukalenterissa olevien julkaisujen ilmestymis- ja aineistopäivät.
-
-![Julkaisukalenterin ilmestymis- ja aineistopäivien päivitys](/img/versio2/lyhenteet4.png)
 
 
 
