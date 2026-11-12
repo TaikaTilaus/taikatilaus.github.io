@@ -15,7 +15,7 @@ Avaa haluamasi asetussivu suoraan ylävalikon **Asetukset**-valikosta:
 - [**Lisätietokentät**](./lisatietokentat.md) – [asiakaskortilla](/docs/uusi_versio/Asiakkaat/asiakaskortti) käytettävät lisätietokentät.
 - [**Asiakasryhmät**](./ryhmien-muokkaus.md) – ryhmätyyppien ja ryhmien muokkaus.
 - [**Listat**](./listat.md) – asiakas- ja tilauslistojen asetukset.
-- [**Ilmoitukset**](./ilmoitukset.md).
+- [**Ilmoitukset**](./ilmoitukset.md) – ilmoitusvarauslomakkeen ja Ilmoitukset-listan kentät, ilmoituspaikkojen rajat ja avoimuusilmoitukset.
 - [**Tilauslomake**](./tilauslomake.md).
 - [**Muut asetukset**](#muut-asetukset).
 

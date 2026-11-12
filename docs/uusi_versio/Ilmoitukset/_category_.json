@@ -1,0 +1,10 @@
+{
+  "label": "Ilmoitukset",
+  "position": 3.2,
+  "key": "uusi-ilmoitukset",
+  "link": {
+    "type": "generated-index",
+    "slug": "/uusi_versio/Ilmoitukset",
+    "description": "Ilmoitusvarausten haku, varauslomake, uudet varaukset ja varausten kopiointi."
+  }
+}
