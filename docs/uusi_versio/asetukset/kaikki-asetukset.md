@@ -11,19 +11,24 @@ Avaa haluamasi asetussivu suoraan ylävalikon **Asetukset**-valikosta:
 
 - [**Tuotteet**](./tuotteet.md) – tilaus-, erillis- ja myyntituotteet.
 - [**Julkaisut**](./julkaisut.md) – julkaisut ja niiden ilmestymispäivät.
-- **Tilit**.
+- [**Tilit**](./tilit.md).
 - [**Lisätietokentät**](./lisatietokentat.md) – [asiakaskortilla](/docs/uusi_versio/Asiakkaat/asiakaskortti) käytettävät lisätietokentät.
 - [**Asiakasryhmät**](./ryhmien-muokkaus.md) – ryhmätyyppien ja ryhmien muokkaus.
 - [**Listat**](./listat.md) – asiakas- ja tilauslistojen asetukset.
 - [**Ilmoitukset**](./ilmoitukset.md).
+- [**Tilauslomake**](./tilauslomake.md).
+- [**Muut asetukset**](#muut-asetukset).
 
 ## Muut asetukset
 
 Valitse **Asetukset → Muut asetukset** ja avaa haluamasi sivu napsauttamalla sen korttia:
 
 - [**Yleisasetukset**](./muut-asetukset/yleisasetukset.md) – tilaustavat ja muut yleiset asetukset.
-- [**Etusivun osiot**](./muut-asetukset/etusivun-osiot.md) – etusivulla näkyvät tiedot ja yhteenvedot.
+- [**Etusivun osiot**](./muut-asetukset/etusivun-osiot.md) – kuluva päivä, yhteenvedot ja postitusyhteenveto.
 - [**Asiakkaan tietokentät**](./muut-asetukset/asiakkaan-tietokentat.md) – [asiakaskortilla](/docs/uusi_versio/Asiakkaat/asiakaskortti) käytössä olevat kentät.
+
+- [**Kirjautumisrajapinnat**](./muut-asetukset/kirjautumisrajapinnat.md) – oman sivuston ja ePaper-sovelluksen kirjautuminen: osoitteet, paluuosoitteet ja salaisuudet.
+- [**Microsoft 365**](./muut-asetukset/microsoft-365.md) – ilmoitusten valmistus: yhteys SharePointiin, valmiiden ilmoitusten tuonti OneDrivesta ja taittajien polku.
 
 ## Postitusasetuksista löytyvät jakelualueet
 
