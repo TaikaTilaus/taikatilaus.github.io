@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-sidebar_label: Asiakasryhm?t
+sidebar_label: Asiakasryhmät
 description: Ryhmien muokkaus — Uuden ryhmän lisääminen, Ryhmätyyppien ja ryhmien hallinta.
 ---
 

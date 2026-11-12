@@ -6,28 +6,52 @@ description: Yleisasetukset — Tilaustavat, Tilaustavan lisääminen, Tilaustav
 
 # Yleisasetukset
 
-**Yleisasetukset**-sivulla voit hallita tilauslomakkeella käytettäviä tilaustapoja ja tilauksen katkaisun syitä.
+**Yleisasetukset**-sivulla hallitaan sovelluksen yleisiä asetuksia: tuotteiden hintojen näyttöä, **Tuotteet**-sivun kenttiä, tilaustapoja ja tilauksen katkaisun syitä.
 
-Avaa sivu valitsemalla **Asetukset → Muut asetukset → Yleisasetukset**.
+Avaa sivu valitsemalla **Asetukset → Muut asetukset → Yleisasetukset.**
 
-![Yleisasetukset-sivun yleisnäkymä](/img/versio2/yleisasetukset.png)
+Kunkin muutoksen jälkeen kohdan viereen tulee teksti **Tallennettu**. Asetukset tallentuvat heti, eikä erillistä tallennuspainiketta ole.
+
+Palaa asetusten etusivulle napsauttamalla **Palaa asetuksiin.**
+
+## Tuotteiden hinnat tilauslomakkeella
+
+Valinta määrää, näytetäänkö tuotteiden hinnat uuden tilauksen **Tuote**-valintalistassa verollisina vai verottomina.
+
+- **Näytä tuotteiden hinnat verollisina (sis. alv)** päällä: "Jatkuva täystilaus 12 kk (124,00 € sis. ALV 10 %, kesto)"
+- Pois päältä: "Jatkuva täystilaus 12 kk (112,73 € + ALV 10 %, kesto)"
+
+Alv-prosentti on tuotteen oma (**Tuotteet-sivun ALV %**). Asetus vaikuttaa vain listan näyttöön. Tuotteen hinta tallennetaan edelleen ilman arvonlisäveroa, ja tilauksen verollinen summa lasketaan kuten ennenkin. Oletuksena valinta on päällä.
+
+## Tuotteet-sivun kentät
+
+Tässä osiossa valitset, mitkä valinnaiset kentät näkyvät Tuotteet-sivulla (lista, haku ja tuotteen lomake). Piilotettu kenttä ei katoa: tuotteen tieto säilyy ennallaan, mutta sitä ei näytetä.
+
+### Näytä Tuotenumero
+
+Valinta määrää, näkyykö Tuotenumero **Tuotteet**-sivulla.
+
+### Tilaustuotteen kentät
+
+Tilaustuotteen lomakkeen valinnaiset kentät. Voit näyttää tai piilottaa kunkin kentän omalla valinnallaan:
+
+- Näytä Tilauslaji
+- Näytä SKU-koodi
+- Näytä PortalID
+- Näytä Jatkotuote
+- Näytä Karenssi päivää
+- Näytä Digituote
+- Näytä Oikeuttaa digipalveluun
+- Näytä Digipalvelu-kenttä
 
 ## Tilaustavat
 
-**Tilaustavat**-osiossa määritetään tilauslomakkeen **Tilaustapa**-valintalistalla näkyvät vaihtoehdot.
+Tilaustavat-osiossa määritetään tilauslomakkeen **Tilaustapa**-valintalistalla näkyvät vaihtoehdot.
 
-### Tilaustavan lisääminen
+1. Kirjoita uusi tilaustapa **Uusi tilaustapa** -kenttään (esimerkiksi Puhelin).
+2. Napsauta **Lisää** tai paina **Enter**.
 
-1. Kirjoita uusi tilaustapa **Uusi tilaustapa** -kenttään.
-2. Napsauta **Lisää**.
-
-### Tilaustavan poistaminen
-
-Poista tilaustapa napsauttamalla sen vieressä olevaa **x-kuvaketta**.
-
-Tilaustapojen lähtöarvot on kopioitu TaikaTilauksen asetuksista. Tällä sivulla tehdyt muutokset koskevat vain uutta sovellusta, eivätkä ne muuta alkuperäisen TaikaTilauksen asetuksia.
-
-![Tilaustapojen lisääminen ja poistaminen](/img/versio2/tilaustavat.png)
+Poista tilaustapa napsauttamalla sen vieressä olevaa **x**-kuvaketta.
 
 ## Katkaisun syyt
 
@@ -35,20 +59,21 @@ Tilaustapojen lähtöarvot on kopioitu TaikaTilauksen asetuksista. Tällä sivul
 
 Katkaisun syyt voidaan ryhmitellä kirjoittamalla ensin syyn luokka ja sen jälkeen tarkempi syy, esimerkiksi:
 
-`RAHA: Lehti on liian kallis`
+RAHA: Lehti on liian kallis
 
-### Katkaisun syyn lisääminen
+### Katkaisun syyn lisääminen ja poistaminen
 
 1. Kirjoita uusi katkaisun syy **Uusi katkaisun syy** -kenttään.
-2. Napsauta **Lisää**.
+2. Napsauta **Lisää** tai paina **Enter**.
 
-### Katkaisun syyn poistaminen
+Poista katkaisun syy napsauttamalla sen vieressä olevaa **x**-kuvaketta.
 
-Poista katkaisun syy napsauttamalla sen vieressä olevaa **x-kuvaketta**.
+### Syyt, jotka antavat tilan MAKSAMATTA PÄÄTTYNYT
 
-Katkaisun syiden lähtöarvot on kopioitu TaikaTilauksen asetuksista. Tällä sivulla tehdyt muutokset koskevat vain uutta sovellusta, eivätkä ne muuta alkuperäisen TaikaTilauksen asetuksia.
+Tilaus, jolla on katkaisupäivä ja jokin tässä valituista katkaisun syistä, saa tilan **MAKSAMATTA PÄÄTTYNYT**.
 
-Palaa asetusten etusivulle napsauttamalla **Palaa asetuksiin**.
+- Lisää syy valitsemalla se **Lisää…**-valikosta. Valikossa ovat **Katkaisun syyt** -listan syyt, joita ei ole vielä valittu.
+- Poista valinta napsauttamalla syyn vieressä olevaa **x**-kuvaketta. Vähintään yksi syy jää aina valituksi, joten viimeistä valintaa ei voi poistaa.
+- Oletus on syy, jonka teksti sisältää sanan **MAKSAMATTA**.
 
-![Tilauksen katkaisun syiden lisääminen ja poistaminen](/img/versio2/katkaisun-syyt.png)
-
+Muutos vaikuttaa tilojen päättelyyn seuraavasta ajosta alkaen sekä Etusivun **Maksamatta päättyneet** -korttiin ja **Tilaukset**-hakuun.
