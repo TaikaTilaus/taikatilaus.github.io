@@ -66,7 +66,6 @@ Aikataulut ovat suuntaa antavia ja voivat muuttua. Toteutusjärjestykseen vaikut
 - **Ilmoitusvalmistus**: Sisu-monijulkaisuintegraation laajentaminen.
 - **InDesign-integraatio**: ilmoitusvalmistuksen aineistonhallinta pilvinatiivina Microsoft 365 OneDrive -synkronointina.
 - **Pakettimyynnin maksajan valinta** suoraan myyjältä.
-- **Asiakaskohtainen vakiolaskutusaika**, esimerkiksi kerran kuukaudessa.
 - **Alennussäännöt** laajemmin eri myyntikanaviin.
 - **Ilmoituksen hinta-alennus**: prosenttialennuksen lisäksi euroalennus laskulle, esim. −100 €.
 
