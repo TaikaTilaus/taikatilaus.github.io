@@ -24,7 +24,7 @@ Hakurivillä ovat useimmin käytetyt hakuehdot:
 | **Varausnro** | Hakee yhden varauksen numerolla. Varausnumero haetaan kaikista varauksista muista hakuehdoista riippumatta. |
 | **Vapaa haku** | Asiakasnumero, asiakkaan nimi tai yritys tai ilmoituksen koko. |
 | **Kanava** | Yksi tai useampi kanava, esimerkiksi lehti, netti tai radio. |
-| **Julkaisu** | Yksi tai useampi julkaisu eli lehden numero, esimerkiksi "Kurikka-lehti 46 12.11.2026". |
+| **Julkaisu** | Yksi tai useampi julkaisu eli lehden numero, esimerkiksi "Esimerkkilehti 12 18.3.2026". |
 
 **Hae**-painike tai **Enter** hakee. Kanava- ja Julkaisu-valikko hakevat heti, kun suljet valikon muutoksen jälkeen.
 
@@ -60,7 +60,7 @@ Yhteislehtiä käyttävillä asiakkailla listalle tulevat valitun lehden varaust
 
 ### Valitut hakuehdot
 
-Käytössä olevat hakuehdot näkyvät hakurivin alla siruina, esimerkiksi *Kanava: Kurikka-lehti*. Poista yksittäinen hakuehto napsauttamalla sirun rastia, niin lista haetaan heti uudelleen. Jos samasta hakuehdosta on valittu yli kolme arvoa, ne näytetään yhtenä siruna, esimerkiksi *Julkaisu: 8 valittu*.
+Käytössä olevat hakuehdot näkyvät hakurivin alla siruina, esimerkiksi *Kanava: Esimerkkilehti*. Poista yksittäinen hakuehto napsauttamalla sirun rastia, niin lista haetaan heti uudelleen. Jos samasta hakuehdosta on valittu yli kolme arvoa, ne näytetään yhtenä siruna, esimerkiksi *Julkaisu: 8 valittu*.
 
 **Tyhjennä hakuehdot** palauttaa oletushakuehdot ja hakee uudelleen.
 
