@@ -108,9 +108,9 @@ Laskun ulkoasu ja lähetys määritellään Lemonsoftissa (LemonOnline, **Asetuk
 
 - **OVT-tunnus** — julkaisijan oma verkkolaskuosoite laskuttajana
 - **Virtuaaliviivakoodi** — Toimintokeskuksen asetus `BANKREFERENCE` = 4 (IBAN ja suomalainen viitenumero)
-- **Laskupohja** — **Oletusraportit › Lasku**, esim. Lemonsoftin vakiopohja Lasku A4. Tulostuspalvelun laskutustavalle valitaan **Laskutustavat**-asetuksessa oma pohja.
-- **Yrityksen tiedot** — **Yritystiedot › Toimipaikat**: osoite, puhelin, sähköposti, viivästyskorko ja huomautusaika. Viivästyskoron desimaalierottimena käytetään pistettä (esim. 9.5).
-- **Logo** — laskupohjan logo, enintään 870 × 200 pikseliä (PNG tai JPG)
+- **Laskupohja** — **Oletusraportit › Lasku**, esim. Lemonsoftin vakiopohja Lasku A4, tilisiirto: laskun alaosassa on tilisiirtolomake, jossa näkyvät saaja, maksaja, IBAN, viite, eräpäivä ja virtuaaliviivakoodi. Tulostuspalvelun laskutustavalle valitaan **Laskutustavat**-asetuksessa oma pohja.
+- **Yrityksen tiedot** — **Yritystiedot › Toimipaikat**: osoite, puhelin, sähköposti, viivästyskorko ja huomautusaika. Viivästyskoron desimaalierottimena käytetään pistettä (esim. 9.5). Laskun alatunniste tulostaa toimipaikan käyntiosoiterivit; kirjoita ensimmäiselle riville yrityksen virallinen nimi, jotta maksun saaja näkyy laskulla myös logon kanssa.
+- **Logo** — laskupohjan logo, enintään 870 × 200 pikseliä (PNG tai JPG). Logo korvaa laskun otsikossa yrityksen nimen ja osoitteen.
 - **Sähköpostin viestipohja** — **Muut viestit › Sähköpostiviestit › Laskujen lähetys**. Viestissä voi käyttää laskun tietoja, esim. `{Invoice_number}`, `{Invoice_totalsum}`, `{Invoice_duedate}`, `{Company_print_iban}`, `{Invoice_reference}` ja virtuaaliviivakoodi `{Invoice_RfBankCode}`.
 - **Sähköpostin lähettäjä** — oletuksena laskut lähtevät Lemonsoftin omasta lähetyspalvelusta. Jos laskujen halutaan lähtevän julkaisijan omasta osoitteesta (esim. jaetusta postilaatikosta), Lemonsoft kytketään julkaisijan Microsoft 365:een: **Integraatiot › Graph-luvat** (Outlook ja Jaettu postilaatikko) ja lähettävälle käyttäjälle Send As -oikeus postilaatikkoon. Kytkentä vaatii julkaisijan Microsoft 365 -ylläpitäjän hyväksynnän.
 
