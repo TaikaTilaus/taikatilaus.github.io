@@ -39,6 +39,7 @@ Aikataulut ovat suuntaa antavia ja voivat muuttua. Toteutusjärjestykseen vaikut
 - **Uudistettu asiakaskortti**: asiakkaan 360-yhteenveto ja asiakashistoria.
 - **Vuosittain toistuva jakelun keskeytys** ja tilauksen pidennys keskeytysajalla.
 - **Myöhässä saapuvat verkkomaksujen kuittaukset** kirjautuvat laskulle automaattisesti.
+- **Orbyt-laskutuksen käyttöönotot**.
 - **Lemonsoft-integraatio**: tilaus- ja ilmoituslaskujen siirto Lemonsoftiin, josta laskut lähetetään ja niiden reskontra hoidetaan. Katso [kuvaus](/docs/ohjeet/integraatiot/lemonsoft).
 
 ### Myöhemmin
@@ -46,6 +47,8 @@ Aikataulut ovat suuntaa antavia ja voivat muuttua. Toteutusjärjestykseen vaikut
 - **Maksumuuri**: digitunnuksen laitekohtainen käyttöraja.
 - **Raportointi**: uusi jaksotusraportti, tilaajaennusteet, LT-levikki.
 - **Uudistettu itsepalveluportaali OmaPalvelu**.
+- **AI-tukichat** uuteen versioon.
+- **MCP-palvelimen laajennus** tietojen tallennukseen.
 
 ## Ilmoitusten hallinta
 
@@ -72,5 +75,7 @@ Aikataulut ovat suuntaa antavia ja voivat muuttua. Toteutusjärjestykseen vaikut
 ### Myöhemmin
 
 - **Julkaisukalenterien tuonti** CSV-tiedostosta.
+- **AI-tukichat** uuteen versioon.
+- **MCP-palvelimen laajennus** tietojen tallennukseen.
 
 Toteutuneet uudistukset kuvataan tarkemmin [versiotiedotteissa](/docs/category/versiotiedotteet).
