@@ -185,13 +185,18 @@ Valinnat koskevat vain sinun näkymääsi ja tallentuvat heti. Oletuksen kaikill
 Kun **Tiedostot**-sarakkeet näkyvät, voit käsitellä aineistoja suoraan listalla:
 
 - Lataa tiedosto napsauttamalla sen nimeä.
-- Lisää aineisto napsauttamalla **+ aineisto** tai valmis ilmoitus napsauttamalla **+ valmis ilmoitus**.
+- Lisää aineisto napsauttamalla **+ aineisto** tai valmis ilmoitus napsauttamalla **+ valmis ilmoitus**. Microsoft 365 -aineistotuotantoa käyttävillä asiakkailla **+ aineisto** -linkkiä ei ole, koska ilmoituksen työtiedostot ovat SharePointissa.
 - Poista tiedosto roskakorikuvakkeella. Poisto kysyy vahvistuksen.
 - Muuta tulevan varauksen aineistopäivää napsauttamalla Päivät-sarakkeen **kynäkuvaketta**.
 
 **Esikatselu**-sarakkeessa näkyy pieni kuva valmiista ilmoituksesta. Kuva suurenee, kun viet hiiren sen päälle. Napsauta kuvaa, niin se avautuu isona, ja voit ladata PDF:n.
 
-**Materiaali**-sarakkeessa näkyy varauksen materiaalinumero. Jos materiaali on jaettu usealle varaukselle, numeron vieressä on jakokuvake ja varausten määrä. Microsoft 365 -aineistotuotantoa käyttävillä asiakkailla siru kertoo myös, onko InDesign-tiedosto SharePointissa, ja sirun napsautus avaa tiedoston kansion tai InDesign-tiedoston. Ks. [Valmistettava materiaali](./ilmoitusvaraus.md#valmistettava-materiaali).
+**Materiaali**-sarakkeessa näkyy varauksen materiaalinumero. Jos materiaali on jaettu usealle varaukselle, numeron vieressä on jakokuvake ja varausten määrä. Microsoft 365 -aineistotuotantoa käyttävillä asiakkailla sirun alussa on merkki **Id**:
+
+- Värillinen **Id**: InDesign-tiedosto on SharePointissa. Sirun napsautus avaa tiedoston InDesignissa, kun Avaa InDesignissa -linkki on käytössä, ja muuten materiaalin kansion SharePointissa.
+- Harmaa katkoviivainen Id: InDesign-tiedostoa ei vielä ole.
+
+Vie hiiri sirun päälle, niin näet tilan ja tiedoston polun. Ks. [Valmistettava materiaali](./ilmoitusvaraus.md#valmistettava-materiaali).
 
 ## Valituille-toiminnot
 

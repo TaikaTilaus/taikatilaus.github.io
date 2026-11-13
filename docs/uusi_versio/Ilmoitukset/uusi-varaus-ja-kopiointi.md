@@ -132,6 +132,12 @@ Samassa kanavassa päivät ovat valinnaisia: jos et anna niitä, tehdään yksi 
 
 Kun molemmat on valittu, jaetut tiedostot tulevat jaetusta aineistosta ja muut tiedostot kopioidaan.
 
+Microsoft 365 -aineistotuotantoa käyttävillä asiakkailla jokainen kopio saa materiaalinumeron (ks. [Valmistettava materiaali](./ilmoitusvaraus.md#valmistettava-materiaali)):
+
+- **Liitä samaan jaettuun aineistoon:** kopiot käyttävät alkuperäisen varauksen materiaalia ja sen InDesign-tiedostoa. Kun taittaja vie materiaalista uuden PDF:n, se tulee kaikille materiaalin tuleville varauksille.
+- **Kopioi myös aineisto** ilman liitosta: jokainen kopio saa oman materiaalinumeron, ja alkuperäisen materiaalin InDesign-tiedosto kopioidaan SharePointissa kunkin kopion tiedostoksi. Kopiota voi muokata erikseen, eikä muutos muuta alkuperäistä. Jos alkuperäisellä materiaalilla ei ole InDesign-tiedostoa, mitään ei kopioida.
+- Ilman kumpaakaan valintaa kopio saa uuden materiaalinumeron ilman InDesign-tiedostoa.
+
 ### Mitä kopioidaan
 
 - Kopio kuuluu samaan myyntiin kuin alkuperäinen varaus.

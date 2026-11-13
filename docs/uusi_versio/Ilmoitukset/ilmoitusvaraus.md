@@ -276,6 +276,8 @@ Tallennetun varauksen **Tiedostot**-kohdassa ovat varauksen aineistot ja valmis 
 - **Kopioi aineisto aiemmasta ilmoituksesta**: valitse asiakkaan aiempi varaus listalta tai anna varauksen numero. Varauksen uusin valmis ilmoitus ja kaikki aineistotiedostot kopioidaan tälle varaukselle. Varauksella pitää olla julkaisu.
 - Lataa tiedosto napsauttamalla sen nimeä ja poista se roskakorikuvakkeella.
 
+Kun Microsoft 365 -aineistotuotanto on käytössä, **Lisää aineisto** -painiketta ei näytetä, koska ilmoituksen työtiedostot ovat SharePointissa (ks. [Valmistettava materiaali](#valmistettava-materiaali)). Asiakkaan itse toimittamat aineistot (tilauslomake, OmaPalvelu, aineistolinkki) tulevat varaukselle kuten ennenkin.
+
 **Tiedostot tallentuvat heti, lomaketta ei tarvitse tallentaa.** Lomakkeen tallentamattomat muutokset säilyvät.
 
 Tiedoston vieressä voi olla merkkejä:
@@ -302,21 +304,38 @@ Kohdassa näkyvät:
 - **InDesign**-tiedoston polku. **Kopioi polku resurssienhallintaan** kopioi polun leikepöydälle. Liitä se Resurssienhallinnan osoiteriville (Ctrl+L) tai Suorita-ikkunaan (Win+R), niin tiedosto aukeaa InDesignissa.
 - tiedoston tila: **SharePointissa** (muokkausaika) tai **Ei vielä SharePointissa**
 - **Avaa kansio SharePointissa**, jos käytössä
-- **Valmis ilmoitus**: PDF-tiedoston nimi, jolla taittaja tallentaa valmiin ilmoituksen samaan kansioon.
+- **Valmis ilmoitus**: PDF-tiedoston nimi, jolla taittaja tallentaa valmiin ilmoituksen samaan kansioon: `<materiaalinumero>_.pdf` (InDesignin oletusnimi) tai `<materiaalinumero>_pdf.pdf`.
 
 Jos InDesign-linkki on käytössä ja asennettu taittajan koneelle, kohdassa ovat painikkeet:
 
 - **Avaa InDesignissa** avaa InDesign-tiedoston suoraan InDesignissa. Tallennus palaa SharePointiin.
 - **Näytä kansiossa** avaa materiaalin kansion Resurssienhallinnassa.
 
-Jos InDesign-tiedostoa ei vielä ole:
+Linkin asennus taittajan koneelle on kuvattu sivulla [Microsoft 365](../asetukset/muut-asetukset/microsoft-365.md#avaa-indesignissa--linkki).
 
-- **Luo InDesign-tiedosto pohjasta** kopioi asiakkaan InDesign-pohjan materiaalin tiedostoksi (jos pohja on määritetty), tai
-- lisää oma InDesign-tiedosto (.indd). Se tallentuu SharePointiin materiaalinumeron mukaisella nimellä. Olemassa olevaa tiedostoa ei korvata.
+#### Kun InDesign-tiedostoa ei vielä ole
 
-Jos PDF on SharePointissa, mutta sitä ei ole vielä tuotu varaukselle, **Hae valmis ilmoitus SharePointista** lisää sen varauksen valmiiksi ilmoitukseksi. Painike ei näy, jos varauksella on jo valmis ilmoitus tai sen julkaisu on jo ilmestynyt.
+Valitse jokin seuraavista:
 
-Jos varauksella ei ole materiaalinumeroa, napsauta **Uusi materiaali** tai kirjoita olemassa oleva numero ja napsauta **Liitä materiaaliin**.
+- **Luo InDesign-tiedosto pohjasta** kopioi asiakkaan InDesign-pohjan materiaalin tiedostoksi. Painike näkyy, jos pohja on määritetty.
+- Lisää oma InDesign-tiedosto (.indd, enintään 500 Mt). Se tallentuu SharePointiin materiaalinumeron mukaisella nimellä.
+- **Kopioi materiaali aiemmasta**: kirjoita aiemman materiaalin numero (kenttä ehdottaa asiakkaan materiaaleja) ja napsauta painiketta. Aiemman materiaalin InDesign-tiedosto kopioidaan tämän materiaalin tiedostoksi. Varausta ei liitetä aiempaan materiaaliin, joten muutokset eivät muuta aiempaa ilmoitusta. Vain asiakkaan oman materiaalin voi kopioida, ja sen InDesign-tiedoston pitää olla SharePointissa.
+
+Taittaja voi myös tehdä ilmoituksen InDesignissa ja tallentaa sen kohdassa näkyvään polkuun. Olemassa olevaa InDesign-tiedostoa ei koskaan korvata TaikaTilauksesta.
+
+#### Valmis ilmoitus SharePointista
+
+PDF tuodaan valmiiksi ilmoitukseksi **kaikille** materiaalin varauksille, jotka ilmestyvät tänään tai myöhemmin, ja uusi PDF korvaa niiden aiemman valmiin ilmoituksen. Jos yhden julkaisun ilmoitus poikkeaa muista, anna sille oma materiaali (**Kopioi materiaali aiemmasta**).
+
+Jos PDF on SharePointissa, mutta sitä ei ole vielä tuotu varaukselle, **Hae valmis ilmoitus SharePointista** lisää sen varauksen valmiiksi ilmoitukseksi. Näin käy esimerkiksi, kun varaus on tehty vasta PDF:n tallentamisen jälkeen. Painike ei näy, jos varauksella on jo valmis ilmoitus tai sen julkaisu on jo ilmestynyt.
+
+#### Varaus ilman materiaalinumeroa
+
+Uusi varaus ja kopio saavat materiaalinumeron automaattisesti tallennettaessa. Muualla luodut varaukset, kuten tyhjät varaukset ja tilauslomakkeelta tulleet, jäävät ilman numeroa. Valitse silloin:
+
+- **Uusi materiaali**: varaus saa uuden numeron. Jos InDesign-pohja on määritetty, InDesign-tiedosto luodaan samalla pohjasta.
+- **Liitä materiaaliin**: kirjoita olemassa olevan materiaalin numero. Varaus käyttää samaa InDesign-tiedostoa kuin materiaalin muut varaukset.
+- **Kopioi materiaali aiemmasta**: varaus saa uuden numeron ja kopion aiemman materiaalin InDesign-tiedostosta.
 
 Microsoft 365 -yhteys, automaattinen tuonti ja InDesign-pohja määritetään sivulla [Asetukset → Muut asetukset → Microsoft 365](../asetukset/muut-asetukset/microsoft-365.md).
 
