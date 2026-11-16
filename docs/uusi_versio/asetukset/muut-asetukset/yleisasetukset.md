@@ -23,6 +23,10 @@ Valinta määrää, näytetäänkö tuotteiden hinnat uuden tilauksen **Tuote**-
 
 Alv-prosentti on tuotteen oma (**Tuotteet-sivun ALV %**). Asetus vaikuttaa vain listan näyttöön. Tuotteen hinta tallennetaan edelleen ilman arvonlisäveroa, ja tilauksen verollinen summa lasketaan kuten ennenkin. Oletuksena valinta on päällä.
 
+## Tilauslahja-kenttä tilauksen lomakkeella
+
+Kortin **Tuotteiden hinnat tilauslomakkeella** alla on valinta **Näytä Tilauslahja-kenttä tilauslomakkeella** (oletuksena pois). Kun se on päällä, Tilaukset-sivun Uusi tilaus- ja Muokkaa tilausta -lomakkeella on vapaatekstikenttä **Tilauslahja** (enintään 100 merkkiä), johon henkilökunta voi kirjata tilauksen lahjan. Piilotettu kenttä säilyttää tilaukselle jo tallennetun arvon.
+
 ## Tuotteet-sivun kentät
 
 Tässä osiossa valitset, mitkä valinnaiset kentät näkyvät Tuotteet-sivulla (lista, haku ja tuotteen lomake). Piilotettu kenttä ei katoa: tuotteen tieto säilyy ennallaan, mutta sitä ei näytetä.

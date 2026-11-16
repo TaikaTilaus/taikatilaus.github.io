@@ -283,8 +283,11 @@ Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lo
 | **Tilaustapa** | Valitse, mitä kautta tilaus on saatu, esim. puhelin, sähköposti. |
 | **Viitteenne** | Tilaajan tai maksajan ilmoittama viite. |
 | **Kampanjatunniste** | Tilaukseen liittyvä kampanjatunniste. |
+| **Tilauslahja** | Tilauksen lahja vapaana tekstinä, enintään 100 merkkiä. Näkyy, kun yleisasetuksissa on valittu **Näytä Tilauslahja-kenttä tilauslomakkeella**. |
 | **Sisäiset lisätiedot** | Teksti näkyy vain järjestelmän hallitsijalle, ei asiakkaalle.|
 | **Lisätiedot tilaajalle** | Tilaajalle näytettävät lisätiedot. Nämä näytetään erillään sisäisistä lisätiedoista. |
+
+**Tilauslahja**-kenttä on käytettävissä sekä uutta tilausta lisättäessä että tilausta muokattaessa. Näkyvyyttä hallitaan [yleisasetuksissa](/docs/uusi_versio/asetukset/yleisasetukset#tilauslahja-kenttä-tilauksen-lomakkeella). Kentän piilottaminen ei poista tilaukselle jo tallennettua lahjaa.
 
 #### Huomiot ja virheilmoitukset
 

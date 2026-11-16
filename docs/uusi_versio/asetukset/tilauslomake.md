@@ -16,7 +16,7 @@ Sivu on vain yrityksen pääkäyttäjille. Jos käytössäsi on vain luku -tila 
 
 Sivun yläreunassa näkyy tilauslomakkeen osoite. Napsauta sitä, kun haluat avata lomakkeen uuteen välilehteen ja tarkistaa tallennetun muutoksen heti.
 
-Samat asetukset ovat myös vanhan TaikaTilauksen **Asetukset**-sivulla ja muutos näkyy molemmissa. Landing-sivuilla muutos voi näkyä viiveellä, enintään viiden minuutin kuluttua.
+Osa asetuksista on yhteisiä vanhan TaikaTilauksen **Asetukset**-sivun kanssa, jolloin muutos näkyy molemmissa. Vain uutta tilauslomaketta koskevat kenttäasetukset on kuvattu kohdassa **Kenttien näkyvyys ja pakollisuus**. Landing-sivuilla muutos voi näkyä viiveellä, enintään viiden minuutin kuluttua.
 
 ## Sivun käyttö
 
@@ -78,6 +78,72 @@ Osio määrittää tilauksen alkamispäivän:
 - **Alkamispäivä enintään (päivää tilauspäivästä):** 0–90 päivää. 0 tarkoittaa vain tilauspäivää. Tyhjä = kuukausi, kuten vanhalla lomakkeella. Suurempi luku tallennetaan 90 päivänä.
 
 Stripe-tuotteet (korttitilaus) alkavat aina tilauspäivänä, eikä niille näytetä alkamispäivää.
+
+### Kenttien näkyvyys ja pakollisuus
+
+Kohdassa **Kentät** valitset, mitkä tilaajan tietojen kentät näytetään tilauslomakkeella ja mitkä niistä ovat pakollisia.
+Valinnat tehdään erikseen kahdelle henkilölle:
+
+- **Maksaja** – myös tilaaja, kun tilausta ei tehdä lahjaksi.
+- **Lahjan saaja (tilaaja)** – vain lahjatilauksessa. Lahjan saaja on tilauksen tilaaja ja maksaja on tilauksen maksaja.
+
+| Kenttä | Maksaja | Lahjan saaja |
+|---|---|---|
+| Etunimi, sukunimi, katuosoite, postinumero, postitoimipaikka | aina näkyvissä ja pakollisia | aina näkyvissä ja pakollisia |
+| Sähköposti | aina näkyvissä ja pakollinen | näkyvissä, pakollisuus valittavissa |
+| Yritys | näkyvyys ja pakollisuus | ei kenttää |
+| Syntymävuosi | näkyvyys ja pakollisuus | ei kenttää |
+| Katunumero, maa, puhelin | näkyvyys ja pakollisuus | näkyvyys ja pakollisuus |
+| Porras, huoneisto | näkyvyys | näkyvyys |
+
+Osoitekenttien poikkeus on kuvattu alla kohdassa **Digituotteet ilman osoitekenttiä**.
+
+Huomioita:
+
+- Piilotettua kenttää ei kysytä eikä tarkisteta. Jos piilotat kentän, sen Pakollinen-valinta poistuu.
+- Valinnat tallennetaan sivun **Tallenna**-painikkeella. Lomake lukee asetukset heti tallennuksen jälkeen.
+- Katunumero, porras, huoneisto, maa, puhelimen pakollisuus, syntymävuosi ja lahjan saajan sähköpostin pakollisuus ovat samat kuin vanhan TaikaTilauksen asetukset, joten muutos näkyy molemmissa. Yrityksen, puhelimen näkyvyyden, syntymävuoden pakollisuuden ja lahjan saajan omien kenttien asetukset koskevat vain uutta tilauslomaketta.
+
+### Lahjatilaus lomakkeella
+
+Kun tilaaja valitsee **Tilaan lahjaksi**, lomake näyttää ensin **Lahjan saajan tiedot** ja sen jälkeen **Maksajan tiedot**. Valinta on aina Tilaajan tiedot -osion yläpuolella.
+
+### Digituotteet ilman osoitekenttiä
+
+Kohdassa **Digituotteet ilman osoitekenttiä** valitset tilauslomakkeelle valitut digituotteet, joille osoitetietoja ei kysytä.
+
+Valituille tuotteille:
+
+- lomake kysyy vain nimen ja sähköpostin sekä ne yritys-, puhelin- ja syntymävuosikentät, jotka olet Kentät-taulukossa valinnut näkyviin
+- osoitekenttiä ja lahjatilausta ei näytetä
+- tilauksen voi maksaa vain verkkomaksulla (Stripe, Paytrail tai Visma Pay), koska paperi- ja sähköpostilasku tarvitsevat osoitteen.
+
+Asetus koskee vain tuotteita, joiden tuotetiedoissa Digituote on valittuna. Asiakas tallentuu ilman osoitetta.
+
+## Tilauslahjat
+
+Tilauslahja on lahja, jonka tilaaja voi valita tilauksen yhteydessä, esimerkiksi kirja tai huivi. Valittu lahja tallentuu tilaukselle (Tilauslahja-kenttä).
+
+### Lahjojen lisääminen
+
+1. Avaa Asetukset → Tilauslomake → **Tilauslahjat**.
+2. Kirjoita kenttään **Uusi tilauslahja** lahjan nimi (enintään 100 merkkiä) ja halutessasi infoteksti, jonka tilaaja näkee lahjan kortissa. Paina **Lisää**.
+3. Valitse lahjan laatikossa **Tuotteet, joille lahja näytetään**. Listalla näkyvät vain tilauslomakkeelle valitut tuotteet. **Kaikki** valitsee kaikki tuotteet ja **Ei yhtään** poistaa valinnat.
+4. Paina **Tallenna**.
+
+Eri tuotteilla voi olla eri lahjat: valitse jokaiselle lahjalle erikseen ne tuotteet, joille se tarjotaan. Lahja, jolle ei ole valittu yhtään tuotetta, ei tallennu eikä näy lomakkeella. Samannimisistä lahjoista tallennetaan vain ensimmäinen.
+
+**Tilauslahjan valinta on pakollinen** -valinta (oletuksena päällä) koskee kaikkia tuotteita, joille on lahjoja. Kun se on päällä, tilaaja ei pääse eteenpäin ennen kuin on valinnut lahjan.
+
+### Näin tilaaja näkee lahjat
+
+- **Vaihe 1:** kun tilaaja on valinnut tuotteen, jolle on lahjoja, hintakorttien alle tulee kohta **Valitse tilauslahja** valintakortteina.
+- **Vaihe 2 ja 3:** valittu lahja näkyy **Valittu tilaus** -laatikossa (Tilauslahja: …).
+- Jos tilaaja tulee suoralla tuotelinkillä tai Näytä kaikki tuotteet listana -näkymästä eikä ole valinnut lahjaa, vaihe 2 ohjaa hänet valitsemaan lahjan vaiheessa 1.
+
+### Tilausvahvistus
+
+Tilausvahvistuksen viestiin saa lahjan nimen tagilla `[[TILAUSLAHJA]]`. Jos lahjaa ei valittu, tagi on tyhjä. Oletusviestissä tagia ei ole, joten lisää se omaan viestiisi, esimerkiksi riville `Tilauslahja: [[TILAUSLAHJA]]`. Digituotteiden viesti on erillinen kenttä.
 
 ## Maksutavat
 
@@ -202,6 +268,7 @@ Sähköposti, joka lähetetään maksajalle tilauksen jälkeen (tavallisena teks
 | **[[TILAAJA]], [[MAKSAJA]]** | tilaajan ja maksajan nimi ja osoite |
 | **[[TILAAJAN_OSOITE]], [[TILAAJAN_EMAIL]], [[TILAAJAN_PUHELIN]]** | osoite, sähköposti ja puhelin |
 | **[[MAKSUTAPA]]** | valittu maksutapa |
+| **[[TILAUSLAHJA]]** | valitun tilauslahjan nimi, muuten tyhjä |
 | **[[LAHJATILAUS]]** | lahjatilauksessa maksajan tiedot ja pyyntö välittää tieto saajalle, muuten tyhjä |
 | **[[LASKU]]** | laskun ohje maksutavan mukaan (liitteenä / toimitetaan erikseen / postitse) |
 | **[[KAYTTAJATUNNUS]]** | OmaPalvelu-tunnuksen ohje |
