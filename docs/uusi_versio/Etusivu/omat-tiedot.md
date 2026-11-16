@@ -10,8 +10,8 @@ Avaa käyttäjävalikko napsauttamalla päävalikon oikeassa reunassa näkyvää
 
 Valikossa ovat seuraavat toiminnot:
 
-- **Tiedot**: avaa omat tietosi ja näkymäasetukset.
-- **Tiedotteet**: avaa järjestelmän tiedotteet.
+- [**Tiedot**](#käyttäjän-tiedot): avaa omat tietosi ja näkymäasetukset.
+- [**Tiedotteet**](#tiedotteet): avaa järjestelmän tiedotteet.
 - **TaikaTilaus (vanha)**: avaa TaikaTilauksen vanhan version uuteen välilehteen samoilla tunnuksilla. Kohta näkyy vain, jos organisaatiollenne on määritetty vanhan version osoite.
 - **Stripe**: avaa organisaationne Stripe-tiedot uuteen välilehteen. Kohta näkyy vain pääkäyttäjille organisaatioissa, joilla Stripe on käytössä.
 - **Kirjaudu ulos**: kirjaa sinut ulos järjestelmästä.
@@ -37,7 +37,7 @@ Jos olet organisaationne pääkäyttäjä, kortin otsikkorivillä näkyy merkint
 | **Ulkoasuteema** | Käyttöliittymän teema: Vaalea, Tumma, Sateenkaari, Kesä tai Joulu. Teema vaihtuu heti valinnan jälkeen, ja se tallentuu Tallenna-painikkeella. |
 | **Näytä kesäbanneri etusivulla** | Kytkin, jolla vuodenaikabanneri näytetään tai piilotetaan etusivulla (Etusivulla banneria voi myös piilottaa Piilota-painikkeella). |
 
-Tallenna muutokset napsauttamalla **Tallenna**. Tallennuksen jälkeen siirryt etusivulle.
+Tallenna muutokset napsauttamalla **Tallenna**. Tallennuksen jälkeen siirryt [etusivulle](./etusivu.md).
 
 ### Kirjautuminen uuteen versioon vanhan version kautta
 

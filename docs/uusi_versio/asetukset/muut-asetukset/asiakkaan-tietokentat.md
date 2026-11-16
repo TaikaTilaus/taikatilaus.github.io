@@ -6,21 +6,21 @@ description: Asiakkaan tietokentät — Puhelinkenttien määrittäminen.
 
 # Asiakkaan tietokentät
 
-**Asiakkaan tietokentät** -sivulla määrität, mitkä kentät ovat käytössä asiakaskortilla, mitkä niistä ovat pakollisia ja mitä oletusarvoja uudelle asiakkaalle annetaan. Lisäksi voit valita, mitä asiakaskortin Yhteenvedossa näytetään.
+**Asiakkaan tietokentät** -sivulla määrität, mitkä kentät ovat käytössä [asiakaskortilla](../../Asiakkaat/asiakaskortti/index.md), mitkä niistä ovat pakollisia ja mitä oletusarvoja uudelle asiakkaalle annetaan. Lisäksi voit valita, mitä asiakaskortin [Yhteenvedossa](../../Asiakkaat/asiakaskortti/yhteenveto.md) näytetään.
 
 Avaa sivu valitsemalla **Asetukset → Muut asetukset → Asiakkaan tietokentät.**
 
-Sivulla on välilehdet samassa järjestyksessä kuin asiakaskortilla: **Yhteenveto**, **Yhteystiedot**, **Laskutustiedot** ja **Markkinointitiedot**. Yhden välilehden muutokset eivät tallennu erikseen: **Tallenna**-painike tallentaa kaikkien välilehtien muutokset kerralla. Onnistuneen tallennuksen jälkeen painikkeen vieressä lukee **Tallennettu**.
+Sivulla on välilehdet samassa järjestyksessä kuin [asiakaskortilla](../../Asiakkaat/asiakaskortti/index.md): **Yhteenveto**, **Yhteystiedot**, **Laskutustiedot** ja **Markkinointitiedot**. Yhden välilehden muutokset eivät tallennu erikseen: **Tallenna**-painike tallentaa kaikkien välilehtien muutokset kerralla. Onnistuneen tallennuksen jälkeen painikkeen vieressä lukee **Tallennettu**.
 
 Palaa asetusten etusivulle napsauttamalla **Palaa asetuksiin.**
 
 ## Yhteenveto
 
-Yhteenveto-välilehdellä valitset, mitä asiakaskortin Yhteenvedossa näytetään. Jokaisen kohdan vieressä on **valinta**: päällä oleva kohta näytetään, pois päältä oleva piilotetaan. Kaikki kohdat ovat oletuksena näkyvissä, ja uudet kohdat tulevat oletuksena näkyviin. Tällä välilehdellä ei ole pakollisuutta eikä oletusarvoja.
+Yhteenveto-välilehdellä valitset, mitä [asiakaskortin](../../Asiakkaat/asiakaskortti/index.md) Yhteenvedossa näytetään. Jokaisen kohdan vieressä on **valinta**: päällä oleva kohta näytetään, pois päältä oleva piilotetaan. Kaikki kohdat ovat oletuksena näkyvissä, ja uudet kohdat tulevat oletuksena näkyviin. Tällä välilehdellä ei ole pakollisuutta eikä oletusarvoja.
 
 **Missä yhteenveto näkyy**
-- Yhteenveto-välilehti (asiakaskortin muokkaus)
-- Yhteenveto-palkki asiakaskortin katselussa
+- [Yhteenveto](../../Asiakkaat/asiakaskortti/yhteenveto.md)-välilehti ([asiakaskortin](../../Asiakkaat/asiakaskortti/index.md) muokkaus)
+- Yhteenveto-palkki [asiakaskortin](../../Asiakkaat/asiakaskortti/index.md) katselussa
 
 **Tilaajuus** (vain tilaukset)
 - Tilaajuus-osio
@@ -61,8 +61,8 @@ Näillä välilehdillä kentät ovat taulukossa, jossa on neljä saraketta:
 
 | Sarake | Merkitys |
 |---|---|
-| **Kenttä** | kentän nimi asiakaskortilla |
-| **Näkyy** | kun valinta on pois, kenttää ei näytetä asiakaskortilla |
+| **Kenttä** | kentän nimi [asiakaskortilla](../../Asiakkaat/asiakaskortti/index.md) |
+| **Näkyy** | kun valinta on pois, kenttää ei näytetä [asiakaskortilla](../../Asiakkaat/asiakaskortti/index.md) |
 | **Pakollinen** | kun valinta on päällä, kenttä on täytettävä ennen asiakkaan tallennusta |
 | **Oletusarvo** | arvo, joka asetetaan oletuksena uudelle asiakkaalle |
 

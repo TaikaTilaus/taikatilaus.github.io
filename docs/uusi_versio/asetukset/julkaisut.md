@@ -12,7 +12,7 @@ Avaa sivu valitsemalla ylävalikosta **Asetukset → Julkaisut**.
 Sivulla on kaksi välilehteä:
 
 - **Julkaisut**
-- **Lyhenteet ja asetukset**.
+- [**Lyhenteet ja asetukset**](#lyhenteet-ja-asetukset).
 
 ![Julkaisut-sivun Julkaisut- ja Lyhenteet ja asetukset -välilehdet](/img/versio2/julkaisut.png)
 
@@ -211,7 +211,7 @@ Tyhjä asetus tarkoittaa, ettei toiminto ole käytössä. Napsauta **Tallenna yh
 
 ### Tilattavat lehdet
 
-**Tilattavat lehdet** -osiossa määritetään, mitkä tuoteryhmät näytetään lehtivalintoina uutta tilausta luotaessa. Lista on sovelluksen lehtilista: sitä käyttävät myös Kestojatko, Postitusten luonti ja Postitusasetukset.
+**Tilattavat lehdet** -osiossa määritetään, mitkä tuoteryhmät näytetään lehtivalintoina uutta tilausta luotaessa. Lista on sovelluksen lehtilista: sitä käyttävät myös [Kestojatko](../postitus/kestojatko.md), [Postitusten luonti](../postitus/postitusten-luonti.md) ja [Postitusasetukset](../postitus/postitusasetukset/vakioniput.md).
 
 Tuoteryhmän lisääminen:
 

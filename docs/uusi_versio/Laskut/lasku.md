@@ -37,7 +37,7 @@ Laskun perustiedoissa näkyvät:
 - tarkenne
 - laskun tila tekstinä
 
-Sivun yläosassa näkyvät laskun numero ja tila värillisenä merkkinä. Maksajan nimen vieressä on maksajan asiakasnumero ja laatikkokuvake, josta maksajan [asiakaskortti](/docs/uusi_versio/Asiakkaat/asiakaskortti) avautuu uuteen välilehteen. Jos lasku on tehty tilauksesta, maksajan alla näkyy tilauksen numero linkkinä (Tilaus tai Tilaukset).
+Sivun yläosassa näkyvät laskun numero ja tila värillisenä merkkinä. Maksajan nimen vieressä on maksajan asiakasnumero ja laatikkokuvake, josta maksajan [asiakaskortti](/docs/uusi_versio/Asiakkaat/asiakaskortti) avautuu uuteen välilehteen. Jos lasku on tehty tilauksesta, maksajan alla näkyy tilauksen numero linkkinä ([Tilaus tai Tilaukset](../tilaukset.md)).
 
 ![Laskun maksaja-, päivä-, summa- ja toimitustiedot](/img/versio2/lasku2.png)
 
@@ -84,7 +84,7 @@ Poistopainike on harmaa, kun rivejä ei voi poistaa. Vie hiiri painikkeen pääl
 
 ## Tiliöinnit
 
-**Tiliöinnit**-osiossa näkyvät laskun myyntiin ja suorituksiin liittyvät tiliöinnit. Otsikon vieressä oleva numero kertoo tiliöintien määrän.
+**Tiliöinnit**-osiossa näkyvät laskun myyntiin ja [suorituksiin](./suoritukset.md) liittyvät tiliöinnit. Otsikon vieressä oleva numero kertoo tiliöintien määrän.
 
 Taulukossa on sarakkeet TiliointiID, Tuoterivi, Kirjauspvä, Tili, Summa, Tapa (L, S, K tai T), Suoritus ja Selite. Tapa-sarakkeen merkit tarkoittavat: L = laskun luontivaiheessa tehty tiliöinti, S = suoritus, K = kuittaus ja T = kulu. Vie hiiri merkin päälle, niin näet selitteen.
 

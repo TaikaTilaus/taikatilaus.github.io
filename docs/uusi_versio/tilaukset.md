@@ -152,7 +152,7 @@ Tilausten perustietojen lisäksi voit näyttää esimerkiksi seuraavat sarakkeet
 | **Määrä** | Lehtien määrä tilauksessa. |
 | **Tilaustapa** | Minkä kanavan kautta tilaus on tehty (esim. www, sähköposti, puhelin). |
 | **Kampanjatunniste** | Tilauksen kampanjatunniste. |
-| **Kestojatkon luoma** | Onko tilaus kestotilaus, jota on jatkettu |
+| **[Kestojatkon](./postitus/kestojatko.md) luoma** | Onko tilaus kestotilaus, jota on jatkettu |
 | **Stripen luoma** | Onko tilaus kestotilaus, joka maksetaan Stripen kautta. |
 | **Tilauslahja** | Kuuluuko tilaukseen tilauslahja. |
 | **Sisäiset lisätiedot** | Tilauksen sisäiset lisätiedot. |
@@ -256,7 +256,7 @@ Aloita uuden tilauksen lisääminen napsauttamalla tilausluettelon yläreunassa 
 5. Valitse tarvittaessa **Kampanja**. Valinta **Kaikki** näyttää kaikkien kampanjoiden tuotteet.
 6. Valitse tilattava **Tuote**.
 
-Kampanja-valinta rajaa **Tuote**-valikossa näytettäviä tuotteita. Käytettävissä olevat kampanjat ja tuotteet määräytyvät valitun lehden mukaan. Kampanjat ja tuotteet luodaan järjestelmän asetuksissa.
+Kampanja-valinta rajaa **Tuote**-valikossa näytettäviä tuotteita. Käytettävissä olevat kampanjat ja tuotteet määräytyvät valitun lehden mukaan. Kampanjat ja tuotteet luodaan [järjestelmän asetuksissa](./asetukset/tuotteet.md#tilaustuotteet).
 
 Kun tuote on valittu, lomakkeelle avautuvat tilauksen muut tiedot ja hinnoittelu.
 
@@ -268,7 +268,7 @@ Kun tuote on valittu, lomakkeelle avautuvat tilauksen päivämäärät, muut til
 
 Kun olet täyttänyt ja tarkistanut tilauksen tiedot, napsauta **Tallenna tilaus**.
 
-Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lomakkeen oikealla puolella olevassa **Laskutuspyynnöt**-osiossa.
+Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lomakkeen oikealla puolella olevassa [**Laskutuspyynnöt**](#tilauksen-laskutuspyynnöt)-osiossa.
 
 ![Uuden tilauksen tiedot ja laskutuspyynnöt](/img/versio2/uusi-tilaus2.png)
 
@@ -283,7 +283,7 @@ Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lo
 | **Tilaustapa** | Valitse, mitä kautta tilaus on saatu, esim. puhelin, sähköposti. |
 | **Viitteenne** | Tilaajan tai maksajan ilmoittama viite. |
 | **Kampanjatunniste** | Tilaukseen liittyvä kampanjatunniste. |
-| **Tilauslahja** | Tilauksen lahja vapaana tekstinä, enintään 100 merkkiä. Näkyy, kun yleisasetuksissa on valittu **Näytä Tilauslahja-kenttä tilauslomakkeella**. |
+| **Tilauslahja** | Tilauksen lahja vapaana tekstinä, enintään 100 merkkiä. Näkyy, kun [yleisasetuksissa](./asetukset/muut-asetukset/yleisasetukset.md) on valittu **Näytä Tilauslahja-kenttä tilauslomakkeella**. |
 | **Sisäiset lisätiedot** | Teksti näkyy vain järjestelmän hallitsijalle, ei asiakkaalle.|
 | **Lisätiedot tilaajalle** | Tilaajalle näytettävät lisätiedot. Nämä näytetään erillään sisäisistä lisätiedoista. |
 
@@ -364,7 +364,7 @@ Virheellisesti tehdyn tilauksen voit poistaa tilauksen muokkaussivulla. Poisto p
 2. Napsauta **Poista tilaus** (painike on lomakkeen alaosan oikeassa reunassa).
 3. Valitse **Ymmärrän että tilauksen poistoa ei voi peruuttaa** ja napsauta **Poista tilaus**.
 
-Poiston jälkeen järjestelmä avaa tilaajan asiakaskortin ja näyttää vahvistusviestin. Poistosta tulee rivi asiakkaan muutoslokiin.
+Poiston jälkeen järjestelmä avaa tilaajan [asiakaskortin](./Asiakkaat/asiakaskortti/index.md) ja näyttää vahvistusviestin. Poistosta tulee rivi asiakkaan muutoslokiin.
 
 Poisto ei ole mahdollinen, jos
 

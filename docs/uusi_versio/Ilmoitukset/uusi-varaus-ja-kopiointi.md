@@ -8,8 +8,8 @@ description: Lisää uusi varaus -ikkuna (julkaisut, online-kanavien alku- ja lo
 
 Uuden ilmoitusvarauksen voi tehdä kolmella tavalla:
 
-- **Lisää uusi varaus** -ikkunassa Ilmoitukset-listalla: yksi tai useampi varaus kerralla, asiakkaalle tai ilman asiakasta. Ks. alla.
-- [Ilmoitusvarauslomakkeella](./ilmoitusvaraus.md): valitse listalla asiakas ja napsauta **Lisää varaus**, tai napsauta asiakaskortin Ilmoitusvaraukset / myynnit -osiossa **+ Lisää varaus**.
+- **Lisää uusi varaus** -ikkunassa [Ilmoitukset-listalla](./ilmoitukset-lista.md): yksi tai useampi varaus kerralla, asiakkaalle tai ilman asiakasta. Ks. alla.
+- [Ilmoitusvarauslomakkeella](./ilmoitusvaraus.md): valitse listalla asiakas ja napsauta **Lisää varaus**, tai napsauta [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) Ilmoitusvaraukset / myynnit -osiossa **+ Lisää varaus**.
 - kopioimalla olemassa olevan varauksen. Ks. [Varauksen kopiointi](#varauksen-kopiointi).
 
 ## Lisää uusi varaus {#lisaa-uusi-varaus}
@@ -27,9 +27,9 @@ Avaa ikkuna napsauttamalla [Ilmoitukset-listan](./ilmoitukset-lista.md) hakurivi
 6. Anna halutessasi alennus. Ks. [Alennus](#alennus).
 7. Napsauta **Luo N varausta**.
 
-Kun luot vain yhden varauksen, voit napsauttaa **Luo varaus ja siirry varauslomakkeelle**, niin varaus avautuu heti [Ilmoitusvarauslomakkeelle](./ilmoitusvaraus.md).
+Kun luot vain yhden varauksen, voit napsauttaa **Luo varaus ja siirry [varauslomakkeelle](./ilmoitusvaraus.md)**, niin varaus avautuu heti [Ilmoitusvarauslomakkeelle](./ilmoitusvaraus.md).
 
-Koko ja hinnat tulevat tuotteelta. Muut tiedot, kuten aineistot ja lisätiedot, annetaan varauslomakkeella.
+Koko ja hinnat tulevat tuotteelta. Muut tiedot, kuten aineistot ja lisätiedot, annetaan [varauslomakkeella](./ilmoitusvaraus.md).
 
 ### Asiakas
 
@@ -54,7 +54,7 @@ Kun annat alennuksen useaan julkaisuun, valitse alennuksen kohde:
 
 Netti-, radio-, ilmoitustaulu- ja vaihtoilmoituskanavalla alennuksen kohdetta ei valita.
 
-Euroalennusta (Alennus EUR) ei anneta tässä ikkunassa. Anna se tarvittaessa varauslomakkeella.
+Euroalennusta (Alennus EUR) ei anneta tässä ikkunassa. Anna se tarvittaessa [varauslomakkeella](./ilmoitusvaraus.md).
 
 ### Jaettu aineisto
 
@@ -77,7 +77,7 @@ Tyhjä varaus on varaus ilman asiakasta ja myyntiä. Tyhjillä varauksilla lisä
 
 ### Tyhjien varausten liittäminen asiakkaalle
 
-1. Avaa Ilmoitukset-listalla **Lisähakuehdot** ja napsauta **Valitse asiakas**.
+1. Avaa [Ilmoitukset-listalla](./ilmoitukset-lista.md) **Lisähakuehdot** ja napsauta **Valitse asiakas**.
 2. Valitse listalla tyhjät varaukset rivin alun valintaruuduilla.
 3. Napsauta **Liitä valitut tyhjät varaukset asiakkaalle**.
 
@@ -89,8 +89,8 @@ Kopioi varaus, kun sama ilmoitus julkaistaan uudelleen, esimerkiksi toistuvassa 
 
 Avaa kopiointi-ikkuna:
 
-- varauslomakkeella napsauttamalla **Kopioi**, tai
-- Ilmoitukset-listalla valitsemalla yksi varaus ja **Valituille → Kopioi ilmoitusvaraus**.
+- [varauslomakkeella](./ilmoitusvaraus.md) napsauttamalla **Kopioi**, tai
+- [Ilmoitukset-listalla](./ilmoitukset-lista.md) valitsemalla yksi varaus ja **Valituille → Kopioi ilmoitusvaraus**.
 
 Ikkunan otsikkona on *Kopioi ilmoitusvaraus N*.
 

@@ -16,7 +16,7 @@ Sivu on vain yrityksen pääkäyttäjille. Jos käytössäsi on vain luku -tila 
 
 Sivun yläreunassa näkyy tilauslomakkeen osoite. Napsauta sitä, kun haluat avata lomakkeen uuteen välilehteen ja tarkistaa tallennetun muutoksen heti.
 
-Osa asetuksista on yhteisiä vanhan TaikaTilauksen **Asetukset**-sivun kanssa, jolloin muutos näkyy molemmissa. Vain uutta tilauslomaketta koskevat kenttäasetukset on kuvattu kohdassa **Kenttien näkyvyys ja pakollisuus**. Landing-sivuilla muutos voi näkyä viiveellä, enintään viiden minuutin kuluttua.
+Osa asetuksista on yhteisiä vanhan TaikaTilauksen **Asetukset**-sivun kanssa, jolloin muutos näkyy molemmissa. Vain uutta tilauslomaketta koskevat kenttäasetukset on kuvattu kohdassa [**Kenttien näkyvyys ja pakollisuus**](#kenttien-näkyvyys-ja-pakollisuus). Landing-sivuilla muutos voi näkyä viiveellä, enintään viiden minuutin kuluttua.
 
 ## Sivun käyttö
 
@@ -30,7 +30,7 @@ Sivun yläosassa on **Valitut tuotteet** -yhteenveto, joka kokoaa kolmen tuoteli
 
 Tässä osiossa valitset tuotteet, jotka tilaaja voi tilata lomakkeella.
 
-- Tuotteen **Valittavissa**-aikaväli (Tuotteet-sivulla) määrää, milloin tuote näkyy lomakkeella.
+- Tuotteen **Valittavissa**-aikaväli ([Tuotteet-sivulla](./tuotteet.md)) määrää, milloin tuote näkyy lomakkeella.
 - Tuotteen voi avata lomakkeelle valmiiksi valittuna suoralla linkillä. Uuden lomakkeen linkki on muotoa `/tilaus/<tunnus>/<tuotteen ID>`. Vanhan lomakkeen linkki on `palvelut.aspx?p=til&p2=<tuotteen ID>`. Tuotteen pitää olla valittavissa ja tässä listassa.
 
 Valitse tuotteet merkitsemällä ne ruksilla. Tuotteet on ryhmitelty tuoteryhmittäin. **Rajaa listaa** -kenttä suodattaa listaa, ja **Näytä vain valitut** näyttää pelkästään valitut. **Valittu: n** kertoo valittujen määrän.
@@ -41,7 +41,7 @@ Listassa näkyvät vain tuotteet, jotka täyttävät kaikki ehdot:
 - tuote ei ole erillistuote
 - tänään on tuotteen Valittavissa alkaen – päättyen -välillä (tyhjä päättymispäivä tarkoittaa, että tuote ei ole valittavissa)
 
-Jos aiemmin valittu tuote ei enää täytä ehtoja, se näkyy listassa merkinnällä, mutta lomake ei näytä sitä. Jos tuote puuttuu listasta, tarkista sen asetukset Tuotteet-sivulla. Jos asetuksessa on tuotteita, joita ei löydy, ne näkyvät varoituksessa ja voit poistaa ne x-kuvakkeella.
+Jos aiemmin valittu tuote ei enää täytä ehtoja, se näkyy listassa merkinnällä, mutta lomake ei näytä sitä. Jos tuote puuttuu listasta, tarkista sen asetukset [Tuotteet-sivulla](./tuotteet.md). Jos asetuksessa on tuotteita, joita ei löydy, ne näkyvät varoituksessa ja voit poistaa ne x-kuvakkeella.
 
 ## Piilotetut tuotteet (linkkitarjoukset)
 
@@ -96,7 +96,7 @@ Valinnat tehdään erikseen kahdelle henkilölle:
 | Katunumero, maa, puhelin | näkyvyys ja pakollisuus | näkyvyys ja pakollisuus |
 | Porras, huoneisto | näkyvyys | näkyvyys |
 
-Osoitekenttien poikkeus on kuvattu alla kohdassa **Digituotteet ilman osoitekenttiä**.
+Osoitekenttien poikkeus on kuvattu alla kohdassa [**Digituotteet ilman osoitekenttiä**](#digituotteet-ilman-osoitekenttiä).
 
 Huomioita:
 
@@ -193,7 +193,7 @@ Kirjoita tuoteryhmät tai tuotteiden ID:t, yksi per rivi. Näille tuotteille ei 
 ### Sähköpostilasku
 
 - **Otsikko** ja **Infoteksti**.
-- **Lasku lähetetään heti tilausvahvistuksen mukana:** kun valinta on päällä, lomakkeella tehty sähköpostilasku liitetään tilausvahvistukseen ja merkitään heti lähetetyksi. Kun valinta ei ole päällä, lasku muodostetaan lähettämättömänä ja se jää Laskujen lähetys -sivulle odottamaan lähetystä.
+- **Lasku lähetetään heti tilausvahvistuksen mukana:** kun valinta on päällä, lomakkeella tehty sähköpostilasku liitetään tilausvahvistukseen ja merkitään heti lähetetyksi. Kun valinta ei ole päällä, lasku muodostetaan lähettämättömänä ja se jää [Laskujen lähetys](../Laskut/laskujen-lahetys.md) -sivulle odottamaan lähetystä.
 
 ### Tuotekohtaiset maksutavat
 

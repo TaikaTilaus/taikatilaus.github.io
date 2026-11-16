@@ -23,7 +23,7 @@ Avaa sivu valitsemalla **Asetukset → Lisätietokentät**.
    - **Desimaaliluku**
    - **Päivämäärä**
    - **Kyllä/Ei** (valintaruutu)
-   - **Valinta (lista)**: asiakaskortilla kenttä on pudotusvalikko. Kun valitset tämän tyypin, näkyviin tulee **Vaihtoehdot (yksi per rivi)** -kenttä. Kirjoita jokainen vaihtoehto omalle rivilleen.
+   - **Valinta (lista)**: [asiakaskortilla](../Asiakkaat/asiakaskortti/index.md) kenttä on pudotusvalikko. Kun valitset tämän tyypin, näkyviin tulee **Vaihtoehdot (yksi per rivi)** -kenttä. Kirjoita jokainen vaihtoehto omalle rivilleen.
 4. Valitse tarvittaessa Pakollinen. Pakollisen kentän nimen perässä on [asiakaskortilla](/docs/uusi_versio/Asiakkaat/asiakaskortti) punainen tähti (*).
 5. Napsauta **Lisää kenttä**.
 
@@ -47,13 +47,13 @@ Lisätty kenttä tulee näkyviin [asiakaskortin](/docs/uusi_versio/Asiakkaat/asi
 Voit poistaa kentän napsauttamalla sen rivillä olevaa **roskakorikuvaketta**.
 
 :::warning HUOM!
-Kentän poistaminen ei kysy vahvistusta. Poistettu kenttä piilotetaan eikä se enää näy asiakaskortilla eikä asiakashaussa. Kenttään tallennetut asiakkaiden arvot säilyvät kannassa, mutta niitä ei näytetä.
+Kentän poistaminen ei kysy vahvistusta. Poistettu kenttä piilotetaan eikä se enää näy [asiakaskortilla](../Asiakkaat/asiakaskortti/index.md) eikä asiakashaussa. Kenttään tallennetut asiakkaiden arvot säilyvät kannassa, mutta niitä ei näytetä.
 :::
 
 ![Määritettyjen lisätietokenttien luettelo](/img/versio2/lisatietokentat3.png)
 
 ### Missä lisätietokenttiä käytetään
 
-- **Asiakaskortti:** kentät näkyvät asiakaskortin *Lisäkentät*-välilehdellä. Tyhjäksi jätetty arvo ei tallennu, ja kentän arvon tyhjentäminen poistaa aiemman arvon.
-- **Asiakashaku:** kentät ovat valittavissa Asiakkaat-sivun lisähakuehdoiksi. Hakuehto noudattaa kentän tyyppiä: teksti, luku, päivämäärä tai Kyllä/Ei. Valinta (lista) -kenttä toimii tekstinä.
+- **[Asiakaskortti](../Asiakkaat/asiakaskortti/index.md):** kentät näkyvät asiakaskortin *Lisäkentät*-välilehdellä. Tyhjäksi jätetty arvo ei tallennu, ja kentän arvon tyhjentäminen poistaa aiemman arvon.
+- [**Asiakashaku:**](../Asiakkaat/asiakkaat.md#lisähakuehdot) kentät ovat valittavissa [Asiakkaat-sivun](../Asiakkaat/asiakkaat.md) lisähakuehdoiksi. Hakuehto noudattaa kentän tyyppiä: teksti, luku, päivämäärä tai Kyllä/Ei. Valinta (lista) -kenttä toimii tekstinä.
 

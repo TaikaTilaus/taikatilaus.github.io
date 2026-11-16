@@ -9,7 +9,7 @@ description: Arkisto — Arkistoidun raportin hakeminen, Arkistoitujen raporttie
 
 **Arkisto**-sivulla voit tarkastella aiemmin arkistoituja raportteja ja viedä niiden tiedot haluamassasi muodossa.
 
-Arkistoon tallennettu raportti sisältää tiedot sellaisina kuin ne olivat tallennushetkellä. Myöhemmät muutokset tilauksiin, varauksiin tai asiakkaisiin eivät muuta arkistoitua raporttia. Arkisto on eri asia kuin tallennettu haku: tallennettu haku **(Raportit → Kaikki raportit)** tallentaa vain hakuehdot ja antaa ajettaessa aina tuoreet tiedot.
+Arkistoon tallennettu raportti sisältää tiedot sellaisina kuin ne olivat tallennushetkellä. Myöhemmät muutokset tilauksiin, varauksiin tai asiakkaisiin eivät muuta arkistoitua raporttia. Arkisto on eri asia kuin tallennettu haku: tallennettu haku [**(Raportit → Kaikki raportit)**](./kaikki-raportit.md) tallentaa vain hakuehdot ja antaa ajettaessa aina tuoreet tiedot.
 
 Sivun yläreunan sininen ruutu kertoo, kuinka monta päivää raportit säilyvät, ja muistuttaa, että **Jatka**-painikkeella voi antaa raportille oman säilytyspäivän.
 

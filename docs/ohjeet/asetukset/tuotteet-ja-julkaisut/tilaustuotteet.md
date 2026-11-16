@@ -8,7 +8,7 @@ keywords: [tilaustuote, tilaustuotteet, tilaustuotteen, tuote, tuotteet, kestoti
 
 ### Yleistietoa
 
-**Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja sekä **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. *Autolehti Kestotilaus 12 kk*).
+**Tilaustuotteet**–välilehdeltä voidaan tarkastella olemassa olevien tuotteiden tietoja sekä **muokata ja lisätä yksittäisiä tuotteita**, joita asiakkaille myydään (esim. *TaikaNakka Kestotilaus 12 kk*).
 
 **Tuotelistauksessa** on tuotteista seuraavat tiedot:
 

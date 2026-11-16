@@ -74,7 +74,7 @@ Kirjoita **Polku**, jossa kirjasto näkyy taittajien koneilla, esimerkiksi `T:\`
 
 ### Avaa InDesignissa -linkki
 
-Linkki lisää varauksen *Valmistettava materiaali* -kohtaan painikkeet **Avaa InDesignissa** ja **Näytä kansiossa**. Silloin myös Ilmoitukset-listan materiaalisiru avaa tiedoston InDesignissa. Painikkeet avaavat koneelle synkronoidun kopion SharePoint-tiedostosta, ja tallennus palaa OneDriven kautta SharePointiin.
+Linkki lisää varauksen *Valmistettava materiaali* -kohtaan painikkeet **Avaa InDesignissa** ja **Näytä kansiossa**. Silloin myös [Ilmoitukset-listan](../../Ilmoitukset/ilmoitukset-lista.md) materiaalisiru avaa tiedoston InDesignissa. Painikkeet avaavat koneelle synkronoidun kopion SharePoint-tiedostosta, ja tallennus palaa OneDriven kautta SharePointiin.
 
 Linkki vaatii, että jokaiselle taittajan koneelle asennetaan kerran pieni käsittelijä. Käsittelijä ottaa linkistä vain materiaalinumeron, eikä se voi avata muita tiedostoja. Asennus tehdään taittajan omalla tunnuksella, eikä järjestelmänvalvojan oikeuksia tarvita.
 

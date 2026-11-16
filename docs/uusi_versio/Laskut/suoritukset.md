@@ -8,7 +8,7 @@ description: Suoritukset uuden version Laskut-valikossa.
 
 **Suoritukset**-sivulla haet ja tarkastelet asiakkaiden maksuja eli suorituksia ja kohdistat suorituksen laskuun. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut → Suoritukset**.
 
-Suoritus on pankkiin tai kassaan tullut maksu. Yleensä suoritukset tulevat pankkiaineistosta (**Laskut → Pankki**) ja kohdistuvat laskuihin viitenumeron perusteella automaattisesti. Tällä sivulla voit tarkistaa, mitkä suoritukset ovat kohdistuneet ja käsitellä ne, jotka eivät ole.
+Suoritus on pankkiin tai kassaan tullut maksu. Yleensä suoritukset tulevat pankkiaineistosta ([**Laskut → Pankki**](./pankki.md)) ja kohdistuvat laskuihin viitenumeron perusteella automaattisesti. Tällä sivulla voit tarkistaa, mitkä suoritukset ovat kohdistuneet ja käsitellä ne, jotka eivät ole.
 
 :::warning HUOMIO:
 Uudessa versiossa voit hakea ja katsella suorituksia ja tehdä raportteja. Suorituksen liittäminen laskuun, lisäys käsin, muokkaus, poisto, hyvitys ja tiliöintien poisto tehdään vielä vanhassa versiossa.

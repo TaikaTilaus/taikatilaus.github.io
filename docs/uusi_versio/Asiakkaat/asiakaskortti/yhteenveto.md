@@ -80,7 +80,7 @@ Mukana ovat varaukset, joissa asiakas on varaaja, maksaja tai laskutusosoitteena
 
 Kaaviot:
 
-- **Ilmoitusmyynti vuosittain.** Pylvään napsautus avaa vuoden ilmoitukset Ilmoitukset-sivulla.
+- **Ilmoitusmyynti vuosittain.** Pylvään napsautus avaa vuoden ilmoitukset [Ilmoitukset-sivulla](../../Ilmoitukset/ilmoitukset-lista.md).
 - **Ilmoitusmyynti kanavittain** ja **myyntituotteittain.** Kuusi suurinta on omina viipaleinaan ja loput ryhmässä Muut. Viipaleen napsautus avaa kyseisen kanavan tai tuotteen ilmoitukset.
 
 ## Maksut

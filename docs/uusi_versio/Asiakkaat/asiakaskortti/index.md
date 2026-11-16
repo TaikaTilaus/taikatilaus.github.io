@@ -9,7 +9,7 @@ description: Asiakaskortin avaaminen ja ohjeet.
 
 ![Asiakaskortin yleisnäkymä](/img/versio2/asiakaskortti2.png)
 
-Asiakaskortilla voit tarkastella ja muokata asiakkaan tietoja sekä siirtyä asiakkaan tilauksiin ja laskuihin.
+Asiakaskortilla voit tarkastella ja muokata asiakkaan tietoja sekä siirtyä asiakkaan [tilauksiin](./tilaukset.md) ja [laskuihin](./laskut.md).
 
 Avaa asiakaskortti napsauttamalla asiakasrivin **kynäkuvaketta** tai **uusi välilehti** -kuvaketta. Rivin napsauttaminen avaa ensin asiakkaan esikatselun, josta pääset muokkaamaan tietoja. 
 
@@ -38,12 +38,12 @@ Asiakkaan tiedot on jaettu välilehdille:
 
 Kaikki välilehdet eivät ole kaikilla käytössä:
 
-- Yhteenveto näkyy tallennetulla asiakkaalla. Siinä näet esimerkiksi asiakkuuden keston ja maksut. Mitä siinä näytetään, riippuu sovelluksen tilasta (tilaushallinta, ilmoitushallinta, molemmat).
-- Alennukset näkyy, kun alennussäännöt on otettu käyttöön.
-- Jakelupoikkeukset ei näy ilmoitushallintasivustoilla.
-- Käyttäjätunnukset näkyy, kun asiakkaiden käyttäjätunnukset on otettu käyttöön.
+- [Yhteenveto](./yhteenveto.md) näkyy tallennetulla asiakkaalla. Siinä näet esimerkiksi asiakkuuden keston ja maksut. Mitä siinä näytetään, riippuu sovelluksen tilasta (tilaushallinta, ilmoitushallinta, molemmat).
+- [Alennukset](./alennukset.md) näkyy, kun alennussäännöt on otettu käyttöön.
+- [Jakelupoikkeukset](./jakelupoikkeukset.md) ei näy ilmoitushallintasivustoilla.
+- [Käyttäjätunnukset](./kayttajatunnukset.md) näkyy, kun asiakkaiden käyttäjätunnukset on otettu käyttöön.
 
-Ryhmittely, Lisäkentät, Käyttäjätunnukset ja Muutosloki -välilehtien nimen vieressä oleva numero kertoo kohteiden määrän. [Jakelupoikkeukset](/docs/uusi_versio/Asiakkaat/asiakaskortti/jakelupoikkeukset)-välilehden vieressä oleva sininen merkki kertoo, että asiakkaalla on väliaikainen osoite.
+[Ryhmittely](./ryhmittely.md), [Lisäkentät](./lisakentat.md), [Käyttäjätunnukset](./kayttajatunnukset.md) ja [Muutosloki](./muutosloki.md) -välilehtien nimen vieressä oleva numero kertoo kohteiden määrän. [Jakelupoikkeukset](/docs/uusi_versio/Asiakkaat/asiakaskortti/jakelupoikkeukset)-välilehden vieressä oleva sininen merkki kertoo, että asiakkaalla on väliaikainen osoite.
 
 ![Asiakaskortin tiedot ja välilehdet](/img/versio2/asiakaskortti3.png)
 

@@ -131,7 +131,7 @@ Voit poistaa yksittäisen ehdon napsauttamalla ehtorivin oikeassa reunassa oleva
 - Markkinointikielto
 - Kuollut
 - Päätunnus ja Alitunnus (kun asiakkaiden käyttäjätunnukset ovat käytössä)
-- Asiakaskortin [Lisäkentät](/docs/uusi_versio/Asiakkaat/asiakaskortti/lisakentat)-välilehden kentät omilla nimillään.
+- [Asiakaskortin](./asiakaskortti/index.md) [Lisäkentät](/docs/uusi_versio/Asiakkaat/asiakaskortti/lisakentat)-välilehden kentät omilla nimillään.
 
 Lähiosoite-, Postinumero- ja Postitoimipaikka-ehdot hakevat vain asiakkaan pysyvästä osoitteesta. Väliaikaista osoitetta haet Väl.osoite-kentillä.
 
@@ -190,7 +190,7 @@ Asiakasluettelossa näet asiakkaiden perustiedot ja tilauksiin liittyvät merkin
 |---|---|
 | **Asiakasnro** | Asiakkaan yksilöllinen asiakasnumero. |
 | **Nimi** | Asiakkaan nimi ja sen edessä asiakastyypin kuvake. Kuolleeksi merkityllä asiakkaalla on nimen perässä Kuollut-merkki. |
-| **Tilaukset** | Asiakkaan voimassa olevien tilausten lehtien tai tuoteryhmien lyhenteet värillisinä merkkeinä. Vie hiiri merkin päälle, niin näet tuoteryhmän ja tilan. Ilmoitusten hallinnassa sarakkeen nimi on Viimeisin myynti ja siinä näkyy asiakkaan viimeisimmän myynnin numero ja päivämäärä. Napsauta numeroa, niin myynti avautuu. |
+| **Tilaukset** | Asiakkaan voimassa olevien tilausten lehtien tai tuoteryhmien lyhenteet värillisinä merkkeinä. Vie hiiri merkin päälle, niin näet tuoteryhmän ja tilan. Ilmoitusten hallinnassa sarakkeen nimi on Viimeisin myynti ja siinä näkyy asiakkaan viimeisimmän myynnin numero ja päivämäärä. Napsauta numeroa, niin [myynti](../Ilmoitukset/myynti.md) avautuu. |
 | **Viimeisin myynti** | Asiakkaan viimeisimmän ilmoitusmyynnin numero ja päivämäärä. Näkyy vain, kun käytössä on sekä tilaukset että ilmoitusten hallinta. |
 | **Myyjä** | Asiakkaan myyjä. Näkyy vain ilmoitusten hallintaa käyttävillä. |
 | **Yritys** | Asiakkaan yrityksen ja osaston nimi. |
@@ -221,9 +221,9 @@ Esikatselun otsikossa voit:
 - avata asiakkaan tiedot uuteen välilehteen napsauttamalla **nuolella varustettua laatikkokuvaketta**
 - lisätä asiakkaan [keräilylistalle](/docs/uusi_versio/Etusivu/kerailylista) napsauttamalla **keräyslistakuvaketta**.
 
-Kortin yläreunassa oleva **Yhteenveto**-palkki on oletuksena suljettu. Napsauta Näytä, niin asiakkaan tilaajuus-, ilmoitus- ja maksutiedot aukeavat. Palkin tarkempi sisältö on kuvattu **Asiakaskortti**-sivun **Yhteenveto**-osiossa.
+Kortin yläreunassa oleva [**Yhteenveto**](./asiakaskortti/yhteenveto.md)-palkki on oletuksena suljettu. Napsauta Näytä, niin asiakkaan tilaajuus-, ilmoitus- ja maksutiedot aukeavat. Palkin tarkempi sisältö on kuvattu [**Asiakaskortti**](./asiakaskortti/index.md)-sivun [**Yhteenveto**](./asiakaskortti/yhteenveto.md)-osiossa.
 
-Esikatselun alapuolella ovat asiakkaan **Tilaukset**- ja **Laskut**-osiot. Luo asiakkaalle uusi tilaus tai lasku napsauttamalla **+ Lisää tilaus** tai **+ Lisää lasku**. Ilmoitushallinta sivustolla osion nimi on **Ilmoitusvaraukset / myynnit**, ja siinä on **+ Lisää varaus -painike**.
+Esikatselun alapuolella ovat asiakkaan [**Tilaukset**](./asiakaskortti/tilaukset.md)- ja [**Laskut**](./asiakaskortti/laskut.md)-osiot. Luo asiakkaalle uusi tilaus tai lasku napsauttamalla **+ Lisää tilaus** tai **+ Lisää lasku**. Ilmoitushallinta sivustolla osion nimi on [**Ilmoitusvaraukset / myynnit**](./asiakaskortti/ilmoitusvaraukset.md), ja siinä on **+ Lisää varaus -painike**.
 
 ![Asiakkaan esikatselu asiakasluettelossa](/img/versio2/asiakkaat2.png)
 

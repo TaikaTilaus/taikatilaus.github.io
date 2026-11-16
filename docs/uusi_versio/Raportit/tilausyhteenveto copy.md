@@ -71,7 +71,7 @@ Voit määrittää:
 - **Tilauspäivä … vrk:** näyttää tilaukset, joiden tilauspäivästä on kulunut enintään annettu määrä vuorokausia. Esimerkiksi 14 näyttää viimeisten 14 vuorokauden aikana tehdyt tilaukset.
 - **Enint.:** määrittää, kuinka monta tilausta luettelossa näytetään enintään.
 
-Luettelossa ovat vain aidosti uudet tilaukset. Mukaan eivät tule tilaukset, jotka kestojatko tai Stripe-jatko on luonut. Myöhemmin katkaistut tilaukset ovat mukana, poistetut eivät.
+Luettelossa ovat vain aidosti uudet tilaukset. Mukaan eivät tule tilaukset, jotka [kestojatko](../postitus/kestojatko.md) tai Stripe-jatko on luonut. Myöhemmin katkaistut tilaukset ovat mukana, poistetut eivät.
 
 ![Uusimpien tilausten luettelo ja aikarajaus](/img/versio2/uusimmat-tilaukset.png)
 
@@ -105,12 +105,12 @@ Luettelossa ovat kaikki tilat, myös maksamatta päättyneet, mutta ei poistetut
 
 ## Asiakkaiden vieminen keräilylistalle
 
-Jokaisen tilausluettelon asiakkaat voi lisätä keräilylistalle.
+Jokaisen tilausluettelon asiakkaat voi lisätä [keräilylistalle](../Etusivu/kerailylista.md).
 
 1. Määritä luettelon jakso ja enimmäismäärä.
 2. Tarkista luettelossa näkyvät tilaukset.
 3. Napsauta luettelon **Vie keräilylistaan** -painiketta.
 
-Painike lisää keräilylistalle luettelossa näkyvien tilausten tilaajat, ei koko jakson tilauksia. Jos jaksolla on enemmän tilauksia kuin luettelossa näytetään, nosta enimmäismäärää ennen vientiä. Sama asiakas lisätään vain kerran.
+Painike lisää [keräilylistalle](../Etusivu/kerailylista.md) luettelossa näkyvien tilausten tilaajat, ei koko jakson tilauksia. Jos jaksolla on enemmän tilauksia kuin luettelossa näytetään, nosta enimmäismäärää ennen vientiä. Sama asiakas lisätään vain kerran.
 
-Painikkeen vieressä näkyy tulos, esimerkiksi *"12 tilaajaa keräilylistalle (3 oli jo siellä)."* Jos luettelossa ei ole asiakkaita, tulos on *"Ei lisättäviä asiakkaita."* Painike ei ole käytössä, kun luettelo on tyhjä. Keräilylistalla asiakkaiden lähteeksi merkitään Tilausyhteenveto.
+Painikkeen vieressä näkyy tulos, esimerkiksi *"12 tilaajaa [keräilylistalle](../Etusivu/kerailylista.md) (3 oli jo siellä)."* Jos luettelossa ei ole asiakkaita, tulos on *"Ei lisättäviä asiakkaita."* Painike ei ole käytössä, kun luettelo on tyhjä. Keräilylistalla asiakkaiden lähteeksi merkitään Tilausyhteenveto.

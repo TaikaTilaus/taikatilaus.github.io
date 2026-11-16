@@ -27,9 +27,9 @@ Valitse ensin lehti ja päivä, jolloin tilausten tulee olla voimassa. Päiväm�
 
 Valikon lopussa on valinta **Muu päivä…**, jolla saat vapaan päivämääräkentän. Käytä sitä, jos haluat tehdä postituksen päivälle, joka ei ole ilmestymispäivä.
 
-Jos lehdille ei löydy yhtään julkaisupäivää, kentän paikalla on ilmoitus **Valituille lehdille ei löytynyt julkaisupäiviä**, eikä **Näytä tilaukset** -painike ole käytössä. Lisää silloin julkaisut **Julkaisut**-sivulla.
+Jos lehdille ei löydy yhtään julkaisupäivää, kentän paikalla on ilmoitus **Valituille lehdille ei löytynyt julkaisupäiviä**, eikä **Näytä tilaukset** -painike ole käytössä. Lisää silloin julkaisut [**Julkaisut**](../asetukset/julkaisut.md)-sivulla.
 
-Hakuehtojen alapuolella näkyy valittujen lehtien viimeisimmän kestojatkon ajankohta. Jos valittu päivä ei ole lehden seuraava ilmestymispäivä, sivu huomauttaa siitä. Jos lehdelle on jo postitus samalle päivälle, sivu kertoo, kuinka monta osoiteriviä uusi postitusajo korvaa.
+Hakuehtojen alapuolella näkyy valittujen lehtien viimeisimmän [kestojatkon](./kestojatko.md) ajankohta. Jos valittu päivä ei ole lehden seuraava ilmestymispäivä, sivu huomauttaa siitä. Jos lehdelle on jo postitus samalle päivälle, sivu kertoo, kuinka monta osoiteriviä uusi postitusajo korvaa.
 
 Kun painat **Näytä tilaukset**, sivun alaosaan avautuvat **Voimassa olevat tilaukset** -yhteenveto, Erittely ja tilauslista.
 
@@ -132,7 +132,7 @@ Sarakkeet-painikkeella voit lisäksi näyttää esimerkiksi:
 
 Voit lajitella listan napsauttamalla yksittäistä sarakeotsikkoa ja selata sivuja listan yläreunasta. 
 
-Rivin alussa oleva nuolikuvake avaa tilauksen uuteen välilehteen ja henkilökuvake saajan asiakaskortin uuteen välilehteen.
+Rivin alussa oleva nuolikuvake avaa tilauksen uuteen välilehteen ja henkilökuvake saajan [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) uuteen välilehteen.
 
 Export-valikosta voit viedä listan esimerkiksi Exceliin. Export noudattaa Erittelyn luvusta tehtyä suodatusta. Valikon Postituslista-osiossa on lisäksi **Kaikki tiedot, rivi per lehti (Excel)**. Se lataa kaikki voimassa olevat tilaukset kaikilla tiedoilla, yksi rivi jokaista lehteä kohden, ja se vie aina kaikki tilaukset suodatuksesta riippumatta.
 

@@ -43,7 +43,7 @@ Sarakkeessa on kolme lukua kauttaviivalla erotettuna, esimerkiksi **2/-/1**. Vii
 
 Kun vie hiiren sarakeotsikon päälle, näet saman selityksen.
 
-Virheelliset maksut käsitellään **Suoritukset**-sivulla.
+Virheelliset maksut käsitellään [**Suoritukset**](./suoritukset.md)-sivulla.
 
 ### Aineiston raportit
 

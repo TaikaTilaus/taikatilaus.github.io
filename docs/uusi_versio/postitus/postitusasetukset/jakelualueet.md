@@ -81,7 +81,7 @@ Kun tilaaja ja tuote valitaan uudelle tilaukselle, järjestelmä tarkistaa tilaa
 - Jos tuotteelle ei ole määritetty aluehintaa, käytetään perushintaa.
 - Jos tilaajan postinumero puuttuu tai on virheellinen, käytetään perushintaa.
 
-Voit tarvittaessa vaihtaa aluehinnan ja perushinnan välillä tilauslomakkeella. Yksikköhintaa voi myös muuttaa käsin.
+Voit tarvittaessa vaihtaa aluehinnan ja perushinnan välillä [tilauslomakkeella](../../tilaukset.md#hinnoittelu). Yksikköhintaa voi myös muuttaa käsin.
 
 ## Olemassa olevan tilauksen muokkaaminen
 

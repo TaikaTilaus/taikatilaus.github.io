@@ -81,7 +81,7 @@ Lasku, jota ei voi lähettää, näkyy punaisella rivillä ilman valintaruutua.
 
 Virheen syy näkyy punaisella **Toimitustiedot**-sarakkeessa. Toimitustiedot luetaan laskulle tallennetuista tiedoista.
 
-Tyypillinen syy on puuttuva tai virheellinen sähköposti-, verkkolasku- tai postiosoite sekä puuttuva viitenumero. Korjaa tieto maksajan asiakaskortilla ja hae uudelleen. 
+Tyypillinen syy on puuttuva tai virheellinen sähköposti-, verkkolasku- tai postiosoite sekä puuttuva viitenumero. Korjaa tieto maksajan [asiakaskortilla](../Asiakkaat/asiakaskortti/index.md) ja hae uudelleen.
 
 ## Laskujen valitseminen
 

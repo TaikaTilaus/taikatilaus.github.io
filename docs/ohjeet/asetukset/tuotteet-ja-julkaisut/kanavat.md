@@ -17,7 +17,7 @@ Sivun ensimmäisenä kohtana ovat **julkaisujen lyhenteet**. Kohta näkyy ja on 
 
 **Kanavat**-välilehdellä määritellään kanavat, joiden alle myyntituotteet ryhmitellään. Kanavia voivat olla esimerkiksi **LEHTI**, **NETTI**, **UUTISKIRJE**, **ILMOITUSTAULU**, **RADIO** ja **VAIHTOILMOITUS**-kanavat.
 
-**Kanavat** erotellaan kentän listauksessa pilkuilla, esim. `LEHTI,UUTISKIRJE,RADIO`. Kanavan voi nimetä myös **lehtikohtaisesti**, esimerkiksi: `Autolehti,Mopolehti,Bike,Suunnistus`.
+**Kanavat** erotellaan kentän listauksessa pilkuilla, esim. `LEHTI,UUTISKIRJE,RADIO`. Kanavan voi nimetä myös **lehtikohtaisesti**, esimerkiksi: `TaikaNakka,TaikaVakka,TaikaNakka Digi,TaikaVakka Digi`.
 
 Määritellyt kanavat lajitellaan ohjelmaan koodattuihin **kanavatyyppeihin**, koska eri kanavilla on **erilaisia ominaisuuksia**, esimerkiksi:
 

@@ -11,7 +11,7 @@ description: Ilmoitukset — ilmoitusvarausten haku, hakuehdot, Kanava ja Julkai
 Vanhassa TaikaTilauksessa vastaava sivu on **IlmoitusStudio**. Uudessa versiossa sivun nimi on kaikilla asiakkailla Ilmoitukset. Vanhat IlmoitusStudion kirjanmerkit avaavat saman sivun.
 
 :::tip
-Asiakaskortin [Ilmoitusvaraukset / myynnit](../Asiakkaat/asiakaskortti/ilmoitusvaraukset.md) -osiossa näet yhden asiakkaan varaukset. Ilmoitukset-listalla haet varauksia kaikilta asiakkailta.
+[Asiakaskortin](../Asiakkaat/asiakaskortti/index.md) [Ilmoitusvaraukset / myynnit](../Asiakkaat/asiakaskortti/ilmoitusvaraukset.md) -osiossa näet yhden asiakkaan varaukset. Ilmoitukset-listalla haet varauksia kaikilta asiakkailta.
 :::
 
 ## Varausten hakeminen
@@ -38,6 +38,8 @@ Aikaväli rajaa varauksia kanavan mukaan:
 - **Netti-, radio- ja ilmoitustaulukanavan** varaus on jaksovaraus, jolla on alku- ja loppupäivä. Se on mukana, jos jakso osuu edes osittain aikavälille. Näin myös ennen aikaväliä alkanut ja yhä käynnissä oleva netti-ilmoitus löytyy.
 - **Vaihtoilmoituksen** varaus on mukana, jos sen julkaisupäivä on aikavälillä.
 
+Varaus, jolla on alkupäivä mutta ei loppupäivää, on mukana haussa.
+
 Jos aikaväli on yli 2 vuotta ja 1 kuukausi, listan yläpuolelle tulee huomautus: *Haku on laaja … ja voi olla hidas – rajaa päivämäärillä.* Haku tehdään silti.
 
 ### Vapaa haku
@@ -52,7 +54,7 @@ Vapaa haku toimii yhdessä muiden hakuehtojen kanssa. Kun haet asiakkaalla, tark
 
 ### Kanava ja Julkaisu
 
-**Julkaisu**-valikossa ovat aikavälin julkaisut, ja kunkin kanavan seuraava julkaisu on ylimpänä.
+**Julkaisu**-valikossa ovat aikavälin julkaisut, ja kunkin kanavan seuraava julkaisu on ylimpänä. Julkaisu-valikossa ensimmäisenä oleva seuraava julkaisu vaihtuu julkaisun ilmestymispäivänä kello 00:00.
 
 Netti-, radio-, ilmoitustaulu- ja vaihtoilmoituskanavien julkaisuja ei listata, koska niiden varaukset tehdään päivämäärillä. Hae niiden varauksia valitsemalla **Kanava**.
 
@@ -134,7 +136,7 @@ Oletuksena näkyvät sarakkeet ovat Varausnro, Tila, Myynti, Aikaleima, Julkaisu
 |---|---|
 | **Varausnro** | Ilmoitusvarauksen numero. |
 | **Tila** | Varauksen tila värillisenä merkkinä. |
-| **Myynti** | Myynnin numero. Tyhjällä varauksella sarake on tyhjä. |
+| **Myynti** | Myynnin numero. Tyhjällä varauksella sarake on tyhjä. Myynnin käsittely kuvataan Myynti-sivun ohjeessa. [Myynti](./myynti.md). |
 | **Aikaleima** | Viimeisimmän muutoksen aika. |
 | **Julkaisu** | Julkaisun nimi ja numero. Kanava näkyy alla, jos julkaisun nimi ei sitä jo kerro. |
 | **Päivät** | Ilmestymispäivä ja sen alla aineistopäivä. Jaksovarauksella alku- ja loppupäivä. |

@@ -35,7 +35,7 @@ Tyypit ja arvot, joita valikoissa tarjotaan, hallitaan kohdassa [**Asetukset →
 
 Huomaa, että tyypin tai arvon poistaminen [**Asiakasryhmät**](/docs/uusi_versio/asetukset/ryhmien-muokkaus)-sivulla poistaa sen kaikilta asiakkailta.
 
-Voit liittää useita asiakkaita ryhmään kerralla myös Keräilylistan **Lisää ryhmään** -toiminnolla.
+Voit liittää useita asiakkaita ryhmään kerralla myös [Keräilylistan](../../Etusivu/kerailylista.md) **Lisää ryhmään** -toiminnolla.
 
 ## Vapaa ryhmittely
 

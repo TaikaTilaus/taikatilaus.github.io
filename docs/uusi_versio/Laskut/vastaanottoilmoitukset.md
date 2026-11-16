@@ -70,13 +70,13 @@ Järjestelmä käsittelee ilmoitukset vanhimmasta alkaen:
 
 Käsittelyn jälkeen sivun yläreunassa näkyy tulos: kuinka monta ilmoitusta käsiteltiin ja kuinka monelle ei löytynyt asiakasta. Alla on jokaisen ilmoituksen rivi. Jos ilmoituksia on yli 200, näytetään 200 ensimmäistä.
 
-Asiakkaan tiedot muuttuvat käsittelyssä, ja muutokset tallentuvat asiakkaan muutoslokiin käyttäjällä "(vastaanottoilmoitus)". Voit tarkistaa muutokset asiakaskortin Muutosloki-osiosta.
+Asiakkaan tiedot muuttuvat käsittelyssä, ja muutokset tallentuvat asiakkaan muutoslokiin käyttäjällä "(vastaanottoilmoitus)". Voit tarkistaa muutokset [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) Muutosloki-osiosta.
 
 **Virhetilanteet.** Jos ilmoitukseen ei löydy asiakasta käsitelle ilmoitus manuaalisesti alla olevan ohjeen mukaan.
 
 ## Manuaalinen käsittely virhetilanteessa
 
-Tarvittaessa **päivitetään asiakkaan** IBAN/BIC tiedot asiakaskortin **Laskutustietoihin** manuaalisesti virheen tapahtuessa. Näet, että vastaanottoilmoitus on jäänyt virheeseen, kun **Käsitelty info** -sarakkeessa lukee joitain muuta kuin Käsitelty OK.
+Tarvittaessa **päivitetään asiakkaan** IBAN/BIC tiedot [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) **Laskutustietoihin** manuaalisesti virheen tapahtuessa. Näet, että vastaanottoilmoitus on jäänyt virheeseen, kun **Käsitelty info** -sarakkeessa lukee joitain muuta kuin Käsitelty OK.
 
 **Esimerkki:** Alla olevassa tapauksessa *Testaaja Teemu* on tehnyt verkkomaksuvaltuutuksen (KOODI = ADD). 
 
@@ -85,7 +85,7 @@ Valtuutusta ei ole pystytty liittämään asiakaskorttiin, koska asiakasnumero o
 Menettele seuraavasti:
 
 1)  **Etsi asiakas** esimerkiksi nimen perusteella.
-2) **Avaa asiakkaan asiakaskortti** 
+2) **Avaa asiakkaan [asiakaskortti](../Asiakkaat/asiakaskortti/index.md)**
 3) **Kopioi IBAN- ja BIC-tiedot** vastaanottoilmoituksesta asiakkaan laskutustietoihin.
 4) **Vaihda laskujen toimitustavaksi** **VERKKOLASKU**
 5) **Tallenna** muutokset.

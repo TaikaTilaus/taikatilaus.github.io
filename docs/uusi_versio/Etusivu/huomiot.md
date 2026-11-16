@@ -31,9 +31,9 @@ Avaa huomio napsauttamalla sen numeroa Huomiot-luettelossa.
 Huomion tiedoissa näet:
 
 - huomion numeron (**HuomioID**) ja **aikaleiman**
-- huomioon liittyvän tilauksen (**Tilausnumero** ja tarvittaessa **Tilausnumero #2**)
-- huomioon liittyvän laskun (**laskun numero** ja **summa**)
-- huomioon liittyvän asiakkaan (**Asiakas** ja tarvittaessa **Asiakas #2**)
+- huomioon liittyvän [tilauksen](../tilaukset.md) (**Tilausnumero** ja tarvittaessa **Tilausnumero #2**)
+- huomioon liittyvän [laskun](../Laskut/lasku.md) (**laskun numero** ja **summa**)
+- huomioon liittyvän [asiakkaan](../Asiakkaat/asiakaskortti/index.md) (**Asiakas** ja tarvittaessa **Asiakas #2**)
 - huomion **aiheen**
 - huomion tarkemman **sisällön**.
 

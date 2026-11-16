@@ -5,7 +5,7 @@ description: Tilit.
 
 # Tilit
 
-**Tilit**-sivulla ylläpidetään kirjanpidon tilikarttaa. Tilejä käytetään tuotteiden kirjanpidon tileillä (myyntitili, ALV-velkatili ja myyntisaamiset tili) ja tiliöinneissä, joita muodostuu laskuista ja maksuista.
+**Tilit**-sivulla ylläpidetään kirjanpidon tilikarttaa. Tilejä käytetään [tuotteiden](./tuotteet.md) kirjanpidon tileillä (myyntitili, ALV-velkatili ja myyntisaamiset tili) ja tiliöinneissä, joita muodostuu laskuista ja maksuista.
 
 Avaa sivu valitsemalla **Asetukset → Tilit.**
 
@@ -73,7 +73,7 @@ Jos muutat tietoja lomakkeella, paina **Tallenna**.
 
 :::warning HUOM!
 
-Käytössä olevan tilin numeroa ei voi muuttaa. Tili on käytössä, jos tiliöinnit tai tuotteet viittaavat sen numeroon. Jos numero pitää vaihtaa, lisää uusi tili ja vaihda se tuotteille Tuotteet-sivulla.
+Käytössä olevan tilin numeroa ei voi muuttaa. Tili on käytössä, jos tiliöinnit tai tuotteet viittaavat sen numeroon. Jos numero pitää vaihtaa, lisää uusi tili ja vaihda se tuotteille [Tuotteet-sivulla](./tuotteet.md).
 
 Tilin nimen, tyypin ja lajit voi muuttaa aina.
 :::

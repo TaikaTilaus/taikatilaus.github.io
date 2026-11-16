@@ -12,10 +12,10 @@ Avaa **Historia** napsauttamalla päävalikon oikeassa reunassa olevaa **kelloku
 
 Viimeksi tehdyt -luettelossa näet viimeksi tekemiäsi toimintoja, kuten:
 
-- avatut asiakaskortit
-- avatut tilaukset
-- avatut ilmoitusvaraukset
-- avatut raportit
+- avatut [asiakaskortit](../Asiakkaat/asiakaskortti/index.md)
+- avatut [tilaukset](../tilaukset.md)
+- avatut [ilmoitusvaraukset](../Ilmoitukset/ilmoitusvaraus.md)
+- avatut [raportit](../Raportit/kaikki-raportit.md)
 - **Tallensi:** tallennetut tiedot
 - **Vienti:** tehdyt viennit (esimerkiksi Excel- tai PDF-vienti)
 - **Sähköposti:** lähetetyt sähköpostit

@@ -9,7 +9,7 @@ title: Alennukset
 
 Kun välilehti on käytössä, [Laskutustiedot](/docs/uusi_versio/Asiakkaat/asiakaskortti/laskutustiedot)-välilehden Ale-%-kenttiä ei näytetä.
 
-Välilehdellä on kaksi osiota: **Tilausten alennus** ja **Ilmoitusten alennussäännöt**. Tilausten alennus -osio näkyy vain, jos sovelluksessa on tilauksia. Kun järjestelmää käytetään vain ilmoitusten hallintaa, on vain Ilmoitusten alennussäännöt.
+Välilehdellä on kaksi osiota: [**Tilausten alennus**](#tilausten-alennus) ja [**Ilmoitusten alennussäännöt**](#ilmoitusten-alennussäännöt). Tilausten alennus -osio näkyy vain, jos sovelluksessa on tilauksia. Kun järjestelmää käytetään vain ilmoitusten hallintaa, on vain Ilmoitusten alennussäännöt.
 
 ## Tilausten alennus
 
@@ -22,7 +22,7 @@ Tallenna ja Peruuta -painikkeet näkyvät vasta, kun olet muuttanut prosenttia. 
 
 ## Ilmoitusten alennussäännöt
 
-Ilmoitusten alennukset määritetään säännöillä. Säännöt tulevat ilmoitusvarauslomakkeen Asiakasalennus-valintaan. Muutos ei muuta jo tallennettuja varauksia. Osion otsikon vieressä näkyy asiakkaan sääntöjen määrä. Jos sääntöjä ei ole, näkyy teksti Ei alennussääntöjä.
+Ilmoitusten alennukset määritetään säännöillä. Säännöt tulevat [ilmoitusvarauslomakkeen](../../Ilmoitukset/ilmoitusvaraus.md) Asiakasalennus-valintaan. Muutos ei muuta jo tallennettuja varauksia. Osion otsikon vieressä näkyy asiakkaan sääntöjen määrä. Jos sääntöjä ei ole, näkyy teksti Ei alennussääntöjä.
 
 Jokainen sääntö näkyy listassa omana lohkonaan:
 

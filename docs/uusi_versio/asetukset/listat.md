@@ -41,11 +41,11 @@ Valinnalla määrität, miten asiakas- ja tilauslistojen tekstisarakkeet näytet
 - **KAIKKI ISOILLA KIRJAIMILLA:** kaikki tekstit näytetään isoilla kirjaimilla.
 - **Nimet, paikat ja yritysten nimet isolla alkukirjaimella:** nimet, paikkakunnat ja yritysten nimet muutetaan alkukirjaimeltaan isoiksi. Muut tekstit, esimerkiksi tila ja lisätiedot, näytetään sellaisenaan.
 
-Asetus koskee Asiakkaat-listan Nimi-, Myyjä-, Yritys-, Katuosoite- ja Postitoimipaikka-sarakkeita sekä Tilaukset-listan Tilaajan, Maksajan ja osoitteiden sarakkeita (postitoimipaikat mukaan lukien). Se on vain näyttöasetus: tallennettuja tietoja, hakua ja Exportia ei muuteta. [TARKISTA: koskeeko myös muita listoja, esimerkiksi Laskujen hakua; docs/listat.md mainitsee myös tilan ja Kyllä/Ei-sarakkeet]
+Asetus koskee [Asiakkaat-listan](../Asiakkaat/asiakkaat.md) Nimi-, Myyjä-, Yritys-, Katuosoite- ja Postitoimipaikka-sarakkeita sekä [Tilaukset-listan](../tilaukset.md) Tilaajan, Maksajan ja osoitteiden sarakkeita (postitoimipaikat mukaan lukien). Se on vain näyttöasetus: tallennettuja tietoja, hakua ja Exportia ei muuteta. [TARKISTA: koskeeko myös muita listoja, esimerkiksi Laskujen hakua; docs/listat.md mainitsee myös tilan ja Kyllä/Ei-sarakkeet]
 
 ### Lisähakuehdot käytössä
 
-Valitse, mitkä lisähakuehdot näkyvät Asiakkaat-näkymän lisähakuehdoissa. Jokaisella ehdolla on valitsin: päällä oleva ehto näytetään, pois päältä oleva piilotetaan. Kaikki ehdot ovat oletuksena käytössä, ja uudet ehdot tulevat oletuksena käyttöön. Asiakkaan lisätietokenttien ehdot näkyvät aina.
+Valitse, mitkä lisähakuehdot näkyvät [Asiakkaat-näkymän](../Asiakkaat/asiakkaat.md) lisähakuehdoissa. Jokaisella ehdolla on valitsin: päällä oleva ehto näytetään, pois päältä oleva piilotetaan. Kaikki ehdot ovat oletuksena käytössä, ja uudet ehdot tulevat oletuksena käyttöön. Asiakkaan lisätietokenttien ehdot näkyvät aina.
 
 Ehdot on ryhmitelty samoihin osioihin kuin hakupaneelissa:
 
@@ -83,7 +83,7 @@ Asetus koskee sekä **Lisätiedot**- että **Lisätiedot tilaajalle** -saraketta
 
 ### Lisähakuehdot käytössä
 
-Valitse, mitkä lisähakuehdot näkyvät Tilaukset-näkymän lisähakuehdoissa:
+Valitse, mitkä lisähakuehdot näkyvät [Tilaukset-näkymän](../tilaukset.md) lisähakuehdoissa:
 
 - Asiakas (Valitse asiakas: tilaajana tai maksajana)
 - Alkupäivä, loppupäivä ja aikavälin peruste
@@ -98,7 +98,7 @@ Valitse, mitkä lisähakuehdot näkyvät Tilaukset-näkymän lisähakuehdoissa:
 
 ## Laskujen haku
 
-Valitse, mitkä lisähakuehdot näkyvät Laskut → Laskujen haku -näkymässä:
+Valitse, mitkä lisähakuehdot näkyvät [Laskut → Laskujen haku](../Laskut/laskujen-haku.md) -näkymässä:
 
 - Tila
 - Päiväkenttä, alkupäivä ja loppupäivä
@@ -109,7 +109,7 @@ Valitse, mitkä lisähakuehdot näkyvät Laskut → Laskujen haku -näkymässä:
 
 ## Ilmoitukset
 
-Valitse, mitkä lisähakuehdot näkyvät Ilmoitukset-näkymän lisähakuehdoissa:
+Valitse, mitkä lisähakuehdot näkyvät [Ilmoitukset-näkymän](../Ilmoitukset/ilmoitukset-lista.md) lisähakuehdoissa:
 
 - Myyjä
 - Varauksen tila

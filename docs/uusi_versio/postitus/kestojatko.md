@@ -26,7 +26,7 @@ Kestojatko tehdään yleensä ennen osoiteaineiston lähettämistä painoon.
 
 Kukin valittu lehti haetaan ja jatketaan omana ajonaan, samoin kuin yöajossa: jokaisella lehdellä on oma loki ja oma raportti. Vahvistusikkuna kertoo, montako kestotilausta jatketaan "lehdille" (useita) tai "lehdelle" (yksi). Esikatselun rivit näytetään yhdessä listassa lehtien valintajärjestyksessä.
 
-Päivämäärillä rajataan haku tilauksiin, joiden päättymispäivä osuu valitulle aikavälille. Edellisen ajon hakuvälin voit tarkistaa **Aikaisemmat jatkamiset** -luettelosta.
+Päivämäärillä rajataan haku tilauksiin, joiden päättymispäivä osuu valitulle aikavälille. Edellisen ajon hakuvälin voit tarkistaa [**Aikaisemmat jatkamiset**](#aikaisemmat-jatkamiset) -luettelosta.
 
 ### Loppupäivän valitseminen
 
@@ -77,7 +77,7 @@ Luettelon alareunassa näytetään valittujen tilausten laskutettava yhteissumma
 
 Tarkista **Ei jatkettavat kestotilaukset ja jatkamattomuuden syy** -luettelo. Jokaisen tilauksen yhteydessä näytetään syy siihen, miksi tilausta ei jatketa.
 
-Jos jatkamisen estää uudempi tilaus, sen tiedot näytetään alkuperäisen tilauksen alapuolella. Voit avata tilauksen napsauttamalla sen **tilausnumeroa**.
+Jos jatkamisen estää uudempi tilaus, sen tiedot näytetään alkuperäisen tilauksen alapuolella. Voit avata [tilauksen](../tilaukset.md) napsauttamalla sen **tilausnumeroa**.
 
 :::warning Tarkista katkaistut tilaukset
 

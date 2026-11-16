@@ -6,7 +6,7 @@ description: Yleisasetukset — Tilaustavat, Tilaustavan lisääminen, Tilaustav
 
 # Yleisasetukset
 
-**Yleisasetukset**-sivulla hallitaan sovelluksen yleisiä asetuksia: tuotteiden hintojen näyttöä, **Tuotteet**-sivun kenttiä, tilaustapoja ja tilauksen katkaisun syitä.
+**Yleisasetukset**-sivulla hallitaan sovelluksen yleisiä asetuksia: tuotteiden hintojen näyttöä, [**Tuotteet**](../tuotteet.md)-sivun kenttiä, tilaustapoja ja tilauksen katkaisun syitä.
 
 Avaa sivu valitsemalla **Asetukset → Muut asetukset → Yleisasetukset.**
 
@@ -21,19 +21,19 @@ Valinta määrää, näytetäänkö tuotteiden hinnat uuden tilauksen **Tuote**-
 - **Näytä tuotteiden hinnat verollisina (sis. alv)** päällä: "Jatkuva täystilaus 12 kk (124,00 € sis. ALV 10 %, kesto)"
 - Pois päältä: "Jatkuva täystilaus 12 kk (112,73 € + ALV 10 %, kesto)"
 
-Alv-prosentti on tuotteen oma (**Tuotteet-sivun ALV %**). Asetus vaikuttaa vain listan näyttöön. Tuotteen hinta tallennetaan edelleen ilman arvonlisäveroa, ja tilauksen verollinen summa lasketaan kuten ennenkin. Oletuksena valinta on päällä.
+Alv-prosentti on tuotteen oma (**[Tuotteet-sivun](../tuotteet.md) ALV %**). Asetus vaikuttaa vain listan näyttöön. Tuotteen hinta tallennetaan edelleen ilman arvonlisäveroa, ja tilauksen verollinen summa lasketaan kuten ennenkin. Oletuksena valinta on päällä.
 
 ## Tilauslahja-kenttä tilauksen lomakkeella
 
-Kortin **Tuotteiden hinnat tilauslomakkeella** alla on valinta **Näytä Tilauslahja-kenttä tilauslomakkeella** (oletuksena pois). Kun se on päällä, Tilaukset-sivun Uusi tilaus- ja Muokkaa tilausta -lomakkeella on vapaatekstikenttä **Tilauslahja** (enintään 100 merkkiä), johon henkilökunta voi kirjata tilauksen lahjan. Piilotettu kenttä säilyttää tilaukselle jo tallennetun arvon.
+Kortin **Tuotteiden hinnat tilauslomakkeella** alla on valinta **Näytä Tilauslahja-kenttä tilauslomakkeella** (oletuksena pois). Kun se on päällä, [Tilaukset-sivun](../../tilaukset.md) Uusi tilaus- ja Muokkaa tilausta -lomakkeella on vapaatekstikenttä **Tilauslahja** (enintään 100 merkkiä), johon henkilökunta voi kirjata tilauksen lahjan. Piilotettu kenttä säilyttää tilaukselle jo tallennetun arvon.
 
 ## Tuotteet-sivun kentät
 
-Tässä osiossa valitset, mitkä valinnaiset kentät näkyvät Tuotteet-sivulla (lista, haku ja tuotteen lomake). Piilotettu kenttä ei katoa: tuotteen tieto säilyy ennallaan, mutta sitä ei näytetä.
+Tässä osiossa valitset, mitkä valinnaiset kentät näkyvät [Tuotteet-sivulla](../tuotteet.md) (lista, haku ja tuotteen lomake). Piilotettu kenttä ei katoa: tuotteen tieto säilyy ennallaan, mutta sitä ei näytetä.
 
 ### Näytä Tuotenumero
 
-Valinta määrää, näkyykö Tuotenumero **Tuotteet**-sivulla.
+Valinta määrää, näkyykö Tuotenumero [**Tuotteet**](../tuotteet.md)-sivulla.
 
 ### Tilaustuotteen kentät
 
@@ -80,4 +80,4 @@ Tilaus, jolla on katkaisupäivä ja jokin tässä valituista katkaisun syistä, 
 - Poista valinta napsauttamalla syyn vieressä olevaa **x**-kuvaketta. Vähintään yksi syy jää aina valituksi, joten viimeistä valintaa ei voi poistaa.
 - Oletus on syy, jonka teksti sisältää sanan **MAKSAMATTA**.
 
-Muutos vaikuttaa tilojen päättelyyn seuraavasta ajosta alkaen sekä Etusivun **Maksamatta päättyneet** -korttiin ja **Tilaukset**-hakuun.
+Muutos vaikuttaa tilojen päättelyyn seuraavasta ajosta alkaen sekä Etusivun [**Maksamatta päättyneet**](../../Etusivu/etusivu.md#tilausten-kehitys) -korttiin ja [**Tilaukset**](../../tilaukset.md)-hakuun.

@@ -71,7 +71,7 @@ Pyynnöt, joita ei voi laskuttaa, näkyvät punaisella ilman valintaruutua. Virh
 
 Tyypillinen syy on puutteellinen toimitustieto: puuttuva tai virheellinen sähköpostiosoite, verkkolaskuosoite tai postiosoite. Laskun voi estää myös laskutusmääritysten minimisumma rajaus (esim. alle 5 euron laskuja ei lähetetä).
 
-Korjaa tieto maksajan **asiakaskortilla** (Laskutustiedot-välilehti) ja hae pyynnöt uudelleen.
+Korjaa tieto maksajan [**asiakaskortilla**](../Asiakkaat/asiakaskortti/index.md) (Laskutustiedot-välilehti) ja hae pyynnöt uudelleen.
 
 ## Laskujen luontimääritykset
 
@@ -114,7 +114,7 @@ Avaa laskun tarkemmat tiedot napsauttamalla riviä: laskun viesti, tuoterivit, a
 
 Keltaisella korostetut rivit ovat laskuja, jotka ovat 0 € tai alle. Niitä ei lähetetä.
 
-**Laskun viesti.** Jos tilaajan asiakaskortilla on Jakelupoikkeukset-välilehden Keskeytysviesti seuraavalle laskulle, esikatselussa näkyy viesti laskulla. Esikatselu ei tyhjennä viestiä.
+**Laskun viesti.** Jos tilaajan [asiakaskortilla](../Asiakkaat/asiakaskortti/index.md) on Jakelupoikkeukset-välilehden Keskeytysviesti seuraavalle laskulle, esikatselussa näkyy viesti laskulla. Esikatselu ei tyhjennä viestiä.
 
 ## Laskujen luominen
 
@@ -124,11 +124,11 @@ Kun laskujen luonti on otettu käyttöön, luettelon yläpuolella on punainen **
 2. Esikatsele laskut ja tarkista ne.
 3. Napsauta **Luo laskut (N valittua)**.
 4. Vahvista luonti. Vahvistusikkuna näyttää laskun päivän, eräpäivän ja luontitunnuksen ja varoittaa, että laskuja ei voi perua tältä sivulta.
-5. Lähetä laskut **Laskujen lähetys** -sivulta.
+5. Lähetä laskut [**Laskujen lähetys**](./laskujen-lahetys.md) -sivulta.
 
 Järjestelmä luo valituista pyynnöistä laskut, tiliöinnit ja tilausten laskulinkit. Maksajalle, jolla ei ole asiakasnumeroa, annetaan asiakasnumero. Kun ajo on valmis, sivun yläreunassa näkyy yhteenveto: luotujen laskujen määrä, koontilaskujen määrä, yhteissumma ja luontitunnus. Luotujen laskujen numerot ovat linkkejä, jotka avaavat laskun uuteen välilehteen. Luotuja laskuja ei voi perua tältä sivulta.
 
-Luotuja laskuja voi tarkastella **Laskujen haku** -sivulta. 
+Luotuja laskuja voi tarkastella [**Laskujen haku**](./laskujen-haku.md) -sivulta.
 
 Vain yksi laskujen luonti voi olla käynnissä kerrallaan. Jos toinen käyttäjä luo laskuja, järjestelmä ilmoittaa, että luonti on jo käynnissä. Jos laskunumero on jo käytössä, luonti pysähtyy. Jos pyyntö on ehditty laskuttaa muualla, sen lasku perutaan ja luonti jatkuu muilla.
 

@@ -106,7 +106,7 @@ Asiakkaan poistaminen keräilylistalta tai keräilylistan tyhjentäminen ei pois
 | **Export** | Avaa keräilylistan tulostus-, kopiointi- ja vientitoiminnot. |
 | **Vie päivityspohjaan** | Vie asiakkaiden tiedot päivityspohjaan. |
 | **Lisää ryhmään** | Lisää asiakkaat valittuun asiakasryhmään. |
-| **Muokkaa ryhmiä** | Avaa järjestelmässä käytettävien ryhmätyyppien ja ryhmien hallinnan. |
+| [**Muokkaa ryhmiä**](../asetukset/ryhmien-muokkaus.md) | Avaa järjestelmässä käytettävien ryhmätyyppien ja ryhmien hallinnan. |
 | **Lähetä sähköposti** | Avaa sähköpostin lähettämisen valituille asiakkaille. |
 
 ![Keräilylistan asiakastoiminnot](/img/versio2/kerailylista9.png)
@@ -168,7 +168,7 @@ Voit lisätä keräilylistan suodatetut asiakkaat valittuun ryhmään.
 
 Painikkeessa näkyvä määrä kertoo, kuinka monta asiakasta ryhmään lisätään. 
 
-Käytettävissä olevat ryhmittelytyypit ja ryhmät määritetään järjestelmän asetuksissa.
+Käytettävissä olevat ryhmittelytyypit ja ryhmät määritetään [järjestelmän asetuksissa](../asetukset/ryhmien-muokkaus.md).
 
 Sulje toiminto tekemättä muutoksia napsauttamalla **Sulje**.
 

@@ -54,4 +54,4 @@ Nimeäminen uudelleen ja poistaminen koskevat kaikkia asiakkaita. Poistoa ei voi
 
 ### Missä ryhmiä käytetään
 
-Ryhmät näkyvät asiakkaan kortilla ja **Asiakkaat**-sivun hakuehtoina. Voit myös rajata **Raportit → Asiakasyhteenveto** -sivun luvut ryhmän tyypin ja arvon mukaan. Keräilylistalla voit lisätä valitut asiakkaat ryhmään.
+Ryhmät näkyvät [asiakkaan kortilla](../Asiakkaat/asiakaskortti/ryhmittely.md) ja [**Asiakkaat**](../Asiakkaat/asiakkaat.md)-sivun hakuehtoina. Voit myös rajata **Raportit → [Asiakasyhteenveto](../Raportit/asiakasyhteenvedot.md)** -sivun luvut ryhmän tyypin ja arvon mukaan. [Keräilylistalla](../Etusivu/kerailylista.md) voit lisätä valitut asiakkaat ryhmään.

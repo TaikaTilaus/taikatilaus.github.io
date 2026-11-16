@@ -31,7 +31,7 @@ Tilauksia voi hakea seuraavilla hakuehdoilla:
 
 - **Tilauksen statuksella** (esim. *katkaistu, päättynyt, voimassa*) tietyllä aikavälillä *(muista asettaa päivämäärät!)*  
 - **Tilauksen sijoittumisella** (esim. *ensimmäinen tilaus tuotteessa*)  
-- **Tuoteryhmällä** (esim. *Autolehti*)  
+- **Tuoteryhmällä** (esim. *TaikaNakka*)
 - **Tuotteella** (esim. *Kestotilaus III*)  
 - **Tilaustyypillä** (*Kesto* tai *Määräaikainen*)  
 - **Maalla** (esim. *kotimaa* tai *ulkomaa*)  

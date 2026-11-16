@@ -6,7 +6,7 @@ description: Etusivun osiot — Tilausten yhteenvedot, Postitusyhteenveto.
 
 # Etusivun osiot
 
-**Etusivun osiot** -sivulla määrität, mitä osioita ja kortteja etusivulla näytetään ja miten ne lasketaan.
+**Etusivun osiot** -sivulla määrität, mitä osioita ja kortteja [etusivulla](../../Etusivu/etusivu.md) näytetään ja miten ne lasketaan.
 
 Avaa sivu valitsemalla **Asetukset → Muut asetukset → Etusivun osiot.**
 
@@ -38,7 +38,7 @@ Yhteenvetokortit vertaavat kuluvan jakson määrää edellisten 12 kuukauden sam
 
 Jokaisen kortin voi näyttää tai piilottaa erikseen valinnalla **Näytä kortti ”…” etusivulla**, ja jokaisella kortilla on oma **Jakso** (vrk). Jakson oletus on 30 vuorokautta. Jakso-kenttä on käytössä vain, kun kortti on valittuna.
 
-**Maksamatta päättyneet** -kortilla jaksoa ei voi asettaa: se näyttää aina edellisen viikon maanantaista sunnuntaihin. Mitkä katkaisun syyt antavat tilan MAKSAMATTA PÄÄTTYNYT, määritetään **Yleisasetuksissa** (Katkaisun syyt).
+**Maksamatta päättyneet** -kortilla jaksoa ei voi asettaa: se näyttää aina edellisen viikon maanantaista sunnuntaihin. Mitkä katkaisun syyt antavat tilan MAKSAMATTA PÄÄTTYNYT, määritetään [**Yleisasetuksissa**](./yleisasetukset.md#katkaisun-syyt) (Katkaisun syyt).
 
 ## Julkaisukalenteri
 

@@ -7,7 +7,7 @@ description: Ilmoitusten asetukset — käytössä olevat kentät, ilmoitusvarau
 
 **Ilmoitukset**-asetussivulla määritetään [Ilmoitukset-listan](../Ilmoitukset/ilmoitukset-lista.md) ja [ilmoitusvarauslomakkeen](../Ilmoitukset/ilmoitusvaraus.md) kentät ja toiminnot sekä ilmoituspaikkojen rajat ja avoimuusilmoitusten asetukset.
 
-Avaa sivu valitsemalla **Asetukset → Ilmoitukset**. Pääkäyttäjä pääsee sivulle myös ilmoitusvarauslomakkeen **Asetukset**-painikkeella.
+Avaa sivu valitsemalla **Asetukset → Ilmoitukset**. Pääkäyttäjä pääsee sivulle myös [ilmoitusvarauslomakkeen](../Ilmoitukset/ilmoitusvaraus.md) **Asetukset**-painikkeella.
 
 Asetukset koskevat kaikkia käyttäjiä. Vain pääkäyttäjä voi muuttaa niitä. Muut käyttäjät näkevät asetukset, mutta eivät voi muuttaa niitä.
 
@@ -17,7 +17,7 @@ Sivulla on kuusi välilehteä. Neljän ensimmäisen välilehden asetukset tallen
 
 **Ilmoitusvarauksen kentät käytössä** on pääasetus: valitse varauksen kentät, joita käytetään. Kenttä voi näkyä lomakkeella, listalla tai molemmissa.
 
-- Kenttä, joka ei ole käytössä, ei näy lomakkeella, listalla eikä kenenkään Sarakkeet-valikossa. Sitä ei myöskään tarjota Ilmoitusvarauslomake- ja Ilmoitukset-lista-välilehdillä.
+- Kenttä, joka ei ole käytössä, ei näy lomakkeella, listalla eikä kenenkään Sarakkeet-valikossa. Sitä ei myöskään tarjota [Ilmoitusvarauslomake](#ilmoitusvarauslomake)- ja [Ilmoitukset-lista](#ilmoitukset-lista)-välilehdillä.
 - Kanava, tuote, julkaisu ja hinta sekä listan Varausnro ja Tila ovat aina käytössä.
 - Kentän tallennetut arvot säilyvät, vaikka kenttä otetaan pois käytöstä.
 
@@ -43,7 +43,7 @@ Anna **Valmistuslisän tuoteID**, niin lomakkeen hinta-osioon tulevat Valmistusl
 
 ### Myyjä
 
-**Käyttäjä oletusmyyjänä**: uuden ilmoitusvarauksen myyjäksi valitaan kirjautunut käyttäjä, jos hänen roolinsa on myyjä. Muuten myyjä on asiakaskortin myyjä. Sama asetus on vanhassa TaikaTilauksessa.
+**Käyttäjä oletusmyyjänä**: uuden ilmoitusvarauksen myyjäksi valitaan kirjautunut käyttäjä, jos hänen roolinsa on myyjä. Muuten myyjä on [asiakaskortin](../Asiakkaat/asiakaskortti/yhteystiedot.md#lisätiedot) myyjä. Sama asetus on vanhassa TaikaTilauksessa.
 
 ### Laskutus
 
@@ -55,7 +55,7 @@ Ota asetus pois vain, jos ilmoituksia ei laskuteta TaikaTilauksessa. Silloin ole
 
 ### Käytettävissä olevat sarakkeet
 
-Valitse sarakkeet, jotka ovat Ilmoitukset-listan Sarakkeet-valikossa. Jokainen käyttäjä valitsee niistä itse, mitkä näkyvät. Sarakkeet ovat ryhmissä Varaus, Julkaisu, Myyntituote, Asiakas ja laskutus sekä Aineistot. Luettelossa ovat vain käytössä olevien kenttien sarakkeet.
+Valitse sarakkeet, jotka ovat [Ilmoitukset-listan](../Ilmoitukset/ilmoitukset-lista.md) Sarakkeet-valikossa. Jokainen käyttäjä valitsee niistä itse, mitkä näkyvät. Sarakkeet ovat ryhmissä Varaus, Julkaisu, Myyntituote, Asiakas ja laskutus sekä Aineistot. Luettelossa ovat vain käytössä olevien kenttien sarakkeet.
 
 ### Hakuehdot
 
@@ -67,11 +67,11 @@ Valitse sarakkeet, jotka ovat Ilmoitukset-listan Sarakkeet-valikossa. Jokainen k
 
 ### Sijoittelu
 
-**Sijoittelu-välilehti käytössä**: Ilmoitukset-sivulle tulee Sijoittelu-välilehti, jossa valitaan julkaisu, ja sen sivurakenne avautuu Sisu-monijulkaisusta. Välilehdellä ovat julkaisut, joiden **Ulkoinen ID** -kenttään on [Julkaisut](./julkaisut.md)-sivulla tallennettu julkaisun Sisu-tunnus.
+**Sijoittelu-välilehti käytössä**: [Ilmoitukset-sivulle](../Ilmoitukset/ilmoitukset-lista.md) tulee Sijoittelu-välilehti, jossa valitaan julkaisu, ja sen sivurakenne avautuu Sisu-monijulkaisusta. Välilehdellä ovat julkaisut, joiden **Ulkoinen ID** -kenttään on [Julkaisut](./julkaisut.md)-sivulla tallennettu julkaisun Sisu-tunnus.
 
 ## Asiakkaat
 
-**Uuden asiakkaan oletusmyyjä**: tämä käyttäjä valitaan asiakaskortin Myyjä-kenttään, kun asiakas lisätään. Käyttäjä voi vaihtaa myyjän. Vaihtoehtoina ovat käyttäjät, joiden rooli on myyjä.
+**Uuden asiakkaan oletusmyyjä**: tämä käyttäjä valitaan [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) Myyjä-kenttään, kun asiakas lisätään. Käyttäjä voi vaihtaa myyjän. Vaihtoehtoina ovat käyttäjät, joiden rooli on myyjä.
 
 ## Ilmoituspaikat
 
@@ -89,7 +89,7 @@ Jokaisella rivillä on:
 
 Raja saa täyttyä tasan. Kaikki julkaisun poistamattomat varaukset lasketaan, myös tyhjät varaukset. Muokattavaa varausta ei lasketa mukaan.
 
-**Mitä varaaja näkee:** varauslomakkeen, Lisää uusi varaus -ikkunan ja Kopioi-ikkunan julkaisulistassa näkyy paikan tilanne, esimerkiksi "Takasivu: varattu 1 800 / 2 160 pmm". Täysi julkaisu näkyy punaisena. Jos ilmoitus ei mahdu, näkyy varoitus, ja tallennettaessa kysytään *Varaa silti* / Peruuta. Raja ei siis estä varaamista, vaan varaaja päättää.
+**Mitä varaaja näkee:** [varauslomakkeen](../Ilmoitukset/ilmoitusvaraus.md), Lisää uusi varaus -ikkunan ja Kopioi-ikkunan julkaisulistassa näkyy paikan tilanne, esimerkiksi "Takasivu: varattu 1 800 / 2 160 pmm". Täysi julkaisu näkyy punaisena. Jos ilmoitus ei mahdu, näkyy varoitus, ja tallennettaessa kysytään *Varaa silti* / Peruuta. Raja ei siis estä varaamista, vaan varaaja päättää.
 
 Raja koskee vain lehtikanavia, ei nettiä tai radiota. Vanha TaikaTilaus ei tarkista rajoja. Jos taulukossa ei ole rivejä, toiminto ei ole käytössä.
 
@@ -101,7 +101,7 @@ Tallenna muutokset napsauttamalla **Tallenna TTPA-asetukset**.
 
 ## Muut ilmoitusten asetukset
 
-- **Euroalennus (Alennus EUR)** ja **varausvahvistus** otetaan käyttöön ylläpidon asetuksista. Jos et näe niitä lomakkeella, ota yhteyttä ylläpitoon.
-- Ilmoitusten alennussäännöt ylläpidetään asiakaskortin [Alennukset](../Asiakkaat/asiakaskortti/alennukset.md)-välilehdellä.
-- Microsoft 365 -aineistotuotanto määritetään sivulla [Asetukset → Muut asetukset → Microsoft 365](./muut-asetukset/microsoft-365.md).
-- Yhteislehdet määritetään sivulla [Julkaisut](./julkaisut.md) → Lyhenteet ja asetukset → Yhteislehdet.
+- [**Euroalennus (Alennus EUR)**](../Ilmoitukset/ilmoitusvaraus.md#alennus-eur) ja [**varausvahvistus**](../Ilmoitukset/ilmoitusvaraus.md#varausvahvistuksen-lähettäminen) otetaan käyttöön ylläpidon asetuksista. Jos et näe niitä lomakkeella, ota yhteyttä ylläpitoon.
+- Ilmoitusten alennussäännöt ylläpidetään [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) [Alennukset](../Asiakkaat/asiakaskortti/alennukset.md)-välilehdellä.
+- [Microsoft 365 -aineistotuotanto](./muut-asetukset/microsoft-365.md) määritetään sivulla [Asetukset → Muut asetukset → Microsoft 365](./muut-asetukset/microsoft-365.md).
+- Yhteislehdet määritetään sivulla [Julkaisut](./julkaisut.md) → Lyhenteet ja asetukset → [Yhteislehdet](./julkaisut.md#yhteislehdet).

@@ -15,9 +15,9 @@ Avaa sivu valitsemalla ylävalikosta **Asetukset → Tuotteet**.
 
 Valitse sivun yläreunasta tarkasteltava tuotetyyppi:
 
-- **Tilaustuotteet**
-- **Erillistuotteet**
-- **Myyntituotteet**.
+- [**Tilaustuotteet**](#tilaustuotteet)
+- [**Erillistuotteet**](#erillistuotteet)
+- [**Myyntituotteet**](#myyntituotteet).
 
 ## Tuotteen muokkaaminen
 
@@ -116,7 +116,7 @@ Valitse **Tuote on piilotettu**, jos tuotetta ei haluta näyttää tuotteiden va
 
 :::info HUOM!
 
-Osa kentistä voidaan piilottaa **Asetukset → Muut asetukset → Yleisasetukset** -sivulla (Tuotteet-sivun kentät): Tuotenumero, Tilauslaji, SKU-koodi, PortalID, Jatkotuote, Karenssi päivää, Digituote, Oikeuttaa digipalveluun ja Digipalvelu-kenttä. Jos et näe jotakin tässä ohjeessa mainittua kenttää, se on piilotettu.
+Osa kentistä voidaan piilottaa [**Asetukset → Muut asetukset → Yleisasetukset**](./muut-asetukset/yleisasetukset.md) -sivulla (Tuotteet-sivun kentät): Tuotenumero, Tilauslaji, SKU-koodi, PortalID, Jatkotuote, Karenssi päivää, Digituote, Oikeuttaa digipalveluun ja Digipalvelu-kenttä. Jos et näe jotakin tässä ohjeessa mainittua kenttää, se on piilotettu.
 :::
 
 ![Tilaustuotteen perustiedot ja piilotusvalinta](/img/versio2/tilaustuote.png)
@@ -363,6 +363,17 @@ Valitse tarvittaessa:
 - **Itsepalvelutuote**, jos tuote on käytettävissä itsepalvelussa.
 
 ![Myyntituotteen perustiedot sekä piilotus- ja itsepalveluvalinnat](/img/versio2/myyntituotteet4.png)
+
+#### Ilmoitusosastot
+
+Myyntituotteen **Perustiedot**-välilehdellä on **Ilmoitusosastot**-kohta. Siinä ovat tuotteen kanavan ilmoitusosastot valintaruutuina, esimerkiksi etusivu tai kuolinilmoitukset.
+
+- Valitut osastot rajaavat, mihin osastoon tuotteen varaus voidaan tehdä.
+- Jos et valitse mitään tai valitset kaikki, tuotteella voi käyttää kanavan kaikkia osastoja.
+- [Ilmoitusvarauslomakkeen](../Ilmoitukset/ilmoitusvaraus.md) ja Kopioi-ikkunan **Ilmoitusosasto**-valikossa ovat vain valitun tuotteen sallimat osastot. Kun vaihdat tuotetta, osasto tyhjenee, jos uusi tuote ei salli sitä.
+- Jos tallennetulla varauksella on jo osasto, jota tuote ei enää salli, se näkyy lomakkeella edelleen.
+- **Kopioi myyntituote** kopioi myös osastot.
+- [Ilmoitukset-listan](../Ilmoitukset/ilmoitukset-lista.md) Ilmoitusosasto-haku ja raportit näyttävät kaikki osastot.
 
 ### Kanavatyypin mukaiset kentät
 

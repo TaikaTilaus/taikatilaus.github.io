@@ -46,7 +46,7 @@ Ajosarakkeissa tila näkyy värillisenä merkkinä:
 - **Odottaa** (harmaa): ajolle on asetettu ajoaika, eikä ajoa ole vielä tehty. Teksti on "Odottaa 20.11.2026 18:00". Jos ajoaikaa ei ole, teksti on "Ei ajoaikaa".
 - **SUORITUKSESSA** (sininen): ajo on käynnissä.
 - **VALMIS** (vihreä): ajo on tehty. Tekstissä näkyy ajon valmistumisaika.
-- **VIRHE** (punainen): ajo epäonnistui. Postitusajon virhe estää myös LAPA-ajon. Avaa rivi ja katso virheen syy Ajojen lokista.
+- **VIRHE** (punainen): ajo epäonnistui. Postitusajon virhe estää myös LAPA-ajon. Avaa rivi ja katso virheen syy [Ajojen lokista](#ajojen-loki).
 
 Kun napsautat riviä, postituksen tiedot avautuvat muokattavaksi.
 
@@ -104,7 +104,7 @@ Sivu ilmoittaa: *"Suorituspyyntö asetettu. Ajo alkaa palvelimella seuraavalla t
 
 ## Postitusten luonti ja LAPA
 
-Kun teet postituksen **Postitusten luonti** -sivulla, ohjelma liittää postituksen saman ilmestymispäivän riville tässä näkymässä. 
+Kun teet postituksen [**Postitusten luonti**](./postitusten-luonti.md) -sivulla, ohjelma liittää postituksen saman ilmestymispäivän riville tässä näkymässä.
 
 Rivillä **Postitusajon tila** on **VALMIS** ja ohjelma tallentaa postituksen **LähetysID**:n, jonka LAPA-ajo lukee. Näin palvelin ei tee samaa postitusta uudestaan. 
 

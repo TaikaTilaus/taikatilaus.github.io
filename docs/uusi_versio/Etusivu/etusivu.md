@@ -10,7 +10,7 @@ Etusivulle on koottu yhteenveto asiakkaista, tilauksista ja laskuista sekä tied
 
 :::note 
 
-Mediasivusto: Jos käytössäsi on pelkästään ilmoitusten myynti, etusivuna on Ilmoitukset. Lukemattomat tiedotteet näkyvät sen yläpuolella. Tässä ohjeessa kuvatut tunnusluvut, tilausten kehityskortit, julkaisukalenteri ja muut yhteenvedot eivät silloin näy. 
+Mediasivusto: Jos käytössäsi on pelkästään ilmoitusten myynti, etusivuna on [Ilmoitukset](../Ilmoitukset/ilmoitukset-lista.md). Lukemattomat tiedotteet näkyvät sen yläpuolella. Tässä ohjeessa kuvatut tunnusluvut, tilausten kehityskortit, julkaisukalenteri ja muut yhteenvedot eivät silloin näy.
 
 :::
 
@@ -22,7 +22,7 @@ Sivun yläreunan päävalikosta pääset järjestelmän eri osioihin:
 
 - [**Asiakkaat**](/docs/uusi_versio/Asiakkaat)
 - [**Tilaukset**](/docs/uusi_versio/tilaukset)
-- **Ilmoitukset** (vain jos käytössänne on ilmoitusmyynti)
+- [**Ilmoitukset**](../Ilmoitukset/ilmoitukset-lista.md) (vain jos käytössänne on ilmoitusmyynti)
 - [**Laskut**](/docs/uusi_versio/Laskut/laskujen-haku)
 - [**Postitus**](/docs/uusi_versio/postitus/postitusten-haku)
 - [**Raportit**](/docs/uusi_versio/Raportit)
@@ -39,7 +39,7 @@ Päävalikon oikeassa reunassa ovat seuraavat pikatoiminnot:
 
 | Toiminto | Kuvaus |
 | --- | --- |
-| [**Keräilylista**](/docs/uusi_versio/Etusivu/kerailylista) | Avaa keräilylistan. Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän. |
+| [**Keräilylista**](/docs/uusi_versio/Etusivu/kerailylista) | Avaa [keräilylistan](./kerailylista.md). Kuvakkeen yhteydessä näkyvä numero kertoo keräilylistalla olevien asiakkaiden määrän. |
 | [**Historia**](/docs/uusi_versio/Etusivu/historia) | Avaa järjestelmän historian. |
 | [**Huomiot**](/docs/uusi_versio/Etusivu/huomiot) | Avaa huomiot. Kuvakkeen yhteydessä näkyvä numero kertoo käsittelemättömien huomioiden määrän. |
 | [**Käyttäjävalikko**](/docs/uusi_versio/Etusivu/omat-tiedot) | Napsauta käyttäjätunnustasi oikeassa reunassa. Valikosta pääset kohtiin [**Tiedot**](/docs/uusi_versio/Etusivu/omat-tiedot#käyttäjän-tiedot) (omat tietosi), [**Tiedotteet**](/docs/uusi_versio/Etusivu/omat-tiedot#tiedotteet) (kuitatut tiedotteet), **TaikaTilaus (vanha)** (avaa vanhan version uuteen välilehteen samoilla tunnuksilla) ja **Kirjaudu ulos**. Jos organisaatiollenne on otettu käyttöön Stripe, valikossa on myös **Stripe**.  |
@@ -152,7 +152,7 @@ Asetuksissa voit muokata seuraavia valintoja:
 Postitusyhteenvedossa näet postitusmäärät ilmestymispäivittäin ja lehdittäin. Ilmestymispäivät näkyvät vasemmassa sarakkeessa. Jokaisella lehdellä on kaksi saraketta:
 
 - **Tilauksia**: tilauksiin kuuluvien lehtien määrä.
-- **Lehtiä**: tilauksiin kuuluvat lehdet sekä vakioniput, irtonumerot, varalehdet ja peittojakelun lehdet.
+- **Lehtiä**: tilauksiin kuuluvat lehdet sekä [vakioniput](../postitus/postitusasetukset/vakioniput.md), irtonumerot, varalehdet ja peittojakelun lehdet.
 
 Kun lehtiä on monta, viimeisessä sarakkeessa näkyvät lehtien yhteismäärät (**Yht.**). Jos postitus on tehty uudelleen, näkyy vain viimeisin. Jos postituksia ei ole, taulukossa lukee "Ei postitusyhteenvetoa." Otsikon **kysymysmerkki** selittää sarakkeiden sisällön.
 

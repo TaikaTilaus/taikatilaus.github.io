@@ -99,11 +99,11 @@ Listan sarakkeet ovat samat kuin **Uusimmat varaukset** -listassa, mutta **Lisä
 
 ### Asiakkaiden vieminen keräilylistalle
 
-Molemmissa listoissa on **Vie keräilylistaan** -painike. Se lisää keräilylistalle listassa näkyvien varausten asiakkaat. 
+Molemmissa listoissa on **Vie keräilylistaan** -painike. Se lisää [keräilylistalle](../Etusivu/kerailylista.md) listassa näkyvien varausten asiakkaat.
 
 Painikkeen vieressä näkyy tulos, esimerkiksi **"8 asiakasta keräilylistalle (2 oli jo siellä)"**. Jos listassa ei ole lisättäviä asiakkaita, tulos on **"Ei lisättäviä asiakkaita"**. 
 
-Painike ei ole käytössä, kun lista on tyhjä. Keräilylistalla asiakkaiden lähteeksi merkitään Ilmoitusmyyntiyhteenveto.
+Painike ei ole käytössä, kun lista on tyhjä. [Keräilylistalla](../Etusivu/kerailylista.md) asiakkaiden lähteeksi merkitään Ilmoitusmyyntiyhteenveto.
 
 **Export**-valikosta voit viedä listassa näkyvät varaukset tiedostoksi. Vienti sisältää sarakkeet Varaus, Lisätty tai Ilmestyy, Asiakas, Myyjä, Kanava, Tuote, Tila ja Veroton myynti.
 

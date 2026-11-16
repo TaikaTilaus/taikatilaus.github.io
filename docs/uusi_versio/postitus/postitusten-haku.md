@@ -11,7 +11,7 @@ Hakuehtojen alapuolella näkyy, milloin valitulle lehdelle on viimeksi tehty [**
 
 Tarkista ennen postituksen käsittelyä, että kestotilausten jatko on tehty. Näin postitukseen tulevat mukaan myös kestotilaukset, joiden alkupäivä on esim. lehden ilmestymispäivä.
 
-Teksti on muotoa *"Lehden Esimerkkilehti viimeisin kestojatko on tehty 10.11.2026 08:15:02"*. Jos kestojatkoa ei löydy lokista, tilalla lukee *"kestojatkoa ei löydy lokista"*. Tee silloin kestojatko **Kestojatko**-sivulta.
+Teksti on muotoa *"Lehden Esimerkkilehti viimeisin kestojatko on tehty 10.11.2026 08:15:02"*. Jos kestojatkoa ei löydy lokista, tilalla lukee *"kestojatkoa ei löydy lokista"*. Tee silloin kestojatko [**Kestojatko**](./kestojatko.md)-sivulta.
 
 ![Postitusten hakunäkymä ja viimeisimmän kestojatkon ajankohta](/img/versio2/postitusten-haku.png)
 
@@ -87,7 +87,7 @@ Postitusyhteenvedosta näet, mistä postituksen kokonaismäärä muodostuu:
 - **Lehtiä lisätyissä vakionipuissa** – vakionippuihin lisättyjen lehtien määrä.
 - **Nippuihin lisättyjä varalehtiä** – nippuihin lisättyjen ylimääräisten varalehtien määrä.
 - **Nippuihin lisättyjä peittojakelun lehtiä** – peittojakelua varten lisättyjen lehtien määrä.
-- **Lehtiä yhteensä (päivä- ja varhaisjakelu, vakioniput, varalehdet, peittojakelu)** – postitukseen kuuluvien lehtien kokonaismäärä.
+- **Lehtiä yhteensä (päivä- ja varhaisjakelu, [vakioniput](./postitusasetukset/vakioniput.md), varalehdet, peittojakelu)** – postitukseen kuuluvien lehtien kokonaismäärä.
 
 ![Postituksen lehtimäärät ja lehtien kokonaismäärä](/img/versio2/postitusyhteenveto5.png)
 
@@ -110,7 +110,7 @@ Lisäksi näet varhaisjakelun lehtimäärät jakelutavoittain:
 
 **Nippukoot**-kohdassa näkyvät postituksessa muodostetut niput ja niiden lehtimäärät.
 
-Niput on ryhmitelty esimerkiksi päiväjakelun, varhaisjakelun ja vakionippujen mukaan. Riviltä näet nipun tunnisteen sekä siihen kuuluvien lehtien määrän.
+Niput on ryhmitelty esimerkiksi päiväjakelun, varhaisjakelun ja [vakionippujen](./postitusasetukset/vakioniput.md) mukaan. Riviltä näet nipun tunnisteen sekä siihen kuuluvien lehtien määrän.
 
 Nippukoon yhteydessä voidaan näyttää lisäksi:
 

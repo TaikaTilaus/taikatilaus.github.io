@@ -10,16 +10,16 @@ Ilmoitusvarauslomakkeella lisäät uuden ilmoitusvarauksen ja muokkaat tallennet
 
 Lomake avautuu, kun:
 
-- napsautat varausta [Ilmoitukset-listalla](./ilmoitukset-lista.md) tai asiakaskortin [Ilmoitusvaraukset / myynnit](../Asiakkaat/asiakaskortti/ilmoitusvaraukset.md) -osiossa
-- valitset listalla asiakkaan ja napsautat **Lisää varaus**, tai napsautat asiakaskortilla **+ Lisää varaus**
+- napsautat varausta [Ilmoitukset-listalla](./ilmoitukset-lista.md) tai [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) [Ilmoitusvaraukset / myynnit](../Asiakkaat/asiakaskortti/ilmoitusvaraukset.md) -osiossa
+- valitset listalla asiakkaan ja napsautat **Lisää varaus**, tai napsautat [asiakaskortilla](../Asiakkaat/asiakaskortti/index.md) **+ Lisää varaus**
 - luot [Lisää uusi varaus](./uusi-varaus-ja-kopiointi.md#lisaa-uusi-varaus) -ikkunassa yhden varauksen ja napsautat **Luo varaus ja siirry varauslomakkeelle**.
 
 Tallennetun varauksen otsikkona on asiakkaan numero ja nimi. Varauksella ilman asiakasta otsikko on *Tyhjä varaus (ei asiakasta)*.
 
 Otsikon vieressä ovat painikkeet:
 
-- **Ilmoitukset** (tai **Asiakaskortti**, jos tulit asiakaskortilta) palaa sivulle, jolta tulit.
-- **Asiakkaan tiedot** avaa asiakaskortin uuteen ikkunaan.
+- [**Ilmoitukset**](./ilmoitukset-lista.md) (tai [**Asiakaskortti**](../Asiakkaat/asiakaskortti/index.md), jos tulit asiakaskortilta) palaa sivulle, jolta tulit.
+- **Asiakkaan tiedot** avaa [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) uuteen ikkunaan.
 - **Vaihda asiakas** siirtää varauksen toiselle asiakkaalle. Ks. [Asiakkaan vaihtaminen](#asiakkaan-vaihtaminen).
 - **Asetukset** (vain pääkäyttäjä) avaa [Asetukset → Ilmoitukset](../asetukset/ilmoitukset.md) -sivun, jossa valitaan lomakkeella näkyvät kentät.
 
@@ -31,14 +31,14 @@ Lomakkeen osiot voi sulkea ja avata otsikkopalkin oikean reunan nuolesta.
 
 ## Myyntikielto
 
-Jos asiakaskortin Laskutustiedot-välilehdellä on asiakkaalle merkitty myyntikielto, uutta varausta ei voi tehdä. Sivulle tulee punainen viesti, jossa näkyy myyntikiellon syy. Olemassa olevaa varausta voi muokata.
+Jos [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) Laskutustiedot-välilehdellä on asiakkaalle merkitty myyntikielto, uutta varausta ei voi tehdä. Sivulle tulee punainen viesti, jossa näkyy myyntikiellon syy. Olemassa olevaa varausta voi muokata.
 
 ## Ilmoitusvaraus-osio
 
 Tallennetun varauksen ylimmässä osiossa ovat varauksen perustiedot:
 
 - **Tila** värillisenä merkkinä. Kynäkuvake avaa [tilan muutoksen](#tilan-muuttaminen).
-- **Myyntinumero**. Napsauta numeroa, niin myynti avautuu. Tyhjällä varauksella tässä lukee *ei myyntiä*.
+- **Myyntinumero**. Napsauta numeroa, niin myynti avautuu. [Myynti-sivun ohje](./myynti.md). Tyhjällä varauksella tässä lukee *ei myyntiä*.
 - **Lisätty** ja **Muutettu**: aika ja käyttäjä.
 - **Ulkoinen ID**, jos myynnillä on ulkoinen tunniste (esimerkiksi Pipedriven kaupan numero).
 
@@ -48,11 +48,11 @@ Jos myynnille on annettu pakettihinta, osiossa kerrotaan, että yksittäisen var
 
 ### Myyjä
 
-Uuden varauksen myyjä on asiakaskortin myyjä. Jos asetus *Käyttäjä oletusmyyjänä* on päällä, myyjä on kirjautunut käyttäjä, kun hänen roolinsa on myyjä. Voit vaihtaa myyjän varauskohtaisesti. Myyjän vaihto vaihtaa myös myynnin myyjän.
+Uuden varauksen myyjä on [asiakaskortin](../Asiakkaat/asiakaskortti/yhteystiedot.md#lisätiedot) myyjä. Jos asetus *Käyttäjä oletusmyyjänä* on päällä, myyjä on kirjautunut käyttäjä, kun hänen roolinsa on myyjä. Voit vaihtaa myyjän varauskohtaisesti. Myyjän vaihto vaihtaa myös myynnin myyjän.
 
 ### Materiaali
 
-Uuden varauksen lomakkeen alussa on **Materiaali**-valinta, jos asiakkaalla on aiempia materiaaleja tai Microsoft 365 -aineistotuotanto on käytössä. Valitse:
+Uuden varauksen lomakkeen alussa on **Materiaali**-valinta, jos asiakkaalla on aiempia materiaaleja tai [Microsoft 365 -aineistotuotanto](../asetukset/muut-asetukset/microsoft-365.md) on käytössä. Valitse:
 
 - **Uusi materiaali** (oletus), kun ilmoitus tehdään uutena, tai
 - asiakkaan aiempi materiaali, kun sama ilmoituspohja tulee uudelleen. Materiaali näkyy muodossa "materiaalinumero · koko · julkaisu · tekstin alku (N varausta)".
@@ -67,10 +67,20 @@ Microsoft 365 -aineistotuotantoa käyttävillä asiakkailla voit myös kirjoitta
 
 1. Valitse **Kanava**, esimerkiksi lehti.
 2. Valitse **Tuote**. Valikossa ovat valitun kanavan myyntituotteet. Kanavan vaihto tyhjentää tuotteen, julkaisun ja ilmoitusosaston.
-3. Valitse **Ilmoitusosasto**, jos tuotteella on osastoja. Osaston oma hinta korvaa pmm-hinnan.
+3. Valitse **Ilmoitusosasto**, jos tuotteella on osastoja. Valikossa ovat tuotteen sallimat osastot. Rajaus tehdään [Tuotteet-sivun](../asetukset/tuotteet.md) Myyntituotteet-kohdassa. Osaston oma hinta korvaa pmm-hinnan. [Ilmoitusosastot](../asetukset/tuotteet.md#ilmoitusosastot).
 4. Valitse **Julkaisu**. Uudella varauksella valikossa ovat tästä päivästä eteenpäin ilmestyvät julkaisut, ja ensimmäinen tuleva julkaisu on valittu valmiiksi. **Näytä vanhat julkaisut** näyttää myös menneet.
 
 Tuote on pakollinen. Jos tallennat varauksen ilman julkaisua, se jää tilaan ALUSTAVA, ja siitä varoitetaan.
+
+#### Julkaisun vaihtaminen
+
+Voit vaihtaa tallennetun varauksen julkaisun valitsemalla lomakkeella toisen julkaisun ja tallentamalla.
+
+- **Hinta säilyy** julkaisun vaihdossa.
+- **Aineistot siirtyvät:** varauksen tiedostokansio siirretään vanhan julkaisun kansiosta uuden julkaisun kansioon. Jos uudessa kansiossa on jo samanniminen tiedosto, sitä ei korvata. Tiedosto jää vanhaan kansioon, ja saat siitä varoituksen.
+- **Planner:** vanha julkaisu merkitään muuttuneeksi, jotta sen Planner-tiedot lähetetään uudelleen ilman siirrettyä varausta. Siirretty varaus tulee uuden julkaisun mukaan.
+
+Tarkista siirron jälkeen, että aineistot ovat varauksella.
 
 #### Useaan julkaisuun kerralla
 
@@ -139,7 +149,7 @@ Rivi-ilmoituksen hinta lasketaan rivimäärästä. Sopimushintaisen tuotteen (SH
 
 #### Asiakasalennus
 
-**Asiakasalennus**-valinta näkyy, kun asiakkaalle on tehty ilmoitusten alennussääntöjä, jotka sopivat varauksen tuotteeseen ja kanavaan. Alennussäännöt ylläpidetään asiakaskortin [Alennukset](../Asiakkaat/asiakaskortti/alennukset.md)-välilehdellä.
+**Asiakasalennus**-valinta näkyy, kun asiakkaalle on tehty ilmoitusten alennussääntöjä, jotka sopivat varauksen tuotteeseen ja kanavaan. Alennussäännöt ylläpidetään [asiakaskortin](../Asiakkaat/asiakaskortti/index.md) [Alennukset](../Asiakkaat/asiakaskortti/alennukset.md)-välilehdellä.
 
 - Uudella varauksella ja tuotetta vaihdettaessa tarkimmin sopiva sääntö valitaan valmiiksi, ja sen prosentti viedään **Alennusprosentti**-kenttään.
 - Voit valita toisen säännön tai **Ei asiakasalennusta**.
@@ -215,7 +225,7 @@ Normaalihinta säilyy, ja erotus tallentuu **Alennus EUR** -kenttään. Alennusp
 |---|---|
 | **Laskutustapa** | Milloin ja miten varaus laskutetaan. Uuden varauksen laskutustapa on asiakkaan oletus. Vaihtoehdot ks. alla. |
 | **Laskutuspäivä** | Lasku luodaan tänä päivänä. Ohittaa laskutustavan mukaisen päivän. |
-| **Tallenna valittu laskutustapa maksajan oletukseksi uusille ilmoitusvarauksille** | Tallentaa laskutustavan maksajan asiakaskortille. |
+| **Tallenna valittu laskutustapa maksajan oletukseksi uusille ilmoitusvarauksille** | Tallentaa laskutustavan maksajan [asiakaskortille](../Asiakkaat/asiakaskortti/index.md). |
 | **Varaus laskutetaan omanaan (ei koontilaskulla)** | Varaus laskutetaan omalla laskullaan. |
 | **Laskun maksaja** | Kuka laskun maksaa. Ks. alla. |
 
@@ -232,11 +242,11 @@ Jos myynnille on annettu pakettihinta, laskutustapaa ja laskutuspäivää ei voi
 
 #### Laskun maksaja
 
-Laskun maksaa yleensä varauksen tilaaja (*Tilaaja maksaa*). Jos asiakaskortilla on valittu laskutusosoite toisesta asiakkaasta, se näkyy tässä (*Laskutusosoite asiakkaalta: …*).
+Laskun maksaa yleensä varauksen tilaaja (*Tilaaja maksaa*). Jos [asiakaskortilla](../Asiakkaat/asiakaskortti/index.md) on valittu laskutusosoite toisesta asiakkaasta, se näkyy tässä (*Laskutusosoite asiakkaalta: …*).
 
 Valitse toinen maksaja napsauttamalla **Hae laskun maksajaa**. Valittu maksaja näkyy tekstinä *Eri maksaja: …*. Poista valinta napsauttamalla **Poista**.
 
-Varaus näkyy sekä tilaajan että maksajan asiakaskortilla.
+Varaus näkyy sekä tilaajan että maksajan [asiakaskortilla](../Asiakkaat/asiakaskortti/index.md).
 
 #### Maksajajako
 
@@ -276,7 +286,7 @@ Tallennetun varauksen **Tiedostot**-kohdassa ovat varauksen aineistot ja valmis 
 - **Kopioi aineisto aiemmasta ilmoituksesta**: valitse asiakkaan aiempi varaus listalta tai anna varauksen numero. Varauksen uusin valmis ilmoitus ja kaikki aineistotiedostot kopioidaan tälle varaukselle. Varauksella pitää olla julkaisu.
 - Lataa tiedosto napsauttamalla sen nimeä ja poista se roskakorikuvakkeella.
 
-Kun Microsoft 365 -aineistotuotanto on käytössä, **Lisää aineisto** -painiketta ei näytetä, koska ilmoituksen työtiedostot ovat SharePointissa (ks. [Valmistettava materiaali](#valmistettava-materiaali)). Asiakkaan itse toimittamat aineistot (tilauslomake, OmaPalvelu, aineistolinkki) tulevat varaukselle kuten ennenkin.
+Kun [Microsoft 365 -aineistotuotanto](../asetukset/muut-asetukset/microsoft-365.md) on käytössä, **Lisää aineisto** -painiketta ei näytetä, koska ilmoituksen työtiedostot ovat SharePointissa (ks. [Valmistettava materiaali](#valmistettava-materiaali)). Asiakkaan itse toimittamat aineistot (tilauslomake, OmaPalvelu, aineistolinkki) tulevat varaukselle kuten ennenkin.
 
 **Tiedostot tallentuvat heti, lomaketta ei tarvitse tallentaa.** Lomakkeen tallentamattomat muutokset säilyvät.
 
@@ -294,9 +304,29 @@ Jaetun aineiston varauksella:
 
 Jaetun aineiston varauksella on lisäksi **Jaettu aineisto** -kohta, jossa näkyvät ryhmän muut varaukset linkkeinä ja materiaalinumero. Menneet varaukset ovat kohdassa *Aiemmat*. **Irrota tämä varaus jaetusta aineistosta** irrottaa varauksen: jo lisätyt tiedostot jäävät, mutta myöhemmin lisätty aineisto ei enää tule sille.
 
+### Planner
+
+Jos asiakkaalla on Planner käytössä ja varauksen julkaisu kuuluu Planner-lehteen, hyväksytty valmis ilmoitus siirretään Planneriin erikseen hyväksytyn varauksen tiedostosta.
+
+Lomakkeella tilan vieressä on **Planner**-merkki:
+
+- **harmaa**: valmis ilmoitus siirtyy Planneriin, kun varaus on hyväksytty.
+- **vihreä**: ilmoitus on siirretty Planneriin. Merkissä näkyy siirtoaika.
+- **punainen**: varauksen ilmoitusosasto on tyhjä, joten Planner hylkäisi siirron. Anna ilmoitusosasto.
+
+Valmiin ilmoituksen PDF-tiedoston kohdalla on sama merkki.
+
+**Hyväksyntä edellyttää osastoa ja kokoa.** Planner-lehden varaus ei voi olla tilassa HYVÄKSYTTY, jos ilmoitusosasto puuttuu tai koko puuttuu (palstat ja korkeus tai rivi-ilmoituksen rivimäärä on 0):
+
+- Tallennettaessa tila jää tai palaa tilaan ILMOITUS_VALMIS. Kun annat osaston ja koon, tila muuttuu takaisin HYVÄKSYTYKSI.
+- **Muuta tilaa** ei salli HYVÄKSYTTY-tilaa tällaiselle varaukselle.
+- Tallennus kysyy *Ilmoituksesta puuttuu tietoja*, mutta voit tallentaa napsauttamalla **Tallenna silti**.
+
+Kun lisäät varaukselle PDF-aineiston ja varaukselle on merkitty *Aineisto on valmis ilmoitukseksi*, PDF tallennetaan valmiina ilmoituksena ja varaus hyväksytään. Muut kuin PDF-tiedostot jäävät aineistoksi.
+
 ### Valmistettava materiaali
 
-**Valmistettava materiaali** -kohta näkyy, kun Microsoft 365 -aineistotuotanto on käytössä. Taittaja tekee ilmoituksen InDesignissa materiaalinumeron mukaiseen tiedostoon ja tallentaa valmiin PDF:n samaan SharePoint-kansioon. PDF tuodaan automaattisesti materiaalin tänään ja myöhemmin ilmestyville varauksille valmiiksi ilmoitukseksi.
+**Valmistettava materiaali** -kohta näkyy, kun [Microsoft 365 -aineistotuotanto](../asetukset/muut-asetukset/microsoft-365.md) on käytössä. Taittaja tekee ilmoituksen InDesignissa materiaalinumeron mukaiseen tiedostoon ja tallentaa valmiin PDF:n samaan SharePoint-kansioon. PDF tuodaan automaattisesti materiaalin tänään ja myöhemmin ilmestyville varauksille valmiiksi ilmoitukseksi.
 
 Kohdassa näkyvät:
 
@@ -364,9 +394,9 @@ Painikkeet ovat lomakkeen ylä- ja alareunassa. Pääkäyttäjä voi valita aset
 | Painike | Toiminto |
 |---|---|
 | **Tallenna** | Tallentaa varauksen. |
-| **Tallenna ja palaa listaan** | Tallentaa ja palaa listalle. Jos tulit asiakaskortilta, painike on **Tallenna ja palaa asiakkaaseen**. |
+| **Tallenna ja palaa listaan** | Tallentaa ja palaa listalle. Jos tulit [asiakaskortilta](../Asiakkaat/asiakaskortti/index.md), painike on **Tallenna ja palaa asiakkaaseen**. |
 | **Peruuta** | Palaa tallentamatta. |
-| **Näytä myynti** | Avaa varauksen myynnin. |
+| **Näytä myynti** | Avaa varauksen myynnin. [Myynti-sivun ohje](./myynti.md). |
 | **Tulosta** | Rakenteilla. |
 | **Lähetä varausvahvistus** | Lähettää asiakkaalle varausvahvistuksen sähköpostilla. Näkyy vain, jos varausvahvistus on otettu käyttöön. |
 | **Muuta tilaa** | Vaihtaa varauksen tilan. |
@@ -374,6 +404,41 @@ Painikkeet ovat lomakkeen ylä- ja alareunassa. Pääkäyttäjä voi valita aset
 | **Poista** | Poistaa varauksen. Poisto kysyy vahvistuksen. Myynti ja laskutuspyynnöt jäävät, mutta poistettua varausta ei laskuteta. |
 
 Uudella varauksella ovat vain Tallenna-, Tallenna ja palaa- ja Peruuta-painikkeet.
+
+### Varausvahvistuksen lähettäminen
+
+**Lähetä varausvahvistus** -painike näkyy vain, jos ylläpito on ottanut varausvahvistuksen käyttöön. Painike toimii vain tallennetulla varauksella. Jos lomakkeella on tallentamattomia muutoksia, ohjelma kysyy niistä, koska viesti tehdään tallennetusta varauksesta.
+
+Painike avaa ikkunan, jossa voit muokata kaikkea ennen lähetystä:
+
+- **Lähettäjä** ja **Piilokopio**: oletuksena oma sähköpostiosoitteesi. Ohjelma muistaa viimeksi käyttämäsi arvot.
+- **Vastaanottaja**: varauksen *Varausvahvistuksen saaja*, jos hänet on valittu, muuten myynnin asiakas. Jos osoitetta ei ole, kentässä lukee `[EI SÄHKÖPOSTIA]`.
+- **Otsikko** ja **Viesti**: tulevat asiakkaan viestipohjasta. Jos pohjaa ei ole, käytetään oletuspohjaa, ja ikkuna kertoo siitä.
+
+Napsauta **Esikatsele**, niin näet viestin tiedot täytettyinä ja ohjelma tarkistaa kentät: lähettäjän ja vastaanottajan osoitteen pitää olla kelvollinen, otsikossa pitää olla vähintään 10 merkkiä ja viestissä vähintään 100 merkkiä. Piilokopio voi olla tyhjä. **Lähetä varausvahvistus** lähettää viestin. Lähetys kirjataan varauksen muutoslokiin.
+
+#### Viestipohjan tagit
+
+Tagit toimivat sekä otsikossa että viestissä, ja ohjelma korvaa ne varauksen tiedoilla:
+
+| Tagi | Sisältö |
+|---|---|
+| `[VARAUSNUMERO]` | Varauksen numero. |
+| `[ETUNIMI]` | Vastaanottajan etunimi. |
+| `[ASIAKKAAN_TIEDOT]` | Asiakkaan numero ja nimi, osoite, sähköposti ja puhelin. |
+| `[MAKSAJAN_TIEDOT]` | Maksajan tiedot, laskutusviite ja laskun toimitustapa. Tyhjä, jos asiakas maksaa itse. |
+| `[TUOTE]` | Myyntituote. |
+| `[JULKAISU]` | Julkaisun nimi, numero ja ilmestymispäivä. |
+| `[KOKO]` | Lehdessä palstat ja korkeus, netissä näyttömäärä ja aika, radiossa spotit, kesto ja aika, ilmoitustaululla aika. |
+| `[ILMOITUSOSASTO]` tai `[ILMOSASTO]` | Ilmoitusosaston nimi. |
+| `[AINEISTOPAIVA]` | Aineistopäivä. |
+| `[TOISTONTIEDOT]` | Varauksen toiston tiedot. |
+| `[HINTA]` ja `[VEROLLINEN_HINTA]` | Veroton ja verollinen hinta. |
+| `[LASKUTUSTAPA]` | Laskutustapa lomakkeen tekstillä. |
+| `[LISÄTIEDOT_LASKUN_TUOTERIVILLE]` | Laskun tuoterivin lisätiedot. |
+| `[LEHTI]` | Lehden nimi. |
+
+Netti-, radio- ja ilmoitustaulukanavilla viestistä poistetaan julkaisun, ilmoitusosaston ja toiston rivit.
 
 ### Mitä tallennus tekee
 
@@ -398,11 +463,11 @@ Lomakkeen alareunassa on varauksen **muutosloki**.
 
 Listalla tilat näytetään [Asetukset → Listat](../asetukset/listat.md) -sivun kirjainkokovalinnan mukaan.
 
-Uuden varauksen tila päätellään tallennettaessa. Tallennetun varauksen muokkaus ei muuta tilaa. Tiedoston lisäys tai poisto päättelee tilan uudelleen. Esimerkiksi valmiin ilmoituksen lisäys tekee varauksesta HYVÄKSYTTY.
+Uuden varauksen tila päätellään tallennettaessa. Tallennetun varauksen muokkaus ei yleensä muuta tilaa. Planner-lehden varauksen hyväksyntä edellyttää ilmoitusosastoa ja kokoa. [Plannerin hyväksyntäehdot](#planner). Tiedoston lisäys tai poisto päättelee tilan uudelleen. Esimerkiksi valmiin ilmoituksen lisäys tekee varauksesta HYVÄKSYTTY.
 
 ### Tilan muuttaminen
 
-Muuta tilaa käsin napsauttamalla **Muuta tilaa** tai tilan vieressä olevaa kynäkuvaketta. Valitse **Uusi tila** ja tallenna. Voit muuttaa usean varauksen tilan kerralla Ilmoitukset-listan [Valituille](./ilmoitukset-lista.md#valituille-toiminnot)-valikosta.
+Muuta tilaa käsin napsauttamalla **Muuta tilaa** tai tilan vieressä olevaa kynäkuvaketta. Valitse **Uusi tila** ja tallenna. Voit muuttaa usean varauksen tilan kerralla [Ilmoitukset-listan](./ilmoitukset-lista.md) [Valituille](./ilmoitukset-lista.md#valituille-toiminnot)-valikosta.
 
 ## Asiakkaan vaihtaminen
 
