@@ -89,12 +89,12 @@ Valinnat tehdään erikseen kahdelle henkilölle:
 
 | Kenttä | Maksaja | Lahjan saaja |
 |---|---|---|
-| Etunimi, sukunimi, katuosoite, postinumero, postitoimipaikka | aina näkyvissä ja pakollisia | aina näkyvissä ja pakollisia |
-| Sähköposti | aina näkyvissä ja pakollinen | näkyvissä, pakollisuus valittavissa |
-| Yritys | näkyvyys ja pakollisuus | ei kenttää |
-| Syntymävuosi | näkyvyys ja pakollisuus | ei kenttää |
-| Katunumero, maa, puhelin | näkyvyys ja pakollisuus | näkyvyys ja pakollisuus |
-| Porras, huoneisto | näkyvyys | näkyvyys |
+| **Etunimi, sukunimi, katuosoite, postinumero, postitoimipaikka** | aina näkyvissä ja pakollisia | aina näkyvissä ja pakollisia |
+| **Sähköposti** | aina näkyvissä ja pakollinen | näkyvissä, pakollisuus valittavissa |
+| **Yritys** | näkyvyys ja pakollisuus | ei kenttää |
+| **Syntymävuosi** | näkyvyys ja pakollisuus | ei kenttää |
+| **Katunumero, maa, puhelin** | näkyvyys ja pakollisuus | näkyvyys ja pakollisuus |
+| **Porras, huoneisto** | näkyvyys | näkyvyys |
 
 Osoitekenttien poikkeus on kuvattu alla kohdassa [**Digituotteet ilman osoitekenttiä**](#digituotteet-ilman-osoitekenttiä).
 

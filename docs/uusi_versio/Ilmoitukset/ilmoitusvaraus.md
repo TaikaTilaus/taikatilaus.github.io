@@ -182,8 +182,8 @@ Kun teet varauksen useaan julkaisuun ja annat alennusprosentin, valitse **Alennu
 
 | Nimike | A-hinta | Netto |
 |---|---|---|
-| Ilmoitus 2x50 pmm | 1 234,00 | 1 234,00 |
-| Alennus | −200,00 | −200,00 |
+| **Ilmoitus 2x50 pmm** | 1 234,00 | 1 234,00 |
+| **Alennus** | −200,00 | −200,00 |
 | **Yhteensä** | | **1 034,00** |
 
 Näin asiakas näkee alkuperäisen hinnan ja alennuksen.
@@ -423,20 +423,20 @@ Tagit toimivat sekä otsikossa että viestissä, ja ohjelma korvaa ne varauksen 
 
 | Tagi | Sisältö |
 |---|---|
-| `[VARAUSNUMERO]` | Varauksen numero. |
-| `[ETUNIMI]` | Vastaanottajan etunimi. |
-| `[ASIAKKAAN_TIEDOT]` | Asiakkaan numero ja nimi, osoite, sähköposti ja puhelin. |
-| `[MAKSAJAN_TIEDOT]` | Maksajan tiedot, laskutusviite ja laskun toimitustapa. Tyhjä, jos asiakas maksaa itse. |
-| `[TUOTE]` | Myyntituote. |
-| `[JULKAISU]` | Julkaisun nimi, numero ja ilmestymispäivä. |
-| `[KOKO]` | Lehdessä palstat ja korkeus, netissä näyttömäärä ja aika, radiossa spotit, kesto ja aika, ilmoitustaululla aika. |
-| `[ILMOITUSOSASTO]` tai `[ILMOSASTO]` | Ilmoitusosaston nimi. |
-| `[AINEISTOPAIVA]` | Aineistopäivä. |
-| `[TOISTONTIEDOT]` | Varauksen toiston tiedot. |
-| `[HINTA]` ja `[VEROLLINEN_HINTA]` | Veroton ja verollinen hinta. |
-| `[LASKUTUSTAPA]` | Laskutustapa lomakkeen tekstillä. |
-| `[LISÄTIEDOT_LASKUN_TUOTERIVILLE]` | Laskun tuoterivin lisätiedot. |
-| `[LEHTI]` | Lehden nimi. |
+| **`[VARAUSNUMERO]`** | Varauksen numero. |
+| **`[ETUNIMI]`** | Vastaanottajan etunimi. |
+| **`[ASIAKKAAN_TIEDOT]`** | Asiakkaan numero ja nimi, osoite, sähköposti ja puhelin. |
+| **`[MAKSAJAN_TIEDOT]`** | Maksajan tiedot, laskutusviite ja laskun toimitustapa. Tyhjä, jos asiakas maksaa itse. |
+| **`[TUOTE]`** | Myyntituote. |
+| **`[JULKAISU]`** | Julkaisun nimi, numero ja ilmestymispäivä. |
+| **`[KOKO]`** | Lehdessä palstat ja korkeus, netissä näyttömäärä ja aika, radiossa spotit, kesto ja aika, ilmoitustaululla aika. |
+| **`[ILMOITUSOSASTO]` tai `[ILMOSASTO]`** | Ilmoitusosaston nimi. |
+| **`[AINEISTOPAIVA]`** | Aineistopäivä. |
+| **`[TOISTONTIEDOT]`** | Varauksen toiston tiedot. |
+| **`[HINTA]` ja `[VEROLLINEN_HINTA]`** | Veroton ja verollinen hinta. |
+| **`[LASKUTUSTAPA]`** | Laskutustapa lomakkeen tekstillä. |
+| **`[LISÄTIEDOT_LASKUN_TUOTERIVILLE]`** | Laskun tuoterivin lisätiedot. |
+| **`[LEHTI]`** | Lehden nimi. |
 
 Netti-, radio- ja ilmoitustaulukanavilla viestistä poistetaan julkaisun, ilmoitusosaston ja toiston rivit.
 
