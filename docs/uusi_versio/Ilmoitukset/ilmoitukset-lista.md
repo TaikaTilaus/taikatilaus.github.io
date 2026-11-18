@@ -24,7 +24,7 @@ Hakurivillä ovat useimmin käytetyt hakuehdot:
 | **Varausnro** | Hakee yhden varauksen numerolla. Varausnumero haetaan kaikista varauksista muista hakuehdoista riippumatta. |
 | **Vapaa haku** | Asiakasnumero, asiakkaan nimi tai yritys tai ilmoituksen koko. |
 | **Kanava** | Yksi tai useampi kanava, esimerkiksi lehti, netti tai radio. |
-| **Julkaisu** | Yksi tai useampi julkaisu eli lehden numero, esimerkiksi "Esimerkkilehti 12 18.3.2026". |
+| **Julkaisu** | Yksi tai useampi julkaisu eli lehden numero, esimerkiksi "TaikaNakka 12 18.3.2026". Jos ylläpito on ottanut käyttöön [kalenteriviikon näytön](../asetukset/ilmoitukset.md#julkaisuvalinta), julkaisu näkyy viikolla, esimerkiksi "TaikaNakka vk 12 18.3.2026". |
 
 **Hae**-painike tai **Enter** hakee. Kanava- ja Julkaisu-valikko hakevat heti, kun suljet valikon muutoksen jälkeen.
 
@@ -93,9 +93,11 @@ Valikot hakevat heti, kun suljet ne, ja valintaruudut heti, kun napsautat niitä
 Lisähakuehtojen alaosassa voit valita asiakkaan:
 
 1. Napsauta **Valitse asiakas** ja hae asiakas.
-2. Valitse **Näytä vain asiakkaan varaukset**, niin listalla ovat vain ne varaukset, joissa asiakas on varaajana tai maksajana.
+2. Kun valitset asiakkaan, lista haetaan heti, ja listalla ovat vain ne varaukset, joissa asiakas on varaajana tai maksajana. **Näytä vain asiakkaan varaukset** on silloin valmiiksi ruksattuna.
 
-Asiakkaan valinta ei yksin rajaa listaa. Valinta säilyy, vaikka tyhjennät hakuehdot **Tyhjennä hakuehdot** -painikkeella. Poista valinta napsauttamalla **Poista asiakkaan valitseminen**.
+Jos haluat nähdä kaikkien asiakkaiden varaukset mutta pitää asiakkaan valittuna (esimerkiksi **Lisää varaus** -painiketta varten), poista ruksi kohdasta **Näytä vain asiakkaan varaukset**.
+
+Asiakkaan valinta ja ruksi säilyvät, vaikka tyhjennät hakuehdot **Tyhjennä hakuehdot** -painikkeella. Poista valinta napsauttamalla **Poista asiakkaan valitseminen**.
 
 Kun asiakas on valittu, voit:
 

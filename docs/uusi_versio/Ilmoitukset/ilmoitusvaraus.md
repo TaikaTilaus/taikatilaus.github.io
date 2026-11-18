@@ -294,6 +294,7 @@ Tiedoston vieressä voi olla merkkejä:
 
 - **Jaettu · N varausta**: tiedosto kuuluu jaettuun aineistoon. Vie hiiri merkin päälle, niin näet varausnumerot.
 - **OneDrive · automaattinen**: valmis ilmoitus on tuotu automaattisesti OneDrivesta. **Lisätty käsin**: tiedosto on lisätty TaikaTilauksessa.
+- **Päivittyy SharePointista d.M. asti** tai **Päivittyy SharePointista vielä tänään**: valmis ilmoitus päivittyy automaattisesti, kun taittaja tallentaa uuden PDF:n SharePointiin. **Ei enää päivity SharePointista**: julkaisun ilmestymispäivä on mennyt, joten painoon mennyt versio jää varaukselle. Merkki näkyy vain, kun Microsoft 365 -aineistotuotanto ja automaattinen tuonti ovat käytössä.
 
 Jaetun aineiston varauksella:
 
@@ -355,6 +356,8 @@ Taittaja voi myös tehdä ilmoituksen InDesignissa ja tallentaa sen kohdassa nä
 
 #### Valmis ilmoitus SharePointista
 
+PDF päivittyy valmiiksi ilmoitukseksi julkaisupäivän loppuun asti. Sen jälkeen uutta PDF:ää ei enää tuoda varaukselle automaattisesti. Kun automaattinen tuonti on käytössä, Valmistettava materiaali -kohdassa näkyy lause, mihin päivään asti PDF päivittyy. Voit silti lisätä valmiin ilmoituksen käsin painikkeella **Lisää valmis ilmoitus**.
+
 PDF tuodaan valmiiksi ilmoitukseksi **kaikille** materiaalin varauksille, jotka ilmestyvät tänään tai myöhemmin, ja uusi PDF korvaa niiden aiemman valmiin ilmoituksen. Jos yhden julkaisun ilmoitus poikkeaa muista, anna sille oma materiaali (**Kopioi materiaali aiemmasta**).
 
 Jos PDF on SharePointissa, mutta sitä ei ole vielä tuotu varaukselle, **Hae valmis ilmoitus SharePointista** lisää sen varauksen valmiiksi ilmoitukseksi. Näin käy esimerkiksi, kun varaus on tehty vasta PDF:n tallentamisen jälkeen. Painike ei näy, jos varauksella on jo valmis ilmoitus tai sen julkaisu on jo ilmestynyt.
@@ -401,9 +404,20 @@ Painikkeet ovat lomakkeen ylä- ja alareunassa. Pääkäyttäjä voi valita aset
 | **Lähetä varausvahvistus** | Lähettää asiakkaalle varausvahvistuksen sähköpostilla. Näkyy vain, jos varausvahvistus on otettu käyttöön. |
 | **Muuta tilaa** | Vaihtaa varauksen tilan. |
 | **Kopioi** | Kopioi varauksen. Ks. [Varauksen kopiointi](./uusi-varaus-ja-kopiointi.md#varauksen-kopiointi). |
-| **Poista** | Poistaa varauksen. Poisto kysyy vahvistuksen. Myynti ja laskutuspyynnöt jäävät, mutta poistettua varausta ei laskuteta. |
+| **Poista** | Poistaa varauksen. Poisto kysyy vahvistuksen. Myynti ja laskutuspyynnöt jäävät, mutta poistettua varausta ei laskuteta. Ks. [Varauksen poistaminen](#varauksen-poistaminen). |
 
 Uudella varauksella ovat vain Tallenna-, Tallenna ja palaa- ja Peruuta-painikkeet.
+
+### Varauksen poistaminen {#varauksen-poistaminen}
+
+Poisto kysyy aina vahvistuksen. Se poistaa varauksen, mutta myynti ja laskutuspyynnöt jäävät, ja poistettua varausta ei laskuteta.
+
+Jos [Microsoft 365 -aineistotuotanto](../asetukset/muut-asetukset/microsoft-365.md) on käytössä ja varauksen materiaalia ei ole liitetty muihin varauksiin, vahvistusikkuna näyttää materiaalin tiedostot SharePointissa (`<materiaalinumero>_.indd`, `<materiaalinumero>_pdf.pdf` ja `<materiaalinumero>_.pdf`). Valitse:
+
+- **Poista varaus ja materiaali** (oletus): poistaa varauksen ja materiaalin tiedostot SharePointista. Tiedostot siirtyvät SharePointin roskakoriin, ja ne voi palauttaa sieltä.
+- **Poista vain varaus**: jättää materiaalin tiedostot SharePointiin.
+
+Jos materiaalia käyttää jokin muu varaus, tiedostoja ei poisteta, ja vahvistus kertoo siitä. Sama koskee tilannetta, jossa SharePointia ei voi lukea. Materiaalinumero jää käyttöön, eikä sitä anneta uudelleen.
 
 ### Varausvahvistuksen lähettäminen
 

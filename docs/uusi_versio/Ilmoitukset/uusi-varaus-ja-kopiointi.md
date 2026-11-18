@@ -78,8 +78,9 @@ Tyhjä varaus on varaus ilman asiakasta ja myyntiä. Tyhjillä varauksilla lisä
 ### Tyhjien varausten liittäminen asiakkaalle
 
 1. Avaa [Ilmoitukset-listalla](./ilmoitukset-lista.md) **Lisähakuehdot** ja napsauta **Valitse asiakas**.
-2. Valitse listalla tyhjät varaukset rivin alun valintaruuduilla.
-3. Napsauta **Liitä valitut tyhjät varaukset asiakkaalle**.
+2. Poista ruksi kohdasta **Näytä vain asiakkaan varaukset**, jotta myös tyhjät varaukset näkyvät listalla.
+3. Valitse listalla tyhjät varaukset rivin alun valintaruuduilla.
+4. Napsauta **Liitä valitut tyhjät varaukset asiakkaalle**.
 
 Jokainen varaus liitetään asiakkaalle omalla myynnillään. Tila, hinnat, myyjä ja laskutustapa säilyvät. Varaukset, joilla on jo myynti tai maksaja, ohitetaan.
 
@@ -98,7 +99,7 @@ Ikkunan otsikkona on *Kopioi ilmoitusvaraus N*.
 
 1. Jätä **Kanava**-valinnaksi varauksen kanava (merkintä *sama kuin varauksella*).
 2. Valitse julkaisut **Julkaisupäivät**-listalta. Listalla ovat tulevat julkaisut. **Näytä vanhat** näyttää myös menneet.
-3. Valitse tarvittaessa **Kopioi myös aineisto** ja **Liitä samaan jaettuun aineistoon**. Ks. alla.
+3. Valitse **Aineisto**: **Ei aineistoa**, **Kopioi myös aineisto** tai **Liitä samaan jaettuun aineistoon**. Ks. [Aineisto](#aineisto-ja-jaettu-aineisto).
 4. Napsauta **Kopioi N julkaisulle**.
 
 Jokaiselle valitulle julkaisulle luodaan oma varaus samoilla tiedoilla. Vain julkaisu, sen päivät ja tila muuttuvat, ja tila päätellään kuten uudella varauksella.
@@ -125,24 +126,31 @@ Vaihtoilmoituskanavalla julkaisulistan tilalla on **Julkaisupäivä**, ja kopio 
 
 Samassa kanavassa päivät ovat valinnaisia: jos et anna niitä, tehdään yksi kopio samoilla päivillä, ja siirryt suoraan kopioon. Toiseen kanavaan kopioitaessa päivät ovat pakollisia.
 
-### Aineisto ja jaettu aineisto
+### Aineisto ja jaettu aineisto {#aineisto-ja-jaettu-aineisto}
 
-- **Kopioi myös aineisto (valmis ilmoitus ja aineistotiedostot):** kopio saa alkuperäisen varauksen uusimman valmiin ilmoituksen ja kaikki aineistotiedostot omilla nimillään. Aineisto kopioidaan vain, kun valitset julkaisut tai annat päivät.
-- **Liitä samaan jaettuun aineistoon:** kopiot liitetään alkuperäisen varauksen jaettuun aineistoon ja saavat sen jaetut tiedostot. Myöhemmin lisätty aineisto menee kaikille tuleville varauksille. Jos alkuperäinen varaus ei ole jaetussa aineistossa, siitä ja kopioista tehdään uusi jaettu aineisto. Valinta on oletuksena päällä, kun alkuperäinen varaus on jo jaetussa aineistossa. Se toimii myös toiseen kanavaan kopioitaessa ("sama mainos moneen lehteen").
+Kopioi-ikkunassa valitset, mitä aineistolle tehdään. Voit valita vain yhden vaihtoehdon. Jokaisen vaihtoehdon alla on lyhyt ohje, ja **?**-painike avaa tarkemman selityksen.
 
-Kun molemmat on valittu, jaetut tiedostot tulevat jaetusta aineistosta ja muut tiedostot kopioidaan.
+| Valinta | Mitä kopioille tapahtuu |
+|---|---|
+| **Ei aineistoa** | Kopiot saavat tyhjän aineiston. Kopioilla ei ole valmista ilmoitusta eikä aineistotiedostoja. |
+| **Kopioi myös aineisto** | Jokainen kopio saa omat kopiot alkuperäisen varauksen uusimmasta valmiista ilmoituksesta ja kaikista aineistotiedostoista. Kopioita voi muokata erikseen. |
+| **Liitä samaan jaettuun aineistoon** | Kopiot käyttävät alkuperäisen varauksen jaettua aineistoa. Kun aineisto lisätään tai korvataan yhdellä varauksella, se muuttuu kaikille ryhmän tuleville varauksille. Kopiot saavat vain jaetut tiedostot, ei varauksen omia tiedostoja. |
 
-Microsoft 365 -aineistotuotantoa käyttävillä asiakkailla jokainen kopio saa materiaalinumeron (ks. [Valmistettava materiaali](./ilmoitusvaraus.md#valmistettava-materiaali)):
+Oletus on **Liitä samaan jaettuun aineistoon**, kun alkuperäinen varaus kuuluu jo jaettuun aineistoon (esimerkiksi toistuva ilmoitus). Muuten oletus on **Ei aineistoa**.
 
-- **Liitä samaan jaettuun aineistoon:** kopiot käyttävät alkuperäisen varauksen materiaalia ja sen InDesign-tiedostoa. Kun taittaja vie materiaalista uuden PDF:n, se tulee kaikille materiaalin tuleville varauksille.
-- **Kopioi myös aineisto** ilman liitosta: jokainen kopio saa oman materiaalinumeron, ja alkuperäisen materiaalin InDesign-tiedosto kopioidaan SharePointissa kunkin kopion tiedostoksi. Kopiota voi muokata erikseen, eikä muutos muuta alkuperäistä. Jos alkuperäisellä materiaalilla ei ole InDesign-tiedostoa, mitään ei kopioida.
-- Ilman kumpaakaan valintaa kopio saa uuden materiaalinumeron ilman InDesign-tiedostoa.
+Jos alkuperäinen varaus ei ole jaetussa aineistossa ja valitset **Liitä samaan jaettuun aineistoon**, alkuperäisestä ja kopioista tehdään uusi jaettu aineisto. Valinta toimii myös toiseen kanavaan kopioitaessa, kun sama mainos julkaistaan useassa lehdessä.
+
+**[Microsoft 365 -aineistotuotantoa](../asetukset/muut-asetukset/microsoft-365.md) käyttävillä asiakkailla:**
+
+- **Liitä samaan jaettuun aineistoon**: kopiot käyttävät alkuperäisen varauksen materiaalia ja sen InDesign-tiedostoa. Kun taittaja vie materiaalista uuden PDF:n, se tulee kaikille materiaalin tuleville varauksille.
+- **Kopioi myös aineisto**: jokainen kopio saa oman materiaalinumeron, ja alkuperäisen materiaalin InDesign-tiedosto kopioidaan SharePointissa kunkin kopion tiedostoksi. Kopiota voi muokata erikseen, eikä muutos muuta alkuperäistä. Jos alkuperäisellä materiaalilla ei ole InDesign-tiedostoa, mitään ei kopioida.
+- **Ei aineistoa**: kopio saa uuden materiaalinumeron ilman InDesign-tiedostoa.
 
 ### Mitä kopioidaan
 
 - Kopio kuuluu samaan myyntiin kuin alkuperäinen varaus.
 - Kaikki tiedot kopioidaan paitsi hyväksyntätiedot, lokit ja siirtotiedot.
-- Tiedostot kopioidaan vain **Kopioi myös aineisto** -valinnalla.
+- Tiedostot kopioidaan vain, kun valitset **Kopioi myös aineisto**. **Liitä samaan jaettuun aineistoon** -valinnalla kopiot saavat vain jaetut tiedostot.
 - Asiakasalennuksen tiedot eivät kopioidu, mutta alennusprosentti ja euroalennus kopioituvat.
 - Kopio saa oman laskutuspyyntönsä kuten uusi varaus.
 

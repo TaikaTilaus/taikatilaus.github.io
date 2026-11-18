@@ -33,6 +33,23 @@ Kanava, tuote, julkaisu, Normaalihinta ja lopulliset hinnat ovat aina näkyviss�
 
 **Näytä kaikki** palauttaa kaikki kentät näkyviin.
 
+### Julkaisuvalinta
+
+**Näytä julkaisuvalinnoissa kalenteriviikko lehden numeron sijaan** -valinta muuttaa julkaisujen näyttötavan:
+
+- valinta pois päältä (oletus): *TaikaNakka 46/2026 18.11.2026*
+- valinta päällä: *TaikaNakka vk 47 18.11.2026*. Viikko on ilmestymispäivän kalenteriviikko.
+
+Valinta koskee valikoita, joista julkaisu valitaan:
+
+- [ilmoitusvarauslomake](../Ilmoitukset/ilmoitusvaraus.md)
+- [**Kopioi**-ikkuna](../Ilmoitukset/uusi-varaus-ja-kopiointi.md#varauksen-kopiointi)
+- [Ilmoitukset-listan **Julkaisu**-hakuehto](../Ilmoitukset/ilmoitukset-lista.md#kanava-ja-julkaisu)
+- [alennussääntöjen julkaisuvalinta](../Asiakkaat/asiakaskortti/alennukset.md#ilmoitusten-alennussäännöt)
+- [**Sijoittelu**-välilehti](../Ilmoitukset/ilmoitukset-lista.md#sijoittelu).
+
+Listojen sarakkeissa, raporteissa ja laskuilla näkyy edelleen lehden numero.
+
 ### Toimintopainikkeet
 
 Valitse, missä lomakkeen Tallenna-, Peruuta- ja muut painikkeet ovat: **Ylhäällä ja alhaalla** (oletus), **Vain ylhäällä** tai **Vain alhaalla**.
