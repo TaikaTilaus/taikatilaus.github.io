@@ -32,6 +32,10 @@ Historiassa on enintään 15 uusinta hakua. Poista yksittäinen hakusana napsaut
 
 ### Laskujen rajaaminen
 
+Rajaukset ovat **Lisähakuehdot**-laatikossa. Avaa ja sulje laatikko hakurivin **Lisähakuehdot**-painikkeella. Painike on korostettu, kun laatikko on auki tai jokin rajaus on käytössä. Laatikko avautuu itsestään, kun jokin rajaus on valittu. Jos et tarvitse rajauksia, sulje laatikko, niin luettelolle jää enemmän tilaa.
+
+Laatikon otsikkorivin oikeassa reunassa on säädinkuvake. Se avaa ikkunan, jossa valitset, mitkä lisähakuehdot näkyvät sinulle.
+
 Voit rajata laskuluetteloa laskun tilan, päivämäärän, toimitustavan ja tyypin perusteella.
 
 | Rajaus | Kuvaus |
@@ -65,6 +69,8 @@ Poista kaikki rajaukset napsauttamalla **Tyhjennä lisäehdot**.
 ![Laskujen tila-, päivämäärä-, toimitustapa- ja tyyppirajaukset](/img/versio2/laskujen-haku3.png)
 
 ### Tallennetut haut
+
+Tallennetut haut ovat **Lisähakuehdot**-laatikossa rajausten alla. Avaa laatikko hakurivin **Lisähakuehdot**-painikkeella, jos haluat tallentaa haun tai valita **Omat haut** -valikosta aiemmin tallennetun.
 
 Voit tallentaa usein käyttämäsi rajaukset. Tallennetut haut ovat henkilökohtaisia, eivätkä muut käyttäjät näe niitä. 
 

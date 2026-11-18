@@ -33,7 +33,7 @@ Laskutusasiakas on aina laskun maksaja. Maksaja perustetaan Lemonsoftin asiakasr
 | Laskutustapa | TaikaTilauksen laskun toimitustavan mukaan |
 | Verkkolaskuosoite ja välittäjä | Verkkolaskulla; kuluttajan e-laskulla IBAN ja pankin BIC-tunnus |
 
-Lahjatilauksessa lehden saaja näkyy laskulla toimitusasiakkaana (nimi ja osoite). Saajaa ei perusteta Lemonsoftin asiakasrekisteriin.
+Lahjatilauksessa lehden saaja näkyy laskulla toimitusasiakkaana (nimi ja osoite). Saajaa ei perusteta Lemonsoftin asiakasrekisteriin. Lehden saajan nimi ja osoite siirretään vientiin omille riveilleen.
 
 ### Lasku
 
@@ -43,7 +43,7 @@ Lahjatilauksessa lehden saaja näkyy laskulla toimitusasiakkaana (nimi ja osoite
 | Päiväys ja eräpäivä | TaikaTilauksen laskulta |
 | Kuvaus | "Lehtitilausmaksu - *lehti*" tai "Ilmoitusmyynti - *lehti*". Näkyy laskulla ja sähköpostilaskun viestissä |
 | Tilauslaskun rivit | Koodina tilausnumero, nimenä lehti ja tilaustuotteen nimi, lisätietoina tilausjakso, lehden saaja ja laskuosa |
-| Ilmoituslaskun rivit | Koodina ilmoituksen koko, nimenä lehti, lisätietoina julkaisupäivä, määräin ja yhteisilmoituksen maksajan osuus |
+| Ilmoituslaskun rivit | Koodina ilmoituksen koko, nimenä lehti, lisätietoina varausnumero, julkaisupäivä, määräin ja yhteisilmoituksen maksajan osuus |
 | Viitteenne | Ilmoituslaskulla määräin, jos se on sama kaikilla riveillä |
 | Viesti | TaikaTilauksen "Lisätiedot laskulle" |
 | Tilit, ALV ja kustannuspaikat | Käyttöönotossa sovitun kohdistuksen mukaan |

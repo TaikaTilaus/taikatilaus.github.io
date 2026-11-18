@@ -1,0 +1,9 @@
+{
+  "label": "OmaPalvelu",
+  "position": 11,
+  "key": "uusi-omapalvelu",
+  "link": {
+    "type": "doc",
+    "id": "uusi_versio/asetukset/omapalvelu/index"
+  }
+}

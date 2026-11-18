@@ -246,6 +246,26 @@ Esimerkin lehti ilmestyy keskiviikkona, ja aineisto täytyy toimittaa edeltävä
 
 Julkaisun lyhenteen tulee vastata asetuksissa määriteltyä lyhennettä. Tiedot tallennetaan valitsemalla **Tallenna viikonpäivät**.
 
+### Virheelliset rivit
+
+Viikonpäivät-kentässä rivin muoto on `LYHENNE:ILMESTYMISPÄIVÄ:AINEISTOPÄIVÄ:KELLO`, esimerkiksi `TAN:KESKIVIIKKO:MAANANTAI:12.00` (TaikaNakka ilmestyy keskiviikkona, ja aineisto on valmis edeltävänä maanantaina kello 12.00). Aineistopäivä ja kello ovat vapaaehtoisia.
+
+Jos rivi ei kelpaa, sovellus ohittaa sen eikä julkaisuja lisätä siltä riviltä. Sovellus kertoo virheistä:
+
+- Virheellinen rivi näkyy kentässä punaisella taustalla.
+- Kentän alla on punainen huomautus, joka kertoo virheellisten rivien määrän ja jokaisen rivin virheen. Huomautuksessa on rivin numero ja teksti.
+
+Mahdolliset virheet:
+
+| Virhe | Korjaus |
+|---|---|
+| **puuttuu ilmestymispäivä** | Lisää lyhenteen perään kaksoispiste ja ilmestymispäivä, esimerkiksi `TAN:KESKIVIIKKO`. |
+| **puuttuu lyhenne** | Lisää rivin alkuun julkaisun lyhenne. |
+| **tuntematon ilmestymispäivä tai aineistopäivä** | Kirjoita viikonpäivä kokonaan, esimerkiksi MAANANTAI tai KESKIVIIKKO. |
+| **kello ei kelpaa** | Käytä muotoa 12.00. |
+
+Korjaa rivi ja tallenna, niin virheilmoitus poistuu.
+
 ### Julkaisujen lisääminen julkaisukalenteriin
 
 1. Valitse **Lisää julkaisukalenteriin**. Näkyviin tulee lomake.

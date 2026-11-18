@@ -17,6 +17,8 @@ Avaa haluamasi asetussivu suoraan ylävalikon **Asetukset**-valikosta:
 - [**Listat**](./listat.md) – asiakas- ja tilauslistojen asetukset.
 - [**Ilmoitukset**](./ilmoitukset.md) – [ilmoitusvarauslomakkeen](../Ilmoitukset/ilmoitusvaraus.md) ja [Ilmoitukset-listan](../Ilmoitukset/ilmoitukset-lista.md) kentät, ilmoituspaikkojen rajat ja avoimuusilmoitukset.
 - [**Tilauslomake**](./tilauslomake.md).
+- [**Tunnukset ja salasana**](./asiakassivut.md) – asiakkaan salasanan vaihto, tunnuksen luonti ja tunnussivujen ilme.
+- [**OmaPalvelu**](./omapalvelu/index.md) – käyttöönotto, asiakkaan näkymä ja OmaPalvelun asetukset. Kohta näkyy pääkäyttäjälle, kun OmaPalvelu on käytössä.
 - [**Muut asetukset**](#muut-asetukset).
 
 ## Muut asetukset
@@ -29,6 +31,7 @@ Valitse **Asetukset → Muut asetukset** ja avaa haluamasi sivu napsauttamalla s
 
 - [**Kirjautumisrajapinnat**](./muut-asetukset/kirjautumisrajapinnat.md) – oman sivuston ja ePaper-sovelluksen kirjautuminen: osoitteet, paluuosoitteet ja salaisuudet.
 - [**Microsoft 365**](./muut-asetukset/microsoft-365.md) – ilmoitusten valmistus: yhteys SharePointiin, valmiiden ilmoitusten tuonti OneDrivesta ja taittajien polku.
+- [**Laskun tulostus**](./muut-asetukset/laskun-tulostus.md) – laskuttajan tiedot, tilinumero, logo, tilisiirtolomake ja esikatselu.
 
 ## Postitusasetuksista löytyvät jakelualueet
 

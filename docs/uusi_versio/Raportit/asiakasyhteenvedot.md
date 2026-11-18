@@ -54,6 +54,8 @@ Osio näyttää:
 - **Uudet asiakkaat vuosittain:** pylväskaavio asiakkaista, jotka on lisätty kyseisenä vuonna (enintään 10 viimeistä vuotta). Pylvästä napsauttamalla avautuu [Asiakkaat-lista](../Asiakkaat/asiakkaat.md), jossa on rajattu kyseisen vuoden Lisäyspäivä.
 - **Asiakkaat asiakastyypeittäin:** ympyräkaavio. Viipaleen napsauttaminen avaa [Asiakkaat-listan](../Asiakkaat/asiakkaat.md) kyseisellä tyypillä.
 
+- **Asiakkaat ryhmittäin:** ympyräkaavio, joka näyttää asiakkaiden määrän ryhmittäin. Jos olet valinnut sivun yläosassa **Ryhmän tyypin**, kaavion otsikko on *Asiakkaat ryhmässä (tyyppi)* ja kaavio näyttää tämän tyypin arvot. Jos et ole valinnut tyyppiä, kaavio näyttää ryhmätyypit. Asiakas, joka kuuluu useaan ryhmään, lasketaan jokaiseen niistä. Viipaleen napsautus avaa [Asiakkaat-listan](../Asiakkaat/asiakkaat.md) kyseisellä ryhmätyypillä tai ryhmän arvolla.
+
 ## Tilaajat
 
 Tilaajalla tarkoitetaan asiakasta, jolla on tilaus. Poistettuja tilauksia ei lasketa.

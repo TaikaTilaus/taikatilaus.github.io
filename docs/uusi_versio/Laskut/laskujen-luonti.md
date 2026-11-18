@@ -8,6 +8,8 @@ description: Laskujen luonti uuden version Laskut-valikossa.
 
 **Laskujen luonti** -sivulla haet laskutettavat laskutuspyynnöt, esikatselet niistä muodostuvat laskut ja luot laskut. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut → Laskujen luonti**.
 
+Jos laskuttajan tiedoissa on puutteita, sivun yläosassa näkyy varoitus ja linkki [Laskun tulostus -asetuksiin](../asetukset/muut-asetukset/laskun-tulostus.md#tilanne). Varoitus koskee luettelossa olevien laskujen portaaleja ja auttaa tarkistamaan tiedot ennen laskujen luontia tai lähetystä.
+
 Laskut syntyvät laskutuspyynnöistä. Laskutuspyyntö syntyy, kun tilaus tai ilmoitus tallennetaan tai kun tilausta jatketaan. Pyynnössä on laskun summa ja ajankohta, jolloin lasku saa syntyä.
 
 :::warning HUOMIO: 

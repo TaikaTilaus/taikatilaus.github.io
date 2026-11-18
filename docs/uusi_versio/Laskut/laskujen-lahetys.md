@@ -8,6 +8,8 @@ description: Laskujen lähetys uuden version Laskut-valikossa.
 
 **Laskujen lähetys** -sivulla näet laskut ja maksumuistutukset, jotka ovat valmiita lähetettäväksi, ja voit lähettää laskut manuaalisesti. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut → Laskujen lähetys.**
 
+Jos laskuttajan tiedoissa on puutteita, sivun yläosassa näkyy varoitus ja linkki [Laskun tulostus -asetuksiin](../asetukset/muut-asetukset/laskun-tulostus.md#tilanne). Varoitus koskee luettelossa olevien laskujen portaaleja ja auttaa tarkistamaan tiedot ennen laskujen luontia tai lähetystä.
+
 Sivulla on kaksi välilehteä:
 
 - **Lähetettävät laskut:** lista lähettämättömistä laskuista ja maksumuistutuksista.

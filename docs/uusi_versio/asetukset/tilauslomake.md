@@ -224,6 +224,14 @@ Tilauksen jälkeen kiitosviestin alla näytetään linkki lehden etusivulle.
 - **Lehden etusivun osoite:** koko osoite, joka alkaa https:// tai http://. Ilman osoitetta linkkiä ei näytetä.
 - **Linkin teksti:** tyhjä = oletusteksti.
 
+Kiitossivu kertoo tilaajan käyttäjätunnuksesta, kun tunnukset ovat käytössä:
+
+- uusi tunnus ja salasanalinkki: *Sähköpostissa on linkki, jolla asetat tunnukselle salasanan.* Linkki on voimassa 5 päivää.
+- uusi tunnus ilman linkkiä
+- olemassa oleva tunnus.
+
+Teksti on sama riippumatta siitä, maksetaanko tilaus laskulla, Stripellä vai verkkomaksulla.
+
 ## Infotekstit
 
 Lomakkeen oikealla puolella voidaan näyttää infoalue, jokaiselle vaiheelle oma. Kapealla näytöllä alue on lomakkeen alla. Anna jokaiselle vaiheelle **Otsikko** ja **Teksti**. Jos vaiheen otsikko ja teksti ovat tyhjiä, aluetta ei näytetä. Teksti näytetään sellaisenaan, ja rivinvaihdot säilyvät. **Lisää esimerkkiteksti** täyttää otsikon ja tekstin esimerkillä, jota voit muokata.
@@ -271,8 +279,21 @@ Sähköposti, joka lähetetään maksajalle tilauksen jälkeen (tavallisena teks
 | **[[TILAUSLAHJA]]** | valitun tilauslahjan nimi, muuten tyhjä |
 | **[[LAHJATILAUS]]** | lahjatilauksessa maksajan tiedot ja pyyntö välittää tieto saajalle, muuten tyhjä |
 | **[[LASKU]]** | laskun ohje maksutavan mukaan (liitteenä / toimitetaan erikseen / postitse) |
-| **[[KAYTTAJATUNNUS]]** | OmaPalvelu-tunnuksen ohje |
-| **[[SALASANALINKKI]], [[SALASANALINKKI_VOIMASSA]]** | uuden tunnuksen salasanan asetuslinkki ja sen voimassaolo |
+| **[[KAYTTAJATUNNUS]]** | käyttäjätunnuksen ohje |
+| **[[SALASANALINKKI]], [[SALASANALINKKI_VOIMASSA]]** | uuden tunnuksen salasanan asetuslinkki ja sen voimassaolo (5 päivää). Linkki voi johtaa asiakkaan salasanasivulle, kun OmaPalvelua ei ole käytössä. |
+
+### Käyttäjätunnus tilauksen yhteydessä
+
+Kun asiakkaan käyttäjätunnukset ovat käytössä, tilaus luo tilaajalle (maksajalle) ja lahjan saajalle, jos saajan sähköposti on annettu, käyttäjätunnuksen. Tunnus on sähköpostiosoite. Olemassa olevaa tunnusta ei liitetä uuteen asiakkaaseen, vaan asiakasta neuvotaan kirjautumaan omalla tunnuksellaan.
+
+Uuden tunnuksen salasanan asetuslinkki lähetetään tilausvahvistuksessa. Linkki on voimassa 5 päivää. Linkki johtaa:
+
+- [OmaPalveluun](./omapalvelu/index.md), jos OmaPalvelu on käytössä (vanha OmaPalvelu), tai
+- [asiakkaan salasanasivulle](./asiakassivut.md) `/salasana/<osoite>/vaihda/<tunniste>`, kun OmaPalvelua ei ole käytössä mutta asiakkaan tunnussivut ovat. Lehden ilme näkyy sivulla.
+
+Jos asiakkaalla on jo tunnus, vahvistukseen tulee kirjautumisohje ja linkki salasanan vaihtoon (*Jos et muista salasanaasi…*). Lahjan saajan olemassa olevalle tunnukselle linkkiä ei lisätä.
+
+Lahjan saajan salasanalinkki on maksajan vahvistuksessa ja maksajan tulee välittää se saajalle. Näin lahja ei paljastu saajalle etukäteen.
 
 ## Asiakkaan tunnistus
 

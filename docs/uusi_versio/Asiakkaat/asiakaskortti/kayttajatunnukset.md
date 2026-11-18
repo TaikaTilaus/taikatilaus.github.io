@@ -41,14 +41,18 @@ Napsauta tunnuksen riviä, niin avautuu ikkuna **Käyttäjätunnus ja tunnus**. 
 
 **Salasana.** Kirjoita uusi salasana kenttään tai napsauta Luo uusi salasana, jolloin järjestelmä tekee riittävän vahvan salasanan. Napsauta Tallenna salasana.
 
-**Sähköpostit ja OmaPalvelu.** Osio näkyy vain, jos OmaPalvelu on käytössä. Viestien tekstit ovat kohdassa *Asetukset → Muut asetukset → OmaPalvelu*. Linkit ovat voimassa kaksi vuorokautta ja vain viimeisin lähetetty linkki on voimassa.
+**Sähköpostit ja OmaPalvelu.** Osio näkyy vain, jos OmaPalvelu on käytössä. Viestien tekstit ovat kohdassa [Asetukset → OmaPalvelu](../../asetukset/omapalvelu/asetukset.md#viestit). Salasanan asetus- ja vaihtolinkit ovat voimassa kaksi vuorokautta, ja vain viimeisin lähetetty linkki on voimassa.
 
 | Painike | Toiminto |
 |---|---|
 | **Lähetä uuden tunnuksen viesti** | Lähettää viestin tunnuksen aktivoinnista. Asiakas luo salasanan viestin linkistä. |
 | **Lähetä salasanan vaihtolinkki** | Asiakas voi resetoida salasanansa viestin linkistä. |
-| **Lähetä kertakirjautumislinkki** | Lähettää kertakäyttöisen linkin, jolla asiakas kirjautuu OmaPalveluun. |
-| **Kirjaudu OmaPalveluun** | Avaa OmaPalvelun uuteen välilehteen tällä käyttäjätunnuksella. Painike ei vaadi sähköpostiosoitetta. |
+| **Lähetä kertakirjautumislinkki** | Lähettää kertakäyttöisen linkin, jolla asiakas kirjautuu OmaPalveluun. Kun uusi OmaPalvelu on käytössä, linkki avaa uuden OmaPalvelun. |
+| **Kirjaudu OmaPalveluun** | Avaa asiakkaan OmaPalvelun uuteen välilehteen tällä käyttäjätunnuksella. Painike ei vaadi sähköpostiosoitetta. Kun uusi OmaPalvelu on käytössä, painike avaa sen henkilökunnan istunnossa. |
+
+### Henkilökunnan kirjautuminen uuteen OmaPalveluun
+
+Kun uusi [OmaPalvelu](../../asetukset/omapalvelu/index.md) on käytössä, **Kirjaudu OmaPalveluun** -painikkeen siirtolinkki on voimassa vain minuutin ja toimii vain kerran. Sivun yläosassa näkyy merkintä *Henkilökunta (tunnus): katselet asiakkaan OmaPalvelua asiakaskortilta*. Asiakkaan OmaPalvelussa tekemäsi muutokset kirjataan henkilökunnan tekemiksi. Salasanaa ei voi vaihtaa henkilökunnan istunnossa. Kirjautuminen kirjataan kirjautumislokiin.
 
 **Tunnuksen poistaminen.** Napsauta ikkunan alareunan Poista tunnus.
 
