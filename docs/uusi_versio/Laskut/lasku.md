@@ -12,11 +12,22 @@ Laskun voi avata kahdella tavalla. Kun napsautat laskuriviä [**Laskujen haku**]
 
 Älä muokkaa lähetettyjä tai maksettuja laskuja. Jos lähetettyä laskua täytyy muuttaa, hyvitä alkuperäinen lasku ja luo uusi lasku.
 
-Järjestelmä estää tuoterivien ja luontivaiheen tiliöintien (L) poistamisen lähetetyltä, erääntyneeltä, maksetulta ja hyvitetyltä laskulta. Poistopainike on silloin harmaa, ja vihje kertoo syyn.
+**Lähetettyä laskua ei voi muokata.** Kun lasku on Lähetetty, Erääntynyt, Maksettu tai Hyvitetty, sen tuoterivejä ja luontivaiheessa syntyneitä tiliöintejä ei voi muokata eikä poistaa. Muokkaus- ja poistopainikkeet ovat harmaina, ja kun viet hiiren painikkeen päälle, näet syyn. Jos laskuun pitää tehdä muutos, hyvitä lasku ja luo uusi lasku. Avointa ja luonnosvaiheessa olevaa laskua voi muokata.
 
 :::
 
 ![Laskun perustiedot, tuoterivit ja tiliöinnit](/img/versio2/lasku.png)
+
+## Laskun tallentaminen
+
+Laskulomakkeella on kaksi tallennuspainiketta:
+
+| Painike | Mitä tapahtuu |
+|---|---|
+| **Tallenna** | Tallentaa muutokset, ja pysyt samalla lomakkeella. Voit jatkaa muokkausta. |
+| **Tallenna ja sulje** | Tallentaa muutokset ja sulkee lomakkeen. Palaat sinne, mistä tulit, esimerkiksi listalle tai asiakaskortille. Jos lomake on avattu uuteen välilehteen, välilehti sulkeutuu. |
+
+Voit poistua muokkausnäkymästä tallentamatta muutoksia napsauttamalla **Peruuta**.
 
 ## Laskun perustiedot
 
@@ -78,7 +89,7 @@ Valitsemalla **Seliterivi (pelkkä tekstirivi)** voit määrittää tuoterivin p
 
 Tallenna muutokset napsauttamalla **Tallenna**. Voit poistua muokkausnäkymästä tallentamatta muutoksia napsauttamalla **Peruuta**.
 
-Poistopainike on harmaa, kun rivejä ei voi poistaa. Vie hiiri painikkeen päälle, niin näet syyn.
+Lähetetyn, erääntyneen, maksetun tai hyvitetyn laskun tuoterivejä ei voi muokata eikä poistaa. Muokkaus- ja poistopainikkeet ovat silloin harmaita. Vie hiiri painikkeen päälle, niin näet syyn.
 
 ![Tuoterivin määrä-, hinta-, vero- ja lisätietojen muokkaaminen](/img/versio2/lasku5.png)
 
@@ -93,7 +104,7 @@ Otsikon vieressä oleva merkintä kertoo, täsmäävätkö tiliöinnit:
 - **Täsmää:** myyntien ja suoritusten tiliöinnit täsmäävät.
 - **Myyntien erotus** ja **Suoritusten erotus:** luontivaiheen (L) tai maksuvaiheen (S, K ja T) tiliöintien summan pitäisi olla 0 €. Punainen merkintä näyttää erotuksen.
 
-Tiliöinnin voi poistaa rivin lopussa olevalla roskakorilla. Lähetetyn, maksetun tai hyvitetyn laskun luontivaiheen (L) tiliöintiä ei voi poistaa. Poistopainike on silloin harmaa, ja vihje kertoo syyn.
+Tiliöinnin voi poistaa rivin lopussa olevalla roskakorilla. Lähetetyn, erääntyneen, maksetun tai hyvitetyn laskun luontivaiheen (L) tiliöintiä ei voi muokata eikä poistaa. Muokkaus- ja poistopainikkeet ovat silloin harmaita, ja vihje kertoo syyn.
 
 ![Laskun myyntiin ja suorituksiin liittyvät tiliöinnit](/img/versio2/lasku4.png)
 

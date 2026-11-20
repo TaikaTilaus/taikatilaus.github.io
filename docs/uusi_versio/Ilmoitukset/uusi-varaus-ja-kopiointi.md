@@ -19,7 +19,7 @@ Avaa ikkuna napsauttamalla [Ilmoitukset-listan](./ilmoitukset-lista.md) hakurivi
 1. Valitse **Kanava**. Jos olet rajannut listan yhteen kanavaan, se on valittu valmiiksi.
 2. Valitse **Tuote**.
 3. Valitse ajankohta kanavan mukaan:
-   - **lehti ja muut julkaisukanavat:** valitse yksi tai useampi julkaisu **Julkaisut (ilmestymispäivä)** -listalta. Listalla ovat tästä päivästä eteenpäin ilmestyvät julkaisut. **Näytä vanhat** näyttää myös menneet.
+   - **lehti ja muut julkaisukanavat:** valitse yksi tai useampi julkaisu **Julkaisut (ilmestymispäivä)** -listalta. Listalla ovat julkaisut, jotka ilmestyvät vasta tämän päivän jälkeen. Julkaisu poistuu listalta ilmestymispäivän alkaessa kello 00.00. Esimerkiksi keskiviikkona ilmestyvä lehti ei ole enää valittavissa keskiviikkona, vaan se poistuu listalta tiistain ja keskiviikon välisenä yönä. **Näytä vanhat** näyttää myös nämä julkaisut.
    - **netti, radio ja ilmoitustaulu:** anna **Alkupäivä** ja **Loppupäivä**. Loppupäivä ei voi olla ennen alkupäivää.
    - **vaihtoilmoitus:** anna **Julkaisupäivä**.
 4. Anna **Määrä per julkaisu** (1–100). Netti-, radio-, ilmoitustaulu- ja vaihtoilmoituskanavalla kenttä on **Määrä**, ja se kertoo luotavien varausten lukumäärän.

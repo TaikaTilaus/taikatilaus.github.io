@@ -64,7 +64,7 @@ Yhteislehtiä käyttävillä asiakkailla listalle tulevat valitun lehden varaust
 
 Käytössä olevat hakuehdot näkyvät hakurivin alla siruina, esimerkiksi *Kanava: Esimerkkilehti*. Poista yksittäinen hakuehto napsauttamalla sirun rastia, niin lista haetaan heti uudelleen. Jos samasta hakuehdosta on valittu yli kolme arvoa, ne näytetään yhtenä siruna, esimerkiksi *Julkaisu: 8 valittu*.
 
-**Tyhjennä hakuehdot** palauttaa oletushakuehdot ja hakee uudelleen.
+**Tyhjennä hakuehdot** tyhjentää kaikki hakuehdot, myös valitun asiakkaan, ja hakee uudelleen.
 
 Hakuehdot säilyvät, kun siirryt toiselle sivulle ja palaat listalle. Vapaa haku, lajittelu ja sarakevalinnat tallentuvat sinulle seuraavaa kertaa varten.
 
@@ -97,7 +97,7 @@ Lisähakuehtojen alaosassa voit valita asiakkaan:
 
 Jos haluat nähdä kaikkien asiakkaiden varaukset mutta pitää asiakkaan valittuna (esimerkiksi **Lisää varaus** -painiketta varten), poista ruksi kohdasta **Näytä vain asiakkaan varaukset**.
 
-Asiakkaan valinta ja ruksi säilyvät, vaikka tyhjennät hakuehdot **Tyhjennä hakuehdot** -painikkeella. Poista valinta napsauttamalla **Poista asiakkaan valitseminen**.
+**Tyhjennä hakuehdot** poistaa myös asiakkaan valinnan. Voit poistaa pelkän asiakkaan valinnan napsauttamalla **Poista asiakkaan valitseminen**.
 
 Kun asiakas on valittu, voit:
 
@@ -109,6 +109,46 @@ Kun lisähakuehdot ovat kiinni, valittu asiakas näkyy hakurivin alla omana siru
 :::note
 **Lisää paketti** -painike on vielä rakenteilla.
 :::
+
+### Tallennetut haut
+
+Lisähakuehtojen alareunassa on **Tallennetut haut** -osio. Sillä voit tallentaa usein käyttämäsi hakuehdot nimellä ja ottaa ne myöhemmin nopeasti uudelleen käyttöön.
+
+Haku tallentaa seuraavat ehdot:
+
+- aikavälin
+- varausnumeron
+- vapaan haun
+- kanavat ja julkaisut
+- lisähakuehdot
+- valitun asiakkaan ja valinnan **Näytä vain asiakkaan varaukset**
+
+**Haun tallentaminen**
+
+1. Aseta hakuehdot haluamiksesi.
+2. Kirjoita **Tallenna nykyiset ehdot nimellä** -kenttään haun nimi.
+3. Jos haluat, että haku palauttaa myös listan sarakkeet, valitse **Sarakkeet mukaan**. Silloin tallentuvat sarakkeet, jotka ovat valittuina juuri nyt, ja niiden järjestys.
+4. Napsauta **Tallenna**.
+
+Jos tallennat haun samalla nimellä uudelleen, uusi haku korvaa vanhan.
+
+**Haun käyttäminen**
+
+Valitse haku **Omat haut** -valikosta. Sovellus asettaa tallennetut hakuehdot ja hakee heti. Sama valikko on myös hakurivillä, joten haun voi valita ilman, että avaat lisähakuehdot.
+
+**Haun poistaminen**
+
+1. Valitse haku **Omat haut** -valikosta.
+2. Napsauta **Poista haku**.
+3. Vahvista poisto. Poisto poistaa tallennetun haun kokonaan, eikä vain tyhjennä hakukenttiä. Valitse tyhjennä hakuehdot, jos et halua poistaa hakuehtoa kokonaan.
+
+:::note
+Tallennetut haut ovat henkilökohtaisia. Toiset käyttäjät eivät näe omia hakuja. Hakuun tallentuvat päivämäärät sellaisinaan, joten esimerkiksi aikaväli ei siirry itsestään uudelle viikolle.
+:::
+
+### Hae ja Tyhjennä hakuehdot
+
+Lisähakuehtojen lopussa on **Hae**- ja **Tyhjennä hakuehdot** -painikkeet. Voit siis hakea tai tyhjentää ehdot, kun olet täyttänyt lisähakuehdot, eikä sinun tarvitse selata takaisin hakuriville. **Tyhjennä hakuehdot** tyhjentää kaikki ehdot, myös valitun asiakkaan, ja hakee uudelleen.
 
 ## Ilmoitusvarausten luettelo
 

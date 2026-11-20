@@ -68,7 +68,7 @@ Microsoft 365 -aineistotuotantoa käyttävillä asiakkailla voit myös kirjoitta
 1. Valitse **Kanava**, esimerkiksi lehti.
 2. Valitse **Tuote**. Valikossa ovat valitun kanavan myyntituotteet. Kanavan vaihto tyhjentää tuotteen, julkaisun ja ilmoitusosaston.
 3. Valitse **Ilmoitusosasto**, jos tuotteella on osastoja. Valikossa ovat tuotteen sallimat osastot. Rajaus tehdään [Tuotteet-sivun](../asetukset/tuotteet.md) Myyntituotteet-kohdassa. Osaston oma hinta korvaa pmm-hinnan. [Ilmoitusosastot](../asetukset/tuotteet.md#ilmoitusosastot).
-4. Valitse **Julkaisu**. Uudella varauksella valikossa ovat tästä päivästä eteenpäin ilmestyvät julkaisut, ja ensimmäinen tuleva julkaisu on valittu valmiiksi. **Näytä vanhat julkaisut** näyttää myös menneet.
+4. Valitse **Julkaisu**. Uudella varauksella valikossa ovat tämän päivän jälkeen ilmestyvät julkaisut, ja ensimmäinen niistä on valittu valmiiksi. Julkaisu poistuu listalta ilmestymispäivän alkaessa kello 00.00. **Näytä vanhat julkaisut** näyttää myös nämä julkaisut.
 
 Tuote on pakollinen. Jos tallennat varauksen ilman julkaisua, se jää tilaan ALUSTAVA, ja siitä varoitetaan.
 

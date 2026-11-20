@@ -377,7 +377,7 @@ Myyntituotteen **Perustiedot**-välilehdellä on **Ilmoitusosastot**-kohta. Siin
 
 ### Kanavatyypin mukaiset kentät
 
-Kun olet valinnut Kanavan, lomakkeella näkyy kanavan tyyppi (esimerkiksi LEHTI, NETTI tai RADIO) ja sen mukaiset lisäkentät. Kanavatyypit määritetään kanavien asetuksissa.
+Kun olet valinnut Kanavan, lomakkeella näkyy kanavan tyyppi (esimerkiksi LEHTI, NETTI, RADIO tai UUTISKIRJE) ja sen mukaiset lisäkentät. Kanavatyypit määritetään kanavien asetuksissa.
 
 #### Lehti-ilmoitus
 
@@ -391,6 +391,20 @@ Kun olet valinnut Kanavan, lomakkeella näkyy kanavan tyyppi (esimerkiksi LEHTI,
 - **Aineistopäivä (julkaisusta -N pv):** aineisto toimitetaan N päivää ennen julkaisupäivää.
 - **Aikaväli pakollinen:** varaukselle täytyy antaa aikaväli.
 - **Google Ad Manager Ad Units:** inventory targeting -mainospaikkojen tunnisteet pilkuilla eroteltuina. Kenttä näkyy vain, kun Google Ad Manager on käytössä.
+
+#### Uutiskirje
+
+Kun tuotteen kanava on uutiskirjekanava, lomakkeella on **Uutiskirje**-osio. Siinä on samat kentät kuin netti-ilmoituksessa, mutta joidenkin nimi on erilainen:
+
+- **Toistomäärä** (nettituotteella *Näyttömäärä*): hintaan sisältyvä toistomäärä. Kun arvo on yli 0, myyjä antaa määrän, ja hinta on yksikköhinta × määrä. Esimerkiksi tuote, jonka hinta määräytyy näyttökertojen mukaan, saa toistomääräksi 1, jolloin hinta on hinta per näyttökerta.
+- **Aikaväli pakollinen**: varaukselle pitää antaa alku- ja loppupäivä.
+- **Aineistopäivä**.
+
+Google Ad Manager -mainospaikat (GAM) ovat vain nettituotteilla, eivätkä ne näy uutiskirjetuotteella.
+
+:::note
+Tuotteen tallennus ei enää nollaa uutiskirjetuotteen **Aikaväli pakollinen** -valintaa. Piilotetun kentän tallennettu arvo säilyy.
+:::
 
 #### Radiomainos
 

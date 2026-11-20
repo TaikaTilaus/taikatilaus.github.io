@@ -52,6 +52,18 @@ OmaPalvelulla on oma ilme. Tyhjä kohta käyttää [tunnussivujen ilmeen](../asi
 - **Esikatselu:** näet sivun puhelimen ja tietokoneen leveydellä ennen tallennusta, myös tallentamattomilla väreillä ja tarkemmilla väreillä.
 - **Kontrastivaroitus:** jos tekstin ja taustan kontrasti on alle 4,5:1, näkyy varoitus. Varoitus ei estä tallennusta, mutta heikko kontrasti vaikeuttaa lukemista.
 
+Sivujen ilmeen asetuksissa näkyy varoitus, jos jokin väriyhdistelmä erottuu huonosti. Tarkistus tehdään erikseen vaalealle ja tummalle tilalle:
+
+- yläpalkin teksti yläpalkin väriä vasten
+- painikkeiden teksti pääväriä vasten
+- teksti ja himmeä teksti taustaa ja kortteja vasten
+- linkit vaalealla tilalla
+- Onnistui-, Tieto-, Varoitus- ja Virhe-ilmoitusten teksti oman taustansa päällä
+
+Jos ilmeen teemaksi on valittu **Selaimen mukaan**, sovellus tarkistaa molemmat tilat, ja varoituksen perässä näkyy teksti "(vaalea tila)" tai "(tumma tila)". Jos teema on vaalea tai tumma, tarkistetaan vain valittu tila.
+
+Varoitus ei estä tallennusta. Se on vain vihje siitä, että jokin teksti voi olla vaikea lukea.
+
 ## Viestit
 
 Viestien tekstit ovat kohdassa [**Asetukset → Tunnukset ja salasana**](../asiakassivut.md). Viestejä on kirjautumislinkin viesti, yhteystietojen muutoksen vahvistus (tagi `[[MUUTOKSET]]`) ja yhteinen vahvistusviesti muille muutoksille. Asiakaskortilta lähetettävien kolmen viestin tekstit (kertakirjautumislinkki, salasanan vaihtolinkki ja uuden tunnuksen viesti) määritetään OmaPalvelun asetuksissa.

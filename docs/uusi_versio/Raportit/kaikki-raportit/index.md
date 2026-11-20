@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /uusi_versio/Raportit/kaikki-raportit
 description: Kaikki raportit — Raportin hakeminen, Raporttiluettelo, Raportin lisääminen suosikiksi.
 ---
 
@@ -30,7 +31,21 @@ Hakukenttien alla on pyöreät ryhmäpainikkeet. Jokaisessa painikkeessa näkyy 
 - **Minun top 10:** kymmenen eniten ajamaasi raporttia. Lista on käyttömäärän mukaisessa järjestyksessä, eikä sarakelajittelu vaikuta siihen. Tallennetut haut lasketaan oman raporttinsa käyttöön.
 - **Minun raportit:** tallentamasi haut ja itse lisäämäsi raportit.
 - **Suosikit:** tähdellä merkityt raportit ja haut.
-- **Raporttiryhmät:** esimerkiksi Asiakkaat, Ilmoitukset, Kirjanpito, Laskut, Postitus ja Muut. Ryhmät ovat aakkosjärjestyksessä.
+- **Raporttiryhmät:** Asiakkaat, Ilmoitukset, Kirjanpito, Muut ja Tilaus. Ryhmät ovat aakkosjärjestyksessä.
+
+### Raporttiryhmien ohjeet
+
+Jokaisella raporttiryhmällä on oma ohjesivunsa:
+
+| Ryhmä | Ohje |
+|---|---|
+| **Asiakkaat** | [Asiakkaat-raportit](./asiakkaat.md) |
+| **Ilmoitukset** | [Ilmoitukset-raportit](./ilmoitukset.md) |
+| **Kirjanpito** | [Kirjanpito-raportit](./kirjanpito.md) |
+| **Muut** | [Muut raportit](./muut.md) |
+| **Tilaus** | [Tilaus-raportit](./tilaus.md) |
+
+**Minun top 10**, **Minun raportit** ja **Suosikit** ovat käyttäjäkohtaisia näkymiä. Niiden käyttö kuvataan tällä sivulla.
 
 ![Raporttien nimi-, ryhmä- ja lisääjärajaukset](/img/versio2/raportit2.png)
 
@@ -55,6 +70,10 @@ Napsauta riviä missä tahansa kohdassa, kun haluat avata raportin.
 **Poista**-painike näkyy tallennetulla haulla, jonka olet itse lisännyt. Tallennetun haun voi poistaa, ja ohjelma kysyy ensin: *"Poistetaanko tallennettu haku …?"* Raportin poistaminen poistaa määrityksen ja käyttöoikeudet pysyvästi. Sovelluksen omia raportteja ei voi poistaa.
 
 ![Raporttiluettelo ja raporttien perustiedot](/img/versio2/raportit3.png)
+
+### Maksamattomat laskut
+
+**Maksamattomat tilauslaskut** (Raportit → Tilaus) ja **Maksamattomat ilmoituslaskut** (Raportit → Ilmoitukset) näyttävät asiakkaiden maksamattomat laskut suurin maksamaton summa ensin. Voit rajata laskun päivää, näyttää vain erääntyneet maksumuistutukset ja valita näytettävien asiakkaiden enimmäismäärän. Hakuehdot kuvataan sivuilla [Tilaus-raportit](./tilaus.md#maksamattomat-tilauslaskut) ja [Ilmoitukset-raportit](./ilmoitukset.md#maksamattomat-ilmoituslaskut).
 
 ## Raportin lisääminen suosikiksi
 
@@ -111,11 +130,11 @@ Raportin tulokset voidaan esittää kuvaajana.
 Kuvaajan oikealla puolella ovat valinnat:
 - Mittari (Lukumäärä tai summa),
 - Aika-akseli 
-- Jaksotus (Päivittäin, Viikoittain, Kuukausittain, Vuosittain),
+- Jaksotus (Päivittäin, Viikoittain, Kuukausittain, Vuosittain, Ilman jaksotusta),
 - Ryhmittely
 - Visualisointi (Pylväs, Vaakapylväs, Viiva). 
 
-Aika-akseli ja Jaksotus näkyvät vain raporteissa, joissa on päivämääräsarake.
+Aika-akseli ja Jaksotus näkyvät vain raporteissa, joissa on päivämääräsarake. Valitsemalla **Ilman jaksotusta** voit tehdä kuvaajan myös ilman aika-akselia. Silloin x-akselilla ovat valitun ryhmittelyn ryhmät. Esimerkiksi ryhmittelyllä Asiakas saat yhden palkin jokaista asiakasta kohden, suurin ensin.
 
 Jos ryhmittelyssä on paljon arvoja, kuvaajassa näytetään vain suurimmat. Kuvaajan yläpuolella oleva teksti kertoo asiasta ("Kuvaajassa vain 10 suurinta … kaikki ovat taulukossa"). Napsauta **(näytä kaikki)**, kun haluat nähdä kaikki ryhmät, ja **(näytä vain suurimmat)**, kun haluat palata. Joissakin raporteissa raja on kiinteä, jolloin linkkiä ei ole. Taulukossa ovat aina kaikki rivit.
 
@@ -133,9 +152,22 @@ Taulukon yläpuolella oleva yhteenveto näyttää raportissa käytetyt hakuehdot
 
 Taulukon yläpuolella oleva yhteenveto näyttää hakuehdot.
 
+Raportin korostetut rivit, kuten välisummat ja yhteensä-rivit, ovat lihavoituja.
+
+Kun raportin taulukko on leveämpi kuin ruutu, taulukon yläpuolella on oma vaakasuuntainen vierityspalkki.
+
 Taulukon sarakkeet vaihtelevat raportin mukaan. Asiakkaisiin liittyvissä raporteissa voit avata [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) napsauttamalla **asiakasnumeroa**.
 
 ![Raportin tulokset taulukkomuodossa](/img/versio2/raportti-data.png)
+
+#### Sarakkeet-painike
+
+Raportin tulossivulla on **Sarakkeet**-painike vientipainikkeiden jälkeen, kuten listoilla. Sillä valitset, mitkä sarakkeet näkyvät, ja voit myös muuttaa niiden järjestystä.
+
+- Valinta tallentuu käyttäjäkohtaisesti jokaiselle raportille erikseen, ja se säilyy uusissa hauissa.
+- Oletuksena kaikki sarakkeet näkyvät.
+- Valinta koskee taulukkoa, **Kopioi**-painiketta ja kaikkia vientejä (PDF, Excel, CSV, JSON, HTML, Parquet ja sähköpostiliite).
+- Kuvaaja käyttää aina koko raporttia, eikä valinta vaikuta siihen.
 
 #### Datan käsitteleminen ja vieminen
 

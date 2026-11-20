@@ -15,7 +15,7 @@ Viimeksi tehdyt -luettelossa näet viimeksi tekemiäsi toimintoja, kuten:
 - avatut [asiakaskortit](../Asiakkaat/asiakaskortti/index.md)
 - avatut [tilaukset](../tilaukset.md)
 - avatut [ilmoitusvaraukset](../Ilmoitukset/ilmoitusvaraus.md)
-- avatut [raportit](../Raportit/kaikki-raportit.md)
+- avatut [raportit](../Raportit/kaikki-raportit/index.md)
 - **Tallensi:** tallennetut tiedot
 - **Vienti:** tehdyt viennit (esimerkiksi Excel- tai PDF-vienti)
 - **Sähköposti:** lähetetyt sähköpostit

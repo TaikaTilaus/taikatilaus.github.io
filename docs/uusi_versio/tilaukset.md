@@ -266,7 +266,14 @@ Kun tuote on valittu, lomakkeelle avautuvat tilauksen muut tiedot ja hinnoittelu
 
 Kun tuote on valittu, lomakkeelle avautuvat tilauksen päivämäärät, muut tilaustiedot ja hinnoittelu. Tuotteen tiedoista tulevat arvot täytetään lomakkeelle automaattisesti. Tarkista tiedot ennen tallentamista.
 
-Kun olet täyttänyt ja tarkistanut tilauksen tiedot, napsauta **Tallenna tilaus**.
+Kun olet täyttänyt ja tarkistanut tilauksen tiedot, napsauta **Tallenna**.
+
+Tilauslomakkeella on kaksi tallennuspainiketta:
+
+| Painike | Mitä tapahtuu |
+|---|---|
+| **Tallenna** | Tallentaa muutokset, ja pysyt samalla lomakkeella. Voit jatkaa muokkausta. |
+| **Tallenna ja sulje** | Tallentaa muutokset ja sulkee lomakkeen. Palaat sinne, mistä tulit, esimerkiksi listalle tai asiakaskortille. Jos lomake on avattu uuteen välilehteen, välilehti sulkeutuu. |
 
 Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lomakkeen oikealla puolella olevassa [**Laskutuspyynnöt**](#tilauksen-laskutuspyynnöt)-osiossa.
 
@@ -333,7 +340,25 @@ Voit perua summan muokkaamisen napsauttamalla **X-painiketta**.
 3. Tarkista tilauksen **Loppupäivä** ja maksutiedot. 
 4. Jos tilaus on uusi, laitetaan katkaisupäivä yleensä heti. Jos tilaus on jo ollut voimassa jonkun aikaa ja se on maksettu, laitetaan katkaisupäivä yleensä tilauksen loppuun. Lisää **Katkaisupäivä**.
 5. Valitse **Katkaisun syy**.
-6. Napsauta **Tallenna muutokset**.
+6. Napsauta **Tallenna** tai **Tallenna ja sulje**, jos haluat samalla sulkea lomakkeen.
+
+Kun lisäät tilaukselle katkaisupäivän tai muutat sitä ja napsautat **Tallenna** tai **Tallenna ja sulje**, sovellus avaa ikkunan **Katkaistaanko tilaus?** Ikkuna kertoo, mitä katkaisupäivä tarkoittaa juuri tälle tilaukselle. Näet siinä esimerkiksi:
+
+- onko tilaus voimassa vielä katkaisupäivänä
+- mistä päivästä alkaen tilauksen tilaksi tulee KATKAISTU
+- onko katkaisupäivä ennen alkupäivää, jolloin tilaus ei ole voimassa lainkaan
+- onko katkaisupäivä jo mennyt, jolloin tilaus on tilassa KATKAISTU heti tallennuksen jälkeen
+- onko katkaisupäivä loppupäivän jälkeen, jolloin tilaus kulkee loppuun asti mutta ei uusiudu
+- että katkaistua tilausta ei postiteta eikä jatketa
+- mikä katkaisun syy on valittuna, tai että syy puuttuu
+
+Napsauta **Tallenna**, kun haluat tallentaa muutokset katkaisupäivineen. **Peruuta** palaa lomakkeelle eikä tallenna mitään.
+
+Ikkuna avautuu vain, kun katkaisupäivä on uusi tai muuttunut. Jos muutat tilauksessa jotain muuta, tallennus ei kysy mitään.
+
+:::tip
+Tarkista ikkunasta, että katkaisun syy on valittu. Jos syy on tyhjä, ikkuna muistuttaa siitä.
+:::
 
 Tilaus on voimassa vielä katkaisupäivän ajan. Sen jälkeen tilauksen tilaksi päivittyy KATKAISTU, eikä tilaajalle enää toimiteta lehtiä / tilaaja ei enää pääse kirjautumaan digisisältöön. Kestotilauksista ei enää synny uusia tilausjaksoja.
 
