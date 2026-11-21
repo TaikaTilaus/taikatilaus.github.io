@@ -173,7 +173,7 @@ Hakuehdot:
 
 ## Tilausten ja laskujen yhteenvedot
 
-- [Tilausyhteenveto](../tilausyhteenveto%20copy.md) kokoaa tilausten luvut erilliselle yhteenvetosivulle.
+- [Tilausyhteenveto](../tilausyhteenveto.md) kokoaa tilausten luvut erilliselle yhteenvetosivulle.
 - [Laskuyhteenvedot](../laskuyhteenvedot.md) kokoaa laskutuksen ja maksujen luvut.
 
 Raporttien yhteiset toiminnot, kuten kuvaajat, sarakevalinnat, vienti ja hakuehtojen tallentaminen, kuvataan sivulla [Kaikki raportit](./index.md#raportin-käyttäminen).

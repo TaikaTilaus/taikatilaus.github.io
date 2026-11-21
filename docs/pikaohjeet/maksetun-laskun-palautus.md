@@ -46,14 +46,14 @@ Tämä pikaohje kertoo, miten voit tiliöidä maksetun laskun koko summan palaut
 
 ![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus9.png)
 
-### 8. Kopioi palautuksen TiliöintiID TiliöintiID-kenttään ja paina Siirry palautuksen käsittelyyn
+### 9. Kopioi palautuksen TiliöintiID TiliöintiID-kenttään ja paina Siirry palautuksen käsittelyyn
 
 ![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus6.png)
 
-### 9. Valitse pankkitili, josta palautus on tehty asiakkaalle ja paina Kuittaa palautus asiakkaalle -painiketta
+### 10. Valitse pankkitili, josta palautus on tehty asiakkaalle ja paina Kuittaa palautus asiakkaalle -painiketta
 
 ![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus7.png)
 
-### 10. Palautus on nyt käsitelty loppuun asti
+### 11. Palautus on nyt käsitelty loppuun asti
 
 ![5. Pop up -ikkuna](/img/pikaohjeet/lasku-palautus8.png)
