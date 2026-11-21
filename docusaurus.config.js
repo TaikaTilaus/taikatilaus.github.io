@@ -42,6 +42,46 @@ const config = {
 
   plugins: [
     'docusaurus-plugin-image-zoom', // can also just be 'image-zoom'
+    [
+      // Generates /llms.txt, /llms-full.txt and a .md copy of every doc
+      // (/docs/<path>.md) at build time, so the AI index never goes stale.
+      'docusaurus-plugin-llms',
+      {
+        title: 'TaikaTilaus-tukipalvelu',
+        description:
+          'TaikaTilaus on SaaS-ratkaisu mediataloudelle tilausten ja ilmoitusten hallintaan, laskutukseen, postitukseen ja asiakashallintaan. Tämä sivusto on TaikaTilaus-ohjelmiston virallinen tukiportaali: käyttöohjeet, pikaohjeet, FAQ-vastaukset, ohjevideot ja versiotiedotteet.',
+        rootContent: [
+          'Sivuston osat:',
+          '',
+          '- /docs/uusi_versio/ : uuden TaikaTilauksen (uusi käyttöliittymä, kehitysversio) ohjeet.',
+          '- /docs/ohjeet/ ja /docs/pikaohjeet/ : nykyisen TaikaTilauksen käyttöohjeet ja pikaohjeet.',
+          '- /docs/faq/ : usein kysytyt kysymykset.',
+          '- /docs/versiotiedotteet/ : versiotiedotteet ja roadmap.',
+          '',
+          'Tukipyynnöt: https://taikatilaus.freshdesk.com/support/home',
+        ].join('\n'),
+        generateMarkdownFiles: true,
+        excludeImports: true,
+        removeDuplicateHeadings: true,
+        includeOrder: [
+          'etusivu.md',
+          'tukiportaali.md',
+          'uusi_versio/**',
+          'ohjeet/**',
+          'pikaohjeet/**',
+          'faq/**',
+          'ohjevideot.md',
+          'versiotiedotteet/syyskuu_2026.md',
+          'versiotiedotteet/elokuu_2026.md',
+          'versiotiedotteet/toukokuu_2026.md',
+          'versiotiedotteet/helmikuu_2026.md',
+          'versiotiedotteet/tammikuu_2026.md',
+          'versiotiedotteet/roadmap.md',
+          'versiotiedotteet/2025/**',
+          'versiotiedotteet/2024/**',
+        ],
+      },
+    ],
   ],
 
   clientModules: ['./src/clientModules/gtag-varmistus.js'],
@@ -87,6 +127,19 @@ const config = {
         },
         gtag: {
           trackingID: 'G-FE8605KBTG',
+        },
+        sitemap: {
+          // <lastmod> from the last git commit of each page.
+          lastmod: 'date',
+          changefreq: null,
+          priority: null,
+          // Generated pages (category indexes, blog tags/archive, search) have no
+          // source file and thus no git date; leave them out so every URL in the
+          // sitemap carries a real <lastmod>. The pages themselves still work.
+          createSitemapItems: async ({defaultCreateSitemapItems, ...rest}) => {
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => item.lastmod);
+          },
         },
       }),
     ],
