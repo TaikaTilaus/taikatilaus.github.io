@@ -1,9 +1,16 @@
 ---
 sidebar_position: 3
-description: Postitus — Postitusten haku, Esimerkkihaku, Osoitteistojen tiedostopainikkeet.
+description: Nykyinen TaikaTilaus – Postitus — Postitusten haku, Esimerkkihaku, Osoitteistojen tiedostopainikkeet.
+kayttoliittyma: nykyinen
 ---
 
 # Postitus
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaavat ohjeet: [Postitusten haku](../../uusi_versio/postitus/postitusten-haku.md), [Postitusten luonti](../../uusi_versio/postitus/postitusten-luonti.md), [Postitusten tiedot](../../uusi_versio/postitus/postitusten-tiedot.md).
+
+:::
 
 ## Yleistä
 

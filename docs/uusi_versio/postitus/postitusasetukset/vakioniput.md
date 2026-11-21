@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
 slug: /uusi_versio/asetukset/vakioniput
-description: Vakioniput - postitusainestoon tulevat vakioniput
+description: Uusi TaikaTilaus – Vakioniput - postitusainestoon tulevat vakioniput
+kayttoliittyma: uusi
 ---
 
 # Vakioniput
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Vakioniput](../../../ohjeet/asetukset/postitus/vakioniput.md).
+
+:::
 
 Avaa sivu valitsemalla **Postitus → Postitusasetukset**.
 

@@ -1,9 +1,16 @@
 ---
 sidebar_position: 1
-description: Yleistä tietoa palvelusta — Palvelun sisältö, Käyttäjätunnukset ja kirjautuminen, Ohjeet ja ilmoitukset.
+description: Nykyinen TaikaTilaus – Yleistä tietoa palvelusta — Palvelun sisältö, Käyttäjätunnukset ja kirjautuminen, Ohjeet ja ilmoitukset.
+kayttoliittyma: nykyinen
 ---
 
 # Yleistä tietoa palvelusta
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Uuden version ohjeet](../uusi_versio/yleista.md).
+
+:::
 
 ## Palvelun sisältö
 

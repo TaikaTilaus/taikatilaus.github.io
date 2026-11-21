@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
 title: Asiakkaat
-description: Asiakkaat — Asiakkaiden hakeminen, Hakuhistoria, Lisähakuehdot.
+description: Uusi TaikaTilaus – Asiakkaat — Asiakkaiden hakeminen, Hakuhistoria, Lisähakuehdot.
+kayttoliittyma: uusi
 ---
 
 # Asiakkaat
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Asiakkaat](../../ohjeet/yleiset_ominaisuudet/asiakkaat.md).
+
+:::
 
 **Asiakkaat**-sivulla voit hakea ja tarkastella asiakkaita sekä lisätä uusia asiakkaita. Avaa sivu yläreunan päävalikon **Asiakkaat**-painikkeesta.
 

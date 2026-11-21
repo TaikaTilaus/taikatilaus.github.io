@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
-description: Tilaustuotteiden luonti ja muokkaus, tilaustyypin valinta kestoksi tai määräaikaiseksi, digituotteet ja hinnoittelu.
+description: Nykyinen TaikaTilaus – Tilaustuotteiden luonti ja muokkaus, tilaustyypin valinta kestoksi tai määräaikaiseksi, digituotteet ja hinnoittelu.
 keywords: [tilaustuote, tilaustuotteet, tilaustuotteen, tuote, tuotteet, kestotilaus, kesto, jatkuva tilaus, maaraaikainen, määräaikainen, määräaikaistilaus, maaraaikaistilaus, tilaustyyppi, tilausmuoto, digituote, digilehti, nakoislehti, näköislehti, näköislehtitilaus, tuotteen lisaaminen, tuotteen muokkaus, hinnoittelu]
+kayttoliittyma: nykyinen
 ---
 
 # Tilaustuotteet
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Tuotteet](../../../uusi_versio/asetukset/tuotteet.md).
+
+:::
 
 ### Yleistietoa
 

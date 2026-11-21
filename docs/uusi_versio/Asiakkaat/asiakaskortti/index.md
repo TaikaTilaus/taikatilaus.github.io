@@ -2,10 +2,17 @@
 sidebar_label: Yleiskatsaus
 slug: /uusi_versio/Asiakkaat/asiakaskortti
 title: Asiakaskortti
-description: Asiakaskortin avaaminen ja ohjeet.
+description: Uusi TaikaTilaus – Asiakaskortin avaaminen ja ohjeet.
+kayttoliittyma: uusi
 ---
 
 # Asiakaskortti
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Asiakkaat](../../../ohjeet/yleiset_ominaisuudet/asiakkaat.md).
+
+:::
 
 ![Asiakaskortin yleisnäkymä](/img/versio2/asiakaskortti2.png)
 

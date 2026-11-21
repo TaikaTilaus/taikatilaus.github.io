@@ -1,10 +1,17 @@
 ---
 sidebar_position: 5
 title: Ilmoitusmyynnin raportit
-description: Ilmoitusmyynnin raportit — Yleiset ilmoitusraportit, Ilmoitusmyynti vuosittain, Laskutetut ilmoitusmyynnit.
+description: Nykyinen TaikaTilaus – Ilmoitusmyynnin raportit — Yleiset ilmoitusraportit, Ilmoitusmyynti vuosittain, Laskutetut ilmoitusmyynnit.
+kayttoliittyma: nykyinen
 ---
 
 # Ilmoitusmyynnin raportit
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Ilmoitukset-raportit](../../../uusi_versio/Raportit/kaikki-raportit/ilmoitukset.md).
+
+:::
 
 ## Yleiset ilmoitusraportit
 

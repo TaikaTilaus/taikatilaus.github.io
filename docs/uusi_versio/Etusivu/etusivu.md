@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
 title: Etusivu
-description: Etusivu — Päävalikko, etusivun data.
+description: Uusi TaikaTilaus – Etusivu — Päävalikko, etusivun data.
+kayttoliittyma: uusi
 ---
 
 # Etusivu
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Etusivu](../../ohjeet/yleiset_ominaisuudet/etusivu.md).
+
+:::
 
 Etusivulle on koottu yhteenveto asiakkaista, tilauksista ja laskuista sekä tiedoiteet, julkaisukalenteri, postitusyhteenveto ja viimeisimmät muutokset. Etusivulla näkyviä kortteja voi hallita [asetuksista](/docs/uusi_versio/asetukset/etusivun-osiot). 
 

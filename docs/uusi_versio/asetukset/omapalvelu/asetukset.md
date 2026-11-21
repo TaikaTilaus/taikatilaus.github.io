@@ -1,10 +1,17 @@
 ---
 sidebar_position: 3
 title: OmaPalvelun asetukset
-description: Asetukset → OmaPalvelu — osoite, sivut ja kortit, asiakkaan omien muutosten rajat, ilme ja värit, esikatselu sekä viestien tekstit.
+description: Uusi TaikaTilaus – Asetukset → OmaPalvelu — osoite, sivut ja kortit, asiakkaan omien muutosten rajat, ilme ja värit, esikatselu sekä viestien tekstit.
+kayttoliittyma: uusi
 ---
 
 # OmaPalvelun asetukset
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [OmaPalvelu](../../../ohjeet/asetukset/asiointipalvelut/omapalvelu.md).
+
+:::
 
 Asetukset ovat kohdassa **Asetukset → OmaPalvelu**. Kohta näkyy pääkäyttäjälle, kun OmaPalvelu on [otettu käyttöön](./index.md#käyttöönotto). Tallenna jokaisen osion muutokset osion omalla **Tallenna**-painikkeella.
 

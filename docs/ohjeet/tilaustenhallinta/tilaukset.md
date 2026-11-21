@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
-description: "Tilauksen tietojen katselu ja muokkaus: tilaustiedot, varhaisjakelun nippu, tilaaja ja maksaja, laskutuspyynnöt, katkaisu ja hyvitys."
+description: "Nykyinen TaikaTilaus – Tilauksen tietojen katselu ja muokkaus: tilaustiedot, varhaisjakelun nippu, tilaaja ja maksaja, laskutuspyynnöt, katkaisu ja hyvitys."
 keywords: [tilaus, tilaustiedot, tilauksen muokkaus, varhaisjakelun nippu, nippu, nippukoodi, jakelureitti, paivajakelu, päiväjakelu, jakelutapa, alennus, alennusprosentti, aleprosentti, tilaaja, maksaja, lahjatilaus]
+kayttoliittyma: nykyinen
 ---
 
 # Tilaus
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Tilaukset](../../uusi_versio/tilaukset.md).
+
+:::
 
 ## Tilaustiedot
 Yksittäiseen asiakkaaseen liittyvät tilaukset näkyvät **Asiakastiedot**-näkymässä omassa kentässään. Yksittäistä tilausta klikkaamalla pääset muokkaamaan sen tietoja. Pääset tiettyyn tilaukseen myös suoraan etusivulta **hakemalla tilausnumeroa**.

@@ -1,9 +1,16 @@
 ---
 sidebar_position: 8
-description: Ilmoitusten asetukset — käytössä olevat kentät, ilmoitusvarauslomake, Ilmoitukset-lista, uuden asiakkaan oletusmyyjä, ilmoituspaikkojen rajat ja avoimuusilmoitukset (TTPA).
+description: Uusi TaikaTilaus – Ilmoitusten asetukset — käytössä olevat kentät, ilmoitusvarauslomake, Ilmoitukset-lista, uuden asiakkaan oletusmyyjä, ilmoituspaikkojen rajat ja avoimuusilmoitukset (TTPA).
+kayttoliittyma: uusi
 ---
 
 # Ilmoitukset
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Ilmoitusten hallinta](../../ohjeet/asetukset/ilmoitusten-hallinta.md).
+
+:::
 
 **Ilmoitukset**-asetussivulla määritetään [Ilmoitukset-listan](../Ilmoitukset/ilmoitukset-lista.md) ja [ilmoitusvarauslomakkeen](../Ilmoitukset/ilmoitusvaraus.md) kentät ja toiminnot sekä ilmoituspaikkojen rajat ja avoimuusilmoitusten asetukset.
 

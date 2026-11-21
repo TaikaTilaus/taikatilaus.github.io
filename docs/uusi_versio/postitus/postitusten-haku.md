@@ -1,9 +1,16 @@
 ---
 sidebar_position: 2
-description: Postitusten haku uuden version Postitus-valikossa.
+description: Uusi TaikaTilaus – Postitusten haku uuden version Postitus-valikossa.
+kayttoliittyma: uusi
 ---
 
 # Postitusten haku
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Postitus](../../ohjeet/tilaustenhallinta/postistuslista.md).
+
+:::
 
 Postitusten haku -näkymässä voit hakea ja tarkastella lehden postituksia, verrata postitusta edelliseen sekä siirtää postituksen painoaineistot. Voit rajata hakua esimerkiksi ilmestymispäivän, jakelutavan, reitin tai yksittäisen tilauksen perusteella.
 

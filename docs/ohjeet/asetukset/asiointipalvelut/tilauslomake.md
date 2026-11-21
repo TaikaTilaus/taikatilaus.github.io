@@ -1,9 +1,16 @@
 ---
 sidebar_position: 1
-description: Tilauslomake — Yleiset asetukset, Tilaustuotteen valinta, Yhteystiedot, alennuskoodi.
+description: Nykyinen TaikaTilaus – Tilauslomake — Yleiset asetukset, Tilaustuotteen valinta, Yhteystiedot, alennuskoodi.
+kayttoliittyma: nykyinen
 ---
 
 # Tilauslomake
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Tilauslomake](../../../uusi_versio/asetukset/tilauslomake.md).
+
+:::
 
 ![Tilauslomake](/img/ohjeet/tilauslomake.png)
 

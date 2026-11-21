@@ -1,10 +1,17 @@
 ---
 sidebar_position: 10
 title: Muut raportit
-description: Muut-ryhmän raporttien avaaminen ja käyttäminen.
+description: Uusi TaikaTilaus – Muut-ryhmän raporttien avaaminen ja käyttäminen.
+kayttoliittyma: uusi
 ---
 
 # Muut raportit
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Muut raportit](../../../ohjeet/yleiset_ominaisuudet/raportit/asiakasraportit.md).
+
+:::
 
 Avaa **Raportit → Kaikki raportit** ja valitse **Muut**-ryhmä. Luettelossa näkyvät tämän ryhmän raportit ja tallennetut haut. Voit rajata luetteloa raportin nimellä ja lisääjällä.
 

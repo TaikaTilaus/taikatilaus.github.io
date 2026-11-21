@@ -2,10 +2,17 @@
 sidebar_position: 2
 slug: /ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit
 title: Kirjanpidon raportit
-description: Kirjanpidon raportit — Yleiset kirjanpidon raportit, Kirjanpitoyhteenveto, Vientiluettelo.
+description: Nykyinen TaikaTilaus – Kirjanpidon raportit — Yleiset kirjanpidon raportit, Kirjanpitoyhteenveto, Vientiluettelo.
+kayttoliittyma: nykyinen
 ---
 
 # Kirjanpidon raporttien kuvaukset
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Kirjanpito-raportit](../../../../uusi_versio/Raportit/kaikki-raportit/kirjanpito.md).
+
+:::
 
 ## Yleiset kirjanpidon raportit
 

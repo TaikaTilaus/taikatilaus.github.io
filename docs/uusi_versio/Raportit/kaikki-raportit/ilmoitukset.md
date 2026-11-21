@@ -1,10 +1,17 @@
 ---
 sidebar_position: 8
 title: Ilmoitukset-raportit
-description: Ilmoitukset-ryhmän raportit, myynnit myyjittäin ja maksamattomat ilmoituslaskut.
+description: Uusi TaikaTilaus – Ilmoitukset-ryhmän raportit, myynnit myyjittäin ja maksamattomat ilmoituslaskut.
+kayttoliittyma: uusi
 ---
 
 # Ilmoitukset-raportit
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Ilmoitusmyynnin raportit](../../../ohjeet/yleiset_ominaisuudet/raportit/ilmoitusmyynnin_raportit.md).
+
+:::
 
 Avaa **Raportit → Kaikki raportit** ja valitse **Ilmoitukset**-ryhmä. Voit rajata luetteloa raportin nimellä ja lisääjällä. Avaa raportti napsauttamalla sen riviä tai **Avaa**-painiketta, valitse hakuehdot ja napsauta **Hae**.
 

@@ -1,10 +1,17 @@
 ---
 sidebar_position: 2
 title: Asiakkaan näkymä
-description: Mitä asiakas näkee OmaPalvelussa — kirjautuminen, Etusivun kortit, tilaukset ja laskut, itsepalvelusivut, perhetunnus ja usean asiakkaan tunnus.
+description: Uusi TaikaTilaus – Mitä asiakas näkee OmaPalvelussa — kirjautuminen, Etusivun kortit, tilaukset ja laskut, itsepalvelusivut, perhetunnus ja usean asiakkaan tunnus.
+kayttoliittyma: uusi
 ---
 
 # Asiakkaan näkymä OmaPalvelussa
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [OmaPalvelu](../../../ohjeet/omapalvelu.md).
+
+:::
 
 Tällä sivulla kuvataan, mitä asiakas näkee ja voi tehdä OmaPalvelussa. Tämän tiedon avulla voit auttaa asiakasta puhelimessa.
 

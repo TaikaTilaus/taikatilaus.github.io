@@ -1,9 +1,16 @@
 ---
 sidebar_position: 3
-description: Myyntituotteet.
+description: Nykyinen TaikaTilaus – Myyntituotteet.
+kayttoliittyma: nykyinen
 ---
 
 # Myyntituotteet
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Tuotteet](../../../uusi_versio/asetukset/tuotteet.md).
+
+:::
 
 **Myyntituotteet**-välilehdellä voit tarkastella ja muokata olemassa olevia myyntituotteita sekä lisätä uusia. Myyntituote on **järjestelmässä myytävä asia**, esimerkiksi lehden etusivun mainos tai radiokanavan spotti.  
 

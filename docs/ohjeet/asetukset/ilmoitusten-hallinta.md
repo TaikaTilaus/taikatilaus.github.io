@@ -1,9 +1,16 @@
 ---
 sidebar_position: 6.5
-description: Ilmoitusten hallinta — integraatiot (Anygraaf Planner, Google Ad Manager), ilmoitusvarauslomakkeen, myyjien, laskutuksen, aineistosivun ja poliittisen mainonnan (TTPA) asetukset.
+description: Nykyinen TaikaTilaus – Ilmoitusten hallinta — integraatiot (Anygraaf Planner, Google Ad Manager), ilmoitusvarauslomakkeen, myyjien, laskutuksen, aineistosivun ja poliittisen mainonnan (TTPA) asetukset.
+kayttoliittyma: nykyinen
 ---
 
 # Ilmoitusten hallinta
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Ilmoitukset](../../uusi_versio/asetukset/ilmoitukset.md).
+
+:::
 
 **Ilmoitusten hallinta** -välilehdelle on koottu ilmoitusmyynnin asetukset. Välilehti näkyy yrityksen **pääkäyttäjille**, kun ilmoitusmyynti on käytössä.
 

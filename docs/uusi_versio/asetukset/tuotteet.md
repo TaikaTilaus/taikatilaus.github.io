@@ -1,9 +1,16 @@
 ---
 sidebar_position: 2
-description: Tuotteet — Tilaus-, erillis- ja myyntituotteet.
+description: Uusi TaikaTilaus – Tuotteet — Tilaus-, erillis- ja myyntituotteet.
+kayttoliittyma: uusi
 ---
 
 # Tuotteet
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaavat ohjeet: [Tilaustuotteet](../../ohjeet/asetukset/tuotteet-ja-julkaisut/tilaustuotteet.md), [Myyntituotteet](../../ohjeet/asetukset/tuotteet-ja-julkaisut/myyntituotteet.md).
+
+:::
 
 **Tuotteet**-sivulla voit tarkastella ja hallita tilaus-, erillis- ja myyntituotteita.
 

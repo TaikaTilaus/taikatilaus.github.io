@@ -1,10 +1,17 @@
 ---
 sidebar_position: 9
 title: Kirjanpito-raportit
-description: Kirjanpito-ryhmän raporttien avaaminen ja käyttäminen.
+description: Uusi TaikaTilaus – Kirjanpito-ryhmän raporttien avaaminen ja käyttäminen.
+kayttoliittyma: uusi
 ---
 
 # Kirjanpito-raportit
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaavat ohjeet: [Kirjanpidon raporttien kuvaukset](../../../ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit/yleiskatsaus.md), [Jaksotusraportit](../../../ohjeet/yleiset_ominaisuudet/raportit/kirjanpidon_raportit/jaksotusraportit.md).
+
+:::
 
 Avaa **Raportit → Kaikki raportit** ja valitse **Kirjanpito**-ryhmä. Luettelossa näkyvät tämän ryhmän raportit ja tallennetut haut. Voit rajata luetteloa raportin nimellä ja lisääjällä.
 

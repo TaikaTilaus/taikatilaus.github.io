@@ -1,10 +1,17 @@
 ---
 sidebar_position: 2
 title: Laskujen luonti
-description: Laskujen luonti uuden version Laskut-valikossa.
+description: Uusi TaikaTilaus – Laskujen luonti uuden version Laskut-valikossa.
+kayttoliittyma: uusi
 ---
 
 # Laskujen luonti
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Laskut ja laskutus](../../ohjeet/yleiset_ominaisuudet/lasku.md).
+
+:::
 
 **Laskujen luonti** -sivulla haet laskutettavat laskutuspyynnöt, esikatselet niistä muodostuvat laskut ja luot laskut. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut → Laskujen luonti**.
 

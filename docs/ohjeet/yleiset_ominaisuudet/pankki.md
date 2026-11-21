@@ -1,9 +1,16 @@
 ---
 sidebar_position: 4
-description: Pankki — Pankkiaineistojen käsittely.
+description: Nykyinen TaikaTilaus – Pankki — Pankkiaineistojen käsittely.
+kayttoliittyma: nykyinen
 ---
 
 # Pankki
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Pankki](../../uusi_versio/Laskut/pankki.md).
+
+:::
 
 ## Yleistä
 

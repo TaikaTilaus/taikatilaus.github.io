@@ -1,9 +1,16 @@
 ---
 sidebar_position: 2
-description: Tilit — Tilien lisääminen ja muokkaaminen.
+description: Nykyinen TaikaTilaus – Tilit — Tilien lisääminen ja muokkaaminen.
+kayttoliittyma: nykyinen
 ---
 
 # Tilit
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Tilit](../../../uusi_versio/asetukset/tilit.md).
+
+:::
 
 **Tilit**-välilehdellä voit tarkastella ja muokata olemassa olevia tilejä sekä lisätä uusia.
 

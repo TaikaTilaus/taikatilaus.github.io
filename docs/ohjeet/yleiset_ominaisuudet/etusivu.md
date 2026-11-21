@@ -1,9 +1,16 @@
 ---
 sidebar_position: 1
-description: Etusivu — Etusivun hakuehdot, Tilausmyyntiä koskevat tiedot, Ilmoitusmyyntiä koskevat tiedot.
+description: Nykyinen TaikaTilaus – Etusivu — Etusivun hakuehdot, Tilausmyyntiä koskevat tiedot, Ilmoitusmyyntiä koskevat tiedot.
+kayttoliittyma: nykyinen
 ---
 
 # Etusivu
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Etusivu](../../uusi_versio/Etusivu/etusivu.md).
+
+:::
 
 ## Etusivun hakuehdot
 
