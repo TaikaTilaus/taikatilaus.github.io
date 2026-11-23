@@ -56,10 +56,13 @@ const config = {
           '- /docs/uusi_versio/ : uuden TaikaTilauksen (uusi käyttöliittymä, kehitysversio) ohjeet.',
           '- /docs/ohjeet/ ja /docs/pikaohjeet/ : nykyisen TaikaTilauksen käyttöohjeet ja pikaohjeet.',
           '- /docs/faq/ : usein kysytyt kysymykset.',
-          '- /docs/versiotiedotteet/ : versiotiedotteet ja roadmap.',
+          '- /docs/versiotiedotteet/ : versiotiedotteet.',
           '',
           'Tukipyynnöt: https://taikatilaus.freshdesk.com/support/home',
         ].join('\n'),
+        // Unlisted pages (unlisted: true) are still read by the plugin: list them
+        // here so they stay out of llms.txt, llms-full.txt and the .md copies.
+        ignoreFiles: ['versiotiedotteet/roadmap.md'],
         generateMarkdownFiles: true,
         excludeImports: true,
         removeDuplicateHeadings: true,
@@ -76,7 +79,6 @@ const config = {
           'versiotiedotteet/toukokuu_2026.md',
           'versiotiedotteet/helmikuu_2026.md',
           'versiotiedotteet/tammikuu_2026.md',
-          'versiotiedotteet/roadmap.md',
           'versiotiedotteet/2025/**',
           'versiotiedotteet/2024/**',
         ],
@@ -253,7 +255,7 @@ const config = {
             items: [
               {
                 label: 'Versiotiedotteet',
-                to: '/docs/versiotiedotteet/toukokuu_2026',
+                to: '/docs/category/versiotiedotteet',
               },
               {
                 label: 'Blogi',
