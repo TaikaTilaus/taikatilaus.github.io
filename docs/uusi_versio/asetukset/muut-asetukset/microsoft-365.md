@@ -14,7 +14,7 @@ Ilmoitusten valmistus Microsoft 365:ssä otetaan asiakkaalle käyttöön eriksee
 ## Miten ilmoitusten valmistus toimii
 
 - Jokaisella ilmoitusvarauksella on **materiaali**, jolla on oma **materiaalinumero**. Sama materiaali voi olla usealla varauksella, esimerkiksi toistuvassa ilmoituksessa.
-- Materiaalin InDesign-tiedosto on SharePointissa materiaalinumeron mukaisessa kansiossa, esimerkiksi materiaalin 603953 tiedosto on `pr_admaterial/39/53/603953_.indd`.
+- Materiaalin InDesign-tiedosto on SharePointissa materiaalinumeron mukaisessa kansiossa, esimerkiksi materiaalin 123456 tiedosto on `materiaalit/34/56/123456_.indd`.
 - Taittaja tekee ilmoituksen InDesignissa ja vie valmiin PDF:n samaan kansioon.
 - TaikaTilaus tuo PDF:n automaattisesti materiaalin varauksille valmiiksi ilmoitukseksi.
 
@@ -47,7 +47,7 @@ Asiakkaan pääkäyttäjä antaa sovellukselle kirjoitusoikeuden ilmoitusaineist
 ### 1c. Sivusto, kirjasto ja yhteystesti
 
 1. Kirjoita **Sivuston osoite**, esimerkiksi `https://<yritys>.sharepoint.com/sites/Ilmoitusaineistot`.
-2. Kirjoita **Kansio kirjastossa**, jos materiaalit ovat kirjaston alikansiossa (esimerkiksi `pr_admaterial`). Tyhjä tarkoittaa kirjaston juurta.
+2. Kirjoita **Kansio kirjastossa**, jos materiaalit ovat kirjaston alikansiossa (esimerkiksi `materiaalit`). Tyhjä tarkoittaa kirjaston juurta.
 3. Jos sivustolla on useampi kirjasto, valitse **Kirjasto**.
 4. Napsauta **Testaa yhteys**.
 
