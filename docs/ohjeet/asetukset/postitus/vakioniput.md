@@ -1,9 +1,16 @@
 ---
 sidebar_position: 3
-description: Vakioniput — Yksittäisten nippujen muokkaus, Nippujen päivitys.
+description: Nykyinen TaikaTilaus – Vakioniput — Yksittäisten nippujen muokkaus, Nippujen päivitys.
+kayttoliittyma: nykyinen
 ---
 
 # Vakioniput
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Vakioniput](../../../uusi_versio/postitus/postitusasetukset/vakioniput.md).
+
+:::
 
 ![Varhaisjakelu](/img/ohjeet/vakioniput.png)
 

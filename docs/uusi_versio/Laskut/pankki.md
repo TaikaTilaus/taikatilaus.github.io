@@ -1,10 +1,17 @@
 ---
 sidebar_position: 5
 title: Pankki
-description: Pankki uuden version Laskut-valikossa.
+description: Uusi TaikaTilaus – Pankki uuden version Laskut-valikossa.
+kayttoliittyma: uusi
 ---
 
 # Pankki
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Pankki](../../ohjeet/yleiset_ominaisuudet/pankki.md).
+
+:::
 
 **Pankki**-sivulla näet, mitkä pankkiaineistot on tuotu järjestelmään, ja voit tuoda pankin viiteaineiston (viitemaksut) käsin. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut → Pankki.**
 

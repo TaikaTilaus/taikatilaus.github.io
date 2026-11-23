@@ -2,8 +2,15 @@
 sidebar_position: 1
 slug: /ohjeet/yleiset_ominaisuudet/raportit
 title: Raportit
-description: Raportit — Yleistä raporteista, Raportin hakukriteerien määrittely, Raporttikategoriat.
+description: Nykyinen TaikaTilaus – Raportit — Yleistä raporteista, Raportin hakukriteerien määrittely, Raporttikategoriat.
+kayttoliittyma: nykyinen
 ---
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Kaikki raportit](../../../uusi_versio/Raportit/kaikki-raportit/index.md).
+
+:::
 
 ## Yleistä raporteista
 

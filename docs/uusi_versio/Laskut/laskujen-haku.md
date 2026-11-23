@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
 title: Laskujen haku
-description: Laskujen haku — Laskujen hakeminen, Hakuhistoria, Laskujen rajaaminen.
+description: Uusi TaikaTilaus – Laskujen haku — Laskujen hakeminen, Hakuhistoria, Laskujen rajaaminen.
+kayttoliittyma: uusi
 ---
 
 # Laskujen haku
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Laskut ja laskutus](../../ohjeet/yleiset_ominaisuudet/lasku.md).
+
+:::
 
 **Laskujen haku** -sivulla voit hakea ja tarkastella laskuja, avata laskun muokattavaksi, tulostaa laskun sekä hakea maksumuistutettavia laskuja ja luoda maksumuistutuksia. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut**.
 

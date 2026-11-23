@@ -2,10 +2,17 @@
 sidebar_position: 1
 sidebar_label: Yleistä
 title: Tervetuloa TaikaTilaus ohjeisiin
-description: Tervetuloa TaikaTilaus ohjeisiin — Ohjeiden sisältö.
+description: Uusi TaikaTilaus – Tervetuloa TaikaTilaus ohjeisiin — Ohjeiden sisältö.
+kayttoliittyma: uusi
 ---
 
 # Uuden version ohjeet
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Yleistä tietoa palvelusta](../ohjeet/yleista.md).
+
+:::
 
 TaikaTilauksesta julkaistaan uusi, modernisoitu käyttöliittymä, jonka kehitys on vielä käynnissä. Versioon lisätään jatkuvasti uusia ominaisuuksia, ja olemassa olevia toimintoja sekä käyttöliittymää kehitetään saadun palautteen perusteella.
 

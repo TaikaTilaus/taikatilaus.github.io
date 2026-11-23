@@ -1,8 +1,15 @@
 ---
 sidebar_position: 7
 title: Lasku
-description: Laskujen haku — Lasku, laskun tiedot, laskun muokkaaminen.
+description: Uusi TaikaTilaus – Laskujen haku — Lasku, laskun tiedot, laskun muokkaaminen.
+kayttoliittyma: uusi
 ---
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Laskut ja laskutus](../../ohjeet/yleiset_ominaisuudet/lasku.md).
+
+:::
 
 ## Lasku
 

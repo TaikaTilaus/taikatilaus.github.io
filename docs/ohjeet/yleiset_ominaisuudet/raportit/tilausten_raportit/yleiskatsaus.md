@@ -1,8 +1,15 @@
 ---
 sidebar_position: 1
 title: Tilausten raportit
-description: Tilausten raportit — Tilausten raportit, Tilausmyynti vuosittain, Maksamattomat tilaukset.
+description: Nykyinen TaikaTilaus – Tilausten raportit — Tilausten raportit, Tilausmyynti vuosittain, Maksamattomat tilaukset.
+kayttoliittyma: nykyinen
 ---
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Tilaus-raportit](../../../../uusi_versio/Raportit/kaikki-raportit/tilaus.md).
+
+:::
 
 ## Tilausten raportit
 

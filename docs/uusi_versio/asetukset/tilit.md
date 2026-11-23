@@ -1,9 +1,16 @@
 ---
 sidebar_position: 4
-description: Tilit.
+description: Uusi TaikaTilaus – Tilit.
+kayttoliittyma: uusi
 ---
 
 # Tilit
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Tilit](../../ohjeet/asetukset/laskut/tilit.md).
+
+:::
 
 **Tilit**-sivulla ylläpidetään kirjanpidon tilikarttaa. Tilejä käytetään [tuotteiden](./tuotteet.md) kirjanpidon tileillä (myyntitili, ALV-velkatili ja myyntisaamiset tili) ja tiliöinneissä, joita muodostuu laskuista ja maksuista.
 

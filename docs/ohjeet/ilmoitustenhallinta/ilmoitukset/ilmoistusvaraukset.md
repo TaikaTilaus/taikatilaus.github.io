@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
 slug: /ohjeet/ilmoitustenhallinta/ilmoistusvaraukset
-description: Ilmoitusvaraukset — Ilmoitusvaraukset, Ilmoitusvarauksien hakeminen, Hakulistauksen asetukset.
+description: Nykyinen TaikaTilaus – Ilmoitusvaraukset — Ilmoitusvaraukset, Ilmoitusvarauksien hakeminen, Hakulistauksen asetukset.
+kayttoliittyma: nykyinen
 ---
 
 # Ilmoitusvaraukset
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaavat ohjeet: [Ilmoitusvarauslomake](../../../uusi_versio/Ilmoitukset/ilmoitusvaraus.md), [Uusi varaus ja kopiointi](../../../uusi_versio/Ilmoitukset/uusi-varaus-ja-kopiointi.md).
+
+:::
 
 ## Ilmoitusvaraukset
 

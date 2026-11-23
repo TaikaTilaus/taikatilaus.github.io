@@ -1,10 +1,17 @@
 ---
 sidebar_position: 6
-description: Asiakkaan kirjautuminen OmaPalveluun, salasanan vaihto, perhetunnusten eli alatunnusten liittäminen, osoitteenmuutokset ja jakelunkeskeytykset.
+description: Nykyinen TaikaTilaus – Asiakkaan kirjautuminen OmaPalveluun, salasanan vaihto, perhetunnusten eli alatunnusten liittäminen, osoitteenmuutokset ja jakelunkeskeytykset.
 keywords: [omapalvelu, perhetunnus, perhetunnukset, alatunnus, alatunnukset, alakäyttäjätunnus, alakayttajatunnus, lisätunnus, lisatunnus, käyttäjätunnus, kayttajatunnus, digilukuoikeus, digilukutunnus, salasanan vaihto, kirjautuminen]
+kayttoliittyma: nykyinen
 ---
 
 # OmaPalvelu
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Asiakkaan näkymä OmaPalvelussa](../uusi_versio/asetukset/omapalvelu/asiakkaan-nakyma.md).
+
+:::
 
 ## Kertakirjautuminen
 

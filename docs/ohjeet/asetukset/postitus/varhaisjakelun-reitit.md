@@ -1,10 +1,17 @@
 ---
 sidebar_position: 4
-description: "Varhaisjakelun reitit ja niput: milloin reitit syötetään itse ja milloin rekisteri tuodaan Postin muutostiedostosta."
+description: "Nykyinen TaikaTilaus – Varhaisjakelun reitit ja niput: milloin reitit syötetään itse ja milloin rekisteri tuodaan Postin muutostiedostosta."
 keywords: [varhaisjakelu, varhaisjakelun reitit, reitti, reittitunnus, nippu, nippukoodi, piiri, jattopaikka, jättöpaikka, kuljetus, varhaisjakelurekisteri, kayak, postin muutostiedosto, jakelija, jakelualue]
+kayttoliittyma: nykyinen
 ---
 
 # Varhaisjakelun reitit
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Varhaisjakelu](../../../uusi_versio/postitus/postitusasetukset/varhaisjakelu.md).
+
+:::
 
 ## Kumpi malli sivustolla on käytössä?
 

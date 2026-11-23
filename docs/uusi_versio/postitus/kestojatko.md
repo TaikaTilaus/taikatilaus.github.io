@@ -1,9 +1,16 @@
 ---
 sidebar_position: 4
-description: Kestojatko uuden version Postitus-valikossa.
+description: Uusi TaikaTilaus – Kestojatko uuden version Postitus-valikossa.
+kayttoliittyma: uusi
 ---
 
 # Kestojatko
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Kestojatko](../../ohjeet/tilaustenhallinta/kestojatko.md).
+
+:::
 
 Avaa toiminto valitsemalla **Postitus → Kestojatko**.
 

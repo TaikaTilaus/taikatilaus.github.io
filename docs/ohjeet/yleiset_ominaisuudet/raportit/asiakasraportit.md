@@ -1,10 +1,17 @@
 ---
 sidebar_position: 6
 title: Muut raportit
-description: Muut raportit — Asiakasraportit, Alennusprosentit, Maksutavat.
+description: Nykyinen TaikaTilaus – Muut raportit — Asiakasraportit, Alennusprosentit, Maksutavat.
+kayttoliittyma: nykyinen
 ---
 
 # Muut raportit
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaavat ohjeet: [Asiakkaat-raportit](../../../uusi_versio/Raportit/kaikki-raportit/asiakkaat.md), [Muut raportit](../../../uusi_versio/Raportit/kaikki-raportit/muut.md).
+
+:::
 
 ## Asiakasraportit
 

@@ -1,9 +1,16 @@
 ---
 sidebar_position: 9
-description: Tilauslomake.
+description: Uusi TaikaTilaus – Tilauslomake.
+kayttoliittyma: uusi
 ---
 
 # Tilauslomake
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Tilauslomake](../../ohjeet/asetukset/asiointipalvelut/tilauslomake.md).
+
+:::
 
 **Tilauslomake**-sivulla määrität julkisen tilauslomakkeen asetukset: mitkä tuotteet tilauslomakkeella näkyvät, tilausvaiheiden tekstit, maksutavat, ehdot, vahvistusviesti ja lomakkeen ulkoasu.
 

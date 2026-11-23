@@ -1,10 +1,17 @@
 ---
 sidebar_position: 3
 title: Uusi varaus ja kopiointi
-description: Lisää uusi varaus -ikkuna (julkaisut, online-kanavien alku- ja loppupäivä, vaihtoilmoituksen julkaisupäivä, asiakasalennus, jaettu aineisto), tyhjät varaukset ja varauksen kopiointi.
+description: Uusi TaikaTilaus – Lisää uusi varaus -ikkuna (julkaisut, online-kanavien alku- ja loppupäivä, vaihtoilmoituksen julkaisupäivä, asiakasalennus, jaettu aineisto), tyhjät varaukset ja varauksen kopiointi.
+kayttoliittyma: uusi
 ---
 
 # Uusi varaus ja kopiointi
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Ilmoitusvaraukset](../../ohjeet/ilmoitustenhallinta/ilmoitukset/ilmoistusvaraukset.md).
+
+:::
 
 Uuden ilmoitusvarauksen voi tehdä kolmella tavalla:
 

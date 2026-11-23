@@ -1,10 +1,17 @@
 ---
 sidebar_position: 3
 title: Laskujen lähetys
-description: Laskujen lähetys uuden version Laskut-valikossa.
+description: Uusi TaikaTilaus – Laskujen lähetys uuden version Laskut-valikossa.
+kayttoliittyma: uusi
 ---
 
 # Laskujen lähetys
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Laskut ja laskutus](../../ohjeet/yleiset_ominaisuudet/lasku.md).
+
+:::
 
 **Laskujen lähetys** -sivulla näet laskut ja maksumuistutukset, jotka ovat valmiita lähetettäväksi, ja voit lähettää laskut manuaalisesti. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut → Laskujen lähetys.**
 

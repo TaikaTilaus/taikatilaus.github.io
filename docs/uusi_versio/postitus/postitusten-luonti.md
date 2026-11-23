@@ -1,9 +1,16 @@
 ---
 sidebar_position: 1
-description: Postitusten luonti uuden version Postitus-valikossa.
+description: Uusi TaikaTilaus – Postitusten luonti uuden version Postitus-valikossa.
+kayttoliittyma: uusi
 ---
 
 # Postitusten luonti
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Postitus](../../ohjeet/tilaustenhallinta/postistuslista.md).
+
+:::
 
 Avaa toiminto valitsemalla **Postitus → Postitusten luonti**.
 

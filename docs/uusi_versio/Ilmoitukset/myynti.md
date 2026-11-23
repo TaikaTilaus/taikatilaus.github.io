@@ -1,10 +1,17 @@
 ---
 sidebar_position: 4
 title: Myynti
-description: Ilmoitusmyynnin sivu — myynnin tiedot, myyjän vaihto, laskun tuoterivin teksti, myynnin varaukset ja asiakkaan vaihto.
+description: Uusi TaikaTilaus – Ilmoitusmyynnin sivu — myynnin tiedot, myyjän vaihto, laskun tuoterivin teksti, myynnin varaukset ja asiakkaan vaihto.
+kayttoliittyma: uusi
 ---
 
 # Myynti
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Ilmoitusasiakas ja -myynti](../../ohjeet/ilmoitustenhallinta/ilmoitusasiakas.md).
+
+:::
 
 Myynti on ilmoitusvarausten ryhmä, jonka varaukset kuuluvat samalle asiakkaalle. Uusi varaus luo myynnin, jos sitä ei vielä ole. Avaa myyntisivu napsauttamalla myyntinumeroa [varauslomakkeella](./ilmoitusvaraus.md) tai painamalla lomakkeen **Näytä myynti** -painiketta.
 

@@ -1,9 +1,16 @@
 ---
 sidebar_position: 10
-description: Huomiot — Huomiot yleisesti, Yksittäisen huomion käsittely, Huomiot OmaPalvelua käytettäessä.
+description: Nykyinen TaikaTilaus – Huomiot — Huomiot yleisesti, Yksittäisen huomion käsittely, Huomiot OmaPalvelua käytettäessä.
+kayttoliittyma: nykyinen
 ---
 
 # Huomiot
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Huomiot](../../uusi_versio/Etusivu/huomiot.md).
+
+:::
 
 ## Huomiot yleisesti
 

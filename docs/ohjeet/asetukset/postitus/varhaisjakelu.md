@@ -1,9 +1,16 @@
 ---
 sidebar_position: 2
-description: Varhaisjakelu.
+description: Nykyinen TaikaTilaus – Varhaisjakelu.
+kayttoliittyma: nykyinen
 ---
 
 # Varhaisjakelu
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Varhaisjakelu](../../../uusi_versio/postitus/postitusasetukset/varhaisjakelu.md).
+
+:::
 
 ![Varhaisjakelu](/img/ohjeet/varhaisjakelu.png)
 

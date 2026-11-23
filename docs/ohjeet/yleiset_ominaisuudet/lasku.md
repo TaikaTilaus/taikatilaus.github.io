@@ -1,9 +1,16 @@
 ---
 sidebar_position: 2
-description: Laskut ja laskutus — Yleistä laskuista, Yksittäisen asiakkaan laskujen käsittely, Avoimen laskun palauttaminen laskutuspyynnöksi.
+description: Nykyinen TaikaTilaus – Laskut ja laskutus — Yleistä laskuista, Yksittäisen asiakkaan laskujen käsittely, Avoimen laskun palauttaminen laskutuspyynnöksi.
+kayttoliittyma: nykyinen
 ---
 
 # Laskut ja laskutus
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaavat ohjeet: [Lasku](../../uusi_versio/Laskut/lasku.md), [Laskujen haku](../../uusi_versio/Laskut/laskujen-haku.md), [Laskujen luonti](../../uusi_versio/Laskut/laskujen-luonti.md), [Laskujen lähetys](../../uusi_versio/Laskut/laskujen-lahetys.md).
+
+:::
 
 Laskutusprosessin voi halutessaan **automatisoida** TaikaTilaus-ohjelmalla, mutta laskuja voi myös käsitellä ja lähettää manuaalisesti.
 

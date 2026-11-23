@@ -1,10 +1,17 @@
 ---
 sidebar_position: 3
 sidebar_label: Postitusten tiedot
-description: Postitusten tiedot.
+description: Uusi TaikaTilaus – Postitusten tiedot.
+kayttoliittyma: uusi
 ---
 
 # Postitusten tiedot
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Postitus](../../ohjeet/tilaustenhallinta/postistuslista.md).
+
+:::
 
 **Postitusten tiedot** -sivulla tehdään lehden postitus- ja LaPa-ajo. 
 

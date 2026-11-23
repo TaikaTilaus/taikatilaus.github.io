@@ -1,10 +1,17 @@
 ---
 sidebar_position: 4
 title: Huomiot
-description: Huomiot — Huomion käsitteleminen.
+description: Uusi TaikaTilaus – Huomiot — Huomion käsitteleminen.
+kayttoliittyma: uusi
 ---
 
 # Huomiot
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Huomiot](../../ohjeet/yleiset_ominaisuudet/huomiot.md).
+
+:::
 
 Avaa **Huomiot** napsauttamalla päävalikon oikeassa reunassa olevaa **kellokuvaketta**. Kuvakkeen yhteydessä näkyvä numero kertoo käsittelemättömien huomioiden määrän.
 

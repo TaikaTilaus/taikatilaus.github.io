@@ -1,9 +1,16 @@
 ---
 sidebar_position: 3
-description: Suoritukset — Yleistä suorituksista, Suoriteperusteinen kirjanpito, Suoritukset-välilehti.
+description: Nykyinen TaikaTilaus – Suoritukset — Yleistä suorituksista, Suoriteperusteinen kirjanpito, Suoritukset-välilehti.
+kayttoliittyma: nykyinen
 ---
 
 # Suoritukset
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Suoritukset](../../uusi_versio/Laskut/suoritukset.md).
+
+:::
 
 ## Yleistä suorituksista
 

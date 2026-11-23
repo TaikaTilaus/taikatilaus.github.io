@@ -1,9 +1,16 @@
 ---
 sidebar_position: 3
-description: Tilaukset — Tilausten hakeminen, Hakuhistoria, Lisähakuehdot.
+description: Uusi TaikaTilaus – Tilaukset — Tilausten hakeminen, Hakuhistoria, Lisähakuehdot.
+kayttoliittyma: uusi
 ---
 
 # Tilaukset
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Tilaus](../ohjeet/tilaustenhallinta/tilaukset.md).
+
+:::
 
 **Tilaukset**-sivulla voit hakea ja tarkastella tilauksia, avata tilauksen muokattavaksi sekä lisätä uusia tilauksia. Avaa sivu yläreunan päävalikon **Tilaukset**-painikkeesta.
 

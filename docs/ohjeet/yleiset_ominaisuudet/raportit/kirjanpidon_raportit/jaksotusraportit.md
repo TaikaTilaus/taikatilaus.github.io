@@ -1,10 +1,17 @@
 ---
 sidebar_position: 2
 slug: /ohjeet/yleiset_ominaisuudet/jaksotusraportit
-description: Jaksotusraportit — Yleistä jaksotusraporteista, Milloin käytän tätä sivua vs. Kirjanpidon raportit -yleiskatsausta, Hakuehdot.
+description: Nykyinen TaikaTilaus – Jaksotusraportit — Yleistä jaksotusraporteista, Milloin käytän tätä sivua vs. Kirjanpidon raportit -yleiskatsausta, Hakuehdot.
+kayttoliittyma: nykyinen
 ---
 
 # Jaksotusraportit
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Kirjanpito-raportit](../../../../uusi_versio/Raportit/kaikki-raportit/kirjanpito.md).
+
+:::
 
 ## Yleistä jaksotusraporteista
 

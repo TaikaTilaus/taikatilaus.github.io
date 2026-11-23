@@ -1,10 +1,17 @@
 ---
 sidebar_position: 4
 title: Suoritukset
-description: Suoritukset uuden version Laskut-valikossa.
+description: Uusi TaikaTilaus – Suoritukset uuden version Laskut-valikossa.
+kayttoliittyma: uusi
 ---
 
 # Suoritukset
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Suoritukset](../../ohjeet/yleiset_ominaisuudet/suoritukset.md).
+
+:::
 
 **Suoritukset**-sivulla haet ja tarkastelet asiakkaiden maksuja eli suorituksia ja kohdistat suorituksen laskuun. Avaa sivu yläreunan päävalikosta valitsemalla **Laskut → Suoritukset**.
 

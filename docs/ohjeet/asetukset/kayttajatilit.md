@@ -1,9 +1,16 @@
 ---
 sidebar_position: 7
-description: Käyttäjätilit — Käyttäjien tietojen muokkaaminen.
+description: Nykyinen TaikaTilaus – Käyttäjätilit — Käyttäjien tietojen muokkaaminen.
+kayttoliittyma: nykyinen
 ---
 
 # Käyttäjätilit
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Käyttäjät](../../uusi_versio/yllapito/kayttajat.md).
+
+:::
 
 ![Käyttäjätilit](/img/ohjeet/kayttajat.png)
 *Pääkäyttäjät voivat hallinnoida palvelun käyttäjiä Käyttäjätilit-välilehdeltä.*

@@ -1,9 +1,16 @@
 ---
 sidebar_position: 2
-description: OmaPalvelu — Toiminnot, Korttien tekstit, Kirjautumisnäkymien otsikot ja palvelun osoitteet.
+description: Nykyinen TaikaTilaus – OmaPalvelu — Toiminnot, Korttien tekstit, Kirjautumisnäkymien otsikot ja palvelun osoitteet.
+kayttoliittyma: nykyinen
 ---
 
 # OmaPalvelu
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaavat ohjeet: [OmaPalvelu](../../../uusi_versio/asetukset/omapalvelu/index.md), [OmaPalvelun asetukset](../../../uusi_versio/asetukset/omapalvelu/asetukset.md).
+
+:::
 
 ![OmaPalvelu](/img/ohjeet/omapalvelu.png)
 

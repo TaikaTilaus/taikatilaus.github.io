@@ -1,10 +1,17 @@
 ---
 sidebar_position: 11
 title: Tilaus-raportit
-description: Tilaus-ryhmän raporttien käyttäminen ja maksamattomat tilauslaskut.
+description: Uusi TaikaTilaus – Tilaus-ryhmän raporttien käyttäminen ja maksamattomat tilauslaskut.
+kayttoliittyma: uusi
 ---
 
 # Tilaus-raportit
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Tilausten raportit](../../../ohjeet/yleiset_ominaisuudet/raportit/tilausten_raportit/yleiskatsaus.md).
+
+:::
 
 Avaa **Raportit → Kaikki raportit** ja valitse **Tilaus**-ryhmä. Voit rajata luetteloa raportin nimellä ja lisääjällä. Avaa raportti napsauttamalla sen riviä tai **Avaa**-painiketta, valitse hakuehdot ja napsauta **Hae**.
 

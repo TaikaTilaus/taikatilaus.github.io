@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
-description: "Asiakaskortin tiedot: yhteystiedot, laskutustiedot ja toimitustapa, koontilasku, perintäkielto, alennukset ja muutosloki."
+description: "Nykyinen TaikaTilaus – Asiakaskortin tiedot: yhteystiedot, laskutustiedot ja toimitustapa, koontilasku, perintäkielto, alennukset ja muutosloki."
 keywords: [asiakas, asiakaskortti, asiakastiedot, laskutustiedot, laskutusosoite, laskun toimitustapa, toimitustapa, maksumuistutus, karhulasku, koontilasku, perintakielto, perintäkielto, suoramaksu, laskutuslisa, laskutuslisä, muutosloki]
+kayttoliittyma: nykyinen
 ---
 
 # Asiakkaat
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaavat ohjeet: [Asiakkaat](../../uusi_versio/Asiakkaat/asiakkaat.md), [Asiakaskortti](../../uusi_versio/Asiakkaat/asiakaskortti/index.md).
+
+:::
 
 ## Asiakkaan tiedot
 

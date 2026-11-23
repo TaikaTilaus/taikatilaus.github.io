@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
 title: Ilmoitukset-lista ja haku
-description: Ilmoitukset — ilmoitusvarausten haku, hakuehdot, Kanava ja Julkaisu, lisähakuehdot, sarakkeet, valituille-toiminnot ja raportit.
+description: Uusi TaikaTilaus – Ilmoitukset — ilmoitusvarausten haku, hakuehdot, Kanava ja Julkaisu, lisähakuehdot, sarakkeet, valituille-toiminnot ja raportit.
+kayttoliittyma: uusi
 ---
 
 # Ilmoitukset-lista ja haku
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Ilmoitusasiakas ja -myynti](../../ohjeet/ilmoitustenhallinta/ilmoitusasiakas.md).
+
+:::
 
 **Ilmoitukset**-sivu on ilmoitusmyynnin työpöytä. Sivulla haet ilmoitusvarauksia, avaat varauksen muokattavaksi, lisäät uusia varauksia, käsittelet aineistoja ja teet raportteja. Avaa sivu yläreunan päävalikosta valitsemalla **Ilmoitukset**.
 

@@ -1,10 +1,17 @@
 ---
 sidebar_position: 2
 title: Ilmoitusvarauslomake
-description: Ilmoitusvarauslomake — julkaisu ja tuote, koko, hinta ja alennukset (Asiakasalennus, Alennusprosentti, Alennus EUR, Syötä verollinen loppuhinta), laskutus, maksaja, aineistot, Valmistettava materiaali ja InDesign, tilat.
+description: Uusi TaikaTilaus – Ilmoitusvarauslomake — julkaisu ja tuote, koko, hinta ja alennukset (Asiakasalennus, Alennusprosentti, Alennus EUR, Syötä verollinen loppuhinta), laskutus, maksaja, aineistot, Valmistettava materiaali ja InDesign, tilat.
+kayttoliittyma: uusi
 ---
 
 # Ilmoitusvarauslomake
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Ilmoitusvaraukset](../../ohjeet/ilmoitustenhallinta/ilmoitukset/ilmoistusvaraukset.md).
+
+:::
 
 Ilmoitusvarauslomakkeella lisäät uuden ilmoitusvarauksen ja muokkaat tallennettua varausta.
 

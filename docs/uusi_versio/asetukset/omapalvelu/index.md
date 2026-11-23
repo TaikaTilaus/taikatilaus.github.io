@@ -2,10 +2,17 @@
 sidebar_position: 1
 slug: /uusi_versio/asetukset/omapalvelu
 title: OmaPalvelu
-description: OmaPalvelu on asiakkaan oma sivusto, jossa tilaaja näkee tilauksensa ja laskunsa ja hoitaa osoitteen, jakelun keskeytyksen ja yhteystietojen muutokset itse.
+description: Uusi TaikaTilaus – OmaPalvelu on asiakkaan oma sivusto, jossa tilaaja näkee tilauksensa ja laskunsa ja hoitaa osoitteen, jakelun keskeytyksen ja yhteystietojen muutokset itse.
+kayttoliittyma: uusi
 ---
 
 # OmaPalvelu
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [OmaPalvelu](../../../ohjeet/asetukset/asiointipalvelut/omapalvelu.md).
+
+:::
 
 **OmaPalvelu** on asiakkaan oma sivusto. Kun tilaaja kirjautuu sinne omalla käyttäjätunnuksellaan, hän näkee tilauksensa ja laskunsa ja voi tehdä osan muutoksista itse, esimerkiksi ilmoittaa väliaikaisen osoitteen tai keskeyttää jakelun. Näin asiakaspalvelun ei tarvitse tehdä jokaista muutosta käsin.
 

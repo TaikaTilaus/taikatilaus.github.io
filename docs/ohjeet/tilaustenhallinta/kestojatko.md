@@ -1,9 +1,16 @@
 ---
 sidebar_position: 3
-description: Kestojatko — Kestojatkon tekeminen.
+description: Nykyinen TaikaTilaus – Kestojatko — Kestojatkon tekeminen.
+kayttoliittyma: nykyinen
 ---
 
 # Kestojatko
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Kestojatko](../../uusi_versio/postitus/kestojatko.md).
+
+:::
 
 ## Kestojatkon tekeminen
 

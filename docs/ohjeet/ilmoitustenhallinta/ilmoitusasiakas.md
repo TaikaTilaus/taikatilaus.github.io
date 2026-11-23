@@ -1,9 +1,16 @@
 ---
 sidebar_position: 1
-description: Ilmoitusasiakas ja -myynti — Ilmoitusasiakas, Ilmoitusasiakkaan koontisivu ja välilehdet, Asiakastiedot.
+description: Nykyinen TaikaTilaus – Ilmoitusasiakas ja -myynti — Ilmoitusasiakas, Ilmoitusasiakkaan koontisivu ja välilehdet, Asiakastiedot.
+kayttoliittyma: nykyinen
 ---
 
 # Ilmoitusasiakas ja -myynti
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaavat ohjeet: [Ilmoitukset-lista ja haku](../../uusi_versio/Ilmoitukset/ilmoitukset-lista.md), [Myynti](../../uusi_versio/Ilmoitukset/myynti.md).
+
+:::
 
 ## Ilmoitusasiakas
 

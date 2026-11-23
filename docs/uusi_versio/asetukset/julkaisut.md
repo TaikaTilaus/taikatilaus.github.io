@@ -1,9 +1,16 @@
 ---
 sidebar_position: 3
-description: Julkaisut
+description: Uusi TaikaTilaus – Julkaisut
+kayttoliittyma: uusi
 ---
 
 # Julkaisut
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Julkaisut](../../ohjeet/asetukset/tuotteet-ja-julkaisut/julkaisut.md).
+
+:::
 
 **Julkaisut**-sivulla ylläpidetään julkaisukanavia, julkaisuja ja niiden ilmestymispäiviä.
 

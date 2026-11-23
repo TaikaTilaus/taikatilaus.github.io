@@ -1,9 +1,16 @@
 ---
 sidebar_position: 4
-description: Julkaisut — Julkaisun lisääminen.
+description: Nykyinen TaikaTilaus – Julkaisut — Julkaisun lisääminen.
+kayttoliittyma: nykyinen
 ---
 
 # Julkaisut
+
+:::note Nykyinen TaikaTilaus
+
+Tämä ohje koskee nykyistä TaikaTilausta. Uuden TaikaTilauksen vastaava ohje: [Julkaisut](../../../uusi_versio/asetukset/julkaisut.md).
+
+:::
 
 ![Julkaisut](/img/ohjeet/julkaisut.png)
 *Julkaisut-välilehti*

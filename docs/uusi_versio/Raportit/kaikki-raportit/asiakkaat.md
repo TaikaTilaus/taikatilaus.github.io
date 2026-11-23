@@ -1,10 +1,17 @@
 ---
 sidebar_position: 7
 title: Asiakkaat-raportit
-description: Asiakkaat-ryhmän raporttien avaaminen ja käyttäminen.
+description: Uusi TaikaTilaus – Asiakkaat-ryhmän raporttien avaaminen ja käyttäminen.
+kayttoliittyma: uusi
 ---
 
 # Asiakkaat-raportit
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Muut raportit](../../../ohjeet/yleiset_ominaisuudet/raportit/asiakasraportit.md).
+
+:::
 
 Avaa **Raportit → Kaikki raportit** ja valitse **Asiakkaat**-ryhmä. Luettelossa näkyvät tämän ryhmän raportit ja tallennetut haut. Voit rajata luetteloa raportin nimellä ja lisääjällä.
 

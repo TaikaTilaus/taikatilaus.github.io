@@ -1,10 +1,17 @@
 ---
 sidebar_position: 1
 slug: /uusi_versio/Raportit/kaikki-raportit
-description: Kaikki raportit — Raportin hakeminen, Raporttiluettelo, Raportin lisääminen suosikiksi.
+description: Uusi TaikaTilaus – Kaikki raportit — Raportin hakeminen, Raporttiluettelo, Raportin lisääminen suosikiksi.
+kayttoliittyma: uusi
 ---
 
 # Kaikki raportit
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Raportit](../../../ohjeet/yleiset_ominaisuudet/raportit/yleiskatsaus.md).
+
+:::
 
 ![Kaikki raportit -sivun yleisnäkymä](/img/versio2/raportit.png)
 

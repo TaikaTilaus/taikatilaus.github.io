@@ -1,7 +1,15 @@
 ---
 sidebar_position: 1
 title: Käyttäjät
+description: Uusi TaikaTilaus – Käyttäjät.
+kayttoliittyma: uusi
 ---
+
+:::note Uusi TaikaTilaus
+
+Tämä ohje koskee uutta TaikaTilausta (kehitysversio). Nykyisen TaikaTilauksen vastaava ohje: [Käyttäjätilit](../../ohjeet/asetukset/kayttajatilit.md).
+
+:::
 
 ## Käyttäjät
 
