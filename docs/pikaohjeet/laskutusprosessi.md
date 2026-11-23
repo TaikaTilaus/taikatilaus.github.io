@@ -7,98 +7,98 @@ description: Laskutusprosessi — 1. Aloitetaan laskutusprosessi Laskut-valikost
 
 ### 1. Aloitetaan laskutusprosessi Laskut-valikosta, Laskujen haku-välilehdeltä.
 
-![1. Etusivunäkymä](/img/pikaohjeet/laskutusprosessi.png)
+![1. Laskut-valikon Laskujen haku -välilehti](/img/pikaohjeet/laskutusprosessi.png)
 
 ### 2. Hae maksumuistutettavat painamalla Hae Maksumuistutettavat #1 -painiketta
 
-![2. Alkuperäisen laskun näkymä](/img/pikaohjeet/laskutusprosessi2.png)
+![2. Hae maksumuistutettavat #1 -painike](/img/pikaohjeet/laskutusprosessi2.png)
 
 ### 3. Kun haku on suoritettu, paina Valitse kaikki.
 
-![3. Ilmoitus hyvityslaskun poistosta](/img/pikaohjeet/laskutusprosessi3.png)
+![3. Valitse kaikki -painike](/img/pikaohjeet/laskutusprosessi3.png)
 
 ### 4. Kun laskut on valittuna, painetaan Luo maksumuistutus #1
 
-![4. Etusivunäkymä](/img/pikaohjeet/laskutusprosessi4.png)
+![4. Luo maksumuistutus #1 -painike](/img/pikaohjeet/laskutusprosessi4.png)
 
 ### 5. Näyttöllä näytetään viesti maksumuistutuksien luonnin onnistumisesta.
 
-![5. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi5.png)
+![5. Ilmoitus maksumuistutusten luonnin onnistumisesta](/img/pikaohjeet/laskutusprosessi5.png)
 
 ### 6. Suoritetaan sama prosessi (2-5) Maksumuistutus #2:lla.
 
-![6. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi6.png)
+![6. Maksumuistutus #2:n haku ja luonti](/img/pikaohjeet/laskutusprosessi6.png)
 
 ### 7. Kun maksumuistutukset on luotu, siirrytään Laskujen luonti-välilehdelle.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi7.png)
+![7. Laskujen luonti -välilehti](/img/pikaohjeet/laskutusprosessi7.png)
 
 ### 8. Painetaan Hae laskutuspyynnöt
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi8.png)
+![8. Hae laskutuspyynnöt -painike](/img/pikaohjeet/laskutusprosessi8.png)
 
 ### 9. Jos laskutuspyynnöissä on virheellisiä laskutuspyyntöjä tai peruttuja tilauksia, näytetään siitä punaisella virheilmoitus listauksen yllä. Hae virheellisiä Ctrl+F komennolla ja kirjoittamalla browserin hakukenttään 'virhe'
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi9.png)
+![9. Virheilmoitus virheellisistä laskutuspyynnöistä](/img/pikaohjeet/laskutusprosessi9.png)
 
 ### 10. Korjaa virheelliset laskutustiedot menemällä asiakkaan asiakaskortille painamalla asiakasnumerosta ja korjaamalla siellä puuttuvat tiedot.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi10.png)
+![10. Virheellisen laskutuspyynnön asiakasnumero](/img/pikaohjeet/laskutusprosessi10.png)
 
-### 12. Kun kaikki virheelliset on korjattu, virheilmoitus poistuu listauksen alusta.
+### 11. Kun kaikki virheelliset on korjattu, virheilmoitus poistuu listauksen alusta.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi11.png)
+![11. Laskutuspyyntöjen lista ilman virheilmoitusta](/img/pikaohjeet/laskutusprosessi11.png)
 
-### 13. Paina Valitse kaikki.
+### 12. Paina Valitse kaikki.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi12.png)
+![12. Valitse kaikki -painike](/img/pikaohjeet/laskutusprosessi12.png)
 
-### 14. Jos haluat esikatsella laskuja, ennen kuin luot ne todellisesti, laita esikatselu päälle. Muista laittaa esikatselu pois, kun teet laskuja todella.
+### 13. Jos haluat esikatsella laskuja, ennen kuin luot ne todellisesti, laita esikatselu päälle. Muista laittaa esikatselu pois, kun teet laskuja todella.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi13.png)
+![13. Esikatselu-valinta](/img/pikaohjeet/laskutusprosessi13.png)
 
-### 15. Kun laskut on valittuna, paina Suorita laskutusajo.
+### 14. Kun laskut on valittuna, paina Suorita laskutusajo.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi14.png)
+![14. Suorita laskutusajo -painike](/img/pikaohjeet/laskutusprosessi14.png)
 
-### 16. Kun laskutusajo on suoritettu, näytölle ilmestyy kooste laskujen tiedoista. Voit ladata tiedot tarkasteltavaksi PDF:ksi.
+### 15. Kun laskutusajo on suoritettu, näytölle ilmestyy kooste laskujen tiedoista. Voit ladata tiedot tarkasteltavaksi PDF:ksi.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi25.png)
+![15. Laskutusajon kooste ja PDF-lataus](/img/pikaohjeet/laskutusprosessi25.png)
 
-### 17. Jos teillä on käytössä ilmoitusten hallinta, tee sama prosessi (8-16) ilmoituslaskuille.
+### 16. Jos teillä on käytössä ilmoitusten hallinta, tee sama prosessi (8-15) ilmoituslaskuille.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi15.png)
+![16. Ilmoitusten laskutuspyynnöt](/img/pikaohjeet/laskutusprosessi15.png)
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi16.png)
+![16. Ilmoituslaskujen laskutusajo](/img/pikaohjeet/laskutusprosessi16.png)
 
-### 18. Kun laskutuspyynnöt on luotu laskuiksi, siirrytään Laskujen lähetys -välilehdelle.
+### 17. Kun laskutuspyynnöt on luotu laskuiksi, siirrytään Laskujen lähetys -välilehdelle.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi17.png)
+![17. Laskujen lähetys -välilehti](/img/pikaohjeet/laskutusprosessi17.png)
 
-### 19. Laskut lähetetään kanava kerrallaan. Valitse ensimmäinen kanava esim. SÄHKÖPOSTI {#laskutuskanavan-valinta}
+### 18. Laskut lähetetään kanava kerrallaan. Valitse ensimmäinen kanava esim. SÄHKÖPOSTI {#laskutuskanavan-valinta}
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi18.png)
+![18. Laskutuskanavan valinta](/img/pikaohjeet/laskutusprosessi18.png)
 
-### 20. Paina Valitse kaikki.
+### 19. Paina Valitse kaikki.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi19.png)
+![19. Valitse kaikki -painike](/img/pikaohjeet/laskutusprosessi19.png)
 
-### 21. Kun laskut on valittu, paina Lähetä laskut sähköpostilla.
+### 20. Kun laskut on valittu, paina Lähetä laskut sähköpostilla.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi20.png)
+![20. Lähetä laskut sähköpostilla -painike](/img/pikaohjeet/laskutusprosessi20.png)
 
-### 22. Ota esikatselu pois päältä, jos teet laskutusta oikeasti.
+### 21. Ota esikatselu pois päältä, jos teet laskutusta oikeasti.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi21.png)
+![21. Esikatselu pois päältä](/img/pikaohjeet/laskutusprosessi21.png)
 
-### 23. Paina Lähetä laskut.
+### 22. Paina Lähetä laskut.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi22.png)
+![22. Lähetä laskut -painike](/img/pikaohjeet/laskutusprosessi22.png)
 
-### 24. Näytölle ilmestyy vahvistusviesti laskujen onnistuneesta lähetyksestä.
+### 23. Näytölle ilmestyy vahvistusviesti laskujen onnistuneesta lähetyksestä.
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi23.png)
+![23. Vahvistus laskujen lähetyksestä](/img/pikaohjeet/laskutusprosessi23.png)
 
-### 25. Tee sama prosessi (19-24) muilla laskutuskanavilla. 
+### 24. Tee sama prosessi (18-23) muilla laskutuskanavilla. 
 
-![7. Hyvityslaskun tiedot -näkymä](/img/pikaohjeet/laskutusprosessi24.png)
+![24. Seuraavan laskutuskanavan valinta](/img/pikaohjeet/laskutusprosessi24.png)

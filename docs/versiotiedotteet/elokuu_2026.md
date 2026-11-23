@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: Uudistuksia TaikaTilaus-tuotteeseen 1.4.-31.5.2026 välisenä aikana
+description: Uudistuksia TaikaTilaus-tuotteeseen 1.6.-31.8.2026 välisenä aikana
 image: /img/social.png
 keywords: [versiotiedote, vakioniput, raportit, tuottoerittely, tilaus- ja laskutusennuste, ALV-myynnit, avoimet laskut, laskupäiväkirja]
 ---

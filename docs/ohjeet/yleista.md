@@ -47,7 +47,7 @@ Löydät valikon välilehtiin liittyvät ohjeet myös jokaisen välilehden yläp
 
 ![Ohjeet](/img/ohjeet/ohjeet-ikoni2.png)
 
-**[Pikaohjeet](/docs/category/pikaohjeet)**- ja **[FAQ](/docs/category/faq)**-sivuilta löydät nopeita vastauksia yleisiin kysymyksiin. Jos olet visuaalinen oppija, löydät ohjevideoita **[Ohjevideot](/docs/ohjevideot)**-sivulta. Laajemmat ohjeet löytyvät **[Ohjeet](/docs/category/ohjeet)**-välilehdeltä.
+**[Pikaohjeet](/docs/pikaohjeet/alennuksen-lisaaminen)**- ja **[FAQ](/docs/category/faq)**-sivuilta löydät nopeita vastauksia yleisiin kysymyksiin. Jos olet visuaalinen oppija, löydät ohjevideoita **[Ohjevideot](/docs/ohjevideot)**-sivulta. Laajemmat ohjeet löytyvät **[Ohjeet](/docs/category/ohjeet)**-välilehdeltä.
 
 Ohjesivustolta löydät myös ohjeet **[Freshdesk](/docs/tukiportaali)**-tukiportaalin käyttöön sekä TaikaTilauksen **[Versiotiedotteet](/docs/category/versiotiedotteet)**
 
