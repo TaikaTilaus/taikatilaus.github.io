@@ -56,6 +56,7 @@ const sidebars = {
     'pikaohjeet/tilausjakson-pidentaminen',
     'pikaohjeet/osoitteenmuutos',
     'pikaohjeet/tuotteen-hinnanmuutos',
+    'pikaohjeet/uusi-hinta',
     'pikaohjeet/varhaisjakelun-esto',
     'pikaohjeet/suorituksen-tiliointi',
     'pikaohjeet/valiaikainen-osoitteenmuutos',

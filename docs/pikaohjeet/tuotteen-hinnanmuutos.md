@@ -27,6 +27,8 @@ description: Tuotteen hinnanmuutos — 1. Siirry Asetukset-valikkoon, 2. Tilaust
 
 ### 6. TAI Voit syöttää tulevan hinnanmuutoksen lomakkeen lopussa oleviin kenttiin
 
+Katso vaiheittainen pikaohje: [Uusi hinta](/docs/pikaohjeet/uusi-hinta).
+
 Ohjelma siirtää uuden hinnan nykyisen hinnan paikalle aktivoitumispäivänä sekä uusille tilausjaksoille (jotka alkavat aktivoitumispäivänä tai sen jälkeen) kestojatkon yhteydessä. Aktivoitumispäivät tarkistetaan palvelimella joka yö.
 
 Jos tuotteella on erilliset **erämaksuhinnat**, päivitä myös niiden uudet hinnat vastaaviin kenttiin. Erähinta tarkoittaa tilauksen **kokonaishintaa** kyseisellä erämäärällä, **ei yhden erän hintaa**. Esimerkiksi kahdessa erässä maksettavan 130 euron tilauksen erähinnaksi merkitään 130 euroa.
