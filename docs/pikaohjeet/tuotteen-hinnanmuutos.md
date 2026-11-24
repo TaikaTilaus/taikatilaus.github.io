@@ -31,4 +31,4 @@ Ohjelma siirtää uuden hinnan nykyisen hinnan paikalle aktivoitumispäivänä s
 
 Jos tuotteella on erilliset **erämaksuhinnat**, päivitä myös niiden uudet hinnat vastaaviin kenttiin. Erähinta tarkoittaa tilauksen **kokonaishintaa** kyseisellä erämäärällä, **ei yhden erän hintaa**. Esimerkiksi kahdessa erässä maksettavan 130 euron tilauksen erähinnaksi merkitään 130 euroa.
 
-![5. Tuotteen käsittely-näkymä](/img/pikaohjeet/hinnanmuutos6.png)
+![5. Tuotteen käsittely-näkymä](/img/pikaohjeet/uusi-hinta.png)
