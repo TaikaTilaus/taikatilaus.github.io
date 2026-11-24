@@ -24,7 +24,7 @@ Jos tuotteella on erilliset **erämaksuhinnat**, päivitä myös niiden uudet hi
 
 ### 3. Tallenna ja tarkista
 
-Paina **Tallenna** ja hae tuote uudelleen. **Aktivoitumispäivä** ja **uusi hinta (kokonais)** näkyvät suoraan tilaustuotteiden listauksen sarakkeissa lihavoituina. Toista tarvittaessa muille tuotteille.
+Paina **Tallenna** ja hae tuote uudelleen. **Aktivoitumispäivä** ja **uusi hinta (veroton/verollinen)** näkyvät suoraan tilaustuotteiden listauksen sarakkeissa lihavoituina. Toista tarvittaessa muille tuotteille.
 
 ### Milloin uusi hinta tulee käyttöön?
 
