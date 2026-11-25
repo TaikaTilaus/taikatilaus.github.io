@@ -80,9 +80,39 @@ Luettelon alareunassa näytetään valittujen tilausten laskutettava yhteissumma
 
 ![Jatkettavien tilausten valinta ja laskutettava yhteissumma](/img/versio2/kestojatko4.png)
 
+### Aluehinta kestojatkossa
+
+Jos yritys käyttää aluehinnoittelua, kestojatko hinnoittelee uuden jakson tilaajan postinumeron aluehinnalla.
+
+Kestojatko toimii näin:
+
+- Postinumero ja maa luetaan tilaajan pysyvästä osoitteesta.
+- Ulkomaan tilaaja saa perushinnan. Ulkomaan tilaaja on tilaaja, jonka maa on jokin muu kuin tyhjä, FI, FIN tai SUOMI.
+- Aluehinta ei koske digituotteita, erillistuotteita eikä tuotteita, joilla on tuoteavain tai kuponki.
+- Erähinta (Hinta 2, 3 ja 4 osassa) on aluehintaa vahvempi. Jos erähinta on käytössä, kestojatko käyttää sitä.
+- Alennusprosentti lasketaan aluehinnasta.
+- Aluehinnalla jatketulle tilaukselle kirjataan jakelualue. Laskutuspyynnön lisätietoon tulee selite, esimerkiksi "Etäaluehinta, toimituspostinumero 00100, postinumeroalue 00000–59999".
+
+#### Esikatselu
+
+Kestojatkon esikatselussa alueen nimi näkyy hinnan vieressä. Punainen kolmio kertoo, jos:
+
+- tilaajan postinumero puuttuu
+- alueella ei ole tuotteelle hintaa
+- alueet ovat päällekkäin
+- uusi hinnasto tulee voimaan ja aluehinta on vielä nykyinen (aluehinnalla ei ole omaa voimaantulopäivää)
+
+Jos postinumero puuttuu tai alueella ei ole tuotteelle hintaa, kestojatko ei pysähdy. Se jatkaa tilausta tuotteen perushinnalla ja näyttää huomautuksen. Ilmaisista tuotteista (hinta 0, esimerkiksi vapaakappaleet) ei huomauteta.
+
+:::tip
+Tarkista esikatselun huomautukset ennen ajoa. Korjaa puuttuvat postinumerot asiakaskortilla, niin tilaus saa oikean aluehinnan.
+:::
+
 ### Ei jatkettavat kestotilaukset
 
 Tarkista **Ei jatkettavat kestotilaukset ja jatkamattomuuden syy** -luettelo. Jokaisen tilauksen yhteydessä näytetään syy siihen, miksi tilausta ei jatketa.
+
+Jos tilaaja on merkitty kuolleeksi, tilausta ei jatketa. Esikatselussa jatkamattomuuden syynä näkyy kuollut tilaaja.
 
 Jos jatkamisen estää uudempi tilaus, sen tiedot näytetään alkuperäisen tilauksen alapuolella. Voit avata [tilauksen](../tilaukset.md) napsauttamalla sen **tilausnumeroa**.
 

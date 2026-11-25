@@ -72,6 +72,8 @@ Näillä välilehdillä kentät ovat taulukossa, jossa on neljä saraketta:
 
 Joillakin kentillä on valmiiksi oletusarvo: Maa (ISO-koodi) **FI**, Asiakastyyppi **Henkilö**, Laskun toimitustapa **KIRJE** ja Maksuehto (päivää) **14**. Voit muuttaa niitä tai tyhjentää ne.
 
+**Kuollut-valinnan vaikutus:** Kuolleelle tilaajalle ei voi luoda uusia tilauksia, eikä hänen kestotilauksiaan jatketa. Tieto ei vaikuta postitukseen eikä tilauksen tilaan. Voimassa olevat tilaukset katkaistaan erikseen.
+
 ### Kentät välilehdittäin
 
 - **Yhteystiedot:** Sukunimi, Etunimi, Yritys, Osasto, Markkinointinimi, Lähiosoite, Katunumero, Porras, Huoneisto, Postinumero, Postitoimipaikka, Maa (ISO-koodi), Sähköposti, Sähköposti #2, Puhelin, Puhelin 2, Puhelin 3, Asiakkaan nettisivun URL, C/O-osoite, Asiakastyyppi, Kuollut, Y-tunnus, VAT-numero / verotunniste, Syntymävuosi, Lisätiedot ja Myyjä (käyttäjän ID).

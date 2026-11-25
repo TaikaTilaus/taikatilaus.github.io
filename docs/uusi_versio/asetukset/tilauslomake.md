@@ -72,10 +72,21 @@ Osiossa määritetään vaiheen 1 tuotevalinnan tekstit.
 
 Lisäksi:
 
-- **Näytä alkaen-hinta:** Täystilauksen ja Digitilauksen kortissa näkyy "alkaen … € / kk", eli lomakkeen sen lajin tuotteiden halvin kuukausihinta.
+- **Näytä alkaen-hinta:** Täystilauksen ja Digitilauksen kortissa näkyy "alkaen … € / kk", oletuksena lomakkeen sen lajin tuotteiden halvin kuukausihinta. Hinnan voi myös määrittää itse alla olevilla asetuksilla.
 - **Näytä linkki "Näytä kaikki tuotteet listana":** vaiheen 1 yläreunan linkki, josta tilaaja näkee kaikki tuotteet yhtenä listana.
 - **Tarjousmerkin teksti:** tarjoustuotteen kortissa, listarivillä ja Valittu tilaus -laatikossa näkyvä merkki (peukkukuvake ja tämä teksti). Enintään 40 merkkiä. Tyhjä = oletusteksti.
 - **Arvonlisäveroteksti:** hintojen alla näkyvä teksti. Tyhjä = oletusteksti (valitun tuotteen alla toinen oletusteksti), pelkkä `-` = ei tekstiä.
+
+### Oma alkaen-hinta
+
+Kun **Näytä alkaen-hinta** on valittuna, Täystilauksen ja Digitilauksen korteissa näkyy "alkaen … € / kk". Hinta on oletuksena lomakkeen sen lajin tuotteiden halvin kuukausihinta.
+
+Voit nyt kirjoittaa kortissa näytettävän hinnan itse. Asetuksessa on kaksi kenttää:
+
+- **Täystilauksen alkaen-hinta**
+- **Digitilauksen alkaen-hinta**
+
+Kirjoita hinta, esimerkiksi 13 tai 12,90. Jos jätät kentän tyhjäksi, lomake näyttää lasketun hinnan. Esimerkiksi laskettu 12,33 voi näkyä lomakkeella siistinä lukuna 13.
 
 ## Yhteystiedot (vaihe 2)
 

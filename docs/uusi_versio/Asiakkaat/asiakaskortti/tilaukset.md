@@ -12,9 +12,11 @@ title: Tilaukset
 | Sarake | Sisältö |
 |---|---|
 | **Kynä** | Napsauta kynäkuvaketta, niin tilaus avautuu muokattavaksi. |
-| **Nro** | Tilauksen numero. Jos asiakas on tilauksessa vain maksajana, numeron vieressä on sininen Maksajana-merkki. |
+| **Nro** | Tilauksen numero. |
+| **Tilaaja** | Tilaajan asiakasnumero pyöreänä merkkinä. Vie hiiri numeron päälle nähdäksesi nimen tai napsauta numeroa avataksesi asiakaskortin uuteen ikkunaan. |
+| **Maksaja** | Maksajan asiakasnumero. Nimen näyttäminen ja asiakaskortin avaaminen toimivat kuten Tilaaja-sarakkeessa. |
 | **Tuoteryhmä** | Tilauksen tuoteryhmä. |
-| **Tuote** | Tilattu tuote. Jos tilauksen maksaja ja tilaaja ovat eri asiakkaat, tuotteen alla näkyy toinen osapuoli (ks. [Tilaaja ja maksaja eri asiakkaita](#tilaaja-ja-maksaja-eri-asiakkaita)). |
+| **Tuote** | Tilattu tuote. |
 | **Tila** | Tilauksen tila: esimerkiksi Voimassa, Tulossa voimaan, Nukutettu, Päättynyt tai Katkaistu. Tila näkyy värillisenä merkkinä. |
 | **Alkaa** | Tilauksen alkupäivä. |
 | **Päättyy** | Tilauksen päättymispäivä. |
@@ -32,11 +34,6 @@ Aloita uuden tilauksen lisääminen asiakkaalle napsauttamalla [**+ Lisää tila
 
 ## Tilaaja ja maksaja eri asiakkaita 
 
-Jos tilauksen tilaaja ja maksaja ovat eri asiakkaat, rivi on korostettu **sinisellä**:
-
-- Kun asiakas on vain maksajana, tilausnumeron vieressä on **Maksajana**-merkki ja tuotteen alla teksti *Tilaaja: [tilaajan nimi]*.
-- Kun asiakas on tilaajana ja joku muu maksaa, tuotteen alla on **Maksajana**-merkki ja maksajan nimi.
-
-Nimi on linkki, joka avaa toisen asiakkaan [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) uuteen välilehteen.
+Jos tilaaja ja maksaja ovat eri asiakkaat, rivi on korostettu. Kun viet hiiren rivin päälle, näet selitteen **Korostettu: tilaaja ja maksaja ovat eri asiakkaat**. Osapuolet tunnistat **Tilaaja**- ja **Maksaja**-sarakkeista.
 
 ![Asiakkaan tilaukset asiakaskortilla](/img/versio2/asiakas-tilaukset.png)

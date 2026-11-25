@@ -22,6 +22,44 @@ Sivulla näet:
 - **Lisätiedot** ja **laskun tuoterivin tekstin**
 - **myynnin varaukset** listana. Avaa varaus napsauttamalla riviä.
 
+## Varausvahvistuksen lähettäminen koko myynnille
+
+Kun myynnillä on useita ilmoitusvarauksia, voit lähettää asiakkaalle yhden varausvahvistuksen kaikista varauksista. Sinun ei siis tarvitse lähettää viestiä erikseen jokaisesta varauksesta.
+
+**Lähetä varausvahvistus** -painike on myyntisivun painikkeiden joukossa. Se näkyy vain, jos TaikaTilauksen ylläpitoo on asettanut varausvahvistuksen käyttöön, ja se on käytössä vain, kun myynnillä on vähintään yksi varaus. Viesti tehdään tallennetuista varauksista, joten tallenna muutokset ennen lähetystä.
+
+1. Avaa myynti ja napsauta **Lähetä varausvahvistus**.
+2. Tarkista ikkunassa lähettäjä, vastaanottaja, piilokopio, otsikko ja viestin teksti. Vastaanottaja on varausten yhteinen vahvistuksen saaja. Jos sellaista ei ole, vastaanottaja on myynnin asiakas.
+3. Muokkaa tarvittaessa **Varauksen tiedot** -kenttää. Sen teksti toistuu viestissä kerran jokaiselle varaukselle.
+4. Napsauta **Esikatsele** ja tarkista viesti.
+5. Napsauta **Lähetä varausvahvistus**.
+
+### Viestin tagit
+
+Viestissä voi käyttää seuraavia tageja. Sovellus korvaa ne oikeilla tiedoilla:
+
+| Tagi | Mihin se muuttuu |
+|---|---|
+| `[MYYNTINUMERO]` | Myynnin numero. |
+| `[ETUNIMI]` | Vastaanottajan etunimi. |
+| `[ASIAKKAAN_TIEDOT]` | Asiakkaan tiedot. |
+| `[VARAUKSET]` | Varauksen tiedot -kenttä kerran jokaiselle varaukselle. |
+| `[VARAUSTEN_MAARA]` | Varausten määrä. |
+| `[HINTA_YHTEENSA]` | Varausten hinta yhteensä. |
+| `[VEROLLINEN_HINTA_YHTEENSA]` | Varausten verollinen hinta yhteensä. |
+| `[LEHTI]` | Lehti. |
+
+**Varauksen tiedot** -kentässä voit käyttää samoja tageja kuin yhden varauksen varausvahvistuksessa, lukuun ottamatta tageja `[ETUNIMI]` ja `[LEHTI]`. Jos varaus on jaksovaraus (netti, radio tai ilmoitustaulu), julkaisu-, osasto- ja toistorivit jäävät viestistä pois, kuten yhden varauksen viestissäkin.
+
+:::note
+
+- Viestin pohja on valmiina sovelluksessa. 
+- Ikkunassa tekemäsi tekstimuutokset koskevat vain tätä viestiä. Ne eivät tallennu pohjaksi.
+- Lähettäjä ja piilokopio tulevat samoista käyttäjäkohtaisista valinnoista kuin yhden varauksen vahvistuksessa.
+- Lähetys kirjataan jokaisen varauksen muutoslokiin: näkyy vastaanottaja ja myyntinumero.
+
+:::
+
 ## Asiakkaan vaihtaminen myynnille
 
 **Vaihda asiakas** siirtää koko myynnin kaikkine varauksineen toiselle asiakkaalle.

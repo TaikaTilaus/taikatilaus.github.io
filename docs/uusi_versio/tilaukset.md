@@ -173,6 +173,12 @@ Valikon alareunan **Lisäasetukset**-kohdasta pääset tilausluettelon tarkempii
 
 ![Tilausluettelon sarakevalinnat](/img/versio2/tilaukset8.png)
 
+**Sarakkeet**-valikon **Tallenna sarakkeet oletukseksi** tallentaa näkyvät sarakkeet ja niiden järjestyksen henkilökohtaiseksi oletukseksesi. Lista avautuu jatkossa tallennetuilla sarakkeilla, vaikka muuttaisit niitä välillä. Uusi tallennus korvaa edellisen. **Palauta oletukset** poistaa oman oletuksesi ja palauttaa yrityksen oletussarakkeet.
+
+Tilaukset-listan **Sarakkeet**-valikossa piilotetut sarakkeet on ryhmitelty otsikoiden alle: **Tilaus**, **Tuote**, **Asiakkaat**, **Hinta ja maksu** ja **Lisätiedot**. Valikon yläosassa on näkyvät sarakkeet listan järjestyksessä, ja niiden alla ovat piilotetut sarakkeet ryhmittäin.
+
+Kun otat käyttöön osoitesarakkeen (**Tilaajan osoite** tai **Maksajan osoite**), lista hakee tiedot uudelleen.
+
 #### Listan lisäasetukset
 
 Avaa tilausluettelon lisäasetukset valitsemalla **Sarakkeet → Lisäasetukset**.
@@ -305,6 +311,7 @@ Tallentamisen jälkeen tilaukselle muodostuneet laskutuspyynnöt näytetään lo
 
 #### Huomiot ja virheilmoitukset
 
+- Jos tilaaja on merkitty kuolleeksi, uuden tilauksen lomakkeella näkyy punainen ilmoitus **Tilaaja on merkitty kuolleeksi**. Lomake on harmaana tilaajan valintaa lukuun ottamatta, eikä tilausta voi luoda. Vaihda tilaajaksi toinen asiakas jatkaaksesi.
 - Jos asiakas on estolistalla, lomake näyttää varoituksen tilausta luotaessa.
 - Tilauksen päättymispäivä ei voi olla virheellinen (esimerkiksi ennen alkupäivää). Tallennus estetään ja näytetään virheilmoitus.
 - Tietoja on muutettu -huomio näkyy, kun lomakkeen tietoja on muutettu ja tiedot tulee tallentaa.

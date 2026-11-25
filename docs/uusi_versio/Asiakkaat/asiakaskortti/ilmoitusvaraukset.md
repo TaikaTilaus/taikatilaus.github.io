@@ -15,6 +15,8 @@ Osiossa näkyvät varaukset, joissa asiakas on varaajana tai maksajana.
 |---|---|
 | **Varaus** | Ilmoitusvarauksen numero. |
 | [**Myynti**](../../Ilmoitukset/myynti.md) | Myynnin numero. Napsauta numeroa, niin myynti avautuu. |
+| **Tilaaja** | Tilaajan asiakasnumero pyöreänä merkkinä. Vie hiiri numeron päälle nähdäksesi nimen tai napsauta numeroa avataksesi asiakaskortin uuteen ikkunaan. |
+| **Maksaja** | Maksajan asiakasnumero. Nimen näyttäminen ja asiakaskortin avaaminen toimivat kuten Tilaaja-sarakkeessa. |
 | **Tila** | Varauksen tila värillisenä merkkinä. |
 | **Julkaisu** | Julkaisun nimi ja numero. |
 | **Ilmestyy** | Julkaisun ilmestymispäivä. Jos julkaisua ei ole, näkyy varauksen alkupäivä. |
@@ -22,7 +24,7 @@ Osiossa näkyvät varaukset, joissa asiakas on varaajana tai maksajana.
 | **Koko** | Ilmoituksen koko. |
 | **Summa** | Varauksen summa ilman arvonlisäveroa. |
 
-Keltaisella korostetut rivit ovat varauksia, joissa tilaaja ja maksaja ovat eri asiakkaat. Jos asiakas on vain maksajana, varauksen kohdalla on teksti *Tilaaja: [asiakkaan nimi]*. Jos varauksen maksaa toinen asiakas, on varauksen kohdalla *Maksajana*-merkki ja maksajan nimi.
+Rivi on korostettu, jos tilaaja ja maksaja ovat eri asiakkaat. Kun viet hiiren rivin päälle, näet selitteen **Korostettu: tilaaja ja maksaja ovat eri asiakkaat**. Osapuolet näkyvät **Tilaaja**- ja **Maksaja**-sarakkeissa.
 
 Avaa [varaus](../../Ilmoitukset/ilmoitusvaraus.md) napsauttamalla riviä.
 

@@ -203,6 +203,10 @@ Määritä lisäksi tarvittaessa:
 - määräytyykö tilauksen päättymisaika tuotteen kestosta 
 - karenssi päivinä.
 
+**Keston yksikkö** -valikossa näkyy **Valitse yksikkö…**, jos tuotteelle ei ole tallennettu yksikköä.
+
+Kun tallennat tuotteen, julkinen tilauslomake päivittyy heti.
+
 Jos **Tilaus mahdollinen aikavälillä** on käytössä, tilauksen loppupäivä rajataan normaalisti määritetyn aikavälin loppuun.
 
 Valitse **Tilauksen päättymisaika tuotteen kestosta**, jos loppupäivän halutaan määräytyvän sen sijaan tuotteen keston perusteella. Tilauksen alkupäivän täytyy silti olla sallitun aikavälin sisällä.

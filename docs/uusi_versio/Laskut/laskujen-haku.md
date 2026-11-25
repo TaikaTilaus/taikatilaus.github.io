@@ -122,6 +122,8 @@ Laskuluettelossa näet laskujen perustiedot ja maksutilanteen.
 
 ![Laskuluettelo ja laskujen perustiedot](/img/versio2/laskujen-haku5.png)
 
+Tilausnumeron napsautus avaa tilauksen muokkaussivun.
+
 ### Laskun avaaminen ja tulostaminen
 
 Avaa [laskun esikatselu](/docs/uusi_versio/Laskut/lasku) napsauttamalla laskuriviä. Esikatselu avautuu laskuluettelon oikealle puolelle. Siinä näkyvät laskun perustiedot, maksajan tiedot ja laskun tuoterivit.
@@ -180,6 +182,8 @@ Sarakkeen piilottaminen ei poista laskun tietoja, vaan muuttaa ainoastaan luette
 Palauta alkuperäiset sarakevalinnat napsauttamalla **Palauta oletukset**.
 
 ![Laskuluettelon sarakevalinnat](/img/versio2/laskujen-haku6.png)
+
+**Sarakkeet**-valikon **Tallenna sarakkeet oletukseksi** tallentaa näkyvät sarakkeet ja niiden järjestyksen henkilökohtaiseksi oletukseksesi. Lista avautuu jatkossa tallennetuilla sarakkeilla, vaikka muuttaisit niitä välillä. Uusi tallennus korvaa edellisen. **Palauta oletukset** poistaa oman oletuksesi ja palauttaa yrityksen oletussarakkeet.
 
 ## Tietojen vienti ja keräilylistalle lisääminen
 

@@ -221,6 +221,8 @@ Varausnro ja Tila ovat aina ensimmäisinä. Sarakevalinta ja järjestys tallentu
 
 Valikossa ovat vain ne sarakkeet, jotka pääkäyttäjä on ottanut käyttöön [Asetukset → Ilmoitukset](../asetukset/ilmoitukset.md) -sivulla.
 
+**Sarakkeet**-valikon **Tallenna sarakkeet oletukseksi** tallentaa näkyvät sarakkeet ja niiden järjestyksen henkilökohtaiseksi oletukseksesi. Lista avautuu jatkossa tallennetuilla sarakkeilla, vaikka muuttaisit niitä välillä. Uusi tallennus korvaa edellisen. **Palauta oletukset** poistaa oman oletuksesi ja palauttaa yrityksen oletussarakkeet.
+
 #### Listan lisäasetukset
 
 Sarakkeet-valikon **Lisäasetukset** avaa ikkunan, jossa valitset omaan näkymääsi:

@@ -59,6 +59,8 @@ Luettelon yläreunassa näkyy yhteenveto: laskutuspyyntöjen määrä, laskutett
 
 Jos haussa on huomioita, esimerkiksi katkaistuista tilauksista tai aluehinnasta, ne näkyvät keltaisessa **Huomiot**-ruudussa luettelon yläpuolella.
 
+**Huomiot**-ruudun oikean yläkulman **Vienti**-valikosta voit viedä huomiot tiedostoksi esimerkiksi Excel-, CSV- tai PDF-muodossa. Tiedostossa on yksi rivi jokaista huomiota kohden samassa järjestyksessä kuin ruudulla. Otsikossa näkyvät huomioiden määrä ja ajopäivä.
+
 | Sarake | Sisältö |
 |---|---|
 | **ID** | Laskutuspyynnön tunniste. |
@@ -73,6 +75,8 @@ Jos haussa on huomioita, esimerkiksi katkaistuista tilauksista tai aluehinnasta,
 | **Portaali** | Portaalin numero. Käytössä vain niillä, joilla on useita yrityksiä. |
 
 Valitse näytettävät sarakkeet Sarakkeet-painikkeella. Voit lajitella luettelon napsauttamalla sarakeotsikkoa, selata sivuja ja viedä tiedot Excel-tiedostoon Excel-painikkeella tai Export-valikosta.
+
+Tilausnumeron napsautus avaa tilauksen muokkaussivun.
 
 ### Virheelliset laskutuspyynnöt
 

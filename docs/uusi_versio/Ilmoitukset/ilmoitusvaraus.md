@@ -430,6 +430,8 @@ Jos materiaalia käyttää jokin muu varaus, tiedostoja ei poisteta, ja vahvistu
 
 **Lähetä varausvahvistus** -painike näkyy vain, jos ylläpito on ottanut varausvahvistuksen käyttöön. Painike toimii vain tallennetulla varauksella. Jos lomakkeella on tallentamattomia muutoksia, ohjelma kysyy niistä, koska viesti tehdään tallennetusta varauksesta.
 
+Jos varaus kuuluu myyntiin, jossa on useita varauksia, voit lähettää yhden vahvistuksen koko myynnistä [myyntisivulta](./myynti.md#varausvahvistuksen-lähettäminen-koko-myynnille).
+
 Painike avaa ikkunan, jossa voit muokata kaikkea ennen lähetystä:
 
 - **Lähettäjä** ja **Piilokopio**: oletuksena oma sähköpostiosoitteesi. Ohjelma muistaa viimeksi käyttämäsi arvot.

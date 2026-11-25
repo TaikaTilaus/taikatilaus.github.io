@@ -51,6 +51,9 @@ Jos suomalaisella asiakkaalla on VAT-numero-kentässä FI-alkuinen numero mutta 
 Kuollut-valinta näkyy vain henkilöasiakkaalla.
 
 - **Kuollut**-valinnan päälle laittaminen asettaa samalla kaikki markkinointikiellot ([**Markkinointitiedot**](/docs/uusi_versio/Asiakkaat/asiakaskortti/markkinointitiedot)-välilehti). Valinnan poistaminen ei poista kieltoja.
+- Kestojatko ei jatka kuolleeksi merkityn tilaajan tilausta. Esikatselussa tilaus näkyy jatkamatta jäävien joukossa, ja syynä on kuollut tilaaja. Maksajan Kuollut-valinta ei estä jatkoa.
+- **Uusi tilaus** -lomakkeella kuolleen tilaajan valinta näyttää punaisen ilmoituksen **Tilaaja on merkitty kuolleeksi**. Lomake on harmaana tilaajan valintaa lukuun ottamatta. Voit jatkaa vaihtamalla tilaajaksi toisen asiakkaan.
+- Julkinen tilauslomake ei luo tilausta kuolleelle asiakkaalle, vaan näyttää saman viestin kuin estolistalla olevalle.
 - **Kuollut**-merkintä ei vaikuta postitukseen eikä tilauksen tilaan. Kuolleen tilaajan voimassa olevat tilaukset katkaistaan erikseen tilaukselta antamalla katkaisupäivä ja katkaisun syyksi **SAIRAUS_VANHUUS_KUOLEMA**.
 - Kuolleeksi merkityllä asiakkaalla on asiakasluettelossa ja [asiakaskortin](/docs/uusi_versio/Asiakkaat/asiakaskortti) otsikossa **Kuollut**-merkki.
 

@@ -16,6 +16,14 @@ Muutokset tallennetaan vasta, kun napsautat sivun alareunan **Tallenna**-painike
 Sivun asetukset ovat koko yrityksen oletuksia. Jokainen käyttäjä voi poiketa niistä omissa listoissaan valitsemalla listan **Sarakkeet**-valikosta **Lisäasetukset**. Käyttäjän oma valinta ohittaa yrityksen oletuksen. Jos käyttäjä palauttaa valinnan oletukseksi, hän seuraa jatkossa yrityksen oletusta.
 :::
 
+## Tallenna sarakkeet oletukseksi
+
+Ilmoitukset-, Asiakkaat-, Tilaukset- ja Laskujen haku -listoilla on **Sarakkeet**-valikossa painike **Tallenna sarakkeet oletukseksi**. Se tallentaa listan näkyvät sarakkeet ja niiden järjestyksen omaksi oletukseksesi. Lista avautuu jatkossa aina näillä sarakkeilla, vaikka olisit muuttanut sarakkeita sen jälkeen.
+
+- Uusi tallennus korvaa edellisen.
+- **Palauta oletukset** poistaa myös tallennetun oletuksesi, ja lista palaa yrityksen oletussarakkeisiin.
+- Oletus on henkilökohtainen. Se ei muuta toisten käyttäjien listoja.
+
 ## Asiakaslista
 
 ### Lisätiedot kokonaisuudessaan

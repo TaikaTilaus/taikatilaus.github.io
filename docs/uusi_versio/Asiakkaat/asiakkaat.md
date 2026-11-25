@@ -295,6 +295,8 @@ Valikon yläreunassa olevasta **Lisäasetukset**-kohdasta pääset sarakkeiden t
 
 ![Asiakasluettelon sarakevalinnat](/img/versio2/sarakkeet.png)
 
+**Sarakkeet**-valikon **Tallenna sarakkeet oletukseksi** tallentaa näkyvät sarakkeet ja niiden järjestyksen henkilökohtaiseksi oletukseksesi. Lista avautuu jatkossa tallennetuilla sarakkeilla, vaikka muuttaisit niitä välillä. Uusi tallennus korvaa edellisen. **Palauta oletukset** poistaa oman oletuksesi ja palauttaa yrityksen oletussarakkeet.
+
 #### Listan lisäasetukset
 
 Avaa lisäasetukset valitsemalla **Sarakkeet → Lisäasetukset**. Valinnat koskevat vain omaa näkymääsi ja tallentuvat heti. Erillistä tallennusta ei tarvita. Sulje ikkuna **Sulje**-painikkeella tai oikean yläkulman rastista.

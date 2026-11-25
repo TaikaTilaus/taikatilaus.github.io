@@ -202,6 +202,8 @@ Jokaisella muodostetulla postituksella on oma **LähetysID**. Sama LähetysID ku
 
 ![Postitusten ilmestymispäivät ja LähetysID-tunnisteet](/img/versio2/postituspaivat.png)
 
+Postitusten haussa voi valita kerrallaan vain yhden tiedostosarjan. Kun valitset **Postituslistan**, PPP-tiedostojen painikkeet sulkeutuvat. Kun valitset PPP-osoitteet, painotalon tiedostojen painikkeet sulkeutuvat.
+
 ## Painoaineiston siirto painoon ja jakeluun
 
 1. Valitse ensin Lehti ja Ilmestymispäivä.

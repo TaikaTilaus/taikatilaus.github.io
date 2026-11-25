@@ -11,11 +11,13 @@ title: Laskut
 
 Lista näyttää enintään 50 uusinta laskua, uusin ylimpänä. Otsikon vieressä oleva numero kertoo näytettyjen laskujen määrän. Jos laskuja on enemmän, löydät kaikki asiakkaan laskut [**Laskujen haussa**](/docs/uusi_versio/Laskut/laskujen-haku).
 
+Sarakkeen nimi on **Tilaus**, kun käytössä ovat vain tilaukset, **Varaus**, kun käytössä ovat vain ilmoitukset, ja **Tilaus / varaus**, kun molemmat ovat käytössä. Taulukko vierittyy sivusuunnassa kapealla näytöllä.
+
 | Sarake | Sisältö |
 |---|---|
 | **Kynä** | Napsauta kynäkuvaketta, niin lasku avautuu muokattavaksi. |
 | **Laskunro** | Laskun numero. Luonnoksella, jolla ei ole vielä numeroa, näkyy laskun sisäinen tunniste. |
-| **Tilaus** | Laskun tilausten numerot linkkeinä. Napsauta numeroa, niin [tilaus](../../tilaukset.md) avautuu. Koontilaskulla voi olla useita tilauksia. |
+| **Tilaus / varaus** | Laskun tilaus- ja varausnumerot linkkeinä. Pakettimyynnin laskulla näkyy myynti. Napsauta numeroa avataksesi tilauksen, varauksen tai myynnin muokkaussivun. Koontilaskulla voi olla useita tilauksia. |
 | **Pvm** | Laskun päivämäärä. |
 | **Eräpäivä** | Laskun eräpäivä. |
 | **Summa** | Laskun summa. |
