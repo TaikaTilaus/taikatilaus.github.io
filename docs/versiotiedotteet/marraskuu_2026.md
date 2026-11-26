@@ -13,7 +13,7 @@ Uudistuksia TaikaTilaus-tuotteeseen 1.10.–30.11.2026 välisenä aikana.
 
 ## Uusi hinta
 
-- Tilaustuotteissa näkyvät uuden hinnaston **aktivoitumispäivä** ja uusi hinta. Uuden hinnan voi antaa nyt myös verollisena.
+- Tilaustuotteiden listassa näkyvät uuden hinnaston **aktivoitumispäivä** ja uusi hinta. Uuden hinnan voi antaa nyt myös verollisena.
 - **Kestojatko** käyttää uutta hintaa, kun uusi tilausjakso alkaa hinnaston aktivointipäivänä tai sen jälkeen. Esikatselu korostaa uuden hinnaston rivit. Katso [kestojatko-ohje](/docs/ohjeet/tilaustenhallinta/kestojatko).
 
 ## IlmoitusStudio ja ilmoitusmyynti
