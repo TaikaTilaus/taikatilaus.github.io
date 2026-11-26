@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: Uudistuksia TaikaTilaus-tuotteeseen 1.9.2026 alkaen
 image: /img/social.png
 keywords: [versiotiedote, Orbyt, lähetystila, lähetyksen tila, lähetyshistoria, laskun lähetys, toimenpiteitä vaativat virheet, kaksivaiheinen tunnistautuminen, MFA, sähköposti, Authenticator, käyttäjätilit, avoimuusilmoitus, poliittinen mainos, TTPA, QR-koodi, Parquet, tietovienti, data-alusta]
