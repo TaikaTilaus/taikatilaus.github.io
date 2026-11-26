@@ -80,7 +80,7 @@ Linkki uuteen käyttöliittymään on avattu käyttöön asiakas kerrallaan. Kun
 - Suoritusten käsintuonnissa tyhjä viite ei enää kohdistu laskulle.
 - Julkaisun poisto onnistuu, vaikka julkaisulla on tyhjiä varauspaikkoja.
 
-**Stripe***
+**Stripe**
 
 - Stripe-maksusta syntyy nyt suoritus, joten maksu näkyy suorituspäiväkirjalla.
 - Samasta maksusta ei voi enää syntyä kahta laskua.
